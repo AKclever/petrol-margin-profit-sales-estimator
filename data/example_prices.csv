@@ -1,0 +1,4 @@
+date,region,series_id,value_usd_per_gallon,terminal_basis,freight,ethanol,tax
+2026-01-02,example,RACK_REGION,2.1000,,, ,
+2026-01-02,fallback,EIA_GC_REG_CONV_E0,1.9000,0.0500,0.0400,1.6000,0.0000
+
