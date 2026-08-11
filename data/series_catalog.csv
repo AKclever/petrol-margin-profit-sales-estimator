@@ -1,0 +1,8 @@
+series_id,role,product_grade,ethanol_spec,tax_treatment,geography,observation_time,delivery_basis,source,source_url,reliable,notes
+RACK_REGION,rack,Regular unleaded finished gasoline,E10,Taxes excluded,Configured MUSA store region,Daily vendor posting local time; must be supplied,At rack,Licensed rack vendor,,true,"Replace with terminal-specific series; record branded/unbranded and gross/net basis"
+EIA_GC_REG_CONV_E0,spot_fallback,Conventional regular gasoline,E0 / no ethanol specification,Taxes excluded,U.S. Gulf Coast,Daily; time not specified by publisher,FOB spot,EIA,https://www.eia.gov/dnav/pet/hist/EER_EPMRU_PF4_RGC_DPGd.htm,false,Wholesale spot fallback only
+EIA_NYH_RBOB_REG_E0,spot_fallback,Regular RBOB blendstock,E0 blendstock for oxygenate blending,Taxes excluded,New York Harbor,Daily; time not specified by publisher,FOB spot,EIA,https://www.eia.gov/dnav/pet/hist/EER_EPMRU_PF4_Y35NY_DPGd.htm,false,Wholesale spot fallback only
+ETHANOL_REGION,ethanol,Fuel ethanol,Denatured ethanol,Taxes excluded,Matched supply terminal,Daily vendor assessment local time,Terminal equivalent,User supplied,,false,State whether RIN value and freight are embedded
+TERMINAL_BASIS_REGION,terminal_basis,Matched regular gasoline,Match target grade,Taxes excluded,Matched terminal,As-of estimate date,Modeled rack minus benchmark,User estimate,,false,Prefer trailing matched-day median
+FREIGHT_REGION,freight,Motor-fuel delivery,Not applicable,Taxes excluded,Terminal-to-store route,As-of contract or estimate date,Delivered increment,User estimate,,false,Include fuel surcharge and route weighting
+
