@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "musa-margin-nowcast"
+version = "0.1.0"
+description = "A transparent, uncertainty-aware nowcast for Murphy USA fuel margins"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "MUSA margin tracker contributors"}]
+
+[project.scripts]
+musa-nowcast = "musa_nowcast.cli:main"
+
+[tool.setuptools]
+packages = ["musa_nowcast"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
