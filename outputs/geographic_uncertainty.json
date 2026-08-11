@@ -1,0 +1,30 @@
+{
+  "base_margin_cpg": 30.0,
+  "periods": [
+    "2023Q1",
+    "2023Q2",
+    "2023Q3",
+    "2023Q4",
+    "2024Q1",
+    "2024Q2",
+    "2024Q3",
+    "2024Q4",
+    "2025Q1",
+    "2025Q2",
+    "2025Q3",
+    "2025Q4"
+  ],
+  "final_margin_by_scheme_cpg": {
+    "store_only": 30.0,
+    "traffic_adjusted": 30.0455,
+    "format_adjusted": 30.0531,
+    "full_adjusted": 30.0812,
+    "regional_tilt": 30.0602
+  },
+  "geographic_weight_uncertainty_cpg": 0.0812,
+  "geographic_weight_range_cpg": [
+    30.0,
+    30.0812
+  ],
+  "interpretation": "Spread (maximum less minimum) across plausible geographic weighting schemes."
+}
