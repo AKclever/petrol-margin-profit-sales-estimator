@@ -64,6 +64,11 @@ def fetch_series(series_id: str, api_key: str, start: date, end: date,
             value = float(record["value"])
         except (KeyError, TypeError, ValueError) as exc:
             raise DownloadError(f"Malformed EIA observation in {series_id}: {record!r}") from exc
+        # The seriesid endpoint can ignore start/end parameters and return its full
+        # history. Enforce the caller's requested observation range locally before
+        # normalizing differing EIA week-ending conventions.
+        if not start <= period <= end:
+            continue
         # Normalize all observations to ISO-week Monday. EIA retail and spot weekly
         # observations can carry different week-ending conventions.
         week = period - timedelta(days=period.weekday())
@@ -72,7 +77,9 @@ def fetch_series(series_id: str, api_key: str, start: date, end: date,
         seen_weeks.add(week)
         result.append((week, value * 100.0))  # EIA dollars/gallon -> cents/gallon
     if not result:
-        raise DownloadError(f"EIA returned no observations for {series_id}")
+        raise DownloadError(
+            f"EIA returned no observations for {series_id} between {start} and {end}"
+        )
     return sorted(result)
 
 
@@ -83,7 +90,9 @@ def download_market(output: str | Path, provenance: str | Path, api_key: str,
     cache: dict[str, dict[date, float]] = {}
     rows: list[dict[str, object]] = []
     metadata = {"retrieved_at": date.today().isoformat(), "start": start.isoformat(),
-                "end": end.isoformat(), "api": API_ROOT, "series": []}
+                "end": end.isoformat(), "api": API_ROOT,
+                "range_enforcement": "Requested observation range enforced locally because the seriesid endpoint may return full history.",
+                "series": []}
     for spec in series:
         for series_id in (spec.retail, spec.wholesale):
             if series_id not in cache:
@@ -94,13 +103,16 @@ def download_market(output: str | Path, provenance: str | Path, api_key: str,
                          "retail_cpg": f"{cache[spec.retail][week]:.4f}",
                          "wholesale_cpg": f"{cache[spec.wholesale][week]:.4f}"})
         metadata["series"].append({"region": spec.region, "retail": spec.retail,
-                                   "wholesale": spec.wholesale, "matched_weeks": len(common)})
+                                   "wholesale": spec.wholesale, "matched_weeks": len(common),
+                                   "first_week": common[0].isoformat() if common else None,
+                                   "last_week": common[-1].isoformat() if common else None})
     output = Path(output)
     output.parent.mkdir(parents=True, exist_ok=True)
     with output.open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=("week", "region", "retail_cpg", "wholesale_cpg"))
         writer.writeheader()
         writer.writerows(sorted(rows, key=lambda row: (str(row["week"]), str(row["region"]))))
+    metadata["rows_written"] = len(rows)
     Path(provenance).write_text(json.dumps(metadata, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return len(rows)
 

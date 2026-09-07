@@ -1,0 +1,123 @@
+{
+  "company": "Murphy USA Inc.",
+  "extracted_at": "2026-08-11",
+  "fields": {
+    "gallons_million": "Retail fuel volume - chain (Million gal)",
+    "retail_margin_cpg": "Retail fuel margin (cpg)",
+    "supply_rin_cpg": "PS&W including RINs contribution (cpg); named Fuel supply including RINs contribution (cpg) beginning with the Q1 2026 release"
+  },
+  "notes": [
+    "All values are company-reported three-month figures, not year-to-date figures.",
+    "Calendar-quarter boundaries follow the periods ended March 31, June 30, September 30, and December 31 in the issuer releases.",
+    "The 2020 quarters include the exceptional demand and pricing effects of the COVID-19 pandemic; they are retained rather than silently excluded.",
+    "The 2021 comparative figures include QuickChek from its January 29, 2021 acquisition date.",
+    "The Q1 2026 disclosure label changed from PS&W to Fuel supply; the reported including-RINs contribution remains stored in supply_rin_cpg.",
+    "Source exhibits were retrieved from the issuer investor-relations site. Preserve archived copies before production investment use."
+  ],
+  "sources": [
+    {
+      "quarters": ["2019Q1"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2020/Murphy-USA-Inc-Reports-First-Quarter-2020-Results/default.aspx"
+    },
+    {
+      "quarters": ["2019Q2"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2020/Murphy-USA-Inc.-Reports-Second-Quarter-2020-Results/default.aspx"
+    },
+    {
+      "quarters": ["2019Q3"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2020/Murphy-USA-Inc.-Reports-Third-Quarter-2020-Results/default.aspx"
+    },
+    {
+      "quarters": ["2019Q4"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2021/Murphy-USA-Inc.-Reports-Fourth-Quarter-2020-Results/default.aspx"
+    },
+    {
+      "quarters": ["2020Q1"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2021/Murphy-USA-Inc.-Reports-First-Quarter-2021-Results/default.aspx"
+    },
+    {
+      "quarters": ["2020Q2"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2021/Murphy-USA-Inc.-Reports-Second-Quarter-2021-Results/default.aspx"
+    },
+    {
+      "quarters": ["2020Q3"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2021/Murphy-USA-Inc.-Reports-Third-Quarter-2021-Results/default.aspx"
+    },
+    {
+      "quarters": ["2020Q4"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2022/Murphy-USA-Inc.-Reports-Fourth-Quarter-2021-Results/default.aspx"
+    },
+    {
+      "quarters": ["2021Q1", "2022Q1"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2022/Murphy-USA-Inc.-Reports-First-Quarter-2022-Results/default.aspx"
+    },
+    {
+      "quarters": ["2021Q2", "2022Q2"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2022/Murphy-USA-Inc.-Reports-Second-Quarter-2022-Results/default.aspx"
+    },
+    {
+      "quarters": ["2021Q3", "2022Q3"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2022/Murphy-USA-Inc.-Reports-Third-Quarter-2022-Results/default.aspx"
+    },
+    {
+      "quarters": ["2021Q4", "2022Q4"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2023/Murphy-USA-Inc.-Reports-Preliminary-Fourth-Quarter-2022-Results/default.aspx"
+    },
+    {
+      "quarters": ["2023Q1"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2023/Murphy-USA-Inc.-Reports-First-Quarter-2023-Results/default.aspx"
+    },
+    {
+      "quarters": ["2023Q2"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2023/Murphy-USA-Inc.-Reports-Second-Quarter-2023-Results/default.aspx"
+    },
+    {
+      "quarters": ["2023Q3"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2023/Murphy-USA-Inc.-Reports-Third-Quarter-2023-Results/default.aspx"
+    },
+    {
+      "quarters": ["2023Q4"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2024/Murphy-USA-Inc.-Reports-Preliminary-Fourth-Quarter-2023-Results/default.aspx"
+    },
+    {
+      "quarters": ["2024Q1"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2024/Murphy-USA-Inc.-Reports-Preliminary-First-Quarter-2024-Results/default.aspx"
+    },
+    {
+      "quarters": ["2024Q2"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2024/Murphy-USA-Inc.-Reports-Second-Quarter-2024-Results/default.aspx"
+    },
+    {
+      "quarters": ["2024Q3"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2024/Murphy-USA-Inc.-Reports-Third-Quarter-2024-Results/default.aspx"
+    },
+    {
+      "quarters": ["2024Q4"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2025/Murphy-USA-Inc.-Reports-Fourth-Quarter-2024-Results-and-2025-Guidance/default.aspx"
+    },
+    {
+      "quarters": ["2025Q1"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2025/Murphy-USA-Inc--Reports-First-Quarter-2025-Results/default.aspx"
+    },
+    {
+      "quarters": ["2025Q2"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2025/Murphy-USA-Inc--Reports-Second-Quarter-2025-Results/default.aspx"
+    },
+    {
+      "quarters": ["2025Q3"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2025/Murphy-USA-Inc--Reports-Third-Quarter-2025-Results/default.aspx"
+    },
+    {
+      "quarters": ["2025Q4"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Inc--Reports-Fourth-Quarter-2025-Results-and-2026-Guidance/default.aspx"
+    },
+    {
+      "quarters": ["2026Q1"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Inc--Reports-First-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "quarters": ["2026Q2"],
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Inc--Reports-Second-Quarter-2026-Results/default.aspx"
+    }
+  ]
+}

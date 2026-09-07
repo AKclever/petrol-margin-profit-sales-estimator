@@ -32,7 +32,7 @@ class QuarterActual:
     start: date
     end: date
     retail_margin_cpg: float
-    supply_rin_cpg: float
+    supply_rin_cpg: float | None = None
     gallons_million: float | None = None
 
 
@@ -71,6 +71,8 @@ def load_market(path: str | Path) -> list[MarketWeek]:
     seen: set[tuple[date, str]] = set()
     for row in _rows(path, required):
         week = _date(row["week"], "week")
+        if week.weekday() != 0:
+            raise DataError(f"Market week must be an ISO-week Monday: {week}")
         region = row["region"].strip()
         if not region:
             raise DataError("region may not be blank")
@@ -100,17 +102,18 @@ def load_weights(path: str | Path) -> list[RegionWeight]:
 
 
 def load_actuals(path: str | Path) -> list[QuarterActual]:
-    required = {"quarter", "start", "end", "retail_margin_cpg", "supply_rin_cpg"}
+    required = {"quarter", "start", "end", "retail_margin_cpg"}
     result: list[QuarterActual] = []
     for row in _rows(path, required):
         start, end = _date(row["start"], "start"), _date(row["end"], "end")
         if end < start:
             raise DataError(f"Quarter {row['quarter']} ends before it starts")
+        supply = row.get("supply_rin_cpg", "").strip()
         gallons = row.get("gallons_million", "").strip()
         result.append(QuarterActual(
             row["quarter"].strip(), start, end,
             _number(row["retail_margin_cpg"], "retail_margin_cpg"),
-            _number(row["supply_rin_cpg"], "supply_rin_cpg"),
+            _number(supply, "supply_rin_cpg") if supply else None,
             _number(gallons, "gallons_million") if gallons else None,
         ))
     if len(result) < 6:

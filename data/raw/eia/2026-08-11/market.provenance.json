@@ -1,0 +1,82 @@
+{
+  "normalization": "Each observation date is normalized to its ISO-week Monday; only weeks present in both regional retail and assigned spot series are retained.",
+  "raw_files": [
+    {
+      "archive_path": "data/raw/eia/2026-08-11/EMM_EPMR_PTE_R30_DPGw.xls",
+      "first_observation_used": "2019-01-07",
+      "last_observation_used": "2026-08-10",
+      "observations_used": 397,
+      "series_id": "PET.EMM_EPMR_PTE_R30_DPG.W",
+      "sha256": "81ee6a5aa8204b30ac32dd37a6dadb14baa03f9f4941662d8c3c5ae89b9dc15f",
+      "url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_R30_DPGw.xls"
+    },
+    {
+      "archive_path": "data/raw/eia/2026-08-11/EMM_EPMR_PTE_R20_DPGw.xls",
+      "first_observation_used": "2019-01-07",
+      "last_observation_used": "2026-08-10",
+      "observations_used": 397,
+      "series_id": "PET.EMM_EPMR_PTE_R20_DPG.W",
+      "sha256": "d1db4d92803b5877aaa7f8a6c9909d528b5594af4a22268cd8dab77d9819d71a",
+      "url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_R20_DPGw.xls"
+    },
+    {
+      "archive_path": "data/raw/eia/2026-08-11/EMM_EPMR_PTE_R10_DPGw.xls",
+      "first_observation_used": "2019-01-07",
+      "last_observation_used": "2026-08-10",
+      "observations_used": 397,
+      "series_id": "PET.EMM_EPMR_PTE_R10_DPG.W",
+      "sha256": "d26bdea3ed55201cd332773909dae6e9035e9640833dcb61949803c9c404add3",
+      "url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_R10_DPGw.xls"
+    },
+    {
+      "archive_path": "data/raw/eia/2026-08-11/EER_EPMRU_PF4_RGC_DPGw.xls",
+      "first_observation_used": "2019-01-04",
+      "last_observation_used": "2026-07-31",
+      "observations_used": 396,
+      "series_id": "PET.EER_EPMRU_PF4_RGC_DPG.W",
+      "sha256": "de834db7109e6479f3ce1182b8ebb1eae39e87bc136f39c51f823a550a17ec69",
+      "url": "https://www.eia.gov/dnav/pet/hist_xls/EER_EPMRU_PF4_RGC_DPGw.xls"
+    },
+    {
+      "archive_path": "data/raw/eia/2026-08-11/EER_EPMRU_PF4_Y35NY_DPGw.xls",
+      "first_observation_used": "2019-01-04",
+      "last_observation_used": "2026-07-31",
+      "observations_used": 396,
+      "series_id": "PET.EER_EPMRU_PF4_Y35NY_DPG.W",
+      "sha256": "df38b2411e2923cbc0d37d94e135cdadce63153227ac7bdad33e03459078cb03",
+      "url": "https://www.eia.gov/dnav/pet/hist_xls/EER_EPMRU_PF4_Y35NY_DPGw.xls"
+    }
+  ],
+  "requested_end": "2026-08-11",
+  "requested_start": "2019-01-01",
+  "retrieved_at": "2026-08-11",
+  "rows_written": 1185,
+  "series": [
+    {
+      "first_week": "2019-01-07",
+      "last_week": "2026-07-27",
+      "matched_weeks": 395,
+      "region": "Gulf Coast",
+      "retail": "PET.EMM_EPMR_PTE_R30_DPG.W",
+      "wholesale": "PET.EER_EPMRU_PF4_RGC_DPG.W"
+    },
+    {
+      "first_week": "2019-01-07",
+      "last_week": "2026-07-27",
+      "matched_weeks": 395,
+      "region": "Midwest",
+      "retail": "PET.EMM_EPMR_PTE_R20_DPG.W",
+      "wholesale": "PET.EER_EPMRU_PF4_RGC_DPG.W"
+    },
+    {
+      "first_week": "2019-01-07",
+      "last_week": "2026-07-27",
+      "matched_weeks": 395,
+      "region": "East Coast",
+      "retail": "PET.EMM_EPMR_PTE_R10_DPG.W",
+      "wholesale": "PET.EER_EPMRU_PF4_Y35NY_DPG.W"
+    }
+  ],
+  "source": "U.S. Energy Information Administration historical XLS workbooks",
+  "unit_conversion": "Workbook dollars per gallon multiplied by 100 to cents per gallon."
+}

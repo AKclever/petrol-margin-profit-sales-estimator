@@ -1,0 +1,16 @@
+{
+  "company": "Casey's General Stores, Inc.",
+  "quarter": "F2027Q1",
+  "period_start": "2026-05-01",
+  "period_end": "2026-07-31",
+  "as_of": "2026-08-22",
+  "observed_weeks": 13,
+  "expected_weeks": 13,
+  "coverage": 1.0,
+  "retail_margin_cpg": 42.7,
+  "retail_low_cpg": 36.34,
+  "retail_high_cpg": 49.06,
+  "prior_year_same_quarter_cpg": 41.0,
+  "validated": false,
+  "warning": "Experimental output from a model that fails the leakage-safe Casey's trust gate; do not use as a decision-grade earnings signal."
+}

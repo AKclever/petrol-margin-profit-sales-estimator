@@ -23,3 +23,10 @@ The EIA API series identifiers and source pages in the catalog should be checked
 
 `prices.csv` requires `date,region,series_id,value_usd_per_gallon` plus optional `terminal_basis`, `freight`, `ethanol`, and `tax`. Blank is materially different from zero. `history_template.csv` requires fiscal `quarter`, reported margin in cents per gallon, and quarterly means of both EIA series in dollars per gallon.
 
+The nowcast `actuals.csv` requires `quarter,start,end,retail_margin_cpg`.
+`supply_rin_cpg` and `gallons_million` are optional. A blank supply/RIN value means the field
+is not part of that issuer's disclosed target; it is not converted to zero. Every row must
+either provide supply/RIN history or omit it, because a partially populated scenario would
+mix definitions. Company-specific sources and definition changes belong in a provenance
+sidecar next to the CSV.
+

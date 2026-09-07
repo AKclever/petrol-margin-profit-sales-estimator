@@ -20,8 +20,10 @@ class Response(io.BytesIO):
 
 def test_fetch_series_normalizes_week_and_units():
     payload = {"response": {"data": [
+        {"period": "2026-06-30", "value": 9.99},
         {"period": "2026-07-10", "value": 2.25},
         {"period": "2026-07-13", "value": "3.10"},
+        {"period": "2026-08-01", "value": 9.99},
     ]}}
 
     def opener(request, timeout):
@@ -32,6 +34,16 @@ def test_fetch_series_normalizes_week_and_units():
     assert fetch_series("TEST.W", "secret", date(2026, 7, 1), date(2026, 7, 31), opener) == [
         (date(2026, 7, 6), 225.0), (date(2026, 7, 13), 310.0)
     ]
+
+
+def test_fetch_series_rejects_full_history_when_requested_range_is_empty():
+    payload = {"response": {"data": [{"period": "1992-05-11", "value": 1.08}]}}
+
+    def opener(request, timeout):
+        return Response(json.dumps(payload).encode())
+
+    with pytest.raises(DownloadError, match="between 2026-07-01 and 2026-07-31"):
+        fetch_series("TEST.W", "key", date(2026, 7, 1), date(2026, 7, 31), opener)
 
 
 def test_download_market_aligns_common_weeks_and_writes_provenance(tmp_path):
@@ -53,6 +65,9 @@ def test_download_market_aligns_common_weeks_and_writes_provenance(tmp_path):
     assert rows == [{"week": "2026-07-06", "region": "Gulf Coast",
                      "retail_cpg": "310.0000", "wholesale_cpg": "220.0000"}]
     assert metadata["series"][0]["matched_weeks"] == 1
+    assert metadata["series"][0]["first_week"] == "2026-07-06"
+    assert metadata["series"][0]["last_week"] == "2026-07-06"
+    assert metadata["rows_written"] == 1
 
 
 def test_fetch_series_rejects_missing_data():

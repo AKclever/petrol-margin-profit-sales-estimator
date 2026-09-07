@@ -1,0 +1,45 @@
+{
+  "company": "Casey's General Stores, Inc.",
+  "generated_at": "2026-08-11",
+  "market_snapshot": "../market.csv",
+  "actuals": "actuals.csv",
+  "weights": "weights.csv",
+  "specification": {
+    "alpha": 2.0,
+    "features": ["spread", "falling_capture", "rising_squeeze", "volatility"],
+    "prediction_target": "year-over-year change in reported retail fuel margin",
+    "market_change_shrinkage": 0.5,
+    "test_method": "expanding window using only earlier company actuals"
+  },
+  "result": {
+    "backtest_quarters": 20,
+    "mae_cpg": 3.1176297668300283,
+    "rmse_cpg": 3.876618936785428,
+    "seasonal_baseline_mae_cpg": 3.1249999999999996,
+    "historical_mean_mae_cpg": 4.789964811756546,
+    "directional_accuracy": 0.5,
+    "recent_eight_mae_cpg": 2.5304679642193797,
+    "recent_eight_baseline_mae_cpg": 2.5749999999999984,
+    "recent_eight_directional_accuracy": 0.5,
+    "mean_mae_improvement_cpg": 0.007370233169971385,
+    "mae_improvement_approx_95pct_lower_bound_cpg": -1.15360671838959,
+    "validated": false
+  },
+  "weight_sensitivity": [
+    {
+      "weights": {"Midwest": 0.933, "Gulf Coast": 0.067},
+      "mae_cpg": 3.1050698936119585,
+      "recent_eight_mae_cpg": 2.558131592381762,
+      "directional_accuracy": 0.5,
+      "validated": false
+    },
+    {
+      "weights": {"Midwest": 0.9, "Gulf Coast": 0.1},
+      "mae_cpg": 3.0981300049795166,
+      "recent_eight_mae_cpg": 2.5697356975103682,
+      "directional_accuracy": 0.5,
+      "validated": false
+    }
+  ],
+  "conclusion": "The pre-specified MUSA model does not generalize to Casey's and must not be treated as a validated Casey's forecast."
+}

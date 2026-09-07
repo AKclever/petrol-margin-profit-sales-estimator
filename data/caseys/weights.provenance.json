@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-04-30",
+  "extracted_at": "2026-08-11",
+  "method": "Midwest-only historical exposure proxy for testing whether the existing MUSA specification generalizes",
+  "regions": [
+    {"region": "Midwest", "weight": 1.0}
+  ],
+  "notes": [
+    "This is not presented as an exact current gallon-exposure estimate.",
+    "Before the Fikes acquisition, Casey's network was overwhelmingly concentrated in EIA's Midwest/PADD 2 states; the 2026 Form 10-K says roughly half of all stores are in Iowa, Missouri, and Illinois alone.",
+    "Fikes added 198 stores during F2025 Q3, primarily increasing Gulf Coast/PADD 3 exposure.",
+    "A 93.3% Midwest / 6.7% Gulf Coast sensitivity and a 90% / 10% sensitivity produce the same trust-gate failure, so the conclusion does not depend on the Midwest-only proxy.",
+    "A production Casey's nowcast should replace this file with dated gallon-exposure weights or, second best, audited store-location counts."
+  ],
+  "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000046/casy-20260430.htm"
+}

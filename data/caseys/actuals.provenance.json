@@ -1,0 +1,31 @@
+{
+  "company": "Casey's General Stores, Inc.",
+  "extracted_at": "2026-08-11",
+  "field": "Fuel margin (cents per gallon, excluding credit card fees)",
+  "fiscal_calendar": "Fiscal year runs May 1 through April 30; Q1 ends July 31, Q2 October 31, Q3 January 31, and Q4 April 30.",
+  "notes": [
+    "All 28 observations are company-reported quarterly figures; no missing quarter was estimated.",
+    "The fuel category excludes wholesale fuel and terminal activity, which Casey's reports in Other.",
+    "Supply/RIN fields are blank because this backtest targets Casey's disclosed retail fuel margin only.",
+    "Fikes was acquired during F2025 Q3 and added 198 stores plus a wholesale network; the resulting exposure change is a disclosed structural break.",
+    "The F2020-F2022, F2022-F2024, and F2024-F2026 annual-result tables overlap at F2022 and F2024 and agree on the quarterly values."
+  ],
+  "sources": [
+    {
+      "quarters": ["F2020Q1", "F2020Q2", "F2020Q3", "F2020Q4", "F2021Q1", "F2021Q2", "F2021Q3", "F2021Q4", "F2022Q1", "F2022Q2", "F2022Q3", "F2022Q4"],
+      "url": "https://investor.caseys.com/news-releases/news-release-details/caseys-announces-fourth-quarter-results-0"
+    },
+    {
+      "quarters": ["F2022Q1", "F2022Q2", "F2022Q3", "F2022Q4", "F2023Q1", "F2023Q2", "F2023Q3", "F2023Q4", "F2024Q1", "F2024Q2", "F2024Q3", "F2024Q4"],
+      "url": "https://investor.caseys.com/news-releases/news-release-details/caseys-announces-fourth-quarter-and-fiscal-year-results"
+    },
+    {
+      "quarters": ["F2024Q1", "F2024Q2", "F2024Q3", "F2024Q4", "F2025Q1", "F2025Q2", "F2025Q3", "F2025Q4", "F2026Q1", "F2026Q2", "F2026Q3", "F2026Q4"],
+      "url": "https://investor.caseys.com/news-releases/news-release-details/caseys-announces-fourth-quarter-and-fiscal-year-results-1"
+    },
+    {
+      "purpose": "Fiscal-calendar, footprint, retail/wholesale separation, and Fikes acquisition verification",
+      "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000046/casy-20260430.htm"
+    }
+  ]
+}
