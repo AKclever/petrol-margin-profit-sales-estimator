@@ -1,0 +1,49 @@
+{
+  "created_at": "2026-09-27T20:49:27Z",
+  "gate_status": "NOT_PROMOTED",
+  "inputs": {
+    "data\\actuals.csv": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+    "data\\geo\\geo_basket.csv": "2c883ff154e6e667038a43b081369a781e04a11b77ea085de429abe32261fd56",
+    "data\\geo\\geo_state_weekly.csv": "7b1b07677d9f1f90f1dabde12638a5445cdf20706b43497b89517ffd35925f32",
+    "data\\geo\\state_series_map.csv": "c11cfa7f53237566068835e1c51cab47c608d68854f125e408132481b3b7d31e",
+    "data\\geo\\state_store_counts.csv": "a79246ee3b35ad2a9c520dcd2b9a259b1cb6312ce5e293c38c13c46083816e69",
+    "data\\market.csv": "d1d6d9fe9e225f6412d519f18ff3d519c9e922a29ebd6cc27a8d7079fcfdb8ed",
+    "data\\weights.csv": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986"
+  },
+  "production_model_unchanged": true,
+  "research_result": "NO_INCREMENTAL_VALUE",
+  "research_spec": {
+    "city_series": "OUT_OF_SCOPE",
+    "comparator": "validated production model on identical quarters",
+    "excluded_geographies": {
+      "PADD4": "no validated production wholesale proxy",
+      "PADD5": "no validated production wholesale proxy"
+    },
+    "features": [
+      "spread",
+      "falling_capture",
+      "rising_squeeze",
+      "volatility"
+    ],
+    "fit": "same ridge alpha and market-change shrinkage as production",
+    "fuel_formulation": "OUT_OF_SCOPE",
+    "id": "MUSA_GEO_RETAIL_CHALLENGER_V1",
+    "missingness": "no silent geography substitution",
+    "promotion_gate": {
+      "directional_accuracy_not_worse": true,
+      "minimum_mae_improvement": 0.1,
+      "paired_95pct_lower_bound_positive": true,
+      "recent_eight_mae_improvement": 0.1
+    },
+    "retail_hierarchy": [
+      "STATE",
+      "PADD1_SUBDIVISION",
+      "PADD"
+    ],
+    "target": "MUSA reported retail fuel margin cpg",
+    "weights": "latest SEC state-store table available at each weekly checkpoint",
+    "wholesale": "unchanged production proxy mapping"
+  },
+  "research_spec_hash": "2751f9ec177be34ac81ce1fb88f9cd6a37bb5139e5832dfc9fb0e385f64535c1",
+  "research_spec_status": "FROZEN"
+}

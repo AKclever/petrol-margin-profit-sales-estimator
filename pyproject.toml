@@ -9,10 +9,12 @@ description = "A transparent, uncertainty-aware nowcast for Murphy USA fuel marg
 requires-python = ">=3.11"
 license = {text = "MIT"}
 authors = [{name = "MUSA margin tracker contributors"}]
+dependencies = ["lxml>=5", "requests>=2.31", "xlrd>=2.0"]
 
 [project.scripts]
 musa-nowcast = "musa_nowcast.cli:main"
 musa-fetch-eia = "musa_nowcast.eia:main"
+musa-geo = "musa_nowcast.geo:main"
 
 [tool.setuptools]
 packages = ["musa_nowcast"]

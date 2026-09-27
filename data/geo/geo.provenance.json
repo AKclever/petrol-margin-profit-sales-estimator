@@ -1,0 +1,281 @@
+{
+  "availability": "SEC weights use filing dates. EIA observations use their published weekly period; the current EIA export does not preserve historical revision vintages.",
+  "build_id": "geo-v1-2026-09-27T202037Z-2751f9ec177b",
+  "captured_at": "2026-09-27T20:20:37Z",
+  "combined_raw_sha256": "9758bd543ca1975ddc546b6cae4072203320a75342c269f6c0305c975dfe367b",
+  "eia_source_page": "https://www.eia.gov/dnav/pet/PET_PRI_GND_A_EPMR_PTE_DPGAL_W.htm",
+  "first_week": "2019-01-07",
+  "last_week": "2026-09-14",
+  "normalized_hashes": {
+    "geo_basket.csv": "2c883ff154e6e667038a43b081369a781e04a11b77ea085de429abe32261fd56",
+    "geo_state_weekly.csv": "7b1b07677d9f1f90f1dabde12638a5445cdf20706b43497b89517ffd35925f32",
+    "state_series_map.csv": "c11cfa7f53237566068835e1c51cab47c608d68854f125e408132481b3b7d31e",
+    "state_store_counts.csv": "a79246ee3b35ad2a9c520dcd2b9a259b1cb6312ce5e293c38c13c46083816e69"
+  },
+  "raw_manifest": [
+    {
+      "available_at": "2018-02-20",
+      "bytes": 3328484,
+      "kind": "SEC_10-K",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\sec\\2017-musa_12312017x10-kxdoc.htm",
+      "report_year": 2017,
+      "sha256": "9d1f79f22afd0726589571329c0264ee712625f037dbdc8180ab7d4314495bd3",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351618000010/musa_12312017x10-kxdoc.htm"
+    },
+    {
+      "available_at": "2019-02-19",
+      "bytes": 3149241,
+      "kind": "SEC_10-K",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\sec\\2018-musa_12312018x10-kxdoc.htm",
+      "report_year": 2018,
+      "sha256": "bbb9fdba0344ccc368452c36f789224b362aa2693160b7990217429082e37678",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351619000012/musa_12312018x10-kxdoc.htm"
+    },
+    {
+      "available_at": "2020-02-18",
+      "bytes": 4866281,
+      "kind": "SEC_10-K",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\sec\\2019-musa1231201910-kdoc.htm",
+      "report_year": 2019,
+      "sha256": "7954e6944e6173931c874b523351f9a13e15cb40e626d5786ca00137655f1af7",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351620000007/musa1231201910-kdoc.htm"
+    },
+    {
+      "available_at": "2021-02-19",
+      "bytes": 2365904,
+      "kind": "SEC_10-K",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\sec\\2020-musa-20201231.htm",
+      "report_year": 2020,
+      "sha256": "e9f7e29cd7f46c78724cabaa4d6648e6077e22ae7fb008a845428c3e3ec92c03",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000017/musa-20201231.htm"
+    },
+    {
+      "available_at": "2022-02-17",
+      "bytes": 2554696,
+      "kind": "SEC_10-K",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\sec\\2021-musa-20211231.htm",
+      "report_year": 2021,
+      "sha256": "6e96dd38c4254f5c6a4345e9520546b638856d20d69216373a8ef3f6dedf821a",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000006/musa-20211231.htm"
+    },
+    {
+      "available_at": "2023-02-15",
+      "bytes": 2746022,
+      "kind": "SEC_10-K",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\sec\\2022-musa-20221231.htm",
+      "report_year": 2022,
+      "sha256": "54111658ca92d1f01cbb43dadf19311c5136e1766d5a044bc75a64f5aa2ee547",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000011/musa-20221231.htm"
+    },
+    {
+      "available_at": "2024-02-16",
+      "bytes": 2253706,
+      "kind": "SEC_10-K",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\sec\\2023-musa-20231231.htm",
+      "report_year": 2023,
+      "sha256": "147a05159796c18d2a7ddf49a5f1e49c525453bc7536bd37d56ab3680e9b3e95",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000007/musa-20231231.htm"
+    },
+    {
+      "available_at": "2025-02-20",
+      "bytes": 2147196,
+      "kind": "SEC_10-K",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\sec\\2024-musa-20241231.htm",
+      "report_year": 2024,
+      "sha256": "b5da60e851f08a19442e8da95034a528857315de48b02f4bdb027fa0ddf94ed8",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000010/musa-20241231.htm"
+    },
+    {
+      "available_at": "2026-02-18",
+      "bytes": 2105708,
+      "kind": "SEC_10-K",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\sec\\2025-musa-20251231.htm",
+      "report_year": 2025,
+      "sha256": "262e9622039acf6bbf3b9affe4d1bb7b32f25aeddbc49fcdf30155e5d37765bf",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351626000090/musa-20251231.htm"
+    },
+    {
+      "bytes": 141824,
+      "first_week": "2018-12-31",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-14",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EER_EPMRU_PF4_RGC_DPG_W.xls",
+      "series_id": "PET.EER_EPMRU_PF4_RGC_DPG.W",
+      "sha256": "906da11e4cfd286b079ccaeddfb74d6582e9d72d062fac32ec4f7efc8d3c8a67",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EER_EPMRU_PF4_RGC_DPGw.xls"
+    },
+    {
+      "bytes": 142848,
+      "first_week": "2018-12-31",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-14",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EER_EPMRU_PF4_Y35NY_DPG_W.xls",
+      "series_id": "PET.EER_EPMRU_PF4_Y35NY_DPG.W",
+      "sha256": "4a4f3ddb43e0fab4075321fb19a642a266ceab9d67e968ef7016aea278729e0a",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EER_EPMRU_PF4_Y35NY_DPGw.xls"
+    },
+    {
+      "bytes": 120320,
+      "first_week": "2019-01-07",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-21",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EMM_EPMR_PTE_R1Y_DPG_W.xls",
+      "series_id": "PET.EMM_EPMR_PTE_R1Y_DPG.W",
+      "sha256": "bd213c118fbaa4bde01c6235f150b6599c853f17754343c8fbb7223aca5b7961",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_R1Y_DPGw.xls"
+    },
+    {
+      "bytes": 120320,
+      "first_week": "2019-01-07",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-21",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EMM_EPMR_PTE_R1Z_DPG_W.xls",
+      "series_id": "PET.EMM_EPMR_PTE_R1Z_DPG.W",
+      "sha256": "e2dd0bb2aa38df58a6db3a5c9fccda33583ca99e7f0a42489b7d7a963a3206a5",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_R1Z_DPGw.xls"
+    },
+    {
+      "bytes": 122880,
+      "first_week": "2019-01-07",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-21",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EMM_EPMR_PTE_R20_DPG_W.xls",
+      "series_id": "PET.EMM_EPMR_PTE_R20_DPG.W",
+      "sha256": "5279da979efed0d02cdbb53f206bfef60996d56278ad34321eb4166e23d552a2",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_R20_DPGw.xls"
+    },
+    {
+      "bytes": 122880,
+      "first_week": "2019-01-07",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-21",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EMM_EPMR_PTE_R30_DPG_W.xls",
+      "series_id": "PET.EMM_EPMR_PTE_R30_DPG.W",
+      "sha256": "c5a6b5dd995cf40466664ea09fbdabb1943e1224362ceb7269065b96719b2ec0",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_R30_DPGw.xls"
+    },
+    {
+      "bytes": 122880,
+      "first_week": "2019-01-07",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-21",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EMM_EPMR_PTE_R40_DPG_W.xls",
+      "series_id": "PET.EMM_EPMR_PTE_R40_DPG.W",
+      "sha256": "2ff219134c7a69fec8235556f0bd68efbd0ac99a26273c03d04f236175d873eb",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_R40_DPGw.xls"
+    },
+    {
+      "bytes": 122368,
+      "first_week": "2019-01-07",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-21",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EMM_EPMR_PTE_R50_DPG_W.xls",
+      "series_id": "PET.EMM_EPMR_PTE_R50_DPG.W",
+      "sha256": "e6ee0e094e78df130522d7f8c7ae8b7aee8d5fb0a9242dae20490f29cf4a93b9",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_R50_DPGw.xls"
+    },
+    {
+      "bytes": 100352,
+      "first_week": "2019-01-07",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-21",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EMM_EPMR_PTE_SCO_DPG_W.xls",
+      "series_id": "PET.EMM_EPMR_PTE_SCO_DPG.W",
+      "sha256": "e70091c9a308d58b419dc4bf4949a951ef3c317c1706d996aa42c967096e5db9",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_SCO_DPGw.xls"
+    },
+    {
+      "bytes": 92160,
+      "first_week": "2019-01-07",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-21",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EMM_EPMR_PTE_SFL_DPG_W.xls",
+      "series_id": "PET.EMM_EPMR_PTE_SFL_DPG.W",
+      "sha256": "d3557fc18a059a9d3ffcce7d278aabfeafd7da40294887858a08b4b812590fb8",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_SFL_DPGw.xls"
+    },
+    {
+      "bytes": 100352,
+      "first_week": "2019-01-07",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-21",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EMM_EPMR_PTE_SMN_DPG_W.xls",
+      "series_id": "PET.EMM_EPMR_PTE_SMN_DPG.W",
+      "sha256": "b0416c177a963626d2ee3bac699162d88be4cdde7b2d64f825022a5e5f2f88ac",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_SMN_DPGw.xls"
+    },
+    {
+      "bytes": 100352,
+      "first_week": "2019-01-07",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-21",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EMM_EPMR_PTE_SNY_DPG_W.xls",
+      "series_id": "PET.EMM_EPMR_PTE_SNY_DPG.W",
+      "sha256": "73a9e0edf2bd514d6d21321789c10a2208c00d5b00cd964979b8cb4ec793dc27",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_SNY_DPGw.xls"
+    },
+    {
+      "bytes": 92160,
+      "first_week": "2019-01-07",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-21",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EMM_EPMR_PTE_SOH_DPG_W.xls",
+      "series_id": "PET.EMM_EPMR_PTE_SOH_DPG.W",
+      "sha256": "1904be52a9e250ca81decdd4878b1f9418f0ddfc5ab071d1368350127dbdcb07",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_SOH_DPGw.xls"
+    },
+    {
+      "bytes": 100352,
+      "first_week": "2019-01-07",
+      "kind": "EIA_SERIES",
+      "last_week": "2026-09-21",
+      "path": "data\\raw\\geo\\2026-09-27T202037Z\\eia\\PET_EMM_EPMR_PTE_STX_DPG_W.xls",
+      "series_id": "PET.EMM_EPMR_PTE_STX_DPG.W",
+      "sha256": "cac7bcdfe7e352bd6f469c4c293c788717caa4acba8237e1458f691fed943987",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_STX_DPGw.xls"
+    }
+  ],
+  "requested_range": {
+    "end": "2026-09-27",
+    "start": "2019-01-01"
+  },
+  "research_spec_hash": "2751f9ec177be34ac81ce1fb88f9cd6a37bb5139e5832dfc9fb0e385f64535c1",
+  "rows": {
+    "state_store_counts": 238,
+    "state_weekly": 10639,
+    "weekly_basket": 402
+  },
+  "spec": {
+    "city_series": "OUT_OF_SCOPE",
+    "comparator": "validated production model on identical quarters",
+    "excluded_geographies": {
+      "PADD4": "no validated production wholesale proxy",
+      "PADD5": "no validated production wholesale proxy"
+    },
+    "features": [
+      "spread",
+      "falling_capture",
+      "rising_squeeze",
+      "volatility"
+    ],
+    "fit": "same ridge alpha and market-change shrinkage as production",
+    "fuel_formulation": "OUT_OF_SCOPE",
+    "id": "MUSA_GEO_RETAIL_CHALLENGER_V1",
+    "missingness": "no silent geography substitution",
+    "promotion_gate": {
+      "directional_accuracy_not_worse": true,
+      "minimum_mae_improvement": 0.1,
+      "paired_95pct_lower_bound_positive": true,
+      "recent_eight_mae_improvement": 0.1
+    },
+    "retail_hierarchy": [
+      "STATE",
+      "PADD1_SUBDIVISION",
+      "PADD"
+    ],
+    "target": "MUSA reported retail fuel margin cpg",
+    "weights": "latest SEC state-store table available at each weekly checkpoint",
+    "wholesale": "unchanged production proxy mapping"
+  },
+  "status": "CHALLENGER_ONLY"
+}

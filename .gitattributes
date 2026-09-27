@@ -1,0 +1,2 @@
+# Raw source captures are immutable evidence; never rewrite their bytes on checkout.
+data/raw/** -text -diff

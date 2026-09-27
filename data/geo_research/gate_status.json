@@ -1,0 +1,20 @@
+{
+  "geo_a_directional_accuracy": 0.8181818181818182,
+  "geo_a_mae_cpg": 3.3306863961295137,
+  "identical_backtest_rows": 22,
+  "mean_paired_improvement_cpg": -0.19886341776282587,
+  "paired_improvement_ci_low_cpg": -0.491738742623404,
+  "production_directional_accuracy": 0.9090909090909091,
+  "production_mae_cpg": 3.1318229783666878,
+  "production_model_unchanged": true,
+  "promote_to_production": false,
+  "reason": "GEO-A must beat the production model by at least 10%, preserve directional accuracy, have a positive paired 95% lower bound, and repeat the improvement over the latest eight quarters.",
+  "recent_eight_geo_a_directional_accuracy": 0.625,
+  "recent_eight_geo_a_mae_cpg": 2.298633548769992,
+  "recent_eight_production_directional_accuracy": 0.75,
+  "recent_eight_production_mae_cpg": 2.153183549785646,
+  "research_result": "NO_INCREMENTAL_VALUE",
+  "research_spec_status": "FROZEN",
+  "spec_id": "MUSA_GEO_RETAIL_CHALLENGER_V1",
+  "status": "NOT_PROMOTED"
+}

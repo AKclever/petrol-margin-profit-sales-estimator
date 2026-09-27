@@ -160,6 +160,24 @@ python -m musa_nowcast.cli \
 Add `--json` for machine-readable output. The command exits with a clear validation error
 when inputs are incomplete or inconsistent.
 
+### Geographic retail challenger
+
+`MUSA_GEO_RETAIL_CHALLENGER_V1` uses point-in-time SEC state-store counts and the finest
+available official EIA retail series (state, then East Coast subdivision, then PADD), while
+leaving the production wholesale proxies and four model features unchanged. It downloads
+official XLS files directly and does not require an EIA API key or browser automation:
+
+```bash
+python -m musa_nowcast.geo fetch --start 2019-01-01 --end 2026-09-27
+python -m musa_nowcast.geo evaluate --as-of 2026-09-27
+```
+
+The preserved test did **not** pass. On the identical 22-quarter backtest, GEO-A had 3.33 cpg
+MAE and 81.8% directional accuracy versus production's 3.13 cpg and 90.9%. Its Q3 2026 retail
+estimate is 29.44 cpg versus production's 29.54 cpg. It remains experimental and production
+is unchanged. See [`docs/GEO_CHALLENGER.md`](docs/GEO_CHALLENGER.md) for the frozen design,
+explicit PADD 4/5 exclusions, artifacts, gate, and commands.
+
 ### Casey's generalization test
 
 `data/caseys/actuals.csv` contains 28 company-reported quarterly fuel margins from F2020

@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-09-27",
+  "geo_a_coverage": 0.917,
+  "geo_a_retail_high_cpg": 36.76,
+  "geo_a_retail_low_cpg": 22.11,
+  "geo_a_retail_margin_cpg": 29.44,
+  "production_coverage": 0.917,
+  "production_retail_high_cpg": 36.4,
+  "production_retail_low_cpg": 22.68,
+  "production_retail_margin_cpg": 29.54,
+  "quarter": "2026Q3",
+  "status": "EXPERIMENTAL_ONLY"
+}

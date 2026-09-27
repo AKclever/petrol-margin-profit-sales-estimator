@@ -1,0 +1,15 @@
+{
+  "changed_existing_rows": 0,
+  "comparison_fields": [
+    "weekly_vwap_usd_per_rin",
+    "transaction_volume_rins"
+  ],
+  "current_capture": "2026-09-27T200011Z",
+  "deleted_rows": 0,
+  "detail_path": "data\\raw\\epa_rin\\2026-09-27T200011Z\\vintage-diff.csv",
+  "detail_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "new_rows": 0,
+  "note": "Capture metadata fields are excluded so the diff reports only substantive EPA observation changes. Transaction volume remains context/weighting input, not a challenger feature.",
+  "previous_capture": "2026-09-27T195950Z",
+  "unchanged_rows": 2033
+}
