@@ -15,6 +15,7 @@ dependencies = ["lxml>=5", "requests>=2.31", "xlrd>=2.0"]
 musa-nowcast = "musa_nowcast.cli:main"
 musa-fetch-eia = "musa_nowcast.eia:main"
 musa-geo = "musa_nowcast.geo:main"
+musa-timing = "musa_nowcast.timing:main"
 
 [tool.setuptools]
 packages = ["musa_nowcast"]

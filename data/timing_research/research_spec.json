@@ -1,0 +1,34 @@
+{
+  "research_spec": {
+    "automatic_promotion": false,
+    "candidates": {
+      "A_LAG_1_WEEK": "wholesale proxy lagged exactly one week",
+      "B_CURRENT_PRIOR_50_50": "50% current-week plus 50% prior-week wholesale",
+      "C_TRAILING_3_WEEK_EQUAL": "equal-weight current and prior two wholesale weeks"
+    },
+    "comparison": "production model on identical eligible quarters",
+    "features": [
+      "spread",
+      "falling_capture",
+      "rising_squeeze",
+      "volatility"
+    ],
+    "fit": "unchanged ridge, 50% market-change shrinkage, expanding window",
+    "gate": {
+      "directional_accuracy_not_worse": true,
+      "minimum_mae_improvement": 0.1,
+      "paired_95pct_lower_bound_positive": true,
+      "recent_eight_directional_accuracy_not_worse": true,
+      "recent_eight_minimum_mae_improvement": 0.1
+    },
+    "id": "MUSA_WHOLESALE_TIMING_CHALLENGER_V1",
+    "purpose": "test fixed wholesale-cost timing against the validated MUSA champion",
+    "q3_2026_actual": "NOT_AVAILABLE_AND_NOT_USED",
+    "retail_input": "unchanged production retail basket",
+    "selection_rule": "evaluate separately; do not combine or tune from results",
+    "status": "FROZEN_BEFORE_EVALUATION",
+    "target": "MUSA reported retail fuel margin cpg",
+    "weights": "unchanged production geographic weights"
+  },
+  "research_spec_hash": "bbb365cf620bbbf0b806a974b03e1f0e1abbefbefc6274c281eb1b6675834c01"
+}

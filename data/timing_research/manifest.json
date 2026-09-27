@@ -1,0 +1,20 @@
+{
+  "artifacts": {
+    "data\\timing_research\\current_forecasts.json": "e2d65a4915a8293a464e2bc84dcb768fbf43302f2c8b407caad441ccf2b4eac0",
+    "data\\timing_research\\evaluation.csv": "16628696f2037754735b40d1e87af532d4db323e0410887da55b2b0aaa16b4f7",
+    "data\\timing_research\\market_A_LAG_1_WEEK.csv": "9a0a81935a3c673695a7270960917f535cf6382704da191fac6cfd6712ba7b87",
+    "data\\timing_research\\market_B_CURRENT_PRIOR_50_50.csv": "31c9797f39b4821b88604bd165db8068c783509247c9e1d3286c2bd6f672fb82",
+    "data\\timing_research\\market_C_TRAILING_3_WEEK_EQUAL.csv": "ab813ed3fc71e555ba8829b5703c80118fab27f52550519cc8153594522ac2c0",
+    "data\\timing_research\\research_spec.json": "f605a382dec3c46dab8126f9ecb20da678c8cbd0d1b3174d18c35f37928b55fc",
+    "data\\timing_research\\results.json": "c5b77b15f5775ad071f8b843ae82223442c42d0e9966efe69e96f0cc4b136ff0"
+  },
+  "created_at": "2026-09-27T20:53:28Z",
+  "identical_backtest_rows": 22,
+  "inputs": {
+    "data\\actuals.csv": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+    "data\\market.csv": "d1d6d9fe9e225f6412d519f18ff3d519c9e922a29ebd6cc27a8d7079fcfdb8ed",
+    "data\\weights.csv": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986"
+  },
+  "production_model_unchanged": true,
+  "research_spec_hash": "bbb365cf620bbbf0b806a974b03e1f0e1abbefbefc6274c281eb1b6675834c01"
+}

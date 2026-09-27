@@ -178,6 +178,22 @@ estimate is 29.44 cpg versus production's 29.54 cpg. It remains experimental and
 is unchanged. See [`docs/GEO_CHALLENGER.md`](docs/GEO_CHALLENGER.md) for the frozen design,
 explicit PADD 4/5 exclusions, artifacts, gate, and commands.
 
+### Wholesale-cost timing challenger
+
+The next frozen experiment tests three fixed wholesale transformations without fitting lag
+lengths or weights: a one-week lag, a 50/50 current/prior-week blend, and a trailing three-week
+average. Everything else remains identical to production:
+
+```bash
+python -m musa_nowcast.timing --as-of 2026-09-27
+```
+
+None passes the pre-registered gate. Their MAEs are 2.76, 2.78, and 3.05 cpg versus 3.13 cpg
+for production, but A and B lose directional accuracy and all three have negative paired
+95% lower bounds. The Q3 retail estimates are 29.49, 27.98, and 28.04 cpg versus production's
+29.54 cpg. Production remains unchanged. See
+[`docs/WHOLESALE_TIMING_CHALLENGER.md`](docs/WHOLESALE_TIMING_CHALLENGER.md).
+
 ### Casey's generalization test
 
 `data/caseys/actuals.csv` contains 28 company-reported quarterly fuel margins from F2020

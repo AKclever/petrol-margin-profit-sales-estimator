@@ -1,0 +1,62 @@
+{
+  "automatic_promotion": false,
+  "production_model_unchanged": true,
+  "research_spec_status": "FROZEN",
+  "results": {
+    "A_LAG_1_WEEK": {
+      "challenger_directional_accuracy": 0.7272727272727273,
+      "challenger_mae_cpg": 2.756482009333557,
+      "challenger_rmse_cpg": 3.591836535102907,
+      "identical_backtest_rows": 22,
+      "mean_paired_improvement_cpg": 0.37534096903313063,
+      "paired_improvement_ci_low_cpg": -0.21015536545150804,
+      "passes_pre_registered_gate": false,
+      "production_directional_accuracy": 0.9090909090909091,
+      "production_mae_cpg": 3.1318229783666878,
+      "production_rmse_cpg": 4.017204386506409,
+      "production_status": "UNCHANGED",
+      "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+      "recent_eight_challenger_directional_accuracy": 0.625,
+      "recent_eight_challenger_mae_cpg": 2.4459782991871095,
+      "recent_eight_production_directional_accuracy": 0.75,
+      "recent_eight_production_mae_cpg": 2.153183549785646
+    },
+    "B_CURRENT_PRIOR_50_50": {
+      "challenger_directional_accuracy": 0.8636363636363636,
+      "challenger_mae_cpg": 2.7820999253606535,
+      "challenger_rmse_cpg": 3.836527155689623,
+      "identical_backtest_rows": 22,
+      "mean_paired_improvement_cpg": 0.34972305300603423,
+      "paired_improvement_ci_low_cpg": -0.21982602187907807,
+      "passes_pre_registered_gate": false,
+      "production_directional_accuracy": 0.9090909090909091,
+      "production_mae_cpg": 3.1318229783666878,
+      "production_rmse_cpg": 4.017204386506409,
+      "production_status": "UNCHANGED",
+      "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+      "recent_eight_challenger_directional_accuracy": 0.75,
+      "recent_eight_challenger_mae_cpg": 2.0233411805597106,
+      "recent_eight_production_directional_accuracy": 0.75,
+      "recent_eight_production_mae_cpg": 2.153183549785646
+    },
+    "C_TRAILING_3_WEEK_EQUAL": {
+      "challenger_directional_accuracy": 0.9090909090909091,
+      "challenger_mae_cpg": 3.0533260244447518,
+      "challenger_rmse_cpg": 4.049846879704878,
+      "identical_backtest_rows": 22,
+      "mean_paired_improvement_cpg": 0.07849695392193613,
+      "paired_improvement_ci_low_cpg": -0.6670472208705429,
+      "passes_pre_registered_gate": false,
+      "production_directional_accuracy": 0.9090909090909091,
+      "production_mae_cpg": 3.1318229783666878,
+      "production_rmse_cpg": 4.017204386506409,
+      "production_status": "UNCHANGED",
+      "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+      "recent_eight_challenger_directional_accuracy": 0.875,
+      "recent_eight_challenger_mae_cpg": 1.941010909863763,
+      "recent_eight_production_directional_accuracy": 0.75,
+      "recent_eight_production_mae_cpg": 2.153183549785646
+    }
+  },
+  "spec_id": "MUSA_WHOLESALE_TIMING_CHALLENGER_V1"
+}
