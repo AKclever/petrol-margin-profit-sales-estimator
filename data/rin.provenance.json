@@ -1,0 +1,74 @@
+{
+  "availability_policy": "Conservative: every downloaded historical row is marked available only at this capture timestamp because the live EPA export does not preserve original release timestamps or revision vintages. It must not be used as historical PIT evidence.",
+  "build_id": "rin-v1-2026-09-27T200050Z-91c4c29d0d5b",
+  "captured_at": "2026-09-27T20:00:50Z",
+  "combined_sha256": "254b72a5f9a878ff80f00798e147e043e73931d20e3808a3b0c7eb1583ffba47",
+  "first_week": "2010-06-28",
+  "last_week": "2026-08-24",
+  "latest_observation_week": "2026-08-24",
+  "normalized_capture_path": "data\\raw\\epa_rin\\2026-09-27T200050Z\\d6-weekly-normalized.csv",
+  "normalized_file_sha256": "593759e5057bf44e733bbc4a354859a31b790ba3ac8aaa093f7a0879ab39a7ad",
+  "output": "data\\rin_weekly_candidate.csv",
+  "qlik": {
+    "application_id": "73b2b6a5-70c6-4820-b3fa-186ac094f10d",
+    "host": "edap.epa.gov",
+    "price_object_id": "302609e3-8b43-4ff5-ad9b-ebd53778889b",
+    "volume_object_id": "679e0428-fa34-49ea-8e34-0d1457ca9f77"
+  },
+  "raw": [
+    {
+      "bytes": 336369,
+      "path": "data\\raw\\epa_rin\\2026-09-27T200050Z\\epa-rin-prices.csv",
+      "sha256": "8c20c42ba0dd33b5417166e6d11dd0b4c00ba9e3e04eb149741589b40c0cb0e0"
+    },
+    {
+      "bytes": 864408,
+      "path": "data\\raw\\epa_rin\\2026-09-27T200050Z\\epa-rin-volumes.csv",
+      "sha256": "3044f6d7e6155f80c2f3fdbb25a084689aafd35e3fb3dc0b2d696274cfd2f5ad"
+    }
+  ],
+  "research_spec": {
+    "baseline": "prior-year same-quarter supply/RIN contribution",
+    "change_feature": "current quarter divided by prior-year same quarter minus one",
+    "coefficient": "single zero-intercept coefficient fitted in expanding window",
+    "d_code": "D6",
+    "id": "MUSA_RIN_D6_CHALLENGER_V1",
+    "minimum_training_changes": 8,
+    "price_population": "separated transactions",
+    "quarterly_feature": "arithmetic mean of weekly same-year-vintage D6 VWAP",
+    "role": "PROSPECTIVE_CANDIDATE_FEATURE",
+    "target": "company-reported quarterly supply/RIN contribution in cents per gallon",
+    "transaction_volume_role": "CONTEXT_ONLY_WEIGHTING_INPUT",
+    "weekly_transform": "volume-weighted across QAP types; RIN vintages retained"
+  },
+  "research_spec_hash": "91c4c29d0d5ba9b5c51ab8d68860d93b3fc84d721cf1f1fc28d2868b0daa6ae8",
+  "rows_written": 2033,
+  "schema_version": "1.1",
+  "source": "US EPA EMTS public RIN price and transaction-volume dashboard",
+  "source_dataset": "EPA EMTS RIN Price and Transaction Volume Reports",
+  "source_url": "https://www.epa.gov/fuels-registration-reporting-and-compliance-help/rin-trades-and-price-information",
+  "status": "PROSPECTIVE_CANDIDATE_FEATURE",
+  "transform": "D6 only; prices joined to separated transaction volume by week, RIN vintage, and QAP type; QAP types combined by volume-weighted average; vintages retained.",
+  "transform_stats": {
+    "d6_week_vintage_rows": 2033,
+    "matched_price_volume_rows": 2422,
+    "price_rows": 8581,
+    "price_rows_without_volume": 0,
+    "volume_rows": 15904
+  },
+  "vintage_diff": {
+    "changed_existing_rows": 0,
+    "comparison_fields": [
+      "weekly_vwap_usd_per_rin",
+      "transaction_volume_rins"
+    ],
+    "current_capture": "2026-09-27T200050Z",
+    "deleted_rows": 0,
+    "detail_path": "data\\raw\\epa_rin\\2026-09-27T200050Z\\vintage-diff.csv",
+    "detail_sha256": "8a92b8f5008911ed633ffe930f014b41539b5abef6f2ee8316b404ae60db9962",
+    "new_rows": 0,
+    "note": "Capture metadata fields are excluded so the diff reports only substantive EPA observation changes. Transaction volume remains context/weighting input, not a challenger feature.",
+    "previous_capture": "2026-09-27T200011Z",
+    "unchanged_rows": 2033
+  }
+}

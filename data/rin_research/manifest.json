@@ -1,0 +1,29 @@
+{
+  "actuals_input": "data\\actuals.csv",
+  "actuals_input_sha256": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+  "created_at": "2026-09-27T20:00:59Z",
+  "gate_status": "BLOCKED_NO_HISTORICAL_AVAILABILITY_PROOF",
+  "outputs": {
+    "checkpoint_ledger.csv": "676b18931bd5fbb6781633e3374531971d79e596e42bf006d98c69db4d13ba11",
+    "evaluation.csv": "dc8ffb22da4a0174fd4c3048a75dc99f9dd5b9da69f3a7bba634bb974e924bae",
+    "gate_status.json": "94cfe76d2ae78d3c4ed3340b23111c6fc3551da8162d2d440f1cd72c0914eaa1",
+    "quarter_features.csv": "0933dfb324e99e1e7045c35608162e45d5d6b7744d70a51adefc319f90fd923c"
+  },
+  "research_spec": {
+    "baseline": "prior-year same-quarter supply/RIN contribution",
+    "change_feature": "current quarter divided by prior-year same quarter minus one",
+    "coefficient": "single zero-intercept coefficient fitted in expanding window",
+    "d_code": "D6",
+    "id": "MUSA_RIN_D6_CHALLENGER_V1",
+    "minimum_training_changes": 8,
+    "price_population": "separated transactions",
+    "quarterly_feature": "arithmetic mean of weekly same-year-vintage D6 VWAP",
+    "role": "PROSPECTIVE_CANDIDATE_FEATURE",
+    "target": "company-reported quarterly supply/RIN contribution in cents per gallon",
+    "transaction_volume_role": "CONTEXT_ONLY_WEIGHTING_INPUT",
+    "weekly_transform": "volume-weighted across QAP types; RIN vintages retained"
+  },
+  "research_spec_hash": "91c4c29d0d5ba9b5c51ab8d68860d93b3fc84d721cf1f1fc28d2868b0daa6ae8",
+  "rin_input": "data\\rin_weekly_candidate.csv",
+  "rin_input_sha256": "593759e5057bf44e733bbc4a354859a31b790ba3ac8aaa093f7a0879ab39a7ad"
+}

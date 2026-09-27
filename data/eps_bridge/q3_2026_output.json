@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-09-28",
+  "fuel_status": "PRODUCTION",
+  "input_sha256": "5a0b97619453f94dbe6ca7a86d4068bf66dcbb8e766e62b254a499b7df98d9ee",
+  "missing_inputs": [
+    "fuel_gallons_million",
+    "merchandise_contribution_million",
+    "store_operating_expense_ex_payment_fees_million",
+    "payment_fees_million",
+    "sga_million",
+    "depreciation_amortization_million",
+    "interest_expense_million",
+    "other_income_expense_million",
+    "tax_rate",
+    "diluted_shares_million",
+    "street_consensus_eps"
+  ],
+  "production_fuel": {
+    "all_in_margin_cpg": 32.49,
+    "retail_margin_cpg": 29.54,
+    "supply_rin_cpg": 2.95
+  },
+  "quarter": "2026Q3",
+  "research_spec_hash": "36e3180a8f41a9701b37a8f5510bdee41a87b9cbfd071f27eb9b6e8e79e4aea8",
+  "spec_id": "MUSA_OPERATING_TO_EPS_BRIDGE_V1",
+  "status": "BLOCKED_MISSING_INPUTS"
+}

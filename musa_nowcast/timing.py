@@ -28,6 +28,11 @@ CANDIDATES = {
     "B_CURRENT_PRIOR_50_50": "50% current-week plus 50% prior-week wholesale",
     "C_TRAILING_3_WEEK_EQUAL": "equal-weight current and prior two wholesale weeks",
 }
+RESEARCH_CLASSIFICATIONS = {
+    "A_LAG_1_WEEK": "FAILED_GATE",
+    "B_CURRENT_PRIOR_50_50": "PROMISING_NOT_SECURE",
+    "C_TRAILING_3_WEEK_EQUAL": "PROMISING_RECENTLY_NOT_SECURE",
+}
 
 
 class TimingError(RuntimeError):
@@ -205,6 +210,8 @@ def evaluate(
         name: _metrics(prediction_maps["PRODUCTION"], prediction_maps[name], common_quarters)
         for name in CANDIDATES
     }
+    for name, metrics in results.items():
+        metrics["research_classification"] = RESEARCH_CLASSIFICATIONS[name]
     evaluation_rows: list[dict[str, object]] = []
     for historical_quarter in common_quarters:
         champion_row = prediction_maps["PRODUCTION"][historical_quarter]

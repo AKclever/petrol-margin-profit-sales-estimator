@@ -1,0 +1,31 @@
+{
+  "baseline_unchanged": true,
+  "candidate_state": "PROSPECTIVE_CANDIDATE_FEATURE",
+  "existing_supply_rin_scenario_unchanged": true,
+  "exploratory_non_pit": {
+    "baseline_mae_cpg": 3.0444444444444443,
+    "challenger_mae_cpg": 2.849942742532217,
+    "directional_accuracy": 0.6666666666666666,
+    "mae_improvement_ci_low_cpg": -0.031744454655904114,
+    "mae_improvement_cpg": 0.19450170191222746,
+    "rows": 18
+  },
+  "latest_prospective_read": {
+    "baseline_prior_year_supply_rin_cpg": 2.4,
+    "challenger_supply_rin_cpg": 3.992025914988262,
+    "coverage": 0.6153846153846154,
+    "d6_same_vintage_mean_usd_per_rin": 2.186689375,
+    "d6_yoy_normalized_change": 1.233014462415206,
+    "expected_weeks": 13,
+    "fitted_beta_cpg": 1.2911656460783363,
+    "last_observed_week": "2026-08-24",
+    "observed_weeks": 8,
+    "quarter": "2026Q3",
+    "warning": "Experimental non-PIT challenger; incomplete EPA quarter and not approved for the production all-in margin scenario."
+  },
+  "pit_evaluation_rows": 0,
+  "preregistered_feature": "same-calendar-quarter change in the arithmetic mean of weekly, same-year-vintage D6 VWAP; one zero-intercept coefficient fitted in an expanding window",
+  "promote_to_model": false,
+  "reason": "EPA's live export supplies historical observations but not their original release timestamps or revision vintages. The exploratory result is diagnostic only and cannot pass a leakage-safe gate. Future captures can build a prospective PIT record.",
+  "status": "BLOCKED_NO_HISTORICAL_AVAILABILITY_PROOF"
+}

@@ -160,6 +160,24 @@ python -m musa_nowcast.cli \
 Add `--json` for machine-readable output. The command exits with a clear validation error
 when inputs are incomplete or inconsistent.
 
+### EPA D6 RIN challenger
+
+The free-data extension downloads EPA's official weekly RIN price and transaction-volume
+exports directly, without browser automation, and keeps the D6 signal separate from the
+validated retail-margin model:
+
+```bash
+python -m musa_nowcast.rin fetch
+python -m musa_nowcast.rin evaluate
+```
+
+The live EPA export does not preserve each historical row's original publication timestamp or
+revision vintage. Historical challenger scores are therefore explicitly non-point-in-time and
+cannot promote the feature. Repeated captures build the prospective evidence needed for a valid
+gate. The existing supply/RIN scenario remains unchanged. See
+[`docs/RIN_CHALLENGER.md`](docs/RIN_CHALLENGER.md) for the transformation, artifacts, and
+availability policy.
+
 ### Geographic retail challenger
 
 `MUSA_GEO_RETAIL_CHALLENGER_V1` uses point-in-time SEC state-store counts and the finest
@@ -193,6 +211,29 @@ for production, but A and B lose directional accuracy and all three have negativ
 95% lower bounds. The Q3 retail estimates are 29.49, 27.98, and 28.04 cpg versus production's
 29.54 cpg. Production remains unchanged. See
 [`docs/WHOLESALE_TIMING_CHALLENGER.md`](docs/WHOLESALE_TIMING_CHALLENGER.md).
+
+### Prospective shadows and EPS bridge
+
+Margin research is now in maintenance mode. Archive Production and Timing A/B/C before each
+reported result with:
+
+```bash
+python -m musa_nowcast.shadow checkpoint --as-of 2026-09-28
+```
+
+The append-only workflow and post-result scoring command are documented in
+[`docs/PROSPECTIVE_SHADOWS.md`](docs/PROSPECTIVE_SHADOWS.md).
+
+`MUSA_OPERATING_TO_EPS_BRIDGE_V1` locks Q3 production fuel inputs at 29.54 cpg retail plus
+2.95 cpg supply/RIN, or 32.49 cpg all-in. It currently withholds EPS because this repository
+does not yet contain sourced volume and operating assumptions:
+
+```bash
+python -m musa_nowcast.eps_bridge
+```
+
+See [`docs/EPS_BRIDGE.md`](docs/EPS_BRIDGE.md) for the input contract, calculation, and
+double-counting safeguards.
 
 ### Casey's generalization test
 

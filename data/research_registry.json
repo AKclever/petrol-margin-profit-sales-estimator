@@ -1,0 +1,33 @@
+{
+  "as_of": "2026-09-28",
+  "margin_project_status": "MAINTENANCE_MODE",
+  "models": {
+    "MUSA_GEO_RETAIL_CHALLENGER_V1": {
+      "production_status": "NOT_PROMOTED",
+      "research_status": "CLOSED_NO_INCREMENTAL_VALUE"
+    },
+    "MUSA_RIN_D6_CHALLENGER_V1": {
+      "production_status": "NOT_PROMOTED",
+      "research_status": "PROSPECTIVE_CANDIDATE"
+    },
+    "MUSA_RETAIL_PRODUCTION": {
+      "directional_accuracy": 0.909,
+      "mae_cpg": 3.13,
+      "production_status": "CHAMPION",
+      "q3_2026_retail_margin_cpg": 29.54
+    },
+    "MUSA_WHOLESALE_TIMING_A": {
+      "production_status": "SHADOW_ONLY",
+      "research_status": "FAILED_GATE"
+    },
+    "MUSA_WHOLESALE_TIMING_B": {
+      "production_status": "SHADOW_ONLY",
+      "research_status": "PROMISING_NOT_SECURE"
+    },
+    "MUSA_WHOLESALE_TIMING_C": {
+      "production_status": "SHADOW_ONLY",
+      "research_status": "PROMISING_RECENTLY_NOT_SECURE"
+    }
+  },
+  "next_research_priority": "MUSA_OPERATING_TO_EPS_BRIDGE_V1"
+}

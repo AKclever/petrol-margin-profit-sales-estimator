@@ -1,0 +1,11 @@
+{
+  "fuel_policy": {
+    "D6_RIN": "SCENARIO_ONLY",
+    "all_in_margin_cpg": 32.49,
+    "retail_margin_cpg": 29.54,
+    "supply_rin_cpg": 2.95,
+    "timing_A_B_C": "SHADOW_ONLY"
+  },
+  "id": "MUSA_OPERATING_TO_EPS_BRIDGE_V1",
+  "status": "FROZEN"
+}

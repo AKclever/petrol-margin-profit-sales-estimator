@@ -19,7 +19,8 @@
       "recent_eight_challenger_directional_accuracy": 0.625,
       "recent_eight_challenger_mae_cpg": 2.4459782991871095,
       "recent_eight_production_directional_accuracy": 0.75,
-      "recent_eight_production_mae_cpg": 2.153183549785646
+      "recent_eight_production_mae_cpg": 2.153183549785646,
+      "research_classification": "FAILED_GATE"
     },
     "B_CURRENT_PRIOR_50_50": {
       "challenger_directional_accuracy": 0.8636363636363636,
@@ -37,7 +38,8 @@
       "recent_eight_challenger_directional_accuracy": 0.75,
       "recent_eight_challenger_mae_cpg": 2.0233411805597106,
       "recent_eight_production_directional_accuracy": 0.75,
-      "recent_eight_production_mae_cpg": 2.153183549785646
+      "recent_eight_production_mae_cpg": 2.153183549785646,
+      "research_classification": "PROMISING_NOT_SECURE"
     },
     "C_TRAILING_3_WEEK_EQUAL": {
       "challenger_directional_accuracy": 0.9090909090909091,
@@ -55,7 +57,8 @@
       "recent_eight_challenger_directional_accuracy": 0.875,
       "recent_eight_challenger_mae_cpg": 1.941010909863763,
       "recent_eight_production_directional_accuracy": 0.75,
-      "recent_eight_production_mae_cpg": 2.153183549785646
+      "recent_eight_production_mae_cpg": 2.153183549785646,
+      "research_classification": "PROMISING_RECENTLY_NOT_SECURE"
     }
   },
   "spec_id": "MUSA_WHOLESALE_TIMING_CHALLENGER_V1"

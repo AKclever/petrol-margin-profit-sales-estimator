@@ -1,0 +1,59 @@
+{
+  "as_of": "2026-09-28",
+  "captured_at": "2026-09-27T21:17:54Z",
+  "checkpoint_id": "2026Q3_2026-09-28_20260927T211754Z",
+  "checkpoint_sha256_without_self_hash": "dc6f7069c544147b924adbae66c0e08dcf9a552f685786e9a75395d5d1b88d03",
+  "forecasts": {
+    "A_LAG_1_WEEK": {
+      "coverage": 0.917,
+      "expected_weeks": 12,
+      "observed_weeks": 11,
+      "retail_high_cpg": 35.62,
+      "retail_low_cpg": 23.36,
+      "retail_margin_cpg": 29.49
+    },
+    "B_CURRENT_PRIOR_50_50": {
+      "coverage": 0.917,
+      "expected_weeks": 12,
+      "observed_weeks": 11,
+      "retail_high_cpg": 34.53,
+      "retail_low_cpg": 21.43,
+      "retail_margin_cpg": 27.98
+    },
+    "C_TRAILING_3_WEEK_EQUAL": {
+      "coverage": 0.917,
+      "expected_weeks": 12,
+      "observed_weeks": 11,
+      "retail_high_cpg": 34.95,
+      "retail_low_cpg": 21.13,
+      "retail_margin_cpg": 28.04
+    },
+    "PRODUCTION": {
+      "coverage": 0.917,
+      "expected_weeks": 12,
+      "observed_weeks": 11,
+      "retail_high_cpg": 36.4,
+      "retail_low_cpg": 22.68,
+      "retail_margin_cpg": 29.54
+    }
+  },
+  "inputs": {
+    "data\\actuals.csv": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+    "data\\market.csv": "d1d6d9fe9e225f6412d519f18ff3d519c9e922a29ebd6cc27a8d7079fcfdb8ed",
+    "data\\weights.csv": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986"
+  },
+  "latest_market_week": "2026-09-14",
+  "max_dispersion_cpg": 1.56,
+  "models_frozen": [
+    "PRODUCTION",
+    "A_LAG_1_WEEK",
+    "B_CURRENT_PRIOR_50_50",
+    "C_TRAILING_3_WEEK_EQUAL"
+  ],
+  "quarter": "2026Q3",
+  "quarter_end": "2026-09-30",
+  "quarter_start": "2026-07-01",
+  "result_known_at_capture": false,
+  "schema_version": 1,
+  "timing_spec_id": "MUSA_WHOLESALE_TIMING_CHALLENGER_V1"
+}
