@@ -7,7 +7,7 @@ from datetime import date
 
 import pytest
 
-from musa_nowcast.eia import DownloadError, RegionSeries, download_market, fetch_series
+from musa_nowcast.eia import DownloadError, RegionSeries, download_market, fetch_series, _xls_url
 
 
 class Response(io.BytesIO):
@@ -76,3 +76,9 @@ def test_fetch_series_rejects_missing_data():
 
     with pytest.raises(DownloadError, match="no data array"):
         fetch_series("TEST.W", "key", date(2026, 1, 1), date(2026, 2, 1), opener)
+
+
+def test_official_xls_url_is_deterministic():
+    assert _xls_url("PET.EMM_EPMR_PTE_R30_DPG.W") == (
+        "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_R30_DPGw.xls"
+    )

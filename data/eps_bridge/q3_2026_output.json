@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "fuel_status": "PRODUCTION",
-  "input_sha256": "5a0b97619453f94dbe6ca7a86d4068bf66dcbb8e766e62b254a499b7df98d9ee",
+  "input_sha256": "54c6c71c92406f1b7513a4fd51bd32003eee2000321668eea3d92732772541d4",
   "missing_inputs": [
     "fuel_gallons_million",
     "merchandise_contribution_million",

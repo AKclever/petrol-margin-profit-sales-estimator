@@ -20,15 +20,15 @@ def test_caseys_history_is_reproducible_and_fails_the_trust_gate():
     result = engine.backtest()
 
     assert result["backtest_quarters"] == 20
-    assert result["mae"] == pytest.approx(3.1176297668)
+    assert result["mae"] == pytest.approx(3.1164192932)
     assert result["seasonal_baseline_mae"] == pytest.approx(3.125)
     assert result["historical_mean_mae"] == pytest.approx(4.7899648118)
     assert result["directional_accuracy"] == pytest.approx(0.5)
-    assert result["recent_mae"] == pytest.approx(2.5304679642)
+    assert result["recent_mae"] == pytest.approx(2.5294941378)
     assert result["recent_baseline_mae"] == pytest.approx(2.575)
     assert result["recent_directional_accuracy"] == pytest.approx(0.5)
-    assert result["mae_improvement"] == pytest.approx(0.0073702332)
-    assert result["mae_improvement_ci_low"] == pytest.approx(-1.1536067184)
+    assert result["mae_improvement"] == pytest.approx(0.0085807068)
+    assert result["mae_improvement_ci_low"] == pytest.approx(-1.1528340335)
     assert result["beats_baseline"] is True
     assert result["validated"] is False
 
@@ -55,7 +55,7 @@ def test_caseys_f2027_q1_signal_is_explicitly_unvalidated():
 
     assert result.observed_weeks == result.expected_weeks == 13
     assert result.retail_margin_cpg == pytest.approx(42.70)
-    assert result.retail_low_cpg == pytest.approx(36.34)
+    assert result.retail_low_cpg == pytest.approx(36.35)
     assert result.supply_rin_base_cpg is None
     assert result.all_in_base_cpg is None
     assert result.validated is False

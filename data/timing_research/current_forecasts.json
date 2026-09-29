@@ -1,21 +1,21 @@
 {
   "A_LAG_1_WEEK": {
     "coverage": 0.917,
-    "retail_high_cpg": 35.62,
-    "retail_low_cpg": 23.36,
+    "retail_high_cpg": 35.64,
+    "retail_low_cpg": 23.34,
     "retail_margin_cpg": 29.49
   },
   "B_CURRENT_PRIOR_50_50": {
     "coverage": 0.917,
-    "retail_high_cpg": 34.53,
+    "retail_high_cpg": 34.54,
     "retail_low_cpg": 21.43,
     "retail_margin_cpg": 27.98
   },
   "C_TRAILING_3_WEEK_EQUAL": {
     "coverage": 0.917,
-    "retail_high_cpg": 34.95,
+    "retail_high_cpg": 34.96,
     "retail_low_cpg": 21.13,
-    "retail_margin_cpg": 28.04
+    "retail_margin_cpg": 28.05
   },
   "PRODUCTION": {
     "coverage": 0.917,
@@ -23,7 +23,7 @@
     "retail_low_cpg": 22.68,
     "retail_margin_cpg": 29.54
   },
-  "as_of": "2026-09-28",
+  "as_of": "2026-09-29",
   "q3_2026_actual_used": false,
   "quarter": "2026Q3"
 }

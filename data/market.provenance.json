@@ -1,8 +1,7 @@
 {
-  "api": "https://api.eia.gov/v2/seriesid/",
-  "end": "2026-09-27",
-  "range_enforcement": "Requested observation range enforced locally because the seriesid endpoint may return full history.",
-  "retrieved_at": "2026-09-27",
+  "end": "2026-09-29",
+  "range_enforcement": "Requested observation range enforced locally.",
+  "retrieved_at": "2026-09-29",
   "rows_written": 1206,
   "series": [
     {
@@ -11,7 +10,16 @@
       "matched_weeks": 402,
       "region": "Gulf Coast",
       "retail": "PET.EMM_EPMR_PTE_R30_DPG.W",
-      "wholesale": "PET.EER_EPMRU_PF4_RGC_DPG.W"
+      "retail_last_week": "2026-09-28",
+      "retail_weeks_without_wholesale": [
+        "2026-09-21",
+        "2026-09-28"
+      ],
+      "wholesale": "PET.EER_EPMRU_PF4_RGC_DPG.W",
+      "wholesale_last_week": "2026-09-14",
+      "wholesale_weeks_without_retail": [
+        "2018-12-31"
+      ]
     },
     {
       "first_week": "2019-01-07",
@@ -19,7 +27,16 @@
       "matched_weeks": 402,
       "region": "Midwest",
       "retail": "PET.EMM_EPMR_PTE_R20_DPG.W",
-      "wholesale": "PET.EER_EPMRU_PF4_RGC_DPG.W"
+      "retail_last_week": "2026-09-28",
+      "retail_weeks_without_wholesale": [
+        "2026-09-21",
+        "2026-09-28"
+      ],
+      "wholesale": "PET.EER_EPMRU_PF4_RGC_DPG.W",
+      "wholesale_last_week": "2026-09-14",
+      "wholesale_weeks_without_retail": [
+        "2018-12-31"
+      ]
     },
     {
       "first_week": "2019-01-07",
@@ -27,8 +44,19 @@
       "matched_weeks": 402,
       "region": "East Coast",
       "retail": "PET.EMM_EPMR_PTE_R10_DPG.W",
-      "wholesale": "PET.EER_EPMRU_PF4_Y35NY_DPG.W"
+      "retail_last_week": "2026-09-28",
+      "retail_weeks_without_wholesale": [
+        "2026-09-21",
+        "2026-09-28"
+      ],
+      "wholesale": "PET.EER_EPMRU_PF4_Y35NY_DPG.W",
+      "wholesale_last_week": "2026-09-14",
+      "wholesale_weeks_without_retail": [
+        "2018-12-31"
+      ]
     }
   ],
+  "source": "official_xls",
+  "source_root": "https://www.eia.gov/dnav/pet/hist_xls",
   "start": "2019-01-01"
 }

@@ -1,0 +1,34 @@
+{
+  "api": "https://api.eia.gov/v2/seriesid/",
+  "end": "2026-09-27",
+  "range_enforcement": "Requested observation range enforced locally because the seriesid endpoint may return full history.",
+  "retrieved_at": "2026-09-27",
+  "rows_written": 1206,
+  "series": [
+    {
+      "first_week": "2019-01-07",
+      "last_week": "2026-09-14",
+      "matched_weeks": 402,
+      "region": "Gulf Coast",
+      "retail": "PET.EMM_EPMR_PTE_R30_DPG.W",
+      "wholesale": "PET.EER_EPMRU_PF4_RGC_DPG.W"
+    },
+    {
+      "first_week": "2019-01-07",
+      "last_week": "2026-09-14",
+      "matched_weeks": 402,
+      "region": "Midwest",
+      "retail": "PET.EMM_EPMR_PTE_R20_DPG.W",
+      "wholesale": "PET.EER_EPMRU_PF4_RGC_DPG.W"
+    },
+    {
+      "first_week": "2019-01-07",
+      "last_week": "2026-09-14",
+      "matched_weeks": 402,
+      "region": "East Coast",
+      "retail": "PET.EMM_EPMR_PTE_R10_DPG.W",
+      "wholesale": "PET.EER_EPMRU_PF4_Y35NY_DPG.W"
+    }
+  ],
+  "start": "2019-01-01"
+}

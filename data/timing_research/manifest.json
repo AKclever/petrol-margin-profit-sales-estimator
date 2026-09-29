@@ -1,18 +1,18 @@
 {
   "artifacts": {
-    "data\\timing_research\\current_forecasts.json": "30fd7cefc623027a53107b4aec4a6e7c9bdf64ae47c0772d561ca423a47d4bbb",
-    "data\\timing_research\\evaluation.csv": "16628696f2037754735b40d1e87af532d4db323e0410887da55b2b0aaa16b4f7",
-    "data\\timing_research\\market_A_LAG_1_WEEK.csv": "9a0a81935a3c673695a7270960917f535cf6382704da191fac6cfd6712ba7b87",
-    "data\\timing_research\\market_B_CURRENT_PRIOR_50_50.csv": "31c9797f39b4821b88604bd165db8068c783509247c9e1d3286c2bd6f672fb82",
-    "data\\timing_research\\market_C_TRAILING_3_WEEK_EQUAL.csv": "ab813ed3fc71e555ba8829b5703c80118fab27f52550519cc8153594522ac2c0",
+    "data\\timing_research\\current_forecasts.json": "6356916a71c21e279f6cb72e86ee612ee4d013b476227cf740d9f8b55a2144fd",
+    "data\\timing_research\\evaluation.csv": "3987a29ab4e0483cd9173640d6be0dfce3ece99df96adb93347ea88532aac814",
+    "data\\timing_research\\market_A_LAG_1_WEEK.csv": "868236df7f89b5bfe7dc8ba86d6b77feb738f441d6c9cd98252c2727f5bf6fdc",
+    "data\\timing_research\\market_B_CURRENT_PRIOR_50_50.csv": "c7f0114ed6c6bbaa76bcd9a341e36b7752512261fdf59d649dbac221d1f7ae4e",
+    "data\\timing_research\\market_C_TRAILING_3_WEEK_EQUAL.csv": "bfbe859b19c7a965227502ffbc66d129de7ce3c96406a6df0d84df57e5d53f75",
     "data\\timing_research\\research_spec.json": "f605a382dec3c46dab8126f9ecb20da678c8cbd0d1b3174d18c35f37928b55fc",
-    "data\\timing_research\\results.json": "ed857f24d0e525f29c133c0f837eecc16e8a328911c3eb280ef9d5afeba492c2"
+    "data\\timing_research\\results.json": "f7419dac221e015834e0d7b6aed3bea2d940ef7ca85339816e884002d8309ec2"
   },
-  "created_at": "2026-09-27T21:19:11Z",
+  "created_at": "2026-09-29T19:39:24Z",
   "identical_backtest_rows": 22,
   "inputs": {
     "data\\actuals.csv": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
-    "data\\market.csv": "d1d6d9fe9e225f6412d519f18ff3d519c9e922a29ebd6cc27a8d7079fcfdb8ed",
+    "data\\market.csv": "e3168abe3377e5c164daa3f790b9468070a70a5470755bffc30880e6daa22fb4",
     "data\\weights.csv": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986"
   },
   "production_model_unchanged": true,

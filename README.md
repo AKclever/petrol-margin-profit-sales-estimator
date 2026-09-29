@@ -110,16 +110,21 @@ undisclosed field.
 
 ### Run a nowcast
 
-First download and archive the official EIA weekly series. An EIA API key is required:
+First download and archive the official EIA weekly series. Official historical XLS workbooks
+are the default and do not require an API key:
 
 ```bash
 python -m musa_nowcast.eia \
-  --api-key "$EIA_API_KEY" \
+  --source xls \
   --start 2019-01-01 \
-  --end 2026-09-27 \
+  --end 2026-09-29 \
   --output data/market.csv \
   --provenance data/market.provenance.json
 ```
+
+Use `--source api --api-key "$EIA_API_KEY"` when the API is preferred. Provenance separately
+records the latest retail, wholesale, and common week so newer retail observations cannot be
+mistaken for complete model inputs.
 
 The downloader pairs the EIA Gulf Coast, Midwest, and East Coast weekly retail series with
 Gulf Coast or New York Harbor spot fallbacks, converts dollars per gallon to cents per gallon,
