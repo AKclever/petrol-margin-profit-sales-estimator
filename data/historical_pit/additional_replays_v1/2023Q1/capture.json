@@ -1,0 +1,257 @@
+{
+  "availability_method": "DATE_LEVEL_PUBLIC_CALL_EVENT_NOT_TRANSCRIPT_UPLOAD_DATE",
+  "captured_at": "2026-10-07T10:08:07.455899+00:00",
+  "case": {
+    "cutoff": "2023-02-02",
+    "disclosed_margin_cpg": 19.0,
+    "period_end": "2023-01-31",
+    "period_start": "2023-01-01",
+    "precision": "APPROXIMATE_MANAGEMENT_COMMENTARY",
+    "quarter": "2023Q1",
+    "required_text": "retail only margins were in the neighborhood of $0.19 per gallon",
+    "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2022/q4/4Q22-MUSA-Earnings-Transcript-Final.pdf"
+  },
+  "demand": [
+    {
+      "available_at": "2022-01-05",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-01-05.csv",
+      "observed_at": "2021-12-31",
+      "rate": 8172.0,
+      "sha256": "093f87da1a041ed54cdedd4079687efa87e7caf5a18c75dc3409c8db66d7b46c",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_01_05/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-01-12",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-01-12.csv",
+      "observed_at": "2022-01-07",
+      "rate": 7906.0,
+      "sha256": "c3993449df4e675860769db3322e7a57b824b64591f524cc0da8392940f0d7e1",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_01_12/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-01-20",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-01-20.csv",
+      "observed_at": "2022-01-14",
+      "rate": 8224.0,
+      "sha256": "10cedfe476293b608ccbd5c0155ae9c69845a113d894f9bbb17dcddd76504863",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_01_20/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-01-26",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-01-26.csv",
+      "observed_at": "2022-01-21",
+      "rate": 8505.0,
+      "sha256": "9bed46120df54f45544816b79c6c12bfd8391c642ef82277fb0540272a04badd",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_01_26/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-02-02",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-02-02.csv",
+      "observed_at": "2022-01-28",
+      "rate": 8226.0,
+      "sha256": "4f172aa40cef342751a716b96530b54a465a2dabdd15f1cbd68aa4941f801aa0",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_02_02/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-02-09",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-02-09.csv",
+      "observed_at": "2022-02-04",
+      "rate": 9126.0,
+      "sha256": "cb14f11aa08fca3d4e67cef68e5294c2f1e19b902f1db9d5aaad311c3ced8d1a",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_02_09/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-02-16",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-02-16.csv",
+      "observed_at": "2022-02-11",
+      "rate": 8570.0,
+      "sha256": "04258b604d49b96a987f39ac8f7e15bfe542eb9dcbf6d28eca16c3041209c343",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_02_16/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-02-24",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-02-24.csv",
+      "observed_at": "2022-02-18",
+      "rate": 8657.0,
+      "sha256": "79afbee35591202e85fd092d269cee03c05b389966202be43f5539af5d6fe571",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_02_24/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-03-02",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-03-02.csv",
+      "observed_at": "2022-02-25",
+      "rate": 8743.0,
+      "sha256": "361879c6035ebba2680531d718d5605f59d320a5abefa28acc7c04af1183ca5f",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_03_02/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-03-09",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-03-09.csv",
+      "observed_at": "2022-03-04",
+      "rate": 8962.0,
+      "sha256": "3781a3aed906c3d86abf92dfd4b813b24265cd825f5e55dd88e2eeb039f29020",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_03_09/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-03-16",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-03-16.csv",
+      "observed_at": "2022-03-11",
+      "rate": 8944.0,
+      "sha256": "6d10d43f19b872180b0bd16bc0ebee086f3adabf3e2ebae66c786c178b1f1011",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_03_16/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-03-23",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-03-23.csv",
+      "observed_at": "2022-03-18",
+      "rate": 8637.0,
+      "sha256": "edfb5152901bc4d045f8f742f0d6fc64c7f697d643e68a2462d861c5af42258a",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_03_23/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-03-30",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-03-30.csv",
+      "observed_at": "2022-03-25",
+      "rate": 8499.0,
+      "sha256": "7c416a376ebbdbc3e2aea1af6732c19d79363a9457add82feb0cc66aa89ec81e",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_03_30/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-04-06",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-04-06.csv",
+      "observed_at": "2022-04-01",
+      "rate": 8562.0,
+      "sha256": "a2078350a0a3f5e5aa4e21f42292d505e5e7bfe1068e6a264c45ada4e498a147",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_04_06/csv/table1.csv"
+    },
+    {
+      "available_at": "2022-04-13",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2022-04-13.csv",
+      "observed_at": "2022-04-08",
+      "rate": 8736.0,
+      "sha256": "49fd0d8dba2df798660cb604ebaf9704f7e255bf2ba1aa8ac18833d0dca4853e",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2022/2022_04_13/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-01-05",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2023-01-05.csv",
+      "observed_at": "2022-12-30",
+      "rate": 7514.0,
+      "sha256": "b72fd538aa0ac8f78b61538b88447c35bc8155fab0e22703f11bf6789ec34b56",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_01_05/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-01-11",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2023-01-11.csv",
+      "observed_at": "2023-01-06",
+      "rate": 7558.0,
+      "sha256": "807d7c7f0a1af2c72d714b6beb12dc7c9d7f7b16f3ca75eb937c5f13709f7a7f",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_01_11/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-01-19",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2023-01-19.csv",
+      "observed_at": "2023-01-13",
+      "rate": 8054.0,
+      "sha256": "82beb3181a360014e4557714a11ace4a16898e0260de4356299af00bd9cd2ee9",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_01_19/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-01-25",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2023-01-25.csv",
+      "observed_at": "2023-01-20",
+      "rate": 8142.0,
+      "sha256": "981acc0986c1fb49ca081eba0ef0b4e34d4c59b21510c084a6f9023076baf9da",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_01_25/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-02-01",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/demand_2023-02-01.csv",
+      "observed_at": "2023-01-27",
+      "rate": 8491.0,
+      "sha256": "866e9c0854db173a4a4286ab24b03b338faead8452e2de0b13cb4e629dd7f9c8",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_02_01/csv/table1.csv"
+    }
+  ],
+  "disclosure_sha256": "dd5d6f6bde57514cbd238856d9ab3194d93dbb8eeea6412010f73d72a6aaebb2",
+  "disclosure_text_sha256": "b4e774be1cdb7fd6dbef29672ed7985811da1c0c2e92b528351e5dcc9ccc4ec5",
+  "intraday_available_at": null,
+  "market": [
+    {
+      "endpoint": "https://api.stlouisfed.org/fred/series/observations",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/GASREGECW.json",
+      "parameters": {
+        "file_type": "json",
+        "limit": 100000,
+        "observation_end": "2023-02-02",
+        "observation_start": "2019-01-01",
+        "realtime_end": "2023-02-02",
+        "realtime_start": "2023-02-02",
+        "series_id": "GASREGECW"
+      },
+      "series_id": "GASREGECW",
+      "sha256": "9d0d64dc92ce055b5c282c1e2e6fa539536de1273e8a37861604e3b19307b979"
+    },
+    {
+      "endpoint": "https://api.stlouisfed.org/fred/series/observations",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/GASREGGCW.json",
+      "parameters": {
+        "file_type": "json",
+        "limit": 100000,
+        "observation_end": "2023-02-02",
+        "observation_start": "2019-01-01",
+        "realtime_end": "2023-02-02",
+        "realtime_start": "2023-02-02",
+        "series_id": "GASREGGCW"
+      },
+      "series_id": "GASREGGCW",
+      "sha256": "dbafd6de4d4159e1bda5a659c25ba280e05de14a84b1eccf7a07ea9c626c6360"
+    },
+    {
+      "endpoint": "https://api.stlouisfed.org/fred/series/observations",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/GASREGMWW.json",
+      "parameters": {
+        "file_type": "json",
+        "limit": 100000,
+        "observation_end": "2023-02-02",
+        "observation_start": "2019-01-01",
+        "realtime_end": "2023-02-02",
+        "realtime_start": "2023-02-02",
+        "series_id": "GASREGMWW"
+      },
+      "series_id": "GASREGMWW",
+      "sha256": "1b8c810e68f852261fe0eb3a447b9a95fedc53b040c2644ef1a49f9932b69ca9"
+    },
+    {
+      "endpoint": "https://api.stlouisfed.org/fred/series/observations",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/WGASNYH.json",
+      "parameters": {
+        "file_type": "json",
+        "limit": 100000,
+        "observation_end": "2023-02-02",
+        "observation_start": "2019-01-01",
+        "realtime_end": "2023-02-02",
+        "realtime_start": "2023-02-02",
+        "series_id": "WGASNYH"
+      },
+      "series_id": "WGASNYH",
+      "sha256": "a59f8d57cbaab9f4845127b3d1515879689d910bbcc8320162afedb19dda5a77"
+    },
+    {
+      "endpoint": "https://api.stlouisfed.org/fred/series/observations",
+      "file": "data/historical_pit/additional_replays_v1/2023Q1/WGASUSGULF.json",
+      "parameters": {
+        "file_type": "json",
+        "limit": 100000,
+        "observation_end": "2023-02-02",
+        "observation_start": "2019-01-01",
+        "realtime_end": "2023-02-02",
+        "realtime_start": "2023-02-02",
+        "series_id": "WGASUSGULF"
+      },
+      "series_id": "WGASUSGULF",
+      "sha256": "b83aae8bbad44914987cf9f312cf79e330be0d57444152ce7fddabd24baf9ddb"
+    }
+  ],
+  "spec_sha256": "d957f74bd14ba758ed4d76b345433fa13447978c661db38744081f720f2a6223"
+}

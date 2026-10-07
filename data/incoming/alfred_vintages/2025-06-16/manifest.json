@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0.0",
+  "research_role": "RETROSPECTIVE_PIT_VINTAGE_RECONSTRUCTION",
+  "target_replay": "MUSA_Q2_2025_UNCERTAIN_QUARTER",
+  "cutoff_date": "2025-06-16",
+  "availability_granularity": "DATE_ONLY_FROM_ALFRED_REALTIME",
+  "intraday_available_at": null,
+  "intraday_rule": "Do not infer an intraday publication timestamp from ALFRED vintage dates. If a required release occurred on the cutoff date, separate release-time evidence is required.",
+  "captured_at": "2026-10-07T09:40:09.094958+00:00",
+  "series": [
+    {
+      "series_id": "GASREGECW",
+      "role": "retail_east_coast",
+      "title": "PADD I (East Coast District) Regular All Formulations Gas Price",
+      "frequency": "weekly_ending_monday",
+      "expected_latest_obs_by_cutoff": "2025-06-09",
+      "alfred_url": "https://alfred.stlouisfed.org/series?seid=GASREGECW",
+      "requested_vintage_date": "2025-06-16",
+      "observation_window": [
+        "2019-01-01",
+        "2025-06-16"
+      ],
+      "latest_observation_in_snapshot": "2025-06-09",
+      "raw_path": "data/incoming/alfred_vintages/2025-06-16/raw/GASREGECW__vintage_2025-06-16.json",
+      "raw_sha256": "fce07fe3289b81d4a1537be1e9a7a5ee67ec5ed81aed549b79bd7dbcca6b66cd",
+      "normalized_path": "data/incoming/alfred_vintages/2025-06-16/normalized/GASREGECW__vintage_2025-06-16.csv",
+      "http_last_modified": "Tue, 10 Jun 2025 14:06:19 GMT",
+      "http_etag": null,
+      "vintage_dates_raw_path": "data/incoming/alfred_vintages/2025-06-16/raw/GASREGECW__vintage_dates.json",
+      "vintage_dates_raw_sha256": "ad7880b3b8592bf1ed545b7f8957ef568efc581b328923eb9dc1acb22fb9f426",
+      "has_cutoff_in_vintage_dates": false,
+      "source_api_url_redacted": "https://api.stlouisfed.org/fred/series/observations?series_id=GASREGECW&api_key=<REDACTED_API_KEY>&file_type=json&realtime_start=2025-06-16&realtime_end=2025-06-16&observation_start=2019-01-01&observation_end=2025-06-16&sort_order=asc"
+    },
+    {
+      "series_id": "GASREGMWW",
+      "role": "retail_midwest",
+      "title": "PADD II (Midwest District) Regular All Formulations Gas Price",
+      "frequency": "weekly_ending_monday",
+      "expected_latest_obs_by_cutoff": "2025-06-09",
+      "alfred_url": "https://alfred.stlouisfed.org/series?seid=GASREGMWW",
+      "requested_vintage_date": "2025-06-16",
+      "observation_window": [
+        "2019-01-01",
+        "2025-06-16"
+      ],
+      "latest_observation_in_snapshot": "2025-06-09",
+      "raw_path": "data/incoming/alfred_vintages/2025-06-16/raw/GASREGMWW__vintage_2025-06-16.json",
+      "raw_sha256": "e1b22a96457ab4717971ddcebeba35943cfd795e4dbcf2b9e17bdb5371ad0324",
+      "normalized_path": "data/incoming/alfred_vintages/2025-06-16/normalized/GASREGMWW__vintage_2025-06-16.csv",
+      "http_last_modified": "Tue, 10 Jun 2025 14:06:20 GMT",
+      "http_etag": null,
+      "vintage_dates_raw_path": "data/incoming/alfred_vintages/2025-06-16/raw/GASREGMWW__vintage_dates.json",
+      "vintage_dates_raw_sha256": "ad7880b3b8592bf1ed545b7f8957ef568efc581b328923eb9dc1acb22fb9f426",
+      "has_cutoff_in_vintage_dates": false,
+      "source_api_url_redacted": "https://api.stlouisfed.org/fred/series/observations?series_id=GASREGMWW&api_key=<REDACTED_API_KEY>&file_type=json&realtime_start=2025-06-16&realtime_end=2025-06-16&observation_start=2019-01-01&observation_end=2025-06-16&sort_order=asc"
+    },
+    {
+      "series_id": "GASREGGCW",
+      "role": "retail_gulf_coast",
+      "title": "PADD III (Gulf Coast District) Regular All Formulations Gas Price",
+      "frequency": "weekly_ending_monday",
+      "expected_latest_obs_by_cutoff": "2025-06-09",
+      "alfred_url": "https://alfred.stlouisfed.org/series?seid=GASREGGCW",
+      "requested_vintage_date": "2025-06-16",
+      "observation_window": [
+        "2019-01-01",
+        "2025-06-16"
+      ],
+      "latest_observation_in_snapshot": "2025-06-09",
+      "raw_path": "data/incoming/alfred_vintages/2025-06-16/raw/GASREGGCW__vintage_2025-06-16.json",
+      "raw_sha256": "940280526558035dc4a4be2448b48ab75547dd143c1a95f3c3d3f3dc14214296",
+      "normalized_path": "data/incoming/alfred_vintages/2025-06-16/normalized/GASREGGCW__vintage_2025-06-16.csv",
+      "http_last_modified": "Tue, 10 Jun 2025 14:05:17 GMT",
+      "http_etag": null,
+      "vintage_dates_raw_path": "data/incoming/alfred_vintages/2025-06-16/raw/GASREGGCW__vintage_dates.json",
+      "vintage_dates_raw_sha256": "ad7880b3b8592bf1ed545b7f8957ef568efc581b328923eb9dc1acb22fb9f426",
+      "has_cutoff_in_vintage_dates": false,
+      "source_api_url_redacted": "https://api.stlouisfed.org/fred/series/observations?series_id=GASREGGCW&api_key=<REDACTED_API_KEY>&file_type=json&realtime_start=2025-06-16&realtime_end=2025-06-16&observation_start=2019-01-01&observation_end=2025-06-16&sort_order=asc"
+    },
+    {
+      "series_id": "WGASNYH",
+      "role": "wholesale_new_york_harbor",
+      "title": "Conventional Gasoline Prices: New York Harbor, Regular",
+      "frequency": "weekly_ending_friday",
+      "expected_latest_obs_by_cutoff": "2025-06-06",
+      "alfred_url": "https://alfred.stlouisfed.org/series?seid=WGASNYH",
+      "requested_vintage_date": "2025-06-16",
+      "observation_window": [
+        "2019-01-01",
+        "2025-06-16"
+      ],
+      "latest_observation_in_snapshot": "2025-06-06",
+      "raw_path": "data/incoming/alfred_vintages/2025-06-16/raw/WGASNYH__vintage_2025-06-16.json",
+      "raw_sha256": "a7080e1c04520b5532974c0f65d4826185c5430651ef7a0fd54635485e2bc208",
+      "normalized_path": "data/incoming/alfred_vintages/2025-06-16/normalized/WGASNYH__vintage_2025-06-16.csv",
+      "http_last_modified": "Wed, 11 Jun 2025 17:14:07 GMT",
+      "http_etag": null,
+      "vintage_dates_raw_path": "data/incoming/alfred_vintages/2025-06-16/raw/WGASNYH__vintage_dates.json",
+      "vintage_dates_raw_sha256": "b73ae6419e8f0e34bcac8f74d511d6538158fb8eb6a50ba1d8b583930ca85d23",
+      "has_cutoff_in_vintage_dates": false,
+      "source_api_url_redacted": "https://api.stlouisfed.org/fred/series/observations?series_id=WGASNYH&api_key=<REDACTED_API_KEY>&file_type=json&realtime_start=2025-06-16&realtime_end=2025-06-16&observation_start=2019-01-01&observation_end=2025-06-16&sort_order=asc"
+    },
+    {
+      "series_id": "WGASUSGULF",
+      "role": "wholesale_us_gulf_coast",
+      "title": "Conventional Gasoline Prices: U.S. Gulf Coast, Regular",
+      "frequency": "weekly_ending_friday",
+      "expected_latest_obs_by_cutoff": "2025-06-06",
+      "alfred_url": "https://alfred.stlouisfed.org/series?seid=WGASUSGULF",
+      "requested_vintage_date": "2025-06-16",
+      "observation_window": [
+        "2019-01-01",
+        "2025-06-16"
+      ],
+      "latest_observation_in_snapshot": "2025-06-06",
+      "raw_path": "data/incoming/alfred_vintages/2025-06-16/raw/WGASUSGULF__vintage_2025-06-16.json",
+      "raw_sha256": "458cef01d159077e1c97b38b5f6ad619ac7a12c92b7f266550266f6f3d3cea60",
+      "normalized_path": "data/incoming/alfred_vintages/2025-06-16/normalized/WGASUSGULF__vintage_2025-06-16.csv",
+      "http_last_modified": "Wed, 11 Jun 2025 17:14:07 GMT",
+      "http_etag": null,
+      "vintage_dates_raw_path": "data/incoming/alfred_vintages/2025-06-16/raw/WGASUSGULF__vintage_dates.json",
+      "vintage_dates_raw_sha256": "33138094d2c48ecd871e3102b637d1f524e76ed4f91a5c44902ca525e0220bee",
+      "has_cutoff_in_vintage_dates": false,
+      "source_api_url_redacted": "https://api.stlouisfed.org/fred/series/observations?series_id=WGASUSGULF&api_key=<REDACTED_API_KEY>&file_type=json&realtime_start=2025-06-16&realtime_end=2025-06-16&observation_start=2019-01-01&observation_end=2025-06-16&sort_order=asc"
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "violations": [],
+    "important_note": "PASS only confirms that the ALFRED snapshot does not contain observations beyond the expected calendar-date PIT ceiling. It does not by itself prove exact intraday availability."
+  }
+}

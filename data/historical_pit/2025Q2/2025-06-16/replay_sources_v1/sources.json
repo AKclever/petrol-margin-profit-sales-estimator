@@ -1,0 +1,635 @@
+{
+  "captured_at": "2026-10-07T09:54:09.638314+00:00",
+  "information_cutoff": "2025-06-16",
+  "sources": [
+    {
+      "available_at": "2024-04-10",
+      "captured_at": "2026-10-07T09:53:19.596221+00:00",
+      "file": "raw/wpsr_2024-04-10.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8612.0,
+      "raw_sha256": "905c23661ebe4a5c9a23ad88709bd33a1034b254f58879d46d1b493dfac603e1",
+      "release_date": "2024-04-10",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_04_10/csv/table1.csv",
+      "week_ending": "2024-04-05"
+    },
+    {
+      "available_at": "2024-04-17",
+      "captured_at": "2026-10-07T09:53:18.511130+00:00",
+      "file": "raw/wpsr_2024-04-17.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8662.0,
+      "raw_sha256": "ee72870a16e6a65a1745b1a13a2b9b08f7e38b863ea116c2e9ed7287ca39c62e",
+      "release_date": "2024-04-17",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_04_17/csv/table1.csv",
+      "week_ending": "2024-04-12"
+    },
+    {
+      "available_at": "2024-04-24",
+      "captured_at": "2026-10-07T09:53:19.596618+00:00",
+      "file": "raw/wpsr_2024-04-24.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8423.0,
+      "raw_sha256": "1e8cdd4ceb6940ed2402b60e7c444de8741c566346de6b149c0cf6e681571c3a",
+      "release_date": "2024-04-24",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_04_24/csv/table1.csv",
+      "week_ending": "2024-04-19"
+    },
+    {
+      "available_at": "2024-05-01",
+      "captured_at": "2026-10-07T09:53:20.521829+00:00",
+      "file": "raw/wpsr_2024-05-01.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8618.0,
+      "raw_sha256": "af88dc063cc0259b7622d29c50a35270d1088fcea3ff6373b1d0501f794defcb",
+      "release_date": "2024-05-01",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_01/csv/table1.csv",
+      "week_ending": "2024-04-26"
+    },
+    {
+      "available_at": "2024-05-08",
+      "captured_at": "2026-10-07T09:53:28.733505+00:00",
+      "file": "raw/wpsr_2024-05-08.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8797.0,
+      "raw_sha256": "caf2be393bc88c994d7eae801bc6750b582f4f588bdb9fb8b68a370f63dc1456",
+      "release_date": "2024-05-08",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_08/csv/table1.csv",
+      "week_ending": "2024-05-03"
+    },
+    {
+      "available_at": "2024-05-15",
+      "captured_at": "2026-10-07T09:53:29.937918+00:00",
+      "file": "raw/wpsr_2024-05-15.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8875.0,
+      "raw_sha256": "d1a491fedb703c267dff34d53bf87a48f43dec6de1eec1e9ba6e96c8532983be",
+      "release_date": "2024-05-15",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_15/csv/table1.csv",
+      "week_ending": "2024-05-10"
+    },
+    {
+      "available_at": "2024-05-22",
+      "captured_at": "2026-10-07T09:53:27.890985+00:00",
+      "file": "raw/wpsr_2024-05-22.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 9315.0,
+      "raw_sha256": "2d1c5b782028891e3428172f7a125580baa614eda05beeb7282734566271826e",
+      "release_date": "2024-05-22",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_22/csv/table1.csv",
+      "week_ending": "2024-05-17"
+    },
+    {
+      "available_at": "2024-05-30",
+      "captured_at": "2026-10-07T09:53:30.728229+00:00",
+      "file": "raw/wpsr_2024-05-30.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 9148.0,
+      "raw_sha256": "e4c1096309c5d067e66d397fcb14f08bffc3c9e653312d6a7cd735575b99c7f2",
+      "release_date": "2024-05-30",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_30/csv/table1.csv",
+      "week_ending": "2024-05-24"
+    },
+    {
+      "available_at": "2024-06-05",
+      "captured_at": "2026-10-07T09:53:38.105902+00:00",
+      "file": "raw/wpsr_2024-06-05.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8946.0,
+      "raw_sha256": "2b496cb2f83c9e495d943ece5a89a0118170cfd8bbe9e78e901dc893e857cfee",
+      "release_date": "2024-06-05",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_06_05/csv/table1.csv",
+      "week_ending": "2024-05-31"
+    },
+    {
+      "available_at": "2024-06-12",
+      "captured_at": "2026-10-07T09:53:37.925389+00:00",
+      "file": "raw/wpsr_2024-06-12.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 9040.0,
+      "raw_sha256": "e0697e002b299e1a95aa391393434874ed38e35159d3110a63757a718d6cf8f4",
+      "release_date": "2024-06-12",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_06_12/csv/table1.csv",
+      "week_ending": "2024-06-07"
+    },
+    {
+      "available_at": "2024-06-20",
+      "captured_at": "2026-10-07T09:53:38.132999+00:00",
+      "file": "raw/wpsr_2024-06-20.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 9386.0,
+      "raw_sha256": "3f43d78b34a4b9c91b88dea7ff47c1d1cb70fb634ea9942ebeba3e388740c368",
+      "release_date": "2024-06-20",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_06_20/csv/table1.csv",
+      "week_ending": "2024-06-14"
+    },
+    {
+      "available_at": "2024-06-26",
+      "captured_at": "2026-10-07T09:53:40.988137+00:00",
+      "file": "raw/wpsr_2024-06-26.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8969.0,
+      "raw_sha256": "3b4bf480737ca9e365b92e4cfd836a2c1796efa7ee8700a49d50b788c4237354",
+      "release_date": "2024-06-26",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_06_26/csv/table1.csv",
+      "week_ending": "2024-06-21"
+    },
+    {
+      "available_at": "2024-07-03",
+      "captured_at": "2026-10-07T09:53:48.165714+00:00",
+      "file": "raw/wpsr_2024-07-03.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 9424.0,
+      "raw_sha256": "53aea363417a1e9cba38a45661d8b5407b3691dca733a8017e826fcc22079037",
+      "release_date": "2024-07-03",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_07_03/csv/table1.csv",
+      "week_ending": "2024-06-28"
+    },
+    {
+      "available_at": "2024-07-10",
+      "captured_at": "2026-10-07T09:53:47.292417+00:00",
+      "file": "raw/wpsr_2024-07-10.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 9398.0,
+      "raw_sha256": "a4cbaefef12e66b2c3e082fe87e3d5c9c34fb3e6f5298a64306eb5a6eb144a65",
+      "release_date": "2024-07-10",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_07_10/csv/table1.csv",
+      "week_ending": "2024-07-05"
+    },
+    {
+      "available_at": "2025-04-09",
+      "captured_at": "2026-10-07T09:53:47.366499+00:00",
+      "file": "raw/wpsr_2025-04-09.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8425.0,
+      "raw_sha256": "d0f30c26d338eceb3a5dfb141be54baadf27455ec3dec3661f8e3ed9bc33ec2e",
+      "release_date": "2025-04-09",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2025/2025_04_09/csv/table1.csv",
+      "week_ending": "2025-04-04"
+    },
+    {
+      "available_at": "2025-04-16",
+      "captured_at": "2026-10-07T09:53:51.208739+00:00",
+      "file": "raw/wpsr_2025-04-16.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8462.0,
+      "raw_sha256": "a2f7bb5a5c0afcd5d34b497845d72c04f5e1feb7e26b0a2cccab76daf8c0efc2",
+      "release_date": "2025-04-16",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2025/2025_04_16/csv/table1.csv",
+      "week_ending": "2025-04-11"
+    },
+    {
+      "available_at": "2025-04-23",
+      "captured_at": "2026-10-07T09:53:56.477162+00:00",
+      "file": "raw/wpsr_2025-04-23.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 9414.0,
+      "raw_sha256": "5a2bf9148bdcc1e6cadb963bb6683ffcb2705efdd94465007fa8ca7ca7c63ab6",
+      "release_date": "2025-04-23",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2025/2025_04_23/csv/table1.csv",
+      "week_ending": "2025-04-18"
+    },
+    {
+      "available_at": "2025-04-30",
+      "captured_at": "2026-10-07T09:53:55.556149+00:00",
+      "file": "raw/wpsr_2025-04-30.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 9098.0,
+      "raw_sha256": "8a785f744daa9512d933500333a749769c4ed052411a390b24e60b535bc68290",
+      "release_date": "2025-04-30",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2025/2025_04_30/csv/table1.csv",
+      "week_ending": "2025-04-25"
+    },
+    {
+      "available_at": "2025-05-07",
+      "captured_at": "2026-10-07T09:53:56.460166+00:00",
+      "file": "raw/wpsr_2025-05-07.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8717.0,
+      "raw_sha256": "480b577eb827967c5e1816aeee2ed652daf1ec58447c3926d43aeb198e288ca4",
+      "release_date": "2025-05-07",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2025/2025_05_07/csv/table1.csv",
+      "week_ending": "2025-05-02"
+    },
+    {
+      "available_at": "2025-05-14",
+      "captured_at": "2026-10-07T09:53:59.432494+00:00",
+      "file": "raw/wpsr_2025-05-14.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8794.0,
+      "raw_sha256": "95eb07eb0228789f35e581cc18f8f6d19d24dfcb6b3663e4490bc21f6d140207",
+      "release_date": "2025-05-14",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2025/2025_05_14/csv/table1.csv",
+      "week_ending": "2025-05-09"
+    },
+    {
+      "available_at": "2025-05-21",
+      "captured_at": "2026-10-07T09:54:03.833250+00:00",
+      "file": "raw/wpsr_2025-05-21.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8644.0,
+      "raw_sha256": "83970c89a2089e6520372b315cdac27b659527f1cb12e56dde37b61dcee1c5c0",
+      "release_date": "2025-05-21",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2025/2025_05_21/csv/table1.csv",
+      "week_ending": "2025-05-16"
+    },
+    {
+      "available_at": "2025-05-29",
+      "captured_at": "2026-10-07T09:54:04.652061+00:00",
+      "file": "raw/wpsr_2025-05-29.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 9452.0,
+      "raw_sha256": "86b7237aaa1e618ae4891d3e4acfbc8e947c7a1aa6a40092c415b67bfb606409",
+      "release_date": "2025-05-29",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2025/2025_05_29/csv/table1.csv",
+      "week_ending": "2025-05-23"
+    },
+    {
+      "available_at": "2025-06-04",
+      "captured_at": "2026-10-07T09:54:06.703879+00:00",
+      "file": "raw/wpsr_2025-06-04.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 8263.0,
+      "raw_sha256": "9a5c6432e5937aebbf9cb5a96d6abced451d97d35b09121e1a3cbdd9033dfc83",
+      "release_date": "2025-06-04",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2025/2025_06_04/csv/table1.csv",
+      "week_ending": "2025-05-30"
+    },
+    {
+      "available_at": "2025-06-11",
+      "captured_at": "2026-10-07T09:54:09.637515+00:00",
+      "file": "raw/wpsr_2025-06-11.csv",
+      "kind": "demand",
+      "rate_thousand_barrels_per_day": 9170.0,
+      "raw_sha256": "f44122b4ec2c1459992824dbc835062b156aaf157abcc78ace71f8632923360a",
+      "release_date": "2025-06-11",
+      "status": "VERIFIED",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2025/2025_06_11/csv/table1.csv",
+      "week_ending": "2025-06-06"
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2020-04-17",
+      "captured_at": "2026-10-07T09:54:04.697470+00:00",
+      "file": "raw/company_00.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2019Q1"
+      ],
+      "raw_sha256": "4205e98262e434f91ab4ddf1486a0674f96ece6410438b76d598fe220eaef8ee",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2020/Murphy-USA-Inc-Reports-First-Quarter-2020-Results/default.aspx",
+      "verified_margins": {
+        "2019Q1": 8.4
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2020-07-21",
+      "captured_at": "2026-10-07T09:54:05.441344+00:00",
+      "file": "raw/company_01.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2019Q2"
+      ],
+      "raw_sha256": "9526fdeb7506c2ef0cdcbe7d2958c3990e56c15db819a473c8baabdb1a3f8ddd",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2020/Murphy-USA-Inc.-Reports-Second-Quarter-2020-Results/default.aspx",
+      "verified_margins": {
+        "2019Q2": 13.4
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2020-10-28",
+      "captured_at": "2026-10-07T09:54:05.665532+00:00",
+      "file": "raw/company_02.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2019Q3"
+      ],
+      "raw_sha256": "7ac7de8f18eeedf1363b7373de8cc0d3243e32ba11b399d11622c8c9898ca57f",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2020/Murphy-USA-Inc.-Reports-Third-Quarter-2020-Results/default.aspx",
+      "verified_margins": {
+        "2019Q3": 18.4
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2021-02-03",
+      "captured_at": "2026-10-07T09:54:06.326344+00:00",
+      "file": "raw/company_03.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2019Q4"
+      ],
+      "raw_sha256": "be4f3f9c9c574eb46a9d1993f11b91d78331086961df98a3831477aef492396a",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2021/Murphy-USA-Inc.-Reports-Fourth-Quarter-2020-Results/default.aspx",
+      "verified_margins": {
+        "2019Q4": 14.9
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2021-04-28",
+      "captured_at": "2026-10-07T09:54:05.901186+00:00",
+      "file": "raw/company_04.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2020Q1"
+      ],
+      "raw_sha256": "c5f27614150e63e2a3f424e6a71ad2ef92ddd5550133ada335574576061e08c4",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2021/Murphy-USA-Inc.-Reports-First-Quarter-2021-Results/default.aspx",
+      "verified_margins": {
+        "2020Q1": 26.9
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2021-07-28",
+      "captured_at": "2026-10-07T09:54:06.723000+00:00",
+      "file": "raw/company_05.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2020Q2"
+      ],
+      "raw_sha256": "72b5c81cd5c0504a89dc419d0a656b94f06f43022df5d1cdc4794c4ed7be396b",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2021/Murphy-USA-Inc.-Reports-Second-Quarter-2021-Results/default.aspx",
+      "verified_margins": {
+        "2020Q2": 31.7
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2021-10-27",
+      "captured_at": "2026-10-07T09:54:07.168131+00:00",
+      "file": "raw/company_06.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2020Q3"
+      ],
+      "raw_sha256": "a3444fc542b820ec2246cf8410ef08e254561c7f1f31a30985907c42969e44a0",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2021/Murphy-USA-Inc.-Reports-Third-Quarter-2021-Results/default.aspx",
+      "verified_margins": {
+        "2020Q3": 19.0
+      }
+    },
+    {
+      "captured_at": "2026-10-07T09:54:06.991165+00:00",
+      "error": "cannot verify current/prior-year column order",
+      "file": "raw/company_07.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2020Q4"
+      ],
+      "raw_sha256": "6ca2bc5bbafd6d9d6651c9e051735a75d774231c1cf2ec79a96def2af4a9dfb4",
+      "status": "BLOCKED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2022/Murphy-USA-Inc.-Reports-Fourth-Quarter-2021-Results/default.aspx"
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2022-05-03",
+      "captured_at": "2026-10-07T09:54:06.959091+00:00",
+      "file": "raw/company_08.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2021Q1",
+        "2022Q1"
+      ],
+      "raw_sha256": "5bc2fe7f4d92f4975839de5f078d8f4fdab4d493153c81d01a9be4542475cca9",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2022/Murphy-USA-Inc.-Reports-First-Quarter-2022-Results/default.aspx",
+      "verified_margins": {
+        "2021Q1": 15.5,
+        "2022Q1": 23.3
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2022-07-27",
+      "captured_at": "2026-10-07T09:54:07.235837+00:00",
+      "file": "raw/company_09.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2021Q2",
+        "2022Q2"
+      ],
+      "raw_sha256": "1d8826826d6878c05a5ac5e6ac495b619bdb96d728838cd43ef46a7f4faa3baf",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2022/Murphy-USA-Inc.-Reports-Second-Quarter-2022-Results/default.aspx",
+      "verified_margins": {
+        "2021Q2": 21.8,
+        "2022Q2": 26.5
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2022-10-26",
+      "captured_at": "2026-10-07T09:54:07.430852+00:00",
+      "file": "raw/company_10.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2021Q3",
+        "2022Q3"
+      ],
+      "raw_sha256": "f93e5e96f85fc8031af43aa40cec4cebbaeed5ee02864ec50d5e46d1b2232040",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2022/Murphy-USA-Inc.-Reports-Third-Quarter-2022-Results/default.aspx",
+      "verified_margins": {
+        "2021Q3": 24.0,
+        "2022Q3": 39.3
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2023-02-01",
+      "captured_at": "2026-10-07T09:54:07.472001+00:00",
+      "file": "raw/company_11.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2021Q4",
+        "2022Q4"
+      ],
+      "raw_sha256": "8e2b44e488e41c66cf27971aa759161fd4498190ecffbe5064159573fb4a3b32",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2023/Murphy-USA-Inc.-Reports-Preliminary-Fourth-Quarter-2022-Results/default.aspx",
+      "verified_margins": {
+        "2021Q4": 25.5,
+        "2022Q4": 28.3
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2023-05-02",
+      "captured_at": "2026-10-07T09:54:07.501818+00:00",
+      "file": "raw/company_12.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2023Q1"
+      ],
+      "raw_sha256": "003a0395c3ab32aaea1482962abab59c59e877b7e587c1938124dd54d91347aa",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2023/Murphy-USA-Inc.-Reports-First-Quarter-2023-Results/default.aspx",
+      "verified_margins": {
+        "2023Q1": 23.2
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2023-08-02",
+      "captured_at": "2026-10-07T09:54:08.280718+00:00",
+      "file": "raw/company_13.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2023Q2"
+      ],
+      "raw_sha256": "eae5173a99f61cecdb685b044a379976cdd1baa6a445b99b4898529ed3966ee8",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2023/Murphy-USA-Inc.-Reports-Second-Quarter-2023-Results/default.aspx",
+      "verified_margins": {
+        "2023Q2": 27.0
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2023-11-01",
+      "captured_at": "2026-10-07T09:54:07.782762+00:00",
+      "file": "raw/company_14.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2023Q3"
+      ],
+      "raw_sha256": "3965d54d07932fe97ef3171bd30339b014bece2dc9de22c75c32c17e2d5c4159",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2023/Murphy-USA-Inc.-Reports-Third-Quarter-2023-Results/default.aspx",
+      "verified_margins": {
+        "2023Q3": 28.7
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2024-02-07",
+      "captured_at": "2026-10-07T09:54:08.387004+00:00",
+      "file": "raw/company_15.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2023Q4"
+      ],
+      "raw_sha256": "795c2c779dc032876b4c96f43a3b6b72aaf1a1d1ffcd45cfe39f7bc8aee4dca1",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2024/Murphy-USA-Inc.-Reports-Preliminary-Fourth-Quarter-2023-Results/default.aspx",
+      "verified_margins": {
+        "2023Q4": 31.1
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2024-05-01",
+      "captured_at": "2026-10-07T09:54:08.043573+00:00",
+      "file": "raw/company_16.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2024Q1"
+      ],
+      "raw_sha256": "3d872b186764c64ed0e375c3ab2c31b3c4f0f9ec1791e0892eb65cb8bc183a74",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2024/Murphy-USA-Inc.-Reports-Preliminary-First-Quarter-2024-Results/default.aspx",
+      "verified_margins": {
+        "2024Q1": 21.7
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2024-07-31",
+      "captured_at": "2026-10-07T09:54:08.448606+00:00",
+      "file": "raw/company_17.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2024Q2"
+      ],
+      "raw_sha256": "e3f098cacb2aa4607e43d02ad7a9f03adf98bb0d6d89fa393913ec52927f9db1",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2024/Murphy-USA-Inc.-Reports-Second-Quarter-2024-Results/default.aspx",
+      "verified_margins": {
+        "2024Q2": 29.7
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2024-10-30",
+      "captured_at": "2026-10-07T09:54:08.590493+00:00",
+      "file": "raw/company_18.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2024Q3"
+      ],
+      "raw_sha256": "1e9663459f6d9ea3501946562c932e2c92c6ebb1512ec99600125b011cad8476",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2024/Murphy-USA-Inc.-Reports-Third-Quarter-2024-Results/default.aspx",
+      "verified_margins": {
+        "2024Q3": 31.9
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2025-02-05",
+      "captured_at": "2026-10-07T09:54:08.663764+00:00",
+      "file": "raw/company_19.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2024Q4"
+      ],
+      "raw_sha256": "bf552d84401e05ffd8b0e8619e28e8c9000b4601842852cc0b828a7dc66eaf59",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2025/Murphy-USA-Inc.-Reports-Fourth-Quarter-2024-Results-and-2025-Guidance/default.aspx",
+      "verified_margins": {
+        "2024Q4": 28.9
+      }
+    },
+    {
+      "availability_method": "ISSUER_DATED_HISTORICAL_RELEASE_RETRIEVED_NOW",
+      "available_at": "2025-05-07",
+      "captured_at": "2026-10-07T09:54:08.694997+00:00",
+      "file": "raw/company_20.html",
+      "kind": "company_margin",
+      "quarters": [
+        "2025Q1"
+      ],
+      "raw_sha256": "4db6c94c4dbdf557005860a378f780fef1d9dc9de828b36682bb396d7cbeacf3",
+      "status": "VERIFIED",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2025/Murphy-USA-Inc--Reports-First-Quarter-2025-Results/default.aspx",
+      "verified_margins": {
+        "2025Q1": 23.7
+      }
+    }
+  ],
+  "spec_sha256": "b7e20a1b36cab6d111c37096860950b18eced13b2aba9cad37c0823c50a25379"
+}

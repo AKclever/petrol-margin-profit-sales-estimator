@@ -1,0 +1,17 @@
+{
+  "actual_available_at": "2024-07-31",
+  "actual_margin_cpg": 29.7,
+  "actual_source_url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2024/Murphy-USA-Inc.-Reports-Second-Quarter-2024-Results/default.aspx",
+  "evaluation_role": "RETROSPECTIVE_MECHANICAL_REPLAY",
+  "frozen_forecast_sha256": "e3eafc2c755d6f386327a54644e5c465bedd76eb4b475906ca47876f7eb162a1",
+  "incremental_abs_error_improvement": 0.42337884079198673,
+  "outcome_sha256": "a27b72bea71d7fd3dbbc68d67c53a189f1002fcabb5714d0b080c59733e5c68d",
+  "production_abs_error": 6.33596745104305,
+  "production_forecast_same_as_of": 23.36403254895695,
+  "prospective_validation": false,
+  "quarter": "2024Q2",
+  "scored_at": "2026-10-07T10:10:13.195085+00:00",
+  "shadow_abs_error": 5.912588610251063,
+  "shadow_forecast": 23.787411389748936,
+  "status": "SCORED_APPROXIMATE_RESEARCH_REPLAY_NOT_VALIDATION"
+}

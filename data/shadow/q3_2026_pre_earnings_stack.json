@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "quarter": "2026Q3",
+  "status": "PRE_EARNINGS_GOVERNANCE_RECORD",
+  "result_known": false,
+  "production_selection": {
+    "model": "PRODUCTION_CHAMPION",
+    "role": "OFFICIAL_INPUT",
+    "retail_margin_cpg": 29.54,
+    "historical_mae_cpg": 3.13,
+    "historical_directional_accuracy": 0.909,
+    "source_checkpoint": "data/shadow/checkpoints/2026Q3_2026-09-29_20260929T193925Z.json",
+    "source_checkpoint_sha256": "b9fb75bf5506c37b7a4f10ff7153ddca8a030cd3614453cf34b876875800dba5",
+    "selection_status": "FROZEN_CHAMPION_NOT_REPLACED"
+  },
+  "timing_challengers": {
+    "A_LAG_1_WEEK": 29.49,
+    "B_CURRENT_PRIOR_50_50": 27.98,
+    "C_TRAILING_3_WEEK_EQUAL": 28.05
+  },
+  "adaptive_challenger_v1": {
+    "role": "SHADOW_RESEARCH",
+    "forecast_type": "adaptive_realized_market_nowcast",
+    "retail_margin_cpg": 28.12,
+    "retail_low_cpg": 18.65,
+    "retail_high_cpg": 37.6,
+    "historical_mae_cpg": 3.44,
+    "historical_rmse_cpg": 4.28,
+    "historical_directional_accuracy": 0.818,
+    "regime": "FAST_RISING",
+    "historical_regime_support": 6,
+    "feature_distance_z": 3.33,
+    "design_status": "Q3_SHADOW_ONLY_DESIGNED_AFTER_Q3_MARKET_PATH_WAS_OBSERVED",
+    "promotion_status": "NOT_ELIGIBLE_UNTIL_CLEAN_PROSPECTIVE_EVIDENCE"
+  },
+  "research_risk_orientation": "DOWNSIDE_TO_PRODUCTION_CHAMPION",
+  "adaptive_input_vintage": {
+    "market_csv_sha256": "721da8ca24e87c7da17892413b70ad6d45eddc223c512eb329753679b1de4005",
+    "actuals_csv_sha256": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+    "weights_csv_sha256": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986",
+    "market_retrieved_at": "2026-10-05",
+    "adaptive_as_of": "2026-09-30"
+  },
+  "promotion_gate": {
+    "same_eligible_quarters_as_production": true,
+    "mae_lower_than_incumbent": false,
+    "rmse_no_higher_than_incumbent": false,
+    "directional_accuracy_not_materially_degraded": false,
+    "paired_improvement_lower_bound_positive": false,
+    "recent_window_no_worse_than_incumbent": true,
+    "requires_several_clean_prospective_quarters_starting_2026Q4": true,
+    "caseys_external_validity_warning_retained": true
+  }
+}

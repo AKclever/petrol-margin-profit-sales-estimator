@@ -1,7 +1,76 @@
 {
-  "as_of": "2026-09-29",
+  "as_of": "2026-10-05",
   "margin_project_status": "MAINTENANCE_MODE",
   "models": {
+    "MUSA_COUCHETARD_PEER_SURPRISE_V1": {
+      "production_status": "SHADOW_ONLY_NOT_PROMOTED",
+      "research_status": "SMALL_RETROSPECTIVE_IMPROVEMENT_FAILED_GATE",
+      "evaluation_role": "RETROSPECTIVE_CURRENT_VINTAGE_RESEARCH",
+      "q3_2026_retail_margin_cpg": 30.04405087449785,
+      "identical_backtest_quarters": 12,
+      "challenger_mae_cpg": 2.3401968422511232,
+      "production_same_rows_mae_cpg": 2.400270174076512,
+      "point_forecast_changed": false,
+      "specification": "data/couchetard_peer_spec_v1.json",
+      "output": "data/couchetard_peer/2026-10-07_v3"
+    },
+    "MUSA_DAILY_PRICE_INFORMATION_V1": {
+      "production_status": "CAPTURE_ONLY_NOT_A_FORECAST",
+      "research_status": "BLOCKED_DAILY_RETAIL_HISTORY",
+      "aaa_automation": "DISABLED_PENDING_PERMISSION_REVIEW",
+      "point_forecast_changed": false,
+      "specification": "data/daily_prices_spec_v1.json",
+      "output": "data/daily_prices/2026-10-07_v4"
+    },
+    "MUSA_CASEYS_PEER_SURPRISE_V1": {
+      "production_status": "SHADOW_ONLY_NOT_PROMOTED",
+      "research_status": "MODEST_RETROSPECTIVE_IMPROVEMENT_FAILED_GATE",
+      "evaluation_role": "RETROSPECTIVE_CURRENT_VINTAGE_RESEARCH",
+      "q3_2026_retail_margin_cpg": 30.60668713597962,
+      "identical_backtest_quarters": 11,
+      "challenger_mae_cpg": 1.7904585401858149,
+      "production_same_rows_mae_cpg": 2.0108937427829225,
+      "point_forecast_changed": false,
+      "specification": "data/peer_surprise_spec_v1.json",
+      "output": "data/peer_surprise/2026-10-07_v2"
+    },
+    "MUSA_SEQUENCE_ANCHOR_RESIDUAL_V1": {
+      "production_status": "SHADOW_ONLY_NOT_PROMOTED",
+      "research_status": "SMALL_RETROSPECTIVE_IMPROVEMENT_FAILED_GATE",
+      "evaluation_role": "CURRENT_VINTAGE_RESEARCH_HYPOTHESES_INFORMED_BY_SAME_HISTORY",
+      "q3_2026_retail_margin_cpg": 29.803358533367412,
+      "identical_backtest_quarters": 14,
+      "challenger_mae_cpg": 2.229349529180793,
+      "production_same_rows_mae_cpg": 2.30254056891048,
+      "point_forecast_changed": false,
+      "specification": "data/sequence_anchor_spec_v1.json",
+      "output": "data/sequence_anchor/q3_2026_v1_run2"
+    },
+    "MUSA_STATE_SPACE_V1": {
+      "production_status": "REJECTED_NOT_PROMOTED",
+      "research_status": "FAILED_HISTORICAL_GATE_UNUSABLE_NEGATIVE_TARGET_OUTPUT",
+      "evaluation_role": "CURRENT_VINTAGE_RETROSPECTIVE_RESEARCH_NOT_PIT_VALIDATION",
+      "q3_2026_raw_research_margin_cpg": -6.647434464981814,
+      "usable_q3_estimate": false,
+      "identical_backtest_quarters": 21,
+      "challenger_mae_cpg": 8.679814603386472,
+      "production_same_rows_mae_cpg": 3.121893245054152,
+      "point_forecast_changed": false,
+      "specification": "data/state_space_spec_v1.json",
+      "output": "data/state_space/q3_2026_v1"
+    },
+    "MUSA_WEEKLY_RETAIL_ADJUSTMENT_V1": {
+      "production_status": "SHADOW_ONLY_NOT_PROMOTED",
+      "research_status": "FAILED_IDENTICAL_ROW_HISTORICAL_GATE",
+      "evaluation_role": "CURRENT_VINTAGE_RETROSPECTIVE_RESEARCH_NOT_PIT_VALIDATION",
+      "q3_2026_retail_margin_cpg": 26.16709636490679,
+      "identical_backtest_quarters": 21,
+      "challenger_mae_cpg": 3.78925312465081,
+      "production_same_rows_mae_cpg": 3.121893245054152,
+      "point_forecast_changed": false,
+      "specification": "data/weekly_adjustment_spec_v1.json",
+      "output": "data/weekly_adjustment/q3_2026_v1_run2"
+    },
     "MUSA_GEO_RETAIL_CHALLENGER_V1": {
       "production_status": "NOT_PROMOTED",
       "research_status": "CLOSED_NO_INCREMENTAL_VALUE"
@@ -16,6 +85,18 @@
       "production_status": "CHAMPION",
       "q3_2026_retail_margin_cpg": 29.54
     },
+    "MUSA_MARGIN_REGIME_RISK_V1": {
+      "production_status": "DIAGNOSTIC_ONLY",
+      "research_status": "PROSPECTIVE_CANDIDATE",
+      "q3_2026_status": "SHADOW_ONLY_DESIGNED_AFTER_Q3_MARKET_PATH",
+      "point_forecast_changed": false
+    },
+    "MUSA_PARTIAL_QUARTER_MARGIN_V1": {
+      "production_status": "RESEARCH_ONLY",
+      "research_status": "DISCLOSURE_LEDGER_SEEDED_NO_TAIL_PROBABILITY_CALIBRATION",
+      "pit_audit_progress": "3_SOURCE_VERIFIED_OF_22;_19_PENDING",
+      "point_forecast_changed": false
+    },
     "MUSA_WHOLESALE_TIMING_A": {
       "production_status": "SHADOW_ONLY",
       "research_status": "FAILED_GATE"
@@ -29,5 +110,5 @@
       "research_status": "PROMISING_RECENTLY_NOT_SECURE"
     }
   },
-  "next_research_priority": "MUSA_OPERATING_TO_EPS_BRIDGE_V1"
+  "next_research_priority": "MUSA_PARTIAL_QUARTER_MARGIN_V1_PROSPECTIVE_COLLECTION_AND_SCORING"
 }

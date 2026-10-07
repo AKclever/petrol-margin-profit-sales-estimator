@@ -1,0 +1,1366 @@
+{
+  "evaluation_role": "RETROSPECTIVE_CURRENT_VINTAGE_RESEARCH_HYPOTHESES_INFORMED_BY_SAME_HISTORY_NOT_PIT_OR_INDEPENDENT_VALIDATION",
+  "excluded": [
+    {
+      "quarter": "2021Q1",
+      "reason": "insufficient earlier OOF residuals"
+    },
+    {
+      "quarter": "2021Q2",
+      "reason": "insufficient earlier OOF residuals"
+    },
+    {
+      "quarter": "2021Q3",
+      "reason": "insufficient earlier OOF residuals"
+    },
+    {
+      "quarter": "2021Q4",
+      "reason": "insufficient earlier OOF residuals"
+    },
+    {
+      "quarter": "2022Q1",
+      "reason": "insufficient earlier OOF residuals"
+    },
+    {
+      "quarter": "2022Q2",
+      "reason": "insufficient earlier OOF residuals"
+    },
+    {
+      "quarter": "2022Q3",
+      "reason": "insufficient earlier OOF residuals"
+    },
+    {
+      "quarter": "2022Q4",
+      "reason": "insufficient earlier OOF residuals"
+    }
+  ],
+  "metrics": {
+    "challenger_directional_accuracy": 0.8571428571428571,
+    "challenger_mae_cpg": 2.229349529180793,
+    "challenger_rmse_cpg": 2.779679486906638,
+    "identical_backtest_rows": 14,
+    "mean_paired_improvement_cpg": 0.07319103972968703,
+    "paired_improvement_ci_low_cpg": -0.6689565482036245,
+    "passes_pre_registered_gate": false,
+    "production_directional_accuracy": 0.8571428571428571,
+    "production_mae_cpg": 2.30254056891048,
+    "production_rmse_cpg": 3.1202044191700002,
+    "production_status": "UNCHANGED",
+    "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+    "recent_eight_challenger_directional_accuracy": 0.875,
+    "recent_eight_challenger_mae_cpg": 1.8710691823217527,
+    "recent_eight_production_directional_accuracy": 0.75,
+    "recent_eight_production_mae_cpg": 2.153515225634352
+  },
+  "rows": [
+    {
+      "actual_cpg": 23.2,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -4.25625,
+          21.697250746354506,
+          -25.61809907846391
+        ],
+        "scales": [
+          4.35204244435874,
+          10.979570341658428,
+          11.092566437977776
+        ],
+        "standardized_coefficients": [
+          1.1559823885897385,
+          1.5505850533173076,
+          3.5307765106930304,
+          1.177560445945603
+        ]
+      },
+      "challenger_abs_error_cpg": 2.271334005764853,
+      "correction_cpg": 2.6880973807738453,
+      "direction_correct": false,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 23.3,
+        "earlier_seasonal_quarters": [
+          "2020Q1",
+          "2021Q1",
+          "2022Q1"
+        ],
+        "prior_year_margin_cpg": 23.3,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 34.855087950045814,
+            "persistent_squeeze_cpg": 34.89782173046403,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 31.36797181922233,
+            "persistent_squeeze_cpg": 35.122031017733974,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 30.792488137985444,
+            "persistent_squeeze_cpg": 29.486662557195693,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        32.555408018951596,
+        -33.040795207656735
+      ],
+      "paired_abs_error_improvement_cpg": -1.854570630755859,
+      "prediction_cpg": 25.471334005764852,
+      "production_abs_error_cpg": 0.4167633750089941,
+      "production_prediction_cpg": 22.783236624991005,
+      "quarter": "2023Q1",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4"
+      ]
+    },
+    {
+      "actual_cpg": 27.0,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -3.783333333333333,
+          22.90371266553196,
+          -26.442843092818666
+        ],
+        "scales": [
+          4.315669125408017,
+          10.899578713540711,
+          10.715175298358739
+        ],
+        "standardized_coefficients": [
+          1.073846942636322,
+          1.1679357627204803,
+          3.1420129649637656,
+          1.1504859424249023
+        ]
+      },
+      "challenger_abs_error_cpg": 4.997732050455642,
+      "correction_cpg": 1.9821695496360654,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 26.5,
+        "earlier_seasonal_quarters": [
+          "2020Q2",
+          "2021Q2",
+          "2022Q2"
+        ],
+        "prior_year_margin_cpg": 26.5,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 29.21914367510493,
+            "persistent_squeeze_cpg": 24.49642042892776,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 28.08875974331697,
+            "persistent_squeeze_cpg": 22.017608921128783,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 29.67073760071728,
+            "persistent_squeeze_cpg": 29.611978111936462,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        29.098761414636954,
+        -25.690499971578504
+      ],
+      "paired_abs_error_improvement_cpg": -1.9821695496360654,
+      "prediction_cpg": 31.997732050455642,
+      "production_abs_error_cpg": 3.015562500819577,
+      "production_prediction_cpg": 30.015562500819577,
+      "quarter": "2023Q2",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1"
+      ]
+    },
+    {
+      "actual_cpg": 28.7,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -3.405,
+          23.52321754044246,
+          -26.36760878069465
+        ],
+        "scales": [
+          4.248614480039346,
+          10.50594170599398,
+          10.167813202581396
+        ],
+        "standardized_coefficients": [
+          0.6649059982907326,
+          0.6724325883032236,
+          2.5858894732320024,
+          0.7326524375724491
+        ]
+      },
+      "challenger_abs_error_cpg": 5.825638735503173,
+      "correction_cpg": -0.8577721828028243,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 15.299999999999997,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 24.0,
+        "earlier_seasonal_quarters": [
+          "2020Q3",
+          "2021Q3",
+          "2022Q3"
+        ],
+        "prior_year_margin_cpg": 39.3,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 22.367726440174398,
+            "persistent_squeeze_cpg": 27.05089234453568,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 23.103022171880113,
+            "persistent_squeeze_cpg": 30.463161501822793,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 17.91994010554942,
+            "persistent_squeeze_cpg": 17.67285013456765,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -15.299999999999997,
+        20.977798743813107,
+        -24.581464564036075
+      ],
+      "paired_abs_error_improvement_cpg": 0.857772182802826,
+      "prediction_cpg": 34.52563873550317,
+      "production_abs_error_cpg": 6.683410918305999,
+      "production_prediction_cpg": 35.383410918306,
+      "quarter": "2023Q3",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2"
+      ]
+    },
+    {
+      "actual_cpg": 31.1,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -4.486363636363635,
+          23.29181583165797,
+          -26.20523203372569
+        ],
+        "scales": [
+          5.301247319310415,
+          10.043714696214735,
+          9.708218337157208
+        ],
+        "standardized_coefficients": [
+          -0.0031228123089706837,
+          1.579123486895493,
+          2.5976516191264873,
+          0.8344046349089697
+        ]
+      },
+      "challenger_abs_error_cpg": 0.5855086864319361,
+      "correction_cpg": 0.9108101327598699,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 2.8000000000000007,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 25.5,
+        "earlier_seasonal_quarters": [
+          "2020Q4",
+          "2021Q4",
+          "2022Q4"
+        ],
+        "prior_year_margin_cpg": 28.3,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 27.37044940784984,
+            "persistent_squeeze_cpg": 20.10227674956814,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 24.272852158462847,
+            "persistent_squeeze_cpg": 20.366433735794423,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 26.335816001133274,
+            "persistent_squeeze_cpg": 18.73132679179028,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -2.8000000000000007,
+        26.237482363242275,
+        -19.68314917853671
+      ],
+      "paired_abs_error_improvement_cpg": 0.9108101327598703,
+      "prediction_cpg": 30.514491313568065,
+      "production_abs_error_cpg": 1.4963188191918064,
+      "production_prediction_cpg": 29.603681180808195,
+      "quarter": "2023Q4",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3"
+      ]
+    },
+    {
+      "actual_cpg": 21.7,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -4.345833333333333,
+          23.53728804262333,
+          -25.66172512912661
+        ],
+        "scales": [
+          5.096913213461217,
+          9.650527299615895,
+          9.468092485671974
+        ],
+        "standardized_coefficients": [
+          0.12183065698276077,
+          1.5269473032597423,
+          2.52308722367273,
+          0.8222290787207457
+        ]
+      },
+      "challenger_abs_error_cpg": 0.47872058083149227,
+      "correction_cpg": -0.44915747026549835,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 23.2,
+        "earlier_seasonal_quarters": [
+          "2021Q1",
+          "2022Q1",
+          "2023Q1"
+        ],
+        "prior_year_margin_cpg": 23.2,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 11.942748441999774,
+            "persistent_squeeze_cpg": 23.4840067011318,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 8.177586265489861,
+            "persistent_squeeze_cpg": 18.958085522928265,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 17.452279737771736,
+            "persistent_squeeze_cpg": 18.352879180231433,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        12.9574468231441,
+        -20.549344739362414
+      ],
+      "paired_abs_error_improvement_cpg": 0.44915747026549724,
+      "prediction_cpg": 22.17872058083149,
+      "production_abs_error_cpg": 0.9278780510969895,
+      "production_prediction_cpg": 22.62787805109699,
+      "quarter": "2024Q1",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4"
+      ]
+    },
+    {
+      "actual_cpg": 29.7,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -4.0115384615384615,
+          22.72345410266339,
+          -25.26846509914475
+        ],
+        "scales": [
+          5.03201878153803,
+          9.691054290082217,
+          9.198090279179384
+        ],
+        "standardized_coefficients": [
+          0.041083833284318104,
+          1.5117773409051798,
+          2.537468343700241,
+          0.8068254449581445
+        ]
+      },
+      "challenger_abs_error_cpg": 2.0834058909699813,
+      "correction_cpg": 0.38410660427855486,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.5,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 26.5,
+        "earlier_seasonal_quarters": [
+          "2021Q2",
+          "2022Q2",
+          "2023Q2"
+        ],
+        "prior_year_margin_cpg": 27.0,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 17.323216519908122,
+            "persistent_squeeze_cpg": 13.157242489207418,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 16.592657897440972,
+            "persistent_squeeze_cpg": 11.130522987741262,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 18.481876792074686,
+            "persistent_squeeze_cpg": 15.741106616124005,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.5,
+        17.551782574441113,
+        -13.568483649905163
+      ],
+      "paired_abs_error_improvement_cpg": 0.3841066042785535,
+      "prediction_cpg": 27.616594109030018,
+      "production_abs_error_cpg": 2.4675124952485348,
+      "production_prediction_cpg": 27.232487504751465,
+      "quarter": "2024Q2",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1"
+      ]
+    },
+    {
+      "actual_cpg": 31.9,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -3.7607142857142857,
+          22.354048993504655,
+          -24.432752138484776
+        ],
+        "scales": [
+          4.932587649334509,
+          9.433037220336606,
+          9.361680946310129
+        ],
+        "standardized_coefficients": [
+          0.21440016628176226,
+          1.565029793681945,
+          2.5268896860077934,
+          0.9792115375433473
+        ]
+      },
+      "challenger_abs_error_cpg": 1.0999132158984466,
+      "correction_cpg": 0.5823093830050776,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 28.7,
+        "earlier_seasonal_quarters": [
+          "2021Q3",
+          "2022Q3",
+          "2023Q3"
+        ],
+        "prior_year_margin_cpg": 28.7,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 16.529139470191176,
+            "persistent_squeeze_cpg": 13.05900800395119,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 12.872344692552781,
+            "persistent_squeeze_cpg": 8.609386716782698,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 18.268145771368985,
+            "persistent_squeeze_cpg": 10.613821434325015,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        16.237996046114063,
+        -11.092586058837036
+      ],
+      "paired_abs_error_improvement_cpg": -0.5823093830050752,
+      "prediction_cpg": 32.999913215898445,
+      "production_abs_error_cpg": 0.5176038328933714,
+      "production_prediction_cpg": 32.41760383289337,
+      "quarter": "2024Q3",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2"
+      ]
+    },
+    {
+      "actual_cpg": 28.9,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -3.51,
+          21.946312130345284,
+          -23.543407733174927
+        ],
+        "scales": [
+          4.856789062745055,
+          9.239996537572152,
+          9.636980892827484
+        ],
+        "standardized_coefficients": [
+          0.16559989967008712,
+          1.4777256262684564,
+          2.4603404871443066,
+          0.8654461260744672
+        ]
+      },
+      "challenger_abs_error_cpg": 1.591904032649488,
+      "correction_cpg": -0.23970471730797205,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 2.8000000000000007,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 28.3,
+        "earlier_seasonal_quarters": [
+          "2021Q4",
+          "2022Q4",
+          "2023Q4"
+        ],
+        "prior_year_margin_cpg": 31.1,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 16.107016588418613,
+            "persistent_squeeze_cpg": 15.363853517382518,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 16.66008892980295,
+            "persistent_squeeze_cpg": 17.638626112025182,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 17.04439501672676,
+            "persistent_squeeze_cpg": 18.9824406796438,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -2.8000000000000007,
+        16.57532769118051,
+        -17.206299359175027
+      ],
+      "paired_abs_error_improvement_cpg": 0.23970471730797271,
+      "prediction_cpg": 30.491904032649487,
+      "production_abs_error_cpg": 1.8316087499574607,
+      "production_prediction_cpg": 30.73160874995746,
+      "quarter": "2024Q4",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3"
+      ]
+    },
+    {
+      "actual_cpg": 23.7,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -3.4656249999999997,
+          21.610625602897485,
+          -23.147338459799933
+        ],
+        "scales": [
+          4.70570527225994,
+          9.040559810326913,
+          9.456214952233998
+        ],
+        "standardized_coefficients": [
+          0.040774359068365566,
+          1.4321444183224934,
+          2.4508774939303644,
+          0.8331089525343855
+        ]
+      },
+      "challenger_abs_error_cpg": 0.6611497840824505,
+      "correction_cpg": -0.10761466434658529,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": -1.5,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 23.2,
+        "earlier_seasonal_quarters": [
+          "2022Q1",
+          "2023Q1",
+          "2024Q1"
+        ],
+        "prior_year_margin_cpg": 21.7,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 10.289850912367646,
+            "persistent_squeeze_cpg": 12.06853103985102,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 11.764772366651169,
+            "persistent_squeeze_cpg": 16.921979778511222,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 13.955316024946532,
+            "persistent_squeeze_cpg": 12.666601278054358,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        1.5,
+        11.95074174462591,
+        -13.482121875418386
+      ],
+      "paired_abs_error_improvement_cpg": 0.10761466434658473,
+      "prediction_cpg": 24.36114978408245,
+      "production_abs_error_cpg": 0.7687644484290352,
+      "production_prediction_cpg": 24.468764448429035,
+      "quarter": "2025Q1",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4"
+      ]
+    },
+    {
+      "actual_cpg": 29.2,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -3.1735294117647057,
+          21.042397140646216,
+          -22.578796307777488
+        ],
+        "scales": [
+          4.712346663040013,
+          9.060359303843228,
+          9.451552465544603
+        ],
+        "standardized_coefficients": [
+          -0.006845570784422841,
+          1.4070049299291634,
+          2.4728777781718123,
+          0.8175882526413621
+        ]
+      },
+      "challenger_abs_error_cpg": 4.491106144078454,
+      "correction_cpg": 0.0034993883054352526,
+      "direction_correct": false,
+      "feature_details": {
+        "anchor_anomaly_cpg": 2.6999999999999993,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 27.0,
+        "earlier_seasonal_quarters": [
+          "2022Q2",
+          "2023Q2",
+          "2024Q2"
+        ],
+        "prior_year_margin_cpg": 29.7,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 20.76229321506138,
+            "persistent_squeeze_cpg": 21.86143953962997,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 17.530131815385428,
+            "persistent_squeeze_cpg": 18.75182813769746,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 21.239834775780125,
+            "persistent_squeeze_cpg": 22.10113137862887,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -2.6999999999999993,
+        20.130469713753165,
+        -21.17590428687037
+      ],
+      "paired_abs_error_improvement_cpg": -0.0034993883054355024,
+      "prediction_cpg": 33.691106144078454,
+      "production_abs_error_cpg": 4.487606755773019,
+      "production_prediction_cpg": 33.68760675577302,
+      "quarter": "2025Q2",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1"
+      ]
+    },
+    {
+      "actual_cpg": 28.3,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -3.147222222222222,
+          20.991734505818826,
+          -22.50085786217154
+        ],
+        "scales": [
+          4.580862128410565,
+          8.807563962414028,
+          9.190877466726572
+        ],
+        "standardized_coefficients": [
+          -0.2557767477282334,
+          1.3562059384988923,
+          2.4346787939738768,
+          0.7882119581602569
+        ]
+      },
+      "challenger_abs_error_cpg": 2.33757405454622,
+      "correction_cpg": 0.205049368775822,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 31.9,
+        "earlier_seasonal_quarters": [
+          "2022Q3",
+          "2023Q3",
+          "2024Q3"
+        ],
+        "prior_year_margin_cpg": 31.9,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 15.490591467818481,
+            "persistent_squeeze_cpg": 17.662634112232865,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 18.732690956274993,
+            "persistent_squeeze_cpg": 19.236053815461865,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 22.757843568141944,
+            "persistent_squeeze_cpg": 19.600480556831755,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        18.862258473563774,
+        -18.73729969629298
+      ],
+      "paired_abs_error_improvement_cpg": -0.20504936877582125,
+      "prediction_cpg": 30.63757405454622,
+      "production_abs_error_cpg": 2.1325246857703988,
+      "production_prediction_cpg": 30.4325246857704,
+      "quarter": "2025Q3",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2"
+      ]
+    },
+    {
+      "actual_cpg": 31.0,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -2.981578947368421,
+          20.879656819910664,
+          -22.302775853441087
+        ],
+        "scales": [
+          4.513727906308527,
+          8.585830722037922,
+          8.985130968372607
+        ],
+        "standardized_coefficients": [
+          -0.35455295499361067,
+          1.2637541133686938,
+          2.391216348803754,
+          0.7440857732395394
+        ]
+      },
+      "challenger_abs_error_cpg": 1.129935986996479,
+      "correction_cpg": -0.3275026934821045,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 28.9,
+        "earlier_seasonal_quarters": [
+          "2022Q4",
+          "2023Q4",
+          "2024Q4"
+        ],
+        "prior_year_margin_cpg": 28.9,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 12.312900899609302,
+            "persistent_squeeze_cpg": 9.973875690580327,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 12.840205379506475,
+            "persistent_squeeze_cpg": 12.94667995871793,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 15.288696221072888,
+            "persistent_squeeze_cpg": 11.294398282839165,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        13.495303651364972,
+        -11.176978349790982
+      ],
+      "paired_abs_error_improvement_cpg": -0.3275026934821028,
+      "prediction_cpg": 29.87006401300352,
+      "production_abs_error_cpg": 0.8024332935143761,
+      "production_prediction_cpg": 30.197566706485624,
+      "quarter": "2025Q4",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2",
+        "2025Q3"
+      ]
+    },
+    {
+      "actual_cpg": 25.4,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -2.8325,
+          20.51043916148338,
+          -21.746485978258583
+        ],
+        "scales": [
+          4.44716974602949,
+          8.521782479898892,
+          9.087115035711212
+        ],
+        "standardized_coefficients": [
+          -0.29670364256821163,
+          1.2821603997942879,
+          2.373080644877964,
+          0.8233954627256931
+        ]
+      },
+      "challenger_abs_error_cpg": 0.9897706708248712,
+      "correction_cpg": -0.9071063012516437,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.5,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 23.2,
+        "earlier_seasonal_quarters": [
+          "2023Q1",
+          "2024Q1",
+          "2025Q1"
+        ],
+        "prior_year_margin_cpg": 23.7,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 19.65887285207097,
+            "persistent_squeeze_cpg": 33.50446092221543,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 19.660205287188113,
+            "persistent_squeeze_cpg": 37.16236590269195,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 10.976876296413698,
+            "persistent_squeeze_cpg": 31.971643815553612,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.5,
+        16.59056857897797,
+        -33.86875650306904
+      ],
+      "paired_abs_error_improvement_cpg": -0.9071063012516447,
+      "prediction_cpg": 24.410229329175127,
+      "production_abs_error_cpg": 0.08266436957322654,
+      "production_prediction_cpg": 25.317335630426772,
+      "quarter": "2026Q1",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2",
+        "2025Q3",
+        "2025Q4"
+      ]
+    },
+    {
+      "actual_cpg": 35.1,
+      "calibration": {
+        "active_feature_indices": [
+          0,
+          1,
+          2
+        ],
+        "alpha": 2,
+        "constraints": "nonnegative on negative anchor anomaly, capture, negative squeeze",
+        "feature_names": [
+          "negative_anchor_anomaly",
+          "persistent_capture",
+          "negative_persistent_squeeze"
+        ],
+        "means": [
+          -2.7214285714285715,
+          20.32377865755455,
+          -22.32373695563051
+        ],
+        "scales": [
+          4.368326786260916,
+          8.358198806474421,
+          9.236225377267415
+        ],
+        "standardized_coefficients": [
+          -0.27863849913290545,
+          1.3075452930885303,
+          2.1791706966083164,
+          0.635607485382892
+        ]
+      },
+      "challenger_abs_error_cpg": 2.667199569497612,
+      "correction_cpg": 3.9377160996663148,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 29.2,
+        "earlier_seasonal_quarters": [
+          "2023Q2",
+          "2024Q2",
+          "2025Q2"
+        ],
+        "prior_year_margin_cpg": 29.2,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 53.21071801814871,
+            "persistent_squeeze_cpg": 45.753804853969406,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 64.4375575068645,
+            "persistent_squeeze_cpg": 48.37045546915052,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 47.81014272274773,
+            "persistent_squeeze_cpg": 37.74779582235942,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        54.08279484933421,
+        -43.5722439477959
+      ],
+      "paired_abs_error_improvement_cpg": 3.937716099666318,
+      "prediction_cpg": 32.43280043050239,
+      "production_abs_error_cpg": 6.60491566916393,
+      "production_prediction_cpg": 28.49508433083607,
+      "quarter": "2026Q2",
+      "training_residual_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2",
+        "2025Q3",
+        "2025Q4",
+        "2026Q1"
+      ]
+    }
+  ]
+}

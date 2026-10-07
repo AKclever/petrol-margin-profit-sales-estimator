@@ -7,7 +7,7 @@ import json
 from datetime import date
 
 from .data import DataError, load_actuals, load_market, load_weights
-from .model import NowcastEngine
+from .model import AdaptiveNowcastEngine, NowcastEngine
 
 
 def parser() -> argparse.ArgumentParser:
@@ -24,6 +24,8 @@ def parser() -> argparse.ArgumentParser:
     result.add_argument("--as-of", type=date.fromisoformat)
     result.add_argument("--gallons-million", type=float)
     result.add_argument("--alpha", type=float, default=2.0, help="Ridge penalty (default: 2.0)")
+    result.add_argument("--adaptive", action="store_true",
+                        help="Run the shadow adaptive challenger; never the production default")
     result.add_argument("--json", action="store_true", help="Emit machine-readable JSON")
     return result
 
@@ -67,6 +69,9 @@ def _markdown(data: dict[str, object], company: str) -> str:
 
 As of **{data['as_of']}**, the tracker has {data['observed_weeks']} of approximately
 {data['expected_weeks']} quarter-weeks ({float(data['coverage']) * 100:.1f}% coverage).
+Forecast type: **{data['forecast_type']}**. Regime: **{data['regime']}**
+({data['historical_regime_support']} historical comparable quarters; maximum feature distance
+{data['feature_distance_z']:.2f}σ; interval multiplier {data['regime_penalty']:.2f}×).
 
 | Measure | Low | Base | High |
 |---|---:|---:|---:|
@@ -94,8 +99,9 @@ strongest baseline MAE **{data['recent_baseline_mae_cpg']:.2f} cents**, directio
 def main(argv: list[str] | None = None) -> int:
     args = parser().parse_args(argv)
     try:
-        engine = NowcastEngine(load_market(args.market), load_weights(args.weights),
-                               load_actuals(args.actuals), alpha=args.alpha)
+        engine_class = AdaptiveNowcastEngine if args.adaptive else NowcastEngine
+        engine = engine_class(load_market(args.market), load_weights(args.weights),
+                              load_actuals(args.actuals), alpha=args.alpha)
         if args.backtest:
             data = engine.backtest()
             print(json.dumps(data, indent=2, sort_keys=True) if args.json

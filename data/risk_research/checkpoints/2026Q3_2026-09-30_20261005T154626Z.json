@@ -1,0 +1,62 @@
+{
+  "as_of": "2026-09-30",
+  "checkpoint_id": "2026Q3_2026-09-30_20261005T154626Z",
+  "checkpoint_sha256_without_self_hash": "82ac4ee82c80c51dbf239a4c05a57e565526a58672ba7a41b5a4e6f72a9ba9b9",
+  "created_at": "2026-10-05T15:46:26Z",
+  "expected_error_class": "ABOVE_NORMAL_RISK",
+  "expected_error_rule": "ELEVATED=>ABOVE_NORMAL_RISK; NORMAL=>TYPICAL_RISK",
+  "inputs": {
+    "data/actuals.csv": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+    "data/market.csv": "721da8ca24e87c7da17892413b70ad6d45eddc223c512eb329753679b1de4005",
+    "data/weights.csv": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986"
+  },
+  "production_forecast_cpg": 29.54,
+  "production_historical_mae_cpg": 3.13,
+  "quarter": "2026Q3",
+  "result_known_at_capture": false,
+  "risk": {
+    "as_of": "2026-09-30",
+    "forecast_type": "production_model_risk_diagnostic",
+    "overall_risk": "ELEVATED",
+    "point_forecast_changed": false,
+    "quarter_end": "2026-09-30",
+    "quarter_start": "2026-07-01",
+    "risk_orientation": "BIDIRECTIONAL",
+    "risks": {
+      "anchor_reversal_risk": {
+        "level": "LOW",
+        "orientation": "BIDIRECTIONAL",
+        "prior_year_margin_cpg": 28.3,
+        "prior_year_margin_percentile": 0.667,
+        "reason": "Extreme same-quarter prior-year anchor with an opposite market move.",
+        "triggered": false,
+        "wholesale_change_difference_cpg": 87.98
+      },
+      "falling_capture_expansion": {
+        "level": "HIGH",
+        "mean_capture_gap_cpg": 19.77,
+        "orientation": "UNDER_ESTIMATE_RISK",
+        "qualifying_weeks": 3,
+        "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+      },
+      "rising_squeeze_risk": {
+        "level": "HIGH",
+        "mean_capture_gap_cpg": 10.18,
+        "orientation": "OVER_ESTIMATE_RISK",
+        "qualifying_weeks": 8,
+        "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+      },
+      "structural_capture_uncertainty": {
+        "adaptive_regime": "FAST_RISING",
+        "feature_distance_z": 3.33,
+        "historical_regime_support": 6,
+        "level": "HIGH",
+        "orientation": "BIDIRECTIONAL",
+        "reason": "Unusual market features or a material shift in the reported margin floor.",
+        "trailing_four_reported_margin_shift_cpg": 4.9
+      }
+    },
+    "spec_id": "MUSA_MARGIN_REGIME_RISK_V1"
+  },
+  "schema_version": 1
+}

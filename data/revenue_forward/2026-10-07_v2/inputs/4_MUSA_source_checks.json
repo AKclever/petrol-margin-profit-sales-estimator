@@ -1,0 +1,416 @@
+{
+  "captured_at": "2026-10-07T14:32:54.445399+00:00",
+  "checks": [
+    {
+      "matched_quarters": [
+        "2026Q2"
+      ],
+      "sha256": "fb0bf4b87b215abc8acc3783565b65ad029d01bf175727f6b51f64cd39976648",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351626000164/musa-20260805.htm"
+    },
+    {
+      "matched_quarters": [
+        "2026Q1"
+      ],
+      "sha256": "0595093b69edd74f70f2170c2daa0aa4b42c544e551283f79eb35bcf0c8dff79",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351626000127/musa-20260429.htm"
+    },
+    {
+      "matched_quarters": [
+        "2025Q4"
+      ],
+      "sha256": "b1e8c00b245ddbce2aaba4f232891e534d1cd2b212422041fa5eaebbf5f39302",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351626000026/musa-20260204.htm"
+    },
+    {
+      "matched_quarters": [
+        "2025Q3"
+      ],
+      "sha256": "e34d1368411c9fd01b5d37e5595ab380f90749ba3b5169a8b27328006adb1da3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000071/musa-20251023.htm"
+    },
+    {
+      "matched_quarters": [
+        "2025Q2"
+      ],
+      "sha256": "53b5c00830bc09401c59b126f3c82787e4fe4738c25138ca024b8cfed1938bfa",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000046/musa-20250730.htm"
+    },
+    {
+      "matched_quarters": [
+        "2025Q1"
+      ],
+      "sha256": "f85510b06f21e4d6bd1dfe87531bed14a2b831d740363ba2bfdcd07c662fe7e4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000036/musa-20250507.htm"
+    },
+    {
+      "matched_quarters": [
+        "2024Q4"
+      ],
+      "sha256": "df759ba6b528943da5464b47f34519bd71800d6bdcaefe991d4b1e948ccd3323",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000003/musa-20250205.htm"
+    },
+    {
+      "matched_quarters": [
+        "2024Q3"
+      ],
+      "sha256": "55f7dd5dae0eb7a75d3c706f9b7abf309c33a7994e15cc7af3746aae576f3f05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000052/musa-20241030.htm"
+    },
+    {
+      "matched_quarters": [
+        "2024Q2"
+      ],
+      "sha256": "0feb6eefd48cfd0c5899f6a6cda0d6170dad017d55e93f165cdf194ac4e768a4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000044/musa-20240731.htm"
+    },
+    {
+      "matched_quarters": [
+        "2024Q1"
+      ],
+      "sha256": "4ddb351e9c973a2bcf43592dde3bec514ddbce80153686b1c16ff61211c6968e",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000032/musa-20240501.htm"
+    },
+    {
+      "matched_quarters": [
+        "2023Q4"
+      ],
+      "sha256": "aa854646e4708d54600eeba88e7c3982fa1bcf84e060125a62ed92019f387df3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000003/musa-20240207.htm"
+    },
+    {
+      "matched_quarters": [
+        "2023Q3"
+      ],
+      "sha256": "fc092f9fb5a83d716ccb4ca637c8b740ac5cc7172062029b32cc8ab704fb6d98",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000046/musa-20231101.htm"
+    },
+    {
+      "matched_quarters": [
+        "2023Q2"
+      ],
+      "sha256": "530524c59cc8ab052f0e912ac49179357c6962888fa39f24e2552f34bf391d5e",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000036/musa-20230802.htm"
+    },
+    {
+      "matched_quarters": [
+        "2023Q1"
+      ],
+      "sha256": "bb51c013b5b0ef9a12413cbe27a38efdf1e3fa263e609cbc3ac60122066d4b33",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000019/musa-20230502.htm"
+    },
+    {
+      "matched_quarters": [
+        "2022Q4"
+      ],
+      "sha256": "9abd214af306c09009437ece59d12aa5ac04aa492c3adcdebd6ae0790fa0d393",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000005/musa-20230201.htm"
+    },
+    {
+      "matched_quarters": [
+        "2022Q3"
+      ],
+      "sha256": "de3708247fe0083c9d982999984bbb57f21e5bf37767ad5b5e9e0f7db11bce82",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000043/musa-20221026.htm"
+    },
+    {
+      "matched_quarters": [
+        "2022Q1"
+      ],
+      "sha256": "1b3bda5a7537ed47c0f550f103be177f496da81ae4c9c303a4f9335ad08acbe9",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000017/musa-20220503.htm"
+    },
+    {
+      "matched_quarters": [
+        "2021Q4"
+      ],
+      "sha256": "7b6de990359a9250aefdf9cfbf09827efe8909f9da3b841b928aaf74871232d2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000003/musa-20220202.htm"
+    },
+    {
+      "matched_quarters": [
+        "2021Q3"
+      ],
+      "sha256": "0ee2795b50ab99c4ea80426f59ea05b6c4f300efa84256074e344cc4d7a1a264",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000052/musa-20211027.htm"
+    },
+    {
+      "matched_quarters": [
+        "2021Q2"
+      ],
+      "sha256": "588fc183cce8b75ae4c30dbfe9119a9bdb11fd69827147b1e5e531228fe9c5da",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000042/musa-20210728.htm"
+    },
+    {
+      "matched_quarters": [
+        "2021Q1"
+      ],
+      "sha256": "962beb495beb1b1076318e9c7c6c62ba817633d2788ffe3c2d64b721098b437f",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000024/musa-20210428.htm"
+    },
+    {
+      "matched_quarters": [
+        "2020Q4"
+      ],
+      "sha256": "2812325bfaeab8c4bc17a4f6c0a776da4b04352ae2da2fa326cb44d63821315a",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000012/musa-20210203.htm"
+    },
+    {
+      "matched_quarters": [
+        "2020Q3"
+      ],
+      "sha256": "8ee3d49f223659a6aa362c94c6c521781b1e8108748a0db40da7889bd11296fa",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351620000065/musa-20201028.htm"
+    },
+    {
+      "matched_quarters": [
+        "2020Q2"
+      ],
+      "sha256": "549b86f65892d2f3e4e26ccf2bc95a1212532d99e65f0bfedffe97d9e5e383eb",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351620000048/musa-20200721.htm"
+    },
+    {
+      "matched_quarters": [
+        "2020Q1"
+      ],
+      "sha256": "9b7d487e3db0ba6515dde8b2c96ae5fa21684351f77e40f20583fd0793405c75",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351620000018/musa-20200417.htm"
+    },
+    {
+      "matched_quarters": [
+        "2019Q4"
+      ],
+      "sha256": "7d2181d594c45acd60e03fe7c2d9aac0da40edf0d8a3f39354bf6a5c5c7d8dbf",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351620000003/musa-20200129.htm"
+    },
+    {
+      "matched_quarters": [
+        "2019Q3"
+      ],
+      "sha256": "5ea6adea19d54bac65563e04f5b9410032089b3600a80963d1a7f044ff58d65c",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351619000053/musa-20191030.htm"
+    },
+    {
+      "matched_quarters": [
+        "2019Q2"
+      ],
+      "sha256": "8b38c323db743d6949a89013e1dbbce424ff6184519fadb5630b5f81b61d2fb7",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351619000033/form8-k06302019earning.htm"
+    },
+    {
+      "matched_quarters": [
+        "2019Q1"
+      ],
+      "sha256": "cb4a6c75df3ff3c11e101bb412e649a206b805d8d48aa258fab1f54ee17d475b",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351619000015/form8-k03312019earning.htm"
+    }
+  ],
+  "unresolved": [
+    "2022Q2"
+  ],
+  "verified": {
+    "2019Q1": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2019-04-29",
+      "evidence": " Results of Operations and Financial Condition On April 29, 2019, Murphy USA Inc. issued a news release announcing its financial results for the three months ended March 31, 2019. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "cb4a6c75df3ff3c11e101bb412e649a206b805d8d48aa258fab1f54ee17d475b",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351619000015/form8-k03312019earning.htm"
+    },
+    "2019Q2": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2019-07-31",
+      "evidence": " Results of Operations and Financial Condition On July 31, 2019, Murphy USA Inc. issued a news release announcing its financial results for the three and six months ended June 30, 2019. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "8b38c323db743d6949a89013e1dbbce424ff6184519fadb5630b5f81b61d2fb7",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351619000033/form8-k06302019earning.htm"
+    },
+    "2019Q3": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2019-10-30",
+      "evidence": " Results of Operations and Financial Condition On October 30, 2019, Murphy USA Inc. issued a news release announcing its financial results for the three and nine months ended September 30, 2019. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "5ea6adea19d54bac65563e04f5b9410032089b3600a80963d1a7f044ff58d65c",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351619000053/musa-20191030.htm"
+    },
+    "2019Q4": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2020-01-29",
+      "evidence": " Results of Operations and Financial Condition On January 29, 2020, Murphy USA Inc. issued a news release announcing its financial results for the three and twelve months ended December 31, 2019. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "7d2181d594c45acd60e03fe7c2d9aac0da40edf0d8a3f39354bf6a5c5c7d8dbf",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351620000003/musa-20200129.htm"
+    },
+    "2020Q1": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2020-04-17",
+      "evidence": " Results of Operations and Financial Condition On April 17, 2020, Murphy USA Inc. issued a news release announcing its financial results for the three months ended March 31, 2020. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "9b7d487e3db0ba6515dde8b2c96ae5fa21684351f77e40f20583fd0793405c75",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351620000018/musa-20200417.htm"
+    },
+    "2020Q2": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2020-07-21",
+      "evidence": " Results of Operations and Financial Condition On July 21, 2020, Murphy USA Inc. issued a news release announcing its financial results for the three and six months ended June 30, 2020. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "549b86f65892d2f3e4e26ccf2bc95a1212532d99e65f0bfedffe97d9e5e383eb",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351620000048/musa-20200721.htm"
+    },
+    "2020Q3": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2020-10-28",
+      "evidence": " Results of Operations and Financial Condition On October 28, 2020, Murphy USA Inc. issued a news release announcing its financial results for the three and nine months ended September 30, 2020. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "8ee3d49f223659a6aa362c94c6c521781b1e8108748a0db40da7889bd11296fa",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351620000065/musa-20201028.htm"
+    },
+    "2020Q4": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2021-02-03",
+      "evidence": " Results of Operations and Financial Condition On February 3, 2021, Murphy USA Inc. issued a news release announcing its financial results for the three and twelve months ended December 31, 2020. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "2812325bfaeab8c4bc17a4f6c0a776da4b04352ae2da2fa326cb44d63821315a",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000012/musa-20210203.htm"
+    },
+    "2021Q1": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2021-04-28",
+      "evidence": " Results of Operations and Financial Condition On April 28, 2021, Murphy USA Inc. issued a news release announcing its financial results for the three months ended March 31, 2021. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "962beb495beb1b1076318e9c7c6c62ba817633d2788ffe3c2d64b721098b437f",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000024/musa-20210428.htm"
+    },
+    "2021Q2": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2021-07-28",
+      "evidence": " Results of Operations and Financial Condition On July 28, 2021, Murphy USA Inc. issued a news release announcing its financial results for the three and six months ended June 30, 2021. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "588fc183cce8b75ae4c30dbfe9119a9bdb11fd69827147b1e5e531228fe9c5da",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000042/musa-20210728.htm"
+    },
+    "2021Q3": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2021-10-27",
+      "evidence": " Results of Operations and Financial Condition On October 27, 2021, Murphy USA Inc. issued a news release announcing its financial results for the three and nine months ended September 30, 2021. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "0ee2795b50ab99c4ea80426f59ea05b6c4f300efa84256074e344cc4d7a1a264",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000052/musa-20211027.htm"
+    },
+    "2021Q4": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2022-02-02",
+      "evidence": " Results of Operations and Financial Condition On February 2, 2022, Murphy USA Inc. issued a news release announcing its financial results for the three and twelve months ended December 31, 2021. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "7b6de990359a9250aefdf9cfbf09827efe8909f9da3b841b928aaf74871232d2",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000003/musa-20220202.htm"
+    },
+    "2022Q1": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2022-05-03",
+      "evidence": " Results of Operations and Financial Condition On May 3, 2022, Murphy USA Inc. issued a news release announcing its financial results for the three months ended March 31, 2022. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "1b3bda5a7537ed47c0f550f103be177f496da81ae4c9c303a4f9335ad08acbe9",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000017/musa-20220503.htm"
+    },
+    "2022Q3": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2022-10-26",
+      "evidence": " Results of Operations and Financial Condition On October 26, 2022, Murphy USA Inc. issued a news release announcing its financial results for the three and nine months ended September 30, 2022. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "de3708247fe0083c9d982999984bbb57f21e5bf37767ad5b5e9e0f7db11bce82",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000043/musa-20221026.htm"
+    },
+    "2022Q4": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2023-02-01",
+      "evidence": " Results of Operations and Financial Condition On February 1, 2023, Murphy USA Inc. issued a news release announcing its financial results for the twelve months ended December 31, 2022. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "sha256": "9abd214af306c09009437ece59d12aa5ac04aa492c3adcdebd6ae0790fa0d393",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000005/musa-20230201.htm"
+    },
+    "2023Q1": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2023-05-02",
+      "evidence": " Results of Operations and Financial Condition On May 2, 2023, Murphy USA Inc. issued a news release announcing its financial results for the three months ended March 31, 2023. The full text of this news release is attached hereto as Exhibit 99.2. ",
+      "sha256": "bb51c013b5b0ef9a12413cbe27a38efdf1e3fa263e609cbc3ac60122066d4b33",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000019/musa-20230502.htm"
+    },
+    "2023Q2": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2023-08-02",
+      "evidence": " Results of Operations and Financial Condition On August 2, 2023, Murphy USA Inc. issued a news release announcing its financial results for the three and six months ended June 30, 2023. The full text of this news release is attached hereto as Exhibit 99.1. The information in ",
+      "sha256": "530524c59cc8ab052f0e912ac49179357c6962888fa39f24e2552f34bf391d5e",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000036/musa-20230802.htm"
+    },
+    "2023Q3": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2023-11-01",
+      "evidence": " Results of Operations and Financial Condition On November 1, 2023, Murphy USA Inc. issued a news release announcing its financial results for the three and nine months ended September 30, 2023. The full text of this news release is attached hereto as Exhibit 99.1. The information in ",
+      "sha256": "fc092f9fb5a83d716ccb4ca637c8b740ac5cc7172062029b32cc8ab704fb6d98",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000046/musa-20231101.htm"
+    },
+    "2023Q4": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2024-02-07",
+      "evidence": " Results of Operations and Financial Condition On February 7, 2024, Murphy USA Inc. issued a news release announcing its financial results for the three and twelve months ended December 31, 2023. The full text of this news release is attached hereto as Exhibit 99.1. The information in ",
+      "sha256": "aa854646e4708d54600eeba88e7c3982fa1bcf84e060125a62ed92019f387df3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000003/musa-20240207.htm"
+    },
+    "2024Q1": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2024-05-01",
+      "evidence": " Results of Operations and Financial Condition On May 1, 2024, Murphy USA Inc. issued a news release announcing its financial results for the three months ended March 31, 2024. The full text of this news release is attached hereto as Exhibit 99.1. The information in ",
+      "sha256": "4ddb351e9c973a2bcf43592dde3bec514ddbce80153686b1c16ff61211c6968e",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000032/musa-20240501.htm"
+    },
+    "2024Q2": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2024-07-31",
+      "evidence": " Results of Operations and Financial Condition On July 31, 2024, Murphy USA Inc. issued a news release announcing its financial results for the three and six months ended June 30, 2024. The full text of this news release is attached hereto as Exhibit 99.1. The information in ",
+      "sha256": "0feb6eefd48cfd0c5899f6a6cda0d6170dad017d55e93f165cdf194ac4e768a4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000044/musa-20240731.htm"
+    },
+    "2024Q3": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2024-10-30",
+      "evidence": " Results of Operations and Financial Condition On October 30, 2024, Murphy USA Inc. issued a news release announcing its financial results for the three and nine months ended September 30, 2024. The full text of this news release is attached hereto as Exhibit 99.1. The information in ",
+      "sha256": "55f7dd5dae0eb7a75d3c706f9b7abf309c33a7994e15cc7af3746aae576f3f05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000052/musa-20241030.htm"
+    },
+    "2024Q4": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2025-02-05",
+      "evidence": " Results of Operations and Financial Condition On February 5, 2025, Murphy USA Inc. issued a news release announcing its financial results for the three months and twelve months ended December 31, 2024. The full text of this news release is attached hereto as Exhibit 99.1. The information in ",
+      "sha256": "df759ba6b528943da5464b47f34519bd71800d6bdcaefe991d4b1e948ccd3323",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000003/musa-20250205.htm"
+    },
+    "2025Q1": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2025-05-07",
+      "evidence": " Results of Operations and Financial Condition On May 7, 2025, Murphy USA Inc. issued a news release announcing its financial results for the three months ended March 31, 2025. The full text of this news release is attached hereto as Exhibit 99.1. The information in ",
+      "sha256": "f85510b06f21e4d6bd1dfe87531bed14a2b831d740363ba2bfdcd07c662fe7e4",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000036/musa-20250507.htm"
+    },
+    "2025Q2": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2025-07-30",
+      "evidence": " Results of Operations and Financial Condition On July 30, 2025, Murphy USA Inc. issued a news release announcing its financial results for the three and six months ended June 30, 2025. The full text of this news release is attached hereto as Exhibit 99.1. The information in ",
+      "sha256": "53b5c00830bc09401c59b126f3c82787e4fe4738c25138ca024b8cfed1938bfa",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000046/musa-20250730.htm"
+    },
+    "2025Q3": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2025-10-29",
+      "evidence": " Results of Operations and Financial Condition On October 29, 2025, Murphy USA Inc. issued a news release announcing its financial results for the three and nine months ended September 30, 2025. The full text of this news release is attached hereto as Exhibit 99.2.",
+      "sha256": "e34d1368411c9fd01b5d37e5595ab380f90749ba3b5169a8b27328006adb1da3",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000071/musa-20251023.htm"
+    },
+    "2025Q4": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2026-02-04",
+      "evidence": " Results of Operations and Financial Condition On February 4, 2026, Murphy USA Inc. issued a news release announcing its financial results for the three months and twelve months ended December 31, 2025. The full text of this news release is attached hereto as Exhibit 99.1. The information in ",
+      "sha256": "b1e8c00b245ddbce2aaba4f232891e534d1cd2b212422041fa5eaebbf5f39302",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351626000026/musa-20260204.htm"
+    },
+    "2026Q1": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2026-04-29",
+      "evidence": " Results of Operations and Financial Condition On April 29, 2026, Murphy USA Inc. issued a news release announcing its financial results for the three months ended March 31, 2026. The full text of this news release is attached hereto as Exhibit 99.1. The information in ",
+      "sha256": "0595093b69edd74f70f2170c2daa0aa4b42c544e551283f79eb35bcf0c8dff79",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351626000127/musa-20260429.htm"
+    },
+    "2026Q2": {
+      "availability_basis": "SEC filingDate, conservative date only",
+      "available_at": "2026-08-05",
+      "evidence": " Results of Operations and Financial Condition On August 5, 2026, Murphy USA Inc. issued a news release announcing its financial results for the three and six months ended June 30, 2026. The full text of this news release is attached hereto as Exhibit 99.1. The information in ",
+      "sha256": "fb0bf4b87b215abc8acc3783565b65ad029d01bf175727f6b51f64cd39976648",
+      "url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351626000164/musa-20260805.htm"
+    }
+  }
+}

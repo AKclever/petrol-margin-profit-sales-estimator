@@ -1,0 +1,594 @@
+{
+  "covered_stores": 1687,
+  "means": [
+    1.4024919064338135,
+    0.35293911604626954,
+    0.19912392342829444,
+    0.5340000390952339
+  ],
+  "prior_remaining_features": [
+    80.79397352301916,
+    4.907061351511569,
+    5.873873740367525,
+    7.876192946058104
+  ],
+  "proxy_days": {
+    "2024-04-01": {
+      "expected_daily_rate": 8612.0,
+      "projected": false,
+      "source_week": "2024-04-05"
+    },
+    "2024-04-02": {
+      "expected_daily_rate": 8612.0,
+      "projected": false,
+      "source_week": "2024-04-05"
+    },
+    "2024-04-03": {
+      "expected_daily_rate": 8612.0,
+      "projected": false,
+      "source_week": "2024-04-05"
+    },
+    "2024-04-04": {
+      "expected_daily_rate": 8612.0,
+      "projected": false,
+      "source_week": "2024-04-05"
+    },
+    "2024-04-05": {
+      "expected_daily_rate": 8612.0,
+      "projected": false,
+      "source_week": "2024-04-05"
+    },
+    "2024-04-06": {
+      "expected_daily_rate": 8662.0,
+      "projected": false,
+      "source_week": "2024-04-12"
+    },
+    "2024-04-07": {
+      "expected_daily_rate": 8662.0,
+      "projected": false,
+      "source_week": "2024-04-12"
+    },
+    "2024-04-08": {
+      "expected_daily_rate": 8662.0,
+      "projected": false,
+      "source_week": "2024-04-12"
+    },
+    "2024-04-09": {
+      "expected_daily_rate": 8662.0,
+      "projected": false,
+      "source_week": "2024-04-12"
+    },
+    "2024-04-10": {
+      "expected_daily_rate": 8662.0,
+      "projected": false,
+      "source_week": "2024-04-12"
+    },
+    "2024-04-11": {
+      "expected_daily_rate": 8662.0,
+      "projected": false,
+      "source_week": "2024-04-12"
+    },
+    "2024-04-12": {
+      "expected_daily_rate": 8662.0,
+      "projected": false,
+      "source_week": "2024-04-12"
+    },
+    "2024-04-13": {
+      "expected_daily_rate": 8423.0,
+      "projected": false,
+      "source_week": "2024-04-19"
+    },
+    "2024-04-14": {
+      "expected_daily_rate": 8423.0,
+      "projected": false,
+      "source_week": "2024-04-19"
+    },
+    "2024-04-15": {
+      "expected_daily_rate": 8423.0,
+      "projected": false,
+      "source_week": "2024-04-19"
+    },
+    "2024-04-16": {
+      "expected_daily_rate": 8423.0,
+      "projected": false,
+      "source_week": "2024-04-19"
+    },
+    "2024-04-17": {
+      "expected_daily_rate": 8423.0,
+      "projected": false,
+      "source_week": "2024-04-19"
+    },
+    "2024-04-18": {
+      "expected_daily_rate": 8423.0,
+      "projected": false,
+      "source_week": "2024-04-19"
+    },
+    "2024-04-19": {
+      "expected_daily_rate": 8423.0,
+      "projected": false,
+      "source_week": "2024-04-19"
+    },
+    "2024-04-20": {
+      "expected_daily_rate": 8618.0,
+      "projected": false,
+      "source_week": "2024-04-26"
+    },
+    "2024-04-21": {
+      "expected_daily_rate": 8618.0,
+      "projected": false,
+      "source_week": "2024-04-26"
+    },
+    "2024-04-22": {
+      "expected_daily_rate": 8618.0,
+      "projected": false,
+      "source_week": "2024-04-26"
+    },
+    "2024-04-23": {
+      "expected_daily_rate": 8618.0,
+      "projected": false,
+      "source_week": "2024-04-26"
+    },
+    "2024-04-24": {
+      "expected_daily_rate": 8618.0,
+      "projected": false,
+      "source_week": "2024-04-26"
+    },
+    "2024-04-25": {
+      "expected_daily_rate": 8618.0,
+      "projected": false,
+      "source_week": "2024-04-26"
+    },
+    "2024-04-26": {
+      "expected_daily_rate": 8618.0,
+      "projected": false,
+      "source_week": "2024-04-26"
+    },
+    "2024-04-27": {
+      "expected_daily_rate": 8971.663911667012,
+      "projected": true,
+      "source_week": "2024-05-03"
+    },
+    "2024-04-28": {
+      "expected_daily_rate": 8971.663911667012,
+      "projected": true,
+      "source_week": "2024-05-03"
+    },
+    "2024-04-29": {
+      "expected_daily_rate": 8971.663911667012,
+      "projected": true,
+      "source_week": "2024-05-03"
+    },
+    "2024-04-30": {
+      "expected_daily_rate": 8971.663911667012,
+      "projected": true,
+      "source_week": "2024-05-03"
+    },
+    "2024-05-01": {
+      "expected_daily_rate": 8971.663911667012,
+      "projected": true,
+      "source_week": "2024-05-03"
+    },
+    "2024-05-02": {
+      "expected_daily_rate": 8971.663911667012,
+      "projected": true,
+      "source_week": "2024-05-03"
+    },
+    "2024-05-03": {
+      "expected_daily_rate": 8971.663911667012,
+      "projected": true,
+      "source_week": "2024-05-03"
+    },
+    "2024-05-04": {
+      "expected_daily_rate": 8590.732250363297,
+      "projected": true,
+      "source_week": "2024-05-10"
+    },
+    "2024-05-05": {
+      "expected_daily_rate": 8590.732250363297,
+      "projected": true,
+      "source_week": "2024-05-10"
+    },
+    "2024-05-06": {
+      "expected_daily_rate": 8590.732250363297,
+      "projected": true,
+      "source_week": "2024-05-10"
+    },
+    "2024-05-07": {
+      "expected_daily_rate": 8590.732250363297,
+      "projected": true,
+      "source_week": "2024-05-10"
+    },
+    "2024-05-08": {
+      "expected_daily_rate": 8590.732250363297,
+      "projected": true,
+      "source_week": "2024-05-10"
+    },
+    "2024-05-09": {
+      "expected_daily_rate": 8590.732250363297,
+      "projected": true,
+      "source_week": "2024-05-10"
+    },
+    "2024-05-10": {
+      "expected_daily_rate": 8590.732250363297,
+      "projected": true,
+      "source_week": "2024-05-10"
+    },
+    "2024-05-11": {
+      "expected_daily_rate": 9100.891361324475,
+      "projected": true,
+      "source_week": "2024-05-17"
+    },
+    "2024-05-12": {
+      "expected_daily_rate": 9100.891361324475,
+      "projected": true,
+      "source_week": "2024-05-17"
+    },
+    "2024-05-13": {
+      "expected_daily_rate": 9100.891361324475,
+      "projected": true,
+      "source_week": "2024-05-17"
+    },
+    "2024-05-14": {
+      "expected_daily_rate": 9100.891361324475,
+      "projected": true,
+      "source_week": "2024-05-17"
+    },
+    "2024-05-15": {
+      "expected_daily_rate": 9100.891361324475,
+      "projected": true,
+      "source_week": "2024-05-17"
+    },
+    "2024-05-16": {
+      "expected_daily_rate": 9100.891361324475,
+      "projected": true,
+      "source_week": "2024-05-17"
+    },
+    "2024-05-17": {
+      "expected_daily_rate": 9100.891361324475,
+      "projected": true,
+      "source_week": "2024-05-17"
+    },
+    "2024-05-18": {
+      "expected_daily_rate": 8773.965201370147,
+      "projected": true,
+      "source_week": "2024-05-24"
+    },
+    "2024-05-19": {
+      "expected_daily_rate": 8773.965201370147,
+      "projected": true,
+      "source_week": "2024-05-24"
+    },
+    "2024-05-20": {
+      "expected_daily_rate": 8773.965201370147,
+      "projected": true,
+      "source_week": "2024-05-24"
+    },
+    "2024-05-21": {
+      "expected_daily_rate": 8773.965201370147,
+      "projected": true,
+      "source_week": "2024-05-24"
+    },
+    "2024-05-22": {
+      "expected_daily_rate": 8773.965201370147,
+      "projected": true,
+      "source_week": "2024-05-24"
+    },
+    "2024-05-23": {
+      "expected_daily_rate": 8773.965201370147,
+      "projected": true,
+      "source_week": "2024-05-24"
+    },
+    "2024-05-24": {
+      "expected_daily_rate": 8773.965201370147,
+      "projected": true,
+      "source_week": "2024-05-24"
+    },
+    "2024-05-25": {
+      "expected_daily_rate": 8889.691275690264,
+      "projected": true,
+      "source_week": "2024-05-31"
+    },
+    "2024-05-26": {
+      "expected_daily_rate": 8889.691275690264,
+      "projected": true,
+      "source_week": "2024-05-31"
+    },
+    "2024-05-27": {
+      "expected_daily_rate": 8889.691275690264,
+      "projected": true,
+      "source_week": "2024-05-31"
+    },
+    "2024-05-28": {
+      "expected_daily_rate": 8889.691275690264,
+      "projected": true,
+      "source_week": "2024-05-31"
+    },
+    "2024-05-29": {
+      "expected_daily_rate": 8889.691275690264,
+      "projected": true,
+      "source_week": "2024-05-31"
+    },
+    "2024-05-30": {
+      "expected_daily_rate": 8889.691275690264,
+      "projected": true,
+      "source_week": "2024-05-31"
+    },
+    "2024-05-31": {
+      "expected_daily_rate": 8889.691275690264,
+      "projected": true,
+      "source_week": "2024-05-31"
+    },
+    "2024-06-01": {
+      "expected_daily_rate": 8865.581676873573,
+      "projected": true,
+      "source_week": "2024-06-07"
+    },
+    "2024-06-02": {
+      "expected_daily_rate": 8865.581676873573,
+      "projected": true,
+      "source_week": "2024-06-07"
+    },
+    "2024-06-03": {
+      "expected_daily_rate": 8865.581676873573,
+      "projected": true,
+      "source_week": "2024-06-07"
+    },
+    "2024-06-04": {
+      "expected_daily_rate": 8865.581676873573,
+      "projected": true,
+      "source_week": "2024-06-07"
+    },
+    "2024-06-05": {
+      "expected_daily_rate": 8865.581676873573,
+      "projected": true,
+      "source_week": "2024-06-07"
+    },
+    "2024-06-06": {
+      "expected_daily_rate": 8865.581676873573,
+      "projected": true,
+      "source_week": "2024-06-07"
+    },
+    "2024-06-07": {
+      "expected_daily_rate": 8865.581676873573,
+      "projected": true,
+      "source_week": "2024-06-07"
+    },
+    "2024-06-08": {
+      "expected_daily_rate": 9041.099556259082,
+      "projected": true,
+      "source_week": "2024-06-14"
+    },
+    "2024-06-09": {
+      "expected_daily_rate": 9041.099556259082,
+      "projected": true,
+      "source_week": "2024-06-14"
+    },
+    "2024-06-10": {
+      "expected_daily_rate": 9041.099556259082,
+      "projected": true,
+      "source_week": "2024-06-14"
+    },
+    "2024-06-11": {
+      "expected_daily_rate": 9041.099556259082,
+      "projected": true,
+      "source_week": "2024-06-14"
+    },
+    "2024-06-12": {
+      "expected_daily_rate": 9041.099556259082,
+      "projected": true,
+      "source_week": "2024-06-14"
+    },
+    "2024-06-13": {
+      "expected_daily_rate": 9041.099556259082,
+      "projected": true,
+      "source_week": "2024-06-14"
+    },
+    "2024-06-14": {
+      "expected_daily_rate": 9041.099556259082,
+      "projected": true,
+      "source_week": "2024-06-14"
+    },
+    "2024-06-15": {
+      "expected_daily_rate": 8974.557063525015,
+      "projected": true,
+      "source_week": "2024-06-21"
+    },
+    "2024-06-16": {
+      "expected_daily_rate": 8974.557063525015,
+      "projected": true,
+      "source_week": "2024-06-21"
+    },
+    "2024-06-17": {
+      "expected_daily_rate": 8974.557063525015,
+      "projected": true,
+      "source_week": "2024-06-21"
+    },
+    "2024-06-18": {
+      "expected_daily_rate": 8974.557063525015,
+      "projected": true,
+      "source_week": "2024-06-21"
+    },
+    "2024-06-19": {
+      "expected_daily_rate": 8974.557063525015,
+      "projected": true,
+      "source_week": "2024-06-21"
+    },
+    "2024-06-20": {
+      "expected_daily_rate": 8974.557063525015,
+      "projected": true,
+      "source_week": "2024-06-21"
+    },
+    "2024-06-21": {
+      "expected_daily_rate": 8974.557063525015,
+      "projected": true,
+      "source_week": "2024-06-21"
+    },
+    "2024-06-22": {
+      "expected_daily_rate": 9257.121561656633,
+      "projected": true,
+      "source_week": "2024-06-28"
+    },
+    "2024-06-23": {
+      "expected_daily_rate": 9257.121561656633,
+      "projected": true,
+      "source_week": "2024-06-28"
+    },
+    "2024-06-24": {
+      "expected_daily_rate": 9257.121561656633,
+      "projected": true,
+      "source_week": "2024-06-28"
+    },
+    "2024-06-25": {
+      "expected_daily_rate": 9257.121561656633,
+      "projected": true,
+      "source_week": "2024-06-28"
+    },
+    "2024-06-26": {
+      "expected_daily_rate": 9257.121561656633,
+      "projected": true,
+      "source_week": "2024-06-28"
+    },
+    "2024-06-27": {
+      "expected_daily_rate": 9257.121561656633,
+      "projected": true,
+      "source_week": "2024-06-28"
+    },
+    "2024-06-28": {
+      "expected_daily_rate": 9257.121561656633,
+      "projected": true,
+      "source_week": "2024-06-28"
+    },
+    "2024-06-29": {
+      "expected_daily_rate": 8444.145889557816,
+      "projected": true,
+      "source_week": "2024-07-05"
+    },
+    "2024-06-30": {
+      "expected_daily_rate": 8444.145889557816,
+      "projected": true,
+      "source_week": "2024-07-05"
+    }
+  },
+  "remaining_features": [
+    75.80326022525196,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reported_stores": 1733,
+  "ridge_coefficients": [
+    3.1411764705882352,
+    5.8534243429383706,
+    -0.7598553575515372,
+    1.4170364748497004,
+    3.9353154912652566
+  ],
+  "scales": [
+    15.536503256990246,
+    3.207563383320164,
+    2.8980151498543663,
+    5.414937815756889
+  ],
+  "training_actuals": [
+    {
+      "quarter": "2019Q1",
+      "retail_margin_cpg": 8.4
+    },
+    {
+      "quarter": "2019Q2",
+      "retail_margin_cpg": 13.4
+    },
+    {
+      "quarter": "2019Q3",
+      "retail_margin_cpg": 18.4
+    },
+    {
+      "quarter": "2019Q4",
+      "retail_margin_cpg": 14.9
+    },
+    {
+      "quarter": "2020Q1",
+      "retail_margin_cpg": 26.9
+    },
+    {
+      "quarter": "2020Q2",
+      "retail_margin_cpg": 31.7
+    },
+    {
+      "quarter": "2020Q3",
+      "retail_margin_cpg": 19.0
+    },
+    {
+      "quarter": "2020Q4",
+      "retail_margin_cpg": 15.4
+    },
+    {
+      "quarter": "2021Q1",
+      "retail_margin_cpg": 15.5
+    },
+    {
+      "quarter": "2021Q2",
+      "retail_margin_cpg": 21.8
+    },
+    {
+      "quarter": "2021Q3",
+      "retail_margin_cpg": 24.0
+    },
+    {
+      "quarter": "2021Q4",
+      "retail_margin_cpg": 25.5
+    },
+    {
+      "quarter": "2022Q1",
+      "retail_margin_cpg": 23.3
+    },
+    {
+      "quarter": "2022Q2",
+      "retail_margin_cpg": 26.5
+    },
+    {
+      "quarter": "2022Q3",
+      "retail_margin_cpg": 39.3
+    },
+    {
+      "quarter": "2022Q4",
+      "retail_margin_cpg": 28.3
+    },
+    {
+      "quarter": "2023Q1",
+      "retail_margin_cpg": 23.2
+    },
+    {
+      "quarter": "2023Q2",
+      "retail_margin_cpg": 27.0
+    },
+    {
+      "quarter": "2023Q3",
+      "retail_margin_cpg": 28.7
+    },
+    {
+      "quarter": "2023Q4",
+      "retail_margin_cpg": 31.1
+    },
+    {
+      "quarter": "2024Q1",
+      "retail_margin_cpg": 21.7
+    }
+  ],
+  "weights": [
+    {
+      "region": "East Coast",
+      "weight": 0.34558387670420865
+    },
+    {
+      "region": "Gulf Coast",
+      "weight": 0.3977474807350326
+    },
+    {
+      "region": "Midwest",
+      "weight": 0.2566686425607587
+    }
+  ],
+  "weights_available_at": "2024-02-16",
+  "weights_source": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000007/musa-20231231.htm"
+}

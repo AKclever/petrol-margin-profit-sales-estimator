@@ -1,0 +1,157 @@
+{
+  "automatic_promotion": false,
+  "calibration": {
+    "active_feature_indices": [
+      0,
+      1,
+      2
+    ],
+    "alpha": 2,
+    "constraints": "nonnegative on spread, negative squeeze and capture",
+    "means": [
+      -2.5977272727272727,
+      21.858279393544535,
+      -23.289578182547118
+    ],
+    "scales": [
+      4.305373948301209,
+      10.776483597722946,
+      10.050873794998877
+    ],
+    "standardized_coefficients": [
+      0.03425032669876938,
+      1.2637870423139614,
+      2.4623148784747344,
+      0.5519542140100011
+    ]
+  },
+  "correction_cpg": 0.8633585333674099,
+  "evaluation_role": "RETROSPECTIVE_CURRENT_VINTAGE_RESEARCH_HYPOTHESES_INFORMED_BY_SAME_HISTORY_NOT_PIT_OR_INDEPENDENT_VALIDATION",
+  "eventual_actual_margin_cpg": null,
+  "feature_details": {
+    "anchor_anomaly_cpg": -0.3999999999999986,
+    "complete_weeks": 12,
+    "earlier_seasonal_median_cpg": 28.7,
+    "earlier_seasonal_quarters": [
+      "2023Q3",
+      "2024Q3",
+      "2025Q3"
+    ],
+    "prior_year_margin_cpg": 28.3,
+    "regional_sequence": [
+      {
+        "persistent_capture_cpg": 27.679258342459217,
+        "persistent_squeeze_cpg": 39.9624127037188,
+        "region": "Gulf Coast",
+        "weight": 0.398851
+      },
+      {
+        "persistent_capture_cpg": 32.571348513597044,
+        "persistent_squeeze_cpg": 41.67254446328269,
+        "region": "Midwest",
+        "weight": 0.247701
+      },
+      {
+        "persistent_capture_cpg": 29.009419897078942,
+        "persistent_squeeze_cpg": 38.05325099603352,
+        "region": "East Coast",
+        "weight": 0.353448
+      }
+    ]
+  },
+  "features": [
+    0.3999999999999986,
+    29.36117691109746,
+    -39.71122466343659
+  ],
+  "forecast_created_at": "2026-10-07T13:56:09.937736+00:00",
+  "input_hashes": {
+    "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/sequence_anchor.py": "13b567b7ec2fb2835a1054ede9078335933f343c9e37704f3d024f29b7be0d8e",
+    "data/actuals.csv": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+    "data/market.csv": "721da8ca24e87c7da17892413b70ad6d45eddc223c512eb329753679b1de4005",
+    "data/sequence_anchor_spec_v1.json": "3d3b436637456a90b8860c19369a6836d9f14d048bb8496d4edc57cb27054925",
+    "data/weights.csv": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986",
+    "musa_nowcast/geo.py": "98633e7d4348fb39ac870ff87626ed39a2c0f7226633e09338fa9b8b78ddc168",
+    "musa_nowcast/mathutils.py": "fef59998d413cd8e796ae8b823bf880f66be682ec31ac2bacd6386d526b88d70",
+    "musa_nowcast/model.py": "a62800fe77ff2c8230c5b5144c5ff78b7e4af769b91a29396bdee44cfae51311",
+    "musa_nowcast/timing.py": "965cd871276b85a8b96496268c60eb9a7d1767d20a60519311000362e0b1b8c4",
+    "musa_nowcast/weekly_adjustment.py": "03e58d583fae21ad7f5daed6c72117bcf1c195cae8e4b1afb3095e76e07e2e14"
+  },
+  "metrics": {
+    "challenger_directional_accuracy": 0.8571428571428571,
+    "challenger_mae_cpg": 2.229349529180793,
+    "challenger_rmse_cpg": 2.779679486906638,
+    "identical_backtest_rows": 14,
+    "mean_paired_improvement_cpg": 0.07319103972968703,
+    "paired_improvement_ci_low_cpg": -0.6689565482036245,
+    "passes_pre_registered_gate": false,
+    "production_directional_accuracy": 0.8571428571428571,
+    "production_mae_cpg": 2.30254056891048,
+    "production_rmse_cpg": 3.1202044191700002,
+    "production_status": "UNCHANGED",
+    "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+    "recent_eight_challenger_directional_accuracy": 0.875,
+    "recent_eight_challenger_mae_cpg": 1.8710691823217527,
+    "recent_eight_production_directional_accuracy": 0.75,
+    "recent_eight_production_mae_cpg": 2.153515225634352
+  },
+  "model_id": "MUSA_SEQUENCE_ANCHOR_RESIDUAL_V1",
+  "production_changed": false,
+  "production_same_inputs_cpg": 28.94,
+  "quarter": "2026Q3",
+  "retail_margin_cpg": 29.803358533367412,
+  "specification": {
+    "anchor": "prior-year same-quarter actual minus median of at most three earlier same-quarter actuals, including prior year; fewer than two gives zero anomaly",
+    "capture_impulse": "max(retail_change-wholesale_change,0) if wholesale_change < 0, else 0",
+    "correction_shrinkage": 0.5,
+    "evaluation_role": "RETROSPECTIVE_CURRENT_VINTAGE_RESEARCH_HYPOTHESES_INFORMED_BY_SAME_HISTORY_NOT_PIT_OR_INDEPENDENT_VALIDATION",
+    "features": [
+      "negative_prior_year_anchor_anomaly",
+      "regional_persistent_capture",
+      "negative_regional_persistent_squeeze"
+    ],
+    "fit": "nonnegative standardized ridge coefficients using exact active-set enumeration, alpha 2; unpenalized intercept",
+    "hyperparameter_search": "NONE; no rule changes or tuning after results",
+    "limitations": [
+      "weekly regional retail is not MUSA station pricing",
+      "spot wholesale is not delivered acquisition cost",
+      "static current store weights are not PIT or regional gallons",
+      "weekly weights uniform, not observed MUSA gallons",
+      "current-vintage market and outcomes; historical publication lags not reconstructed",
+      "features motivated by previously inspected misses",
+      "earliest misses cannot be tested by a correction lacking earlier residual training observations"
+    ],
+    "minimum_earlier_out_of_fold_residuals": 8,
+    "model_id": "MUSA_SEQUENCE_ANCHOR_RESIDUAL_V1",
+    "promotion": "NOT_AUTOMATIC; production untouched",
+    "sequence": "separate region-level capture/squeeze impulses from contemporaneous retail and wholesale changes; stocks decay by 0.8 each week; quarter feature is mean stock, weighted by production geographic weights",
+    "squeeze_impulse": "max(wholesale_change-retail_change,0) if wholesale_change > 0, else 0",
+    "status": "FROZEN_BEFORE_FIRST_FIT",
+    "target": "retail-margin residual: actual minus expanding-window production forecast",
+    "weekly_calendar": "same complete in-quarter weekly rows as production; region states run causally across quarter boundaries; eight-transition initial warmup; internal gaps block"
+  },
+  "training_residual_quarters": [
+    "2021Q1",
+    "2021Q2",
+    "2021Q3",
+    "2021Q4",
+    "2022Q1",
+    "2022Q2",
+    "2022Q3",
+    "2022Q4",
+    "2023Q1",
+    "2023Q2",
+    "2023Q3",
+    "2023Q4",
+    "2024Q1",
+    "2024Q2",
+    "2024Q3",
+    "2024Q4",
+    "2025Q1",
+    "2025Q2",
+    "2025Q3",
+    "2025Q4",
+    "2026Q1",
+    "2026Q2"
+  ]
+}

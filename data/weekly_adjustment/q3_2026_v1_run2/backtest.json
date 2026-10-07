@@ -1,0 +1,197 @@
+{
+  "evaluation_role": "RETROSPECTIVE_CURRENT_VINTAGE_RESEARCH_NOT_PIT_VALIDATION",
+  "excluded": [
+    {
+      "quarter": "2019Q1",
+      "reason": "initial history lacks eight-transition warmup"
+    }
+  ],
+  "metrics": {
+    "challenger_directional_accuracy": 0.6190476190476191,
+    "challenger_mae_cpg": 3.78925312465081,
+    "challenger_rmse_cpg": 4.694439528181683,
+    "identical_backtest_rows": 21,
+    "mean_paired_improvement_cpg": -0.6673598795966579,
+    "paired_improvement_ci_low_cpg": -1.311033619306141,
+    "passes_pre_registered_gate": false,
+    "production_directional_accuracy": 0.9047619047619048,
+    "production_mae_cpg": 3.121893245054152,
+    "production_rmse_cpg": 4.048203020079952,
+    "production_status": "UNCHANGED",
+    "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+    "recent_eight_challenger_directional_accuracy": 0.625,
+    "recent_eight_challenger_mae_cpg": 2.3614256510313667,
+    "recent_eight_production_directional_accuracy": 0.75,
+    "recent_eight_production_mae_cpg": 2.153515225634352
+  },
+  "rows": [
+    {
+      "actual_cpg": 21.8,
+      "direction_correct": true,
+      "last_training_quarter": "2021Q1",
+      "prediction_cpg": 27.68071855675293,
+      "production_prediction_cpg": 26.980859753382397,
+      "quarter": "2021Q2"
+    },
+    {
+      "actual_cpg": 24.0,
+      "direction_correct": false,
+      "last_training_quarter": "2021Q2",
+      "prediction_cpg": 17.308286677400105,
+      "production_prediction_cpg": 20.848956509508668,
+      "quarter": "2021Q3"
+    },
+    {
+      "actual_cpg": 25.5,
+      "direction_correct": true,
+      "last_training_quarter": "2021Q3",
+      "prediction_cpg": 18.311939915415792,
+      "production_prediction_cpg": 19.190562918350157,
+      "quarter": "2021Q4"
+    },
+    {
+      "actual_cpg": 23.3,
+      "direction_correct": true,
+      "last_training_quarter": "2021Q4",
+      "prediction_cpg": 17.794062394667545,
+      "production_prediction_cpg": 28.47874251201401,
+      "quarter": "2022Q1"
+    },
+    {
+      "actual_cpg": 26.5,
+      "direction_correct": false,
+      "last_training_quarter": "2022Q1",
+      "prediction_cpg": 20.992923192489204,
+      "production_prediction_cpg": 23.727566104742163,
+      "quarter": "2022Q2"
+    },
+    {
+      "actual_cpg": 39.3,
+      "direction_correct": true,
+      "last_training_quarter": "2022Q2",
+      "prediction_cpg": 29.16660623480718,
+      "production_prediction_cpg": 29.50822312019188,
+      "quarter": "2022Q3"
+    },
+    {
+      "actual_cpg": 28.3,
+      "direction_correct": false,
+      "last_training_quarter": "2022Q3",
+      "prediction_cpg": 25.4572919861153,
+      "production_prediction_cpg": 27.360103431213055,
+      "quarter": "2022Q4"
+    },
+    {
+      "actual_cpg": 23.2,
+      "direction_correct": false,
+      "last_training_quarter": "2022Q4",
+      "prediction_cpg": 24.905777739310405,
+      "production_prediction_cpg": 22.783236624991005,
+      "quarter": "2023Q1"
+    },
+    {
+      "actual_cpg": 27.0,
+      "direction_correct": true,
+      "last_training_quarter": "2023Q1",
+      "prediction_cpg": 31.913269072331055,
+      "production_prediction_cpg": 30.015562500819577,
+      "quarter": "2023Q2"
+    },
+    {
+      "actual_cpg": 28.7,
+      "direction_correct": true,
+      "last_training_quarter": "2023Q2",
+      "prediction_cpg": 35.82381255582151,
+      "production_prediction_cpg": 35.383410918306,
+      "quarter": "2023Q3"
+    },
+    {
+      "actual_cpg": 31.1,
+      "direction_correct": true,
+      "last_training_quarter": "2023Q3",
+      "prediction_cpg": 31.93161084532519,
+      "production_prediction_cpg": 29.603681180808195,
+      "quarter": "2023Q4"
+    },
+    {
+      "actual_cpg": 21.7,
+      "direction_correct": false,
+      "last_training_quarter": "2023Q4",
+      "prediction_cpg": 23.230996039955965,
+      "production_prediction_cpg": 22.62787805109699,
+      "quarter": "2024Q1"
+    },
+    {
+      "actual_cpg": 29.7,
+      "direction_correct": true,
+      "last_training_quarter": "2024Q1",
+      "prediction_cpg": 28.872163999185844,
+      "production_prediction_cpg": 27.232487504751465,
+      "quarter": "2024Q2"
+    },
+    {
+      "actual_cpg": 31.9,
+      "direction_correct": true,
+      "last_training_quarter": "2024Q2",
+      "prediction_cpg": 35.16294597514952,
+      "production_prediction_cpg": 32.41760383289337,
+      "quarter": "2024Q3"
+    },
+    {
+      "actual_cpg": 28.9,
+      "direction_correct": true,
+      "last_training_quarter": "2024Q3",
+      "prediction_cpg": 29.67700273917735,
+      "production_prediction_cpg": 30.73160874995746,
+      "quarter": "2024Q4"
+    },
+    {
+      "actual_cpg": 23.7,
+      "direction_correct": true,
+      "last_training_quarter": "2024Q4",
+      "prediction_cpg": 24.613150810581303,
+      "production_prediction_cpg": 24.468764448429035,
+      "quarter": "2025Q1"
+    },
+    {
+      "actual_cpg": 29.2,
+      "direction_correct": false,
+      "last_training_quarter": "2025Q1",
+      "prediction_cpg": 31.269433525413387,
+      "production_prediction_cpg": 33.68760675577302,
+      "quarter": "2025Q2"
+    },
+    {
+      "actual_cpg": 28.3,
+      "direction_correct": true,
+      "last_training_quarter": "2025Q2",
+      "prediction_cpg": 30.533533811107883,
+      "production_prediction_cpg": 30.4325246857704,
+      "quarter": "2025Q3"
+    },
+    {
+      "actual_cpg": 31.0,
+      "direction_correct": true,
+      "last_training_quarter": "2025Q3",
+      "prediction_cpg": 31.074965182473875,
+      "production_prediction_cpg": 30.197566706485624,
+      "quarter": "2025Q4"
+    },
+    {
+      "actual_cpg": 25.4,
+      "direction_correct": false,
+      "last_training_quarter": "2025Q4",
+      "prediction_cpg": 23.045919433237323,
+      "production_prediction_cpg": 25.317335630426772,
+      "quarter": "2026Q1"
+    },
+    {
+      "actual_cpg": 35.1,
+      "direction_correct": false,
+      "last_training_quarter": "2026Q1",
+      "prediction_cpg": 27.893707402415064,
+      "production_prediction_cpg": 28.49508433083607,
+      "quarter": "2026Q2"
+    }
+  ]
+}

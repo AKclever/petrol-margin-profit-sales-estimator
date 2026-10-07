@@ -1,0 +1,643 @@
+{
+  "days": [
+    {
+      "day": "2025-04-01",
+      "demand_rate": 8425.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-04"
+    },
+    {
+      "day": "2025-04-02",
+      "demand_rate": 8425.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-04"
+    },
+    {
+      "day": "2025-04-03",
+      "demand_rate": 8425.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-04"
+    },
+    {
+      "day": "2025-04-04",
+      "demand_rate": 8425.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-04"
+    },
+    {
+      "day": "2025-04-05",
+      "demand_rate": 8462.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-11"
+    },
+    {
+      "day": "2025-04-06",
+      "demand_rate": 8462.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-11"
+    },
+    {
+      "day": "2025-04-07",
+      "demand_rate": 8462.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-11"
+    },
+    {
+      "day": "2025-04-08",
+      "demand_rate": 8462.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-11"
+    },
+    {
+      "day": "2025-04-09",
+      "demand_rate": 8462.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-11"
+    },
+    {
+      "day": "2025-04-10",
+      "demand_rate": 8462.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-11"
+    },
+    {
+      "day": "2025-04-11",
+      "demand_rate": 8462.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-11"
+    },
+    {
+      "day": "2025-04-12",
+      "demand_rate": 9414.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-18"
+    },
+    {
+      "day": "2025-04-13",
+      "demand_rate": 9414.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-18"
+    },
+    {
+      "day": "2025-04-14",
+      "demand_rate": 9414.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-18"
+    },
+    {
+      "day": "2025-04-15",
+      "demand_rate": 9414.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-18"
+    },
+    {
+      "day": "2025-04-16",
+      "demand_rate": 9414.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-18"
+    },
+    {
+      "day": "2025-04-17",
+      "demand_rate": 9414.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-18"
+    },
+    {
+      "day": "2025-04-18",
+      "demand_rate": 9414.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-18"
+    },
+    {
+      "day": "2025-04-19",
+      "demand_rate": 9098.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-25"
+    },
+    {
+      "day": "2025-04-20",
+      "demand_rate": 9098.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-25"
+    },
+    {
+      "day": "2025-04-21",
+      "demand_rate": 9098.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-25"
+    },
+    {
+      "day": "2025-04-22",
+      "demand_rate": 9098.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-25"
+    },
+    {
+      "day": "2025-04-23",
+      "demand_rate": 9098.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-25"
+    },
+    {
+      "day": "2025-04-24",
+      "demand_rate": 9098.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-25"
+    },
+    {
+      "day": "2025-04-25",
+      "demand_rate": 9098.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-04-25"
+    },
+    {
+      "day": "2025-04-26",
+      "demand_rate": 8717.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-02"
+    },
+    {
+      "day": "2025-04-27",
+      "demand_rate": 8717.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-02"
+    },
+    {
+      "day": "2025-04-28",
+      "demand_rate": 8717.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-02"
+    },
+    {
+      "day": "2025-04-29",
+      "demand_rate": 8717.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-02"
+    },
+    {
+      "day": "2025-04-30",
+      "demand_rate": 8717.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-02"
+    },
+    {
+      "day": "2025-05-01",
+      "demand_rate": 8717.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-02"
+    },
+    {
+      "day": "2025-05-02",
+      "demand_rate": 8717.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-02"
+    },
+    {
+      "day": "2025-05-03",
+      "demand_rate": 8794.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-09"
+    },
+    {
+      "day": "2025-05-04",
+      "demand_rate": 8794.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-09"
+    },
+    {
+      "day": "2025-05-05",
+      "demand_rate": 8794.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-09"
+    },
+    {
+      "day": "2025-05-06",
+      "demand_rate": 8794.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-09"
+    },
+    {
+      "day": "2025-05-07",
+      "demand_rate": 8794.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-09"
+    },
+    {
+      "day": "2025-05-08",
+      "demand_rate": 8794.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-09"
+    },
+    {
+      "day": "2025-05-09",
+      "demand_rate": 8794.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-09"
+    },
+    {
+      "day": "2025-05-10",
+      "demand_rate": 8644.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-16"
+    },
+    {
+      "day": "2025-05-11",
+      "demand_rate": 8644.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-16"
+    },
+    {
+      "day": "2025-05-12",
+      "demand_rate": 8644.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-16"
+    },
+    {
+      "day": "2025-05-13",
+      "demand_rate": 8644.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-16"
+    },
+    {
+      "day": "2025-05-14",
+      "demand_rate": 8644.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-16"
+    },
+    {
+      "day": "2025-05-15",
+      "demand_rate": 8644.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-16"
+    },
+    {
+      "day": "2025-05-16",
+      "demand_rate": 8644.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-16"
+    },
+    {
+      "day": "2025-05-17",
+      "demand_rate": 9452.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-23"
+    },
+    {
+      "day": "2025-05-18",
+      "demand_rate": 9452.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-23"
+    },
+    {
+      "day": "2025-05-19",
+      "demand_rate": 9452.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-23"
+    },
+    {
+      "day": "2025-05-20",
+      "demand_rate": 9452.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-23"
+    },
+    {
+      "day": "2025-05-21",
+      "demand_rate": 9452.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-23"
+    },
+    {
+      "day": "2025-05-22",
+      "demand_rate": 9452.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-23"
+    },
+    {
+      "day": "2025-05-23",
+      "demand_rate": 9452.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-23"
+    },
+    {
+      "day": "2025-05-24",
+      "demand_rate": 8263.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-30"
+    },
+    {
+      "day": "2025-05-25",
+      "demand_rate": 8263.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-30"
+    },
+    {
+      "day": "2025-05-26",
+      "demand_rate": 8263.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-30"
+    },
+    {
+      "day": "2025-05-27",
+      "demand_rate": 8263.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-30"
+    },
+    {
+      "day": "2025-05-28",
+      "demand_rate": 8263.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-30"
+    },
+    {
+      "day": "2025-05-29",
+      "demand_rate": 8263.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-30"
+    },
+    {
+      "day": "2025-05-30",
+      "demand_rate": 8263.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-05-30"
+    },
+    {
+      "day": "2025-05-31",
+      "demand_rate": 9170.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-06-06"
+    },
+    {
+      "day": "2025-06-01",
+      "demand_rate": 9170.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-06-06"
+    },
+    {
+      "day": "2025-06-02",
+      "demand_rate": 9170.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-06-06"
+    },
+    {
+      "day": "2025-06-03",
+      "demand_rate": 9170.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-06-06"
+    },
+    {
+      "day": "2025-06-04",
+      "demand_rate": 9170.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-06-06"
+    },
+    {
+      "day": "2025-06-05",
+      "demand_rate": 9170.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-06-06"
+    },
+    {
+      "day": "2025-06-06",
+      "demand_rate": 9170.0,
+      "growth_factor": 1.0009810928902794,
+      "method": "ARCHIVED_WEEKLY_DEMAND",
+      "week_ending": "2025-06-06"
+    },
+    {
+      "day": "2025-06-07",
+      "demand_rate": 9395.208537868162,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-13"
+    },
+    {
+      "day": "2025-06-08",
+      "demand_rate": 9395.208537868162,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-13"
+    },
+    {
+      "day": "2025-06-09",
+      "demand_rate": 9395.208537868162,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-13"
+    },
+    {
+      "day": "2025-06-10",
+      "demand_rate": 9395.208537868162,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-13"
+    },
+    {
+      "day": "2025-06-11",
+      "demand_rate": 9395.208537868162,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-13"
+    },
+    {
+      "day": "2025-06-12",
+      "demand_rate": 9395.208537868162,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-13"
+    },
+    {
+      "day": "2025-06-13",
+      "demand_rate": 9395.208537868162,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-13"
+    },
+    {
+      "day": "2025-06-14",
+      "demand_rate": 8977.799422132915,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-20"
+    },
+    {
+      "day": "2025-06-15",
+      "demand_rate": 8977.799422132915,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-20"
+    },
+    {
+      "day": "2025-06-16",
+      "demand_rate": 8977.799422132915,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-20"
+    },
+    {
+      "day": "2025-06-17",
+      "demand_rate": 8977.799422132915,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-20"
+    },
+    {
+      "day": "2025-06-18",
+      "demand_rate": 8977.799422132915,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-20"
+    },
+    {
+      "day": "2025-06-19",
+      "demand_rate": 8977.799422132915,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-20"
+    },
+    {
+      "day": "2025-06-20",
+      "demand_rate": 8977.799422132915,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-20"
+    },
+    {
+      "day": "2025-06-21",
+      "demand_rate": 9433.245819397993,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-27"
+    },
+    {
+      "day": "2025-06-22",
+      "demand_rate": 9433.245819397993,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-27"
+    },
+    {
+      "day": "2025-06-23",
+      "demand_rate": 9433.245819397993,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-27"
+    },
+    {
+      "day": "2025-06-24",
+      "demand_rate": 9433.245819397993,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-27"
+    },
+    {
+      "day": "2025-06-25",
+      "demand_rate": 9433.245819397993,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-27"
+    },
+    {
+      "day": "2025-06-26",
+      "demand_rate": 9433.245819397993,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-27"
+    },
+    {
+      "day": "2025-06-27",
+      "demand_rate": 9433.245819397993,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-06-27"
+    },
+    {
+      "day": "2025-06-28",
+      "demand_rate": 9407.220310982846,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-07-04"
+    },
+    {
+      "day": "2025-06-29",
+      "demand_rate": 9407.220310982846,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-07-04"
+    },
+    {
+      "day": "2025-06-30",
+      "demand_rate": 9407.220310982846,
+      "growth_factor": 1.0009810928902794,
+      "method": "52_WEEK_PRIOR_SCALED",
+      "week_ending": "2025-07-04"
+    }
+  ],
+  "observed_gallon_share": 0.6597307719845121,
+  "remaining_gallon_share": 0.34026922801548787
+}

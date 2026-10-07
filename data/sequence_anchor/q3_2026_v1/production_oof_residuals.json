@@ -1,0 +1,946 @@
+{
+  "rows": [
+    {
+      "actual_cpg": 15.5,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 9.25,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 17.65,
+        "earlier_seasonal_quarters": [
+          "2019Q1",
+          "2020Q1"
+        ],
+        "prior_year_margin_cpg": 26.9,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 8.236250672954313,
+            "persistent_squeeze_cpg": 13.678690795326606,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 5.714478370162431,
+            "persistent_squeeze_cpg": 13.27911851595777,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 3.9929099342174803,
+            "persistent_squeeze_cpg": 12.578662420087706,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -9.25,
+        6.111804854355405,
+        -13.190913512983228
+      ],
+      "prediction_cpg": 18.85712654187977,
+      "quarter": "2021Q1",
+      "seasonal_cpg": 26.9
+    },
+    {
+      "actual_cpg": 21.8,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 9.149999999999999,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 22.55,
+        "earlier_seasonal_quarters": [
+          "2019Q2",
+          "2020Q2"
+        ],
+        "prior_year_margin_cpg": 31.7,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 12.445963627545577,
+            "persistent_squeeze_cpg": 14.725666979456312,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 11.241230462790993,
+            "persistent_squeeze_cpg": 11.65091319608847,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 11.422482228898184,
+            "persistent_squeeze_cpg": 14.239457166187105,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -9.149999999999999,
+        11.785802564513578,
+        -13.79219750648194
+      ],
+      "prediction_cpg": 26.980859753382397,
+      "quarter": "2021Q2",
+      "seasonal_cpg": 31.7
+    },
+    {
+      "actual_cpg": 24.0,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.3000000000000007,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 18.7,
+        "earlier_seasonal_quarters": [
+          "2019Q3",
+          "2020Q3"
+        ],
+        "prior_year_margin_cpg": 19.0,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 18.12033200944872,
+            "persistent_squeeze_cpg": 20.210050339164393,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 18.094466906135285,
+            "persistent_squeeze_cpg": 19.575058459260614,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 16.221100674170813,
+            "persistent_squeeze_cpg": 16.85467664225581,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.3000000000000007,
+        17.442645680501574,
+        -18.8668120930954
+      ],
+      "prediction_cpg": 20.848956509508668,
+      "quarter": "2021Q3",
+      "seasonal_cpg": 19.0
+    },
+    {
+      "actual_cpg": 25.5,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.25,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 15.15,
+        "earlier_seasonal_quarters": [
+          "2019Q4",
+          "2020Q4"
+        ],
+        "prior_year_margin_cpg": 15.4,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 19.641455133210062,
+            "persistent_squeeze_cpg": 16.167231920120926,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 20.346446932120564,
+            "persistent_squeeze_cpg": 17.425920857937097,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 23.208820712308107,
+            "persistent_squeeze_cpg": 15.540904087173738,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.25,
+        21.076960535993038,
+        -16.25763610880741
+      ],
+      "prediction_cpg": 19.190562918350157,
+      "quarter": "2021Q4",
+      "seasonal_cpg": 15.4
+    },
+    {
+      "actual_cpg": 23.3,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 15.5,
+        "earlier_seasonal_quarters": [
+          "2019Q1",
+          "2020Q1",
+          "2021Q1"
+        ],
+        "prior_year_margin_cpg": 15.5,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 16.433724988212326,
+            "persistent_squeeze_cpg": 29.031560097439073,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 14.466479848924667,
+            "persistent_squeeze_cpg": 27.570807682362297,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 15.38156975742751,
+            "persistent_squeeze_cpg": 29.981232436529062,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        15.574554237955201,
+        -29.005390052378818
+      ],
+      "prediction_cpg": 28.47874251201401,
+      "quarter": "2022Q1",
+      "seasonal_cpg": 15.5
+    },
+    {
+      "actual_cpg": 26.5,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 21.8,
+        "earlier_seasonal_quarters": [
+          "2019Q2",
+          "2020Q2",
+          "2021Q2"
+        ],
+        "prior_year_margin_cpg": 21.8,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 21.183792194250643,
+            "persistent_squeeze_cpg": 41.9926720220121,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 22.686404650624542,
+            "persistent_squeeze_cpg": 38.82794606561349,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 30.359934518885915,
+            "persistent_squeeze_cpg": 47.69829267050669,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        24.799279954664602,
+        -43.225406444855324
+      ],
+      "prediction_cpg": 23.727566104742163,
+      "quarter": "2022Q2",
+      "seasonal_cpg": 21.8
+    },
+    {
+      "actual_cpg": 39.3,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 5.0,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 19.0,
+        "earlier_seasonal_quarters": [
+          "2019Q3",
+          "2020Q3",
+          "2021Q3"
+        ],
+        "prior_year_margin_cpg": 24.0,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 39.911971115964455,
+            "persistent_squeeze_cpg": 36.83989523565377,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 43.63659112225504,
+            "persistent_squeeze_cpg": 36.53405707892323,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 33.75480755506051,
+            "persistent_squeeze_cpg": 18.877656061101177,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -5.0,
+        38.65832606986826,
+        -30.415421306626197
+      ],
+      "prediction_cpg": 29.50822312019188,
+      "quarter": "2022Q3",
+      "seasonal_cpg": 24.0
+    },
+    {
+      "actual_cpg": 28.3,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 10.1,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 15.4,
+        "earlier_seasonal_quarters": [
+          "2019Q4",
+          "2020Q4",
+          "2021Q4"
+        ],
+        "prior_year_margin_cpg": 25.5,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 41.054985719254155,
+            "persistent_squeeze_cpg": 43.22854195066837,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 36.266716513239764,
+            "persistent_squeeze_cpg": 40.58783612747842,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 36.13122161344279,
+            "persistent_squeeze_cpg": 36.485199577602316,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -10.1,
+        38.128632072984374,
+        -40.19101560248295
+      ],
+      "prediction_cpg": 27.360103431213055,
+      "quarter": "2022Q4",
+      "seasonal_cpg": 25.5
+    },
+    {
+      "actual_cpg": 23.2,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 23.3,
+        "earlier_seasonal_quarters": [
+          "2020Q1",
+          "2021Q1",
+          "2022Q1"
+        ],
+        "prior_year_margin_cpg": 23.3,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 34.855087950045814,
+            "persistent_squeeze_cpg": 34.89782173046403,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 31.36797181922233,
+            "persistent_squeeze_cpg": 35.122031017733974,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 30.792488137985444,
+            "persistent_squeeze_cpg": 29.486662557195693,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        32.555408018951596,
+        -33.040795207656735
+      ],
+      "prediction_cpg": 22.783236624991005,
+      "quarter": "2023Q1",
+      "seasonal_cpg": 23.3
+    },
+    {
+      "actual_cpg": 27.0,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 26.5,
+        "earlier_seasonal_quarters": [
+          "2020Q2",
+          "2021Q2",
+          "2022Q2"
+        ],
+        "prior_year_margin_cpg": 26.5,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 29.21914367510493,
+            "persistent_squeeze_cpg": 24.49642042892776,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 28.08875974331697,
+            "persistent_squeeze_cpg": 22.017608921128783,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 29.67073760071728,
+            "persistent_squeeze_cpg": 29.611978111936462,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        29.098761414636954,
+        -25.690499971578504
+      ],
+      "prediction_cpg": 30.015562500819577,
+      "quarter": "2023Q2",
+      "seasonal_cpg": 26.5
+    },
+    {
+      "actual_cpg": 28.7,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 15.299999999999997,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 24.0,
+        "earlier_seasonal_quarters": [
+          "2020Q3",
+          "2021Q3",
+          "2022Q3"
+        ],
+        "prior_year_margin_cpg": 39.3,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 22.367726440174398,
+            "persistent_squeeze_cpg": 27.05089234453568,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 23.103022171880113,
+            "persistent_squeeze_cpg": 30.463161501822793,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 17.91994010554942,
+            "persistent_squeeze_cpg": 17.67285013456765,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -15.299999999999997,
+        20.977798743813107,
+        -24.581464564036075
+      ],
+      "prediction_cpg": 35.383410918306,
+      "quarter": "2023Q3",
+      "seasonal_cpg": 39.3
+    },
+    {
+      "actual_cpg": 31.1,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 2.8000000000000007,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 25.5,
+        "earlier_seasonal_quarters": [
+          "2020Q4",
+          "2021Q4",
+          "2022Q4"
+        ],
+        "prior_year_margin_cpg": 28.3,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 27.37044940784984,
+            "persistent_squeeze_cpg": 20.10227674956814,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 24.272852158462847,
+            "persistent_squeeze_cpg": 20.366433735794423,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 26.335816001133274,
+            "persistent_squeeze_cpg": 18.73132679179028,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -2.8000000000000007,
+        26.237482363242275,
+        -19.68314917853671
+      ],
+      "prediction_cpg": 29.603681180808195,
+      "quarter": "2023Q4",
+      "seasonal_cpg": 28.3
+    },
+    {
+      "actual_cpg": 21.7,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 23.2,
+        "earlier_seasonal_quarters": [
+          "2021Q1",
+          "2022Q1",
+          "2023Q1"
+        ],
+        "prior_year_margin_cpg": 23.2,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 11.942748441999774,
+            "persistent_squeeze_cpg": 23.4840067011318,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 8.177586265489861,
+            "persistent_squeeze_cpg": 18.958085522928265,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 17.452279737771736,
+            "persistent_squeeze_cpg": 18.352879180231433,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        12.9574468231441,
+        -20.549344739362414
+      ],
+      "prediction_cpg": 22.62787805109699,
+      "quarter": "2024Q1",
+      "seasonal_cpg": 23.2
+    },
+    {
+      "actual_cpg": 29.7,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.5,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 26.5,
+        "earlier_seasonal_quarters": [
+          "2021Q2",
+          "2022Q2",
+          "2023Q2"
+        ],
+        "prior_year_margin_cpg": 27.0,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 17.323216519908122,
+            "persistent_squeeze_cpg": 13.157242489207418,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 16.592657897440972,
+            "persistent_squeeze_cpg": 11.130522987741262,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 18.481876792074686,
+            "persistent_squeeze_cpg": 15.741106616124005,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.5,
+        17.551782574441113,
+        -13.568483649905163
+      ],
+      "prediction_cpg": 27.232487504751465,
+      "quarter": "2024Q2",
+      "seasonal_cpg": 27.0
+    },
+    {
+      "actual_cpg": 31.9,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 13,
+        "earlier_seasonal_median_cpg": 28.7,
+        "earlier_seasonal_quarters": [
+          "2021Q3",
+          "2022Q3",
+          "2023Q3"
+        ],
+        "prior_year_margin_cpg": 28.7,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 16.529139470191176,
+            "persistent_squeeze_cpg": 13.05900800395119,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 12.872344692552781,
+            "persistent_squeeze_cpg": 8.609386716782698,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 18.268145771368985,
+            "persistent_squeeze_cpg": 10.613821434325015,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        16.237996046114063,
+        -11.092586058837036
+      ],
+      "prediction_cpg": 32.41760383289337,
+      "quarter": "2024Q3",
+      "seasonal_cpg": 28.7
+    },
+    {
+      "actual_cpg": 28.9,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 2.8000000000000007,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 28.3,
+        "earlier_seasonal_quarters": [
+          "2021Q4",
+          "2022Q4",
+          "2023Q4"
+        ],
+        "prior_year_margin_cpg": 31.1,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 16.107016588418613,
+            "persistent_squeeze_cpg": 15.363853517382518,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 16.66008892980295,
+            "persistent_squeeze_cpg": 17.638626112025182,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 17.04439501672676,
+            "persistent_squeeze_cpg": 18.9824406796438,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -2.8000000000000007,
+        16.57532769118051,
+        -17.206299359175027
+      ],
+      "prediction_cpg": 30.73160874995746,
+      "quarter": "2024Q4",
+      "seasonal_cpg": 31.1
+    },
+    {
+      "actual_cpg": 23.7,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": -1.5,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 23.2,
+        "earlier_seasonal_quarters": [
+          "2022Q1",
+          "2023Q1",
+          "2024Q1"
+        ],
+        "prior_year_margin_cpg": 21.7,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 10.289850912367646,
+            "persistent_squeeze_cpg": 12.06853103985102,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 11.764772366651169,
+            "persistent_squeeze_cpg": 16.921979778511222,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 13.955316024946532,
+            "persistent_squeeze_cpg": 12.666601278054358,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        1.5,
+        11.95074174462591,
+        -13.482121875418386
+      ],
+      "prediction_cpg": 24.468764448429035,
+      "quarter": "2025Q1",
+      "seasonal_cpg": 21.7
+    },
+    {
+      "actual_cpg": 29.2,
+      "direction_correct": false,
+      "feature_details": {
+        "anchor_anomaly_cpg": 2.6999999999999993,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 27.0,
+        "earlier_seasonal_quarters": [
+          "2022Q2",
+          "2023Q2",
+          "2024Q2"
+        ],
+        "prior_year_margin_cpg": 29.7,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 20.76229321506138,
+            "persistent_squeeze_cpg": 21.86143953962997,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 17.530131815385428,
+            "persistent_squeeze_cpg": 18.75182813769746,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 21.239834775780125,
+            "persistent_squeeze_cpg": 22.10113137862887,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -2.6999999999999993,
+        20.130469713753165,
+        -21.17590428687037
+      ],
+      "prediction_cpg": 33.68760675577302,
+      "quarter": "2025Q2",
+      "seasonal_cpg": 29.7
+    },
+    {
+      "actual_cpg": 28.3,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 31.9,
+        "earlier_seasonal_quarters": [
+          "2022Q3",
+          "2023Q3",
+          "2024Q3"
+        ],
+        "prior_year_margin_cpg": 31.9,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 15.490591467818481,
+            "persistent_squeeze_cpg": 17.662634112232865,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 18.732690956274993,
+            "persistent_squeeze_cpg": 19.236053815461865,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 22.757843568141944,
+            "persistent_squeeze_cpg": 19.600480556831755,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        18.862258473563774,
+        -18.73729969629298
+      ],
+      "prediction_cpg": 30.4325246857704,
+      "quarter": "2025Q3",
+      "seasonal_cpg": 31.9
+    },
+    {
+      "actual_cpg": 31.0,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 28.9,
+        "earlier_seasonal_quarters": [
+          "2022Q4",
+          "2023Q4",
+          "2024Q4"
+        ],
+        "prior_year_margin_cpg": 28.9,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 12.312900899609302,
+            "persistent_squeeze_cpg": 9.973875690580327,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 12.840205379506475,
+            "persistent_squeeze_cpg": 12.94667995871793,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 15.288696221072888,
+            "persistent_squeeze_cpg": 11.294398282839165,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        13.495303651364972,
+        -11.176978349790982
+      ],
+      "prediction_cpg": 30.197566706485624,
+      "quarter": "2025Q4",
+      "seasonal_cpg": 28.9
+    },
+    {
+      "actual_cpg": 25.4,
+      "direction_correct": true,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.5,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 23.2,
+        "earlier_seasonal_quarters": [
+          "2023Q1",
+          "2024Q1",
+          "2025Q1"
+        ],
+        "prior_year_margin_cpg": 23.7,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 19.65887285207097,
+            "persistent_squeeze_cpg": 33.50446092221543,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 19.660205287188113,
+            "persistent_squeeze_cpg": 37.16236590269195,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 10.976876296413698,
+            "persistent_squeeze_cpg": 31.971643815553612,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.5,
+        16.59056857897797,
+        -33.86875650306904
+      ],
+      "prediction_cpg": 25.317335630426772,
+      "quarter": "2026Q1",
+      "seasonal_cpg": 23.7
+    },
+    {
+      "actual_cpg": 35.1,
+      "direction_correct": false,
+      "feature_details": {
+        "anchor_anomaly_cpg": 0.0,
+        "complete_weeks": 12,
+        "earlier_seasonal_median_cpg": 29.2,
+        "earlier_seasonal_quarters": [
+          "2023Q2",
+          "2024Q2",
+          "2025Q2"
+        ],
+        "prior_year_margin_cpg": 29.2,
+        "regional_sequence": [
+          {
+            "persistent_capture_cpg": 53.21071801814871,
+            "persistent_squeeze_cpg": 45.753804853969406,
+            "region": "Gulf Coast",
+            "weight": 0.398851
+          },
+          {
+            "persistent_capture_cpg": 64.4375575068645,
+            "persistent_squeeze_cpg": 48.37045546915052,
+            "region": "Midwest",
+            "weight": 0.247701
+          },
+          {
+            "persistent_capture_cpg": 47.81014272274773,
+            "persistent_squeeze_cpg": 37.74779582235942,
+            "region": "East Coast",
+            "weight": 0.353448
+          }
+        ]
+      },
+      "features": [
+        -0.0,
+        54.08279484933421,
+        -43.5722439477959
+      ],
+      "prediction_cpg": 28.49508433083607,
+      "quarter": "2026Q2",
+      "seasonal_cpg": 29.2
+    }
+  ]
+}

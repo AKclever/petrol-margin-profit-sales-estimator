@@ -1,0 +1,6 @@
+{
+  "status": "FAILED_BEFORE_FITTING_OR_FORECAST",
+  "reason": "Q1 2019 requires a 2018-12-31 boundary state but the market history starts January 2019; initial warmup eligibility was not checked before path construction.",
+  "resolution": "Explicit initial-history warmup exclusion added; complete evaluation uses a fresh output directory. No lag, feature, regression or outcome-dependent tuning changed.",
+  "retained_evidence": ["national_demand.xls", "demand_capture.json"]
+}

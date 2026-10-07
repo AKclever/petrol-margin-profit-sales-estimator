@@ -11,6 +11,9 @@ license = {text = "MIT"}
 authors = [{name = "MUSA margin tracker contributors"}]
 dependencies = ["lxml>=5", "requests>=2.31", "websocket-client>=1.8", "xlrd>=2.0"]
 
+[project.optional-dependencies]
+cloud = ["google-cloud-storage>=2.18,<4"]
+
 [project.scripts]
 musa-nowcast = "musa_nowcast.cli:main"
 musa-fetch-eia = "musa_nowcast.eia:main"
@@ -19,6 +22,13 @@ musa-geo = "musa_nowcast.geo:main"
 musa-timing = "musa_nowcast.timing:main"
 musa-shadow = "musa_nowcast.shadow:main"
 musa-eps-bridge = "musa_nowcast.eps_bridge:main"
+musa-risk = "musa_nowcast.risk:main"
+musa-risk-ledger = "musa_nowcast.risk_ledger:main"
+musa-uncertain-quarter = "musa_nowcast.uncertain_quarter:main"
+musa-prospective = "musa_nowcast.prospective:main"
+musa-daily-capture = "musa_nowcast.daily_capture:main"
+musa-daily-prices = "musa_nowcast.daily_prices:main"
+musa-couchetard-peer = "musa_nowcast.couchetard_peer:main"
 
 [tool.setuptools]
 packages = ["musa_nowcast"]

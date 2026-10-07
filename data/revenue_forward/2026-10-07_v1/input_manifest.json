@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-10-07T15:33:31.375457+00:00",
+  "hashes": {
+    "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/scripts/run_revenue_forward_research.py": "d485f40c648f98105138b1fcdd85ef54e4ff5a38feb76af88daf7b431d1bf681",
+    "data/actuals.csv": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+    "data/market.csv": "721da8ca24e87c7da17892413b70ad6d45eddc223c512eb329753679b1de4005",
+    "data/peer_surprise/2026-10-07_v2/sources/MUSA_source_checks.json": "5f4463ad6c0485169e452cb391f0223dce2aa83cd8ca6d5ab054f162b96823e7",
+    "data/revenue_forward_research_spec_v1.json": "b8413ccb9cd372786b171a4c82a74374c0c81ee113b0e72963458de63c9a1d4f",
+    "data/weights.csv": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986",
+    "musa_nowcast/revenue_forward.py": "cd4c581d55cbd31c56f88078ca66122ed1da08fc89f3fac5c34b61abb0229b60"
+  }
+}

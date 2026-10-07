@@ -1,0 +1,17 @@
+{
+  "actual_available_at": "2023-05-02",
+  "actual_margin_cpg": 23.2,
+  "actual_source_url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2023/Murphy-USA-Inc.-Reports-First-Quarter-2023-Results/default.aspx",
+  "evaluation_role": "RETROSPECTIVE_MECHANICAL_REPLAY",
+  "frozen_forecast_sha256": "22c2bc09c759f896e6f2240947f6afed6e8fe10e8248c68b0dc9f3fb5a47d526",
+  "incremental_abs_error_improvement": -6.095294847834133,
+  "outcome_sha256": "188b02f93a2430817227f1692d513e455584cf0a80713920fe6552401c3f0648",
+  "production_abs_error": 1.137902046767035,
+  "production_forecast_same_as_of": 22.062097953232964,
+  "prospective_validation": false,
+  "quarter": "2023Q1",
+  "scored_at": "2026-10-07T10:10:12.806808+00:00",
+  "shadow_abs_error": 7.233196894601168,
+  "shadow_forecast": 15.966803105398832,
+  "status": "SCORED_APPROXIMATE_RESEARCH_REPLAY_NOT_VALIDATION"
+}

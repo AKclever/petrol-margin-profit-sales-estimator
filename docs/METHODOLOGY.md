@@ -42,13 +42,33 @@ Levels can create spurious fit, so the test uses quarter-over-quarter changes. B
 
 The live hierarchy changes only after the gate passes on at least 20 aligned quarters with adjusted R² ≥ 0.10, leave-one-out R² > 0, and directional accuracy ≥ 55%. Even after passing, spot remains labelled `spot_fallback`; regional rack remains preferred.
 
-## Nowcast validation and trust gate
+## Adaptive nowcast validation and trust gate
 
 The quarter-level nowcast uses ridge regression to estimate the year-over-year margin change
-from year-over-year changes in spread, falling-price capture, rising-price squeeze, and
-volatility. The predicted change is shrunk by 50% before it is added to MUSA's reported margin
-for the same quarter one year earlier. This seasonal anchor reflects the strong recurring
-quarterly pattern while allowing current market information to move the estimate conservatively.
+from year-over-year changes in price spread, falling-price capture, rising-price squeeze, and
+volatility. It also includes pre-specified adaptive features: a four-week spread and price
+window, recent volatility, acceleration, largest weekly moves, and 25-cent hinge terms for
+large quarterly wholesale-price declines or increases. Ridge regularization keeps these
+correlated features from becoming an unregularized event-fitting exercise. The predicted change
+is shrunk by 50% before it is added to MUSA's reported margin for the same quarter one year
+earlier. This seasonal anchor reflects the strong recurring quarterly pattern while allowing
+current market information to move the estimate conservatively.
+
+The production output is explicitly a `realized_market_nowcast`: it translates market weeks
+already observed into an estimate of the current quarter. The adaptive output is an
+`adaptive_realized_market_nowcast` challenger and cannot replace the production model merely by
+passing the production model's seasonal-baseline gate. It does not make a point forecast for
+future quarters. A forward-looking product must instead accept separately documented market
+scenarios or a forward curve, retain those assumptions independently from the MUSA translation
+model, and be labelled `conditional_forward`.
+
+Each output also assigns a mechanical regime—`NORMAL`, `FAST_FALLING`, `FAST_RISING`, or
+`HIGH_VOLATILITY`—from the historical 20th/80th percentiles of quarterly wholesale changes and
+volatility. This is not a hard-coded COVID indicator. It reports the number of historical
+quarters in the same regime and the largest feature z-score relative to the historical training
+set. The interval multiplies cross-validated RMSE by the normal incomplete-quarter penalty and
+by a capped distance/regime penalty. Thus an unprecedented move widens uncertainty rather than
+silently receiving the precision of an ordinary quarter.
 
 Backtesting is expanding-window and time ordered. For every test quarter, the regression is
 fit only to earlier company actuals; future actuals never enter that quarter's fit. The model
@@ -86,4 +106,3 @@ sensitivities do not change that decision. The Casey's output remains experiment
 new specification is defined before evaluation and passes a fresh or properly nested test;
 tuning features against these same 20 outcomes and reporting the best variant would create
 model-selection leakage.
-

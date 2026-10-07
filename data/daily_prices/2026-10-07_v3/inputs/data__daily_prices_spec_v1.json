@@ -1,0 +1,14 @@
+{
+  "id": "MUSA_DAILY_PRICE_INFORMATION_V1",
+  "status": "FROZEN_BEFORE_EVALUATION",
+  "production_changed": false,
+  "source_scope": "EIA daily NYH/USGC conventional gasoline spot prices plus dated AAA state regular-price snapshots",
+  "retail_basis": "AAA state average regular gasoline, not MUSA pump prices; no regional gallon-weight equivalence claimed",
+  "availability": "First capture timestamp is conservative available_at for snapshots; historical EIA download is current-vintage research, not historical PIT evidence",
+  "joins": "Exact observed-date matches only; do not interpolate or forward-fill weekly retail prices",
+  "missing_history": "BLOCKED_DAILY_RETAIL_HISTORY when no genuine archived daily retail history exists",
+  "features": ["mean exact-date spread", "spread change on consecutive calendar dates", "positive and negative spread-change totals separately", "within-week wholesale high-low range as diagnostic only"],
+  "automated_aaa": "Disabled unless an explicit permission artifact is supplied; robots allowances alone are not a data license",
+  "daily_shadow_scoring": "Not authorized without a supported historical paired dataset and a separately frozen estimator",
+  "paid_data": false
+}

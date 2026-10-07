@@ -1,0 +1,37 @@
+{
+  "spec_id": "MUSA_Q2_2025_PIT_RULE_REPLAY_V1",
+  "evaluation_role": "RETROSPECTIVE_MECHANICAL_REPLAY",
+  "methodology_origin": "RETROSPECTIVE_PIT_RULE_REPLAY",
+  "information_cutoff": "2025-06-16",
+  "cutoff_resolution": "DATE_ONLY_NO_INTRADAY_CLAIM",
+  "disclosure_period_start": "2025-04-01",
+  "disclosure_period_end": "2025-05-31",
+  "disclosure_available_at": "2025-06-16",
+  "remaining_period_start": "2025-06-01",
+  "remaining_period_end": "2025-06-30",
+  "gallon_share_method": "EIA_WEEKLY_DEMAND_52_WEEK_SEASONAL_PROXY_V1",
+  "gallon_share_evidence_type": "PIT_MODELLED_GALLON_SHARE",
+  "gallon_share_rules": [
+    "Use archived WPSR finished motor gasoline products supplied only, release date no later than cutoff.",
+    "A week is the seven days ending Friday; allocate its reported daily rate uniformly within the week.",
+    "For current weeks not yet published, use demand from the week exactly 364 days earlier, scaled by total current known quarter-to-date demand divided by demand in those aligned prior-year days.",
+    "Observed-period expected volume divided by expected full-quarter volume is a national-demand proxy for MUSA share, not company-observed gallons.",
+    "No final Q2 2025 company gallons, future weekly releases, current revised demand history, or bare calendar-day fraction."
+  ],
+  "remaining_margin_method": "MUSA_REMAINING_PERIOD_MARGIN_V1",
+  "remaining_margin_rules": [
+    "Use the production four-feature standardized ridge change regression, alpha 2 and shrinkage 0.5, trained only on verified margins through 2025Q1 and the June16 ALFRED snapshot.",
+    "Use 2024 year-end store counts from the 10-K filed February20,2025, normalized across the original three regions; use these PIT weights consistently in training and both forecasts.",
+    "Forward-fill each region's last complete paired retail/wholesale week through quarter-end. Retain June9 unpaired retail separately, but do not mix it with a different wholesale observation week.",
+    "Apply the fitted quarterly change mapping to June-only four-feature differences versus June2024, anchored on the prior-year Q2 company quarterly margin.",
+    "This transfers quarterly coefficients and a quarterly seasonal anchor to an unobserved monthly target. It is an explicit unvalidated research assumption, not an observed June2024 margin or a validated monthly model.",
+    "The remaining forecast covers June1-June30 only; the production comparator uses the unchanged production formula on observed complete QTD weeks, with the same cutoff, training inputs and PIT weights."
+  ],
+  "scoring_rules": [
+    "Freeze all raw source hashes, normalized input hashes, model code hashes, fitted coefficients and predictions before opening an outcome source in the scoring step.",
+    "Outcome and errors are null in forecast.json; score separately without modifying it.",
+    "Do not tune any rule or parameter using Q2 2025 actuals. Strict company-observed-gallons replay remains blocked and unchanged."
+  ],
+  "forecast_logic_changes_authorized": false,
+  "prospective_validation": false
+}

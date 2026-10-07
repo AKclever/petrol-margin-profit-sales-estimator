@@ -1,0 +1,16 @@
+{
+  "spec_id": "MUSA_REVENUE_FORWARD_DIAGNOSTICS_V1",
+  "role": "RESEARCH_ONLY_NOT_PRODUCTION",
+  "revenue_scope": "Six previously selected largest production misses; source gaps remain blocked",
+  "revenue_proxy": "Prior-year reported retail revenue per gallon plus year-over-year EIA weighted retail price change",
+  "decomposition": "actual-minus-production = revenue-proxy-error minus implied-cost-residual",
+  "cost_residual_is_independent_observed_cost": false,
+  "same_store_comparison": "Reported same-store gallon growth only; no growth inferred from changing-store-base volume tables",
+  "forward_cutoff": "End of the calendar quarter two quarter-index steps before target; e.g. Q3 forecast at March31",
+  "forward_minimum_published_actuals": 8,
+  "forward_benchmarks": ["prior_year_same_quarter", "median_previous_same_quarters", "mean_last_four_published_quarters"],
+  "availability_rule": "Verified original result publication date strictly before cutoff; unresolved dates excluded",
+  "forward_market_inputs": "NONE",
+  "threshold_fitting": false,
+  "limitations": ["Current archived outcomes are not a complete original-target revision audit", "Revenue proxy mixes product, taxes, geography and gallon/time weights", "Implied cost residual uses actual margin and is not causal attribution", "No new forward production model is authorized by benchmark performance"]
+}

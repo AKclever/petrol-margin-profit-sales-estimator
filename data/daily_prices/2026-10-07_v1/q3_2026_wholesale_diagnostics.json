@@ -1,0 +1,26 @@
+{
+  "evaluation_role": "CURRENT_VINTAGE_WHOLESALE_PATH_DIAGNOSTIC_NOT_MARGIN_ESTIMATE",
+  "production_changed": false,
+  "quarter": "2026Q3",
+  "regions": {
+    "NYH": {
+      "daily_observations": 63,
+      "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+      "maximum_within_week_range_cpg": 41.5,
+      "mean_within_week_range_cpg": 17.499999999999996,
+      "negative_daily_move_magnitude_total_cpg": 234.29999999999995,
+      "positive_daily_move_total_cpg": 257.5,
+      "weeks_with_at_least_two_observations": 14
+    },
+    "USGC": {
+      "daily_observations": 63,
+      "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+      "maximum_within_week_range_cpg": 56.80000000000001,
+      "mean_within_week_range_cpg": 22.571428571428562,
+      "negative_daily_move_magnitude_total_cpg": 258.69999999999993,
+      "positive_daily_move_total_cpg": 306.89999999999986,
+      "weeks_with_at_least_two_observations": 14
+    }
+  },
+  "source_sha256": "669d096f5a17700d75e1a1df716af2788f18da0f1e5623549e480cd19e2468fb"
+}

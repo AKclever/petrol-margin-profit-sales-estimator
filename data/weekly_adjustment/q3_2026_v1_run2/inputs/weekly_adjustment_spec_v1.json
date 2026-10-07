@@ -1,0 +1,22 @@
+{
+  "id": "MUSA_WEEKLY_RETAIL_ADJUSTMENT_V1",
+  "role": "RESEARCH_ONLY",
+  "designed_after_q3_2026_market_path": true,
+  "production_changed": false,
+  "automatic_promotion": false,
+  "replacement_cost": "50% current plus 50% previous complete regional weekly wholesale spot price; delivered cost, freight, taxes and discounts unobserved",
+  "retail": "Observed EIA regional regular retail prices, not observed MUSA pump prices",
+  "squeeze_impulse": "max(cost_change - retail_change, 0) when cost_change > 0, else 0",
+  "capture_impulse": "max(retail_change - cost_change, 0) when cost_change < 0, else 0",
+  "state": "squeeze and capture states each retain 50% of prior week's state plus current impulse; never reset at quarter boundary",
+  "warmup": "Require eight consecutive valid weekly state transitions before the first quarter week; residual initial-state influence below 1/256",
+  "features": ["retail_minus_replacement_cost", "negative_squeeze_state", "capture_state"],
+  "gallon_weights": "EIA weekly national finished-gasoline products supplied times days of ISO week inside quarter, normalized to one; within-week uniform-rate assumption and store-count regional exposure proxy, not company gallon observations",
+  "quarter_boundary": "Include initial partial ISO week. For the final partial ISO week lacking a complete in-quarter price/demand pair, persist the prior complete week's prices and demand and mark every such day imputed. No internal-gap filling or long-horizon projections.",
+  "calibration": "Fit year-over-year quarterly retail-margin changes to weighted aggregate weekly-feature changes. Standardized ridge alpha=2; nonnegative coefficients on all three signed features; unpenalized intercept; fixed 0.5 production-style shrinkage and prior-year same-quarter company-margin anchor.",
+  "weekly_margin_allocation": "Quarterly seasonal anchor plus shrunken calibrated contribution of each week's features relative to prior-year aggregate; volume-weighted weekly predictions must exactly equal the quarter prediction. These are latent calibrated allocations, not identified company monthly/weekly margins.",
+  "evaluation": "Expanding-window held-out company targets; compare production on exactly the same eligible quarters. Current-capture historical prices, demand and static weights mean this is NOT historical PIT validation or an independent test of hypotheses already developed on this history.",
+  "selection": "One fixed specification; no lag, half-life, alpha, sign or shrinkage searches against outcomes",
+  "q3_2026_actual": "NOT_USED",
+  "weekly_uncertainty": "Quarterly supervision does not identify unique weekly company economics; fitted coefficients are not causal estimates"
+}

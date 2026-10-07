@@ -1,0 +1,34 @@
+{
+  "captured_at": "2026-10-07T14:56:05.731040+00:00",
+  "endpoint": "https://ir.corporate.murphyusa.com/Services/FinancialReportService.svc/GetFinancialReportList",
+  "request": {
+    "excludeSelection": 1,
+    "reportSubType": [
+      "First Quarter",
+      "Second Quarter",
+      "Third Quarter",
+      "Fourth Quarter"
+    ],
+    "reportSubTypeList": [
+      "First Quarter",
+      "Second Quarter",
+      "Third Quarter",
+      "Fourth Quarter"
+    ],
+    "reportTypes": "First Quarter|Second Quarter|Third Quarter|Fourth Quarter",
+    "serviceDto": {
+      "IncludeTags": true,
+      "ItemCount": -1,
+      "LanguageId": "1",
+      "RevisionNumber": "1",
+      "Signature": "",
+      "StartIndex": 0,
+      "TagList": [],
+      "ViewDate": "",
+      "ViewType": "2"
+    },
+    "year": -1
+  },
+  "sha256": "07a775db7832aeb3328ef54bf1511b9c30c0aa292602e98e7e922869e131208a",
+  "source_page": "https://ir.corporate.murphyusa.com/investor-relations/financial-information/quarterly-results/default.aspx"
+}

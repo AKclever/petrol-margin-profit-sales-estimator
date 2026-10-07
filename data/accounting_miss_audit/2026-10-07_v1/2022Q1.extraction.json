@@ -1,0 +1,168 @@
+{
+  "candidate_paragraphs": [
+    "EL DORADO, Ark.--(BUSINESS WIRE)-- Murphy USA Inc. (NYSE: MUSA), a leading marketer of retail motor fuel products and convenience merchandise, today announced financial results for the three months ended March 31, 2022.",
+    "Net income and Adjusted EBITDA for Q1 2022 were higher versus the prior period, due primarily to higher contribution margins from both fuel and merchandise sales, partially offset by higher store operating expenses and higher payment fees. Net income was further impacted by higher depreciation expense, increased selling, general and administrative expenses, and higher income tax expense, which were partially offset by the benefit of lower acquisition related costs. All amounts reported for the 2021 period include the consolidated results of our wholly-owned subsidiary, Quick Chek Corporation (\"QuickChek\") from January 29, 2021 (the date of acquisition).",
+    "Fuel",
+    "Total retail fuel contribution ($ Millions)",
+    "Total fuel contribution ($ Millions)",
+    "Retail fuel volume - chain (Million gal)",
+    "Retail fuel volume - per store (K gal APSM) 1",
+    "Retail fuel volume - per store (K gal SSS) 2",
+    "Total fuel contribution (including retail, PS&W and RINs) (cpg)",
+    "Retail fuel margin (cpg)",
+    "Total fuel contribution dollars of $369.8 million increased 62.7%, or $142.5 million, in Q1 of 2022 compared to Q1 of 2021 on favorable pricing and higher volumes. Retail fuel margins in the current period increased to 23.3 cpg, or 50.3%, above the prior period despite a rising commodity price environment. Consequently, total retail fuel contribution dollars increased $96.7 million, or 61.6%, to $253.6 million compared to the prior-year quarter, supported by both higher retail fuel margins and volumes. PS&W margin (including RINs) increased $45.8 million when compared to Q1 2021, primarily reflecting higher contribution from typical inventory timing and price-related impacts of the product supply chain.",
+    "Certain statements in this news release contain or may suggest \u201cforward-looking\u201d information (as defined in the Private Securities Litigation Reform Act of 1995) that involve risk and uncertainties, including, but not limited to our M&A activity, anticipated store openings, fuel margins, merchandise margins, sales of RINs, trends in our operations, dividends, and share repurchases. Such statements are based upon the current beliefs and expectations of the Company\u2019s management and are subject to significant risks and uncertainties. Actual future results may differ materially from historical results or current expectations depending upon factors including, but not limited to: The Company's ability to realize projected synergies from the acquisition of QuickChek and successfully expand our food and beverage offerings; our ability to continue to maintain a good business relationship with Walmart; successful execution of our growth strategy, including our ability to realize the anticipated benefits from such growth initiatives, and the timely completion of construction associated with our newly planned stores which may be impacted by the financial health of third parties; our ability to effectively manage our inventory, disruptions in our supply chain and our ability to control costs; geopolitical events, such as Russia's invasion of Ukraine, that impact the supply and demand and price of crude oil; the impact of severe weather events, such as hurricanes, floods and earthquakes; the impact of a global health pandemic, such as COVID-19, including the impact on the Company's fuel volumes if the gradual recoveries experienced throughout 2020 and 2021 stall or reverse as a result of any resurgence in COVID-19 infection rates and government reaction in response thereof; the impact of any systems failures, cybersecurity and/or security breaches of the company or its vendor partners, including any security breach that results in theft, transfer or unauthorized disclosure of customer, employee or company information or our compliance with information security and privacy laws and regulations in the event of such an incident; successful execution of our information technology strategy; reduced demand for our products due to the implementation of more stringent fuel economy and greenhouse gas reduction requirements, or increasingly widespread adoption of electric vehicle technology; future tobacco or e-cigarette legislation and any other efforts that make purchasing tobacco products more costly or difficult could hurt our revenues and impact gross margins; changes to the Company's capital allocation, including the timing, declaration, amount and payment of any future dividends or levels of the Company's share repurchases, or management of operating cash; the market price of the Company's stock prevailing from time to time, the nature of other investment opportunities presented to the Company from time to time, the Company's cash flows from operations, and general economic conditions; compliance with debt covenants; availability and cost of credit; and changes in interest rates. Our SEC reports, including our most recent annual Report on Form 10-K and quarterly report on Form 10-Q, contain other information on these and other factors that could affect our financial results and cause actual results to differ materially from any forward-looking information we may provide. The Company undertakes no obligation to update or revise any forward-looking statements to reflect subsequent events, new information or future circumstances.",
+    "Petroleum product sales (a)",
+    "Petroleum product cost of goods sold (a)",
+    "Petroleum product sales",
+    "Petroleum products cost of goods sold",
+    "Fuel gallons per month"
+  ],
+  "table_rows": [
+    [
+      "Total retail fuel contribution ($ Millions)",
+      "",
+      "$",
+      "253.6",
+      "",
+      "$",
+      "156.9"
+    ],
+    [
+      "RINs and other (included in Other operating revenues on Consolidated Income Statement) ($ Millions)",
+      "",
+      "",
+      "76.6",
+      "",
+      "",
+      "66.7"
+    ],
+    [
+      "Total fuel contribution ($ Millions)",
+      "",
+      "$",
+      "369.8",
+      "",
+      "$",
+      "227.3"
+    ],
+    [
+      "Retail fuel volume - chain (Million gal)",
+      "",
+      "",
+      "1,088.3",
+      "",
+      "",
+      "1,009.1"
+    ],
+    [
+      "Retail fuel volume - per store (K gal APSM) 1",
+      "",
+      "",
+      "224.9",
+      "",
+      "",
+      "215.1"
+    ],
+    [
+      "Retail fuel volume - per store (K gal SSS) 2",
+      "",
+      "",
+      "222.8",
+      "",
+      "",
+      "212.9"
+    ],
+    [
+      "Total fuel contribution (including retail, PS&W and RINs) (cpg)",
+      "",
+      "",
+      "34.0",
+      "",
+      "",
+      "22.5"
+    ],
+    [
+      "Retail fuel margin (cpg)",
+      "",
+      "",
+      "23.3",
+      "",
+      "",
+      "15.5"
+    ],
+    [
+      "PS&W including RINs contribution (cpg)",
+      "",
+      "",
+      "10.7",
+      "",
+      "",
+      "7.0"
+    ],
+    [
+      "Petroleum product sales (a)",
+      "",
+      "$",
+      "4,148.4",
+      "",
+      "",
+      "$",
+      "2,635.8",
+      ""
+    ],
+    [
+      "Petroleum product cost of goods sold (a)",
+      "",
+      "",
+      "3,856.2",
+      "",
+      "",
+      "",
+      "2,476.1",
+      ""
+    ],
+    [
+      "(a) Includes excise taxes of:",
+      "",
+      "$",
+      "514.1",
+      "",
+      "",
+      "$",
+      "469.6",
+      ""
+    ],
+    [
+      "Petroleum product sales",
+      "",
+      "$",
+      "4,148.4",
+      "",
+      "",
+      "$",
+      "2,635.8",
+      ""
+    ],
+    [
+      "Petroleum products cost of goods sold",
+      "",
+      "",
+      "3,856.2",
+      "",
+      "",
+      "",
+      "2,476.1",
+      ""
+    ],
+    [
+      "Fuel gallons per month",
+      "",
+      "3.8",
+      "%",
+      "",
+      "4.6",
+      "%"
+    ]
+  ]
+}

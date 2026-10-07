@@ -1,0 +1,10 @@
+{
+  "captured_at": "2026-10-07T15:35:09.034429+00:00",
+  "publication_date": "2021-10-28",
+  "publication_date_basis": "Archived SEC submissions filingDate",
+  "raw_file": "2021Q3_filing.html",
+  "role": "POST_RESULTS_ACCOUNTING_DIAGNOSTIC_NOT_FORECAST_INPUT",
+  "sha256": "7902a32379cf43ea4b20eb2beafe2ebd62474377fec9f11f939602c9fd6c358f",
+  "source_type": "SEC_10Q",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000055/musa-20210930.htm"
+}

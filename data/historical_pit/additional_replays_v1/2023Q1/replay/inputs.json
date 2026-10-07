@@ -1,0 +1,569 @@
+{
+  "covered_stores": 1643,
+  "means": [
+    0.27510846325514393,
+    0.935612900151853,
+    1.5171308720190322,
+    2.8118792535826924
+  ],
+  "prior_remaining_features": [
+    66.91200765150857,
+    9.635037532968141,
+    12.024061675796284,
+    19.800892675999176
+  ],
+  "proxy_days": {
+    "2023-01-01": {
+      "expected_daily_rate": 7558.0,
+      "projected": false,
+      "source_week": "2023-01-06"
+    },
+    "2023-01-02": {
+      "expected_daily_rate": 7558.0,
+      "projected": false,
+      "source_week": "2023-01-06"
+    },
+    "2023-01-03": {
+      "expected_daily_rate": 7558.0,
+      "projected": false,
+      "source_week": "2023-01-06"
+    },
+    "2023-01-04": {
+      "expected_daily_rate": 7558.0,
+      "projected": false,
+      "source_week": "2023-01-06"
+    },
+    "2023-01-05": {
+      "expected_daily_rate": 7558.0,
+      "projected": false,
+      "source_week": "2023-01-06"
+    },
+    "2023-01-06": {
+      "expected_daily_rate": 7558.0,
+      "projected": false,
+      "source_week": "2023-01-06"
+    },
+    "2023-01-07": {
+      "expected_daily_rate": 8054.0,
+      "projected": false,
+      "source_week": "2023-01-13"
+    },
+    "2023-01-08": {
+      "expected_daily_rate": 8054.0,
+      "projected": false,
+      "source_week": "2023-01-13"
+    },
+    "2023-01-09": {
+      "expected_daily_rate": 8054.0,
+      "projected": false,
+      "source_week": "2023-01-13"
+    },
+    "2023-01-10": {
+      "expected_daily_rate": 8054.0,
+      "projected": false,
+      "source_week": "2023-01-13"
+    },
+    "2023-01-11": {
+      "expected_daily_rate": 8054.0,
+      "projected": false,
+      "source_week": "2023-01-13"
+    },
+    "2023-01-12": {
+      "expected_daily_rate": 8054.0,
+      "projected": false,
+      "source_week": "2023-01-13"
+    },
+    "2023-01-13": {
+      "expected_daily_rate": 8054.0,
+      "projected": false,
+      "source_week": "2023-01-13"
+    },
+    "2023-01-14": {
+      "expected_daily_rate": 8142.0,
+      "projected": false,
+      "source_week": "2023-01-20"
+    },
+    "2023-01-15": {
+      "expected_daily_rate": 8142.0,
+      "projected": false,
+      "source_week": "2023-01-20"
+    },
+    "2023-01-16": {
+      "expected_daily_rate": 8142.0,
+      "projected": false,
+      "source_week": "2023-01-20"
+    },
+    "2023-01-17": {
+      "expected_daily_rate": 8142.0,
+      "projected": false,
+      "source_week": "2023-01-20"
+    },
+    "2023-01-18": {
+      "expected_daily_rate": 8142.0,
+      "projected": false,
+      "source_week": "2023-01-20"
+    },
+    "2023-01-19": {
+      "expected_daily_rate": 8142.0,
+      "projected": false,
+      "source_week": "2023-01-20"
+    },
+    "2023-01-20": {
+      "expected_daily_rate": 8142.0,
+      "projected": false,
+      "source_week": "2023-01-20"
+    },
+    "2023-01-21": {
+      "expected_daily_rate": 8491.0,
+      "projected": false,
+      "source_week": "2023-01-27"
+    },
+    "2023-01-22": {
+      "expected_daily_rate": 8491.0,
+      "projected": false,
+      "source_week": "2023-01-27"
+    },
+    "2023-01-23": {
+      "expected_daily_rate": 8491.0,
+      "projected": false,
+      "source_week": "2023-01-27"
+    },
+    "2023-01-24": {
+      "expected_daily_rate": 8491.0,
+      "projected": false,
+      "source_week": "2023-01-27"
+    },
+    "2023-01-25": {
+      "expected_daily_rate": 8491.0,
+      "projected": false,
+      "source_week": "2023-01-27"
+    },
+    "2023-01-26": {
+      "expected_daily_rate": 8491.0,
+      "projected": false,
+      "source_week": "2023-01-27"
+    },
+    "2023-01-27": {
+      "expected_daily_rate": 8491.0,
+      "projected": false,
+      "source_week": "2023-01-27"
+    },
+    "2023-01-28": {
+      "expected_daily_rate": 8963.13622755165,
+      "projected": true,
+      "source_week": "2023-02-03"
+    },
+    "2023-01-29": {
+      "expected_daily_rate": 8963.13622755165,
+      "projected": true,
+      "source_week": "2023-02-03"
+    },
+    "2023-01-30": {
+      "expected_daily_rate": 8963.13622755165,
+      "projected": true,
+      "source_week": "2023-02-03"
+    },
+    "2023-01-31": {
+      "expected_daily_rate": 8963.13622755165,
+      "projected": true,
+      "source_week": "2023-02-03"
+    },
+    "2023-02-01": {
+      "expected_daily_rate": 8963.13622755165,
+      "projected": true,
+      "source_week": "2023-02-03"
+    },
+    "2023-02-02": {
+      "expected_daily_rate": 8963.13622755165,
+      "projected": true,
+      "source_week": "2023-02-03"
+    },
+    "2023-02-03": {
+      "expected_daily_rate": 8963.13622755165,
+      "projected": true,
+      "source_week": "2023-02-03"
+    },
+    "2023-02-04": {
+      "expected_daily_rate": 8417.058675226566,
+      "projected": true,
+      "source_week": "2023-02-10"
+    },
+    "2023-02-05": {
+      "expected_daily_rate": 8417.058675226566,
+      "projected": true,
+      "source_week": "2023-02-10"
+    },
+    "2023-02-06": {
+      "expected_daily_rate": 8417.058675226566,
+      "projected": true,
+      "source_week": "2023-02-10"
+    },
+    "2023-02-07": {
+      "expected_daily_rate": 8417.058675226566,
+      "projected": true,
+      "source_week": "2023-02-10"
+    },
+    "2023-02-08": {
+      "expected_daily_rate": 8417.058675226566,
+      "projected": true,
+      "source_week": "2023-02-10"
+    },
+    "2023-02-09": {
+      "expected_daily_rate": 8417.058675226566,
+      "projected": true,
+      "source_week": "2023-02-10"
+    },
+    "2023-02-10": {
+      "expected_daily_rate": 8417.058675226566,
+      "projected": true,
+      "source_week": "2023-02-10"
+    },
+    "2023-02-11": {
+      "expected_daily_rate": 8502.506062011245,
+      "projected": true,
+      "source_week": "2023-02-17"
+    },
+    "2023-02-12": {
+      "expected_daily_rate": 8502.506062011245,
+      "projected": true,
+      "source_week": "2023-02-17"
+    },
+    "2023-02-13": {
+      "expected_daily_rate": 8502.506062011245,
+      "projected": true,
+      "source_week": "2023-02-17"
+    },
+    "2023-02-14": {
+      "expected_daily_rate": 8502.506062011245,
+      "projected": true,
+      "source_week": "2023-02-17"
+    },
+    "2023-02-15": {
+      "expected_daily_rate": 8502.506062011245,
+      "projected": true,
+      "source_week": "2023-02-17"
+    },
+    "2023-02-16": {
+      "expected_daily_rate": 8502.506062011245,
+      "projected": true,
+      "source_week": "2023-02-17"
+    },
+    "2023-02-17": {
+      "expected_daily_rate": 8502.506062011245,
+      "projected": true,
+      "source_week": "2023-02-17"
+    },
+    "2023-02-18": {
+      "expected_daily_rate": 8586.971294924839,
+      "projected": true,
+      "source_week": "2023-02-24"
+    },
+    "2023-02-19": {
+      "expected_daily_rate": 8586.971294924839,
+      "projected": true,
+      "source_week": "2023-02-24"
+    },
+    "2023-02-20": {
+      "expected_daily_rate": 8586.971294924839,
+      "projected": true,
+      "source_week": "2023-02-24"
+    },
+    "2023-02-21": {
+      "expected_daily_rate": 8586.971294924839,
+      "projected": true,
+      "source_week": "2023-02-24"
+    },
+    "2023-02-22": {
+      "expected_daily_rate": 8586.971294924839,
+      "projected": true,
+      "source_week": "2023-02-24"
+    },
+    "2023-02-23": {
+      "expected_daily_rate": 8586.971294924839,
+      "projected": true,
+      "source_week": "2023-02-24"
+    },
+    "2023-02-24": {
+      "expected_daily_rate": 8586.971294924839,
+      "projected": true,
+      "source_week": "2023-02-24"
+    },
+    "2023-02-25": {
+      "expected_daily_rate": 8802.06299269317,
+      "projected": true,
+      "source_week": "2023-03-03"
+    },
+    "2023-02-26": {
+      "expected_daily_rate": 8802.06299269317,
+      "projected": true,
+      "source_week": "2023-03-03"
+    },
+    "2023-02-27": {
+      "expected_daily_rate": 8802.06299269317,
+      "projected": true,
+      "source_week": "2023-03-03"
+    },
+    "2023-02-28": {
+      "expected_daily_rate": 8802.06299269317,
+      "projected": true,
+      "source_week": "2023-03-03"
+    },
+    "2023-03-01": {
+      "expected_daily_rate": 8802.06299269317,
+      "projected": true,
+      "source_week": "2023-03-03"
+    },
+    "2023-03-02": {
+      "expected_daily_rate": 8802.06299269317,
+      "projected": true,
+      "source_week": "2023-03-03"
+    },
+    "2023-03-03": {
+      "expected_daily_rate": 8802.06299269317,
+      "projected": true,
+      "source_week": "2023-03-03"
+    },
+    "2023-03-04": {
+      "expected_daily_rate": 8784.384223013582,
+      "projected": true,
+      "source_week": "2023-03-10"
+    },
+    "2023-03-05": {
+      "expected_daily_rate": 8784.384223013582,
+      "projected": true,
+      "source_week": "2023-03-10"
+    },
+    "2023-03-06": {
+      "expected_daily_rate": 8784.384223013582,
+      "projected": true,
+      "source_week": "2023-03-10"
+    },
+    "2023-03-07": {
+      "expected_daily_rate": 8784.384223013582,
+      "projected": true,
+      "source_week": "2023-03-10"
+    },
+    "2023-03-08": {
+      "expected_daily_rate": 8784.384223013582,
+      "projected": true,
+      "source_week": "2023-03-10"
+    },
+    "2023-03-09": {
+      "expected_daily_rate": 8784.384223013582,
+      "projected": true,
+      "source_week": "2023-03-10"
+    },
+    "2023-03-10": {
+      "expected_daily_rate": 8784.384223013582,
+      "projected": true,
+      "source_week": "2023-03-10"
+    },
+    "2023-03-11": {
+      "expected_daily_rate": 8482.86298458948,
+      "projected": true,
+      "source_week": "2023-03-17"
+    },
+    "2023-03-12": {
+      "expected_daily_rate": 8482.86298458948,
+      "projected": true,
+      "source_week": "2023-03-17"
+    },
+    "2023-03-13": {
+      "expected_daily_rate": 8482.86298458948,
+      "projected": true,
+      "source_week": "2023-03-17"
+    },
+    "2023-03-14": {
+      "expected_daily_rate": 8482.86298458948,
+      "projected": true,
+      "source_week": "2023-03-17"
+    },
+    "2023-03-15": {
+      "expected_daily_rate": 8482.86298458948,
+      "projected": true,
+      "source_week": "2023-03-17"
+    },
+    "2023-03-16": {
+      "expected_daily_rate": 8482.86298458948,
+      "projected": true,
+      "source_week": "2023-03-17"
+    },
+    "2023-03-17": {
+      "expected_daily_rate": 8482.86298458948,
+      "projected": true,
+      "source_week": "2023-03-17"
+    },
+    "2023-03-18": {
+      "expected_daily_rate": 8347.325750379297,
+      "projected": true,
+      "source_week": "2023-03-24"
+    },
+    "2023-03-19": {
+      "expected_daily_rate": 8347.325750379297,
+      "projected": true,
+      "source_week": "2023-03-24"
+    },
+    "2023-03-20": {
+      "expected_daily_rate": 8347.325750379297,
+      "projected": true,
+      "source_week": "2023-03-24"
+    },
+    "2023-03-21": {
+      "expected_daily_rate": 8347.325750379297,
+      "projected": true,
+      "source_week": "2023-03-24"
+    },
+    "2023-03-22": {
+      "expected_daily_rate": 8347.325750379297,
+      "projected": true,
+      "source_week": "2023-03-24"
+    },
+    "2023-03-23": {
+      "expected_daily_rate": 8347.325750379297,
+      "projected": true,
+      "source_week": "2023-03-24"
+    },
+    "2023-03-24": {
+      "expected_daily_rate": 8347.325750379297,
+      "projected": true,
+      "source_week": "2023-03-24"
+    },
+    "2023-03-25": {
+      "expected_daily_rate": 8409.201444257858,
+      "projected": true,
+      "source_week": "2023-03-31"
+    },
+    "2023-03-26": {
+      "expected_daily_rate": 8409.201444257858,
+      "projected": true,
+      "source_week": "2023-03-31"
+    },
+    "2023-03-27": {
+      "expected_daily_rate": 8409.201444257858,
+      "projected": true,
+      "source_week": "2023-03-31"
+    },
+    "2023-03-28": {
+      "expected_daily_rate": 8409.201444257858,
+      "projected": true,
+      "source_week": "2023-03-31"
+    },
+    "2023-03-29": {
+      "expected_daily_rate": 8409.201444257858,
+      "projected": true,
+      "source_week": "2023-03-31"
+    },
+    "2023-03-30": {
+      "expected_daily_rate": 8409.201444257858,
+      "projected": true,
+      "source_week": "2023-03-31"
+    },
+    "2023-03-31": {
+      "expected_daily_rate": 8409.201444257858,
+      "projected": true,
+      "source_week": "2023-03-31"
+    }
+  },
+  "remaining_features": [
+    55.01022519780889,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reported_stores": 1679,
+  "ridge_coefficients": [
+    5.191666666666666,
+    6.109643483729183,
+    -0.33040969161797684,
+    0.9043732567814633,
+    3.0353419156092754
+  ],
+  "scales": [
+    15.864611299200664,
+    3.3391403764167142,
+    2.426234694307973,
+    4.827795617058308
+  ],
+  "training_actuals": [
+    {
+      "quarter": "2019Q1",
+      "retail_margin_cpg": 8.4
+    },
+    {
+      "quarter": "2019Q2",
+      "retail_margin_cpg": 13.4
+    },
+    {
+      "quarter": "2019Q3",
+      "retail_margin_cpg": 18.4
+    },
+    {
+      "quarter": "2019Q4",
+      "retail_margin_cpg": 14.9
+    },
+    {
+      "quarter": "2020Q1",
+      "retail_margin_cpg": 26.9
+    },
+    {
+      "quarter": "2020Q2",
+      "retail_margin_cpg": 31.7
+    },
+    {
+      "quarter": "2020Q3",
+      "retail_margin_cpg": 19.0
+    },
+    {
+      "quarter": "2020Q4",
+      "retail_margin_cpg": 15.4
+    },
+    {
+      "quarter": "2021Q1",
+      "retail_margin_cpg": 15.5
+    },
+    {
+      "quarter": "2021Q2",
+      "retail_margin_cpg": 21.8
+    },
+    {
+      "quarter": "2021Q3",
+      "retail_margin_cpg": 24.0
+    },
+    {
+      "quarter": "2021Q4",
+      "retail_margin_cpg": 25.5
+    },
+    {
+      "quarter": "2022Q1",
+      "retail_margin_cpg": 23.3
+    },
+    {
+      "quarter": "2022Q2",
+      "retail_margin_cpg": 26.5
+    },
+    {
+      "quarter": "2022Q3",
+      "retail_margin_cpg": 39.3
+    },
+    {
+      "quarter": "2022Q4",
+      "retail_margin_cpg": 28.3
+    }
+  ],
+  "weights": [
+    {
+      "region": "East Coast",
+      "weight": 0.34753499695678636
+    },
+    {
+      "region": "Gulf Coast",
+      "weight": 0.38892270237370663
+    },
+    {
+      "region": "Midwest",
+      "weight": 0.263542300669507
+    }
+  ],
+  "weights_available_at": "2022-02-17",
+  "weights_source": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000006/musa-20211231.htm"
+}

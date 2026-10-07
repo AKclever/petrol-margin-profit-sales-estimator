@@ -1,0 +1,14 @@
+{
+  "id": "MUSA_COUCHETARD_PEER_SURPRISE_V1",
+  "evaluation_role": "RETROSPECTIVE_CURRENT_VINTAGE_RESEARCH",
+  "target": "US company-operated road transportation fuel margin BEFORE electronic-payment expenses; never broader US road-fuel margin",
+  "peer_forecast": "Existing seasonal/change model; minimum 8 earlier public peer targets; fixed US EIA region weights East Coast=1/3 Midwest=1/3 Gulf Coast=1/3 as explicitly provisional exposure proxy",
+  "dates": "Use disclosed fiscal period-end and disclosed 12/16/13 week length; seasonal anchors use fiscal quarter labels, not calendar start-month buckets",
+  "selection": "Latest published peer period with positive calendar overlap and availability strictly before MUSA quarter-end",
+  "correction": "One-feature ridge alpha=2 on earlier available MUSA OOF residuals; minimum 8; 50% shrinkage; peer actual minus expanding peer prediction",
+  "acquisitions": "Archive source paragraphs and flags; no retrospectively optimized acquisition correction; static weights remain a limitation",
+  "history": "Original period releases preferred; reconcile rolling payment-fee tables to before minus fees equals after",
+  "production_changed": false,
+  "automatic_promotion": false,
+  "paid_data": false
+}

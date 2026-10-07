@@ -1,0 +1,72 @@
+{
+  "aligned_complete_weeks": 335,
+  "aligned_market_sha256": "4266931297c3a2c589e6b31414b433732f7f305627395d6110a36b8ef162b077",
+  "alignment_rule": "Original retail Monday and wholesale Friday normalized to ISO Monday; complete regions only",
+  "captured_at": "2026-10-07T09:40:09.094958+00:00",
+  "cutoff_date": "2025-06-16",
+  "evaluation_role": "RETROSPECTIVE_PIT_VINTAGE_RECONSTRUCTION",
+  "latest_complete_market_week": "2025-06-02",
+  "market_vintage_status": "VERIFIED_ALFRED_DATE_LEVEL_SNAPSHOT",
+  "production_forecast_same_as_of": null,
+  "remaining_replay_blockers": [
+    "PIT_GALLON_SHARE_METHODOLOGY_UNREGISTERED",
+    "REMAINING_PERIOD_MARGIN_METHODOLOGY_UNREGISTERED",
+    "HISTORICAL_COMPANY_TRAINING_ACTUALS_AND_WEIGHT_AVAILABILITY_REQUIRE_VERIFICATION"
+  ],
+  "retail_week_without_matching_wholesale": "2025-06-09",
+  "scoring_status": "BLOCKED_NO_FROZEN_REPLAY_INPUTS",
+  "series": [
+    {
+      "eia_series_id": "PET.EMM_EPMR_PTE_R10_DPG.W",
+      "intraday_available_at": null,
+      "latest_observation": "2025-06-09",
+      "normalized_sha256": "9cf4dd689c588f03551e732f815261f3b0e4c45ca0a01007b04c4a69e7695f27",
+      "observation_count": 336,
+      "raw_sha256": "fce07fe3289b81d4a1537be1e9a7a5ee67ec5ed81aed549b79bd7dbcca6b66cd",
+      "series_id": "GASREGECW",
+      "status": "VERIFIED_ALFRED_DATE_LEVEL_SNAPSHOT"
+    },
+    {
+      "eia_series_id": "PET.EMM_EPMR_PTE_R20_DPG.W",
+      "intraday_available_at": null,
+      "latest_observation": "2025-06-09",
+      "normalized_sha256": "b3e15712a420b45edaaf8fc012042a84108cb46cd57495f1d465c770ea5e17dd",
+      "observation_count": 336,
+      "raw_sha256": "e1b22a96457ab4717971ddcebeba35943cfd795e4dbcf2b9e17bdb5371ad0324",
+      "series_id": "GASREGMWW",
+      "status": "VERIFIED_ALFRED_DATE_LEVEL_SNAPSHOT"
+    },
+    {
+      "eia_series_id": "PET.EMM_EPMR_PTE_R30_DPG.W",
+      "intraday_available_at": null,
+      "latest_observation": "2025-06-09",
+      "normalized_sha256": "1f54a338955c522c8d7c9376663a6ff969196f91a34715dd6d11b969678df947",
+      "observation_count": 336,
+      "raw_sha256": "940280526558035dc4a4be2448b48ab75547dd143c1a95f3c3d3f3dc14214296",
+      "series_id": "GASREGGCW",
+      "status": "VERIFIED_ALFRED_DATE_LEVEL_SNAPSHOT"
+    },
+    {
+      "eia_series_id": "PET.EER_EPMRU_PF4_Y35NY_DPG.W",
+      "intraday_available_at": null,
+      "latest_observation": "2025-06-06",
+      "normalized_sha256": "ab9ed8ca9d3b6f5e1e79f80795fc652f5fb81198fb8253224fa80969f06d244c",
+      "observation_count": 336,
+      "raw_sha256": "a7080e1c04520b5532974c0f65d4826185c5430651ef7a0fd54635485e2bc208",
+      "series_id": "WGASNYH",
+      "status": "VERIFIED_ALFRED_DATE_LEVEL_SNAPSHOT"
+    },
+    {
+      "eia_series_id": "PET.EER_EPMRU_PF4_RGC_DPG.W",
+      "intraday_available_at": null,
+      "latest_observation": "2025-06-06",
+      "normalized_sha256": "4507e47d46659a735014637c10d7be665e4e104bcbb36880ca2913cfe921d131",
+      "observation_count": 336,
+      "raw_sha256": "458cef01d159077e1c97b38b5f6ad619ac7a12c92b7f266550266f6f3d3cea60",
+      "series_id": "WGASUSGULF",
+      "status": "VERIFIED_ALFRED_DATE_LEVEL_SNAPSHOT"
+    }
+  ],
+  "shadow_forecast": null,
+  "source_manifest_sha256": "037ed0514c79dd6b7d0303e8613159fe51698c94a6e4d371dd6b9b1b4a77b5dd"
+}

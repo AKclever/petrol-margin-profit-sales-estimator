@@ -4,6 +4,20 @@ Margin-model research is in maintenance mode. Production and the three frozen ti
 challengers run prospectively at each checkpoint; their specifications may not be changed in
 response to results.
 
+## Champion versus adaptive challenger
+
+`PRODUCTION` is the frozen champion. Its forecast is the official model input until a
+challenger is promoted under a separately frozen rule. The adaptive model is
+`ADAPTIVE_CHALLENGER_V1`: it adds recency, shock, and regime diagnostics, but it was designed
+after Q3 2026 market conditions were visible. Its Q3 output is therefore a useful shadow
+forecast, not pristine prospective evidence and not a replacement for the production forecast.
+
+The adaptive promotion gate requires identical eligible quarters, lower MAE than the production
+champion, no higher RMSE, no material directional-accuracy degradation, a positive paired
+improvement lower bound, and no worse recent-window performance. It also requires several clean
+prospective quarters beginning with Q4 2026. Its Casey's result remains an external-validity
+warning even if the MUSA gate is later passed.
+
 ## Archive a checkpoint
 
 Run this after refreshing market data and before MUSA reports the quarter:

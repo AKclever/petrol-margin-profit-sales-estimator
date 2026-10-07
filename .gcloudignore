@@ -1,0 +1,11 @@
+*
+!Dockerfile
+!.dockerignore
+!pyproject.toml
+!musa_nowcast/
+musa_nowcast/**
+!musa_nowcast/*.py
+!data/
+data/**
+!data/weights.csv
+!data/actuals.csv

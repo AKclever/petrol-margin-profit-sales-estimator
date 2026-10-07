@@ -1,0 +1,16 @@
+{
+  "automated_capture_permission": "NOT_ESTABLISHED_ROBOTS_NOT_A_LICENSE",
+  "scope": "ONE_TIME_FEASIBILITY_INSPECTION",
+  "sources": [
+    {
+      "captured_at": "2026-10-07T14:51:38.991452+00:00",
+      "sha256": "8af9741035a9096aa10037c39ca0d9aa3486edf127a97ff1dc298f16769a8022",
+      "url": "https://gasprices.aaa.com/"
+    },
+    {
+      "captured_at": "2026-10-07T14:51:39.038369+00:00",
+      "sha256": "0c57d148638dc65b113ab60fd8cd4fd349d30f52ff4252a0bf35f64ad08713f8",
+      "url": "https://gasprices.aaa.com/robots.txt"
+    }
+  ]
+}

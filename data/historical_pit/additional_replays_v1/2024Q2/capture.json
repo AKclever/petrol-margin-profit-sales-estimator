@@ -1,0 +1,257 @@
+{
+  "availability_method": "DATE_LEVEL_PUBLIC_CALL_EVENT_NOT_TRANSCRIPT_UPLOAD_DATE",
+  "captured_at": "2026-10-07T10:08:58.609722+00:00",
+  "case": {
+    "cutoff": "2024-05-02",
+    "disclosed_margin_cpg": 24.5,
+    "period_end": "2024-04-30",
+    "period_start": "2024-04-01",
+    "precision": "APPROXIMATE_MANAGEMENT_COMMENTARY",
+    "quarter": "2024Q2",
+    "required_text": "about $0.245 per gallon",
+    "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2024/q1/Q12024_MurphyUSA_EarningsCallTranscript.pdf"
+  },
+  "demand": [
+    {
+      "available_at": "2023-04-05",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-04-05.csv",
+      "observed_at": "2023-03-31",
+      "rate": 9295.0,
+      "sha256": "3f6869e3c42498563400432b139aa225c3108be955e14d1a56a2ddcbedf324a0",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_04_05/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-04-12",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-04-12.csv",
+      "observed_at": "2023-04-07",
+      "rate": 8936.0,
+      "sha256": "0e51b4dc2f33e3d05dd250b35d1cd552d6892ee77e7a961b13a83739c7882cb1",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_04_12/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-04-19",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-04-19.csv",
+      "observed_at": "2023-04-14",
+      "rate": 8519.0,
+      "sha256": "2660043801de28005db6015f01df2b8a1a722678696832f35a4ea578ba286ad9",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_04_19/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-04-26",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-04-26.csv",
+      "observed_at": "2023-04-21",
+      "rate": 9511.0,
+      "sha256": "1afcc1a5af4bdc0a75d0ce9e14edd221ec824a48ad9bfe9da5571f2e7f5e851c",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_04_26/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-05-03",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-05-03.csv",
+      "observed_at": "2023-04-28",
+      "rate": 8618.0,
+      "sha256": "9fc6bc3ae7dc57a0e9b1b5c50ae25cdb08ca00bc220437615b854dacb6c8a4c2",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_05_03/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-05-10",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-05-10.csv",
+      "observed_at": "2023-05-05",
+      "rate": 9303.0,
+      "sha256": "6e3a1512a9403d4cde17d12e3dfd66c3a4175defe40fe1f30e59005ca4d484cf",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_05_10/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-05-17",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-05-17.csv",
+      "observed_at": "2023-05-12",
+      "rate": 8908.0,
+      "sha256": "415183fabf4ffa76c159186e5a268b65c1bee33efa2d8803beb23658fff9f6cb",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_05_17/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-05-24",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-05-24.csv",
+      "observed_at": "2023-05-19",
+      "rate": 9437.0,
+      "sha256": "6ab6d399d52f02314d9730fcba1835436ff97182365b9f0cb6fe9c5965f63b96",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_05_24/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-06-01",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-06-01.csv",
+      "observed_at": "2023-05-26",
+      "rate": 9098.0,
+      "sha256": "aa47f8480f484f230049ccf56783aa0248b8841f3b078992a8f81a60324cb079",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_06_01/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-06-07",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-06-07.csv",
+      "observed_at": "2023-06-02",
+      "rate": 9218.0,
+      "sha256": "97ce8791e6a2a3c609cc5db3af2b11c03e29097196b73382d52c27ac2bd57d31",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_06_07/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-06-14",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-06-14.csv",
+      "observed_at": "2023-06-09",
+      "rate": 9193.0,
+      "sha256": "872d00c87b117399999fb27003c5badd616b8336312c137d227f6dcaa013f77b",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_06_14/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-06-22",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-06-22.csv",
+      "observed_at": "2023-06-16",
+      "rate": 9375.0,
+      "sha256": "e5d79644af55df542438446da4d70338c2164336c3705ef347092e3a38873099",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_06_22/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-06-28",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-06-28.csv",
+      "observed_at": "2023-06-23",
+      "rate": 9306.0,
+      "sha256": "e9fc20fca7ac52224cd62026592def8207fcee83cfb045abf87181e3feb4c5c9",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_06_28/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-07-06",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-07-06.csv",
+      "observed_at": "2023-06-30",
+      "rate": 9599.0,
+      "sha256": "8c7416da1a6c24d1028c8ae6058eba19f41f8f894ebfdc7d1f5f6b24c5b1d866",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_07_06/csv/table1.csv"
+    },
+    {
+      "available_at": "2023-07-12",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2023-07-12.csv",
+      "observed_at": "2023-07-07",
+      "rate": 8756.0,
+      "sha256": "55ea83937bfb90cbda0ef326e926e9c1262385bbbe227e0a249538f1c414de55",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2023/2023_07_12/csv/table1.csv"
+    },
+    {
+      "available_at": "2024-04-03",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2024-04-03.csv",
+      "observed_at": "2024-03-29",
+      "rate": 9236.0,
+      "sha256": "38e256cb0b0ee616ba0c23695b5050f62a458d02cd5395a6b1c6bca0e3ca897f",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_04_03/csv/table1.csv"
+    },
+    {
+      "available_at": "2024-04-10",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2024-04-10.csv",
+      "observed_at": "2024-04-05",
+      "rate": 8612.0,
+      "sha256": "905c23661ebe4a5c9a23ad88709bd33a1034b254f58879d46d1b493dfac603e1",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_04_10/csv/table1.csv"
+    },
+    {
+      "available_at": "2024-04-17",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2024-04-17.csv",
+      "observed_at": "2024-04-12",
+      "rate": 8662.0,
+      "sha256": "ee72870a16e6a65a1745b1a13a2b9b08f7e38b863ea116c2e9ed7287ca39c62e",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_04_17/csv/table1.csv"
+    },
+    {
+      "available_at": "2024-04-24",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2024-04-24.csv",
+      "observed_at": "2024-04-19",
+      "rate": 8423.0,
+      "sha256": "1e8cdd4ceb6940ed2402b60e7c444de8741c566346de6b149c0cf6e681571c3a",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_04_24/csv/table1.csv"
+    },
+    {
+      "available_at": "2024-05-01",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/demand_2024-05-01.csv",
+      "observed_at": "2024-04-26",
+      "rate": 8618.0,
+      "sha256": "af88dc063cc0259b7622d29c50a35270d1088fcea3ff6373b1d0501f794defcb",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/archive/2024/2024_05_01/csv/table1.csv"
+    }
+  ],
+  "disclosure_sha256": "f3e401afa51725c47692df60717301e2f0c9e75e1cbc08b0587c009f76e6cf19",
+  "disclosure_text_sha256": "8e7c2a620bf634601e3a1030688892fa7083ccb38fd036283f115a21cbb5a316",
+  "intraday_available_at": null,
+  "market": [
+    {
+      "endpoint": "https://api.stlouisfed.org/fred/series/observations",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/GASREGECW.json",
+      "parameters": {
+        "file_type": "json",
+        "limit": 100000,
+        "observation_end": "2024-05-02",
+        "observation_start": "2019-01-01",
+        "realtime_end": "2024-05-02",
+        "realtime_start": "2024-05-02",
+        "series_id": "GASREGECW"
+      },
+      "series_id": "GASREGECW",
+      "sha256": "b09669a7d355180c9dcaa685f9b650dcd3f611b3029245caffc01de221707510"
+    },
+    {
+      "endpoint": "https://api.stlouisfed.org/fred/series/observations",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/GASREGGCW.json",
+      "parameters": {
+        "file_type": "json",
+        "limit": 100000,
+        "observation_end": "2024-05-02",
+        "observation_start": "2019-01-01",
+        "realtime_end": "2024-05-02",
+        "realtime_start": "2024-05-02",
+        "series_id": "GASREGGCW"
+      },
+      "series_id": "GASREGGCW",
+      "sha256": "a0a09f84863a048e9f4d0863318b6105f6dc78f124863573be0a10accf386814"
+    },
+    {
+      "endpoint": "https://api.stlouisfed.org/fred/series/observations",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/GASREGMWW.json",
+      "parameters": {
+        "file_type": "json",
+        "limit": 100000,
+        "observation_end": "2024-05-02",
+        "observation_start": "2019-01-01",
+        "realtime_end": "2024-05-02",
+        "realtime_start": "2024-05-02",
+        "series_id": "GASREGMWW"
+      },
+      "series_id": "GASREGMWW",
+      "sha256": "c9ed9ef1fb9f0db7fc438cf2b71f48ec94a57188d4b5c831482ec97bd93217af"
+    },
+    {
+      "endpoint": "https://api.stlouisfed.org/fred/series/observations",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/WGASNYH.json",
+      "parameters": {
+        "file_type": "json",
+        "limit": 100000,
+        "observation_end": "2024-05-02",
+        "observation_start": "2019-01-01",
+        "realtime_end": "2024-05-02",
+        "realtime_start": "2024-05-02",
+        "series_id": "WGASNYH"
+      },
+      "series_id": "WGASNYH",
+      "sha256": "6444582d056dfd5f1ddc6db2fb9951efd252e4053bcc68c3fbd8f9a08ac353cf"
+    },
+    {
+      "endpoint": "https://api.stlouisfed.org/fred/series/observations",
+      "file": "data/historical_pit/additional_replays_v1/2024Q2/WGASUSGULF.json",
+      "parameters": {
+        "file_type": "json",
+        "limit": 100000,
+        "observation_end": "2024-05-02",
+        "observation_start": "2019-01-01",
+        "realtime_end": "2024-05-02",
+        "realtime_start": "2024-05-02",
+        "series_id": "WGASUSGULF"
+      },
+      "series_id": "WGASUSGULF",
+      "sha256": "892b79ce3f3188900557da75a4912e53d948b45ad42eeb7a4b4a480892e78c65"
+    }
+  ],
+  "spec_sha256": "d957f74bd14ba758ed4d76b345433fa13447978c661db38744081f720f2a6223"
+}

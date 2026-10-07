@@ -1,0 +1,100 @@
+{
+  "automatic_promotion": false,
+  "boundary_price_and_demand_imputed_days": 3,
+  "calendar_days_represented": 92,
+  "calibration": {
+    "active_feature_indices": [
+      0,
+      2
+    ],
+    "alpha": 2,
+    "constraints": "nonnegative on spread, negative squeeze and capture",
+    "means": [
+      -0.25498174394272893,
+      -0.034517225147937564
+    ],
+    "scales": [
+      12.407681046575675,
+      3.1969165342103114
+    ],
+    "standardized_coefficients": [
+      1.848,
+      2.698051343661585,
+      3.398156861363219
+    ]
+  },
+  "evaluation_role": "Q3_2026_POST_PATH_RESEARCH_SHADOW",
+  "eventual_actual_margin_cpg": null,
+  "forecast_created_at": "2026-10-07T10:31:07.805327+00:00",
+  "historical_gate_passed": false,
+  "information_cutoff": "2026-10-07T10:31:07.698043+00:00",
+  "input_hashes": {
+    "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/weekly_adjustment.py": "03e58d583fae21ad7f5daed6c72117bcf1c195cae8e4b1afb3095e76e07e2e14",
+    "data/actuals.csv": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+    "data/market.csv": "721da8ca24e87c7da17892413b70ad6d45eddc223c512eb329753679b1de4005",
+    "data/weekly_adjustment/q3_2026_v1_run2/national_demand.xls": "1b0a1af5b680858165ad2229bc446f6259e5546ad23e31bae1d598a139262b74",
+    "data/weekly_adjustment_spec_v1.json": "c6e15cf62e5f1a0c0c99fc073f519e64caa5539b60c0641c7264cbada9c85e88",
+    "data/weights.csv": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986",
+    "musa_nowcast/mathutils.py": "fef59998d413cd8e796ae8b823bf880f66be682ec31ac2bacd6386d526b88d70",
+    "musa_nowcast/model.py": "a62800fe77ff2c8230c5b5144c5ff78b7e4af769b91a29396bdee44cfae51311"
+  },
+  "limitations": {
+    "automatic_promotion": false,
+    "calibration": "Fit year-over-year quarterly retail-margin changes to weighted aggregate weekly-feature changes. Standardized ridge alpha=2; nonnegative coefficients on all three signed features; unpenalized intercept; fixed 0.5 production-style shrinkage and prior-year same-quarter company-margin anchor.",
+    "capture_impulse": "max(retail_change - cost_change, 0) when cost_change < 0, else 0",
+    "designed_after_q3_2026_market_path": true,
+    "evaluation": "Expanding-window held-out company targets; compare production on exactly the same eligible quarters. Current-capture historical prices, demand and static weights mean this is NOT historical PIT validation or an independent test of hypotheses already developed on this history.",
+    "features": [
+      "retail_minus_replacement_cost",
+      "negative_squeeze_state",
+      "capture_state"
+    ],
+    "gallon_weights": "EIA weekly national finished-gasoline products supplied times days of ISO week inside quarter, normalized to one; within-week uniform-rate assumption and store-count regional exposure proxy, not company gallon observations",
+    "id": "MUSA_WEEKLY_RETAIL_ADJUSTMENT_V1",
+    "production_changed": false,
+    "q3_2026_actual": "NOT_USED",
+    "quarter_boundary": "Include initial partial ISO week. For the final partial ISO week lacking a complete in-quarter price/demand pair, persist the prior complete week's prices and demand and mark every such day imputed. No internal-gap filling or long-horizon projections.",
+    "replacement_cost": "50% current plus 50% previous complete regional weekly wholesale spot price; delivered cost, freight, taxes and discounts unobserved",
+    "retail": "Observed EIA regional regular retail prices, not observed MUSA pump prices",
+    "role": "RESEARCH_ONLY",
+    "selection": "One fixed specification; no lag, half-life, alpha, sign or shrinkage searches against outcomes",
+    "squeeze_impulse": "max(cost_change - retail_change, 0) when cost_change > 0, else 0",
+    "state": "squeeze and capture states each retain 50% of prior week's state plus current impulse; never reset at quarter boundary",
+    "warmup": "Require eight consecutive valid weekly state transitions before the first quarter week; residual initial-state influence below 1/256",
+    "weekly_margin_allocation": "Quarterly seasonal anchor plus shrunken calibrated contribution of each week's features relative to prior-year aggregate; volume-weighted weekly predictions must exactly equal the quarter prediction. These are latent calibrated allocations, not identified company monthly/weekly margins.",
+    "weekly_uncertainty": "Quarterly supervision does not identify unique weekly company economics; fitted coefficients are not causal estimates"
+  },
+  "metrics": {
+    "challenger_directional_accuracy": 0.6190476190476191,
+    "challenger_mae_cpg": 3.78925312465081,
+    "challenger_rmse_cpg": 4.694439528181683,
+    "identical_backtest_rows": 21,
+    "mean_paired_improvement_cpg": -0.6673598795966579,
+    "paired_improvement_ci_low_cpg": -1.311033619306141,
+    "passes_pre_registered_gate": false,
+    "production_directional_accuracy": 0.9047619047619048,
+    "production_mae_cpg": 3.121893245054152,
+    "production_rmse_cpg": 4.048203020079952,
+    "production_status": "UNCHANGED",
+    "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+    "recent_eight_challenger_directional_accuracy": 0.625,
+    "recent_eight_challenger_mae_cpg": 2.3614256510313667,
+    "recent_eight_production_directional_accuracy": 0.75,
+    "recent_eight_production_mae_cpg": 2.153515225634352
+  },
+  "production_changed": false,
+  "production_same_inputs_cpg": 28.94,
+  "quarter": "2026Q3",
+  "quarter_features": [
+    45.38554522287035,
+    -9.91499116890375,
+    4.846898880546809
+  ],
+  "retail_margin_cpg": 26.16709636490679,
+  "spec_id": "MUSA_WEEKLY_RETAIL_ADJUSTMENT_V1",
+  "training_quarters": 29,
+  "weekly_state_components": {
+    "weighted_capture_cpg": 4.846898880546809,
+    "weighted_squeeze_cpg": 9.91499116890375
+  }
+}

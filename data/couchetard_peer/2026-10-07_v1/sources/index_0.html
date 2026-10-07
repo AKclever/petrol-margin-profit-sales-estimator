@@ -1,0 +1,2892 @@
+<!DOCTYPE html>
+<html lang="en-US" hc="a0" hcx="0">
+  <head>
+<!-- begin spin_special_output(head_start) -->
+<style type="text/css" wd_script_id="search_form_style" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+		.wd_search_form .wd_input_datepicker {
+			margin-right: 2px;
+		}
+		.wd_search_type_checkbox {
+			margin-left: 20px;
+		}
+		</style>
+<script type="text/javascript" src="js/jquery-webdriver.js" wd_script_id="jquery-webdriver.js" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ=="></script>
+<script type="text/javascript" src="js/webdriver.js" wd_script_id="webdriver.js" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ=="></script>
+<script type="text/javascript" wd_script_id="search_form_script" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+			function wd_toggle_search_form(link, advanced) {
+				var $ = webDriver.jQuery;
+				var $container = $(link).closest(".wd_search_form_container");
+				var basic_form = $container.find(".wd_search_form_basic");
+				var basic_query = basic_form.find('input[name="query"]');
+				var advanced_form = $container.find(".wd_search_form_advanced");
+				var advanced_query = advanced_form.find('input[name="query"]');
+
+				if (advanced) {
+					advanced_query.val(basic_query.val());
+					advanced_form.show();
+					basic_form.hide();
+				} else {
+					basic_query.val(advanced_query.val());
+					basic_form.show();
+					advanced_form.hide();
+				}
+
+				var target_form = advanced ? advanced_form : basic_form;
+				var focus_target = target_form.find('input[name="query"]').filter(":visible:not(:disabled)").get(0);
+				if (!focus_target)
+					focus_target = target_form.find(":input").filter(":visible:not(:disabled)").get(0);
+				if (focus_target)
+					setTimeout(function() { focus_target.focus(); }, 0);
+			}
+
+			function wd_toggle_search_type_checkboxes(radio) {
+				var $ = webDriver.jQuery;
+				var $radio = $(radio);
+				var all = $radio.val() == "All" ? $radio.is(":checked") : !$radio.is(":checked");
+				var $checkboxes = $radio.closest(".wd_form_field").find(".wd_search_type_checkbox");
+				$checkboxes.find('input[type="checkbox"]').prop("disabled", all);
+				$checkboxes.toggle(!all);
+			}
+
+			webDriver.jQuery(function ($) {
+				$('.wd_search_type_radio input[type="radio"]').each(function() {wd_toggle_search_type_checkboxes(this);});
+			});
+		</script>
+<style type="text/css" wd_script_id="featureboxes_style" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+		.wd_featurebox_icon {
+			display: inline;
+		}
+		.wd_featurebox_icon img {
+			vertical-align: middle;
+		}
+		div.wd_featurebox_group div.wd_tabs_wrapper {
+			border: none;
+			border-bottom: 1px solid #E1E1E1;
+			padding: 0 0 5px 0;
+		}
+		div.wd_featurebox_group div.wd_featurebox {
+			border: none;
+			padding: 8px 0 0 0;
+		}
+		div.wd_featurebox_group li.wd_tab {
+			float: none;
+			color: #666666;
+		}
+		div.wd_featurebox_group li.wd_tab-active {
+			border: none;
+			background-color: transparent;
+			color: #000000;
+			font-weight: bold;
+		}
+		div.wd_featurebox_group li.wd_tab-inactive {
+			cursor: auto;
+		}
+	</style>
+<style type="text/css" wd_script_id="item_search_form_style" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+		.wd_item_search_form_container .wd_search_form_basic {
+			display: inline-block;
+		}
+		.wd_search_basic_fields {
+			display: inline-block;
+			background-color: #f1f1f1;
+			border: 1px solid #d3d3d3;
+			padding: 3px;
+			vertical-align: middle;
+		}
+		.wd_search_basic_fields > * {
+			vertical-align: middle;
+		}
+		.wd_item_search_form_container .wd_input_datepicker {
+			margin-right: 2px;
+		}
+		.wd_search_button {
+			color: #999999;
+		}
+		.wd_search_button.wd_highlight {
+			color: #000000;
+		}
+		.wd_search_advanced_link,
+		.wd_search_titles_only,
+		.wd_checkbox {
+			white-space: nowrap;
+		}
+		</style>
+<script type="text/javascript" wd_script_id="item_search_form_script" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+			function wd_item_search_form_toggle(link, advanced) {
+				var $ = webDriver.jQuery;
+				var $container = $(link).closest(".wd_item_search_form_container");
+				var $basic_form = $container.find(".wd_search_form_basic");
+				var $advanced_form = $container.find(".wd_search_form_advanced");
+				var $target_form = advanced ? $advanced_form : $basic_form;
+
+				var $basic_inputs = $basic_form.find(":input");
+				$basic_inputs.each(function() {
+					var $advanced_input = $advanced_form.find(this.tagName+'[name="'+this.name+'"]');
+					if ($advanced_input.length > 0) {
+						if (advanced)
+							$advanced_input.val($(this).val());
+						else
+							$(this).val($advanced_input.val());
+					}
+				});
+
+				$basic_form.toggle(!advanced);
+				$advanced_form.toggle(advanced);
+
+				var $focus_target = $target_form.find("input[name=\"keywords\"]").filter(":visible:not(:disabled)").first();
+				if ($focus_target.length === 0)
+					$focus_target = $target_form.find(":input").filter(":visible:not(:disabled)").first();
+				var focus_target = $focus_target.length > 0 ? $focus_target.get(0) : null;
+				if (focus_target)
+					setTimeout(function() { focus_target.focus(); }, 0);
+			}
+
+			function wd_item_search_form_highlight(form) {
+				var $btn = $(form).find('input[type="submit"],button[type="submit"]');
+				$btn.addClass("wd_highlight");
+			}
+
+			function wd_item_search_form_submit(form, in_submit) {
+				var $form = $(form);
+
+				var have_url = false;
+				$form.find("select").each(function() {
+					var $select = $(this);
+					
+					if (!$select.val())
+						$select.prop("disabled", "disabled");
+
+					var url = $select.find("option:selected").attr("wd_url");
+					if (url && !have_url) {
+						$form.attr("action", url);
+						$select.prop("disabled", "disabled");
+						$form.find('input[name="s"]').prop("disabled", "disabled");
+						have_url = true;
+					}
+				});
+
+				$form.find("input").each(function() {
+					var $input = $(this);
+					
+					if (!$input.val())
+						$input.prop("disabled", "disabled");
+				});
+
+				if (!in_submit)
+					$form.submit();
+			}
+		</script>
+<link href="css/wd_wcag.css" type="text/css" rel="stylesheet" wd_script_id="wd_wcag.css">
+<script type="text/javascript" src="js/wd_wai_calendar_button.js" wd_script_id="wd_wai_calendar_button.js" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ=="></script>
+<script type="text/javascript" src="js/wd_wai_datepicker.js" wd_script_id="wd_wai_datepicker.js" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ=="></script>
+<script type="text/javascript" src="js/wd_wai_datepicker_day.js" wd_script_id="wd_wai_datepicker_day.js" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ=="></script>
+<link href="css/wd_wai_datepicker.css" type="text/css" rel="stylesheet" wd_script_id="wd_wai_datepicker.css">
+<script type="text/javascript" wd_script_id="form_wai_dp__scriptnf_start" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+							window.addEventListener("load" , function () {
+								let dp_input = document.getElementById("wd_wai_dp_input_nf_start");
+								let dp_button = document.getElementById("wd_wai_dp_button_nf_start");
+								let dp_dialog = document.getElementById("wd_datepicker_dialog_nf_start"  );
+								let wd_datePicker = new DatePicker(dp_input, dp_button, dp_dialog, "1999-06-28","2026-09-02"  );
+								wd_datePicker.init();
+							});   
+						</script>
+<script type="text/javascript" wd_script_id="form_wai_dp__scriptnf_end" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+							window.addEventListener("load" , function () {
+								let dp_input = document.getElementById("wd_wai_dp_input_nf_end");
+								let dp_button = document.getElementById("wd_wai_dp_button_nf_end");
+								let dp_dialog = document.getElementById("wd_datepicker_dialog_nf_end"  );
+								let wd_datePicker = new DatePicker(dp_input, dp_button, dp_dialog, "1999-06-28","2026-09-02"  );
+								wd_datePicker.init();
+							});   
+						</script>
+<script type="text/javascript" src="js/wd_form.js" wd_script_id="wd_form.js" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ=="></script>
+<link href="css/wd_form.css" type="text/css" rel="stylesheet" wd_script_id="wd_form.css">
+<style type="text/css" wd_script_id="template_list_inline_style" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+						ul.wd_layout-inline {
+							display: inline-block;
+							list-style: none;
+							padding: 0;
+							margin: 0;
+						}
+						ul.wd_layout-inline li {
+							display: inline-block;
+							padding: 0;
+							margin: 0 0 0 1em;
+						}
+					</style>
+<style type="text/css" wd_script_id="template item:newsfeed_releases:site style" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">.wd_item {
+	overflow:auto;
+}
+.wd_item .wd_thumbnail {
+	float: left;
+	margin: 0 5px 5px 0;
+}
+.wd_item .wd_date {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.167em;
+	color: #cccccc;
+}
+.wd_item .wd_title {
+	font-weight: bold;
+	font-size: 2em;
+}
+.wd_item .wd_subtitle {
+	font-weight: bold;
+}
+.wd_item .wd_summary p {
+	margin-bottom: 0;
+}
+.wd_asset_type_link_list {
+	display: inline-block;
+	margin: 10px 0 0 0;
+	padding: 2px;
+}
+.wd_item_wrapper {
+	margin-left: 149px;
+}
+.wd_item_wrapper:first-child,
+.wd_layout-masonry .wd_item_wrapper,
+.wd_layout-grid .wd_item_wrapper {
+	margin-left: 0;
+}
+.wd_layout-masonry .wd_item,
+.wd_layout-grid .wd_item {
+	border: 1px solid #e1e1e1;
+	padding: 5px;
+}
+.wd_layout-masonry .wd_thumbnail,
+.wd_layout-grid .wd_thumbnail {
+	float: none;
+	text-align: center;
+	margin: 0 0 5px 0;
+}
+</style>
+<style type="text/css" wd_script_id="template_list_simple_style" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+						ul.wd_layout-simple {
+							padding: 0;
+							margin: 10px 0;
+							list-style: none;
+						}
+					</style>
+<link href="thirdparty/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+<style type="text/css" wd_script_id="toolbar_style" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+			div.wd_toolbar {
+				border-top: 1px solid #cccccc;
+				border-bottom: 1px solid #cccccc;
+				margin: 15px 0px 15px 0px;
+				padding: 5px;
+				line-height: 1;
+			}
+			div.wd_toolbar-page {
+				clear: both;
+			}
+			div.wd_toolbar ul.wd_tools {
+				display: inline-block;
+				width: 100%;
+				margin: 0;
+				padding: 5px 0;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool {
+				display: block;
+				list-style-type: none;
+				margin-right: 5px;
+				padding: 0;
+				float: right;
+			}
+			span.wd_tool_icon > a:link,
+			span.wd_tool_icon > a:visited {
+				border-radius: 2px;
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				box-sizing: border-box;
+				margin: 0;
+				padding: 7px;
+				font-size: 16px;
+				line-height: 1;
+				text-align: center;
+				color: #ffffff;
+				background-color: #767676;
+			} 
+			span.wd_tool_icon > a:hover {
+				color: #ffffff;
+				background-color: #666666;
+				text-decoration: none;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool-addthis {
+				float: left;
+			}
+		</style>
+<script type="text/javascript" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">webDriver.push_jQuery();</script>
+<script type="text/javascript" src="js/jquery-ui.js" wd_script_id="jquery-ui.js" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ=="></script>
+<script type="text/javascript" src="js/wd_resize.js" wd_script_id="wd_resize.js" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ=="></script>
+<link href="css/wd_linkmenu.css" type="text/css" rel="stylesheet" wd_script_id="wd_linkmenu.css">
+<script type="text/javascript" wd_script_id="wd_linkmenu_script" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+(function($, undefined) {
+	webDriver.resizeLinkMenu = function() {
+		$(this).data("wd_linkmenu_element").wd_linkmenu("resize");
+		return false;
+	};
+	
+	var wd_linkmenu = function(element, options) {
+		this.init(element, options);
+	};
+	
+	wd_linkmenu.prototype = {
+		init: function(element, options) {
+			var self = this;
+			
+			this.$element = $(element);
+			this._options = {
+				"class": "",
+				"label": "Menu",
+			};
+			
+			this.options(options);
+			
+			this.$active = this.$orig_active = this.$element.find(".wd_linkmenu-active");
+			var label = this.$active ? this.$active.text() : this._options["label"];
+			
+			this.$header = $("<div>")
+					.addClass("wd_linkmenu-header")
+					.attr("tabindex","0")
+					.data("wd_linkmenu_element", this.$element)
+					.attr("wd_resize", "resizeLinkMenu")
+					.on("click.wd_linkmenu", function(event) {
+						self.toggle();
+						event.preventDefault();
+					})
+					.insertBefore(this.$element)
+			;
+			if (this._options["class"])
+				this.$header.addClass(this._options["class"]);
+			var attr_string = this.$element.attr("wd_linkmenu_header");
+			if (attr_string) {
+				var attrs = JSON.parse(attr_string);
+				for(var name in attrs)
+					this.$header.attr(name, attrs[name]);
+			}
+			this.$label = $("<span>")
+					.addClass("wd_linkmenu-label")
+					.text(label)
+					.appendTo(this.$header);
+			this.$icon = $("<span class=\"wd_linkmenu-icon fa fa-chevron-down\" title=\"Open\"><\/span>")
+					.appendTo(this.$header);
+
+			this.$items = this.$element.children(".wd_linkmenu-item");
+			this.$items
+					.addClass("wd_linkmenu-listitem")
+					.prop("tabIndex", -1)
+			;
+			
+			// Remove any non-items (e.g. unintended text nodes)
+			this.$element.empty();
+			this.$element.append(this.$items);
+
+			this.$element.addClass("wd_linkmenu-list");
+			
+			// TODO: make tabs treat show/hide similar to Load, Resize
+			this.$element.closest("div.wd_assets").bind("wd_assets_show", function() {self.resize();});
+			this.$element.closest("div.wd_tab_content").bind("wd_tab_show", function() {self.resize();});
+
+			this.$element
+					.appendTo($("body"))
+					.hide()
+			;
+			
+			this.need_size = true;
+			this.resize();
+
+			this.$header.on("keydown.wd_linkmenu", function(event) {self.onkeydown(event,false);});
+			this.$header.on("blur.wd_linkmenu", function() {self.onblur();});
+			
+			this.$element.on("keydown.wd_linkmenu", function(event) {self.onkeydown(event,true);});
+			this.$element.on("blur.wd_linkmenu", function() {self.onblur();});
+			this.$element.on("mousemove.wd_linkmenu", function(event) {self.onmousemove(event);});
+			this.$items.not(".wd_disabled").on("click.wd_linkmenu", function() {self.onitemclick(this);})
+		},
+		
+		options: function(options) {
+			if (options) {
+				$.extend(this._options, options);
+			} else {
+				return this._options;
+			}
+		},
+		
+		reload: function(options) {
+			if (options) {
+				this.options(options);
+			}
+			
+			this.reset();
+		},
+
+		reset: function() {
+		},
+
+		onkeydown: function(event, on_item) {
+			var key = event.which || event.keyCode;
+			var used = false;
+			switch (key) {
+				case 13: // Return
+				case 32: // Space
+					if (!on_item) {
+						this.toggle();
+						used = true;
+					}
+					break;
+				case 27: // Escape
+					this.close();
+					used = true;
+					break;
+				case 9: // Tab
+					if (on_item)
+						this.$header[0].focus(); // Move focus back to normal flow
+					break;
+				case 33: // Page Up
+				case 36: // Home
+					if (!on_item)
+						this.open();
+					this.first();
+					used = true;
+					break;
+				case 34: // Page Down
+				case 35: // End
+					if (!on_item)
+						this.open();
+					this.last();
+					used = true;
+					break;
+				case 38: // Up
+				case 37: // Left
+					if (!on_item)
+						this.open();
+					this.prev();
+					used = true;
+					break;
+				case 40: // Down
+				case 39: // Right
+					if (!on_item)
+						this.open();
+					this.next();
+					used = true;
+					break;
+			}
+			
+			if (used) {
+				event.stopImmediatePropagation();
+				event.preventDefault();
+			}
+		},
+
+		onmousemove: function(event) {
+			var $item = $(event.target);
+			if ($item.hasClass("wd_linkmenu-listitem"))
+				this.goto($item);
+		},
+				
+		onitemclick: function(item) {
+			$item = $(item);
+			this.$label.text($item.text());
+			this.$orig_active = this.$active = $item;
+			this.close();
+			this.$header[0].focus();
+		},
+				
+		open: function() {
+			var self = this;
+			$(document).on("mousedown.wd_linkmenu touchstart.wd_linkmenu", function(event) {
+				if ($(event.target).closest(self.$header.add(self.$element)).length == 0)
+					self.close();
+			});
+			
+			this.$header.addClass("wd_linkmenu-active");
+			this.$element
+					.show()
+					.position({my:"left top",at:"left bottom",of:this.$header})
+			;
+			this.goto(this.$active);
+		},
+				
+		close: function() {
+			this.$element.hide();
+			this.set_active(this.$orig_active);
+			this.$header.removeClass("wd_linkmenu-active");
+			
+			$(document).off(".wd_linkmenu");
+		},
+				
+		onblur: function() {
+			if (!this.ignore_blur)
+				this.close();
+			this.ignore_blur = false;
+		},
+				
+		toggle: function() {
+			this.$element.is(":visible") ? this.close() : this.open();
+		},
+				
+		set_active: function($item) {
+			if ($item.length > 0) {
+				if (this.$active)
+					this.$active.removeClass("wd_linkmenu-active");
+				this.$active = $item;
+				this.$active.addClass("wd_linkmenu-active");
+			}
+		},
+				
+		goto: function($item) {
+			if ($item.length > 0) {
+				this.set_active($item);
+				this.ignore_blur = true;
+				this.$active[0].focus();
+			}
+		},
+				
+		next: function() {
+			if (!this.$active)
+				this.first();
+			else
+				this.goto(this.$active.next());
+		},
+
+		prev: function() {
+			if (!this.$active)
+				this.last();
+			else
+				this.goto(this.$active.prev());
+		},
+				
+		first: function() {
+			this.goto(this.$items.first());
+		},
+		
+		last: function() {
+			this.goto(this.$items.last());
+		},
+		
+		destroy: function() {
+			this.$items
+				.removeClass("wd_linkmenu-listitem")
+				.off(".wd_linkmenu")
+			;
+			this.$element
+				.off(".wd_linkmenu")
+				.removeClass("wd_linkmenu-list")
+				.insertBefore(this.$header)
+			;
+			this.$header.remove();
+		},
+		
+		resize: function() {
+			if (this.need_size && this.$label.is(":visible")) {
+				var temp_show = !this.$element.is(":visible");
+				if (temp_show) {
+					this.$element.show();
+				}
+				
+				this.$label.width("auto");
+				this.$element.width("auto");
+				this.$label.width(this.$element.width());
+				this.$element.width(this.$header.width());
+
+				if (temp_show) {
+					this.$element.hide();
+				}
+				this.need_size = false;
+			}
+		}
+	};
+
+	$.fn.wd_linkmenu = function(options) {
+		var args = Array.prototype.slice.call(arguments, 1);
+		var result = this;
+		
+		this.each(function() {
+			var instance = $(this).data("wd_linkmenu");
+			if (typeof options == "string") {
+				var res = instance[options].apply(instance, args);
+				if (typeof res != "undefined") {
+					result = res;
+					return false;
+				}
+			} else {
+                if (!instance) {
+					instance = new wd_linkmenu(this, options);
+					$(this).data("wd_linkmenu", instance);
+				}
+				
+                instance.reload(options);
+			}
+        });
+		
+		return result;
+    };
+})(webDriver.jQuery);
+</script>
+<script type="text/javascript" wd_script_id="wd_linkmenu_init_script" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+			webDriver.jQuery(function($) {
+				$(".wd_linkmenu").each(function() {
+					var $menu = $(this);
+					$menu.wd_linkmenu();
+				});
+			});
+		</script>
+<style type="text/css" wd_script_id="page_menu_style" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+		.wd_page_menu {
+			overflow: auto;
+		}
+		.wd_page_limit {
+			float: left;
+			margin: 0;
+			padding: 8px 0;
+		}
+		.wd_page_links {
+			float: right;
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+		.wd_page_link {
+			display: inline-block;
+			margin: 0;
+			padding: 8px;
+			border: 1px solid #cccccc;
+			border-left: none;
+		}
+		.wd_page_active {
+			background-color: #eeeeee;
+		}
+		.wd_page_link:first-child {
+			border-left: 1px solid #cccccc;
+			border-top-left-radius: 3px;
+			border-bottom-left-radius: 3px;
+		}
+		.wd_page_link:last-child {
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
+		}
+	</style>
+<style type="text/css" wd_script_id="template page:newsfeed_releases:site style" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">.wd_category_header {
+	margin: 10px 0;
+	overflow: auto;
+}
+.wd_thumbnail {
+	float: left;
+	margin: 0 5px 5px 0;
+}
+.wd_item_list {
+	margin: 10px 0;
+	overflow: auto;
+}
+.wd_item {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+</style>
+<script type="text/javascript" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">webDriver.pop_jQuery();</script>
+
+<!-- end spin_special_output(head_start) -->
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W8DQKXPH');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="images/favicon.png">
+    
+    <title>Press Releases | Couche-Tard Corporate</title>
+	
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+ <meta name="twitter:card" content="summary" />
+ <meta property="og:site_name" content="Alimentation Couche-Tard Corporate" />
+ <meta property="og:url" content="https://corporate.couche-tard.com/financial-releases" />
+ <meta name="image" property="og:image" content="https://corporate.couche-tard.com/image/ct-social-logo.jpg" />
+ <meta name="twitter:image" content="https://corporate.couche-tard.com/image/ct-social-logo.jpg" />
+    
+    
+    <link rel="dns-prefetch" href="https://ajax.googleapis.com/">
+    <link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/global-styles-inline-css.css" type="text/css" media="all">
+    <link rel="stylesheet" id="wpml-blocks-css" href="css/styles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="wpml-menu-item-0-css" href="css/style(1).min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="sage/main.css-css" href="css/main.css" type="text/css" media="all">
+    <!-- <link rel="stylesheet" type="text/css" href="thirdparty/slick/slick.css"> -->
+    <link href="css/jquery.fancybox.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link rel="stylesheet" type="text/css" href="css/wdcontent.css">
+    <!-- <script type="text/javascript" src="js/jquery.min.js" id="jquery-js"></script> -->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js?ver=3.6" id="jquery-js"></script>
+    <script type="text/javascript" src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <script type="text/javascript" id="wpml-cookie-js-extra">
+      /* 
+																		<![CDATA[ */
+      var wpml_cookies = {
+        "wp-wpml_current_language": {
+          "value": "en",
+          "expires": 1,
+          "path": "\/"
+        }
+      };
+      var wpml_cookies = {
+        "wp-wpml_current_language": {
+          "value": "en",
+          "expires": 1,
+          "path": "\/"
+        }
+      };
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/language-cookie.js" id="wpml-cookie-js"></script>
+      
+    <style type="text/css">
+      .recentcomments a {
+        display: inline !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+    </style>
+    <style type="text/css" id="wp-custom-css">
+      .pn-page-builder .wp-block-table.is-style-stripes tr td:not(:first-child) {
+        text-align: left;
+      }
+
+      .carousel-image-home .list-ql-header .ql-wrapper .list-ql-item {
+        padding: 16px !important;
+      }
+    </style>
+    <script type="text/javascript">
+      window.recaptchaSiteKey = "6LehHIwaAAAAALqkeskqJ5va9Q-vtYDejjk6pvDW";
+    </script>
+  
+<!-- begin spin_special_output(head_end) -->
+<link rel="canonical" href="https://corporate.couche-tard.com/financial-releases?l=100" />
+<!-- end spin_special_output(head_end) -->
+</head>
+    <body class="wd_pageid_43 wd_is_category wd_category_3  home page-template page-template-template-home template-home page page-id-2 app-data index-data singular-data page-data page-2-data page-sample-page-data template-home-data front-page-data" cz-shortcut-listen="true">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8DQKXPH"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="header header-slim" data-component="header">
+      <div class="bg-header"></div>
+      <div class="container">
+        <div class="menu-dk">
+          <div class="header-top header-top-slim">
+            <nav class="nav-top">
+              <ul class="menu-top">
+                <li class="menu-item menu-item-small">
+                  <a href="https://corporate.couche-tard.com/media-resources" target="">Media Resources </a>
+                </li>
+                <li class="menu-item menu-item-small">
+                  <a href="https://workwithus.circlek.com/global/en" target="_blank">Careers <img class="external-link" src="images/external-link.webp" alt="External">
+                  </a>
+                </li>
+                <li class="menu-item menu-item-small">
+                  <a href="https://corporate.couche-tard.com/contact-us" target="">Contact Us </a>
+                </li>
+                <li class="menu-item menu-item-small">
+                                    <a href="https://corporatif.couche-tard.com/?s=43" target="">
+                    <span class="wpml-ls-native" lang="fr">Français</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="nav-search">
+              <div class="wd_search_form_container"><form name="basic_search" method="get" action="https://corporate.couche-tard.com/index.php?s=82" class="wd_search_form wd_search_form_basic"><input type="hidden" name="s" value="search_results" /><input type="text" name="query" value="" size="32" placeholder="Search" title="Search" /> <a href="#" onclick="webDriver.jQuery(this).closest('form').submit(); return false;"><span class="wd_sr-only">Submit search</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path fill="#000" fill-rule="nonzero" d="M15.5,14 L14.71,14 L14.43,13.73 C15.4438721,12.5540218 16.0011023,11.0526944 16,9.5 C16,5.91014913 13.0898509,3 9.5,3 C5.91014913,3 3,5.91014913 3,9.5 C3,13.0898509 5.91014913,16 9.5,16 C11.11,16 12.59,15.41 13.73,14.43 L14,14.71 L14,15.5 L19,20.49 L20.49,19 L15.5,14 Z M9.5,14 C7.01,14 5,11.99 5,9.5 C5,7.01 7.01,5 9.5,5 C11.99,5 14,7.01 14,9.5 C14,11.99 11.99,14 9.5,14 Z"></path><rect width="24" height="24"></rect></g></svg></a></form>
+</div>            </div>
+          </div>
+          <div class="header-bottom">
+            <div class="menu-left">
+              <a href="https://corporate.couche-tard.com/home" class="logo-wrapper reset-font">
+                <img src="images/logo-full.webp" alt="Couche-Tard">
+              </a>
+            </div>
+            <div class="menu-right">
+              <nav class="nav-primary">
+                <ul class="menu-primary">
+<li class="menu-item ">
+  <a href="https://corporate.couche-tard.com/our-company" target="_self" data-target="sub116">
+    <span class="label">Our Company</span>
+    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>  </a>
+</li>
+<li class="menu-item ">
+  <a href="https://corporate.couche-tard.com/investors" target="_self" data-target="sub129">
+    <span class="label">Investors</span>
+    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>  </a>
+</li>
+<li class="menu-item ">
+  <a href="https://corporate.couche-tard.com/sustainability" target="_self" data-target="sub410">
+    <span class="label">Sustainability</span>
+    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>  </a>
+</li>
+<li class="menu-item ">
+  <a href="https://corporate.couche-tard.com/newsroom" target="_self" data-target="sub418">
+    <span class="label">Newsroom</span>
+    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>  </a>
+</li>
+</ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="menu-mb">
+          <div class="menu-left">
+            <a href="https://corporate.couche-tard.com/home" class="logo-wrapper reset-font">
+              <img src="images/logo-full-mobile.webp" alt="Couche-Tard">
+            </a>
+          </div>
+          <div class="menu-right">
+            <div class="label-wrapper">
+              <p class="open">Menu</p>
+              <p class="close">Close</p>
+            </div>
+            <div class="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="fixed-dk-nav">
+      <div class="fixed-dk-nav-bg"></div>
+      <div class="fixed-dk-nav-container">
+        <div class="fixed-dk-nav-inner">
+          		<div class="sub-nav-dk" data-parent="sub116">
+			<div class="sub-nav-inner">
+  <div class="container">
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/who-we-are" target="_self">
+			    <span class="label">Who We Are</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/our-values" target="_self">
+			    <span class="label">Our Values</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/our-brands" target="_self">
+			    <span class="label">Our Brands</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/where-we-operate" target="_self">
+			    <span class="label">Where We Operate</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" data-target="sub123">
+			  <a href="https://corporate.couche-tard.com/leadership-governance" target="_self">
+			    <span class="label">Leadership & Governance</span>
+			    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>			  </a>
+			</li>
+	<li>
+	<ul class="third-nav-menu" data-parent="sub123">
+		<div class="third-nav-inner">
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/board-of-directors" target="_self">Board of Directors</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/executive-management" target="_self">Executive Management</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/governance" target="_self">Governance</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/ethics-and-compliance" target="_self">Ethics and Compliance</a>
+</li>
+</div>
+	</ul>
+	</li>
+	</ul>
+</nav>
+
+	</div>
+</div>
+		</div>
+			<div class="sub-nav-dk" data-parent="sub129">
+			<div class="sub-nav-inner">
+  <div class="container">
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" data-target="sub52">
+			  <a href="https://corporate.couche-tard.com/financial-information" target="_self">
+			    <span class="label">Financial Information</span>
+			    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>			  </a>
+			</li>
+	<li>
+	<ul class="third-nav-menu" data-parent="sub52">
+		<div class="third-nav-inner">
+<li class="menu-item child-item">
+  <a href="financial-releases" target="_self">Financial Releases</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/financial-reporting?cat=31" target="_self">Financial Reporting</a>
+</li>
+</div>
+	</ul>
+	</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/sustainable-finance" target="_self">
+			    <span class="label">Sustainable Finance</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/events-presentations" target="_self">
+			    <span class="label">Events & Presentations</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" data-target="sub406">
+			  <a href="https://corporate.couche-tard.com/stock-information" target="_self">
+			    <span class="label">Stock Information</span>
+			    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>			  </a>
+			</li>
+	<li>
+	<ul class="third-nav-menu" data-parent="sub406">
+		<div class="third-nav-inner">
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/stock-quotes" target="_self">Stock Quote</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/analyst-coverage" target="_self">Analyst Coverage</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/dividend-history" target="_self">Dividend History</a>
+</li>
+</div>
+	</ul>
+	</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" data-target="sub408">
+			  <a href="https://corporate.couche-tard.com/shareholders-ressources" target="_self">
+			    <span class="label">Shareholders Resources</span>
+			    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>			  </a>
+			</li>
+	<li>
+	<ul class="third-nav-menu" data-parent="sub408">
+		<div class="third-nav-inner">
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/annual-general-meeting-documents" target="_self">Annual General Meeting Documents</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/regulatory-filings?cat=4" target="_self">Regulatory/SEDAR Filings</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/faq" target="_self">FAQ</a>
+</li>
+</div>
+	</ul>
+	</li>
+	</ul>
+</nav>
+
+	</div>
+</div>
+		</div>
+			<div class="sub-nav-dk" data-parent="sub410">
+			<div class="sub-nav-inner">
+  <div class="container">
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/our-sustainability-journey" target="_self">
+			    <span class="label">Our Sustainability Journey</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/planet" target="_self">
+			    <span class="label">Planet</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/people" target="_self">
+			    <span class="label">People</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/prosperity" target="_self">
+			    <span class="label">Prosperity</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" data-target="sub166">
+			  <a href="https://corporate.couche-tard.com/reports-and-indexes" target="_self">
+			    <span class="label">Reports & Indexes</span>
+			    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>			  </a>
+			</li>
+	<li>
+	<ul class="third-nav-menu" data-parent="sub166">
+		<div class="third-nav-inner">
+<li class="menu-item child-item">
+  <a href="image/COTA093_ACT_2026_Sustainability_Report_EN_20260623.pdf" target="_blank">2026 Sustainability Report</a>
+</li>
+<li class="menu-item child-item">
+  <a href="reports-and-indexes" target="_self">Archives</a>
+</li>
+</div>
+	</ul>
+	</li>
+	</ul>
+</nav>
+
+	</div>
+</div>
+		</div>
+			<div class="sub-nav-dk" data-parent="sub418">
+			<div class="sub-nav-inner">
+  <div class="container">
+ 
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/press-releases" target="_self">
+			    <span class="label">Press Releases</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/stories" target="_self">
+			    <span class="label">News & Stories</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/media-resources" target="_self">
+			    <span class="label">Media Resources</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+	</div>
+</div>
+		</div>
+	        </div>
+      </div>
+    </div>
+    <div class="fixed-mb-nav">
+      <div class="fixed-mb-container">
+        <div class="fixed-mb-nav-inner">
+          <div class="container">
+            <div class="sub-nav-mb">
+              <div class="sub-nav-inner">
+              	<nav class="primary-nav">
+	                <ul class="sub-nav-menu">
+<li class="menu-item title-item">
+  <a href="https://corporate.couche-tard.com/our-company" target="_self" data-target="sub116">
+    <span>Our Company</span>
+  </a>
+  <span class="picto reset-font" data-target="sub116"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="sub-nav" data-parent="sub116" data-component="headerSubNav">
+	<div class="container">
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/who-we-are" target="_self" >
+    <span>Who We Are</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/our-values" target="_self" >
+    <span>Our Values</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/our-brands" target="_self" >
+    <span>Our Brands</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/where-we-operate" target="_self" >
+    <span>Where We Operate</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/leadership-governance" target="_self" data-target="sub123">
+    <span>Leadership & Governance</span>
+  </a>
+  <span class="picto reset-font" data-target="sub123"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="second-sub-nav sub-nav" data-parent="sub123">
+		<div class="container">
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/board-of-directors" target="_self" class="">
+    <span>Board of Directors</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/executive-management" target="_self" class="">
+    <span>Executive Management</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/governance" target="_self" class="">
+    <span>Governance</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/ethics-and-compliance" target="_self" class="">
+    <span>Ethics and Compliance</span>
+  </a>
+</li>
+</div>
+	</ul>
+</div>
+	</ul>
+<li class="menu-item title-item">
+  <a href="https://corporate.couche-tard.com/investors" target="_self" data-target="sub129">
+    <span>Investors</span>
+  </a>
+  <span class="picto reset-font" data-target="sub129"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="sub-nav" data-parent="sub129" data-component="headerSubNav">
+	<div class="container">
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/financial-information" target="_self" data-target="sub52">
+    <span>Financial Information</span>
+  </a>
+  <span class="picto reset-font" data-target="sub52"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="second-sub-nav sub-nav" data-parent="sub52">
+		<div class="container">
+<li class="menu-item grandchild-item">
+  <a href="financial-releases" target="_self" class="">
+    <span>Financial Releases</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/financial-reporting?cat=31" target="_self" class="">
+    <span>Financial Reporting</span>
+  </a>
+</li>
+</div>
+	</ul>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/sustainable-finance" target="_self" >
+    <span>Sustainable Finance</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/events-presentations" target="_self" >
+    <span>Events & Presentations</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/stock-information" target="_self" data-target="sub406">
+    <span>Stock Information</span>
+  </a>
+  <span class="picto reset-font" data-target="sub406"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="second-sub-nav sub-nav" data-parent="sub406">
+		<div class="container">
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/stock-quotes" target="_self" class="">
+    <span>Stock Quote</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/analyst-coverage" target="_self" class="">
+    <span>Analyst Coverage</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/dividend-history" target="_self" class="">
+    <span>Dividend History</span>
+  </a>
+</li>
+</div>
+	</ul>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/shareholders-ressources" target="_self" data-target="sub408">
+    <span>Shareholders Resources</span>
+  </a>
+  <span class="picto reset-font" data-target="sub408"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="second-sub-nav sub-nav" data-parent="sub408">
+		<div class="container">
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/annual-general-meeting-documents" target="_self" class="">
+    <span>Annual General Meeting Documents</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/regulatory-filings?cat=4" target="_self" class="">
+    <span>Regulatory/SEDAR Filings</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/faq" target="_self" class="">
+    <span>FAQ</span>
+  </a>
+</li>
+</div>
+	</ul>
+</div>
+	</ul>
+<li class="menu-item title-item">
+  <a href="https://corporate.couche-tard.com/sustainability" target="_self" data-target="sub410">
+    <span>Sustainability</span>
+  </a>
+  <span class="picto reset-font" data-target="sub410"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="sub-nav" data-parent="sub410" data-component="headerSubNav">
+	<div class="container">
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/our-sustainability-journey" target="_self" >
+    <span>Our Sustainability Journey</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/planet" target="_self" >
+    <span>Planet</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/people" target="_self" >
+    <span>People</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/prosperity" target="_self" >
+    <span>Prosperity</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/reports-and-indexes" target="_self" data-target="sub166">
+    <span>Reports & Indexes</span>
+  </a>
+  <span class="picto reset-font" data-target="sub166"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="second-sub-nav sub-nav" data-parent="sub166">
+		<div class="container">
+<li class="menu-item grandchild-item">
+  <a href="image/COTA093_ACT_2026_Sustainability_Report_EN_20260623.pdf" target="_blank" class="">
+    <span>2026 Sustainability Report</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="reports-and-indexes" target="_self" class="">
+    <span>Archives</span>
+  </a>
+</li>
+</div>
+	</ul>
+</div>
+	</ul>
+<li class="menu-item title-item">
+  <a href="https://corporate.couche-tard.com/newsroom" target="_self" data-target="sub418">
+    <span>Newsroom</span>
+  </a>
+  <span class="picto reset-font" data-target="sub418"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="sub-nav" data-parent="sub418" data-component="headerSubNav">
+	<div class="container">
+ 
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/press-releases" target="_self" >
+    <span>Press Releases</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/stories" target="_self" >
+    <span>News & Stories</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/media-resources" target="_self" >
+    <span>Media Resources</span>
+  </a>
+  </li>
+</div>
+	</ul>
+</ul>
+	            </nav>
+                <nav class="secondary-nav">
+                  <ul>
+                    <li class="menu-item">
+                      <a href="https://corporate.couche-tard.com/media-resources" target="">Media Resources</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="https://workwithus.circlek.com/global/en" target="_blank">Careers</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="https://corporate.couche-tard.com/contact-us" target="">Contact Us</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="https://corpo.couche-tard.com/fr/notre-entreprise/nos-marques/" target="">
+                        <span class="wpml-ls-native" lang="fr">Français</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap" role="document">
+      <div class="content">
+        <main class="main">
+          <section class="page_layout page_home wd_main_content_wrapper">
+                                  	<div class="banner-default">
+          	              <div class="image-bleed">
+                <img src="/image/Financial+Releases_2.png" alt="">
+              </div>
+                                      <div class="container bd-bottom">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="block-content left">
+                      <ul class="breadcrumb ">
+                        <li>
+                          <a href="https://corporate.couche-tard.com/home">
+                            <span>Home</span>
+                          </a>
+                        </li>
+                                              <li>
+  <a href="https://corporate.couche-tard.com/newsroom"  target="_self">
+    <span>Newsroom</span>
+  </a>
+</li>
+<li>
+  <a href="https://corporate.couche-tard.com/press-releases"  target="_self">
+    <span>Press Releases</span>
+  </a>
+</li>
+
+                                                                  </ul>
+                                              <h1 class="title">			Financial	 Releases</h1>
+                        <div class="pn-wysiwyg wd_header_description">
+                                                  </div>
+                                          </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                      	<div class="container">
+            </div>
+            <div class="container">
+        <div class="row justify-content-between">
+                    <div class="col-12">
+                    <div class="wd_featureboxes_card wd_featureboxes-vertical fr-view">
+<div id="wd_featurebox-standard_14" class="wd_featurebox_container wd_featurebox-standard"><div class="wd_featurebox_title">Media Resources</div><div class="wd_featurebox"><p>Official Alimentation Couche-Tard photos, logos, and assets available for download.</p>
+
+<p class="more"><a href="media-resources">View Resources</a></p>
+</div></div></div>
+<div id="wd_printable_content" class="fr-view">
+<div class="wd_newsfeed_releases">
+<script type="text/javascript" wd_script_id="wd_wai_datepicker_translate_script" nonce="OTc2YjY2NjFiYjM3MjkxMTQyZmY3YTlkN2VlZDcxZTliNTJlNzJjNQ==">
+
+var wd_wai_langData = {
+		"dayLabels": ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+		"dayLabelsShort": ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],
+		"monthLabels": ["January","February","March","April","May","June","July","August","September","October","November","December"],
+	};
+
+</script>
+
+ <div class="wd_wai_datepicker">
+  <div 
+       class="wd_wai_datepickerDialog"  id="wd_datepicker_dialog_nf_start"
+       role="dialog"
+       aria-modal="true"
+       aria-labelledby="wd_wai_id_dialog_label_nf_start">
+    <div class="wd_wai_header">
+      <button class="wd_wai_prevYear" aria-label="previous year">
+        <span class="fa fa-angle-double-left fa-lg"></span>
+      </button>
+      <button class="wd_wai_prevMonth" aria-label="previous month">
+        <span class="fa fa-angle-left fa-lg"></span>
+      </button>
+      <div id="wd_wai_id_dialog_label_nf_start"
+          class="wd_wai_monthYear"
+          aria-live="polite">
+        Month Year
+      </div>
+      <button class="wd_wai_nextMonth" aria-label="next month">
+        <span class="fa fa-angle-right fa-lg"></span>
+      </button>
+      <button class="wd_wai_nextYear" aria-label="next year">
+        <span class="fa fa-angle-double-right fa-lg"></span>
+      </button>
+    </div>
+    <table id="wd_wai_myDatepickerGrid_nf_start"
+           class="wd_wai_dates"
+           role="grid"
+           aria-labelledby="wd_wai_id_dialog_label_nf_start">
+      <thead>
+        <tr class="wd_wai_week_row">
+          <th scope="col" abbr="Sunday">
+            Su
+          </th>
+          <th scope="col" abbr="Monday">
+            Mo
+          </th>
+          <th scope="col" abbr="Tuesday">
+            Tu
+          </th>
+          <th scope="col" abbr="Wednesday">
+            We
+          </th>
+          <th scope="col" abbr="Thursday">
+            Th
+          </th>
+          <th scope="col" abbr="Friday">
+            Fr
+          </th>
+          <th scope="col" abbr="Saturday">
+            Sa
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              25
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              26
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              27
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              28
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              29
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              30
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              1
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              2
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              3
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              4
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              5
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              6
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              7
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              8
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              9
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              10
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              11
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              12
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              13
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="0">
+              14
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              15
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              16
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              17
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              18
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              19
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              20
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              21
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              22
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              23
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              24
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              25
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              26
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              27
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              28
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              29
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              30
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              31
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              1
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              2
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              3
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              4
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              5
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="wd_wai_dialogButtonGroup">
+      <button class="wd_wai_dialogButton wd_wai_dp_cancelbuton" value="Cancel">Cancel      </button>
+      <button class="wd_wai_dialogButton wd_wai_dp_okbuton" value="Go">Go</button>
+    </div>
+  </div>
+
+ </div>
+
+
+ <div class="wd_wai_datepicker">
+  <div 
+       class="wd_wai_datepickerDialog"  id="wd_datepicker_dialog_nf_end"
+       role="dialog"
+       aria-modal="true"
+       aria-labelledby="wd_wai_id_dialog_label_nf_end">
+    <div class="wd_wai_header">
+      <button class="wd_wai_prevYear" aria-label="previous year">
+        <span class="fa fa-angle-double-left fa-lg"></span>
+      </button>
+      <button class="wd_wai_prevMonth" aria-label="previous month">
+        <span class="fa fa-angle-left fa-lg"></span>
+      </button>
+      <div id="wd_wai_id_dialog_label_nf_end"
+          class="wd_wai_monthYear"
+          aria-live="polite">
+        Month Year
+      </div>
+      <button class="wd_wai_nextMonth" aria-label="next month">
+        <span class="fa fa-angle-right fa-lg"></span>
+      </button>
+      <button class="wd_wai_nextYear" aria-label="next year">
+        <span class="fa fa-angle-double-right fa-lg"></span>
+      </button>
+    </div>
+    <table id="wd_wai_myDatepickerGrid_nf_end"
+           class="wd_wai_dates"
+           role="grid"
+           aria-labelledby="wd_wai_id_dialog_label_nf_end">
+      <thead>
+        <tr class="wd_wai_week_row">
+          <th scope="col" abbr="Sunday">
+            Su
+          </th>
+          <th scope="col" abbr="Monday">
+            Mo
+          </th>
+          <th scope="col" abbr="Tuesday">
+            Tu
+          </th>
+          <th scope="col" abbr="Wednesday">
+            We
+          </th>
+          <th scope="col" abbr="Thursday">
+            Th
+          </th>
+          <th scope="col" abbr="Friday">
+            Fr
+          </th>
+          <th scope="col" abbr="Saturday">
+            Sa
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              25
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              26
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              27
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              28
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              29
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              30
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              1
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              2
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              3
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              4
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              5
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              6
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              7
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              8
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              9
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              10
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              11
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              12
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              13
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="0">
+              14
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              15
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              16
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              17
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              18
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              19
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              20
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              21
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              22
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              23
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              24
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              25
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              26
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              27
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              28
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              29
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              30
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton" tabindex="-1">
+              31
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              1
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              2
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              3
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              4
+            </button>
+          </td>
+          <td class="wd_wai_dateCell">
+            <button class="wd_wai_dateButton"
+                    tabindex="-1"
+                    disabled="">
+              5
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="wd_wai_dialogButtonGroup">
+      <button class="wd_wai_dialogButton wd_wai_dp_cancelbuton" value="Cancel">Cancel      </button>
+      <button class="wd_wai_dialogButton wd_wai_dp_okbuton" value="Go">Go</button>
+    </div>
+  </div>
+
+ </div>
+
+
+<div class="wd_item_search_form_container"><form name="item_basic_search_43" method="get" action="https://corporate.couche-tard.com/press-releases" onsubmit="wd_item_search_form_submit(this, true);" class="wd_search_form wd_search_form_basic"><input type="hidden" name="l" value="100" /><div class="wd_search_basic_fields"><label for="item_basic_search_43_year" class="wd_sr-only">Year</label>
+<select name="year" onchange="wd_item_search_form_highlight(this.form);" id="item_basic_search_43_year">
+ <option value="">All Years</option>
+ <option value="2026">2026</option>
+ <option value="2025">2025</option>
+ <option value="2024">2024</option>
+ <option value="2023">2023</option>
+ <option value="2022">2022</option>
+ <option value="2021">2021</option>
+ <option value="2020">2020</option>
+ <option value="2019">2019</option>
+ <option value="2018">2018</option>
+ <option value="2017">2017</option>
+ <option value="2016">2016</option>
+ <option value="2015">2015</option>
+ <option value="2014">2014</option>
+</select>
+<label for="item_basic_search_43_category" class="wd_sr-only">Category</label>
+<select name="category" onchange="wd_item_search_form_highlight(this.form);" id="item_basic_search_43_category">
+ <option value="">All Categories</option>
+ <option value="1" wd_url="https://corporate.couche-tard.com/company-press-releases">Company</option>
+ <option value="3" selected wd_url="https://corporate.couche-tard.com/financial-releases">Financial</option>
+ <option value="4" wd_url="https://corporate.couche-tard.com/innovation-press-releases">Innovation</option>
+ <option value="5" wd_url="https://corporate.couche-tard.com/people-press-releases">People</option>
+ <option value="6" wd_url="https://corporate.couche-tard.com/sustainability-press-releases">Sustainability</option>
+ <option value="uncategorized">Uncategorized</option>
+</select>
+<label for="item_basic_search_43_keywords" class="wd_sr-only">Keywords</label><input type="text" name="keywords" value="" size="32" placeholder="Search" wd_original_value="" onkeyup="if (this.value.trim().length &gt; 1 &amp;&amp; this.value != $(this).attr('wd_original_value')) wd_item_search_form_highlight(this.form);" id="item_basic_search_43_keywords" /> <button type="submit" class="wd_search_button" title="Search">Go</button></div> <a class="wd_search_advanced_link" href="#" onclick="wd_item_search_form_toggle(this, true); return false;">Advanced Search</a></form>
+ <form method="get" class="wd_search_form wd_search_form_advanced" style="display:none;" name="item_advanced_search_43" action="https://corporate.couche-tard.com/press-releases" enctype="multipart/form-data" onsubmit="disable_submit(this, true);wd_item_search_form_submit(this, true);">
+   <input type="hidden" name="advanced" value="1" />
+   <div class="wd_form_field wd_form_field_pos_right">
+    <div class="wd_form_field_label">
+<label for="item_advanced_search_43_keywords">Search</label>
+    </div>
+    <div class="wd_form_field_input">
+     <input type="text" name="keywords" value="" size="40" placeholder="Keywords" id="item_advanced_search_43_keywords" />&nbsp;<span class="wd_search_titles_only"><input type="checkbox" name="titles_only" value="1" id="items_search_43_titles_only" />&nbsp;<label for="items_search_43_titles_only">Search Headlines Only</label></span>
+    </div>
+   </div>
+   <input type="hidden" name="l" value="100" />
+   <div class="wd_form_field wd_form_field_pos_right">
+    <div class="wd_form_field_label">
+<label for="item_advanced_search_43_category">Category</label>
+    </div>
+    <div class="wd_form_field_input">
+<div class="wd_input_border">
+<select name="category" id="item_advanced_search_43_category">
+ <option value="">All Categories</option>
+ <option value="1" wd_url="https://corporate.couche-tard.com/company-press-releases">Company</option>
+ <option value="3" selected wd_url="https://corporate.couche-tard.com/financial-releases">Financial</option>
+ <option value="4" wd_url="https://corporate.couche-tard.com/innovation-press-releases">Innovation</option>
+ <option value="5" wd_url="https://corporate.couche-tard.com/people-press-releases">People</option>
+ <option value="6" wd_url="https://corporate.couche-tard.com/sustainability-press-releases">Sustainability</option>
+ <option value="uncategorized">Uncategorized</option>
+</select>
+</div>
+    </div>
+   </div>
+   <div class="wd_form_field wd_form_field_pos_right">
+    <div class="wd_form_field_label">
+<label for="wd_wai_dp_input_nf_start">From</label>
+    </div>
+    <div class="wd_form_field_input">
+<input type="text" name="start" value="" size="32" placeholder="Date" dp_id="nf_start" dp_num="1" minDate="1999-06-28" maxDate="2026-09-02" id="wd_wai_dp_input_nf_start" /><button type="button" class="icon wd_wai_dp_button" id="wd_wai_dp_button_nf_start"  title="Choose Date"><span class="wd_datepicker-icon fa fa-calendar"></span></button>
+    </div>
+   </div>
+   <div class="wd_form_field wd_form_field_pos_right">
+    <div class="wd_form_field_label">
+<label for="wd_wai_dp_input_nf_end">To</label>
+    </div>
+    <div class="wd_form_field_input">
+<input type="text" name="end" value="" size="32" placeholder="Date" dp_id="nf_end" dp_num="2" minDate="1999-06-28" maxDate="2026-09-02" id="wd_wai_dp_input_nf_end" /><button type="button" class="icon wd_wai_dp_button" id="wd_wai_dp_button_nf_end"  title="Choose Date"><span class="wd_datepicker-icon fa fa-calendar"></span></button>
+    </div>
+   </div>
+   <fieldset class="wd_form_field wd_form_field_pos_right">
+    <legend class="wd_form_field_label">Asset Types</legend>
+    <div class="wd_form_field_input">
+<span class="wd_checkbox"><input type="checkbox" name="asset_types[]" checked="yes" value="3" id="item_advanced_search_43_asset_types_3" />&nbsp;<label for="item_advanced_search_43_asset_types_3">Photos</label></span> <span class="wd_checkbox"><input type="checkbox" name="asset_types[]" checked="yes" value="1" id="item_advanced_search_43_asset_types_1" />&nbsp;<label for="item_advanced_search_43_asset_types_1">Video</label></span> <span class="wd_checkbox"><input type="checkbox" name="asset_types[]" checked="yes" value="2" id="item_advanced_search_43_asset_types_2" />&nbsp;<label for="item_advanced_search_43_asset_types_2">Audio</label></span> <span class="wd_checkbox"><input type="checkbox" name="asset_types[]" checked="yes" value="4" id="item_advanced_search_43_asset_types_4" />&nbsp;<label for="item_advanced_search_43_asset_types_4">Documents</label></span> <span class="wd_checkbox"><input type="checkbox" name="asset_types[]" checked="yes" value="11" id="item_advanced_search_43_asset_types_11" />&nbsp;<label for="item_advanced_search_43_asset_types_11">Events</label></span> <span class="wd_checkbox"><input type="checkbox" name="asset_types[]" checked="yes" value="22" id="item_advanced_search_43_asset_types_22" />&nbsp;<label for="item_advanced_search_43_asset_types_22">Standard</label></span>
+    </div>
+   </fieldset>
+   <input type="hidden" name="have_asset_types" value="1" />
+  <div class="wd_form_footer">
+   <div class="wd_form_buttons">
+<input type="submit" value="Search">&nbsp;<a href="#" onclick="wd_item_search_form_toggle(this, false); return false;">Basic Search</a>
+   </div>
+  </div>
+ </form>
+</div>
+
+
+<ul class="wd_layout-simple wd_item_list"><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">September 1, 2026</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2026-09-01-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2027">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FIRST QUARTER OF FISCAL YEAR 2027</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2026-09-01-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2027">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FIRST QUARTER OF FISCAL YEAR 2027</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 22, 2026</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2026-06-22-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2026</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2026-06-22-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2026</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">April 14, 2026</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2026-04-14-ALIMENTATION-COUCHE-TARD-PRICES-PRIVATE-OFFERING-OF-EURO-DENOMINATED-SENIOR-UNSECURED-NOTES">ALIMENTATION COUCHE-TARD PRICES PRIVATE OFFERING OF EURO DENOMINATED SENIOR UNSECURED NOTES</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2026-04-14-ALIMENTATION-COUCHE-TARD-PRICES-PRIVATE-OFFERING-OF-EURO-DENOMINATED-SENIOR-UNSECURED-NOTES">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD PRICES PRIVATE OFFERING OF EURO DENOMINATED SENIOR UNSECURED NOTES</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 17, 2026</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2026-03-17-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2026">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS THIRD QUARTER OF FISCAL YEAR 2026</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2026-03-17-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2026">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS THIRD QUARTER OF FISCAL YEAR 2026</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">February 27, 2026</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2026-02-27-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2026-ON-MARCH-17,-2026">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS THIRD QUARTER OF FISCAL YEAR 2026 ON MARCH 17, 2026</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2026-02-27-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2026-ON-MARCH-17,-2026">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS THIRD QUARTER OF FISCAL YEAR 2026 ON MARCH 17, 2026</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">February 11, 2026</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2026-02-11-ALIMENTATION-COUCHE-TARD-PRESENTS-ITS-2026-BUSINESS-STRATEGY-UPDATE-AND-NEW-LONG-TERM-GUIDANCE">ALIMENTATION COUCHE-TARD PRESENTS ITS 2026 BUSINESS STRATEGY UPDATE AND NEW LONG-TERM GUIDANCE</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2026-02-11-ALIMENTATION-COUCHE-TARD-PRESENTS-ITS-2026-BUSINESS-STRATEGY-UPDATE-AND-NEW-LONG-TERM-GUIDANCE">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD PRESENTS ITS 2026 BUSINESS STRATEGY UPDATE AND NEW LONG-TERM GUIDANCE</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">February 4, 2026</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2026-02-04-REMINDER-ALIMENTATION-COUCHE-TARD-TO-HOST-ITS-2026-BUSINESS-STRATEGY-UPDATE-ON-FEBRUARY-11TH,-2026">REMINDER: ALIMENTATION COUCHE-TARD TO HOST ITS 2026 BUSINESS STRATEGY UPDATE ON FEBRUARY 11TH, 2026</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2026-02-04-REMINDER-ALIMENTATION-COUCHE-TARD-TO-HOST-ITS-2026-BUSINESS-STRATEGY-UPDATE-ON-FEBRUARY-11TH,-2026">Read more<span class="wd_sr-only"> about REMINDER: ALIMENTATION COUCHE-TARD TO HOST ITS 2026 BUSINESS STRATEGY UPDATE ON FEBRUARY 11TH, 2026</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">November 24, 2025</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2025-11-24-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2026">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS SECOND QUARTER OF FISCAL YEAR 2026</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2025-11-24-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2026">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS SECOND QUARTER OF FISCAL YEAR 2026</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">November 4, 2025</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2025-11-04-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2026-ON-NOVEMBER-24,-2025">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS SECOND QUARTER OF FISCAL YEAR 2026 ON NOVEMBER 24, 2025</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2025-11-04-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2026-ON-NOVEMBER-24,-2025">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS SECOND QUARTER OF FISCAL YEAR 2026 ON NOVEMBER 24, 2025</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">September 2, 2025</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2025-09-02-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2026">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FIRST QUARTER OF FISCAL YEAR 2026</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2025-09-02-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2026">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FIRST QUARTER OF FISCAL YEAR 2026</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">August 11, 2025</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2025-08-11-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2026-ON-SEPTEMBER-2,-2025">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS FIRST QUARTER OF FISCAL YEAR 2026 ON SEPTEMBER 2, 2025</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2025-08-11-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2026-ON-SEPTEMBER-2,-2025">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS FIRST QUARTER OF FISCAL YEAR 2026 ON SEPTEMBER 2, 2025</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">July 21, 2025</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2025-07-21-ALIMENTATION-COUCHE-TARD-REINITIATES-SHARE-REPURCHASE-PROGRAM">ALIMENTATION COUCHE-TARD REINITIATES SHARE REPURCHASE PROGRAM</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2025-07-21-ALIMENTATION-COUCHE-TARD-REINITIATES-SHARE-REPURCHASE-PROGRAM">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD REINITIATES SHARE REPURCHASE PROGRAM</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 25, 2025</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2025-06-25-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2025">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2025</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2025-06-25-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2025">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2025</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">May 28, 2025</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2025-05-28-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2025-ON-JUNE-25,-2025">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2025 ON JUNE 25, 2025</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2025-05-28-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2025-ON-JUNE-25,-2025">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2025 ON JUNE 25, 2025</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 18, 2025</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2025-03-18-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2025">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS THIRD QUARTER OF FISCAL YEAR 2025</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2025-03-18-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2025">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS THIRD QUARTER OF FISCAL YEAR 2025</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">February 20, 2025</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2025-02-20-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-THIRD-QUARTER-OF-ITS-FISCAL-YEAR-2025-ON-MARCH-18,-2025">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS THIRD QUARTER OF ITS FISCAL YEAR 2025 ON MARCH 18, 2025</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2025-02-20-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-THIRD-QUARTER-OF-ITS-FISCAL-YEAR-2025-ON-MARCH-18,-2025">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS THIRD QUARTER OF ITS FISCAL YEAR 2025 ON MARCH 18, 2025</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">November 25, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-11-25-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2025">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS SECOND QUARTER OF FISCAL YEAR 2025</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-11-25-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2025">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS SECOND QUARTER OF FISCAL YEAR 2025</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">November 5, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-11-05-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-SECOND-QUARTER-OF-ITS-FISCAL-YEAR-2025-ON-NOVEMBER-25,-2024">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS SECOND QUARTER OF ITS FISCAL YEAR 2025 ON NOVEMBER 25, 2024</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-11-05-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-SECOND-QUARTER-OF-ITS-FISCAL-YEAR-2025-ON-NOVEMBER-25,-2024">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS SECOND QUARTER OF ITS FISCAL YEAR 2025 ON NOVEMBER 25, 2024</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">September 4, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-09-04-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2025">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FIRST QUARTER OF FISCAL YEAR 2025</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-09-04-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2025">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FIRST QUARTER OF FISCAL YEAR 2025</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">August 19, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-08-19-ALIMENTATION-COUCHE-TARD-TO-ACQUIRE-GETGO-CAFE-MARKET-STORES-FROM-GIANT-EAGLE">ALIMENTATION COUCHE-TARD TO ACQUIRE GETGO CAFÉ + MARKET STORES FROM GIANT EAGLE</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-08-19-ALIMENTATION-COUCHE-TARD-TO-ACQUIRE-GETGO-CAFE-MARKET-STORES-FROM-GIANT-EAGLE">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO ACQUIRE GETGO CAFÉ + MARKET STORES FROM GIANT EAGLE</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">August 19, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-08-19-ALIMENTATION-COUCHE-TARD-CONFIRMS-FRIENDLY-PROPOSAL-SENT-TO-SEVEN-i-HOLDINGS">ALIMENTATION COUCHE-TARD CONFIRMS FRIENDLY PROPOSAL SENT TO SEVEN & i HOLDINGS</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-08-19-ALIMENTATION-COUCHE-TARD-CONFIRMS-FRIENDLY-PROPOSAL-SENT-TO-SEVEN-i-HOLDINGS">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD CONFIRMS FRIENDLY PROPOSAL SENT TO SEVEN & i HOLDINGS</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">August 14, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-08-14-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-FIRST-QUARTER-OF-ITS-FISCAL-YEAR-2025-ON-SEPTEMBER-4,-2024">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS FIRST QUARTER OF ITS FISCAL YEAR 2025 ON SEPTEMBER 4, 2024</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-08-14-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-FIRST-QUARTER-OF-ITS-FISCAL-YEAR-2025-ON-SEPTEMBER-4,-2024">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS FIRST QUARTER OF ITS FISCAL YEAR 2025 ON SEPTEMBER 4, 2024</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">July 23, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-07-23-ALIMENTATION-COUCHE-TARD-ANNOUNCES-AGREEMENT-TO-REPURCHASE-8,695,652-COMMON-SHARES">ALIMENTATION COUCHE-TARD ANNOUNCES AGREEMENT TO REPURCHASE 8,695,652 COMMON SHARES</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-07-23-ALIMENTATION-COUCHE-TARD-ANNOUNCES-AGREEMENT-TO-REPURCHASE-8,695,652-COMMON-SHARES">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES AGREEMENT TO REPURCHASE 8,695,652 COMMON SHARES</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 25, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-06-25-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2024">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2024</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-06-25-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2024">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2024</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">May 23, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-05-23-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2024-ON-JUNE-25,-2024">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2024 ON JUNE 25, 2024</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-05-23-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2024-ON-JUNE-25,-2024">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2024 ON JUNE 25, 2024</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 21, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-03-21-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-APPOINTMENT-OF-THE-RIGHT-HONOURABLE-STEPHEN-HARPER-TO-ITS-BOARD-OF-DIRECTORS-EFFECTIVE-IMMEDIATELY">ALIMENTATION COUCHE-TARD ANNOUNCES THE APPOINTMENT OF THE RIGHT HONOURABLE STEPHEN HARPER TO ITS BOARD OF DIRECTORS EFFECTIVE IMMEDIATELY</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-03-21-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-APPOINTMENT-OF-THE-RIGHT-HONOURABLE-STEPHEN-HARPER-TO-ITS-BOARD-OF-DIRECTORS-EFFECTIVE-IMMEDIATELY">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES THE APPOINTMENT OF THE RIGHT HONOURABLE STEPHEN HARPER TO ITS BOARD OF DIRECTORS EFFECTIVE IMMEDIATELY</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 20, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-03-20-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2024">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS THIRD QUARTER OF FISCAL YEAR 2024</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-03-20-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2024">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS THIRD QUARTER OF FISCAL YEAR 2024</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">February 28, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-02-28-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-THIRD-QUARTER-OF-ITS-FISCAL-YEAR-2024-ON-MARCH-20,-2024">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS THIRD QUARTER OF ITS FISCAL YEAR 2024 ON MARCH 20, 2024</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-02-28-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-THIRD-QUARTER-OF-ITS-FISCAL-YEAR-2024-ON-MARCH-20,-2024">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS THIRD QUARTER OF ITS FISCAL YEAR 2024 ON MARCH 20, 2024</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">February 7, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-02-07-ALIMENTATION-COUCHE-TARD-INC-PRICES-PRIVATE-OFFERINGS-OF-US-AND-EUR-DENOMINATED-SENIOR-UNSECURED-NOTES">ALIMENTATION COUCHE-TARD INC. PRICES PRIVATE OFFERINGS OF US$ AND € DENOMINATED SENIOR UNSECURED NOTES</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-02-07-ALIMENTATION-COUCHE-TARD-INC-PRICES-PRIVATE-OFFERINGS-OF-US-AND-EUR-DENOMINATED-SENIOR-UNSECURED-NOTES">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD INC. PRICES PRIVATE OFFERINGS OF US$ AND € DENOMINATED SENIOR UNSECURED NOTES</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">January 22, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-01-22-ALIMENTATION-COUCHE-TARD-INC-PRICES-PRIVATE-OFFERING-OF-C-DENOMINATED-SENIOR-UNSECURED-NOTES">ALIMENTATION COUCHE-TARD INC. PRICES PRIVATE OFFERING OF C$ DENOMINATED SENIOR UNSECURED NOTES</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-01-22-ALIMENTATION-COUCHE-TARD-INC-PRICES-PRIVATE-OFFERING-OF-C-DENOMINATED-SENIOR-UNSECURED-NOTES">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD INC. PRICES PRIVATE OFFERING OF C$ DENOMINATED SENIOR UNSECURED NOTES</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">January 3, 2024</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2024-01-03-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-CLOSING-OF-THE-ACQUISITION-OF-CERTAIN-EUROPEAN-RETAIL-ASSETS-FROM-TOTALENERGIES">ALIMENTATION COUCHE-TARD ANNOUNCES THE CLOSING OF THE ACQUISITION OF CERTAIN EUROPEAN RETAIL ASSETS FROM TOTALENERGIES</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2024-01-03-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-CLOSING-OF-THE-ACQUISITION-OF-CERTAIN-EUROPEAN-RETAIL-ASSETS-FROM-TOTALENERGIES">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES THE CLOSING OF THE ACQUISITION OF CERTAIN EUROPEAN RETAIL ASSETS FROM TOTALENERGIES</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">November 28, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-11-28-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2024">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS SECOND QUARTER OF FISCAL YEAR 2024</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-11-28-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2024">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS SECOND QUARTER OF FISCAL YEAR 2024</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">November 7, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-11-07-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-SECOND-QUARTER-OF-ITS-FISCAL-YEAR-2024-ON-NOVEMBER-28,-2023">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS SECOND QUARTER OF ITS FISCAL YEAR 2024 ON NOVEMBER 28, 2023</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-11-07-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-SECOND-QUARTER-OF-ITS-FISCAL-YEAR-2024-ON-NOVEMBER-28,-2023">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS SECOND QUARTER OF ITS FISCAL YEAR 2024 ON NOVEMBER 28, 2023</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">November 6, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-11-06-ALIMENTATION-COUCHE-TARD-RECEIVES-DECISION-NOT-TO-OPPOSE-FROM-THE-EUROPEAN-COMMISSION-FOR-THE-ACQUISITION-OF-CERTAIN-RETAIL-ASSETS-FROM-TOTALENERGIES">ALIMENTATION COUCHE-TARD RECEIVES DECISION NOT TO OPPOSE FROM THE EUROPEAN COMMISSION FOR THE ACQUISITION OF CERTAIN RETAIL ASSETS FROM TOTALENERGIES</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-11-06-ALIMENTATION-COUCHE-TARD-RECEIVES-DECISION-NOT-TO-OPPOSE-FROM-THE-EUROPEAN-COMMISSION-FOR-THE-ACQUISITION-OF-CERTAIN-RETAIL-ASSETS-FROM-TOTALENERGIES">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD RECEIVES DECISION NOT TO OPPOSE FROM THE EUROPEAN COMMISSION FOR THE ACQUISITION OF CERTAIN RETAIL ASSETS FROM TOTALENERGIES</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">November 1, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-11-01-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-CLOSING-OF-THE-TRANSACTION-WITH-COPEC-FOR-MAPCO-EXPRESS-INC">ALIMENTATION COUCHE-TARD ANNOUNCES THE CLOSING OF THE TRANSACTION WITH COPEC FOR MAPCO EXPRESS INC.</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-11-01-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-CLOSING-OF-THE-TRANSACTION-WITH-COPEC-FOR-MAPCO-EXPRESS-INC">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES THE CLOSING OF THE TRANSACTION WITH COPEC FOR MAPCO EXPRESS INC.</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">October 11, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-10-11-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-10-FOR-THE-WIN-FIVE-YEAR-STRATEGIC-PLAN">ALIMENTATION COUCHE-TARD ANNOUNCES ITS 10 FOR THE WIN FIVE-YEAR STRATEGIC PLAN</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-10-11-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-10-FOR-THE-WIN-FIVE-YEAR-STRATEGIC-PLAN">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS 10 FOR THE WIN FIVE-YEAR STRATEGIC PLAN</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">October 5, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-10-05-REMINDER-ALIMENTATION-COUCHE-TARD-TO-HOST-2023-ANALYST-AND-INVESTOR-CONFERENCE-ON-OCTOBER-11th">REMINDER: ALIMENTATION COUCHE-TARD TO HOST 2023 ANALYST AND INVESTOR CONFERENCE ON OCTOBER 11th</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-10-05-REMINDER-ALIMENTATION-COUCHE-TARD-TO-HOST-2023-ANALYST-AND-INVESTOR-CONFERENCE-ON-OCTOBER-11th">Read more<span class="wd_sr-only"> about REMINDER: ALIMENTATION COUCHE-TARD TO HOST 2023 ANALYST AND INVESTOR CONFERENCE ON OCTOBER 11th</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">September 21, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-09-21-ALIMENTATION-COUCHE-TARD-INC-PRICES-PRIVATE-OFFERING-OF-SENIOR-UNSECURED-NOTES">ALIMENTATION COUCHE-TARD INC. PRICES PRIVATE OFFERING OF SENIOR UNSECURED NOTES</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-09-21-ALIMENTATION-COUCHE-TARD-INC-PRICES-PRIVATE-OFFERING-OF-SENIOR-UNSECURED-NOTES">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD INC. PRICES PRIVATE OFFERING OF SENIOR UNSECURED NOTES</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">September 7, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-09-07-ALIMENTATION-COUCHE-TARD-INC-ANNOUNCES-ELECTION-OF-DIRECTORS">ALIMENTATION COUCHE-TARD INC. ANNOUNCES ELECTION OF DIRECTORS</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-09-07-ALIMENTATION-COUCHE-TARD-INC-ANNOUNCES-ELECTION-OF-DIRECTORS">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD INC. ANNOUNCES ELECTION OF DIRECTORS</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">September 6, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-09-06-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2024">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FIRST QUARTER OF FISCAL YEAR 2024</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-09-06-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2024">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FIRST QUARTER OF FISCAL YEAR 2024</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">August 16, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-08-16-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-FIRST-QUARTER-OF-ITS-FISCAL-YEAR-2024-ON-SEPTEMBER-6,-2023">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS FIRST QUARTER OF ITS FISCAL YEAR 2024 ON SEPTEMBER 6, 2023</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-08-16-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-FIRST-QUARTER-OF-ITS-FISCAL-YEAR-2024-ON-SEPTEMBER-6,-2023">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS FIRST QUARTER OF ITS FISCAL YEAR 2024 ON SEPTEMBER 6, 2023</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">July 31, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-07-31-ALIMENTATION-COUCHE-TARD-ANNOUNCES-AGREEMENT-TO-REPURCHASE-10,820,837-COMMON-SHARES">ALIMENTATION COUCHE-TARD ANNOUNCES AGREEMENT TO REPURCHASE 10,820,837 COMMON SHARES</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-07-31-ALIMENTATION-COUCHE-TARD-ANNOUNCES-AGREEMENT-TO-REPURCHASE-10,820,837-COMMON-SHARES">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES AGREEMENT TO REPURCHASE 10,820,837 COMMON SHARES</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 27, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-06-27-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2023">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2023</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-06-27-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2023">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2023</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 22, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-06-22-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-ACCEPTANCE-BY-TOTALENERGIES-OF-THE-FIRM-OFFER-TO-ACQUIRE-CERTAIN-EUROPEAN-RETAIL-ASSETS">ALIMENTATION COUCHE-TARD ANNOUNCES THE ACCEPTANCE BY TOTALENERGIES OF THE FIRM OFFER TO ACQUIRE CERTAIN EUROPEAN RETAIL ASSETS</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-06-22-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-ACCEPTANCE-BY-TOTALENERGIES-OF-THE-FIRM-OFFER-TO-ACQUIRE-CERTAIN-EUROPEAN-RETAIL-ASSETS">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES THE ACCEPTANCE BY TOTALENERGIES OF THE FIRM OFFER TO ACQUIRE CERTAIN EUROPEAN RETAIL ASSETS</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 15, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-06-15-ALIMENTATION-COUCHE-TARD-TO-HOST-2023-ANALYST-AND-INVESTOR-CONFERENCE-ON-OCTOBER-11th">ALIMENTATION COUCHE-TARD TO HOST 2023 ANALYST AND INVESTOR CONFERENCE ON OCTOBER 11th</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-06-15-ALIMENTATION-COUCHE-TARD-TO-HOST-2023-ANALYST-AND-INVESTOR-CONFERENCE-ON-OCTOBER-11th">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO HOST 2023 ANALYST AND INVESTOR CONFERENCE ON OCTOBER 11th</span></a></p></li><li class="wd_item"><div class="wd_thumbnail"><a href="https://corporate.couche-tard.com/2023-06-07-ALIMENTATION-COUCHE-TARD-APPOINTS-FILIPE-DA-SILVA-AS-CHIEF-FINANCIAL-OFFICER-TO-SUCCEED-CLAUDE-TESSIER"><img src="https://mma.prnewswire.com/media/2096048/Alimentation_Couche_Tard_Inc__ALIMENTATION_COUCHE_TARD_APPOINTS.jpg?p=thumbnail" alt="Claude Tessier (CNW Group/Alimentation Couche-Tard Inc.)" border="0"/></a></div>
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 7, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-06-07-ALIMENTATION-COUCHE-TARD-APPOINTS-FILIPE-DA-SILVA-AS-CHIEF-FINANCIAL-OFFICER-TO-SUCCEED-CLAUDE-TESSIER">ALIMENTATION COUCHE-TARD APPOINTS FILIPE DA SILVA AS CHIEF FINANCIAL OFFICER TO SUCCEED CLAUDE TESSIER</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-06-07-ALIMENTATION-COUCHE-TARD-APPOINTS-FILIPE-DA-SILVA-AS-CHIEF-FINANCIAL-OFFICER-TO-SUCCEED-CLAUDE-TESSIER">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD APPOINTS FILIPE DA SILVA AS CHIEF FINANCIAL OFFICER TO SUCCEED CLAUDE TESSIER</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 6, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-06-06-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2023-ON-JUNE-27,-2023">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2023 ON JUNE 27, 2023</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-06-06-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2023-ON-JUNE-27,-2023">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2023 ON JUNE 27, 2023</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">April 27, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-04-27-ALIMENTATION-COUCHE-TARD-ENTERS-INTO-A-DEFINITIVE-AGREEMENT-TO-ACQUIRE-112-FUEL-AND-CONVENIENCE-SITES-FROM-MAPCO-EXPRESS-INC">ALIMENTATION COUCHE-TARD ENTERS INTO A DEFINITIVE AGREEMENT TO ACQUIRE 112 FUEL AND CONVENIENCE SITES FROM MAPCO EXPRESS INC.</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-04-27-ALIMENTATION-COUCHE-TARD-ENTERS-INTO-A-DEFINITIVE-AGREEMENT-TO-ACQUIRE-112-FUEL-AND-CONVENIENCE-SITES-FROM-MAPCO-EXPRESS-INC">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ENTERS INTO A DEFINITIVE AGREEMENT TO ACQUIRE 112 FUEL AND CONVENIENCE SITES FROM MAPCO EXPRESS INC.</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">April 26, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-04-26-ALIMENTATION-COUCHE-TARD-RENEWS-SHARE-REPURCHASE-PROGRAM">ALIMENTATION COUCHE-TARD RENEWS SHARE REPURCHASE PROGRAM</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-04-26-ALIMENTATION-COUCHE-TARD-RENEWS-SHARE-REPURCHASE-PROGRAM">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD RENEWS SHARE REPURCHASE PROGRAM</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 29, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-03-29-ALIMENTATION-COUCHE-TARD-REPEATS-AS-WINNER-OF-GALLUP-EXCEPTIONAL-WORKPLACE-AWARD">ALIMENTATION COUCHE-TARD REPEATS AS WINNER OF GALLUP EXCEPTIONAL WORKPLACE AWARD</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-03-29-ALIMENTATION-COUCHE-TARD-REPEATS-AS-WINNER-OF-GALLUP-EXCEPTIONAL-WORKPLACE-AWARD">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD REPEATS AS WINNER OF GALLUP EXCEPTIONAL WORKPLACE AWARD</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 16, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-03-16-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-FIRM-OFFER-TO-ACQUIRE-CERTAIN-EUROPEAN-ASSETS-FROM-TOTALENERGIES">ALIMENTATION COUCHE-TARD ANNOUNCES THE FIRM OFFER TO ACQUIRE CERTAIN EUROPEAN ASSETS FROM TOTALENERGIES</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-03-16-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-FIRM-OFFER-TO-ACQUIRE-CERTAIN-EUROPEAN-ASSETS-FROM-TOTALENERGIES">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES THE FIRM OFFER TO ACQUIRE CERTAIN EUROPEAN ASSETS FROM TOTALENERGIES</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 15, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-03-15-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2023">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS THIRD QUARTER OF FISCAL YEAR 2023</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-03-15-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2023">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS THIRD QUARTER OF FISCAL YEAR 2023</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 1, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-03-01-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-CLOSING-FOR-THE-SALE-OF-52-SITES-IN-ATLANTIC-CANADA">ALIMENTATION COUCHE-TARD ANNOUNCES THE CLOSING FOR THE SALE OF 52 SITES IN ATLANTIC CANADA</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-03-01-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-CLOSING-FOR-THE-SALE-OF-52-SITES-IN-ATLANTIC-CANADA">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES THE CLOSING FOR THE SALE OF 52 SITES IN ATLANTIC CANADA</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">February 28, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-02-28-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-THE-THIRD-QUARTER-OF-FISCAL-YEAR-2023-ON-MARCH-15,-2023">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR THE THIRD QUARTER OF FISCAL YEAR 2023 ON MARCH 15, 2023</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-02-28-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-THE-THIRD-QUARTER-OF-FISCAL-YEAR-2023-ON-MARCH-15,-2023">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR THE THIRD QUARTER OF FISCAL YEAR 2023 ON MARCH 15, 2023</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">February 27, 2023</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2023-02-27-ALIMENTATION-COUCHE-TARD-ENTERS-INTO-A-DEFINITIVE-AGREEMENT-TO-ACQUIRE-BIG-RED-STORES">ALIMENTATION COUCHE-TARD ENTERS INTO A DEFINITIVE AGREEMENT TO ACQUIRE BIG RED STORES</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2023-02-27-ALIMENTATION-COUCHE-TARD-ENTERS-INTO-A-DEFINITIVE-AGREEMENT-TO-ACQUIRE-BIG-RED-STORES">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ENTERS INTO A DEFINITIVE AGREEMENT TO ACQUIRE BIG RED STORES</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">December 22, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-12-22-ALIMENTATION-COUCHE-TARD-ENTERS-INTO-A-DEFINITIVE-AGREEMENT-TO-ACQUIRE-ALL-OF-THE-MEMBERSHIP-INTERESTS-OF-TRUE-BLUE-CAR-WASH-LLC">ALIMENTATION COUCHE-TARD ENTERS INTO A DEFINITIVE AGREEMENT TO ACQUIRE ALL OF THE MEMBERSHIP INTERESTS OF TRUE BLUE CAR WASH LLC</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-12-22-ALIMENTATION-COUCHE-TARD-ENTERS-INTO-A-DEFINITIVE-AGREEMENT-TO-ACQUIRE-ALL-OF-THE-MEMBERSHIP-INTERESTS-OF-TRUE-BLUE-CAR-WASH-LLC">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ENTERS INTO A DEFINITIVE AGREEMENT TO ACQUIRE ALL OF THE MEMBERSHIP INTERESTS OF TRUE BLUE CAR WASH LLC</span></a></p></li><li class="wd_item"><div class="wd_thumbnail"><a href="https://corporate.couche-tard.com/2022-12-20-ALIMENTATION-COUCHE-TARD-ANNOUNCES-APPOINTMENT-OF-ALEX-MILLER-AS-ITS-CHIEF-OPERATING-OFFICER"><img src="https://mma.prnewswire.com/media/1972464/Alimentation_Couche_Tard_Inc__ALIMENTATION%C2%A0COUCHE_TARD_ANNOUNCES.jpg?p=thumbnail" alt="Alex Miller, COO" border="0"/></a></div>
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">December 20, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-12-20-ALIMENTATION-COUCHE-TARD-ANNOUNCES-APPOINTMENT-OF-ALEX-MILLER-AS-ITS-CHIEF-OPERATING-OFFICER">ALIMENTATION COUCHE-TARD ANNOUNCES APPOINTMENT OF ALEX MILLER AS ITS CHIEF OPERATING OFFICER</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-12-20-ALIMENTATION-COUCHE-TARD-ANNOUNCES-APPOINTMENT-OF-ALEX-MILLER-AS-ITS-CHIEF-OPERATING-OFFICER">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES APPOINTMENT OF ALEX MILLER AS ITS CHIEF OPERATING OFFICER</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">November 22, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-11-22-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2023">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS SECOND QUARTER OF FISCAL YEAR 2023</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-11-22-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2023">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS SECOND QUARTER OF FISCAL YEAR 2023</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">November 7, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-11-07-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-THE-SECOND-QUARTER-OF-FISCAL-YEAR-2023-ON-NOVEMBER-22,-2022">ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR THE SECOND QUARTER OF FISCAL YEAR 2023 ON NOVEMBER 22, 2022</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-11-07-ALIMENTATION-COUCHE-TARD-TO-RELEASE-RESULTS-FOR-THE-SECOND-QUARTER-OF-FISCAL-YEAR-2023-ON-NOVEMBER-22,-2022">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE RESULTS FOR THE SECOND QUARTER OF FISCAL YEAR 2023 ON NOVEMBER 22, 2022</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">August 30, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-08-30-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2023">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FIRST QUARTER OF FISCAL YEAR 2023</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-08-30-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2023">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FIRST QUARTER OF FISCAL YEAR 2023</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">August 16, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-08-16-ALIMENTATION-COUCHE-TARD-TO-RELEASE-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-ITS-FISCAL-YEAR-2023-ON-AUGUST-30,-2022">ALIMENTATION COUCHE-TARD TO RELEASE ITS RESULTS FOR ITS FIRST QUARTER OF ITS FISCAL YEAR 2023 ON AUGUST 30, 2022</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-08-16-ALIMENTATION-COUCHE-TARD-TO-RELEASE-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-ITS-FISCAL-YEAR-2023-ON-AUGUST-30,-2022">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE ITS RESULTS FOR ITS FIRST QUARTER OF ITS FISCAL YEAR 2023 ON AUGUST 30, 2022</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 28, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-06-28-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2022">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2022</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-06-28-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2022">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS FOURTH QUARTER AND FISCAL YEAR 2022</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 10, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-06-10-ALIMENTATION-COUCHE-TARD-TO-RELEASE-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-ITS-FISCAL-YEAR-2022-ON-JUNE-28,-2022">ALIMENTATION COUCHE-TARD TO RELEASE ITS RESULTS FOR ITS FOURTH QUARTER AND ITS FISCAL YEAR 2022 ON JUNE 28, 2022</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-06-10-ALIMENTATION-COUCHE-TARD-TO-RELEASE-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-ITS-FISCAL-YEAR-2022-ON-JUNE-28,-2022">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE ITS RESULTS FOR ITS FOURTH QUARTER AND ITS FISCAL YEAR 2022 ON JUNE 28, 2022</span></a></p></li><li class="wd_item"><div class="wd_thumbnail"><a href="https://corporate.couche-tard.com/2022-06-02-ALIMENTATION-COUCHE-TARD-TO-ROLL-OUT-SMART-CHECKOUT-TO-MORE-THAN-7,000-CIRCLE-K-AND-COUCHE-TARD-STORES-ACROSS-GLOBAL-NETWORK-USING-MASHGINS-AI-POWERED-TECHNOLOGY"><img src="/file.php/135/4k-still-1-scaled.jpg?thumbnail=144" alt="Alimentation Couche-Tard to roll out “Smart Checkout” to more than 7,000 Circle K and Couche-Tard stores across global network using Mashgin’s AI-powered technology" border="0"/></a></div>
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li><li class="wd_category_link"><a href="https://corporate.couche-tard.com/innovation-press-releases">Innovation</a></li></ul>
+<div class="wd_date">June 2, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-06-02-ALIMENTATION-COUCHE-TARD-TO-ROLL-OUT-SMART-CHECKOUT-TO-MORE-THAN-7,000-CIRCLE-K-AND-COUCHE-TARD-STORES-ACROSS-GLOBAL-NETWORK-USING-MASHGINS-AI-POWERED-TECHNOLOGY">ALIMENTATION COUCHE-TARD TO ROLL OUT "SMART CHECKOUT" TO MORE THAN 7,000 CIRCLE K AND COUCHE-TARD STORES ACROSS GLOBAL NETWORK USING MASHGIN'S AI-POWERED TECHNOLOGY</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-06-02-ALIMENTATION-COUCHE-TARD-TO-ROLL-OUT-SMART-CHECKOUT-TO-MORE-THAN-7,000-CIRCLE-K-AND-COUCHE-TARD-STORES-ACROSS-GLOBAL-NETWORK-USING-MASHGINS-AI-POWERED-TECHNOLOGY">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO ROLL OUT "SMART CHECKOUT" TO MORE THAN 7,000 CIRCLE K AND COUCHE-TARD STORES ACROSS GLOBAL NETWORK USING MASHGIN'S AI-POWERED TECHNOLOGY</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">May 9, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-05-09-ALIMENTATION-COUCHE-TARD-LAUNCHES-U-S-COMMERCIAL-PAPER-PROGRAM-FOR-US-2-5-BILLION">ALIMENTATION COUCHE-TARD LAUNCHES U.S. COMMERCIAL PAPER PROGRAM FOR US $2.5 BILLION</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-05-09-ALIMENTATION-COUCHE-TARD-LAUNCHES-U-S-COMMERCIAL-PAPER-PROGRAM-FOR-US-2-5-BILLION">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD LAUNCHES U.S. COMMERCIAL PAPER PROGRAM FOR US $2.5 BILLION</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">April 22, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-04-22-ALIMENTATION-COUCHE-TARD-RENEWS-SHARE-REPURCHASE-PROGRAM">ALIMENTATION COUCHE-TARD RENEWS SHARE REPURCHASE PROGRAM</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-04-22-ALIMENTATION-COUCHE-TARD-RENEWS-SHARE-REPURCHASE-PROGRAM">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD RENEWS SHARE REPURCHASE PROGRAM</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">April 5, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-04-05-ALIMENTATION-COUCHE-TARD-ANNOUNCES-AGREEMENT-TO-REPURCHASE-5,477,451-CLASS-A-MULTIPLE-VOTING-SHARES">ALIMENTATION COUCHE-TARD ANNOUNCES AGREEMENT TO REPURCHASE 5,477,451 CLASS A MULTIPLE VOTING SHARES</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-04-05-ALIMENTATION-COUCHE-TARD-ANNOUNCES-AGREEMENT-TO-REPURCHASE-5,477,451-CLASS-A-MULTIPLE-VOTING-SHARES">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES AGREEMENT TO REPURCHASE 5,477,451 CLASS A MULTIPLE VOTING SHARES</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 30, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-03-30-COUCHE-TARD-AND-CIRCLE-K-EXTEND-GLOBAL-CAMPAIGN-IN-EFFORT-TO-RAISE-4-MILLION-FOR-UKRAINE-CRISIS">COUCHE-TARD AND CIRCLE K EXTEND GLOBAL CAMPAIGN IN EFFORT TO RAISE $4 MILLION FOR UKRAINE CRISIS</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-03-30-COUCHE-TARD-AND-CIRCLE-K-EXTEND-GLOBAL-CAMPAIGN-IN-EFFORT-TO-RAISE-4-MILLION-FOR-UKRAINE-CRISIS">Read more<span class="wd_sr-only"> about COUCHE-TARD AND CIRCLE K EXTEND GLOBAL CAMPAIGN IN EFFORT TO RAISE $4 MILLION FOR UKRAINE CRISIS</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 15, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-03-15-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2022">ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS THIRD QUARTER OF FISCAL YEAR 2022</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-03-15-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2022">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES ITS RESULTS FOR ITS THIRD QUARTER OF FISCAL YEAR 2022</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 11, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-03-11-CIRCLE-K-LAUNCHES-GLOBAL-CAMPAIGN-TO-RAISE-FUNDS-FOR-UKRAINE">CIRCLE K LAUNCHES GLOBAL CAMPAIGN TO RAISE FUNDS FOR UKRAINE</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-03-11-CIRCLE-K-LAUNCHES-GLOBAL-CAMPAIGN-TO-RAISE-FUNDS-FOR-UKRAINE">Read more<span class="wd_sr-only"> about CIRCLE K LAUNCHES GLOBAL CAMPAIGN TO RAISE FUNDS FOR UKRAINE</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 7, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-03-07-ALIMENTATION-COUCHE-TARD-TO-SUSPEND-OPERATIONS-IN-RUSSIA">ALIMENTATION COUCHE-TARD TO SUSPEND OPERATIONS IN RUSSIA</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-03-07-ALIMENTATION-COUCHE-TARD-TO-SUSPEND-OPERATIONS-IN-RUSSIA">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO SUSPEND OPERATIONS IN RUSSIA</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">February 28, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-02-28-ALIMENTATION-COUCHE-TARD-ANNOUNCES-NEARLY-55-MILLION-OF-INVESTMENTS-FROM-ITS-CIRCLE-K-VENTURE-FUND-TO-EXPLORE-THE-FUTURE-OF-CONVENIENCE">ALIMENTATION COUCHE-TARD ANNOUNCES NEARLY $55 MILLION OF INVESTMENTS FROM ITS CIRCLE K VENTURE FUND TO EXPLORE THE FUTURE OF CONVENIENCE</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-02-28-ALIMENTATION-COUCHE-TARD-ANNOUNCES-NEARLY-55-MILLION-OF-INVESTMENTS-FROM-ITS-CIRCLE-K-VENTURE-FUND-TO-EXPLORE-THE-FUTURE-OF-CONVENIENCE">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES NEARLY $55 MILLION OF INVESTMENTS FROM ITS CIRCLE K VENTURE FUND TO EXPLORE THE FUTURE OF CONVENIENCE</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">February 25, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-02-25-ALIMENTATION-COUCHE-TARD-TO-RELEASE-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-ITS-FISCAL-YEAR-2022-ON-MARCH-15,-2022">ALIMENTATION COUCHE-TARD TO RELEASE ITS RESULTS FOR ITS THIRD QUARTER OF ITS FISCAL YEAR 2022 ON MARCH 15, 2022</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-02-25-ALIMENTATION-COUCHE-TARD-TO-RELEASE-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-ITS-FISCAL-YEAR-2022-ON-MARCH-15,-2022">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD TO RELEASE ITS RESULTS FOR ITS THIRD QUARTER OF ITS FISCAL YEAR 2022 ON MARCH 15, 2022</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">January 31, 2022</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2022-01-31-ALIMENTATION-COUCHE-TARD-UPSIZES-CURRENT-SHARE-REPURCHASE-PROGRAM-AND-ANNOUNCES-ITS-INTENTION-TO-RENEW-UPON-EXPIRY">ALIMENTATION COUCHE-TARD UPSIZES CURRENT SHARE REPURCHASE PROGRAM AND ANNOUNCES ITS INTENTION TO RENEW UPON EXPIRY</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2022-01-31-ALIMENTATION-COUCHE-TARD-UPSIZES-CURRENT-SHARE-REPURCHASE-PROGRAM-AND-ANNOUNCES-ITS-INTENTION-TO-RENEW-UPON-EXPIRY">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD UPSIZES CURRENT SHARE REPURCHASE PROGRAM AND ANNOUNCES ITS INTENTION TO RENEW UPON EXPIRY</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">December 20, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-12-20-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-ACQUISITION-OF-19-SITES-AND-2-NON-OPERATING-PROPERTIES-FROM-PIC-QUIK">ALIMENTATION COUCHE-TARD ANNOUNCES THE ACQUISITION OF 19 SITES AND 2 NON-OPERATING PROPERTIES FROM PIC QUIK</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-12-20-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-ACQUISITION-OF-19-SITES-AND-2-NON-OPERATING-PROPERTIES-FROM-PIC-QUIK">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES THE ACQUISITION OF 19 SITES AND 2 NON-OPERATING PROPERTIES FROM PIC QUIK</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">December 16, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-12-16-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-ACQUISITION-OF-17-SITES-AND-23-WHOLESALE-FUELS-ACCOUNTS-FROM-SLIDELL-OIL">ALIMENTATION COUCHE-TARD ANNOUNCES THE ACQUISITION OF 17 SITES AND 23 WHOLESALE FUELS ACCOUNTS FROM SLIDELL OIL</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-12-16-ALIMENTATION-COUCHE-TARD-ANNOUNCES-THE-ACQUISITION-OF-17-SITES-AND-23-WHOLESALE-FUELS-ACCOUNTS-FROM-SLIDELL-OIL">Read more<span class="wd_sr-only"> about ALIMENTATION COUCHE-TARD ANNOUNCES THE ACQUISITION OF 17 SITES AND 23 WHOLESALE FUELS ACCOUNTS FROM SLIDELL OIL</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">December 3, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-12-03-Alimentation-Couche-Tard-Announces-Upcoming-Automatic-Conversion-of-All-Outstanding-Class-B-Subordinate-Voting-Shares">Alimentation Couche-Tard Announces Upcoming Automatic Conversion of All Outstanding Class B Subordinate Voting Shares</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-12-03-Alimentation-Couche-Tard-Announces-Upcoming-Automatic-Conversion-of-All-Outstanding-Class-B-Subordinate-Voting-Shares">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Announces Upcoming Automatic Conversion of All Outstanding Class B Subordinate Voting Shares</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">November 23, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-11-23-Alimentation-Couche-Tard-Announces-its-Results-for-its-Second-Quarter-of-Fiscal-Year-2022">Alimentation Couche-Tard Announces its Results for its Second Quarter of Fiscal Year 2022</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-11-23-Alimentation-Couche-Tard-Announces-its-Results-for-its-Second-Quarter-of-Fiscal-Year-2022">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Announces its Results for its Second Quarter of Fiscal Year 2022</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">November 11, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-11-11-Alimentation-Couche-Tard-to-Release-its-Results-for-its-Second-Quarter-of-its-Fiscal-Year-2022-on-November-23,-2021">Alimentation Couche-Tard to Release its Results for its Second Quarter of its Fiscal Year 2022 on November 23, 2021</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-11-11-Alimentation-Couche-Tard-to-Release-its-Results-for-its-Second-Quarter-of-its-Fiscal-Year-2022-on-November-23,-2021">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard to Release its Results for its Second Quarter of its Fiscal Year 2022 on November 23, 2021</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">October 8, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-10-08-Alimentation-Couche-Tard-Announces-Agreement-to-Repurchase-6,351,895-Class-B-Subordinate-Voting-Shares">Alimentation Couche-Tard Announces Agreement to Repurchase 6,351,895 Class B Subordinate Voting Shares</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-10-08-Alimentation-Couche-Tard-Announces-Agreement-to-Repurchase-6,351,895-Class-B-Subordinate-Voting-Shares">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Announces Agreement to Repurchase 6,351,895 Class B Subordinate Voting Shares</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">September 1, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-09-01-Alimentation-Couche-Tard-Inc-Announces-Election-of-Directors">Alimentation Couche-Tard Inc. Announces Election of Directors</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-09-01-Alimentation-Couche-Tard-Inc-Announces-Election-of-Directors">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Inc. Announces Election of Directors</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">August 31, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-08-31-Alimentation-Couche-Tard-Announces-its-Results-for-its-First-Quarter-of-Fiscal-Year-2022">Alimentation Couche-Tard Announces its Results for its First Quarter of Fiscal Year 2022</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-08-31-Alimentation-Couche-Tard-Announces-its-Results-for-its-First-Quarter-of-Fiscal-Year-2022">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Announces its Results for its First Quarter of Fiscal Year 2022</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">August 31, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-08-31-Media-Invitation-Annual-Meeting-of-Shareholders-of-Alimentation-Couche-Tard">Media Invitation - Annual Meeting of Shareholders of Alimentation Couche-Tard</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-08-31-Media-Invitation-Annual-Meeting-of-Shareholders-of-Alimentation-Couche-Tard">Read more<span class="wd_sr-only"> about Media Invitation - Annual Meeting of Shareholders of Alimentation Couche-Tard</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">August 24, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-08-24-Alimentation-Couche-Tard-to-Acquire-Convenience-Stores-from-Porters">Alimentation Couche-Tard to Acquire Convenience Stores from Porter's</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-08-24-Alimentation-Couche-Tard-to-Acquire-Convenience-Stores-from-Porters">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard to Acquire Convenience Stores from Porter's</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">August 11, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-08-11-Alimentation-Couche-Tard-to-Release-its-Results-for-its-First-Quarter-of-its-Fiscal-Year-2022-on-August-31,-2021">Alimentation Couche-Tard to Release its Results for its First Quarter of its Fiscal Year 2022 on August 31, 2021</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-08-11-Alimentation-Couche-Tard-to-Release-its-Results-for-its-First-Quarter-of-its-Fiscal-Year-2022-on-August-31,-2021">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard to Release its Results for its First Quarter of its Fiscal Year 2022 on August 31, 2021</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">July 30, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-07-30-Alimentation-Couche-Tard-Enters-into-a-Definitive-Agreement-to-Acquire-Wilsons-Gas-Stops-and-Go-Stores">Alimentation Couche-Tard Enters into a Definitive Agreement to Acquire Wilsons Gas Stops and Go! Stores</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-07-30-Alimentation-Couche-Tard-Enters-into-a-Definitive-Agreement-to-Acquire-Wilsons-Gas-Stops-and-Go-Stores">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Enters into a Definitive Agreement to Acquire Wilsons Gas Stops and Go! Stores</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">July 8, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-07-08-Alimentation-Couche-tard-to-Host-Investor-Day-on-July-14">Alimentation Couche-tard to Host Investor Day on July 14</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-07-08-Alimentation-Couche-tard-to-Host-Investor-Day-on-July-14">Read more<span class="wd_sr-only"> about Alimentation Couche-tard to Host Investor Day on July 14</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 29, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-06-29-Alimentation-Couche-Tard-Announces-its-Results-for-its-Fourth-Quarter-and-Fiscal-Year-2021">Alimentation Couche-Tard Announces its Results for its Fourth Quarter and Fiscal Year 2021</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-06-29-Alimentation-Couche-Tard-Announces-its-Results-for-its-Fourth-Quarter-and-Fiscal-Year-2021">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Announces its Results for its Fourth Quarter and Fiscal Year 2021</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 9, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-06-09-Save-the-Date-Alimentation-Couche-Tard-to-Host-Investor-Day-on-July-14">Save the Date: Alimentation Couche-Tard to Host Investor Day on July 14</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-06-09-Save-the-Date-Alimentation-Couche-Tard-to-Host-Investor-Day-on-July-14">Read more<span class="wd_sr-only"> about Save the Date: Alimentation Couche-Tard to Host Investor Day on July 14</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">June 4, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-06-04-Alimentation-Couche-Tard-to-Release-Its-Results-for-Its-Fourth-Quarter-and-Its-Fiscal-Year-2021-on-June-29,-2021">Alimentation Couche-Tard to Release Its Results for Its Fourth Quarter and Its Fiscal Year 2021 on June 29, 2021</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-06-04-Alimentation-Couche-Tard-to-Release-Its-Results-for-Its-Fourth-Quarter-and-Its-Fiscal-Year-2021-on-June-29,-2021">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard to Release Its Results for Its Fourth Quarter and Its Fiscal Year 2021 on June 29, 2021</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">May 13, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-05-13-Alimentation-Couche-Tard-Closes-1-Billion-Debt-Offering,-Including-Inaugural-Green-Bonds">Alimentation Couche-Tard Closes $1 Billion Debt Offering, Including Inaugural Green Bonds</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-05-13-Alimentation-Couche-Tard-Closes-1-Billion-Debt-Offering,-Including-Inaugural-Green-Bonds">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Closes $1 Billion Debt Offering, Including Inaugural Green Bonds</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">May 10, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-05-10-Alimentation-Couche-Tard-prices-1-billion-debt-offering,-including-inaugural-green-bonds">Alimentation Couche-Tard prices $1 billion debt offering, including inaugural green bonds</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-05-10-Alimentation-Couche-Tard-prices-1-billion-debt-offering,-including-inaugural-green-bonds">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard prices $1 billion debt offering, including inaugural green bonds</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">May 10, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-05-10-Alimentation-Couche-Tard-Announces-Proposed-Private-Offering-of-Senior-Unsecured-Notes,-Including-Inaugural-Green-Bonds">Alimentation Couche-Tard Announces Proposed Private Offering of Senior Unsecured Notes, Including Inaugural Green Bonds</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-05-10-Alimentation-Couche-Tard-Announces-Proposed-Private-Offering-of-Senior-Unsecured-Notes,-Including-Inaugural-Green-Bonds">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Announces Proposed Private Offering of Senior Unsecured Notes, Including Inaugural Green Bonds</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">April 21, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-04-21-Alimentation-Couche-Tard-Terminates-and-Renews-Share-Repurchase-Program">Alimentation Couche-Tard Terminates and Renews Share Repurchase Program</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-04-21-Alimentation-Couche-Tard-Terminates-and-Renews-Share-Repurchase-Program">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Terminates and Renews Share Repurchase Program</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 17, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-03-17-Alimentation-Couche-Tard-Announces-its-Results-for-its-Third-Quarter-of-Fiscal-Year-2021">Alimentation Couche-Tard Announces its Results for its Third Quarter of Fiscal Year 2021</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-03-17-Alimentation-Couche-Tard-Announces-its-Results-for-its-Third-Quarter-of-Fiscal-Year-2021">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Announces its Results for its Third Quarter of Fiscal Year 2021</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">March 4, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-03-04-Alimentation-Couche-Tard-to-Release-Its-Third-Quarter-Results-for-Fiscal-Year-2021-on-March-17,-2021">Alimentation Couche-Tard to Release Its Third Quarter Results for Fiscal Year 2021 on March 17, 2021</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-03-04-Alimentation-Couche-Tard-to-Release-Its-Third-Quarter-Results-for-Fiscal-Year-2021-on-March-17,-2021">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard to Release Its Third Quarter Results for Fiscal Year 2021 on March 17, 2021</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">January 16, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-01-16-Alimentation-Couche-Tard-to-Host-Conference-Call">Alimentation Couche-Tard to Host Conference Call</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-01-16-Alimentation-Couche-Tard-to-Host-Conference-Call">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard to Host Conference Call</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">January 16, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-01-16-Joint-Announcement-Between-Alimentation-Couche-Tard-and-Carrefour">Joint Announcement Between Alimentation Couche-Tard and Carrefour</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-01-16-Joint-Announcement-Between-Alimentation-Couche-Tard-and-Carrefour">Read more<span class="wd_sr-only"> about Joint Announcement Between Alimentation Couche-Tard and Carrefour</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">January 13, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-01-13-Alimentation-Couche-Tard-Confirms-Submission-of-A-Non-Binding-Offer-Letter">Alimentation Couche-Tard Confirms Submission of A Non-Binding Offer Letter</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-01-13-Alimentation-Couche-Tard-Confirms-Submission-of-A-Non-Binding-Offer-Letter">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Confirms Submission of A Non-Binding Offer Letter</span></a></p></li><li class="wd_item">
+<ul class="wd_layout-inline wd_category_link_list"><li class="wd_category_link"><a href="https://corporate.couche-tard.com/financial-releases">Financial</a></li></ul>
+<div class="wd_date">January 12, 2021</div>
+<div class="wd_title"><a href="https://corporate.couche-tard.com/2021-01-12-Alimentation-Couche-Tard-Confirms-It-Has-Initiated-Discussions-With-Carrefour">Alimentation Couche-Tard Confirms It Has Initiated Discussions With Carrefour</a></div>
+
+<p class="wd_more btn-icon"><a href="https://corporate.couche-tard.com/2021-01-12-Alimentation-Couche-Tard-Confirms-It-Has-Initiated-Discussions-With-Carrefour">Read more<span class="wd_sr-only"> about Alimentation Couche-Tard Confirms It Has Initiated Discussions With Carrefour</span></a></p></li></ul>
+<div class="wd_toolbar wd_toolbar-main"><ul class="wd_tools"><li class="wd_tool wd_tool-rss"><span class="wd_tool_icon"><a href="https://corporate.couche-tard.com/rss-feeds?rsspage=43" title="Get the RSS feed for this page"><span class="fa fa-rss"></span><span class="wd_sr-only wd_sr-only-focusable">Get the RSS feed for this page</span></a></span></li></ul></div>
+<div class="wd_page_menu"><div class="wd_page_limit">Show <span role="menu" wd_linkmenu_header="{&quot;title&quot;:&quot;Select number of items per page&quot;}" class="wd_linkmenu"><a href="https://corporate.couche-tard.com/financial-releases?l=5" aria-label="Show 5 per page" role="menuitem" class="wd_linkmenu-item">5</a><a href="https://corporate.couche-tard.com/financial-releases?l=10" aria-label="Show 10 per page" role="menuitem" class="wd_linkmenu-item">10</a><a href="https://corporate.couche-tard.com/financial-releases?l=25" aria-label="Show 25 per page" role="menuitem" class="wd_linkmenu-item">25</a><a href="https://corporate.couche-tard.com/financial-releases?l=50" aria-label="Show 50 per page" role="menuitem" class="wd_linkmenu-item">50</a><a href="https://corporate.couche-tard.com/financial-releases?l=100" aria-label="Show 100 per page" role="menuitem" aria-current="true" class="wd_linkmenu-item wd_linkmenu-active">100</a></span> per page</div><nav role="navigation" aria-label="Page Navigation"><ul class="wd_page_links"><li class="wd_page_link wd_page_prev"><span>&laquo;</span></li><li class="wd_page_link wd_page_active"><span aria-current="page" aria-label="Current page 1">1</span></li><li class="wd_page_link wd_page_mid2"><a aria-label="Show page 2" href="https://corporate.couche-tard.com/financial-releases?l=100&amp;o=100">2</a></li><li class="wd_page_link wd_page_next"><a aria-label="Show next page" href="https://corporate.couche-tard.com/financial-releases?l=100&amp;o=100">&raquo;</a></li></ul></nav></div>
+
+
+</div>
+</div>            <div class="wd_bottom_leftright">
+              <div class="wd_featurebox_header"><div class="wd_featurebox_title">Stay in Touch</div></div>
+              <div class="wd_fb_flex">
+                <div class="wd_featureboxes_bottomleft wd_featureboxes-vertical fr-view">
+<div id="wd_featurebox-standard_27" class="wd_featurebox_container wd_featurebox-standard"><div class="wd_featurebox_title">Contact Us</div><div class="wd_featurebox"><p>We always appreciate your questions and feedback.</p>
+
+<p class="more white"><a href="contact-us">Contact Us</a></p>
+</div></div></div>
+                <div class="wd_featureboxes_bottomright wd_featureboxes-vertical fr-view">
+<div id="wd_featurebox-standard_11" class="wd_featurebox_container wd_featurebox-standard"><div class="wd_featurebox_title">RSS Feeds</div><div class="wd_featurebox"><p>Stay up to date on Press Releases, News & Stories, and Events & Presentations from Alimentation Couche-Tard.</p>
+
+<p class="more white"><a href="rss-feeds">Subscribe</a></p>
+</div></div></div>
+              </div>
+            </div>
+                    
+          </div>
+        </div>
+			</div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 footer-nav wd_footer_nav_116">
+  <ul class="menu-footer">
+	<li class="menu-item title-item">
+	  <a href="https://corporate.couche-tard.com/our-company" target="_self">Our Company</a>
+	</li>
+	<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/who-we-are" target="_self">Who We Are</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/our-values" target="_self">Our Values</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/our-brands" target="_self">Our Brands</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/where-we-operate" target="_self">Where We Operate</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/leadership-governance" target="_self">Leadership & Governance</a>
+</li>
+  </ul>
+</div>
+<div class="col-md-3 footer-nav wd_footer_nav_129">
+  <ul class="menu-footer">
+	<li class="menu-item title-item">
+	  <a href="https://corporate.couche-tard.com/investors" target="_self">Investors</a>
+	</li>
+	<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/financial-information" target="_self">Financial Information</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/sustainable-finance" target="_self">Sustainable Finance</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/events-presentations" target="_self">Events & Presentations</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/stock-information" target="_self">Stock Information</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/shareholders-ressources" target="_self">Shareholders Resources</a>
+</li>
+  </ul>
+</div>
+<div class="col-md-3 footer-nav wd_footer_nav_410">
+  <ul class="menu-footer">
+	<li class="menu-item title-item">
+	  <a href="https://corporate.couche-tard.com/sustainability" target="_self">Sustainability</a>
+	</li>
+	<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/our-sustainability-journey" target="_self">Our Sustainability Journey</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/planet" target="_self">Planet</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/people" target="_self">People</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/prosperity" target="_self">Prosperity</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/reports-and-indexes" target="_self">Reports & Indexes</a>
+</li>
+  </ul>
+</div>
+<div class="col-md-2 offset-md-1 footer-nav wd_footer_nav_418">
+  <ul class="menu-footer">
+	<li class="menu-item title-item">
+	  <a href="https://corporate.couche-tard.com/newsroom" target="_self">Newsroom</a>
+	</li>
+	<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/press-releases" target="_self">Press Releases</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/stories" target="_self">News & Stories</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/media-resources" target="_self">Media Resources</a>
+</li>
+  </ul>
+</div>
+            <div class="d-lg-none col-lg-2 footer-right footer-right-mobile">
+              <div class="menu-footer-top-container">
+                <ul id="menu-footer-top" class="nav">
+                  <li id="menu-item-48" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48">
+                    <a target="_blank" rel="noopener" href="https://workwithus.circlek.com/global/en">Careers</a>
+                  </li>
+                  <li id="menu-item-489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
+                    <a href="https://corporate.couche-tard.com/media-resources">Media Resources</a>
+                  </li>
+                  <li id="menu-item-490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490">
+                    <a href="https://corporate.couche-tard.com/contact-us">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="socials">
+                <p>Follow us</p>
+                <a href="https://www.linkedin.com/company/alimentation-couche-tard/" class="reset-font picto" target="_blank">
+                  <span class="wd_sr-only">LinkedIn</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <g fill="none" fill-rule="evenodd">
+                      <rect width="20" height="20"></rect>
+                      <path fill="#FFF" fill-rule="nonzero" d="M10,0.4 C4.698,0.4 0.4,4.698 0.4,10 C0.4,15.302 4.698,19.6 10,19.6 C15.302,19.6 19.6,15.302 19.6,10 C19.6,4.698 15.302,0.4 10,0.4 Z M7.65,13.979 L5.706,13.979 L5.706,7.723 L7.65,7.723 L7.65,13.979 Z M6.666,6.955 C6.052,6.955 5.655,6.52 5.655,5.982 C5.655,5.433 6.064,5.011 6.691,5.011 C7.318,5.011 7.702,5.433 7.714,5.982 C7.714,6.52 7.318,6.955 6.666,6.955 Z M14.75,13.979 L12.806,13.979 L12.806,10.512 C12.806,9.705 12.524,9.157 11.821,9.157 C11.284,9.157 10.965,9.528 10.824,9.885 C10.772,10.012 10.759,10.192 10.759,10.371 L10.759,13.978 L8.814,13.978 L8.814,9.718 C8.814,8.937 8.789,8.284 8.763,7.722 L10.452,7.722 L10.541,8.591 L10.58,8.591 C10.836,8.183 11.463,7.581 12.512,7.581 C13.791,7.581 14.75,8.438 14.75,10.28 L14.75,13.979 L14.75,13.979 Z"></path>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="footer-right footer-right-desktop">
+              <div class="menu-footer-top-container">
+                <ul id="menu-footer-top" class="nav">
+                  <li id="menu-item-48" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48">
+                    <a target="_blank" rel="noopener" href="https://workwithus.circlek.com/global/en">Careers</a>
+                  </li>
+                  <li id="menu-item-489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
+                    <a href="https://corporate.couche-tard.com/media-resources">Media Resources</a>
+                  </li>
+                  <li id="menu-item-490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490">
+                    <a href="https://corporate.couche-tard.com/contact-us">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="socials">
+                <p>Follow us</p>
+                <a href="https://www.linkedin.com/company/alimentation-couche-tard/" class="reset-font picto" target="_blank">
+                  <span class="wd_sr-only">LinkedIn</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <g fill="none" fill-rule="evenodd">
+                      <rect width="20" height="20"></rect>
+                      <path fill="#FFF" fill-rule="nonzero" d="M10,0.4 C4.698,0.4 0.4,4.698 0.4,10 C0.4,15.302 4.698,19.6 10,19.6 C15.302,19.6 19.6,15.302 19.6,10 C19.6,4.698 15.302,0.4 10,0.4 Z M7.65,13.979 L5.706,13.979 L5.706,7.723 L7.65,7.723 L7.65,13.979 Z M6.666,6.955 C6.052,6.955 5.655,6.52 5.655,5.982 C5.655,5.433 6.064,5.011 6.691,5.011 C7.318,5.011 7.702,5.433 7.714,5.982 C7.714,6.52 7.318,6.955 6.666,6.955 Z M14.75,13.979 L12.806,13.979 L12.806,10.512 C12.806,9.705 12.524,9.157 11.821,9.157 C11.284,9.157 10.965,9.528 10.824,9.885 C10.772,10.012 10.759,10.192 10.759,10.371 L10.759,13.978 L8.814,13.978 L8.814,9.718 C8.814,8.937 8.789,8.284 8.763,7.722 L10.452,7.722 L10.541,8.591 L10.58,8.591 C10.836,8.183 11.463,7.581 12.512,7.581 C13.791,7.581 14.75,8.438 14.75,10.28 L14.75,13.979 L14.75,13.979 Z"></path>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 legend">
+              <p>Financial Market Data powered by&nbsp; <a href="https://www.quotemedia.com/" target="_blank">Quotemedia</a>. All rights reserved. View the&nbsp; <a href="https://www.quotemedia.com/legal/tos" target="_blank">Terms of Use</a>. Data delayed 15 minutes unless indicated. Information is provided “as is”, with no representation and warranty as to its accuracy and reliability. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-left">
+            <p class="legals">© 2026 All rights reserved.</p>
+          </div>
+          <div class="footer-right">
+            <div class="second_footer">
+              <ul id="menu-footer-bottom" class="menu">
+                <li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134">
+  <a href="https://corporate.couche-tard.com/sitemap" target="_self">Sitemap</a>
+</li>
+<li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135">
+  <a href="privacy-policy" target="_blank">Privacy policy</a>
+</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script id="qmod" type="application/javascript" src="https://qmod.quotemedia.com/js/qmodLoader.js" data-qmod-wmid="104196"></script>
+    </footer>
+    <script type="text/javascript" src="js/main.js" id="sage/main.js-js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <!-- <script type="text/javascript" src="thirdparty/slick/slick.min.js"></script> -->
+        <script type="text/javascript" src="js/wd_js.js"></script>
+  
+<!-- begin spin_special_output(body_end) -->
+<script wd_script_id="piwik_tracking_code"></script>
+<!-- Piwik Tracking Code -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+
+  _paq.push(["setCustomVariable", 1, "Content Type", "News Releases Feed", "page"]);
+
+  _paq.push(["setCustomVariable", 3, "Navigation Page", "Newsroom : Press Releases", "page"]);
+
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function() {
+    var u="//stats.drivetheweb.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", 7263]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+    g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript>
+	<img src="https://stats.drivetheweb.com/piwik.php?idsite=7263&rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Piwik Tracking Code -->
+		
+<!-- end spin_special_output(body_end) -->
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a46db441f8ba543c',t:'MTc5MTM4NDQ3OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

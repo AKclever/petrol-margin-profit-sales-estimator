@@ -1,56 +1,53 @@
 {
-  "end": "2026-09-29",
+  "end": "2026-10-05",
   "range_enforcement": "Requested observation range enforced locally.",
-  "retrieved_at": "2026-09-29",
-  "rows_written": 1206,
+  "retrieved_at": "2026-10-05",
+  "rows_written": 1209,
   "series": [
     {
       "first_week": "2019-01-07",
-      "last_week": "2026-09-14",
-      "matched_weeks": 402,
+      "last_week": "2026-09-21",
+      "matched_weeks": 403,
       "region": "Gulf Coast",
       "retail": "PET.EMM_EPMR_PTE_R30_DPG.W",
       "retail_last_week": "2026-09-28",
       "retail_weeks_without_wholesale": [
-        "2026-09-21",
         "2026-09-28"
       ],
       "wholesale": "PET.EER_EPMRU_PF4_RGC_DPG.W",
-      "wholesale_last_week": "2026-09-14",
+      "wholesale_last_week": "2026-09-21",
       "wholesale_weeks_without_retail": [
         "2018-12-31"
       ]
     },
     {
       "first_week": "2019-01-07",
-      "last_week": "2026-09-14",
-      "matched_weeks": 402,
+      "last_week": "2026-09-21",
+      "matched_weeks": 403,
       "region": "Midwest",
       "retail": "PET.EMM_EPMR_PTE_R20_DPG.W",
       "retail_last_week": "2026-09-28",
       "retail_weeks_without_wholesale": [
-        "2026-09-21",
         "2026-09-28"
       ],
       "wholesale": "PET.EER_EPMRU_PF4_RGC_DPG.W",
-      "wholesale_last_week": "2026-09-14",
+      "wholesale_last_week": "2026-09-21",
       "wholesale_weeks_without_retail": [
         "2018-12-31"
       ]
     },
     {
       "first_week": "2019-01-07",
-      "last_week": "2026-09-14",
-      "matched_weeks": 402,
+      "last_week": "2026-09-21",
+      "matched_weeks": 403,
       "region": "East Coast",
       "retail": "PET.EMM_EPMR_PTE_R10_DPG.W",
       "retail_last_week": "2026-09-28",
       "retail_weeks_without_wholesale": [
-        "2026-09-21",
         "2026-09-28"
       ],
       "wholesale": "PET.EER_EPMRU_PF4_Y35NY_DPG.W",
-      "wholesale_last_week": "2026-09-14",
+      "wholesale_last_week": "2026-09-21",
       "wholesale_weeks_without_retail": [
         "2018-12-31"
       ]

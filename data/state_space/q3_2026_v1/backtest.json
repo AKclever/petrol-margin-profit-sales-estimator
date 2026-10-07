@@ -1,0 +1,1214 @@
+{
+  "evaluation_role": "RETROSPECTIVE_CURRENT_VINTAGE_RESEARCH_NOT_PIT_VALIDATION",
+  "metrics": {
+    "challenger_directional_accuracy": 0.6666666666666666,
+    "challenger_mae_cpg": 8.679814603386472,
+    "challenger_rmse_cpg": 10.775120193949784,
+    "identical_backtest_rows": 21,
+    "mean_paired_improvement_cpg": -5.55792135833232,
+    "paired_improvement_ci_low_cpg": -8.596668811379953,
+    "passes_pre_registered_gate": false,
+    "production_directional_accuracy": 0.9047619047619048,
+    "production_mae_cpg": 3.121893245054152,
+    "production_rmse_cpg": 4.048203020079952,
+    "production_status": "UNCHANGED",
+    "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+    "recent_eight_challenger_directional_accuracy": 0.625,
+    "recent_eight_challenger_mae_cpg": 9.912745493550963,
+    "recent_eight_production_directional_accuracy": 0.75,
+    "recent_eight_production_mae_cpg": 2.153515225634352
+  },
+  "rows": [
+    {
+      "actual_cpg": 21.8,
+      "company_basis_offset_cpg": -57.45804859148659,
+      "direction_correct": true,
+      "last_training_quarter": "2021Q1",
+      "offset_state_variance_only": 6.64935064935065,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -55.99705135374575,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q2"
+        },
+        {
+          "offset_mean_cpg": -57.45804859148659,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q2"
+        }
+      ],
+      "prediction_cpg": 15.948903555654283,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 83.9301724137931,
+          "fall_speed": 0.1251385345844142,
+          "last_training_week": "2021-03-22",
+          "rise_speed": 0.2145700184280413,
+          "training_week_count": 116
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 64.24913793103448,
+          "fall_speed": 0.1390545790681851,
+          "last_training_week": "2021-03-22",
+          "rise_speed": 0.2734520481884016,
+          "training_week_count": 116
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 83.18189655172414,
+          "fall_speed": 0.23573000979910855,
+          "last_training_week": "2021-03-22",
+          "rise_speed": 0.281448984207734,
+          "training_week_count": 116
+        }
+      },
+      "production_prediction_cpg": 26.980859753382397,
+      "proxy_spread_cpg": 73.40695214714087,
+      "quarter": "2021Q2"
+    },
+    {
+      "actual_cpg": 24.0,
+      "company_basis_offset_cpg": -57.775389976551836,
+      "direction_correct": false,
+      "last_training_quarter": "2021Q2",
+      "offset_state_variance_only": 6.64935064935065,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -52.100278215650796,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q3"
+        },
+        {
+          "offset_mean_cpg": -57.775389976551836,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q3"
+        }
+      ],
+      "prediction_cpg": 15.051906570677602,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 83.28449612403101,
+          "fall_speed": 0.12351509487579501,
+          "last_training_week": "2021-06-21",
+          "rise_speed": 0.2236926027005032,
+          "training_week_count": 129
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 64.15813953488372,
+          "fall_speed": 0.13950399630124677,
+          "last_training_week": "2021-06-21",
+          "rise_speed": 0.27494009186877477,
+          "training_week_count": 129
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 83.17286821705426,
+          "fall_speed": 0.23458140737846625,
+          "last_training_week": "2021-06-21",
+          "rise_speed": 0.2837863317067057,
+          "training_week_count": 129
+        }
+      },
+      "production_prediction_cpg": 20.848956509508668,
+      "proxy_spread_cpg": 72.82729654722944,
+      "quarter": "2021Q3"
+    },
+    {
+      "actual_cpg": 25.5,
+      "company_basis_offset_cpg": -58.41993320739838,
+      "direction_correct": true,
+      "last_training_quarter": "2021Q3",
+      "offset_state_variance_only": 6.64935064935065,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -54.01970562760951,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q4"
+        },
+        {
+          "offset_mean_cpg": -58.41993320739838,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q4"
+        }
+      ],
+      "prediction_cpg": 23.512976262621642,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 82.75915492957746,
+          "fall_speed": 0.12195238843993256,
+          "last_training_week": "2021-09-20",
+          "rise_speed": 0.22315269573428406,
+          "training_week_count": 142
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 63.884507042253524,
+          "fall_speed": 0.13728949615811692,
+          "last_training_week": "2021-09-20",
+          "rise_speed": 0.2714247257447663,
+          "training_week_count": 142
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 83.1781690140845,
+          "fall_speed": 0.23033760681254073,
+          "last_training_week": "2021-09-20",
+          "rise_speed": 0.27789157291911887,
+          "training_week_count": 142
+        }
+      },
+      "production_prediction_cpg": 19.190562918350157,
+      "proxy_spread_cpg": 81.93290947002002,
+      "quarter": "2021Q4"
+    },
+    {
+      "actual_cpg": 23.3,
+      "company_basis_offset_cpg": -54.35874253758221,
+      "direction_correct": false,
+      "last_training_quarter": "2021Q4",
+      "offset_state_variance_only": 6.64935064935065,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -59.42479102629164,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2020Q1"
+        },
+        {
+          "offset_mean_cpg": -54.35874253758221,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2021Q1"
+        }
+      ],
+      "prediction_cpg": 12.87335573834472,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 83.49551282051281,
+          "fall_speed": 0.11545803453300538,
+          "last_training_week": "2021-12-27",
+          "rise_speed": 0.22325601561428676,
+          "training_week_count": 156
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 64.49166666666667,
+          "fall_speed": 0.1349859025754012,
+          "last_training_week": "2021-12-27",
+          "rise_speed": 0.266238504543845,
+          "training_week_count": 156
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 83.52884615384616,
+          "fall_speed": 0.22444997751356438,
+          "last_training_week": "2021-12-27",
+          "rise_speed": 0.27312909179947764,
+          "training_week_count": 156
+        }
+      },
+      "production_prediction_cpg": 28.47874251201401,
+      "proxy_spread_cpg": 67.23209827592693,
+      "quarter": "2022Q1"
+    },
+    {
+      "actual_cpg": 26.5,
+      "company_basis_offset_cpg": -53.89742452191716,
+      "direction_correct": false,
+      "last_training_quarter": "2022Q1",
+      "offset_state_variance_only": 6.4975609756097565,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -56.162755202484824,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q2"
+        },
+        {
+          "offset_mean_cpg": -57.59022124649647,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q2"
+        },
+        {
+          "offset_mean_cpg": -53.89742452191716,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q2"
+        }
+      ],
+      "prediction_cpg": 6.044624640025852,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 83.02142857142857,
+          "fall_speed": 0.10562700929707769,
+          "last_training_week": "2022-03-21",
+          "rise_speed": 0.3198050754168688,
+          "training_week_count": 168
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 63.838095238095235,
+          "fall_speed": 0.12546692529997183,
+          "last_training_week": "2022-03-21",
+          "rise_speed": 0.35657352144603593,
+          "training_week_count": 168
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 82.42619047619048,
+          "fall_speed": 0.2107762714762492,
+          "last_training_week": "2022-03-21",
+          "rise_speed": 0.3418702460116351,
+          "training_week_count": 168
+        }
+      },
+      "production_prediction_cpg": 23.727566104742163,
+      "proxy_spread_cpg": 59.94204916194301,
+      "quarter": "2022Q2"
+    },
+    {
+      "actual_cpg": 39.3,
+      "company_basis_offset_cpg": -52.15533137763562,
+      "direction_correct": true,
+      "last_training_quarter": "2022Q2",
+      "offset_state_variance_only": 6.4975609756097565,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -52.108586725148456,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q3"
+        },
+        {
+          "offset_mean_cpg": -57.75623042869001,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q3"
+        },
+        {
+          "offset_mean_cpg": -52.15533137763562,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q3"
+        }
+      ],
+      "prediction_cpg": 34.964451630479815,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 81.77845303867403,
+          "fall_speed": 0.10659739262432198,
+          "last_training_week": "2022-06-20",
+          "rise_speed": 0.297929888512394,
+          "training_week_count": 181
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 62.65635359116022,
+          "fall_speed": 0.1267910387916738,
+          "last_training_week": "2022-06-20",
+          "rise_speed": 0.3414707454746863,
+          "training_week_count": 181
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 81.26298342541436,
+          "fall_speed": 0.20189310182201362,
+          "last_training_week": "2022-06-20",
+          "rise_speed": 0.33422373416317686,
+          "training_week_count": 181
+        }
+      },
+      "production_prediction_cpg": 29.50822312019188,
+      "proxy_spread_cpg": 87.11978300811543,
+      "quarter": "2022Q3"
+    },
+    {
+      "actual_cpg": 28.3,
+      "company_basis_offset_cpg": -57.14951970738506,
+      "direction_correct": false,
+      "last_training_quarter": "2022Q3",
+      "offset_state_variance_only": 6.4975609756097565,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -54.03811288762178,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q4"
+        },
+        {
+          "offset_mean_cpg": -58.417991834588754,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q4"
+        },
+        {
+          "offset_mean_cpg": -57.14951970738506,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q4"
+        }
+      ],
+      "prediction_cpg": 13.632564243683625,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 82.29282051282051,
+          "fall_speed": 0.1455543655797134,
+          "last_training_week": "2022-09-26",
+          "rise_speed": 0.2912183794078663,
+          "training_week_count": 195
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 63.17948717948718,
+          "fall_speed": 0.18482119673245065,
+          "last_training_week": "2022-09-26",
+          "rise_speed": 0.3296080086112065,
+          "training_week_count": 195
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 83.16461538461539,
+          "fall_speed": 0.24219573577548195,
+          "last_training_week": "2022-09-26",
+          "rise_speed": 0.31045472659318907,
+          "training_week_count": 195
+        }
+      },
+      "production_prediction_cpg": 27.360103431213055,
+      "proxy_spread_cpg": 70.78208395106869,
+      "quarter": "2022Q4"
+    },
+    {
+      "actual_cpg": 23.2,
+      "company_basis_offset_cpg": -47.83722369745913,
+      "direction_correct": true,
+      "last_training_quarter": "2022Q4",
+      "offset_state_variance_only": 6.4975609756097565,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -59.13409427435688,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2020Q1"
+        },
+        {
+          "offset_mean_cpg": -54.26959573389732,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2021Q1"
+        },
+        {
+          "offset_mean_cpg": -47.83722369745913,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2022Q1"
+        }
+      ],
+      "prediction_cpg": 18.8002864830541,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 81.32355769230769,
+          "fall_speed": 0.15572476088919018,
+          "last_training_week": "2022-12-26",
+          "rise_speed": 0.250288425123353,
+          "training_week_count": 208
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 62.566826923076924,
+          "fall_speed": 0.19234833759483685,
+          "last_training_week": "2022-12-26",
+          "rise_speed": 0.30133508916393426,
+          "training_week_count": 208
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 84.14615384615385,
+          "fall_speed": 0.2505122477873118,
+          "last_training_week": "2022-12-26",
+          "rise_speed": 0.29062589567639197,
+          "training_week_count": 208
+        }
+      },
+      "production_prediction_cpg": 22.783236624991005,
+      "proxy_spread_cpg": 66.63751018051323,
+      "quarter": "2023Q1"
+    },
+    {
+      "actual_cpg": 27.0,
+      "company_basis_offset_cpg": -40.83032343528402,
+      "direction_correct": true,
+      "last_training_quarter": "2023Q1",
+      "offset_state_variance_only": 6.4758364312267656,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -55.917007017872606,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q2"
+        },
+        {
+          "offset_mean_cpg": -57.24719962126943,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q2"
+        },
+        {
+          "offset_mean_cpg": -53.66073489315556,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q2"
+        },
+        {
+          "offset_mean_cpg": -40.83032343528402,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2022Q2"
+        }
+      ],
+      "prediction_cpg": 36.076725689128615,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 81.02352941176471,
+          "fall_speed": 0.15531348188517785,
+          "last_training_week": "2023-03-27",
+          "rise_speed": 0.2550241190461553,
+          "training_week_count": 221
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 61.93755656108598,
+          "fall_speed": 0.18947728732533672,
+          "last_training_week": "2023-03-27",
+          "rise_speed": 0.31276788739430617,
+          "training_week_count": 221
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 83.56425339366515,
+          "fall_speed": 0.2463304185504349,
+          "last_training_week": "2023-03-27",
+          "rise_speed": 0.29774275647837334,
+          "training_week_count": 221
+        }
+      },
+      "production_prediction_cpg": 30.015562500819577,
+      "proxy_spread_cpg": 76.90704912441264,
+      "quarter": "2023Q2"
+    },
+    {
+      "actual_cpg": 28.7,
+      "company_basis_offset_cpg": -49.21514287299122,
+      "direction_correct": true,
+      "last_training_quarter": "2023Q2",
+      "offset_state_variance_only": 6.4758364312267656,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -52.032859264273064,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q3"
+        },
+        {
+          "offset_mean_cpg": -57.67455005658781,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q3"
+        },
+        {
+          "offset_mean_cpg": -52.101166010326274,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q3"
+        },
+        {
+          "offset_mean_cpg": -49.21514287299122,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2022Q3"
+        }
+      ],
+      "prediction_cpg": 19.970450615110394,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 80.82649572649574,
+          "fall_speed": 0.15600788284712358,
+          "last_training_week": "2023-06-26",
+          "rise_speed": 0.253865803294203,
+          "training_week_count": 234
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 62.139316239316244,
+          "fall_speed": 0.1929843103479456,
+          "last_training_week": "2023-06-26",
+          "rise_speed": 0.30889398207901697,
+          "training_week_count": 234
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 84.38632478632479,
+          "fall_speed": 0.24014458160816782,
+          "last_training_week": "2023-06-26",
+          "rise_speed": 0.29405527640869966,
+          "training_week_count": 234
+        }
+      },
+      "production_prediction_cpg": 35.383410918306,
+      "proxy_spread_cpg": 69.18559348810162,
+      "quarter": "2023Q3"
+    },
+    {
+      "actual_cpg": 31.1,
+      "company_basis_offset_cpg": -47.933682465652204,
+      "direction_correct": true,
+      "last_training_quarter": "2023Q3",
+      "offset_state_variance_only": 6.4758364312267656,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -53.944550830416325,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q4"
+        },
+        {
+          "offset_mean_cpg": -58.32562009101769,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q4"
+        },
+        {
+          "offset_mean_cpg": -57.03972223334108,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q4"
+        },
+        {
+          "offset_mean_cpg": -47.933682465652204,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2022Q4"
+        }
+      ],
+      "prediction_cpg": 37.654438189968054,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 80.648987854251,
+          "fall_speed": 0.15630672398431772,
+          "last_training_week": "2023-09-25",
+          "rise_speed": 0.2589299143859137,
+          "training_week_count": 247
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 61.65506072874494,
+          "fall_speed": 0.19291424974776544,
+          "last_training_week": "2023-09-25",
+          "rise_speed": 0.31431791164207473,
+          "training_week_count": 247
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 84.09676113360324,
+          "fall_speed": 0.23967739974645455,
+          "last_training_week": "2023-09-25",
+          "rise_speed": 0.2979746169258378,
+          "training_week_count": 247
+        }
+      },
+      "production_prediction_cpg": 29.603681180808195,
+      "proxy_spread_cpg": 85.58812065562026,
+      "quarter": "2023Q4"
+    },
+    {
+      "actual_cpg": 21.7,
+      "company_basis_offset_cpg": -45.11840670490614,
+      "direction_correct": true,
+      "last_training_quarter": "2023Q4",
+      "offset_state_variance_only": 6.4758364312267656,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -59.10147550506663,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2020Q1"
+        },
+        {
+          "offset_mean_cpg": -54.26446140568028,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2021Q1"
+        },
+        {
+          "offset_mean_cpg": -47.83971691662506,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2022Q1"
+        },
+        {
+          "offset_mean_cpg": -45.11840670490614,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2023Q1"
+        }
+      ],
+      "prediction_cpg": 22.800296189914967,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 81.13884615384615,
+          "fall_speed": 0.1636025531218513,
+          "last_training_week": "2023-12-25",
+          "rise_speed": 0.25416082962079395,
+          "training_week_count": 260
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 62.2123076923077,
+          "fall_speed": 0.204810705961744,
+          "last_training_week": "2023-12-25",
+          "rise_speed": 0.3070152962098325,
+          "training_week_count": 260
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 84.92961538461539,
+          "fall_speed": 0.24390805680322689,
+          "last_training_week": "2023-12-25",
+          "rise_speed": 0.2867217667706057,
+          "training_week_count": 260
+        }
+      },
+      "production_prediction_cpg": 22.62787805109699,
+      "proxy_spread_cpg": 67.91870289482111,
+      "quarter": "2024Q1"
+    },
+    {
+      "actual_cpg": 29.7,
+      "company_basis_offset_cpg": -46.439780592778156,
+      "direction_correct": true,
+      "last_training_quarter": "2024Q1",
+      "offset_state_variance_only": 6.472675656493967,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -55.91535994649957,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q2"
+        },
+        {
+          "offset_mean_cpg": -57.22463181913697,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q2"
+        },
+        {
+          "offset_mean_cpg": -53.657183998139566,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q2"
+        },
+        {
+          "offset_mean_cpg": -40.82300846252555,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2022Q2"
+        },
+        {
+          "offset_mean_cpg": -46.439780592778156,
+          "offset_variance": 2.4726756564939674,
+          "quarter": "2023Q2"
+        }
+      ],
+      "prediction_cpg": 36.14220239334862,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 81.20879120879121,
+          "fall_speed": 0.16411448841672976,
+          "last_training_week": "2024-03-25",
+          "rise_speed": 0.25494156501119775,
+          "training_week_count": 273
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 61.69230769230769,
+          "fall_speed": 0.2022770118487226,
+          "last_training_week": "2024-03-25",
+          "rise_speed": 0.3121818975017225,
+          "training_week_count": 273
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 84.28498168498169,
+          "fall_speed": 0.23894852347733317,
+          "last_training_week": "2024-03-25",
+          "rise_speed": 0.2923641866960724,
+          "training_week_count": 273
+        }
+      },
+      "production_prediction_cpg": 27.232487504751465,
+      "proxy_spread_cpg": 82.58198298612677,
+      "quarter": "2024Q2"
+    },
+    {
+      "actual_cpg": 31.9,
+      "company_basis_offset_cpg": -43.82223207641044,
+      "direction_correct": true,
+      "last_training_quarter": "2024Q2",
+      "offset_state_variance_only": 6.472675656493967,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -52.044482217064825,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q3"
+        },
+        {
+          "offset_mean_cpg": -57.68288002250465,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q3"
+        },
+        {
+          "offset_mean_cpg": -52.11658479528345,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q3"
+        },
+        {
+          "offset_mean_cpg": -49.20591077721424,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2022Q3"
+        },
+        {
+          "offset_mean_cpg": -43.82223207641044,
+          "offset_variance": 2.4726756564939674,
+          "quarter": "2023Q3"
+        }
+      ],
+      "prediction_cpg": 45.428612640510146,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 81.47972027972028,
+          "fall_speed": 0.16396145674928042,
+          "last_training_week": "2024-06-24",
+          "rise_speed": 0.25144363514565127,
+          "training_week_count": 286
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 62.06853146853146,
+          "fall_speed": 0.20438224892626708,
+          "last_training_week": "2024-06-24",
+          "rise_speed": 0.3080974173237141,
+          "training_week_count": 286
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 84.8944055944056,
+          "fall_speed": 0.23711667252653557,
+          "last_training_week": "2024-06-24",
+          "rise_speed": 0.28580381793985943,
+          "training_week_count": 286
+        }
+      },
+      "production_prediction_cpg": 32.41760383289337,
+      "proxy_spread_cpg": 89.25084471692058,
+      "quarter": "2024Q3"
+    },
+    {
+      "actual_cpg": 28.9,
+      "company_basis_offset_cpg": -52.03077842659583,
+      "direction_correct": true,
+      "last_training_quarter": "2024Q3",
+      "offset_state_variance_only": 6.472675656493967,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -54.029228910635744,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q4"
+        },
+        {
+          "offset_mean_cpg": -58.39927342840447,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q4"
+        },
+        {
+          "offset_mean_cpg": -57.09226218321226,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q4"
+        },
+        {
+          "offset_mean_cpg": -47.9805302697969,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2022Q4"
+        },
+        {
+          "offset_mean_cpg": -52.03077842659583,
+          "offset_variance": 2.4726756564939674,
+          "quarter": "2023Q4"
+        }
+      ],
+      "prediction_cpg": 30.926390012674247,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 82.26521739130435,
+          "fall_speed": 0.16479790604193253,
+          "last_training_week": "2024-09-23",
+          "rise_speed": 0.24427164763705705,
+          "training_week_count": 299
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 62.520066889632105,
+          "fall_speed": 0.20732596264584585,
+          "last_training_week": "2024-09-23",
+          "rise_speed": 0.3024014650123433,
+          "training_week_count": 299
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 85.81571906354516,
+          "fall_speed": 0.23460749227107378,
+          "last_training_week": "2024-09-23",
+          "rise_speed": 0.2750787756082291,
+          "training_week_count": 299
+        }
+      },
+      "production_prediction_cpg": 30.73160874995746,
+      "proxy_spread_cpg": 82.95716843927008,
+      "quarter": "2024Q4"
+    },
+    {
+      "actual_cpg": 23.7,
+      "company_basis_offset_cpg": -45.83895686657532,
+      "direction_correct": true,
+      "last_training_quarter": "2024Q4",
+      "offset_state_variance_only": 6.472675656493967,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -59.16192748547199,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2020Q1"
+        },
+        {
+          "offset_mean_cpg": -54.307501161477504,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2021Q1"
+        },
+        {
+          "offset_mean_cpg": -47.86355844665599,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2022Q1"
+        },
+        {
+          "offset_mean_cpg": -45.152915475014524,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2023Q1"
+        },
+        {
+          "offset_mean_cpg": -45.83895686657532,
+          "offset_variance": 2.4726756564939674,
+          "quarter": "2024Q1"
+        }
+      ],
+      "prediction_cpg": 32.881155053696126,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 82.62852564102563,
+          "fall_speed": 0.16419609363240792,
+          "last_training_week": "2024-12-23",
+          "rise_speed": 0.24098405108679513,
+          "training_week_count": 312
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 62.74230769230769,
+          "fall_speed": 0.20926074748592796,
+          "last_training_week": "2024-12-23",
+          "rise_speed": 0.30012081840550064,
+          "training_week_count": 312
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 86.2926282051282,
+          "fall_speed": 0.2373405297245852,
+          "last_training_week": "2024-12-23",
+          "rise_speed": 0.26967904161164563,
+          "training_week_count": 312
+        }
+      },
+      "production_prediction_cpg": 24.468764448429035,
+      "proxy_spread_cpg": 78.72011192027145,
+      "quarter": "2025Q1"
+    },
+    {
+      "actual_cpg": 29.2,
+      "company_basis_offset_cpg": -50.4949935838158,
+      "direction_correct": false,
+      "last_training_quarter": "2025Q1",
+      "offset_state_variance_only": 6.472214692328544,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -55.983805654501296,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q2"
+        },
+        {
+          "offset_mean_cpg": -57.30379895286249,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q2"
+        },
+        {
+          "offset_mean_cpg": -53.74689623917328,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q2"
+        },
+        {
+          "offset_mean_cpg": -40.852502906743695,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2022Q2"
+        },
+        {
+          "offset_mean_cpg": -46.49633562918022,
+          "offset_variance": 2.4726756564939674,
+          "quarter": "2023Q2"
+        },
+        {
+          "offset_mean_cpg": -50.4949935838158,
+          "offset_variance": 2.4722146923285444,
+          "quarter": "2024Q2"
+        }
+      ],
+      "prediction_cpg": 36.55545592800213,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 82.99815384615385,
+          "fall_speed": 0.16367625975831276,
+          "last_training_week": "2025-03-24",
+          "rise_speed": 0.23759692322786838,
+          "training_week_count": 325
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 62.69661538461539,
+          "fall_speed": 0.20985283648031441,
+          "last_training_week": "2025-03-24",
+          "rise_speed": 0.3016314217739159,
+          "training_week_count": 325
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 86.324,
+          "fall_speed": 0.23858930201599243,
+          "last_training_week": "2025-03-24",
+          "rise_speed": 0.27069774194173646,
+          "training_week_count": 325
+        }
+      },
+      "production_prediction_cpg": 33.68760675577302,
+      "proxy_spread_cpg": 87.05044951181793,
+      "quarter": "2025Q2"
+    },
+    {
+      "actual_cpg": 28.3,
+      "company_basis_offset_cpg": -52.29088926165085,
+      "direction_correct": true,
+      "last_training_quarter": "2025Q2",
+      "offset_state_variance_only": 6.472214692328544,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -52.13125789889683,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q3"
+        },
+        {
+          "offset_mean_cpg": -57.780441242527864,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q3"
+        },
+        {
+          "offset_mean_cpg": -52.21719350669888,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q3"
+        },
+        {
+          "offset_mean_cpg": -49.31359216337713,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2022Q3"
+        },
+        {
+          "offset_mean_cpg": -43.91176899244007,
+          "offset_variance": 2.4726756564939674,
+          "quarter": "2023Q3"
+        },
+        {
+          "offset_mean_cpg": -52.29088926165085,
+          "offset_variance": 2.4722146923285444,
+          "quarter": "2024Q3"
+        }
+      ],
+      "prediction_cpg": 27.887604629084123,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 83.67721893491125,
+          "fall_speed": 0.15293328094990402,
+          "last_training_week": "2025-06-23",
+          "rise_speed": 0.23103777922885743,
+          "training_week_count": 338
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 62.98875739644971,
+          "fall_speed": 0.20827742058408633,
+          "last_training_week": "2025-06-23",
+          "rise_speed": 0.29756294113697684,
+          "training_week_count": 338
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 86.79437869822485,
+          "fall_speed": 0.23624101316085647,
+          "last_training_week": "2025-06-23",
+          "rise_speed": 0.26593673414868674,
+          "training_week_count": 338
+        }
+      },
+      "production_prediction_cpg": 30.4325246857704,
+      "proxy_spread_cpg": 80.17849389073497,
+      "quarter": "2025Q3"
+    },
+    {
+      "actual_cpg": 31.0,
+      "company_basis_offset_cpg": -53.352351533042075,
+      "direction_correct": true,
+      "last_training_quarter": "2025Q3",
+      "offset_state_variance_only": 6.472214692328544,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -54.092602681698686,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q4"
+        },
+        {
+          "offset_mean_cpg": -58.46685297961696,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q4"
+        },
+        {
+          "offset_mean_cpg": -57.15974031919182,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q4"
+        },
+        {
+          "offset_mean_cpg": -48.03251697192256,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2022Q4"
+        },
+        {
+          "offset_mean_cpg": -52.09315203472525,
+          "offset_variance": 2.4726756564939674,
+          "quarter": "2023Q4"
+        },
+        {
+          "offset_mean_cpg": -53.352351533042075,
+          "offset_variance": 2.4722146923285444,
+          "quarter": "2024Q4"
+        }
+      ],
+      "prediction_cpg": 34.07399888040971,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 83.94102564102563,
+          "fall_speed": 0.15054745137316064,
+          "last_training_week": "2025-09-22",
+          "rise_speed": 0.22839735645175333,
+          "training_week_count": 351
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 63.000854700854696,
+          "fall_speed": 0.21083254182034386,
+          "last_training_week": "2025-09-22",
+          "rise_speed": 0.298753230660588,
+          "training_week_count": 351
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 87.01339031339032,
+          "fall_speed": 0.23848699030091508,
+          "last_training_week": "2025-09-22",
+          "rise_speed": 0.26353744451426325,
+          "training_week_count": 351
+        }
+      },
+      "production_prediction_cpg": 30.197566706485624,
+      "proxy_spread_cpg": 87.42635041345179,
+      "quarter": "2025Q4"
+    },
+    {
+      "actual_cpg": 25.4,
+      "company_basis_offset_cpg": -51.58524996206009,
+      "direction_correct": false,
+      "last_training_quarter": "2025Q4",
+      "offset_state_variance_only": 6.472214692328544,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -59.2389923979344,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2020Q1"
+        },
+        {
+          "offset_mean_cpg": -54.35888423384376,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2021Q1"
+        },
+        {
+          "offset_mean_cpg": -47.89965575916099,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2022Q1"
+        },
+        {
+          "offset_mean_cpg": -45.19727891952767,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2023Q1"
+        },
+        {
+          "offset_mean_cpg": -45.89188062053738,
+          "offset_variance": 2.4726756564939674,
+          "quarter": "2024Q1"
+        },
+        {
+          "offset_mean_cpg": -51.58524996206009,
+          "offset_variance": 2.4722146923285444,
+          "quarter": "2025Q1"
+        }
+      ],
+      "prediction_cpg": 4.984949853025945,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 84.69203296703297,
+          "fall_speed": 0.1480513542404888,
+          "last_training_week": "2025-12-22",
+          "rise_speed": 0.22152830234824675,
+          "training_week_count": 364
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 63.23434065934066,
+          "fall_speed": 0.21404580929000303,
+          "last_training_week": "2025-12-22",
+          "rise_speed": 0.2962545638430144,
+          "training_week_count": 364
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 87.24835164835166,
+          "fall_speed": 0.24430328651781658,
+          "last_training_week": "2025-12-22",
+          "rise_speed": 0.2613829732159194,
+          "training_week_count": 364
+        }
+      },
+      "production_prediction_cpg": 25.317335630426772,
+      "proxy_spread_cpg": 56.570199815086035,
+      "quarter": "2026Q1"
+    },
+    {
+      "actual_cpg": 35.1,
+      "company_basis_offset_cpg": -55.10521463418145,
+      "direction_correct": false,
+      "last_training_quarter": "2026Q1",
+      "offset_state_variance_only": 6.472147442534686,
+      "offset_updates": [
+        {
+          "offset_mean_cpg": -56.04827805483433,
+          "offset_variance": 3.8461538461538436,
+          "quarter": "2019Q2"
+        },
+        {
+          "offset_mean_cpg": -57.373184443234834,
+          "offset_variance": 2.6493506493506493,
+          "quarter": "2020Q2"
+        },
+        {
+          "offset_mean_cpg": -53.80180441921971,
+          "offset_variance": 2.497560975609756,
+          "quarter": "2021Q2"
+        },
+        {
+          "offset_mean_cpg": -40.97070808123058,
+          "offset_variance": 2.4758364312267656,
+          "quarter": "2022Q2"
+        },
+        {
+          "offset_mean_cpg": -46.58305799361171,
+          "offset_variance": 2.4726756564939674,
+          "quarter": "2023Q2"
+        },
+        {
+          "offset_mean_cpg": -50.563006471091974,
+          "offset_variance": 2.4722146923285444,
+          "quarter": "2024Q2"
+        },
+        {
+          "offset_mean_cpg": -55.10521463418145,
+          "offset_variance": 2.472147442534686,
+          "quarter": "2025Q2"
+        }
+      ],
+      "prediction_cpg": 11.791094084774599,
+      "pricing": {
+        "East Coast": {
+          "equilibrium_spread_cpg": 84.09204244031831,
+          "fall_speed": 0.14581916957618535,
+          "last_training_week": "2026-03-23",
+          "rise_speed": 0.25790592459760664,
+          "training_week_count": 377
+        },
+        "Gulf Coast": {
+          "equilibrium_spread_cpg": 62.51883289124668,
+          "fall_speed": 0.2088682907929903,
+          "last_training_week": "2026-03-23",
+          "rise_speed": 0.3213535941065389,
+          "training_week_count": 377
+        },
+        "Midwest": {
+          "equilibrium_spread_cpg": 86.31140583554377,
+          "fall_speed": 0.23553403821045232,
+          "last_training_week": "2026-03-23",
+          "rise_speed": 0.27924885004572597,
+          "training_week_count": 377
+        }
+      },
+      "production_prediction_cpg": 28.49508433083607,
+      "proxy_spread_cpg": 66.89630871895605,
+      "quarter": "2026Q2"
+    }
+  ]
+}

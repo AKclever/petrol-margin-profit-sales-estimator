@@ -1,0 +1,40 @@
+{
+  "spec_id": "MUSA_ADDITIONAL_MECHANICAL_REPLAYS_V1",
+  "evaluation_role": "RETROSPECTIVE_MECHANICAL_REPLAY",
+  "methodology_origin": "RETROSPECTIVE_PIT_RULE_REPLAY",
+  "parameter_selection_using_outcomes": false,
+  "production_logic_changed": false,
+  "rules": [
+    "Reuse the Q2 2025 rule: national weekly finished-gasoline demand proxy, 364-day alignment, observed QTD growth scaling for unavailable current weeks, uniform daily rates within weeks.",
+    "Use exact ALFRED cutoff snapshots, historical issuer releases published by cutoff, and the latest available 10-K store-count weights for the same three regions.",
+    "Keep alpha=2, quarterly four-feature change regression and 0.5 shrinkage; no parameter searches or outcome-conditioned rule changes.",
+    "Apply the same quarterly-to-remaining-period transfer assumption to the period after the disclosed completed month, using persistence for unavailable complete paired weekly prices.",
+    "Approximately stated finite retail numbers can be represented by the stated value only in an explicitly approximate research replay; do not treat them as audited exact actuals or invent uncertainty bounds.",
+    "A named calendar month completed before the call is interpreted as that completed month's start and end. A still-open month without an explicit coverage end remains blocked.",
+    "Open-ended bounds such as north of 21 cents do not identify a central estimate; all-in-only or qualitative disclosures cannot anchor a retail estimate.",
+    "Freeze every prediction and input hash before separate scoring. Known outcomes mean this is not blind or prospective validation.",
+    "For the current quarter only, if production has no complete quarter weeks, retain its blocked state. Show the prior-year seasonal reference and a separately labelled full-quarter flat-price research shadow, with zero observed quarter weeks."
+  ],
+  "cases": [
+    {
+      "quarter": "2023Q1",
+      "cutoff": "2023-02-02",
+      "period_start": "2023-01-01",
+      "period_end": "2023-01-31",
+      "disclosed_margin_cpg": 19.0,
+      "precision": "APPROXIMATE_MANAGEMENT_COMMENTARY",
+      "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2022/q4/4Q22-MUSA-Earnings-Transcript-Final.pdf",
+      "required_text": "retail only margins were in the neighborhood of $0.19 per gallon"
+    },
+    {
+      "quarter": "2024Q2",
+      "cutoff": "2024-05-02",
+      "period_start": "2024-04-01",
+      "period_end": "2024-04-30",
+      "disclosed_margin_cpg": 24.5,
+      "precision": "APPROXIMATE_MANAGEMENT_COMMENTARY",
+      "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2024/q1/Q12024_MurphyUSA_EarningsCallTranscript.pdf",
+      "required_text": "about $0.245 per gallon"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "model_id": "MUSA_STATE_SPACE_V1",
+  "status": "FROZEN_BEFORE_FIRST_FIT_RESEARCH_ONLY",
+  "evaluation_role": "RETROSPECTIVE_CURRENT_VINTAGE_RESEARCH_NOT_PIT_VALIDATION",
+  "target": "quarterly retail margin cpg, not all-in",
+  "pricing": "regional equilibrium spread estimated on earlier weekly observations; separate bounded rise/fall response coefficients with ridge prior 0.35 and penalty 100",
+  "central_cost_process_variance": 100,
+  "cost_measurement_variance": 25,
+  "retail_process_variance": 9,
+  "retail_measurement_variance": 4,
+  "seasonal_offset_process_variance_per_year": 4,
+  "quarter_measurement_variance": 4,
+  "initial_offset_mean": 0,
+  "initial_offset_variance": 100,
+  "fixed_cost_scenarios": {"slow": 25, "central": 100, "fast": 400},
+  "hyperparameter_selection": "NONE; no scenario selection or retuning after results",
+  "minimum_training_quarters": 8,
+  "weights": "same static regional store weights and national weekly demand proxy as weekly V1",
+  "boundary": "same weekly V1 day weights and final partial-week carry; do not use a future boundary observation",
+  "uncertainty": "scenario range is sensitivity, not probability calibration; offset variance excludes parameter, proxy and weekly-cost uncertainty",
+  "limitations": ["spot is not delivered acquisition cost", "regional retail is not MUSA pump pricing", "latent cost and company basis are weakly identified", "historical market, demand, weights and outcomes are current-vintage not PIT", "hypotheses informed by this same history", "no automatic production promotion", "partial-quarter disclosures not assimilated in V1", "actual publication lags are not reconstructed"]
+}

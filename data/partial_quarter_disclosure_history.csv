@@ -1,0 +1,23 @@
+quarter,pit_cutoff,audit_status,disclosure_presence,category,evidence_strength,disclosure_target,quarter_fraction_observed,source_url,notes
+2021Q1,2021-03-31,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2021Q2,2021-06-30,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2021Q3,2021-09-30,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2021Q4,2021-12-31,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2022Q1,2022-03-31,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2022Q2,2022-06-30,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2022Q3,2022-09-30,SOURCE_VERIFIED,TRUE,QUALITATIVE_REGIME,QUALITATIVE_CURRENT_TREND,MULTIPLE,0.00,https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2022/Murphy-USA-Inc.-Reports-Second-Quarter-2022-Results/default.aspx,"July 27 release said momentum accelerated into July as customers benefited from falling fuel prices; no cpg value disclosed."
+2022Q4,2022-12-31,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2023Q1,2023-03-31,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2023Q2,2023-06-30,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2023Q3,2023-09-30,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2023Q4,2023-12-31,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2024Q1,2024-03-31,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2024Q2,2024-06-30,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2024Q3,2024-09-30,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2024Q4,2024-12-31,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2025Q1,2025-03-31,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2025Q2,2025-06-30,SOURCE_VERIFIED,TRUE,NUMERIC_QTD,NUMERIC_ACTUAL_QTD,MULTIPLE,0.67,https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2025/Murphy-USA-Issues-Operations-Update/default.aspx,"April 1-May 31 preliminary QTD: retail margin 29.6 cpg and all-in margin 31.7 cpg."
+2025Q3,2025-09-30,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2025Q4,2025-12-31,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2026Q1,2026-03-31,PENDING_SOURCE_AUDIT,UNRESOLVED,,,,,,
+2026Q2,2026-06-30,SOURCE_VERIFIED,TRUE,NUMERIC_CURRENT_MONTH,NUMERIC_EXPECTED_CURRENT_MONTH,ALL_IN_MARGIN,0.33,https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Inc--Reports-First-Quarter-2026-Results/default.aspx,"April expected all-in fuel-margin range 35-40 cpg; retail-only margin not disclosed."

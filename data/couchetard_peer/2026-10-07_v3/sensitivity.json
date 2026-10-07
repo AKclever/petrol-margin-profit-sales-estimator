@@ -1,0 +1,8 @@
+{
+  "best_improvement_cpg": 0.5973280940940562,
+  "best_improvement_quarter": "2025Q3",
+  "challenger_mae_without_best": 2.413378683212467,
+  "frozen_result_sha256": "2462d89062e01e1761edeee5ab6b443e620a37c864657ab81c9ed5ed3fcf5603",
+  "production_mae_without_best": 2.4246106730134316,
+  "role": "POST_EVALUATION_DESCRIPTIVE_SENSITIVITY_NO_RETUNING"
+}

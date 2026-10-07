@@ -7,7 +7,7 @@ from datetime import date, timedelta
 import pytest
 
 from musa_nowcast.data import DataError, load_actuals, load_market, load_weights
-from musa_nowcast.model import NowcastEngine
+from musa_nowcast.model import AdaptiveNowcastEngine, NowcastEngine
 
 
 REGIONS = {"Gulf Coast": 0.55, "Midwest": 0.30, "East Coast": 0.15}
@@ -182,3 +182,33 @@ def test_recent_regime_failure_blocks_validation(dataset):
 
     assert result["recent_baseline_mae"] == 0
     assert result["validated"] is False
+
+
+def test_adaptive_features_expose_recent_momentum_and_shocks(dataset):
+    market_path, weights_path, actuals_path, forecast_start = dataset
+    engine = AdaptiveNowcastEngine(load_market(market_path), load_weights(weights_path),
+                                   load_actuals(actuals_path))
+    features = engine.features(forecast_start, forecast_start + timedelta(days=90))
+
+    assert features.recent_spread_mean > 0
+    assert features.recent_volatility >= 0
+    assert features.max_weekly_wholesale_drop >= 0
+    assert features.max_weekly_wholesale_increase >= 0
+    assert len(features.model_values(adaptive=True)) == 12
+
+    shock = replace(features, wholesale_change=-100.0)
+    reference = [engine.features(item.start, item.end) for item in engine.actuals]
+    assert engine._regime(shock, reference) == "FAST_FALLING"
+
+
+def test_adaptive_engine_is_explicitly_a_shadow_forecast(dataset):
+    market_path, weights_path, actuals_path, forecast_start = dataset
+    engine = AdaptiveNowcastEngine(load_market(market_path), load_weights(weights_path),
+                                   load_actuals(actuals_path))
+    result = engine.forecast("forecast", forecast_start, forecast_start + timedelta(days=90),
+                             forecast_start + timedelta(days=84))
+
+    assert result.forecast_type == "adaptive_realized_market_nowcast"
+    assert result.regime in {"NORMAL", "FAST_FALLING", "FAST_RISING", "HIGH_VOLATILITY"}
+    assert result.historical_regime_support >= 0
+    assert result.regime_penalty >= 1

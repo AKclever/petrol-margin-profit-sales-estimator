@@ -1,0 +1,18 @@
+{
+  "model_id": "MUSA_SEQUENCE_ANCHOR_RESIDUAL_V1",
+  "status": "FROZEN_BEFORE_FIRST_FIT",
+  "target": "retail-margin residual: actual minus expanding-window production forecast",
+  "features": ["negative_prior_year_anchor_anomaly", "regional_persistent_capture", "negative_regional_persistent_squeeze"],
+  "anchor": "prior-year same-quarter actual minus median of at most three earlier same-quarter actuals, including prior year; fewer than two gives zero anomaly",
+  "sequence": "separate region-level capture/squeeze impulses from contemporaneous retail and wholesale changes; stocks decay by 0.8 each week; quarter feature is mean stock, weighted by production geographic weights",
+  "capture_impulse": "max(retail_change-wholesale_change,0) if wholesale_change < 0, else 0",
+  "squeeze_impulse": "max(wholesale_change-retail_change,0) if wholesale_change > 0, else 0",
+  "weekly_calendar": "same complete in-quarter weekly rows as production; region states run causally across quarter boundaries; eight-transition initial warmup; internal gaps block",
+  "minimum_earlier_out_of_fold_residuals": 8,
+  "fit": "nonnegative standardized ridge coefficients using exact active-set enumeration, alpha 2; unpenalized intercept",
+  "correction_shrinkage": 0.5,
+  "hyperparameter_search": "NONE; no rule changes or tuning after results",
+  "evaluation_role": "RETROSPECTIVE_CURRENT_VINTAGE_RESEARCH_HYPOTHESES_INFORMED_BY_SAME_HISTORY_NOT_PIT_OR_INDEPENDENT_VALIDATION",
+  "promotion": "NOT_AUTOMATIC; production untouched",
+  "limitations": ["weekly regional retail is not MUSA station pricing", "spot wholesale is not delivered acquisition cost", "static current store weights are not PIT or regional gallons", "weekly weights uniform, not observed MUSA gallons", "current-vintage market and outcomes; historical publication lags not reconstructed", "features motivated by previously inspected misses", "earliest misses cannot be tested by a correction lacking earlier residual training observations"]
+}

@@ -1,0 +1,17 @@
+{
+  "model_id": "MUSA_CASEYS_PEER_SURPRISE_V1",
+  "evaluation_role": "RETROSPECTIVE_CURRENT_VINTAGE_RESEARCH",
+  "peer": "CASY",
+  "target_basis": "retail fuel margin before credit-card fees",
+  "selection": "Latest peer period with positive calendar overlap and verified SEC filing availability strictly before MUSA quarter-end cutoff",
+  "peer_forecast": "Existing seasonal/change model, expanding earlier quarters only, minimum 8 earlier targets; market observations no later than peer period-end",
+  "peer_feature": "peer actual minus expanding-window peer forecast; no copying absolute margins or YoY changes",
+  "correction": "One-feature standardized ridge alpha=2, minimum 8 earlier eligible MUSA OOF residuals, 0.5 prediction shrinkage",
+  "residual_availability": "Earlier MUSA outcomes must have verified SEC earnings filing dates strictly before target cutoff",
+  "overlap": "Report calendar overlap days as diagnostic, never call this gallon share",
+  "publication_verification": "SEC 8-K Item 2.02 cover explicitly references peer period-end and earnings/results; use filingDate conservatively, never reportDate",
+  "limitations": ["Historical market inputs are current vintage, not PIT verified", "Peer targets from existing annual-table extraction, not all original releases reconciled", "Static geographic weights", "Hypothesis informed by the same historical misses", "Quarter-end cutoff is a research convention, not an archived forecast timestamp"],
+  "production_changes": false,
+  "automatic_promotion": false,
+  "paid_data": false
+}
