@@ -1,0 +1,21 @@
+{
+  "role":"RESEARCH_EVIDENCE_ONLY",
+  "sources":[
+    {"id":"ARKO_2023Q1","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/144/arko-corp-reports-first-quarter-2023-results"},
+    {"id":"ARKO_2023Q2","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/151/arko-corp-reports-second-quarter-2023-results"},
+    {"id":"ARKO_2023Q3","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/155/arko-corp-reports-third-quarter-2023-results"},
+    {"id":"ARKO_2023Q4","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/160/arko-corp-reports-fourth-quarter-and-full-year-2023-results"},
+    {"id":"ARKO_2024Q1","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/168/arko-corp-reports-first-quarter-2024-results"},
+    {"id":"ARKO_2024Q2","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/172/arko-corp-reports-second-quarter-2024-results"},
+    {"id":"ARKO_2024Q3","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/175/arko-corp-reports-third-quarter-2024-results"},
+    {"id":"ARKO_2024Q4","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/179/arko-corp-reports-fourth-quarter-and-full-year-2024-results"},
+    {"id":"CAPL_2022Q4","company":"CAPL","url":"https://www.sec.gov/Archives/edgar/data/1538849/000095017023004793/capl-ex99_1.htm"},
+    {"id":"CAPL_2023Q1","company":"CAPL","url":"https://www.sec.gov/Archives/edgar/data/1538849/000095017023019078/capl-ex99_1.htm"},
+    {"id":"CAPL_2023Q2","company":"CAPL","url":"https://www.sec.gov/Archives/edgar/data/1538849/000095017023039202/capl-ex99_1.htm"},
+    {"id":"CAPL_2023Q3","company":"CAPL","url":"https://www.sec.gov/Archives/edgar/data/1538849/000095017023060436/capl-ex99_1.htm"},
+    {"id":"CAPL_2023Q4","company":"CAPL","url":"https://www.sec.gov/Archives/edgar/data/1538849/000095017024020376/capl-ex99_1.htm"},
+    {"id":"CAPL_2024Q1","company":"CAPL","url":"https://www.sec.gov/Archives/edgar/data/1538849/000095017024056014/capl-ex99_1.htm"},
+    {"id":"CAPL_2024Q2","company":"CAPL","url":"https://www.sec.gov/Archives/edgar/data/1538849/000095017024093062/capl-ex99_1.htm"},
+    {"id":"CAPL_2024Q3","company":"CAPL","url":"https://www.sec.gov/Archives/edgar/data/1538849/000095017024122490/capl-ex99_1.htm"}
+  ]
+}

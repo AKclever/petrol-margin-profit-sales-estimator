@@ -1,0 +1,186 @@
+{
+  "created_at": "2026-10-07T14:59:54.234823+00:00",
+  "evaluation_role": "RETROSPECTIVE_DOCUMENTARY_DIAGNOSIS_NOT_PIT_FORECAST_INPUT",
+  "original_22_quarter_disclosure_audit_changed": false,
+  "production_changed": false,
+  "q2_2026_supply_components_cpg": {
+    "controllable_including_rins": 7.2,
+    "terminal_and_wholesale": 0.3,
+    "total_supply": 5.5,
+    "uncontrollable_inventory_exposure": -2.0
+  },
+  "quantified_retail_inventory_adjustments_identified": 0,
+  "quickchek_policy_wording": "2021Q2 note: FIFO gasoline; 2021 annual policy: weighted-average petroleum. Difference retained unresolved; not assumed to be a policy change or quantified forecast correction.",
+  "review_script_sha256": "3d2a94472fbe65a4d86721b439fdc1b6220d5a254456e7043e83ded627ca015d",
+  "reviewed_quarters": [
+    {
+      "assessment": "Call separates rising-price retail pressure from favorable uncontrollable PS&W and offsetting supply/RIN economics. Inventory note calls QuickChek gasoline FIFO; do not silently replace that with the later annual policy.",
+      "audit_status": "COMPLETED_TARGETED_ACCOUNTING_REVIEW",
+      "numeric_retail_inventory_adjustment": "NOT_IDENTIFIED_IN_REVIEWED_SCOPE",
+      "petroleum_lifo_reserve_snapshot_million": 222.4,
+      "quarter": "2021Q2",
+      "reserve_is_quarterly_expense": false,
+      "reserve_usable_as_retail_margin_adjustment": false,
+      "retail_adjustment_cpg": null,
+      "review_scope": "inventory notes/accounting policies and relevant fuel-margin, supply and synergy call passages",
+      "reviewed_sources": [
+        {
+          "raw_file": "2021Q2_filing.html",
+          "sha256": "38b13c85b02ea0b9aa07f1c8cc1b305e7bc0b92adafa0ba97aca9bb18fc2180c",
+          "source_type": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000044/musa-20210630.htm"
+        },
+        {
+          "raw_file": "2021Q2_call_0.pdf",
+          "sha256": "3184c6a4a7a65ebea7a43b6255ef8ce27d196f2b8666741c93b77acba9be6e46",
+          "source_type": "ISSUER_HOSTED_CALL_PDF",
+          "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2021/q2/Murphy-USA-Inc.,-Q2-2021-Earnings-Call,-Jul-29,-2021.pdf"
+        }
+      ],
+      "supply_adjustment_applied_to_retail": false,
+      "weekly_acquisition_cost_recovered": false
+    },
+    {
+      "assessment": "Call reports over $8m of 2021 synergies, mostly in total fuel contribution, including retail pricing tactics and renegotiated supply terms. Annual total is not an isolated Q4 retail adjustment. Annual QuickChek petroleum policy is weighted average, unlike June note wording.",
+      "audit_status": "COMPLETED_TARGETED_ACCOUNTING_REVIEW",
+      "numeric_retail_inventory_adjustment": "NOT_IDENTIFIED_IN_REVIEWED_SCOPE",
+      "petroleum_lifo_reserve_snapshot_million": 227.5,
+      "quarter": "2021Q4",
+      "reserve_is_quarterly_expense": false,
+      "reserve_usable_as_retail_margin_adjustment": false,
+      "retail_adjustment_cpg": null,
+      "review_scope": "inventory notes/accounting policies and relevant fuel-margin, supply and synergy call passages",
+      "reviewed_sources": [
+        {
+          "raw_file": "2021Q4_filing.html",
+          "sha256": "ef8cee7c9229dd88875507db24275aa534fdc89dd3557ceb889565eaaf727a85",
+          "source_type": "10-K",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000006/musa-20211231.htm"
+        },
+        {
+          "raw_file": "2021Q4_call_0.pdf",
+          "sha256": "e3c458d0aad4329064e19ce103d778e86c7ca9089076279fd785e20d398257d3",
+          "source_type": "ISSUER_HOSTED_CALL_PDF",
+          "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2021/q4/Q4-2021-Transcript.pdf"
+        }
+      ],
+      "supply_adjustment_applied_to_retail": false,
+      "weekly_acquisition_cost_recovered": false
+    },
+    {
+      "assessment": "Management reports 10.7c supply/RIN contribution and about 2.7c after stripping uncontrollable timing/inventory effects; discusses internal spot-to-rack transfer pricing. Qualitative remark that retail is understated is not a numeric retail restatement.",
+      "audit_status": "COMPLETED_TARGETED_ACCOUNTING_REVIEW",
+      "numeric_retail_inventory_adjustment": "NOT_IDENTIFIED_IN_REVIEWED_SCOPE",
+      "petroleum_lifo_reserve_snapshot_million": 373.2,
+      "quarter": "2022Q1",
+      "reserve_is_quarterly_expense": false,
+      "reserve_usable_as_retail_margin_adjustment": false,
+      "retail_adjustment_cpg": null,
+      "review_scope": "inventory notes/accounting policies and relevant fuel-margin, supply and synergy call passages",
+      "reviewed_sources": [
+        {
+          "raw_file": "2022Q1_filing.html",
+          "sha256": "67991a9ddd9f6485ea3e1ab884bace1ca2ba08d9dca5cf499269257b273dfe8c",
+          "source_type": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000022/musa-20220331.htm"
+        },
+        {
+          "raw_file": "2022Q1_call_0.pdf",
+          "sha256": "6a468695354b1f160ffeff90ace8230d2c9ec7ab9c6839842f3493e6fb844a71",
+          "source_type": "ISSUER_HOSTED_CALL_PDF",
+          "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2022/q1/1Q22-Earnings-Transcript-MUSA.pdf"
+        }
+      ],
+      "supply_adjustment_applied_to_retail": false,
+      "weekly_acquisition_cost_recovered": false
+    },
+    {
+      "assessment": "Call explains falling prices strengthen retail while inventory timing depresses PS&W. No numeric retail inventory adjustment identified in the checked inventory note and fuel-cost call passages.",
+      "audit_status": "COMPLETED_TARGETED_ACCOUNTING_REVIEW",
+      "numeric_retail_inventory_adjustment": "NOT_IDENTIFIED_IN_REVIEWED_SCOPE",
+      "petroleum_lifo_reserve_snapshot_million": 303.2,
+      "quarter": "2022Q3",
+      "reserve_is_quarterly_expense": false,
+      "reserve_usable_as_retail_margin_adjustment": false,
+      "retail_adjustment_cpg": null,
+      "review_scope": "inventory notes/accounting policies and relevant fuel-margin, supply and synergy call passages",
+      "reviewed_sources": [
+        {
+          "raw_file": "2022Q3_filing.html",
+          "sha256": "c3bc7f73e41939cb970e9e369cc46a2dd1b532862fb263a3ce6fd31e19e1a1b5",
+          "source_type": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000045/musa-20220930.htm"
+        },
+        {
+          "raw_file": "2022Q3_call_0.pdf",
+          "sha256": "f7cce82265832d411faa85193b39a465fa365c89782580a441617d52361ec600",
+          "source_type": "ISSUER_HOSTED_CALL_PDF",
+          "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2022/q3/3Q22-MUSA-Earnings-Transcript.pdf"
+        }
+      ],
+      "supply_adjustment_applied_to_retail": false,
+      "weekly_acquisition_cost_recovered": false
+    },
+    {
+      "assessment": "Call attributes supply fluctuation to inventory variances; separate retail commentary describes repeated Friday price moves and subsequent recovery. Supply gains cannot be assigned to retail.",
+      "audit_status": "COMPLETED_TARGETED_ACCOUNTING_REVIEW",
+      "numeric_retail_inventory_adjustment": "NOT_IDENTIFIED_IN_REVIEWED_SCOPE",
+      "petroleum_lifo_reserve_snapshot_million": 311.6,
+      "quarter": "2023Q3",
+      "reserve_is_quarterly_expense": false,
+      "reserve_usable_as_retail_margin_adjustment": false,
+      "retail_adjustment_cpg": null,
+      "review_scope": "inventory notes/accounting policies and relevant fuel-margin, supply and synergy call passages",
+      "reviewed_sources": [
+        {
+          "raw_file": "2023Q3_filing.html",
+          "sha256": "b1f033a0b73e4e8b44af596dccc820f607c098216b6baff6aa2dcf8c1608c412",
+          "source_type": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000049/musa-20230930.htm"
+        },
+        {
+          "raw_file": "2023Q3_call_0.pdf",
+          "sha256": "67f919186a1b05a3b413b7522f690e8c4278f8d720be6a030d06d729195e7b7e",
+          "source_type": "ISSUER_HOSTED_CALL_PDF",
+          "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2023/q3/Q32023_MurphyUSA_EarningsCallTranscript.pdf"
+        }
+      ],
+      "supply_adjustment_applied_to_retail": false,
+      "weekly_acquisition_cost_recovered": false
+    },
+    {
+      "assessment": "Prepared commentary explicitly separates supply controllable +7.2c, uncontrollable -2.0c, terminal/wholesale +0.3c = +5.5c. This corrects any inference that inventory exposure was a supply tailwind. Retail benefit remains a separate 35.1c target.",
+      "audit_status": "COMPLETED_TARGETED_ACCOUNTING_REVIEW",
+      "numeric_retail_inventory_adjustment": "NOT_IDENTIFIED_IN_REVIEWED_SCOPE",
+      "petroleum_lifo_reserve_snapshot_million": 337.0,
+      "quarter": "2026Q2",
+      "reserve_is_quarterly_expense": false,
+      "reserve_usable_as_retail_margin_adjustment": false,
+      "retail_adjustment_cpg": null,
+      "review_scope": "inventory notes/accounting policies and relevant fuel-margin, supply and synergy call passages",
+      "reviewed_sources": [
+        {
+          "raw_file": "2026Q2_filing.html",
+          "sha256": "d776c82f97a45927dcbc4e0ea9054fc7dd92d1e92019d2c37db1978d32bf366e",
+          "source_type": "10-Q",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351626000166/musa-20260630.htm"
+        },
+        {
+          "raw_file": "2026Q2_call_0.pdf",
+          "sha256": "b4da9620f7af9a41bb6c49a42defd324d8d8019b363819e4418bf636153a4e1d",
+          "source_type": "ISSUER_HOSTED_CALL_PDF",
+          "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2026/q2/MurphyUSA_Q2_2026_Quarterly_Commentary_vFinal.pdf"
+        },
+        {
+          "raw_file": "2026Q2_call_1.pdf",
+          "sha256": "f25b1128a34311b752c86939c059f300cbd7b83bf25c3812ac5ebb525ed0b1ae",
+          "source_type": "ISSUER_HOSTED_CALL_PDF",
+          "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2026/q2/MurphyUSA_Q226_QuestionAnswerTranscript.pdf"
+        }
+      ],
+      "supply_adjustment_applied_to_retail": false,
+      "weekly_acquisition_cost_recovered": false
+    }
+  ],
+  "source_checks_sha256": "7f2803fab14df37e86fdfa8b94cdbc4bc6c5b6118d63ab7f0b96cc01de82ec34"
+}

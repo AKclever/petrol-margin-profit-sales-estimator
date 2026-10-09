@@ -1,0 +1,29 @@
+{
+  "candidates": [
+    {
+      "audit_status": "PENDING_SOURCE_AND_PERIOD_ADJUDICATION",
+      "available_at_date": "2026-04-30",
+      "date_precision": "DATE_ONLY_NO_INTRADAY_ASSUMPTION",
+      "disclosed_basis": "RETAIL_APPROXIMATE_COMMENTARY_WITH_SEPARATE_ALL_IN_RANGE",
+      "evidence": {
+        "exact_error_effect_cpg": null,
+        "locator": "retail margins are around",
+        "page_1_based": 12,
+        "reviewed_at": "2026-10-08T09:20:56.533615+00:00",
+        "start_offset": 41619,
+        "text_sha256": "4033cdc460e916a525b40dc6d298868864ab10bf0089cdd6ba232fd6caf03aa4",
+        "text_source": "data/deep_miss_diagnosis/2026-10-08_controls_v1/2026Q1_call_1.json"
+      },
+      "exact_low_high_bounds": null,
+      "forecast_assimilated": false,
+      "gallon_share": null,
+      "numeric_retail_reference_cpg": 30.0,
+      "observed_period": "APRIL_TO_DATE_CONTEXT_BOOKS_NOT_CLOSED_EXACT_END_UNRESOLVED",
+      "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2026/q1/MurphyUSA_Q126_Q-ATranscript.pdf",
+      "target_quarter": "2026Q2"
+    }
+  ],
+  "conclusion": "Do not describe Q2 2026 as verified no-disclosure. Do not convert approximate retail commentary or all-in range into an exact quarterly retail anchor.",
+  "created_at": "2026-10-08T09:20:56.533622+00:00",
+  "original_audit_unchanged": true
+}

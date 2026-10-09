@@ -29,6 +29,8 @@ musa-prospective = "musa_nowcast.prospective:main"
 musa-daily-capture = "musa_nowcast.daily_capture:main"
 musa-daily-prices = "musa_nowcast.daily_prices:main"
 musa-couchetard-peer = "musa_nowcast.couchetard_peer:main"
+musa-alt-experiments = "musa_nowcast.alternative_experiments:main"
+musa-futures-scenarios = "musa_nowcast.futures_scenarios:main"
 
 [tool.setuptools]
 packages = ["musa_nowcast"]

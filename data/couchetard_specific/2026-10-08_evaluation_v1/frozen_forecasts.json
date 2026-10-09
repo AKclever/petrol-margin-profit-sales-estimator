@@ -1,0 +1,2967 @@
+{
+  "created_at": "2026-10-08T11:21:59.766755+00:00",
+  "exclusions": [],
+  "forecasts": {
+    "F2016Q4": {
+      "anchor_offset_cpg": -0.95875,
+      "change_pairs": [
+        {
+          "change_cpg": 0.6100000000000012,
+          "current_available_at": "2015-07-14",
+          "prior_available_at": "2014-07-07",
+          "prior_year_quarter": "F2014Q4",
+          "quarter": "F2015Q4"
+        },
+        {
+          "change_cpg": -4.739999999999998,
+          "current_available_at": "2015-09-01",
+          "prior_available_at": "2014-09-03",
+          "prior_year_quarter": "F2015Q1",
+          "quarter": "F2016Q1"
+        },
+        {
+          "change_cpg": 1.4899999999999984,
+          "current_available_at": "2015-11-24",
+          "prior_available_at": "2014-11-25",
+          "prior_year_quarter": "F2015Q2",
+          "quarter": "F2016Q2"
+        },
+        {
+          "change_cpg": -5.030000000000001,
+          "current_available_at": "2016-03-15",
+          "prior_available_at": "2015-03-17",
+          "prior_year_quarter": "F2015Q3",
+          "quarter": "F2016Q3"
+        }
+      ],
+      "information_cutoff": "2016-04-24",
+      "market_adjustment_cpg": -0.1350146551234097,
+      "prediction_cpg": 14.366235344876591,
+      "quarter": "F2016Q4",
+      "recent_level_seasonal_cpg": 14.50125,
+      "target_end": "2016-04-24",
+      "target_start": "2016-02-01",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3"
+      ]
+    },
+    "F2017Q1": {
+      "anchor_offset_cpg": -0.8700000000000001,
+      "change_pairs": [
+        {
+          "change_cpg": -4.739999999999998,
+          "current_available_at": "2015-09-01",
+          "prior_available_at": "2014-09-03",
+          "prior_year_quarter": "F2015Q1",
+          "quarter": "F2016Q1"
+        },
+        {
+          "change_cpg": 1.4899999999999984,
+          "current_available_at": "2015-11-24",
+          "prior_available_at": "2014-11-25",
+          "prior_year_quarter": "F2015Q2",
+          "quarter": "F2016Q2"
+        },
+        {
+          "change_cpg": -5.030000000000001,
+          "current_available_at": "2016-03-15",
+          "prior_available_at": "2015-03-17",
+          "prior_year_quarter": "F2015Q3",
+          "quarter": "F2016Q3"
+        },
+        {
+          "change_cpg": 1.3200000000000003,
+          "current_available_at": "2016-07-12",
+          "prior_available_at": "2015-07-14",
+          "prior_year_quarter": "F2015Q4",
+          "quarter": "F2016Q4"
+        }
+      ],
+      "information_cutoff": "2016-07-17",
+      "market_adjustment_cpg": -0.06286715100124951,
+      "prediction_cpg": 17.40713284899875,
+      "quarter": "F2017Q1",
+      "recent_level_seasonal_cpg": 17.47,
+      "target_end": "2016-07-17",
+      "target_start": "2016-04-25",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4"
+      ]
+    },
+    "F2017Q2": {
+      "anchor_offset_cpg": 0.037499999999999645,
+      "change_pairs": [
+        {
+          "change_cpg": 1.4899999999999984,
+          "current_available_at": "2015-11-24",
+          "prior_available_at": "2014-11-25",
+          "prior_year_quarter": "F2015Q2",
+          "quarter": "F2016Q2"
+        },
+        {
+          "change_cpg": -5.030000000000001,
+          "current_available_at": "2016-03-15",
+          "prior_available_at": "2015-03-17",
+          "prior_year_quarter": "F2015Q3",
+          "quarter": "F2016Q3"
+        },
+        {
+          "change_cpg": 1.3200000000000003,
+          "current_available_at": "2016-07-12",
+          "prior_available_at": "2015-07-14",
+          "prior_year_quarter": "F2015Q4",
+          "quarter": "F2016Q4"
+        },
+        {
+          "change_cpg": 2.5199999999999996,
+          "current_available_at": "2016-08-30",
+          "prior_available_at": "2015-09-01",
+          "prior_year_quarter": "F2016Q1",
+          "quarter": "F2017Q1"
+        }
+      ],
+      "information_cutoff": "2016-10-09",
+      "market_adjustment_cpg": -0.5433254767937292,
+      "prediction_cpg": 25.154174523206272,
+      "quarter": "F2017Q2",
+      "recent_level_seasonal_cpg": 25.697499999999998,
+      "target_end": "2016-10-09",
+      "target_start": "2016-07-18",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1"
+      ]
+    },
+    "F2017Q3": {
+      "anchor_offset_cpg": -0.8725,
+      "change_pairs": [
+        {
+          "change_cpg": -5.030000000000001,
+          "current_available_at": "2016-03-15",
+          "prior_available_at": "2015-03-17",
+          "prior_year_quarter": "F2015Q3",
+          "quarter": "F2016Q3"
+        },
+        {
+          "change_cpg": 1.3200000000000003,
+          "current_available_at": "2016-07-12",
+          "prior_available_at": "2015-07-14",
+          "prior_year_quarter": "F2015Q4",
+          "quarter": "F2016Q4"
+        },
+        {
+          "change_cpg": 2.5199999999999996,
+          "current_available_at": "2016-08-30",
+          "prior_available_at": "2015-09-01",
+          "prior_year_quarter": "F2016Q1",
+          "quarter": "F2017Q1"
+        },
+        {
+          "change_cpg": -5.789999999999999,
+          "current_available_at": "2016-11-22",
+          "prior_available_at": "2015-11-24",
+          "prior_year_quarter": "F2016Q2",
+          "quarter": "F2017Q2"
+        }
+      ],
+      "information_cutoff": "2017-01-29",
+      "market_adjustment_cpg": -1.1426604103791256,
+      "prediction_cpg": 17.884839589620874,
+      "quarter": "F2017Q3",
+      "recent_level_seasonal_cpg": 19.0275,
+      "target_end": "2017-01-29",
+      "target_start": "2016-10-10",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2"
+      ]
+    },
+    "F2017Q4": {
+      "anchor_offset_cpg": -0.43999999999999995,
+      "change_pairs": [
+        {
+          "change_cpg": 1.3200000000000003,
+          "current_available_at": "2016-07-12",
+          "prior_available_at": "2015-07-14",
+          "prior_year_quarter": "F2015Q4",
+          "quarter": "F2016Q4"
+        },
+        {
+          "change_cpg": 2.5199999999999996,
+          "current_available_at": "2016-08-30",
+          "prior_available_at": "2015-09-01",
+          "prior_year_quarter": "F2016Q1",
+          "quarter": "F2017Q1"
+        },
+        {
+          "change_cpg": -5.789999999999999,
+          "current_available_at": "2016-11-22",
+          "prior_available_at": "2015-11-24",
+          "prior_year_quarter": "F2016Q2",
+          "quarter": "F2017Q2"
+        },
+        {
+          "change_cpg": -1.5700000000000003,
+          "current_available_at": "2017-03-14",
+          "prior_available_at": "2016-03-15",
+          "prior_year_quarter": "F2016Q3",
+          "quarter": "F2017Q3"
+        }
+      ],
+      "information_cutoff": "2017-04-30",
+      "market_adjustment_cpg": -1.3880765627806166,
+      "prediction_cpg": 14.951923437219385,
+      "quarter": "F2017Q4",
+      "recent_level_seasonal_cpg": 16.34,
+      "target_end": "2017-04-30",
+      "target_start": "2017-01-30",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3"
+      ]
+    },
+    "F2018Q1": {
+      "anchor_offset_cpg": -0.76875,
+      "change_pairs": [
+        {
+          "change_cpg": 2.5199999999999996,
+          "current_available_at": "2016-08-30",
+          "prior_available_at": "2015-09-01",
+          "prior_year_quarter": "F2016Q1",
+          "quarter": "F2017Q1"
+        },
+        {
+          "change_cpg": -5.789999999999999,
+          "current_available_at": "2016-11-22",
+          "prior_available_at": "2015-11-24",
+          "prior_year_quarter": "F2016Q2",
+          "quarter": "F2017Q2"
+        },
+        {
+          "change_cpg": -1.5700000000000003,
+          "current_available_at": "2017-03-14",
+          "prior_available_at": "2016-03-15",
+          "prior_year_quarter": "F2016Q3",
+          "quarter": "F2017Q3"
+        },
+        {
+          "change_cpg": -1.3100000000000005,
+          "current_available_at": "2017-07-12",
+          "prior_available_at": "2016-07-12",
+          "prior_year_quarter": "F2016Q4",
+          "quarter": "F2017Q4"
+        }
+      ],
+      "information_cutoff": "2017-07-23",
+      "market_adjustment_cpg": -0.0950674333515309,
+      "prediction_cpg": 19.996182566648468,
+      "quarter": "F2018Q1",
+      "recent_level_seasonal_cpg": 20.09125,
+      "target_end": "2017-07-23",
+      "target_start": "2017-05-01",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4"
+      ]
+    },
+    "F2018Q2": {
+      "anchor_offset_cpg": -1.0975,
+      "change_pairs": [
+        {
+          "change_cpg": -5.789999999999999,
+          "current_available_at": "2016-11-22",
+          "prior_available_at": "2015-11-24",
+          "prior_year_quarter": "F2016Q2",
+          "quarter": "F2017Q2"
+        },
+        {
+          "change_cpg": -1.5700000000000003,
+          "current_available_at": "2017-03-14",
+          "prior_available_at": "2016-03-15",
+          "prior_year_quarter": "F2016Q3",
+          "quarter": "F2017Q3"
+        },
+        {
+          "change_cpg": -1.3100000000000005,
+          "current_available_at": "2017-07-12",
+          "prior_available_at": "2016-07-12",
+          "prior_year_quarter": "F2016Q4",
+          "quarter": "F2017Q4"
+        },
+        {
+          "change_cpg": -0.10999999999999943,
+          "current_available_at": "2017-09-06",
+          "prior_available_at": "2016-08-30",
+          "prior_year_quarter": "F2017Q1",
+          "quarter": "F2018Q1"
+        }
+      ],
+      "information_cutoff": "2017-10-15",
+      "market_adjustment_cpg": 1.2495138258513023,
+      "prediction_cpg": 20.022013825851303,
+      "quarter": "F2018Q2",
+      "recent_level_seasonal_cpg": 18.7725,
+      "target_end": "2017-10-15",
+      "target_start": "2017-07-24",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1"
+      ]
+    },
+    "F2018Q3": {
+      "anchor_offset_cpg": 0.22999999999999976,
+      "change_pairs": [
+        {
+          "change_cpg": -1.5700000000000003,
+          "current_available_at": "2017-03-14",
+          "prior_available_at": "2016-03-15",
+          "prior_year_quarter": "F2016Q3",
+          "quarter": "F2017Q3"
+        },
+        {
+          "change_cpg": -1.3100000000000005,
+          "current_available_at": "2017-07-12",
+          "prior_available_at": "2016-07-12",
+          "prior_year_quarter": "F2016Q4",
+          "quarter": "F2017Q4"
+        },
+        {
+          "change_cpg": -0.10999999999999943,
+          "current_available_at": "2017-09-06",
+          "prior_available_at": "2016-08-30",
+          "prior_year_quarter": "F2017Q1",
+          "quarter": "F2018Q1"
+        },
+        {
+          "change_cpg": 4.829999999999998,
+          "current_available_at": "2017-11-28",
+          "prior_available_at": "2016-11-22",
+          "prior_year_quarter": "F2017Q2",
+          "quarter": "F2018Q2"
+        }
+      ],
+      "information_cutoff": "2018-02-04",
+      "market_adjustment_cpg": -0.8891829456853984,
+      "prediction_cpg": 17.6708170543146,
+      "quarter": "F2018Q3",
+      "recent_level_seasonal_cpg": 18.56,
+      "target_end": "2018-02-04",
+      "target_start": "2017-10-16",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2"
+      ]
+    },
+    "F2018Q4": {
+      "anchor_offset_cpg": 0.09250000000000003,
+      "change_pairs": [
+        {
+          "change_cpg": -1.3100000000000005,
+          "current_available_at": "2017-07-12",
+          "prior_available_at": "2016-07-12",
+          "prior_year_quarter": "F2016Q4",
+          "quarter": "F2017Q4"
+        },
+        {
+          "change_cpg": -0.10999999999999943,
+          "current_available_at": "2017-09-06",
+          "prior_available_at": "2016-08-30",
+          "prior_year_quarter": "F2017Q1",
+          "quarter": "F2018Q1"
+        },
+        {
+          "change_cpg": 4.829999999999998,
+          "current_available_at": "2017-11-28",
+          "prior_available_at": "2016-11-22",
+          "prior_year_quarter": "F2017Q2",
+          "quarter": "F2018Q2"
+        },
+        {
+          "change_cpg": -2.669999999999998,
+          "current_available_at": "2018-03-20",
+          "prior_available_at": "2017-03-14",
+          "prior_year_quarter": "F2017Q3",
+          "quarter": "F2018Q3"
+        }
+      ],
+      "information_cutoff": "2018-04-29",
+      "market_adjustment_cpg": 0.36516126602021615,
+      "prediction_cpg": 15.927661266020216,
+      "quarter": "F2018Q4",
+      "recent_level_seasonal_cpg": 15.5625,
+      "target_end": "2018-04-29",
+      "target_start": "2018-02-05",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3"
+      ]
+    },
+    "F2019Q1": {
+      "anchor_offset_cpg": 0.4837499999999999,
+      "change_pairs": [
+        {
+          "change_cpg": -0.10999999999999943,
+          "current_available_at": "2017-09-06",
+          "prior_available_at": "2016-08-30",
+          "prior_year_quarter": "F2017Q1",
+          "quarter": "F2018Q1"
+        },
+        {
+          "change_cpg": 4.829999999999998,
+          "current_available_at": "2017-11-28",
+          "prior_available_at": "2016-11-22",
+          "prior_year_quarter": "F2017Q2",
+          "quarter": "F2018Q2"
+        },
+        {
+          "change_cpg": -2.669999999999998,
+          "current_available_at": "2018-03-20",
+          "prior_available_at": "2017-03-14",
+          "prior_year_quarter": "F2017Q3",
+          "quarter": "F2018Q3"
+        },
+        {
+          "change_cpg": 1.8199999999999985,
+          "current_available_at": "2018-07-09",
+          "prior_available_at": "2017-07-12",
+          "prior_year_quarter": "F2017Q4",
+          "quarter": "F2018Q4"
+        }
+      ],
+      "information_cutoff": "2018-07-22",
+      "market_adjustment_cpg": -0.4177134028333356,
+      "prediction_cpg": 20.816036597166665,
+      "quarter": "F2019Q1",
+      "recent_level_seasonal_cpg": 21.23375,
+      "target_end": "2018-07-22",
+      "target_start": "2018-04-30",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4"
+      ]
+    },
+    "F2019Q2": {
+      "anchor_offset_cpg": 0.7412499999999997,
+      "change_pairs": [
+        {
+          "change_cpg": 4.829999999999998,
+          "current_available_at": "2017-11-28",
+          "prior_available_at": "2016-11-22",
+          "prior_year_quarter": "F2017Q2",
+          "quarter": "F2018Q2"
+        },
+        {
+          "change_cpg": -2.669999999999998,
+          "current_available_at": "2018-03-20",
+          "prior_available_at": "2017-03-14",
+          "prior_year_quarter": "F2017Q3",
+          "quarter": "F2018Q3"
+        },
+        {
+          "change_cpg": 1.8199999999999985,
+          "current_available_at": "2018-07-09",
+          "prior_available_at": "2017-07-12",
+          "prior_year_quarter": "F2017Q4",
+          "quarter": "F2018Q4"
+        },
+        {
+          "change_cpg": 1.9499999999999993,
+          "current_available_at": "2018-09-05",
+          "prior_available_at": "2017-09-06",
+          "prior_year_quarter": "F2018Q1",
+          "quarter": "F2019Q1"
+        }
+      ],
+      "information_cutoff": "2018-10-14",
+      "market_adjustment_cpg": -1.5272384256917029,
+      "prediction_cpg": 23.914011574308297,
+      "quarter": "F2019Q2",
+      "recent_level_seasonal_cpg": 25.44125,
+      "target_end": "2018-10-14",
+      "target_start": "2018-07-23",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1"
+      ]
+    },
+    "F2019Q3": {
+      "anchor_offset_cpg": -0.21500000000000008,
+      "change_pairs": [
+        {
+          "change_cpg": -2.669999999999998,
+          "current_available_at": "2018-03-20",
+          "prior_available_at": "2017-03-14",
+          "prior_year_quarter": "F2017Q3",
+          "quarter": "F2018Q3"
+        },
+        {
+          "change_cpg": 1.8199999999999985,
+          "current_available_at": "2018-07-09",
+          "prior_available_at": "2017-07-12",
+          "prior_year_quarter": "F2017Q4",
+          "quarter": "F2018Q4"
+        },
+        {
+          "change_cpg": 1.9499999999999993,
+          "current_available_at": "2018-09-05",
+          "prior_available_at": "2017-09-06",
+          "prior_year_quarter": "F2018Q1",
+          "quarter": "F2019Q1"
+        },
+        {
+          "change_cpg": -2.8200000000000003,
+          "current_available_at": "2018-11-27",
+          "prior_available_at": "2017-11-28",
+          "prior_year_quarter": "F2018Q2",
+          "quarter": "F2019Q2"
+        }
+      ],
+      "information_cutoff": "2019-02-03",
+      "market_adjustment_cpg": 2.0971159408723317,
+      "prediction_cpg": 17.542115940872332,
+      "quarter": "F2019Q3",
+      "recent_level_seasonal_cpg": 15.445,
+      "target_end": "2019-02-03",
+      "target_start": "2018-10-15",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2"
+      ]
+    },
+    "F2019Q4": {
+      "anchor_offset_cpg": 1.8387499999999999,
+      "change_pairs": [
+        {
+          "change_cpg": 1.8199999999999985,
+          "current_available_at": "2018-07-09",
+          "prior_available_at": "2017-07-12",
+          "prior_year_quarter": "F2017Q4",
+          "quarter": "F2018Q4"
+        },
+        {
+          "change_cpg": 1.9499999999999993,
+          "current_available_at": "2018-09-05",
+          "prior_available_at": "2017-09-06",
+          "prior_year_quarter": "F2018Q1",
+          "quarter": "F2019Q1"
+        },
+        {
+          "change_cpg": -2.8200000000000003,
+          "current_available_at": "2018-11-27",
+          "prior_available_at": "2017-11-28",
+          "prior_year_quarter": "F2018Q2",
+          "quarter": "F2019Q2"
+        },
+        {
+          "change_cpg": 13.760000000000002,
+          "current_available_at": "2019-03-19",
+          "prior_available_at": "2018-03-20",
+          "prior_year_quarter": "F2018Q3",
+          "quarter": "F2019Q3"
+        }
+      ],
+      "information_cutoff": "2019-04-28",
+      "market_adjustment_cpg": 0.9024589425284475,
+      "prediction_cpg": 20.031208942528448,
+      "quarter": "F2019Q4",
+      "recent_level_seasonal_cpg": 19.12875,
+      "target_end": "2019-04-28",
+      "target_start": "2019-02-04",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3"
+      ]
+    },
+    "F2020Q1": {
+      "anchor_offset_cpg": 1.7637500000000004,
+      "change_pairs": [
+        {
+          "change_cpg": 1.9499999999999993,
+          "current_available_at": "2018-09-05",
+          "prior_available_at": "2017-09-06",
+          "prior_year_quarter": "F2018Q1",
+          "quarter": "F2019Q1"
+        },
+        {
+          "change_cpg": -2.8200000000000003,
+          "current_available_at": "2018-11-27",
+          "prior_available_at": "2017-11-28",
+          "prior_year_quarter": "F2018Q2",
+          "quarter": "F2019Q2"
+        },
+        {
+          "change_cpg": 13.760000000000002,
+          "current_available_at": "2019-03-19",
+          "prior_available_at": "2018-03-20",
+          "prior_year_quarter": "F2018Q3",
+          "quarter": "F2019Q3"
+        },
+        {
+          "change_cpg": 1.2200000000000024,
+          "current_available_at": "2019-07-09",
+          "prior_available_at": "2018-07-09",
+          "prior_year_quarter": "F2018Q4",
+          "quarter": "F2019Q4"
+        }
+      ],
+      "information_cutoff": "2019-07-21",
+      "market_adjustment_cpg": 2.1353397345586203,
+      "prediction_cpg": 26.59908973455862,
+      "quarter": "F2020Q1",
+      "recent_level_seasonal_cpg": 24.46375,
+      "target_end": "2019-07-21",
+      "target_start": "2019-04-29",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4"
+      ]
+    },
+    "F2020Q2": {
+      "anchor_offset_cpg": 2.0400000000000005,
+      "change_pairs": [
+        {
+          "change_cpg": -2.8200000000000003,
+          "current_available_at": "2018-11-27",
+          "prior_available_at": "2017-11-28",
+          "prior_year_quarter": "F2018Q2",
+          "quarter": "F2019Q2"
+        },
+        {
+          "change_cpg": 13.760000000000002,
+          "current_available_at": "2019-03-19",
+          "prior_available_at": "2018-03-20",
+          "prior_year_quarter": "F2018Q3",
+          "quarter": "F2019Q3"
+        },
+        {
+          "change_cpg": 1.2200000000000024,
+          "current_available_at": "2019-07-09",
+          "prior_available_at": "2018-07-09",
+          "prior_year_quarter": "F2018Q4",
+          "quarter": "F2019Q4"
+        },
+        {
+          "change_cpg": 4.16,
+          "current_available_at": "2019-09-04",
+          "prior_available_at": "2018-09-05",
+          "prior_year_quarter": "F2019Q1",
+          "quarter": "F2020Q1"
+        }
+      ],
+      "information_cutoff": "2019-10-13",
+      "market_adjustment_cpg": 2.3858180402109674,
+      "prediction_cpg": 26.305818040210966,
+      "quarter": "F2020Q2",
+      "recent_level_seasonal_cpg": 23.919999999999998,
+      "target_end": "2019-10-13",
+      "target_start": "2019-07-22",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1"
+      ]
+    },
+    "F2020Q3": {
+      "anchor_offset_cpg": 3.1937500000000005,
+      "change_pairs": [
+        {
+          "change_cpg": 13.760000000000002,
+          "current_available_at": "2019-03-19",
+          "prior_available_at": "2018-03-20",
+          "prior_year_quarter": "F2018Q3",
+          "quarter": "F2019Q3"
+        },
+        {
+          "change_cpg": 1.2200000000000024,
+          "current_available_at": "2019-07-09",
+          "prior_available_at": "2018-07-09",
+          "prior_year_quarter": "F2018Q4",
+          "quarter": "F2019Q4"
+        },
+        {
+          "change_cpg": 4.16,
+          "current_available_at": "2019-09-04",
+          "prior_available_at": "2018-09-05",
+          "prior_year_quarter": "F2019Q1",
+          "quarter": "F2020Q1"
+        },
+        {
+          "change_cpg": 6.41,
+          "current_available_at": "2019-11-26",
+          "prior_available_at": "2018-11-27",
+          "prior_year_quarter": "F2019Q2",
+          "quarter": "F2020Q2"
+        }
+      ],
+      "information_cutoff": "2020-02-02",
+      "market_adjustment_cpg": -1.659854138849191,
+      "prediction_cpg": 30.953895861150812,
+      "quarter": "F2020Q3",
+      "recent_level_seasonal_cpg": 32.61375,
+      "target_end": "2020-02-02",
+      "target_start": "2019-10-14",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2"
+      ]
+    },
+    "F2020Q4": {
+      "anchor_offset_cpg": 1.17625,
+      "change_pairs": [
+        {
+          "change_cpg": 1.2200000000000024,
+          "current_available_at": "2019-07-09",
+          "prior_available_at": "2018-07-09",
+          "prior_year_quarter": "F2018Q4",
+          "quarter": "F2019Q4"
+        },
+        {
+          "change_cpg": 4.16,
+          "current_available_at": "2019-09-04",
+          "prior_available_at": "2018-09-05",
+          "prior_year_quarter": "F2019Q1",
+          "quarter": "F2020Q1"
+        },
+        {
+          "change_cpg": 6.41,
+          "current_available_at": "2019-11-26",
+          "prior_available_at": "2018-11-27",
+          "prior_year_quarter": "F2019Q2",
+          "quarter": "F2020Q2"
+        },
+        {
+          "change_cpg": -2.3800000000000026,
+          "current_available_at": "2020-03-17",
+          "prior_available_at": "2019-03-19",
+          "prior_year_quarter": "F2019Q3",
+          "quarter": "F2020Q3"
+        }
+      ],
+      "information_cutoff": "2020-04-26",
+      "market_adjustment_cpg": 10.533119829118515,
+      "prediction_cpg": 30.219369829118516,
+      "quarter": "F2020Q4",
+      "recent_level_seasonal_cpg": 19.68625,
+      "target_end": "2020-04-26",
+      "target_start": "2020-02-03",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3"
+      ]
+    },
+    "F2021Q1": {
+      "anchor_offset_cpg": 4.57,
+      "change_pairs": [
+        {
+          "change_cpg": 4.16,
+          "current_available_at": "2019-09-04",
+          "prior_available_at": "2018-09-05",
+          "prior_year_quarter": "F2019Q1",
+          "quarter": "F2020Q1"
+        },
+        {
+          "change_cpg": 6.41,
+          "current_available_at": "2019-11-26",
+          "prior_available_at": "2018-11-27",
+          "prior_year_quarter": "F2019Q2",
+          "quarter": "F2020Q2"
+        },
+        {
+          "change_cpg": -2.3800000000000026,
+          "current_available_at": "2020-03-17",
+          "prior_available_at": "2019-03-19",
+          "prior_year_quarter": "F2019Q3",
+          "quarter": "F2020Q3"
+        },
+        {
+          "change_cpg": 28.37,
+          "current_available_at": "2020-06-29",
+          "prior_available_at": "2019-07-09",
+          "prior_year_quarter": "F2019Q4",
+          "quarter": "F2020Q4"
+        }
+      ],
+      "information_cutoff": "2020-07-19",
+      "market_adjustment_cpg": 0.8463092464133766,
+      "prediction_cpg": 32.276309246413376,
+      "quarter": "F2021Q1",
+      "recent_level_seasonal_cpg": 31.43,
+      "target_end": "2020-07-19",
+      "target_start": "2020-04-27",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4"
+      ]
+    },
+    "F2021Q2": {
+      "anchor_offset_cpg": 6.06625,
+      "change_pairs": [
+        {
+          "change_cpg": 6.41,
+          "current_available_at": "2019-11-26",
+          "prior_available_at": "2018-11-27",
+          "prior_year_quarter": "F2019Q2",
+          "quarter": "F2020Q2"
+        },
+        {
+          "change_cpg": -2.3800000000000026,
+          "current_available_at": "2020-03-17",
+          "prior_available_at": "2019-03-19",
+          "prior_year_quarter": "F2019Q3",
+          "quarter": "F2020Q3"
+        },
+        {
+          "change_cpg": 28.37,
+          "current_available_at": "2020-06-29",
+          "prior_available_at": "2019-07-09",
+          "prior_year_quarter": "F2019Q4",
+          "quarter": "F2020Q4"
+        },
+        {
+          "change_cpg": 16.130000000000003,
+          "current_available_at": "2020-09-01",
+          "prior_available_at": "2019-09-04",
+          "prior_year_quarter": "F2020Q1",
+          "quarter": "F2021Q1"
+        }
+      ],
+      "information_cutoff": "2020-10-11",
+      "market_adjustment_cpg": 1.6700387299304573,
+      "prediction_cpg": 36.02628872993046,
+      "quarter": "F2021Q2",
+      "recent_level_seasonal_cpg": 34.35625,
+      "target_end": "2020-10-11",
+      "target_start": "2020-07-20",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1"
+      ]
+    },
+    "F2021Q3": {
+      "anchor_offset_cpg": 6.41375,
+      "change_pairs": [
+        {
+          "change_cpg": -2.3800000000000026,
+          "current_available_at": "2020-03-17",
+          "prior_available_at": "2019-03-19",
+          "prior_year_quarter": "F2019Q3",
+          "quarter": "F2020Q3"
+        },
+        {
+          "change_cpg": 28.37,
+          "current_available_at": "2020-06-29",
+          "prior_available_at": "2019-07-09",
+          "prior_year_quarter": "F2019Q4",
+          "quarter": "F2020Q4"
+        },
+        {
+          "change_cpg": 16.130000000000003,
+          "current_available_at": "2020-09-01",
+          "prior_available_at": "2019-09-04",
+          "prior_year_quarter": "F2020Q1",
+          "quarter": "F2021Q1"
+        },
+        {
+          "change_cpg": 9.189999999999998,
+          "current_available_at": "2020-11-24",
+          "prior_available_at": "2019-11-26",
+          "prior_year_quarter": "F2020Q2",
+          "quarter": "F2021Q2"
+        }
+      ],
+      "information_cutoff": "2021-01-31",
+      "market_adjustment_cpg": 1.5355269465313164,
+      "prediction_cpg": 34.98927694653132,
+      "quarter": "F2021Q3",
+      "recent_level_seasonal_cpg": 33.45375,
+      "target_end": "2021-01-31",
+      "target_start": "2020-10-12",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2"
+      ]
+    },
+    "F2021Q4": {
+      "anchor_offset_cpg": 7.313750000000001,
+      "change_pairs": [
+        {
+          "change_cpg": 28.37,
+          "current_available_at": "2020-06-29",
+          "prior_available_at": "2019-07-09",
+          "prior_year_quarter": "F2019Q4",
+          "quarter": "F2020Q4"
+        },
+        {
+          "change_cpg": 16.130000000000003,
+          "current_available_at": "2020-09-01",
+          "prior_available_at": "2019-09-04",
+          "prior_year_quarter": "F2020Q1",
+          "quarter": "F2021Q1"
+        },
+        {
+          "change_cpg": 9.189999999999998,
+          "current_available_at": "2020-11-24",
+          "prior_available_at": "2019-11-26",
+          "prior_year_quarter": "F2020Q2",
+          "quarter": "F2021Q2"
+        },
+        {
+          "change_cpg": 4.82,
+          "current_available_at": "2021-03-17",
+          "prior_available_at": "2020-03-17",
+          "prior_year_quarter": "F2020Q3",
+          "quarter": "F2021Q3"
+        }
+      ],
+      "information_cutoff": "2021-04-25",
+      "market_adjustment_cpg": -8.411184024001635,
+      "prediction_cpg": 45.78256597599837,
+      "quarter": "F2021Q4",
+      "recent_level_seasonal_cpg": 54.19375,
+      "target_end": "2021-04-25",
+      "target_start": "2021-02-01",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3"
+      ]
+    },
+    "F2022Q1": {
+      "anchor_offset_cpg": 2.3137499999999998,
+      "change_pairs": [
+        {
+          "change_cpg": 16.130000000000003,
+          "current_available_at": "2020-09-01",
+          "prior_available_at": "2019-09-04",
+          "prior_year_quarter": "F2020Q1",
+          "quarter": "F2021Q1"
+        },
+        {
+          "change_cpg": 9.189999999999998,
+          "current_available_at": "2020-11-24",
+          "prior_available_at": "2019-11-26",
+          "prior_year_quarter": "F2020Q2",
+          "quarter": "F2021Q2"
+        },
+        {
+          "change_cpg": 4.82,
+          "current_available_at": "2021-03-17",
+          "prior_available_at": "2020-03-17",
+          "prior_year_quarter": "F2020Q3",
+          "quarter": "F2021Q3"
+        },
+        {
+          "change_cpg": -11.630000000000003,
+          "current_available_at": "2021-06-29",
+          "prior_available_at": "2020-06-29",
+          "prior_year_quarter": "F2020Q4",
+          "quarter": "F2021Q4"
+        }
+      ],
+      "information_cutoff": "2021-07-18",
+      "market_adjustment_cpg": -2.2826959777529368,
+      "prediction_cpg": 43.021054022247064,
+      "quarter": "F2022Q1",
+      "recent_level_seasonal_cpg": 45.30375,
+      "target_end": "2021-07-18",
+      "target_start": "2021-04-26",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4"
+      ]
+    },
+    "F2022Q2": {
+      "anchor_offset_cpg": -0.37875000000000103,
+      "change_pairs": [
+        {
+          "change_cpg": 9.189999999999998,
+          "current_available_at": "2020-11-24",
+          "prior_available_at": "2019-11-26",
+          "prior_year_quarter": "F2020Q2",
+          "quarter": "F2021Q2"
+        },
+        {
+          "change_cpg": 4.82,
+          "current_available_at": "2021-03-17",
+          "prior_available_at": "2020-03-17",
+          "prior_year_quarter": "F2020Q3",
+          "quarter": "F2021Q3"
+        },
+        {
+          "change_cpg": -11.630000000000003,
+          "current_available_at": "2021-06-29",
+          "prior_available_at": "2020-06-29",
+          "prior_year_quarter": "F2020Q4",
+          "quarter": "F2021Q4"
+        },
+        {
+          "change_cpg": -5.410000000000004,
+          "current_available_at": "2021-08-31",
+          "prior_available_at": "2020-09-01",
+          "prior_year_quarter": "F2021Q1",
+          "quarter": "F2022Q1"
+        }
+      ],
+      "information_cutoff": "2021-10-10",
+      "market_adjustment_cpg": -0.03741506632440661,
+      "prediction_cpg": 37.06383493367559,
+      "quarter": "F2022Q2",
+      "recent_level_seasonal_cpg": 37.10124999999999,
+      "target_end": "2021-10-10",
+      "target_start": "2021-07-19",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1"
+      ]
+    },
+    "F2022Q3": {
+      "anchor_offset_cpg": -1.5025000000000004,
+      "change_pairs": [
+        {
+          "change_cpg": 4.82,
+          "current_available_at": "2021-03-17",
+          "prior_available_at": "2020-03-17",
+          "prior_year_quarter": "F2020Q3",
+          "quarter": "F2021Q3"
+        },
+        {
+          "change_cpg": -11.630000000000003,
+          "current_available_at": "2021-06-29",
+          "prior_available_at": "2020-06-29",
+          "prior_year_quarter": "F2020Q4",
+          "quarter": "F2021Q4"
+        },
+        {
+          "change_cpg": -5.410000000000004,
+          "current_available_at": "2021-08-31",
+          "prior_available_at": "2020-09-01",
+          "prior_year_quarter": "F2021Q1",
+          "quarter": "F2022Q1"
+        },
+        {
+          "change_cpg": 0.20000000000000284,
+          "current_available_at": "2021-11-23",
+          "prior_available_at": "2020-11-24",
+          "prior_year_quarter": "F2021Q2",
+          "quarter": "F2022Q2"
+        }
+      ],
+      "information_cutoff": "2022-01-30",
+      "market_adjustment_cpg": 3.4324227477893174,
+      "prediction_cpg": 33.78992274778932,
+      "quarter": "F2022Q3",
+      "recent_level_seasonal_cpg": 30.357499999999998,
+      "target_end": "2022-01-30",
+      "target_start": "2021-10-11",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2"
+      ]
+    },
+    "F2022Q4": {
+      "anchor_offset_cpg": -0.96,
+      "change_pairs": [
+        {
+          "change_cpg": -11.630000000000003,
+          "current_available_at": "2021-06-29",
+          "prior_available_at": "2020-06-29",
+          "prior_year_quarter": "F2020Q4",
+          "quarter": "F2021Q4"
+        },
+        {
+          "change_cpg": -5.410000000000004,
+          "current_available_at": "2021-08-31",
+          "prior_available_at": "2020-09-01",
+          "prior_year_quarter": "F2021Q1",
+          "quarter": "F2022Q1"
+        },
+        {
+          "change_cpg": 0.20000000000000284,
+          "current_available_at": "2021-11-23",
+          "prior_available_at": "2020-11-24",
+          "prior_year_quarter": "F2021Q2",
+          "quarter": "F2022Q2"
+        },
+        {
+          "change_cpg": 9.160000000000004,
+          "current_available_at": "2022-03-15",
+          "prior_available_at": "2021-03-17",
+          "prior_year_quarter": "F2021Q3",
+          "quarter": "F2022Q3"
+        }
+      ],
+      "information_cutoff": "2022-04-24",
+      "market_adjustment_cpg": 2.5582828498142334,
+      "prediction_cpg": 36.84828284981423,
+      "quarter": "F2022Q4",
+      "recent_level_seasonal_cpg": 34.29,
+      "target_end": "2022-04-24",
+      "target_start": "2022-01-31",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3"
+      ]
+    },
+    "F2023Q1": {
+      "anchor_offset_cpg": 2.03125,
+      "change_pairs": [
+        {
+          "change_cpg": -5.410000000000004,
+          "current_available_at": "2021-08-31",
+          "prior_available_at": "2020-09-01",
+          "prior_year_quarter": "F2021Q1",
+          "quarter": "F2022Q1"
+        },
+        {
+          "change_cpg": 0.20000000000000284,
+          "current_available_at": "2021-11-23",
+          "prior_available_at": "2020-11-24",
+          "prior_year_quarter": "F2021Q2",
+          "quarter": "F2022Q2"
+        },
+        {
+          "change_cpg": 9.160000000000004,
+          "current_available_at": "2022-03-15",
+          "prior_available_at": "2021-03-17",
+          "prior_year_quarter": "F2021Q3",
+          "quarter": "F2022Q3"
+        },
+        {
+          "change_cpg": 12.299999999999997,
+          "current_available_at": "2022-06-28",
+          "prior_available_at": "2021-06-29",
+          "prior_year_quarter": "F2021Q4",
+          "quarter": "F2022Q4"
+        }
+      ],
+      "information_cutoff": "2022-07-17",
+      "market_adjustment_cpg": 5.814541247668338,
+      "prediction_cpg": 45.425791247668336,
+      "quarter": "F2023Q1",
+      "recent_level_seasonal_cpg": 39.61125,
+      "target_end": "2022-07-17",
+      "target_start": "2022-04-25",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4"
+      ]
+    },
+    "F2023Q2": {
+      "anchor_offset_cpg": 4.378750000000001,
+      "change_pairs": [
+        {
+          "change_cpg": 0.20000000000000284,
+          "current_available_at": "2021-11-23",
+          "prior_available_at": "2020-11-24",
+          "prior_year_quarter": "F2021Q2",
+          "quarter": "F2022Q2"
+        },
+        {
+          "change_cpg": 9.160000000000004,
+          "current_available_at": "2022-03-15",
+          "prior_available_at": "2021-03-17",
+          "prior_year_quarter": "F2021Q3",
+          "quarter": "F2022Q3"
+        },
+        {
+          "change_cpg": 12.299999999999997,
+          "current_available_at": "2022-06-28",
+          "prior_available_at": "2021-06-29",
+          "prior_year_quarter": "F2021Q4",
+          "quarter": "F2022Q4"
+        },
+        {
+          "change_cpg": 13.370000000000005,
+          "current_available_at": "2022-08-30",
+          "prior_available_at": "2021-08-31",
+          "prior_year_quarter": "F2022Q1",
+          "quarter": "F2023Q1"
+        }
+      ],
+      "information_cutoff": "2022-10-09",
+      "market_adjustment_cpg": 5.307496838582274,
+      "prediction_cpg": 47.36624683858228,
+      "quarter": "F2023Q2",
+      "recent_level_seasonal_cpg": 42.05875,
+      "target_end": "2022-10-09",
+      "target_start": "2022-07-18",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1"
+      ]
+    },
+    "F2023Q3": {
+      "anchor_offset_cpg": 6.032500000000001,
+      "change_pairs": [
+        {
+          "change_cpg": 9.160000000000004,
+          "current_available_at": "2022-03-15",
+          "prior_available_at": "2021-03-17",
+          "prior_year_quarter": "F2021Q3",
+          "quarter": "F2022Q3"
+        },
+        {
+          "change_cpg": 12.299999999999997,
+          "current_available_at": "2022-06-28",
+          "prior_available_at": "2021-06-29",
+          "prior_year_quarter": "F2021Q4",
+          "quarter": "F2022Q4"
+        },
+        {
+          "change_cpg": 13.370000000000005,
+          "current_available_at": "2022-08-30",
+          "prior_available_at": "2021-08-31",
+          "prior_year_quarter": "F2022Q1",
+          "quarter": "F2023Q1"
+        },
+        {
+          "change_cpg": 13.43,
+          "current_available_at": "2022-11-22",
+          "prior_available_at": "2021-11-23",
+          "prior_year_quarter": "F2022Q2",
+          "quarter": "F2023Q2"
+        }
+      ],
+      "information_cutoff": "2023-01-29",
+      "market_adjustment_cpg": 2.1276757423492825,
+      "prediction_cpg": 49.180175742349284,
+      "quarter": "F2023Q3",
+      "recent_level_seasonal_cpg": 47.0525,
+      "target_end": "2023-01-29",
+      "target_start": "2022-10-10",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2"
+      ]
+    },
+    "F2023Q4": {
+      "anchor_offset_cpg": 5.80875,
+      "change_pairs": [
+        {
+          "change_cpg": 12.299999999999997,
+          "current_available_at": "2022-06-28",
+          "prior_available_at": "2021-06-29",
+          "prior_year_quarter": "F2021Q4",
+          "quarter": "F2022Q4"
+        },
+        {
+          "change_cpg": 13.370000000000005,
+          "current_available_at": "2022-08-30",
+          "prior_available_at": "2021-08-31",
+          "prior_year_quarter": "F2022Q1",
+          "quarter": "F2023Q1"
+        },
+        {
+          "change_cpg": 13.43,
+          "current_available_at": "2022-11-22",
+          "prior_available_at": "2021-11-23",
+          "prior_year_quarter": "F2022Q2",
+          "quarter": "F2023Q2"
+        },
+        {
+          "change_cpg": 7.369999999999997,
+          "current_available_at": "2023-03-15",
+          "prior_available_at": "2022-03-15",
+          "prior_year_quarter": "F2022Q3",
+          "quarter": "F2023Q3"
+        }
+      ],
+      "information_cutoff": "2023-04-30",
+      "market_adjustment_cpg": -0.8025296413299188,
+      "prediction_cpg": 52.556220358670075,
+      "quarter": "F2023Q4",
+      "recent_level_seasonal_cpg": 53.35875,
+      "target_end": "2023-04-30",
+      "target_start": "2023-01-30",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3"
+      ]
+    },
+    "F2024Q1": {
+      "anchor_offset_cpg": 4.1312500000000005,
+      "change_pairs": [
+        {
+          "change_cpg": 13.370000000000005,
+          "current_available_at": "2022-08-30",
+          "prior_available_at": "2021-08-31",
+          "prior_year_quarter": "F2022Q1",
+          "quarter": "F2023Q1"
+        },
+        {
+          "change_cpg": 13.43,
+          "current_available_at": "2022-11-22",
+          "prior_available_at": "2021-11-23",
+          "prior_year_quarter": "F2022Q2",
+          "quarter": "F2023Q2"
+        },
+        {
+          "change_cpg": 7.369999999999997,
+          "current_available_at": "2023-03-15",
+          "prior_available_at": "2022-03-15",
+          "prior_year_quarter": "F2022Q3",
+          "quarter": "F2023Q3"
+        },
+        {
+          "change_cpg": -1.1199999999999974,
+          "current_available_at": "2023-06-27",
+          "prior_available_at": "2022-06-28",
+          "prior_year_quarter": "F2022Q4",
+          "quarter": "F2023Q4"
+        }
+      ],
+      "information_cutoff": "2023-07-23",
+      "market_adjustment_cpg": -0.34997864491049313,
+      "prediction_cpg": 54.73127135508951,
+      "quarter": "F2024Q1",
+      "recent_level_seasonal_cpg": 55.081250000000004,
+      "target_end": "2023-07-23",
+      "target_start": "2023-05-01",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4"
+      ]
+    },
+    "F2024Q2": {
+      "anchor_offset_cpg": 2.4987499999999994,
+      "change_pairs": [
+        {
+          "change_cpg": 13.43,
+          "current_available_at": "2022-11-22",
+          "prior_available_at": "2021-11-23",
+          "prior_year_quarter": "F2022Q2",
+          "quarter": "F2023Q2"
+        },
+        {
+          "change_cpg": 7.369999999999997,
+          "current_available_at": "2023-03-15",
+          "prior_available_at": "2022-03-15",
+          "prior_year_quarter": "F2022Q3",
+          "quarter": "F2023Q3"
+        },
+        {
+          "change_cpg": -1.1199999999999974,
+          "current_available_at": "2023-06-27",
+          "prior_available_at": "2022-06-28",
+          "prior_year_quarter": "F2022Q4",
+          "quarter": "F2023Q4"
+        },
+        {
+          "change_cpg": 0.30999999999999517,
+          "current_available_at": "2023-09-06",
+          "prior_available_at": "2022-08-30",
+          "prior_year_quarter": "F2023Q1",
+          "quarter": "F2024Q1"
+        }
+      ],
+      "information_cutoff": "2023-10-15",
+      "market_adjustment_cpg": -3.045710600139003,
+      "prediction_cpg": 50.563039399861,
+      "quarter": "F2024Q2",
+      "recent_level_seasonal_cpg": 53.60875,
+      "target_end": "2023-10-15",
+      "target_start": "2023-07-24",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1"
+      ]
+    },
+    "F2024Q3": {
+      "anchor_offset_cpg": 0.8249999999999993,
+      "change_pairs": [
+        {
+          "change_cpg": 7.369999999999997,
+          "current_available_at": "2023-03-15",
+          "prior_available_at": "2022-03-15",
+          "prior_year_quarter": "F2022Q3",
+          "quarter": "F2023Q3"
+        },
+        {
+          "change_cpg": -1.1199999999999974,
+          "current_available_at": "2023-06-27",
+          "prior_available_at": "2022-06-28",
+          "prior_year_quarter": "F2022Q4",
+          "quarter": "F2023Q4"
+        },
+        {
+          "change_cpg": 0.30999999999999517,
+          "current_available_at": "2023-09-06",
+          "prior_available_at": "2022-08-30",
+          "prior_year_quarter": "F2023Q1",
+          "quarter": "F2024Q1"
+        },
+        {
+          "change_cpg": 0.03999999999999915,
+          "current_available_at": "2023-11-28",
+          "prior_available_at": "2022-11-22",
+          "prior_year_quarter": "F2023Q2",
+          "quarter": "F2024Q2"
+        }
+      ],
+      "information_cutoff": "2024-02-04",
+      "market_adjustment_cpg": -0.21276576985485463,
+      "prediction_cpg": 49.00223423014515,
+      "quarter": "F2024Q3",
+      "recent_level_seasonal_cpg": 49.215,
+      "target_end": "2024-02-04",
+      "target_start": "2023-10-16",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2"
+      ]
+    },
+    "F2024Q4": {
+      "anchor_offset_cpg": -0.5975000000000001,
+      "change_pairs": [
+        {
+          "change_cpg": -1.1199999999999974,
+          "current_available_at": "2023-06-27",
+          "prior_available_at": "2022-06-28",
+          "prior_year_quarter": "F2022Q4",
+          "quarter": "F2023Q4"
+        },
+        {
+          "change_cpg": 0.30999999999999517,
+          "current_available_at": "2023-09-06",
+          "prior_available_at": "2022-08-30",
+          "prior_year_quarter": "F2023Q1",
+          "quarter": "F2024Q1"
+        },
+        {
+          "change_cpg": 0.03999999999999915,
+          "current_available_at": "2023-11-28",
+          "prior_available_at": "2022-11-22",
+          "prior_year_quarter": "F2023Q2",
+          "quarter": "F2024Q2"
+        },
+        {
+          "change_cpg": -4.009999999999998,
+          "current_available_at": "2024-03-20",
+          "prior_available_at": "2023-03-15",
+          "prior_year_quarter": "F2023Q3",
+          "quarter": "F2024Q3"
+        }
+      ],
+      "information_cutoff": "2024-04-28",
+      "market_adjustment_cpg": -1.2741340153892935,
+      "prediction_cpg": 44.5583659846107,
+      "quarter": "F2024Q4",
+      "recent_level_seasonal_cpg": 45.832499999999996,
+      "target_end": "2024-04-28",
+      "target_start": "2024-02-05",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3"
+      ]
+    },
+    "F2025Q1": {
+      "anchor_offset_cpg": -1.3512500000000003,
+      "change_pairs": [
+        {
+          "change_cpg": 0.30999999999999517,
+          "current_available_at": "2023-09-06",
+          "prior_available_at": "2022-08-30",
+          "prior_year_quarter": "F2023Q1",
+          "quarter": "F2024Q1"
+        },
+        {
+          "change_cpg": 0.03999999999999915,
+          "current_available_at": "2023-11-28",
+          "prior_available_at": "2022-11-22",
+          "prior_year_quarter": "F2023Q2",
+          "quarter": "F2024Q2"
+        },
+        {
+          "change_cpg": -4.009999999999998,
+          "current_available_at": "2024-03-20",
+          "prior_available_at": "2023-03-15",
+          "prior_year_quarter": "F2023Q3",
+          "quarter": "F2024Q3"
+        },
+        {
+          "change_cpg": -7.149999999999999,
+          "current_available_at": "2024-06-25",
+          "prior_available_at": "2023-06-27",
+          "prior_year_quarter": "F2023Q4",
+          "quarter": "F2024Q4"
+        }
+      ],
+      "information_cutoff": "2024-07-21",
+      "market_adjustment_cpg": 1.9857355538334787,
+      "prediction_cpg": 51.894485553833476,
+      "quarter": "F2025Q1",
+      "recent_level_seasonal_cpg": 49.90875,
+      "target_end": "2024-07-21",
+      "target_start": "2024-04-29",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4"
+      ]
+    },
+    "F2025Q2": {
+      "anchor_offset_cpg": -1.6112499999999992,
+      "change_pairs": [
+        {
+          "change_cpg": 0.03999999999999915,
+          "current_available_at": "2023-11-28",
+          "prior_available_at": "2022-11-22",
+          "prior_year_quarter": "F2023Q2",
+          "quarter": "F2024Q2"
+        },
+        {
+          "change_cpg": -4.009999999999998,
+          "current_available_at": "2024-03-20",
+          "prior_available_at": "2023-03-15",
+          "prior_year_quarter": "F2023Q3",
+          "quarter": "F2024Q3"
+        },
+        {
+          "change_cpg": -7.149999999999999,
+          "current_available_at": "2024-06-25",
+          "prior_available_at": "2023-06-27",
+          "prior_year_quarter": "F2023Q4",
+          "quarter": "F2024Q4"
+        },
+        {
+          "change_cpg": -1.769999999999996,
+          "current_available_at": "2024-09-04",
+          "prior_available_at": "2023-09-06",
+          "prior_year_quarter": "F2024Q1",
+          "quarter": "F2025Q1"
+        }
+      ],
+      "information_cutoff": "2024-10-13",
+      "market_adjustment_cpg": 2.83929468468304,
+      "prediction_cpg": 52.37804468468304,
+      "quarter": "F2025Q2",
+      "recent_level_seasonal_cpg": 49.53875,
+      "target_end": "2024-10-13",
+      "target_start": "2024-07-22",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1"
+      ]
+    },
+    "F2025Q3": {
+      "anchor_offset_cpg": -2.063749999999999,
+      "change_pairs": [
+        {
+          "change_cpg": -4.009999999999998,
+          "current_available_at": "2024-03-20",
+          "prior_available_at": "2023-03-15",
+          "prior_year_quarter": "F2023Q3",
+          "quarter": "F2024Q3"
+        },
+        {
+          "change_cpg": -7.149999999999999,
+          "current_available_at": "2024-06-25",
+          "prior_available_at": "2023-06-27",
+          "prior_year_quarter": "F2023Q4",
+          "quarter": "F2024Q4"
+        },
+        {
+          "change_cpg": -1.769999999999996,
+          "current_available_at": "2024-09-04",
+          "prior_available_at": "2023-09-06",
+          "prior_year_quarter": "F2024Q1",
+          "quarter": "F2025Q1"
+        },
+        {
+          "change_cpg": -3.5799999999999983,
+          "current_available_at": "2024-11-25",
+          "prior_available_at": "2023-11-28",
+          "prior_year_quarter": "F2024Q2",
+          "quarter": "F2025Q2"
+        }
+      ],
+      "information_cutoff": "2025-02-02",
+      "market_adjustment_cpg": 1.0866952592185157,
+      "prediction_cpg": 43.40294525921852,
+      "quarter": "F2025Q3",
+      "recent_level_seasonal_cpg": 42.316250000000004,
+      "target_end": "2025-02-02",
+      "target_start": "2024-10-14",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2"
+      ]
+    },
+    "F2025Q4": {
+      "anchor_offset_cpg": -1.4412499999999993,
+      "change_pairs": [
+        {
+          "change_cpg": -7.149999999999999,
+          "current_available_at": "2024-06-25",
+          "prior_available_at": "2023-06-27",
+          "prior_year_quarter": "F2023Q4",
+          "quarter": "F2024Q4"
+        },
+        {
+          "change_cpg": -1.769999999999996,
+          "current_available_at": "2024-09-04",
+          "prior_available_at": "2023-09-06",
+          "prior_year_quarter": "F2024Q1",
+          "quarter": "F2025Q1"
+        },
+        {
+          "change_cpg": -3.5799999999999983,
+          "current_available_at": "2024-11-25",
+          "prior_available_at": "2023-11-28",
+          "prior_year_quarter": "F2024Q2",
+          "quarter": "F2025Q2"
+        },
+        {
+          "change_cpg": 0.9699999999999989,
+          "current_available_at": "2025-03-18",
+          "prior_available_at": "2024-03-20",
+          "prior_year_quarter": "F2024Q3",
+          "quarter": "F2025Q3"
+        }
+      ],
+      "information_cutoff": "2025-04-27",
+      "market_adjustment_cpg": 4.082112994458953,
+      "prediction_cpg": 41.92086299445896,
+      "quarter": "F2025Q4",
+      "recent_level_seasonal_cpg": 37.838750000000005,
+      "target_end": "2025-04-27",
+      "target_start": "2025-02-03",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3"
+      ]
+    },
+    "F2026Q1": {
+      "anchor_offset_cpg": 0.025000000000000355,
+      "change_pairs": [
+        {
+          "change_cpg": -1.769999999999996,
+          "current_available_at": "2024-09-04",
+          "prior_available_at": "2023-09-06",
+          "prior_year_quarter": "F2024Q1",
+          "quarter": "F2025Q1"
+        },
+        {
+          "change_cpg": -3.5799999999999983,
+          "current_available_at": "2024-11-25",
+          "prior_available_at": "2023-11-28",
+          "prior_year_quarter": "F2024Q2",
+          "quarter": "F2025Q2"
+        },
+        {
+          "change_cpg": 0.9699999999999989,
+          "current_available_at": "2025-03-18",
+          "prior_available_at": "2024-03-20",
+          "prior_year_quarter": "F2024Q3",
+          "quarter": "F2025Q3"
+        },
+        {
+          "change_cpg": 4.579999999999998,
+          "current_available_at": "2025-06-25",
+          "prior_available_at": "2024-06-25",
+          "prior_year_quarter": "F2024Q4",
+          "quarter": "F2025Q4"
+        }
+      ],
+      "information_cutoff": "2025-07-20",
+      "market_adjustment_cpg": 1.1686488880724397,
+      "prediction_cpg": 50.68364888807244,
+      "quarter": "F2026Q1",
+      "recent_level_seasonal_cpg": 49.515,
+      "target_end": "2025-07-20",
+      "target_start": "2025-04-28",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4"
+      ]
+    },
+    "F2026Q2": {
+      "anchor_offset_cpg": -0.3387500000000001,
+      "change_pairs": [
+        {
+          "change_cpg": -3.5799999999999983,
+          "current_available_at": "2024-11-25",
+          "prior_available_at": "2023-11-28",
+          "prior_year_quarter": "F2024Q2",
+          "quarter": "F2025Q2"
+        },
+        {
+          "change_cpg": 0.9699999999999989,
+          "current_available_at": "2025-03-18",
+          "prior_available_at": "2024-03-20",
+          "prior_year_quarter": "F2024Q3",
+          "quarter": "F2025Q3"
+        },
+        {
+          "change_cpg": 4.579999999999998,
+          "current_available_at": "2025-06-25",
+          "prior_available_at": "2024-06-25",
+          "prior_year_quarter": "F2024Q4",
+          "quarter": "F2025Q4"
+        },
+        {
+          "change_cpg": -4.68,
+          "current_available_at": "2025-09-02",
+          "prior_available_at": "2024-09-04",
+          "prior_year_quarter": "F2025Q1",
+          "quarter": "F2026Q1"
+        }
+      ],
+      "information_cutoff": "2025-10-12",
+      "market_adjustment_cpg": -1.1128374305945385,
+      "prediction_cpg": 46.118412569405464,
+      "quarter": "F2026Q2",
+      "recent_level_seasonal_cpg": 47.23125,
+      "target_end": "2025-10-12",
+      "target_start": "2025-07-21",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1"
+      ]
+    },
+    "F2026Q3": {
+      "anchor_offset_cpg": 0.027499999999999858,
+      "change_pairs": [
+        {
+          "change_cpg": 0.9699999999999989,
+          "current_available_at": "2025-03-18",
+          "prior_available_at": "2024-03-20",
+          "prior_year_quarter": "F2024Q3",
+          "quarter": "F2025Q3"
+        },
+        {
+          "change_cpg": 4.579999999999998,
+          "current_available_at": "2025-06-25",
+          "prior_available_at": "2024-06-25",
+          "prior_year_quarter": "F2024Q4",
+          "quarter": "F2025Q4"
+        },
+        {
+          "change_cpg": -4.68,
+          "current_available_at": "2025-09-02",
+          "prior_available_at": "2024-09-04",
+          "prior_year_quarter": "F2025Q1",
+          "quarter": "F2026Q1"
+        },
+        {
+          "change_cpg": -0.6499999999999986,
+          "current_available_at": "2025-11-24",
+          "prior_available_at": "2024-11-25",
+          "prior_year_quarter": "F2025Q2",
+          "quarter": "F2026Q2"
+        }
+      ],
+      "information_cutoff": "2026-02-01",
+      "market_adjustment_cpg": 0.41335397440008137,
+      "prediction_cpg": 45.79085397440008,
+      "quarter": "F2026Q3",
+      "recent_level_seasonal_cpg": 45.3775,
+      "target_end": "2026-02-01",
+      "target_start": "2025-10-13",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2"
+      ]
+    },
+    "F2026Q4": {
+      "anchor_offset_cpg": 0.3949999999999996,
+      "change_pairs": [
+        {
+          "change_cpg": 4.579999999999998,
+          "current_available_at": "2025-06-25",
+          "prior_available_at": "2024-06-25",
+          "prior_year_quarter": "F2024Q4",
+          "quarter": "F2025Q4"
+        },
+        {
+          "change_cpg": -4.68,
+          "current_available_at": "2025-09-02",
+          "prior_available_at": "2024-09-04",
+          "prior_year_quarter": "F2025Q1",
+          "quarter": "F2026Q1"
+        },
+        {
+          "change_cpg": -0.6499999999999986,
+          "current_available_at": "2025-11-24",
+          "prior_available_at": "2024-11-25",
+          "prior_year_quarter": "F2025Q2",
+          "quarter": "F2026Q2"
+        },
+        {
+          "change_cpg": 3.9099999999999966,
+          "current_available_at": "2026-03-17",
+          "prior_available_at": "2025-03-18",
+          "prior_year_quarter": "F2025Q3",
+          "quarter": "F2026Q3"
+        }
+      ],
+      "information_cutoff": "2026-04-26",
+      "market_adjustment_cpg": 4.557274278702948,
+      "prediction_cpg": 48.812274278702944,
+      "quarter": "F2026Q4",
+      "recent_level_seasonal_cpg": 44.254999999999995,
+      "target_end": "2026-04-26",
+      "target_start": "2026-02-02",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2",
+        "F2026Q3"
+      ]
+    },
+    "F2027Q1": {
+      "anchor_offset_cpg": 1.0587499999999999,
+      "change_pairs": [
+        {
+          "change_cpg": -4.68,
+          "current_available_at": "2025-09-02",
+          "prior_available_at": "2024-09-04",
+          "prior_year_quarter": "F2025Q1",
+          "quarter": "F2026Q1"
+        },
+        {
+          "change_cpg": -0.6499999999999986,
+          "current_available_at": "2025-11-24",
+          "prior_available_at": "2024-11-25",
+          "prior_year_quarter": "F2025Q2",
+          "quarter": "F2026Q2"
+        },
+        {
+          "change_cpg": 3.9099999999999966,
+          "current_available_at": "2026-03-17",
+          "prior_available_at": "2025-03-18",
+          "prior_year_quarter": "F2025Q3",
+          "quarter": "F2026Q3"
+        },
+        {
+          "change_cpg": 9.89,
+          "current_available_at": "2026-06-22",
+          "prior_available_at": "2025-06-25",
+          "prior_year_quarter": "F2025Q4",
+          "quarter": "F2026Q4"
+        }
+      ],
+      "information_cutoff": "2026-07-19",
+      "market_adjustment_cpg": 0.3340401449753543,
+      "prediction_cpg": 46.20279014497535,
+      "quarter": "F2027Q1",
+      "recent_level_seasonal_cpg": 45.868750000000006,
+      "target_end": "2026-07-19",
+      "target_start": "2026-04-27",
+      "training_quarters": [
+        "F2014Q4",
+        "F2015Q1",
+        "F2015Q2",
+        "F2015Q3",
+        "F2015Q4",
+        "F2016Q1",
+        "F2016Q2",
+        "F2016Q3",
+        "F2016Q4",
+        "F2017Q1",
+        "F2017Q2",
+        "F2017Q3",
+        "F2017Q4",
+        "F2018Q1",
+        "F2018Q2",
+        "F2018Q3",
+        "F2018Q4",
+        "F2019Q1",
+        "F2019Q2",
+        "F2019Q3",
+        "F2019Q4",
+        "F2020Q1",
+        "F2020Q2",
+        "F2020Q3",
+        "F2020Q4",
+        "F2021Q1",
+        "F2021Q2",
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2",
+        "F2026Q3",
+        "F2026Q4"
+      ]
+    }
+  }
+}

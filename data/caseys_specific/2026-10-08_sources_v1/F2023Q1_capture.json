@@ -1,0 +1,12 @@
+{
+  "available_at": "2022-09-07",
+  "captured_at": "2026-10-08T11:08:51.308030+00:00",
+  "cover_sha256": "46b041a947babe1101d411a6f526af1a865b6f7f1bacade070d3794c89a0413a",
+  "cover_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695822000114/a8-kq1fy23pressrelease.htm",
+  "quarter": "F2023Q1",
+  "raw_file": "F2023Q1.html",
+  "search_performed_at": "2026-10-08T11:08:51.038621+00:00",
+  "sha256": "e1c0695e61a7cb73f8e3fec5f2e90dac2f1436073213c631d5db0796b3cf1afc",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695822000114/q1fy2023earningspressrelea.htm",
+  "status": "RAW_CAPTURED"
+}

@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "path": "data/combined_challengers_spec_v1.json",
+      "sha256": "aaf00f3dcbfad6228c8cf7001a5c04acf0a173c3f2802f01ddce8d7f7321b9a1"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/results.json",
+      "sha256": "ec3e6408ee2c2ad2b20bd2ed71c27d5373265d2a7eabe974a87a35b06e455f3c"
+    },
+    {
+      "path": "data/alternative_margin_experiments/2026-10-07_evaluation_v2/results.json",
+      "sha256": "d99fe740165f64143c86c37183c89b97a408e0e0619b550b86ec6db540011426"
+    },
+    {
+      "path": "data/peer_surprise/2026-10-07_v2/result.json",
+      "sha256": "b62861c3c1242ddac0b2b40fa3e0e583164229a7ebb27c79f1cf57c3c09da985"
+    },
+    {
+      "path": "data/couchetard_peer/2026-10-07_v3/result.json",
+      "sha256": "2462d89062e01e1761edeee5ab6b443e620a37c864657ab81c9ed5ed3fcf5603"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_review_v2/quarter_rows.json",
+      "sha256": "656e079d2de5be1bb808a8f3bacbd97aa4a7f68e507480e9f0f32461b06b544a"
+    },
+    {
+      "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/combined_challengers.py",
+      "sha256": "0363c660861da5665256d99a8c2aefee9a816ae99223b71f41440d998d8166f1"
+    },
+    {
+      "path": "musa_nowcast/mathutils.py",
+      "sha256": "fef59998d413cd8e796ae8b823bf880f66be682ec31ac2bacd6386d526b88d70"
+    },
+    {
+      "path": "musa_nowcast/timing.py",
+      "sha256": "965cd871276b85a8b96496268c60eb9a7d1767d20a60519311000362e0b1b8c4"
+    },
+    {
+      "path": "musa_nowcast/history_floor_basis.py",
+      "sha256": "ffe563230f530f4b8ca2d56fc286105d72655dbc51ce8934194bfc15b3ddbb81"
+    }
+  ],
+  "frozen_at": "2026-10-08T08:10:09.026772+00:00"
+}

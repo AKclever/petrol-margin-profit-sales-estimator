@@ -1,0 +1,30 @@
+[
+  {
+    "path": "data/company_baseline_spec_v1.json",
+    "sha256": "b6e0d93ea6222ae08ee00f1f1c93ae03f72cb53360e6d67334023bb4e06e466b"
+  },
+  {
+    "path": "data/expanded_peer_evidence/2026-10-08_review_v2/reviewed_evidence.json",
+    "sha256": "b8fe539b13eda816b28f472bbb99b39123f3d8c9758616277bf63f27f351e24c"
+  },
+  {
+    "path": "data/earnings_event_replay/2026-10-08_v3/dataset.json",
+    "sha256": "81a5d08eb92b32987037056596293ad71fc9276b63c9a074ee845e03e3ae9b30"
+  },
+  {
+    "path": "data/company_baselines/2026-10-08_capture_v1/source_checks.json",
+    "sha256": "d404d412673a5dc46d9381acda2b99305bb0745d58077e8949b231512f6356c2"
+  },
+  {
+    "path": "data/company_baselines/2026-10-08_gap_capture_v1/source_checks.json",
+    "sha256": "c26f5aa38a3743967d03818a85a5a19a7ba6b54165a6d2ec714fa79c65ca3c18"
+  },
+  {
+    "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/company_baselines.py",
+    "sha256": "61806d00dff9a47b2e96f184decfba3ad9b08b2cd403b5bdcb9c80ad33bf2e80"
+  },
+  {
+    "path": "musa_nowcast/company_evidence_ledger.py",
+    "sha256": "067343db72c18996c723fb70e9db5188a7d5c2ebd9b9241208364ebeaddb9858"
+  }
+]

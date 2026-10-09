@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:10.765664+00:00",
+  "captured_at": "2026-10-07T16:15:10.765650+00:00",
+  "key": "2013Q4",
+  "original_index_locator_or_series": "http://murphyusa2017ir.q4web.com/investor-relations/news-releases/press-release-details/2014/Murphy-USA-Inc-Reports-Fourth-Quarter-2013-and-Full-Year-2013-Results/default.aspx",
+  "raw_file": "2013Q4.html",
+  "sha256": "0ec38c67b44e5c0047bab5e5aafa5d6d1911fec4e4affb7ec5b695f4238e86ce",
+  "source_type": "ISSUER_EARNINGS_RELEASE",
+  "source_url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2014/Murphy-USA-Inc-Reports-Fourth-Quarter-2013-and-Full-Year-2013-Results/default.aspx",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

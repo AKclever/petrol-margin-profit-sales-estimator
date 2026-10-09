@@ -1,0 +1,19 @@
+{
+  "id": "MUSA_CONSTRAINED_MARKET_V1",
+  "status": "FROZEN_BEFORE_FIRST_SCORING",
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_NOT_PIT_VALIDATION",
+  "candidate_count": 1,
+  "target": "reported retail margin cpg",
+  "change": "Only constrain three production feature slopes; volatility unrestricted",
+  "slopes": {"spread": "NONNEGATIVE", "falling_capture": "NONNEGATIVE", "rising_squeeze": "NONPOSITIVE", "volatility": "UNRESTRICTED"},
+  "fit": "standardized ridge alpha=2, unpenalized intercept, expanding earlier-quarter YoY training; exact constrained optimum by active subsets",
+  "prediction": "prior-year reported retail margin + 0.5 * fitted YoY change",
+  "simple_baseline": "unchanged prior-year seasonal margin with no market adjustment",
+  "training": "Preserve archived modern 2019+ training and separate expanded historical training for earlier/transition quarters; verify earlier targets published by target quarter end",
+  "evaluation": "all 44 archived eligible quarters, separate earlier/transition/modern regimes; no known-miss activation",
+  "tail_definition": "original production absolute error >=5 cpg; descriptive subgroup only",
+  "metrics": ["MAE", "RMSE", "large_error_count_ge_5", "worst_absolute_error", "ordinary_quarter_damage", "direction_accuracy", "recent_eight"],
+  "decision": "research only; no automatic promotion, no tuning, no prospective or strict PIT claim",
+  "economic_interpretation": "Signs encode conditional hypotheses, not causal identification; overlapping spread/path features may make constraints inappropriate",
+  "production_changed": false
+}

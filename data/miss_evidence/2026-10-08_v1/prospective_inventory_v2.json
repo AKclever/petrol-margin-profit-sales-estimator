@@ -1,0 +1,63 @@
+{
+  "automatic_scoring": false,
+  "checkpoints": [
+    {
+      "forecast_created_at": "2026-10-07T09:18:03.714297+00:00",
+      "path": "data/prospective/checkpoints/2026Q4_2026-10-07T091803.714297+0000/checkpoint.json",
+      "primary_eligible": false,
+      "production_present": false,
+      "quarter": "2026Q4",
+      "risk_present": false,
+      "sha256": "be57c4de8713ec2d4a273a6bcf20a89f21fa2a25dba2acc4a4543f39e5987581",
+      "status": "BLOCKED: No complete weighted market weeks between 2026-10-01 and 2026-12-31"
+    },
+    {
+      "forecast_created_at": "2026-10-07T10:02:06.978992+00:00",
+      "path": "data/prospective/daily/2026-10-07T100115Z_4317dfd499d6450c98a7e9b42bff1075/checkpoints/2026Q4_2026-10-07T100206.978992+0000/checkpoint.json",
+      "primary_eligible": false,
+      "production_present": false,
+      "quarter": "2026Q4",
+      "risk_present": false,
+      "sha256": "c5286c19a4efa35b64decbfd6b0c3066aa132d3ea29b1853f4f4b007c407800c",
+      "status": "BLOCKED: No complete weighted market weeks between 2026-10-01 and 2026-12-31"
+    },
+    {
+      "forecast_created_at": "2026-10-08T08:27:37.086955+00:00",
+      "path": "data/prospective/daily/2026-10-08T082621Z_8515efa8ed9d47d780d50aa71429d754/checkpoints/2026Q4_2026-10-08T082737.086955+0000/checkpoint.json",
+      "primary_eligible": false,
+      "production_present": false,
+      "quarter": "2026Q4",
+      "risk_present": false,
+      "sha256": "2013febcea4cdb125ea0bedb7dffe43065cc11c1f6e7c37dcaf2c5c994d59838",
+      "status": "BLOCKED: No complete weighted market weeks between 2026-10-01 and 2026-12-31"
+    },
+    {
+      "forecast_created_at": "2026-10-07T09:28:46.765311+00:00",
+      "path": "data/prospective/daily/2026-10-07T092800Z_1e618a31d90746b1a207600f02cf81d3/checkpoints/2026Q4_2026-10-07T092846.765311+0000/checkpoint.json",
+      "primary_eligible": false,
+      "production_present": false,
+      "quarter": "2026Q4",
+      "risk_present": false,
+      "sha256": "4fc153a10445e00d64222025b859916342b77fa38d7b50399adcb4a9ed2d9185",
+      "status": "BLOCKED: No complete weighted market weeks between 2026-10-01 and 2026-12-31"
+    }
+  ],
+  "created_at": "2026-10-08T08:33:54.178897+00:00",
+  "primary_rule": "First complete capture 3-7 UTC days after quarter end; score only with verified later earnings",
+  "primary_scores": [],
+  "primary_selection": {},
+  "risk_groups": {
+    "ELEVATED": {
+      "n": 0,
+      "production_mae_cpg": null
+    },
+    "NORMAL": {
+      "n": 0,
+      "production_mae_cpg": null
+    }
+  },
+  "risk_predictiveness_established": false,
+  "risk_rules_changed": false,
+  "scheduler_deployed_by_this_run": false,
+  "weekly_checkpoints_independent_trials": false
+}

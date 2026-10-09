@@ -1,0 +1,97 @@
+{
+  "files": [
+    {
+      "path": "data/joint_all_features_spec_v1.json",
+      "sha256": "f4b840c5ba92a23fbb7596a685f49c3f73877cb45e18bcfac1fd2d6074538cc3"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/results.json",
+      "sha256": "ec3e6408ee2c2ad2b20bd2ed71c27d5373265d2a7eabe974a87a35b06e455f3c"
+    },
+    {
+      "path": "data/peer_surprise/2026-10-07_v2/result.json",
+      "sha256": "b62861c3c1242ddac0b2b40fa3e0e583164229a7ebb27c79f1cf57c3c09da985"
+    },
+    {
+      "path": "data/couchetard_peer/2026-10-07_v3/result.json",
+      "sha256": "2462d89062e01e1761edeee5ab6b443e620a37c864657ab81c9ed5ed3fcf5603"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_review_v2/quarter_rows.json",
+      "sha256": "656e079d2de5be1bb808a8f3bacbd97aa4a7f68e507480e9f0f32461b06b544a"
+    },
+    {
+      "path": "data/combined_challengers/2026-10-08_v2/results.json",
+      "sha256": "bf5c046245e1b5f212436d96726f9e53090851f23c1d1dd90141914b15fcd432"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/normalized_market.json",
+      "sha256": "fae439c5b66ddc595fb1d5b6898dde93ab3b88e1c023cf32d350916d5f612531"
+    },
+    {
+      "path": "data/alternative_margin_experiments/2026-10-07_supply_v1/manifest.json",
+      "sha256": "9855946de56690c8683a454cb1c41de7040da988ea59b3f21d379d042d212c45"
+    },
+    {
+      "path": "data/weights.csv",
+      "sha256": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986"
+    },
+    {
+      "path": "data/actuals.csv",
+      "sha256": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6"
+    },
+    {
+      "path": "data/market.csv",
+      "sha256": "721da8ca24e87c7da17892413b70ad6d45eddc223c512eb329753679b1de4005"
+    },
+    {
+      "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/joint_all_features.py",
+      "sha256": "5315c1c0319b511758ce6af830fcd40486663802d2dc2d44314f9a01c36dc987"
+    },
+    {
+      "path": "musa_nowcast/combined_challengers.py",
+      "sha256": "0363c660861da5665256d99a8c2aefee9a816ae99223b71f41440d998d8166f1"
+    },
+    {
+      "path": "musa_nowcast/alternative_experiments.py",
+      "sha256": "f85d232fcf844486baef12df5decae574f3ae09d9f4af074918d03ebfc770449"
+    },
+    {
+      "path": "musa_nowcast/model.py",
+      "sha256": "a62800fe77ff2c8230c5b5144c5ff78b7e4af769b91a29396bdee44cfae51311"
+    },
+    {
+      "path": "musa_nowcast/mathutils.py",
+      "sha256": "fef59998d413cd8e796ae8b823bf880f66be682ec31ac2bacd6386d526b88d70"
+    },
+    {
+      "path": "musa_nowcast/timing.py",
+      "sha256": "965cd871276b85a8b96496268c60eb9a7d1767d20a60519311000362e0b1b8c4"
+    },
+    {
+      "path": "data/alternative_margin_experiments/2026-10-07_supply_v1/stocks_PADD1.xls",
+      "sha256": "eafc9aa9d93a70115bcf5a02fa71ee83a439f410f6c4ec1211c7fa4c6f7e5765"
+    },
+    {
+      "path": "data/alternative_margin_experiments/2026-10-07_supply_v1/stocks_PADD2.xls",
+      "sha256": "816ca4d904229d127653f694dd8465eb848ce4909dc50da937b714156a6f2108"
+    },
+    {
+      "path": "data/alternative_margin_experiments/2026-10-07_supply_v1/stocks_PADD3.xls",
+      "sha256": "2cdc004e105e665b348efb43553de1eb1fe62a9603ea5fb78672b32d402e3658"
+    },
+    {
+      "path": "data/alternative_margin_experiments/2026-10-07_supply_v1/utilization_PADD1.xls",
+      "sha256": "88e289ed0f21ddfe63079ba8717c58cd386a62192b3d313c036b2233215f6564"
+    },
+    {
+      "path": "data/alternative_margin_experiments/2026-10-07_supply_v1/utilization_PADD2.xls",
+      "sha256": "327aa3cdff1f5ecd8d2b784ab57f8788cb2755c6edb4b29d73c9c5a4231ed2ff"
+    },
+    {
+      "path": "data/alternative_margin_experiments/2026-10-07_supply_v1/utilization_PADD3.xls",
+      "sha256": "a618e7c3a47cc6cce9f77bc07151ad646988f017a8e368570691c96bd000beb0"
+    }
+  ],
+  "frozen_at": "2026-10-08T08:17:05.982171+00:00"
+}

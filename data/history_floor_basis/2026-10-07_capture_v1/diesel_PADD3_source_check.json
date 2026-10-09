@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:40.709133+00:00",
+  "captured_at": "2026-10-07T16:15:40.709117+00:00",
+  "key": "diesel_PADD3",
+  "original_index_locator_or_series": "EMD_EPD2D_PTE_R30_DPG",
+  "raw_file": "diesel_PADD3.xls",
+  "sha256": "9f3e43c96364b1158994d79201918300457c4e5df3f8c3bbbceb0289687c35ed",
+  "source_type": "EIA_RETAIL_XLS",
+  "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMD_EPD2D_PTE_R30_DPGw.xls",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

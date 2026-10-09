@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:08.681667+00:00",
+  "captured_at": "2026-10-07T16:15:08.681651+00:00",
+  "key": "2015Q3",
+  "original_index_locator_or_series": "http://murphyusa2017ir.q4web.com/investor-relations/news-releases/press-release-details/2015/Murphy-USA-Inc-Reports-Third-Quarter-2015-Results/default.aspx",
+  "raw_file": "2015Q3.html",
+  "sha256": "bdb7e7c276c5ffc9a6080f74a31f13c40a4998185cc75342fc8197431083e94c",
+  "source_type": "ISSUER_EARNINGS_RELEASE",
+  "source_url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2015/Murphy-USA-Inc-Reports-Third-Quarter-2015-Results/default.aspx",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

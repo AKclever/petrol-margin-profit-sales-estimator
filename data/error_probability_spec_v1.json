@@ -1,0 +1,11 @@
+{
+  "role": "EXPLORATORY_CURRENT_VINTAGE_NOT_STRICT_PIT_NOT_CALIBRATED",
+  "direction": "Two overlap-weighted peer surprises divided by 5 cents, clipped to [-3,3]",
+  "tail": "One frozen risk severity feature: (HIGH count + 0.5 MEDIUM count)/4 across existing four risk diagnostics",
+  "event": "Absolute production error >=5 cents",
+  "fit": "Separate logistic models; Laplace-smoothed earlier prevalence fixes intercept; ridge penalty 4 on slopes; minimum 8 same-era published earlier outcomes, both classes required",
+  "cutoff": "Quarter end; own and future outcomes excluded; historical risk actual inputs restricted to published earlier quarters",
+  "scoring": "Matched-row Brier and log loss versus rolling Laplace base rate, coarse calibration bins; modern large and ordinary groups separately",
+  "joint": "Three-state probabilities use P(tail)*P(direction); independence approximation, not independently calibrated tail direction",
+  "selection": "No hyperparameter search or tail-only fitting; no production adjustment; history already used for hypothesis development"
+}

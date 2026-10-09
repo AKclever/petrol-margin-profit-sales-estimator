@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "data/free_information_suite_spec_v1.json",
+      "sha256": "8a5e4431b63761e821002264b390d4f4b83633ba07db3eae7cdbd14ffbf91c24"
+    },
+    {
+      "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/free_information_suite.py",
+      "sha256": "a7c0723dfd3367dbef2ad91148c26435247f93222fb866590b4ea9d785d0e9bd"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/results.json",
+      "sha256": "ec3e6408ee2c2ad2b20bd2ed71c27d5373265d2a7eabe974a87a35b06e455f3c"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/normalized_market.json",
+      "sha256": "fae439c5b66ddc595fb1d5b6898dde93ab3b88e1c023cf32d350916d5f612531"
+    },
+    {
+      "path": "data/weights.csv",
+      "sha256": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986"
+    },
+    {
+      "path": "data/free_information_suite/2026-10-08_regional_v1/results.json",
+      "sha256": "26d3f8b8355dc4c875b8fc17d13f5218b04d19d28c507a1dc18cf849e912976a"
+    },
+    {
+      "path": "data/daily_prices/2026-10-07_v4/manifest.json",
+      "sha256": "5ff7fe923c50e91b885df62abf0f4987b8163b3a81bb2ab5d861074ab356c857"
+    },
+    {
+      "path": "data/pump_price_panel_plan_v1.json",
+      "sha256": "0e0882ed0cdd951400e5a017e1b07d70c6c2f290e1ae3ae19b99a31b233b9429"
+    },
+    {
+      "path": "data/partial_quarter_disclosure_audit.csv",
+      "sha256": "9f92f0d4989fdaefec6e47c8103c9f3af9e81b34911f7e6ced9743782b80a245"
+    },
+    {
+      "path": "data/deep_miss_diagnosis/2026-10-08_v1/new_disclosure_candidates.json",
+      "sha256": "630fb5c2901278d41dd9fbe983c846b1a660b310022d5bdd23717b404d4c2460"
+    },
+    {
+      "path": "data/combined_challengers/2026-10-08_v2/results.json",
+      "sha256": "bf5c046245e1b5f212436d96726f9e53090851f23c1d1dd90141914b15fcd432"
+    }
+  ],
+  "frozen_at": "2026-10-08T09:47:01.267356+00:00"
+}

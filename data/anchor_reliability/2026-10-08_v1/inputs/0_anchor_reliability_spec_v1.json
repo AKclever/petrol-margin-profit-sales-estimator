@@ -1,0 +1,20 @@
+{
+  "id": "MUSA_RECENT_LEVEL_SEASONAL_ANCHOR_V1",
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_NOT_PIT_VALIDATION",
+  "production_changed": false,
+  "anchor_alternative": "Mean of latest four published completed quarters plus mean seasonal offsets from up to three prior same-calendar quarters; each offset is that quarter's margin minus its trailing-four-quarter mean",
+  "minimum_prior_seasonal_offsets": 2,
+  "blend": "50% frozen prior-year anchor plus 50% recent-level seasonal alternative",
+  "market_adjustment": "Exactly preserve archived production prediction minus its original prior-year anchor; no coefficient refit",
+  "availability": "All anchor inputs must be earlier completed quarters published strictly before target quarter-end; no gaps in four-quarter windows",
+  "regimes": "Report pre2020, 2020 transition and 2021 onward separately; no pooled promotion statistic",
+  "primary_tail_metrics": ["RMSE", "frequency absolute error >= 5 cents per gallon"],
+  "secondary_metrics": ["MAE", "worst absolute error", "direction accuracy", "recent-eight metrics", "ordinary-quarter MAE cost"],
+  "large_error_threshold_cpg": 5.0,
+  "ordinary_group": "Original production absolute error below fixed 5-cent threshold; membership never selected from challenger errors",
+  "exceptional_anchor": "Prior-year anchor differs by >=5 cents from mean of up to two earlier same-calendar quarters; require both earlier seasons",
+  "persistence": "Descriptive scoring only: actual stays >=5 cents from that older seasonal mean in the same direction as prior-year anomaly; never a predictor or activation rule",
+  "activation": "All eligible quarters; no named-year exception or ex-post risk trigger",
+  "promotion": "Existing gate and separately reported tail metrics; no automatic promotion",
+  "tuning": "One formula and blend, no weights grid; already examined history remains developmental"
+}

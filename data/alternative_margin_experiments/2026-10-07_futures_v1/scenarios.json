@@ -1,0 +1,116 @@
+{
+  "bulk_acquisition_or_redistribution_terms_verified": false,
+  "created_at": "2026-10-07T16:00:37.439151+00:00",
+  "current_calendar_quarter": "2026Q4",
+  "curve": {
+    "available_at": "2026-10-07T15:49:09Z",
+    "captured_at_precision": "VERIFIED_AT_CONSERVATIVE_NOT_ORIGINAL_RELEASE",
+    "contracts": [
+      {
+        "contract_month": "2026-11",
+        "settlement_cpg": 327.32,
+        "settlement_usd_per_gallon": 3.2732
+      },
+      {
+        "contract_month": "2026-12",
+        "settlement_cpg": 308.8,
+        "settlement_usd_per_gallon": 3.088
+      },
+      {
+        "contract_month": "2027-01",
+        "settlement_cpg": 296.74,
+        "settlement_usd_per_gallon": 2.9674
+      },
+      {
+        "contract_month": "2027-02",
+        "settlement_cpg": 290.45,
+        "settlement_usd_per_gallon": 2.9045
+      },
+      {
+        "contract_month": "2027-03",
+        "settlement_cpg": 290.11,
+        "settlement_usd_per_gallon": 2.9011
+      },
+      {
+        "contract_month": "2027-04",
+        "settlement_cpg": 310.70000000000005,
+        "settlement_usd_per_gallon": 3.107
+      }
+    ],
+    "market_basis": "NYMEX_RBOB_NOT_DELIVERED_MUSA_FUEL",
+    "raw_evidence_row": "NYMEX          RBOB Gasoline ($/gal)          3.2732 (Nov 26)        3.0880 (Dec 26)         2.9674 (Jan 27)           2.9045 (Feb 27)        2.9011 (Mar 27)          3.1070 (Apr 27)",
+    "raw_sha256": "3d487b02bb2d4d72c06d63c0f4b28ce0f25ea18fed735d20fc83ae1167c24470",
+    "report_publication_date": "2026-10-07",
+    "settlement_observation_date": "2026-10-06",
+    "source_url": "https://www.ams.usda.gov/mnreports/ams_3617.pdf"
+  },
+  "historical_two_quarter_accuracy": "BLOCKED_ARCHIVED_CURVE_VINTAGES_UNVERIFIED",
+  "production_changed": false,
+  "prospective_validation": false,
+  "quarter_scenarios": [
+    {
+      "missing_months": [
+        "2026-10"
+      ],
+      "musa_retail_margin_cpg": null,
+      "quarter": "2026Q4",
+      "rbob_scenario_cpg": null,
+      "required_months": [
+        "2026-10",
+        "2026-11",
+        "2026-12"
+      ],
+      "status": "BLOCKED_INCOMPLETE_CONTRACT_COVERAGE"
+    },
+    {
+      "contract_months": [
+        "2027-01",
+        "2027-02",
+        "2027-03"
+      ],
+      "month_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "musa_margin_status": "BLOCKED_RETAIL_RESPONSE_AND_REGIONAL_BASIS_METHODOLOGY",
+      "musa_retail_margin_cpg": null,
+      "parallel_shift_scenarios": [
+        {
+          "rbob_scenario_cpg": 272.43333333333334,
+          "shift_cpg": -20
+        },
+        {
+          "rbob_scenario_cpg": 292.43333333333334,
+          "shift_cpg": 0
+        },
+        {
+          "rbob_scenario_cpg": 312.43333333333334,
+          "shift_cpg": 20
+        }
+      ],
+      "quarter": "2027Q1",
+      "rbob_scenario_cpg": 292.43333333333334,
+      "scenarios_are_probabilistic": false,
+      "status": "CONDITIONAL_WHOLESALE_SCENARIO_ONLY",
+      "weight_basis": "EQUAL_MONTH_SCENARIO_NOT_GALLON_SHARE"
+    },
+    {
+      "missing_months": [
+        "2027-05",
+        "2027-06"
+      ],
+      "musa_retail_margin_cpg": null,
+      "quarter": "2027Q2",
+      "rbob_scenario_cpg": null,
+      "required_months": [
+        "2027-04",
+        "2027-05",
+        "2027-06"
+      ],
+      "status": "BLOCKED_INCOMPLETE_CONTRACT_COVERAGE"
+    }
+  ],
+  "role": "CONDITIONAL_WHOLESALE_SCENARIO_NOT_MUSA_MARGIN_FORECAST",
+  "two_quarter_ahead_target": "2027Q2"
+}

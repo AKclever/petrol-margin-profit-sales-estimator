@@ -1,0 +1,15 @@
+{
+  "id": "ATD_RECENT_LEVEL_SEASONAL_CHALLENGER_V1",
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_PUBLICATION_FILTERED_NOT_STRICT_PIT",
+  "target": "US company-operated fuel margin before electronic payment fees, not broader US road fuel margin or after-fee target",
+  "geography": "Audit available current official footprint and archived releases. Block historical reweighting unless dated target-matched company-operated regional exposure is supported; do not use mixed dealer/affiliate counts or backfill current weights",
+  "challenger": "Keep existing own-basis fiscal market-model prediction, add half the mean of last4 available reported fiscal YoY margin changes as recent-level seasonal anchor offset",
+  "history": "Same archived full training history as comparator, same market features and equal-third provisional region weights; no shorter-history confounding introduced",
+  "publication": "For each target only outcomes strictly published before target fiscal end and with end earlier than target start; change pairs both published. Require4 supported fiscal YoY changes; exclude target actual",
+  "baselines": "Prior-year-only; recent-level seasonal without market correction. No new fitted coefficient or lag search",
+  "acquisitions": "Preserve release acquisition/divestiture passages and whether named transactions appear in current or prior-year release; retrospective documentary flags only, no cents correction, no outcome-based exclusion",
+  "evaluation": "All42 archived out-of-fold targets and modern start>=2021 separately; original >=5c errors descriptive only; report ordinary-quarter cost, RMSE and large-error frequency",
+  "promotion": "Existing frozen gate, no automatic promotion or post-result parameter tuning",
+  "production_changed": false,
+  "live_forecast_generated": false
+}

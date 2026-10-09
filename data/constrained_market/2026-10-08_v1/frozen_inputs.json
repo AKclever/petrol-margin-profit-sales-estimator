@@ -1,0 +1,53 @@
+{
+  "files": [
+    {
+      "path": "data/constrained_market_spec_v1.json",
+      "sha256": "9afbdbed09df7900dfe6a427765d7ddb7f7bedae2e26be26dfdeec8f83d25c8d"
+    },
+    {
+      "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/constrained_market.py",
+      "sha256": "0ba414601ba7ee1e35cb2eb3c754b715773cc98b7a516588bb46d79d13b051b2"
+    },
+    {
+      "path": "musa_nowcast/model.py",
+      "sha256": "a62800fe77ff2c8230c5b5144c5ff78b7e4af769b91a29396bdee44cfae51311"
+    },
+    {
+      "path": "musa_nowcast/mathutils.py",
+      "sha256": "fef59998d413cd8e796ae8b823bf880f66be682ec31ac2bacd6386d526b88d70"
+    },
+    {
+      "path": "musa_nowcast/timing.py",
+      "sha256": "965cd871276b85a8b96496268c60eb9a7d1767d20a60519311000362e0b1b8c4"
+    },
+    {
+      "path": "musa_nowcast/anchor_reliability.py",
+      "sha256": "29c906e040ac0fc5b36b5d87dd354f484783a22c61d5b9a85151e6df1c8c0017"
+    },
+    {
+      "path": "data/actuals.csv",
+      "sha256": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6"
+    },
+    {
+      "path": "data/weights.csv",
+      "sha256": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986"
+    },
+    {
+      "path": "data/market.csv",
+      "sha256": "721da8ca24e87c7da17892413b70ad6d45eddc223c512eb329753679b1de4005"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/historical_targets.json",
+      "sha256": "f68a74c09e54f18d92b38f276b2dc0a5b8a3928f67af74347cb72c85c2e47397"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/normalized_market.json",
+      "sha256": "fae439c5b66ddc595fb1d5b6898dde93ab3b88e1c023cf32d350916d5f612531"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/results.json",
+      "sha256": "ec3e6408ee2c2ad2b20bd2ed71c27d5373265d2a7eabe974a87a35b06e455f3c"
+    }
+  ],
+  "frozen_at": "2026-10-08T10:04:16.381018+00:00"
+}

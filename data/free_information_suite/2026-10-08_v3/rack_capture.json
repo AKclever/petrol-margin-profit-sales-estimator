@@ -1,0 +1,1370 @@
+{
+  "available_at_method": "CAPTURE_ONLY",
+  "captured_at": "2026-10-08T09:47:11.579362+00:00",
+  "date_normalization": "EIA monthly period labels on day15 mapped to month start, never publication dates",
+  "first_observed_month": "1994-01-01",
+  "last_observed_month": "2022-03-01",
+  "rows": [
+    {
+      "observed_month": "1994-01-01",
+      "rack_cpg": 46.6
+    },
+    {
+      "observed_month": "1994-02-01",
+      "rack_cpg": 49.5
+    },
+    {
+      "observed_month": "1994-03-01",
+      "rack_cpg": 50.0
+    },
+    {
+      "observed_month": "1994-04-01",
+      "rack_cpg": 53.5
+    },
+    {
+      "observed_month": "1994-05-01",
+      "rack_cpg": 54.7
+    },
+    {
+      "observed_month": "1994-06-01",
+      "rack_cpg": 58.199999999999996
+    },
+    {
+      "observed_month": "1994-07-01",
+      "rack_cpg": 61.1
+    },
+    {
+      "observed_month": "1994-08-01",
+      "rack_cpg": 63.7
+    },
+    {
+      "observed_month": "1994-09-01",
+      "rack_cpg": 54.7
+    },
+    {
+      "observed_month": "1994-10-01",
+      "rack_cpg": 55.2
+    },
+    {
+      "observed_month": "1994-11-01",
+      "rack_cpg": 55.800000000000004
+    },
+    {
+      "observed_month": "1994-12-01",
+      "rack_cpg": 50.7
+    },
+    {
+      "observed_month": "1995-01-01",
+      "rack_cpg": 53.900000000000006
+    },
+    {
+      "observed_month": "1995-02-01",
+      "rack_cpg": 54.6
+    },
+    {
+      "observed_month": "1995-03-01",
+      "rack_cpg": 54.900000000000006
+    },
+    {
+      "observed_month": "1995-04-01",
+      "rack_cpg": 62.5
+    },
+    {
+      "observed_month": "1995-05-01",
+      "rack_cpg": 67.9
+    },
+    {
+      "observed_month": "1995-06-01",
+      "rack_cpg": 62.9
+    },
+    {
+      "observed_month": "1995-07-01",
+      "rack_cpg": 56.8
+    },
+    {
+      "observed_month": "1995-08-01",
+      "rack_cpg": 57.199999999999996
+    },
+    {
+      "observed_month": "1995-09-01",
+      "rack_cpg": 58.099999999999994
+    },
+    {
+      "observed_month": "1995-10-01",
+      "rack_cpg": 53.300000000000004
+    },
+    {
+      "observed_month": "1995-11-01",
+      "rack_cpg": 53.300000000000004
+    },
+    {
+      "observed_month": "1995-12-01",
+      "rack_cpg": 55.300000000000004
+    },
+    {
+      "observed_month": "1996-01-01",
+      "rack_cpg": 55.900000000000006
+    },
+    {
+      "observed_month": "1996-02-01",
+      "rack_cpg": 56.99999999999999
+    },
+    {
+      "observed_month": "1996-03-01",
+      "rack_cpg": 64.0
+    },
+    {
+      "observed_month": "1996-04-01",
+      "rack_cpg": 72.39999999999999
+    },
+    {
+      "observed_month": "1996-05-01",
+      "rack_cpg": 72.7
+    },
+    {
+      "observed_month": "1996-06-01",
+      "rack_cpg": 67.4
+    },
+    {
+      "observed_month": "1996-07-01",
+      "rack_cpg": 67.30000000000001
+    },
+    {
+      "observed_month": "1996-08-01",
+      "rack_cpg": 66.7
+    },
+    {
+      "observed_month": "1996-09-01",
+      "rack_cpg": 67.7
+    },
+    {
+      "observed_month": "1996-10-01",
+      "rack_cpg": 69.69999999999999
+    },
+    {
+      "observed_month": "1996-11-01",
+      "rack_cpg": 72.1
+    },
+    {
+      "observed_month": "1996-12-01",
+      "rack_cpg": 70.1
+    },
+    {
+      "observed_month": "1997-01-01",
+      "rack_cpg": 71.89999999999999
+    },
+    {
+      "observed_month": "1997-02-01",
+      "rack_cpg": 69.3
+    },
+    {
+      "observed_month": "1997-03-01",
+      "rack_cpg": 66.9
+    },
+    {
+      "observed_month": "1997-04-01",
+      "rack_cpg": 65.5
+    },
+    {
+      "observed_month": "1997-05-01",
+      "rack_cpg": 67.60000000000001
+    },
+    {
+      "observed_month": "1997-06-01",
+      "rack_cpg": 63.9
+    },
+    {
+      "observed_month": "1997-07-01",
+      "rack_cpg": 63.9
+    },
+    {
+      "observed_month": "1997-08-01",
+      "rack_cpg": 71.39999999999999
+    },
+    {
+      "observed_month": "1997-09-01",
+      "rack_cpg": 67.10000000000001
+    },
+    {
+      "observed_month": "1997-10-01",
+      "rack_cpg": 63.2
+    },
+    {
+      "observed_month": "1997-11-01",
+      "rack_cpg": 60.6
+    },
+    {
+      "observed_month": "1997-12-01",
+      "rack_cpg": 56.3
+    },
+    {
+      "observed_month": "1998-01-01",
+      "rack_cpg": 52.2
+    },
+    {
+      "observed_month": "1998-02-01",
+      "rack_cpg": 50.8
+    },
+    {
+      "observed_month": "1998-03-01",
+      "rack_cpg": 48.4
+    },
+    {
+      "observed_month": "1998-04-01",
+      "rack_cpg": 51.6
+    },
+    {
+      "observed_month": "1998-05-01",
+      "rack_cpg": 54.300000000000004
+    },
+    {
+      "observed_month": "1998-06-01",
+      "rack_cpg": 51.6
+    },
+    {
+      "observed_month": "1998-07-01",
+      "rack_cpg": 50.2
+    },
+    {
+      "observed_month": "1998-08-01",
+      "rack_cpg": 45.6
+    },
+    {
+      "observed_month": "1998-09-01",
+      "rack_cpg": 46.5
+    },
+    {
+      "observed_month": "1998-10-01",
+      "rack_cpg": 48.1
+    },
+    {
+      "observed_month": "1998-11-01",
+      "rack_cpg": 42.1
+    },
+    {
+      "observed_month": "1998-12-01",
+      "rack_cpg": 36.3
+    },
+    {
+      "observed_month": "1999-01-01",
+      "rack_cpg": 38.9
+    },
+    {
+      "observed_month": "1999-02-01",
+      "rack_cpg": 37.2
+    },
+    {
+      "observed_month": "1999-03-01",
+      "rack_cpg": 47.9
+    },
+    {
+      "observed_month": "1999-04-01",
+      "rack_cpg": 57.9
+    },
+    {
+      "observed_month": "1999-05-01",
+      "rack_cpg": 56.99999999999999
+    },
+    {
+      "observed_month": "1999-06-01",
+      "rack_cpg": 57.3
+    },
+    {
+      "observed_month": "1999-07-01",
+      "rack_cpg": 64.9
+    },
+    {
+      "observed_month": "1999-08-01",
+      "rack_cpg": 69.6
+    },
+    {
+      "observed_month": "1999-09-01",
+      "rack_cpg": 72.2
+    },
+    {
+      "observed_month": "1999-10-01",
+      "rack_cpg": 68.10000000000001
+    },
+    {
+      "observed_month": "1999-11-01",
+      "rack_cpg": 72.2
+    },
+    {
+      "observed_month": "1999-12-01",
+      "rack_cpg": 72.39999999999999
+    },
+    {
+      "observed_month": "2000-01-01",
+      "rack_cpg": 75.7
+    },
+    {
+      "observed_month": "2000-02-01",
+      "rack_cpg": 86.5
+    },
+    {
+      "observed_month": "2000-03-01",
+      "rack_cpg": 94.89999999999999
+    },
+    {
+      "observed_month": "2000-04-01",
+      "rack_cpg": 82.39999999999999
+    },
+    {
+      "observed_month": "2000-05-01",
+      "rack_cpg": 95.19999999999999
+    },
+    {
+      "observed_month": "2000-06-01",
+      "rack_cpg": 108.80000000000001
+    },
+    {
+      "observed_month": "2000-07-01",
+      "rack_cpg": 94.5
+    },
+    {
+      "observed_month": "2000-08-01",
+      "rack_cpg": 92.7
+    },
+    {
+      "observed_month": "2000-09-01",
+      "rack_cpg": 101.0
+    },
+    {
+      "observed_month": "2000-10-01",
+      "rack_cpg": 98.0
+    },
+    {
+      "observed_month": "2000-11-01",
+      "rack_cpg": 96.1
+    },
+    {
+      "observed_month": "2000-12-01",
+      "rack_cpg": 82.1
+    },
+    {
+      "observed_month": "2001-01-01",
+      "rack_cpg": 91.2
+    },
+    {
+      "observed_month": "2001-02-01",
+      "rack_cpg": 90.0
+    },
+    {
+      "observed_month": "2001-03-01",
+      "rack_cpg": 86.2
+    },
+    {
+      "observed_month": "2001-04-01",
+      "rack_cpg": 103.69999999999999
+    },
+    {
+      "observed_month": "2001-05-01",
+      "rack_cpg": 112.20000000000002
+    },
+    {
+      "observed_month": "2001-06-01",
+      "rack_cpg": 91.4
+    },
+    {
+      "observed_month": "2001-07-01",
+      "rack_cpg": 77.2
+    },
+    {
+      "observed_month": "2001-08-01",
+      "rack_cpg": 89.0
+    },
+    {
+      "observed_month": "2001-09-01",
+      "rack_cpg": 92.0
+    },
+    {
+      "observed_month": "2001-10-01",
+      "rack_cpg": 68.8
+    },
+    {
+      "observed_month": "2001-11-01",
+      "rack_cpg": 59.099999999999994
+    },
+    {
+      "observed_month": "2001-12-01",
+      "rack_cpg": 56.2
+    },
+    {
+      "observed_month": "2002-01-01",
+      "rack_cpg": 58.9
+    },
+    {
+      "observed_month": "2002-02-01",
+      "rack_cpg": 59.8
+    },
+    {
+      "observed_month": "2002-03-01",
+      "rack_cpg": 76.3
+    },
+    {
+      "observed_month": "2002-04-01",
+      "rack_cpg": 84.0
+    },
+    {
+      "observed_month": "2002-05-01",
+      "rack_cpg": 83.0
+    },
+    {
+      "observed_month": "2002-06-01",
+      "rack_cpg": 82.5
+    },
+    {
+      "observed_month": "2002-07-01",
+      "rack_cpg": 85.1
+    },
+    {
+      "observed_month": "2002-08-01",
+      "rack_cpg": 84.39999999999999
+    },
+    {
+      "observed_month": "2002-09-01",
+      "rack_cpg": 86.0
+    },
+    {
+      "observed_month": "2002-10-01",
+      "rack_cpg": 91.60000000000001
+    },
+    {
+      "observed_month": "2002-11-01",
+      "rack_cpg": 80.80000000000001
+    },
+    {
+      "observed_month": "2002-12-01",
+      "rack_cpg": 83.3
+    },
+    {
+      "observed_month": "2003-01-01",
+      "rack_cpg": 92.10000000000001
+    },
+    {
+      "observed_month": "2003-02-01",
+      "rack_cpg": 107.5
+    },
+    {
+      "observed_month": "2003-03-01",
+      "rack_cpg": 107.3
+    },
+    {
+      "observed_month": "2003-04-01",
+      "rack_cpg": 93.10000000000001
+    },
+    {
+      "observed_month": "2003-05-01",
+      "rack_cpg": 89.2
+    },
+    {
+      "observed_month": "2003-06-01",
+      "rack_cpg": 92.30000000000001
+    },
+    {
+      "observed_month": "2003-07-01",
+      "rack_cpg": 95.7
+    },
+    {
+      "observed_month": "2003-08-01",
+      "rack_cpg": 107.80000000000001
+    },
+    {
+      "observed_month": "2003-09-01",
+      "rack_cpg": 96.5
+    },
+    {
+      "observed_month": "2003-10-01",
+      "rack_cpg": 94.6
+    },
+    {
+      "observed_month": "2003-11-01",
+      "rack_cpg": 90.9
+    },
+    {
+      "observed_month": "2003-12-01",
+      "rack_cpg": 91.4
+    },
+    {
+      "observed_month": "2004-01-01",
+      "rack_cpg": 102.8
+    },
+    {
+      "observed_month": "2004-02-01",
+      "rack_cpg": 109.4
+    },
+    {
+      "observed_month": "2004-03-01",
+      "rack_cpg": 116.10000000000001
+    },
+    {
+      "observed_month": "2004-04-01",
+      "rack_cpg": 122.50000000000001
+    },
+    {
+      "observed_month": "2004-05-01",
+      "rack_cpg": 142.2
+    },
+    {
+      "observed_month": "2004-06-01",
+      "rack_cpg": 128.7
+    },
+    {
+      "observed_month": "2004-07-01",
+      "rack_cpg": 131.5
+    },
+    {
+      "observed_month": "2004-08-01",
+      "rack_cpg": 128.5
+    },
+    {
+      "observed_month": "2004-09-01",
+      "rack_cpg": 130.29999999999998
+    },
+    {
+      "observed_month": "2004-10-01",
+      "rack_cpg": 143.2
+    },
+    {
+      "observed_month": "2004-11-01",
+      "rack_cpg": 133.9
+    },
+    {
+      "observed_month": "2004-12-01",
+      "rack_cpg": 114.7
+    },
+    {
+      "observed_month": "2005-01-01",
+      "rack_cpg": 127.2
+    },
+    {
+      "observed_month": "2005-02-01",
+      "rack_cpg": 132.29999999999998
+    },
+    {
+      "observed_month": "2005-03-01",
+      "rack_cpg": 152.2
+    },
+    {
+      "observed_month": "2005-04-01",
+      "rack_cpg": 161.9
+    },
+    {
+      "observed_month": "2005-05-01",
+      "rack_cpg": 150.29999999999998
+    },
+    {
+      "observed_month": "2005-06-01",
+      "rack_cpg": 159.7
+    },
+    {
+      "observed_month": "2005-07-01",
+      "rack_cpg": 168.79999999999998
+    },
+    {
+      "observed_month": "2005-08-01",
+      "rack_cpg": 195.1
+    },
+    {
+      "observed_month": "2005-09-01",
+      "rack_cpg": 218.29999999999998
+    },
+    {
+      "observed_month": "2005-10-01",
+      "rack_cpg": 192.0
+    },
+    {
+      "observed_month": "2005-11-01",
+      "rack_cpg": 156.1
+    },
+    {
+      "observed_month": "2005-12-01",
+      "rack_cpg": 160.0
+    },
+    {
+      "observed_month": "2006-01-01",
+      "rack_cpg": 173.9
+    },
+    {
+      "observed_month": "2006-02-01",
+      "rack_cpg": 162.6
+    },
+    {
+      "observed_month": "2006-03-01",
+      "rack_cpg": 186.5
+    },
+    {
+      "observed_month": "2006-04-01",
+      "rack_cpg": 220.2
+    },
+    {
+      "observed_month": "2006-05-01",
+      "rack_cpg": 222.8
+    },
+    {
+      "observed_month": "2006-06-01",
+      "rack_cpg": 225.89999999999998
+    },
+    {
+      "observed_month": "2006-07-01",
+      "rack_cpg": 238.3
+    },
+    {
+      "observed_month": "2006-08-01",
+      "rack_cpg": 222.00000000000003
+    },
+    {
+      "observed_month": "2006-09-01",
+      "rack_cpg": 173.9
+    },
+    {
+      "observed_month": "2006-10-01",
+      "rack_cpg": 161.1
+    },
+    {
+      "observed_month": "2006-11-01",
+      "rack_cpg": 164.6
+    },
+    {
+      "observed_month": "2006-12-01",
+      "rack_cpg": 170.2
+    },
+    {
+      "observed_month": "2007-01-01",
+      "rack_cpg": 151.8
+    },
+    {
+      "observed_month": "2007-02-01",
+      "rack_cpg": 169.6
+    },
+    {
+      "observed_month": "2007-03-01",
+      "rack_cpg": 196.4
+    },
+    {
+      "observed_month": "2007-04-01",
+      "rack_cpg": 224.29999999999998
+    },
+    {
+      "observed_month": "2007-05-01",
+      "rack_cpg": 250.1
+    },
+    {
+      "observed_month": "2007-06-01",
+      "rack_cpg": 234.20000000000002
+    },
+    {
+      "observed_month": "2007-07-01",
+      "rack_cpg": 228.79999999999998
+    },
+    {
+      "observed_month": "2007-08-01",
+      "rack_cpg": 213.7
+    },
+    {
+      "observed_month": "2007-09-01",
+      "rack_cpg": 220.1
+    },
+    {
+      "observed_month": "2007-10-01",
+      "rack_cpg": 220.5
+    },
+    {
+      "observed_month": "2007-11-01",
+      "rack_cpg": 244.60000000000002
+    },
+    {
+      "observed_month": "2007-12-01",
+      "rack_cpg": 233.2
+    },
+    {
+      "observed_month": "2008-01-01",
+      "rack_cpg": 236.90000000000003
+    },
+    {
+      "observed_month": "2008-02-01",
+      "rack_cpg": 243.2
+    },
+    {
+      "observed_month": "2008-03-01",
+      "rack_cpg": 262.59999999999997
+    },
+    {
+      "observed_month": "2008-04-01",
+      "rack_cpg": 286.0
+    },
+    {
+      "observed_month": "2008-05-01",
+      "rack_cpg": 318.29999999999995
+    },
+    {
+      "observed_month": "2008-06-01",
+      "rack_cpg": 339.9
+    },
+    {
+      "observed_month": "2008-07-01",
+      "rack_cpg": 331.1
+    },
+    {
+      "observed_month": "2008-08-01",
+      "rack_cpg": 305.79999999999995
+    },
+    {
+      "observed_month": "2008-09-01",
+      "rack_cpg": 298.8
+    },
+    {
+      "observed_month": "2008-10-01",
+      "rack_cpg": 207.20000000000002
+    },
+    {
+      "observed_month": "2008-11-01",
+      "rack_cpg": 134.0
+    },
+    {
+      "observed_month": "2008-12-01",
+      "rack_cpg": 103.2
+    },
+    {
+      "observed_month": "2009-01-01",
+      "rack_cpg": 124.0
+    },
+    {
+      "observed_month": "2009-02-01",
+      "rack_cpg": 130.6
+    },
+    {
+      "observed_month": "2009-03-01",
+      "rack_cpg": 138.1
+    },
+    {
+      "observed_month": "2009-04-01",
+      "rack_cpg": 146.1
+    },
+    {
+      "observed_month": "2009-05-01",
+      "rack_cpg": 176.29999999999998
+    },
+    {
+      "observed_month": "2009-06-01",
+      "rack_cpg": 200.8
+    },
+    {
+      "observed_month": "2009-07-01",
+      "rack_cpg": 183.4
+    },
+    {
+      "observed_month": "2009-08-01",
+      "rack_cpg": 200.2
+    },
+    {
+      "observed_month": "2009-09-01",
+      "rack_cpg": 186.1
+    },
+    {
+      "observed_month": "2009-10-01",
+      "rack_cpg": 195.9
+    },
+    {
+      "observed_month": "2009-11-01",
+      "rack_cpg": 200.99999999999997
+    },
+    {
+      "observed_month": "2009-12-01",
+      "rack_cpg": 197.4
+    },
+    {
+      "observed_month": "2010-01-01",
+      "rack_cpg": 207.10000000000002
+    },
+    {
+      "observed_month": "2010-02-01",
+      "rack_cpg": 200.8
+    },
+    {
+      "observed_month": "2010-03-01",
+      "rack_cpg": 217.4
+    },
+    {
+      "observed_month": "2010-04-01",
+      "rack_cpg": 224.8
+    },
+    {
+      "observed_month": "2010-05-01",
+      "rack_cpg": 211.3
+    },
+    {
+      "observed_month": "2010-06-01",
+      "rack_cpg": 209.0
+    },
+    {
+      "observed_month": "2010-07-01",
+      "rack_cpg": 208.5
+    },
+    {
+      "observed_month": "2010-08-01",
+      "rack_cpg": 206.70000000000002
+    },
+    {
+      "observed_month": "2010-09-01",
+      "rack_cpg": 207.29999999999998
+    },
+    {
+      "observed_month": "2010-10-01",
+      "rack_cpg": 218.4
+    },
+    {
+      "observed_month": "2010-11-01",
+      "rack_cpg": 222.7
+    },
+    {
+      "observed_month": "2010-12-01",
+      "rack_cpg": 237.0
+    },
+    {
+      "observed_month": "2011-01-01",
+      "rack_cpg": 245.29999999999998
+    },
+    {
+      "observed_month": "2011-02-01",
+      "rack_cpg": 256.70000000000005
+    },
+    {
+      "observed_month": "2011-03-01",
+      "rack_cpg": 291.1
+    },
+    {
+      "observed_month": "2011-04-01",
+      "rack_cpg": 320.1
+    },
+    {
+      "observed_month": "2011-05-01",
+      "rack_cpg": 314.5
+    },
+    {
+      "observed_month": "2011-06-01",
+      "rack_cpg": 294.3
+    },
+    {
+      "observed_month": "2011-07-01",
+      "rack_cpg": 305.4
+    },
+    {
+      "observed_month": "2011-08-01",
+      "rack_cpg": 293.0
+    },
+    {
+      "observed_month": "2011-09-01",
+      "rack_cpg": 286.0
+    },
+    {
+      "observed_month": "2011-10-01",
+      "rack_cpg": 277.0
+    },
+    {
+      "observed_month": "2011-11-01",
+      "rack_cpg": 266.7
+    },
+    {
+      "observed_month": "2011-12-01",
+      "rack_cpg": 258.70000000000005
+    },
+    {
+      "observed_month": "2012-01-01",
+      "rack_cpg": 272.1
+    },
+    {
+      "observed_month": "2012-02-01",
+      "rack_cpg": 289.9
+    },
+    {
+      "observed_month": "2012-03-01",
+      "rack_cpg": 317.09999999999997
+    },
+    {
+      "observed_month": "2012-04-01",
+      "rack_cpg": 315.09999999999997
+    },
+    {
+      "observed_month": "2012-05-01",
+      "rack_cpg": 296.0
+    },
+    {
+      "observed_month": "2012-06-01",
+      "rack_cpg": 270.6
+    },
+    {
+      "observed_month": "2012-07-01",
+      "rack_cpg": 278.0
+    },
+    {
+      "observed_month": "2012-08-01",
+      "rack_cpg": 306.4
+    },
+    {
+      "observed_month": "2012-09-01",
+      "rack_cpg": 312.40000000000003
+    },
+    {
+      "observed_month": "2012-10-01",
+      "rack_cpg": 287.3
+    },
+    {
+      "observed_month": "2012-11-01",
+      "rack_cpg": 268.1
+    },
+    {
+      "observed_month": "2012-12-01",
+      "rack_cpg": 255.7
+    },
+    {
+      "observed_month": "2013-01-01",
+      "rack_cpg": 264.2
+    },
+    {
+      "observed_month": "2013-02-01",
+      "rack_cpg": 298.9
+    },
+    {
+      "observed_month": "2013-03-01",
+      "rack_cpg": 293.9
+    },
+    {
+      "observed_month": "2013-04-01",
+      "rack_cpg": 280.7
+    },
+    {
+      "observed_month": "2013-05-01",
+      "rack_cpg": 291.40000000000003
+    },
+    {
+      "observed_month": "2013-06-01",
+      "rack_cpg": 283.59999999999997
+    },
+    {
+      "observed_month": "2013-07-01",
+      "rack_cpg": 290.0
+    },
+    {
+      "observed_month": "2013-08-01",
+      "rack_cpg": 284.90000000000003
+    },
+    {
+      "observed_month": "2013-09-01",
+      "rack_cpg": 273.6
+    },
+    {
+      "observed_month": "2013-10-01",
+      "rack_cpg": 258.70000000000005
+    },
+    {
+      "observed_month": "2013-11-01",
+      "rack_cpg": 250.8
+    },
+    {
+      "observed_month": "2013-12-01",
+      "rack_cpg": 254.2
+    },
+    {
+      "observed_month": "2014-01-01",
+      "rack_cpg": 256.59999999999997
+    },
+    {
+      "observed_month": "2014-02-01",
+      "rack_cpg": 266.59999999999997
+    },
+    {
+      "observed_month": "2014-03-01",
+      "rack_cpg": 281.8
+    },
+    {
+      "observed_month": "2014-04-01",
+      "rack_cpg": 294.3
+    },
+    {
+      "observed_month": "2014-05-01",
+      "rack_cpg": 290.6
+    },
+    {
+      "observed_month": "2014-06-01",
+      "rack_cpg": 295.8
+    },
+    {
+      "observed_month": "2014-07-01",
+      "rack_cpg": 279.7
+    },
+    {
+      "observed_month": "2014-08-01",
+      "rack_cpg": 271.0
+    },
+    {
+      "observed_month": "2014-09-01",
+      "rack_cpg": 261.90000000000003
+    },
+    {
+      "observed_month": "2014-10-01",
+      "rack_cpg": 227.2
+    },
+    {
+      "observed_month": "2014-11-01",
+      "rack_cpg": 206.9
+    },
+    {
+      "observed_month": "2014-12-01",
+      "rack_cpg": 157.7
+    },
+    {
+      "observed_month": "2015-01-01",
+      "rack_cpg": 131.8
+    },
+    {
+      "observed_month": "2015-02-01",
+      "rack_cpg": 158.9
+    },
+    {
+      "observed_month": "2015-03-01",
+      "rack_cpg": 169.6
+    },
+    {
+      "observed_month": "2015-04-01",
+      "rack_cpg": 177.1
+    },
+    {
+      "observed_month": "2015-05-01",
+      "rack_cpg": 199.9
+    },
+    {
+      "observed_month": "2015-06-01",
+      "rack_cpg": 205.10000000000002
+    },
+    {
+      "observed_month": "2015-07-01",
+      "rack_cpg": 197.10000000000002
+    },
+    {
+      "observed_month": "2015-08-01",
+      "rack_cpg": 174.2
+    },
+    {
+      "observed_month": "2015-09-01",
+      "rack_cpg": 153.0
+    },
+    {
+      "observed_month": "2015-10-01",
+      "rack_cpg": 149.10000000000002
+    },
+    {
+      "observed_month": "2015-11-01",
+      "rack_cpg": 135.4
+    },
+    {
+      "observed_month": "2015-12-01",
+      "rack_cpg": 128.2
+    },
+    {
+      "observed_month": "2016-01-01",
+      "rack_cpg": 110.1
+    },
+    {
+      "observed_month": "2016-02-01",
+      "rack_cpg": 97.7
+    },
+    {
+      "observed_month": "2016-03-01",
+      "rack_cpg": 127.3
+    },
+    {
+      "observed_month": "2016-04-01",
+      "rack_cpg": 141.2
+    },
+    {
+      "observed_month": "2016-05-01",
+      "rack_cpg": 155.9
+    },
+    {
+      "observed_month": "2016-06-01",
+      "rack_cpg": 158.5
+    },
+    {
+      "observed_month": "2016-07-01",
+      "rack_cpg": 142.1
+    },
+    {
+      "observed_month": "2016-08-01",
+      "rack_cpg": 145.79999999999998
+    },
+    {
+      "observed_month": "2016-09-01",
+      "rack_cpg": 144.9
+    },
+    {
+      "observed_month": "2016-10-01",
+      "rack_cpg": 150.5
+    },
+    {
+      "observed_month": "2016-11-01",
+      "rack_cpg": 136.1
+    },
+    {
+      "observed_month": "2016-12-01",
+      "rack_cpg": 154.1
+    },
+    {
+      "observed_month": "2017-01-01",
+      "rack_cpg": 157.1
+    },
+    {
+      "observed_month": "2017-02-01",
+      "rack_cpg": 156.0
+    },
+    {
+      "observed_month": "2017-03-01",
+      "rack_cpg": 156.20000000000002
+    },
+    {
+      "observed_month": "2017-04-01",
+      "rack_cpg": 166.0
+    },
+    {
+      "observed_month": "2017-05-01",
+      "rack_cpg": 159.60000000000002
+    },
+    {
+      "observed_month": "2017-06-01",
+      "rack_cpg": 150.0
+    },
+    {
+      "observed_month": "2017-07-01",
+      "rack_cpg": 155.7
+    },
+    {
+      "observed_month": "2017-08-01",
+      "rack_cpg": 164.79999999999998
+    },
+    {
+      "observed_month": "2017-09-01",
+      "rack_cpg": 176.29999999999998
+    },
+    {
+      "observed_month": "2017-10-01",
+      "rack_cpg": 167.0
+    },
+    {
+      "observed_month": "2017-11-01",
+      "rack_cpg": 174.8
+    },
+    {
+      "observed_month": "2017-12-01",
+      "rack_cpg": 166.2
+    },
+    {
+      "observed_month": "2018-01-01",
+      "rack_cpg": 179.1
+    },
+    {
+      "observed_month": "2018-02-01",
+      "rack_cpg": 175.0
+    },
+    {
+      "observed_month": "2018-03-01",
+      "rack_cpg": 182.0
+    },
+    {
+      "observed_month": "2018-04-01",
+      "rack_cpg": 198.5
+    },
+    {
+      "observed_month": "2018-05-01",
+      "rack_cpg": 214.0
+    },
+    {
+      "observed_month": "2018-06-01",
+      "rack_cpg": 206.5
+    },
+    {
+      "observed_month": "2018-07-01",
+      "rack_cpg": 208.4
+    },
+    {
+      "observed_month": "2018-08-01",
+      "rack_cpg": 205.29999999999998
+    },
+    {
+      "observed_month": "2018-09-01",
+      "rack_cpg": 206.9
+    },
+    {
+      "observed_month": "2018-10-01",
+      "rack_cpg": 200.5
+    },
+    {
+      "observed_month": "2018-11-01",
+      "rack_cpg": 164.3
+    },
+    {
+      "observed_month": "2018-12-01",
+      "rack_cpg": 142.5
+    },
+    {
+      "observed_month": "2019-01-01",
+      "rack_cpg": 140.5
+    },
+    {
+      "observed_month": "2019-02-01",
+      "rack_cpg": 155.5
+    },
+    {
+      "observed_month": "2019-03-01",
+      "rack_cpg": 182.0
+    },
+    {
+      "observed_month": "2019-04-01",
+      "rack_cpg": 205.20000000000002
+    },
+    {
+      "observed_month": "2019-05-01",
+      "rack_cpg": 202.0
+    },
+    {
+      "observed_month": "2019-06-01",
+      "rack_cpg": 182.20000000000002
+    },
+    {
+      "observed_month": "2019-07-01",
+      "rack_cpg": 190.6
+    },
+    {
+      "observed_month": "2019-08-01",
+      "rack_cpg": 173.6
+    },
+    {
+      "observed_month": "2019-09-01",
+      "rack_cpg": 176.2
+    },
+    {
+      "observed_month": "2019-10-01",
+      "rack_cpg": 176.29999999999998
+    },
+    {
+      "observed_month": "2019-11-01",
+      "rack_cpg": 172.5
+    },
+    {
+      "observed_month": "2019-12-01",
+      "rack_cpg": 168.2
+    },
+    {
+      "observed_month": "2020-01-01",
+      "rack_cpg": 166.2
+    },
+    {
+      "observed_month": "2020-02-01",
+      "rack_cpg": 158.4
+    },
+    {
+      "observed_month": "2020-03-01",
+      "rack_cpg": 102.8
+    },
+    {
+      "observed_month": "2020-04-01",
+      "rack_cpg": 56.3
+    },
+    {
+      "observed_month": "2020-05-01",
+      "rack_cpg": 98.3
+    },
+    {
+      "observed_month": "2020-06-01",
+      "rack_cpg": 124.2
+    },
+    {
+      "observed_month": "2020-07-01",
+      "rack_cpg": 130.5
+    },
+    {
+      "observed_month": "2020-08-01",
+      "rack_cpg": 131.1
+    },
+    {
+      "observed_month": "2020-09-01",
+      "rack_cpg": 127.60000000000001
+    },
+    {
+      "observed_month": "2020-10-01",
+      "rack_cpg": 123.70000000000002
+    },
+    {
+      "observed_month": "2020-11-01",
+      "rack_cpg": 121.2
+    },
+    {
+      "observed_month": "2020-12-01",
+      "rack_cpg": 132.5
+    },
+    {
+      "observed_month": "2021-01-01",
+      "rack_cpg": 150.5
+    },
+    {
+      "observed_month": "2021-02-01",
+      "rack_cpg": 171.3
+    },
+    {
+      "observed_month": "2021-03-01",
+      "rack_cpg": 193.4
+    },
+    {
+      "observed_month": "2021-04-01",
+      "rack_cpg": 197.0
+    },
+    {
+      "observed_month": "2021-05-01",
+      "rack_cpg": 209.20000000000002
+    },
+    {
+      "observed_month": "2021-06-01",
+      "rack_cpg": 216.2
+    },
+    {
+      "observed_month": "2021-07-01",
+      "rack_cpg": 224.6
+    },
+    {
+      "observed_month": "2021-08-01",
+      "rack_cpg": 220.6
+    },
+    {
+      "observed_month": "2021-09-01",
+      "rack_cpg": 222.5
+    },
+    {
+      "observed_month": "2021-10-01",
+      "rack_cpg": 241.1
+    },
+    {
+      "observed_month": "2021-11-01",
+      "rack_cpg": 239.5
+    },
+    {
+      "observed_month": "2021-12-01",
+      "rack_cpg": 221.20000000000002
+    },
+    {
+      "observed_month": "2022-01-01",
+      "rack_cpg": 233.3
+    },
+    {
+      "observed_month": "2022-02-01",
+      "rack_cpg": 255.20000000000002
+    },
+    {
+      "observed_month": "2022-03-01",
+      "rack_cpg": 313.3
+    }
+  ],
+  "series_id": "EMA_EPMR_PRG_NUS_DPG",
+  "sha256": "9207270a317dd69f2673aeb0241702c590b1264e7c43e960799de9c7b06c9a6b",
+  "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMR_PRG_NUS_DPGm.xls",
+  "units": "cents_per_gallon_excluding_taxes",
+  "vintage_status": "CURRENT_DOWNLOAD_NOT_HISTORICAL_PIT"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CASY_SEPARATE_RIN_CHALLENGER_V1",
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_PUBLICATION_FILTERED_NOT_STRICT_PIT",
+  "target": "Casey reported achieved fiscal-quarter fuel margin excluding credit-card fees; includes RIN economics; no substitution of MUSA retail target",
+  "evidence": "Original SEC-referenced quarterly releases or call transcripts, raw hashes, publication date, current-quarter margin, fuel gallons and numeric current-quarter RIN proceeds; ambiguous/noncomparable evidence remains unresolved",
+  "rin_component": "100 * disclosed quarterly RIN proceeds dollars / disclosed quarterly fuel gallons; gross component proxy; require RIN reduction-of-fuel-cost basis from source/filing and do not equate proceeds with total RIN fair-value income after accounting change",
+  "base_component": "reported margin minus disclosed RIN proceeds per gallon; use existing fiscal expanding YoY four-feature ridge alpha2 half-strength seasonal-anchor engine, minimum8 earlier available component targets and valid fiscal prior-year anchor",
+  "rin_forecast": "arithmetic mean of four latest earlier published quarterly RIN proceeds per fuel gallon; no target-quarter RIN input, RIN price fit or realized blending volumes",
+  "baselines": "existing own-basis fiscal model; same-quarter prior-year margin; prior-year anchor plus half mean of last4 available reported YoY changes (recent-level seasonal baseline)",
+  "eligibility": "Only complete supported component records with publication strictly before target end for training; no backfill from later annual columns. Target publication only used for later scoring",
+  "geography": "Retain archived Casey weights. No unsupported historical state or gallon weights inferred; dated historical geographic reconstruction remains unsupported in this experiment",
+  "sample": "All eligible fiscal quarters, report earlier and start>=2021 separately, >=5c original comparator misses descriptive not activation",
+  "accounting_break": "Fiscal2027Q1 RIN recognition change separately flagged; block strict proceeds decomposition if total recognized RIN income cannot be equated with proceeds",
+  "promotion": "Existing gate and comparison with both simple baselines; no automatic promotion, no retuning after results",
+  "production_changed": false
+}

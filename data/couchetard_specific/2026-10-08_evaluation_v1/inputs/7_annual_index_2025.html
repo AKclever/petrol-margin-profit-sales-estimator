@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en-US" hc="a0" hcx="0">
+  <head>
+<!-- begin spin_special_output(head_start) -->
+<style type="text/css" wd_script_id="search_form_style" nonce="NWM0NWZjY2Q0NjdiMWE3ZDIzZTNmMzdkMWFiODczMGE5MmYwMWUxYg==">
+		.wd_search_form .wd_input_datepicker {
+			margin-right: 2px;
+		}
+		.wd_search_type_checkbox {
+			margin-left: 20px;
+		}
+		</style>
+<script type="text/javascript" src="js/jquery-webdriver.js" wd_script_id="jquery-webdriver.js" nonce="NWM0NWZjY2Q0NjdiMWE3ZDIzZTNmMzdkMWFiODczMGE5MmYwMWUxYg=="></script>
+<script type="text/javascript" src="js/webdriver.js" wd_script_id="webdriver.js" nonce="NWM0NWZjY2Q0NjdiMWE3ZDIzZTNmMzdkMWFiODczMGE5MmYwMWUxYg=="></script>
+<script type="text/javascript" wd_script_id="search_form_script" nonce="NWM0NWZjY2Q0NjdiMWE3ZDIzZTNmMzdkMWFiODczMGE5MmYwMWUxYg==">
+			function wd_toggle_search_form(link, advanced) {
+				var $ = webDriver.jQuery;
+				var $container = $(link).closest(".wd_search_form_container");
+				var basic_form = $container.find(".wd_search_form_basic");
+				var basic_query = basic_form.find('input[name="query"]');
+				var advanced_form = $container.find(".wd_search_form_advanced");
+				var advanced_query = advanced_form.find('input[name="query"]');
+
+				if (advanced) {
+					advanced_query.val(basic_query.val());
+					advanced_form.show();
+					basic_form.hide();
+				} else {
+					basic_query.val(advanced_query.val());
+					basic_form.show();
+					advanced_form.hide();
+				}
+
+				var target_form = advanced ? advanced_form : basic_form;
+				var focus_target = target_form.find('input[name="query"]').filter(":visible:not(:disabled)").get(0);
+				if (!focus_target)
+					focus_target = target_form.find(":input").filter(":visible:not(:disabled)").get(0);
+				if (focus_target)
+					setTimeout(function() { focus_target.focus(); }, 0);
+			}
+
+			function wd_toggle_search_type_checkboxes(radio) {
+				var $ = webDriver.jQuery;
+				var $radio = $(radio);
+				var all = $radio.val() == "All" ? $radio.is(":checked") : !$radio.is(":checked");
+				var $checkboxes = $radio.closest(".wd_form_field").find(".wd_search_type_checkbox");
+				$checkboxes.find('input[type="checkbox"]').prop("disabled", all);
+				$checkboxes.toggle(!all);
+			}
+
+			webDriver.jQuery(function ($) {
+				$('.wd_search_type_radio input[type="radio"]').each(function() {wd_toggle_search_type_checkboxes(this);});
+			});
+		</script>
+<script type="text/javascript" wd_script_id="featurebox_financial_script" nonce="NWM0NWZjY2Q0NjdiMWE3ZDIzZTNmMzdkMWFiODczMGE5MmYwMWUxYg==">
+			var ir_featurebox = {
+				featureboxes: new Array,
+				ticker_data: new Array,
+
+				update: function(index, ticker, filer) {
+					var item_id = ticker || filer;
+					if (!this.featureboxes[index]) {
+						this.featureboxes[index] = {
+							ticker: ticker,
+							filer: filer,
+							chart: false,
+							size: false
+						};
+					}
+
+					if (!this.ticker_data[item_id])
+						this.ticker_data[item_id] = {};
+
+					if (ticker && webDriver.jQuery("#ir_featurebox_"+index+"-quote").length)
+						this.update_quote(index, ticker);
+
+					if (ticker && webDriver.jQuery("#ir_featurebox_"+index+"-chart").length)
+						this.update_chart(index, ticker);
+
+					if (ticker && webDriver.jQuery("#ir_featurebox_"+index+"-data").length)
+						this.update_data(index, ticker);
+
+					if (filer && webDriver.jQuery("#ir_featurebox_"+index+"-filings").length)
+						this.update_filings(index, filer);
+
+					if (webDriver.jQuery("#ir_featurebox_"+index+"-footer").length)
+						this.update_labels(index, ticker, filer);
+				},
+
+				update_labels: function(index, ticker, filer) {
+					var item_id = ticker || filer;
+					if (!this.ticker_data[item_id]["labels"]) {
+						webDriver.jQuery("#ir_featurebox_"+index+"-footer").html("");
+						webDriver.jQuery.getJSON(
+							"index.php",
+							{
+								ajax: "ir_featurebox",
+								ticker: ticker,
+								filer: filer,
+								data: "labels"
+							},
+							function(data) {
+								ir_featurebox.ticker_data[item_id]["labels"] = data;
+								ir_featurebox.update_labels(index, ticker, filer);
+							}
+						);
+					} else {
+						webDriver.jQuery("#ir_featurebox_"+index+"-footer").html(this.ticker_data[item_id]["labels"].footer);
+					}
+				}
+			};
+		</script>
+<style type="text/css" wd_script_id="ir_ticker_label_style" nonce="NWM0NWZjY2Q0NjdiMWE3ZDIzZTNmMzdkMWFiODczMGE5MmYwMWUxYg==">
+				div.wd_ticker_label {
+					text-align: right;
+					margin: 5px 0;
+				}
+				div.wd_ticker_label span.wd_exchange {
+					color: #999999;
+				}
+
+				div.wd_ticker_label span.wd_exchange:after {
+					content: ": ";
+				}
+			</style>
+<style type="text/css" wd_script_id="ir_featurebox_data_style" nonce="NWM0NWZjY2Q0NjdiMWE3ZDIzZTNmMzdkMWFiODczMGE5MmYwMWUxYg==">
+				div.wd_chart-quote {
+					width: 100%;
+					overflow: auto;
+				}
+
+				div.wd_chart-quote-item {
+					width: 49%;
+					float: left;
+					margin: 10px 0;
+				}
+
+				div.wd_chart-quote-value {
+					margin: 0;
+					font-weight: bold;
+				}
+
+				div.wd_chart-quote-value-down {
+					color: #cc0000;
+				}
+
+				div.wd_chart-quote-value-up {
+					color: #00cc00;
+				}
+
+				div.wd_chart-quote-label {
+					margin: 0;
+					color: #999999;
+				}
+
+				div.wd_chart-quote-footer {
+					margin: 5px 0 0 0;
+					font-size: .75em;
+					color: #999999;
+				}
+				</style>
+<link href="css/wd_wcag.css" type="text/css" rel="stylesheet" wd_script_id="wd_wcag.css">
+<link href="thirdparty/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+<script type="text/javascript" wd_script_id="ir_featurebox_data_script" nonce="NWM0NWZjY2Q0NjdiMWE3ZDIzZTNmMzdkMWFiODczMGE5MmYwMWUxYg==">
+					ir_featurebox.update_data = function(index, ticker) {
+						if (!this.ticker_data[ticker]["data"]) {
+							webDriver.jQuery("#ir_featurebox_"+index+"-data").html('<center><span class="wd_loading_rotate" ><span class="fa-spin fa-fw fa fa-circle-o-notch" style="font-size: 3em;"></span><span class="wd_sr-only">Loading...</span></span></center>');
+							webDriver.jQuery.get(
+								"index.php",
+								{
+									ajax: "ir_featurebox",
+									ticker: ticker,
+									data: "data"
+								},
+								function(data) {
+									ir_featurebox.ticker_data[ticker]["data"] = data;
+									ir_featurebox.update_data(index, ticker);
+								}
+							);
+						} else {
+							webDriver.jQuery("#ir_featurebox_"+index+"-data").html(this.ticker_data[ticker]["data"]);
+						}
+					}
+				</script>
+<style type="text/css" wd_script_id="featurebox_financial_style" nonce="NWM0NWZjY2Q0NjdiMWE3ZDIzZTNmMzdkMWFiODczMGE5MmYwMWUxYg==">
+			div.wd_chart-quote-footer {
+				margin: 5px 0 0 0;
+				font-size: .75em;
+				color: #999999;
+			}
+		</style>
+<style type="text/css" wd_script_id="featureboxes_style" nonce="NWM0NWZjY2Q0NjdiMWE3ZDIzZTNmMzdkMWFiODczMGE5MmYwMWUxYg==">
+		.wd_featurebox_icon {
+			display: inline;
+		}
+		.wd_featurebox_icon img {
+			vertical-align: middle;
+		}
+		div.wd_featurebox_group div.wd_tabs_wrapper {
+			border: none;
+			border-bottom: 1px solid #E1E1E1;
+			padding: 0 0 5px 0;
+		}
+		div.wd_featurebox_group div.wd_featurebox {
+			border: none;
+			padding: 8px 0 0 0;
+		}
+		div.wd_featurebox_group li.wd_tab {
+			float: none;
+			color: #666666;
+		}
+		div.wd_featurebox_group li.wd_tab-active {
+			border: none;
+			background-color: transparent;
+			color: #000000;
+			font-weight: bold;
+		}
+		div.wd_featurebox_group li.wd_tab-inactive {
+			cursor: auto;
+		}
+	</style>
+<link href="css/wd_categories.css" type="text/css" rel="stylesheet" wd_script_id="wd_categories.css">
+
+<!-- end spin_special_output(head_start) -->
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W8DQKXPH');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="images/favicon.png">
+    
+    <title>Financial Reporting | Couche-Tard Corporate</title>
+	
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+ <meta name="twitter:card" content="summary" />
+ <meta property="og:site_name" content="Alimentation Couche-Tard Corporate" />
+ <meta property="og:url" content="https://corporate.couche-tard.com/index.php?s=" />
+ <meta name="image" property="og:image" content="https://corporate.couche-tard.com/image/ct-social-logo.jpg" />
+ <meta name="twitter:image" content="https://corporate.couche-tard.com/image/ct-social-logo.jpg" />
+    
+    
+    <link rel="dns-prefetch" href="https://ajax.googleapis.com/">
+    <link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/global-styles-inline-css.css" type="text/css" media="all">
+    <link rel="stylesheet" id="wpml-blocks-css" href="css/styles.css" type="text/css" media="all">
+    <link rel="stylesheet" id="wpml-menu-item-0-css" href="css/style(1).min.css" type="text/css" media="all">
+    <link rel="stylesheet" id="sage/main.css-css" href="css/main.css" type="text/css" media="all">
+    <!-- <link rel="stylesheet" type="text/css" href="thirdparty/slick/slick.css"> -->
+    <link href="css/jquery.fancybox.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link rel="stylesheet" type="text/css" href="css/wdcontent.css">
+    <!-- <script type="text/javascript" src="js/jquery.min.js" id="jquery-js"></script> -->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js?ver=3.6" id="jquery-js"></script>
+    <script type="text/javascript" src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <script type="text/javascript" id="wpml-cookie-js-extra">
+      /* 
+																		<![CDATA[ */
+      var wpml_cookies = {
+        "wp-wpml_current_language": {
+          "value": "en",
+          "expires": 1,
+          "path": "\/"
+        }
+      };
+      var wpml_cookies = {
+        "wp-wpml_current_language": {
+          "value": "en",
+          "expires": 1,
+          "path": "\/"
+        }
+      };
+      /* ]]> */
+    </script>
+    <script type="text/javascript" src="js/language-cookie.js" id="wpml-cookie-js"></script>
+      
+    <style type="text/css">
+      .recentcomments a {
+        display: inline !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+    </style>
+    <style type="text/css" id="wp-custom-css">
+      .pn-page-builder .wp-block-table.is-style-stripes tr td:not(:first-child) {
+        text-align: left;
+      }
+
+      .carousel-image-home .list-ql-header .ql-wrapper .list-ql-item {
+        padding: 16px !important;
+      }
+    </style>
+    <script type="text/javascript">
+      window.recaptchaSiteKey = "6LehHIwaAAAAALqkeskqJ5va9Q-vtYDejjk6pvDW";
+    </script>
+  
+<!-- begin spin_special_output(head_end) -->
+<link rel="canonical" href="https://corporate.couche-tard.com/financial-reporting?cat=29" />
+<!-- end spin_special_output(head_end) -->
+</head>
+    <body class="wd_pageid_66 wd_is_category wd_category_29  wd_finreporting home page-template page-template-template-home template-home page page-id-2 app-data index-data singular-data page-data page-2-data page-sample-page-data template-home-data front-page-data" cz-shortcut-listen="true">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8DQKXPH"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="header header-slim" data-component="header">
+      <div class="bg-header"></div>
+      <div class="container">
+        <div class="menu-dk">
+          <div class="header-top header-top-slim">
+            <nav class="nav-top">
+              <ul class="menu-top">
+                <li class="menu-item menu-item-small">
+                  <a href="https://corporate.couche-tard.com/media-resources" target="">Media Resources </a>
+                </li>
+                <li class="menu-item menu-item-small">
+                  <a href="https://workwithus.circlek.com/global/en" target="_blank">Careers <img class="external-link" src="images/external-link.webp" alt="External">
+                  </a>
+                </li>
+                <li class="menu-item menu-item-small">
+                  <a href="https://corporate.couche-tard.com/contact-us" target="">Contact Us </a>
+                </li>
+                <li class="menu-item menu-item-small">
+                                    <a href="https://corporatif.couche-tard.com/?s=20" target="">
+                    <span class="wpml-ls-native" lang="fr">Français</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="nav-search">
+              <div class="wd_search_form_container"><form name="basic_search" method="get" action="https://corporate.couche-tard.com/index.php?s=82" class="wd_search_form wd_search_form_basic"><input type="hidden" name="s" value="search_results" /><input type="text" name="query" value="" size="32" placeholder="Search" title="Search" /> <a href="#" onclick="webDriver.jQuery(this).closest('form').submit(); return false;"><span class="wd_sr-only">Submit search</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path fill="#000" fill-rule="nonzero" d="M15.5,14 L14.71,14 L14.43,13.73 C15.4438721,12.5540218 16.0011023,11.0526944 16,9.5 C16,5.91014913 13.0898509,3 9.5,3 C5.91014913,3 3,5.91014913 3,9.5 C3,13.0898509 5.91014913,16 9.5,16 C11.11,16 12.59,15.41 13.73,14.43 L14,14.71 L14,15.5 L19,20.49 L20.49,19 L15.5,14 Z M9.5,14 C7.01,14 5,11.99 5,9.5 C5,7.01 7.01,5 9.5,5 C11.99,5 14,7.01 14,9.5 C14,11.99 11.99,14 9.5,14 Z"></path><rect width="24" height="24"></rect></g></svg></a></form>
+</div>            </div>
+          </div>
+          <div class="header-bottom">
+            <div class="menu-left">
+              <a href="https://corporate.couche-tard.com/home" class="logo-wrapper reset-font">
+                <img src="images/logo-full.webp" alt="Couche-Tard">
+              </a>
+            </div>
+            <div class="menu-right">
+              <nav class="nav-primary">
+                <ul class="menu-primary">
+<li class="menu-item ">
+  <a href="https://corporate.couche-tard.com/our-company" target="_self" data-target="sub116">
+    <span class="label">Our Company</span>
+    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>  </a>
+</li>
+<li class="menu-item ">
+  <a href="https://corporate.couche-tard.com/investors" target="_self" data-target="sub129">
+    <span class="label">Investors</span>
+    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>  </a>
+</li>
+<li class="menu-item ">
+  <a href="https://corporate.couche-tard.com/sustainability" target="_self" data-target="sub410">
+    <span class="label">Sustainability</span>
+    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>  </a>
+</li>
+<li class="menu-item ">
+  <a href="https://corporate.couche-tard.com/newsroom" target="_self" data-target="sub418">
+    <span class="label">Newsroom</span>
+    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>  </a>
+</li>
+</ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="menu-mb">
+          <div class="menu-left">
+            <a href="https://corporate.couche-tard.com/home" class="logo-wrapper reset-font">
+              <img src="images/logo-full-mobile.webp" alt="Couche-Tard">
+            </a>
+          </div>
+          <div class="menu-right">
+            <div class="label-wrapper">
+              <p class="open">Menu</p>
+              <p class="close">Close</p>
+            </div>
+            <div class="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="fixed-dk-nav">
+      <div class="fixed-dk-nav-bg"></div>
+      <div class="fixed-dk-nav-container">
+        <div class="fixed-dk-nav-inner">
+          		<div class="sub-nav-dk" data-parent="sub116">
+			<div class="sub-nav-inner">
+  <div class="container">
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/who-we-are" target="_self">
+			    <span class="label">Who We Are</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/our-values" target="_self">
+			    <span class="label">Our Values</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/our-brands" target="_self">
+			    <span class="label">Our Brands</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/where-we-operate" target="_self">
+			    <span class="label">Where We Operate</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" data-target="sub123">
+			  <a href="https://corporate.couche-tard.com/leadership-governance" target="_self">
+			    <span class="label">Leadership & Governance</span>
+			    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>			  </a>
+			</li>
+	<li>
+	<ul class="third-nav-menu" data-parent="sub123">
+		<div class="third-nav-inner">
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/board-of-directors" target="_self">Board of Directors</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/executive-management" target="_self">Executive Management</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/governance" target="_self">Governance</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/ethics-and-compliance" target="_self">Ethics and Compliance</a>
+</li>
+</div>
+	</ul>
+	</li>
+	</ul>
+</nav>
+
+	</div>
+</div>
+		</div>
+			<div class="sub-nav-dk" data-parent="sub129">
+			<div class="sub-nav-inner">
+  <div class="container">
+ 
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" data-target="sub52">
+			  <a href="https://corporate.couche-tard.com/financial-information" target="_self">
+			    <span class="label">Financial Information</span>
+			    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>			  </a>
+			</li>
+	<li>
+	<ul class="third-nav-menu" data-parent="sub52">
+		<div class="third-nav-inner">
+<li class="menu-item child-item">
+  <a href="financial-releases" target="_self">Financial Releases</a>
+</li>
+ 
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/financial-reporting?cat=31" target="_self">Financial Reporting</a>
+</li>
+</div>
+	</ul>
+	</li>
+	</ul>
+</nav>
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/sustainable-finance" target="_self">
+			    <span class="label">Sustainable Finance</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/events-presentations" target="_self">
+			    <span class="label">Events & Presentations</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" data-target="sub406">
+			  <a href="https://corporate.couche-tard.com/stock-information" target="_self">
+			    <span class="label">Stock Information</span>
+			    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>			  </a>
+			</li>
+	<li>
+	<ul class="third-nav-menu" data-parent="sub406">
+		<div class="third-nav-inner">
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/stock-quotes" target="_self">Stock Quote</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/analyst-coverage" target="_self">Analyst Coverage</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/dividend-history" target="_self">Dividend History</a>
+</li>
+</div>
+	</ul>
+	</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" data-target="sub408">
+			  <a href="https://corporate.couche-tard.com/shareholders-ressources" target="_self">
+			    <span class="label">Shareholders Resources</span>
+			    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>			  </a>
+			</li>
+	<li>
+	<ul class="third-nav-menu" data-parent="sub408">
+		<div class="third-nav-inner">
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/annual-general-meeting-documents" target="_self">Annual General Meeting Documents</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/regulatory-filings?cat=4" target="_self">Regulatory/SEDAR Filings</a>
+</li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/faq" target="_self">FAQ</a>
+</li>
+</div>
+	</ul>
+	</li>
+	</ul>
+</nav>
+
+	</div>
+</div>
+		</div>
+			<div class="sub-nav-dk" data-parent="sub410">
+			<div class="sub-nav-inner">
+  <div class="container">
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/our-sustainability-journey" target="_self">
+			    <span class="label">Our Sustainability Journey</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/planet" target="_self">
+			    <span class="label">Planet</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/people" target="_self">
+			    <span class="label">People</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/prosperity" target="_self">
+			    <span class="label">Prosperity</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" data-target="sub166">
+			  <a href="https://corporate.couche-tard.com/reports-and-indexes" target="_self">
+			    <span class="label">Reports & Indexes</span>
+			    <span class="picto reset-font"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><filter><fecolormatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></fecolormatrix></filter></defs><g fill="none" fill-rule="evenodd" transform="translate(-457 -97)"><g transform="translate(457 97)"><polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10"></polygon><rect width="24" height="24"></rect></g></g></svg></span>			  </a>
+			</li>
+	<li>
+	<ul class="third-nav-menu" data-parent="sub166">
+		<div class="third-nav-inner">
+<li class="menu-item child-item">
+  <a href="image/COTA093_ACT_2026_Sustainability_Report_EN_20260623.pdf" target="_blank">2026 Sustainability Report</a>
+</li>
+<li class="menu-item child-item">
+  <a href="reports-and-indexes" target="_self">Archives</a>
+</li>
+</div>
+	</ul>
+	</li>
+	</ul>
+</nav>
+
+	</div>
+</div>
+		</div>
+			<div class="sub-nav-dk" data-parent="sub418">
+			<div class="sub-nav-inner">
+  <div class="container">
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/press-releases" target="_self">
+			    <span class="label">Press Releases</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/stories" target="_self">
+			    <span class="label">News & Stories</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+<nav class="sub-nav">
+    <ul class="sub-nav-menu" data-component="headerSubNav">
+			<li class="menu-item title-item" >
+			  <a href="https://corporate.couche-tard.com/media-resources" target="_self">
+			    <span class="label">Media Resources</span>
+			    			  </a>
+			</li>
+	</ul>
+</nav>
+
+	</div>
+</div>
+		</div>
+	        </div>
+      </div>
+    </div>
+    <div class="fixed-mb-nav">
+      <div class="fixed-mb-container">
+        <div class="fixed-mb-nav-inner">
+          <div class="container">
+            <div class="sub-nav-mb">
+              <div class="sub-nav-inner">
+              	<nav class="primary-nav">
+	                <ul class="sub-nav-menu">
+<li class="menu-item title-item">
+  <a href="https://corporate.couche-tard.com/our-company" target="_self" data-target="sub116">
+    <span>Our Company</span>
+  </a>
+  <span class="picto reset-font" data-target="sub116"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="sub-nav" data-parent="sub116" data-component="headerSubNav">
+	<div class="container">
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/who-we-are" target="_self" >
+    <span>Who We Are</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/our-values" target="_self" >
+    <span>Our Values</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/our-brands" target="_self" >
+    <span>Our Brands</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/where-we-operate" target="_self" >
+    <span>Where We Operate</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/leadership-governance" target="_self" data-target="sub123">
+    <span>Leadership & Governance</span>
+  </a>
+  <span class="picto reset-font" data-target="sub123"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="second-sub-nav sub-nav" data-parent="sub123">
+		<div class="container">
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/board-of-directors" target="_self" class="">
+    <span>Board of Directors</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/executive-management" target="_self" class="">
+    <span>Executive Management</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/governance" target="_self" class="">
+    <span>Governance</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/ethics-and-compliance" target="_self" class="">
+    <span>Ethics and Compliance</span>
+  </a>
+</li>
+</div>
+	</ul>
+</div>
+	</ul>
+<li class="menu-item title-item">
+  <a href="https://corporate.couche-tard.com/investors" target="_self" data-target="sub129">
+    <span>Investors</span>
+  </a>
+  <span class="picto reset-font" data-target="sub129"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="sub-nav" data-parent="sub129" data-component="headerSubNav">
+	<div class="container">
+ 
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/financial-information" target="_self" data-target="sub52">
+    <span>Financial Information</span>
+  </a>
+  <span class="picto reset-font" data-target="sub52"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="second-sub-nav sub-nav" data-parent="sub52">
+		<div class="container">
+<li class="menu-item grandchild-item">
+  <a href="financial-releases" target="_self" class="">
+    <span>Financial Releases</span>
+  </a>
+</li>
+ 
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/financial-reporting?cat=31" target="_self" class="">
+    <span>Financial Reporting</span>
+  </a>
+</li>
+</div>
+	</ul>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/sustainable-finance" target="_self" >
+    <span>Sustainable Finance</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/events-presentations" target="_self" >
+    <span>Events & Presentations</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/stock-information" target="_self" data-target="sub406">
+    <span>Stock Information</span>
+  </a>
+  <span class="picto reset-font" data-target="sub406"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="second-sub-nav sub-nav" data-parent="sub406">
+		<div class="container">
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/stock-quotes" target="_self" class="">
+    <span>Stock Quote</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/analyst-coverage" target="_self" class="">
+    <span>Analyst Coverage</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/dividend-history" target="_self" class="">
+    <span>Dividend History</span>
+  </a>
+</li>
+</div>
+	</ul>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/shareholders-ressources" target="_self" data-target="sub408">
+    <span>Shareholders Resources</span>
+  </a>
+  <span class="picto reset-font" data-target="sub408"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="second-sub-nav sub-nav" data-parent="sub408">
+		<div class="container">
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/annual-general-meeting-documents" target="_self" class="">
+    <span>Annual General Meeting Documents</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/regulatory-filings?cat=4" target="_self" class="">
+    <span>Regulatory/SEDAR Filings</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="https://corporate.couche-tard.com/faq" target="_self" class="">
+    <span>FAQ</span>
+  </a>
+</li>
+</div>
+	</ul>
+</div>
+	</ul>
+<li class="menu-item title-item">
+  <a href="https://corporate.couche-tard.com/sustainability" target="_self" data-target="sub410">
+    <span>Sustainability</span>
+  </a>
+  <span class="picto reset-font" data-target="sub410"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="sub-nav" data-parent="sub410" data-component="headerSubNav">
+	<div class="container">
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/our-sustainability-journey" target="_self" >
+    <span>Our Sustainability Journey</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/planet" target="_self" >
+    <span>Planet</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/people" target="_self" >
+    <span>People</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/prosperity" target="_self" >
+    <span>Prosperity</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/reports-and-indexes" target="_self" data-target="sub166">
+    <span>Reports & Indexes</span>
+  </a>
+  <span class="picto reset-font" data-target="sub166"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="second-sub-nav sub-nav" data-parent="sub166">
+		<div class="container">
+<li class="menu-item grandchild-item">
+  <a href="image/COTA093_ACT_2026_Sustainability_Report_EN_20260623.pdf" target="_blank" class="">
+    <span>2026 Sustainability Report</span>
+  </a>
+</li>
+<li class="menu-item grandchild-item">
+  <a href="reports-and-indexes" target="_self" class="">
+    <span>Archives</span>
+  </a>
+</li>
+</div>
+	</ul>
+</div>
+	</ul>
+<li class="menu-item title-item">
+  <a href="https://corporate.couche-tard.com/newsroom" target="_self" data-target="sub418">
+    <span>Newsroom</span>
+  </a>
+  <span class="picto reset-font" data-target="sub418"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><g fill="none" fill-rule="evenodd" transform="translate(-8 -6)"><polygon fill="#06A" fill-rule="nonzero" points="8.59 16.59 13.17 12 8.59 7.41 10 6 16 12 10 18"></polygon><rect width="24" height="24"></rect></g></svg></span></li>
+	<ul class="sub-nav" data-parent="sub418" data-component="headerSubNav">
+	<div class="container">
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/press-releases" target="_self" >
+    <span>Press Releases</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/stories" target="_self" >
+    <span>News & Stories</span>
+  </a>
+  </li>
+<li class="menu-item child-item">
+  <a href="https://corporate.couche-tard.com/media-resources" target="_self" >
+    <span>Media Resources</span>
+  </a>
+  </li>
+</div>
+	</ul>
+</ul>
+	            </nav>
+                <nav class="secondary-nav">
+                  <ul>
+                    <li class="menu-item">
+                      <a href="https://corporate.couche-tard.com/media-resources" target="">Media Resources</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="https://workwithus.circlek.com/global/en" target="_blank">Careers</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="https://corporate.couche-tard.com/contact-us" target="">Contact Us</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="https://corpo.couche-tard.com/fr/notre-entreprise/nos-marques/" target="">
+                        <span class="wpml-ls-native" lang="fr">Français</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap" role="document">
+      <div class="content">
+        <main class="main">
+          <section class="page_layout page_home wd_main_content_wrapper">
+                                  	<div class="banner-default">
+          	              <div class="image-bleed">
+                <img src="/image/Financial+Reporting_2.png" alt="">
+              </div>
+                                    <div class="container circle-wrapper">
+              <div class="stock-circle">
+                <div class="sc-bg"></div>
+                <div class="wd_featureboxes_circle wd_featureboxes-vertical fr-view">
+<div id="wd_featurebox-financial_4" class="wd_featurebox_container wd_featurebox-financial"><div class="wd_featurebox_title">Stock Information </div><div class="wd_featurebox"><div class="wd_ticker_label"><span class="wd_exchange">TSX</span><span class="wd_symbol">ATD</span></div><div class="wd_quote-container" id="ir_featurebox_4-data"></div><div class="wd_chart-quote-footer" id="ir_featurebox_4-footer"></div><script type="text/javascript">webDriver.jQuery(function() {ir_featurebox.update(4, "ATD:CA", false);});</script></div></div></div>
+              </div>
+            </div>
+                          <div class="container bd-bottom">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="block-content left">
+                      <ul class="breadcrumb ">
+                        <li>
+                          <a href="https://corporate.couche-tard.com/home">
+                            <span>Home</span>
+                          </a>
+                        </li>
+                                              <li>
+  <a href="https://corporate.couche-tard.com/investors"  target="_self">
+    <span>Investors</span>
+  </a>
+</li>
+<li>
+  <a href="https://corporate.couche-tard.com/financial-information"  target="_self">
+    <span>Financial Information</span>
+  </a>
+</li>
+<li>
+  <a href="https://corporate.couche-tard.com/financial-reporting?cat=31"  target="_self">
+    <span>Financial Reporting</span>
+  </a>
+</li>
+
+                                                                  </ul>
+                                              <h1 class="title">Financial Reporting</h1>
+                        <div class="pn-wysiwyg wd_header_description">
+                                                  </div>
+                                          </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                      	<div class="container">
+            </div>
+            <div class="container">
+        <div class="row justify-content-between">
+                    <div class="col-12">
+                        <div class="wd_category_nav">
+      <label class="wd_category_name">Date</label>
+      <div class="custom-dropdown js-custom-dropdown" data-component="customDropdown">
+        <div class="custom-dropdown__label js-custom-dropdown-label">
+          <span class="js-label-text"></span>
+          <span class="custom-dropdown--arrow reset-font">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 10 5">
+                <defs>
+                  <filter id="dropdown-open-a">
+                    <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.000000 0 0 0 0 0.400000 0 0 0 0 0.666667 0 0 0 1.000000 0"></feColorMatrix>
+                  </filter>
+                </defs>
+                <g fill="none" fill-rule="evenodd" filter="url(#dropdown-open-a)" transform="translate(-7 -9)">
+                  <g transform="matrix(1 0 0 -1 0 24)">
+                    <polygon fill="#000" fill-rule="nonzero" points="7 10 12 15 17 10" transform="matrix(1 0 0 -1 0 25)"></polygon>
+                    <rect width="24" height="24"></rect>
+                  </g>
+                </g>
+              </svg>
+            </span>
+          </span>
+        </div>
+        <div class="custom-dropdown__content js-custom-dropdown-content" style="transform: translate3d(0px, 0px, 0px); height: 0px;">
+          <div class="custom-dropdown__content--wrapper  js-custom-dropdown-content-inner" style="opacity: 1;">
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=31" class="vsubnav">2027</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=30" class="vsubnav">2026</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option wd_active_category">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=29" class="vsubnav">2025</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=3" class="vsubnav">2024</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=4" class="vsubnav">2023</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=5" class="vsubnav">2022</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=6" class="vsubnav">2021</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=7" class="vsubnav">2020</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=8" class="vsubnav">2019</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=9" class="vsubnav">2018</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=10" class="vsubnav">2017</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=11" class="vsubnav">2016</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=12" class="vsubnav">2015</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=13" class="vsubnav">2014</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=14" class="vsubnav">2013</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=15" class="vsubnav">2012</a>
+				            </div>
+			<div class="wd_category_nav_item content__option js-dropdown-option">
+              <a href="https://corporate.couche-tard.com/financial-reporting?cat=16" class="vsubnav">2011</a>
+				            </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="wd_printable_content" class="fr-view">
+<div class="wd_standard">
+<div class="wd_category wd_category_29"><div class="wd_category_info"><h2 class="category_header">2025</h2><div class="category_intro"><div class="category_summary"></div>
+</div></div><div class="wd_category_items wd_category_items_29"><div class="item"><div class="item_name">2025 Annual Information Form</div><table class="wd_attachment" border="0" cellpadding="0" cellspacing="0" role="presentation"><tr>
+<td class="wd_attachment_image" valign="top" aria-hidden="true" role="presentation"><a href="/download/2025+AIF+-+EN+%28April+27%2C+2025%29+%28Re-Filed%29.pdf" target="_top" tabindex="-1"><img src="images/webdriver/fileicons/16/pdf.gif" border="0" align="left" hspace="5" alt="Download"></a></td>
+<td class="wd_attachment_info" valign="top"><p style="margin-top:0px; padding-top:0px;"><a href="/download/2025+AIF+-+EN+%28April+27%2C+2025%29+%28Re-Filed%29.pdf" target="_top" class="itemlink"><span class="wd_attachment_title">Download</span></a><br>
+<span class="wd_attachment_description"></span><span class="wd_attachment_size"> (2.8&nbsp;MB)</span></p></td>
+</tr><tr>
+<td class="wd_attachment_spacer" colspan="2">&nbsp;</td>
+</tr></table>
+</div>
+<div class="item"><div class="item_name">2025 Annual Report</div><table class="wd_attachment" border="0" cellpadding="0" cellspacing="0" role="presentation"><tr>
+<td class="wd_attachment_image" valign="top" aria-hidden="true" role="presentation"><a href="/download/COTA086_ACT_Annual+Report_PRINT_EN_20250626_v2.pdf" target="_top" tabindex="-1"><img src="images/webdriver/fileicons/16/pdf.gif" border="0" align="left" hspace="5" alt="Download"></a></td>
+<td class="wd_attachment_info" valign="top"><p style="margin-top:0px; padding-top:0px;"><a href="/download/COTA086_ACT_Annual+Report_PRINT_EN_20250626_v2.pdf" target="_top" class="itemlink"><span class="wd_attachment_title">Download</span></a><br>
+<span class="wd_attachment_description"></span><span class="wd_attachment_size"> (19.6&nbsp;MB)</span></p></td>
+</tr><tr>
+<td class="wd_attachment_spacer" colspan="2">&nbsp;</td>
+</tr></table>
+</div>
+<div class="item"><div class="item_name">2025 Consolidated Annual Financial Statements</div><table class="wd_attachment" border="0" cellpadding="0" cellspacing="0" role="presentation"><tr>
+<td class="wd_attachment_image" valign="top" aria-hidden="true" role="presentation"><a href="/download/2025+-+Annual+Consolidated+Financial+Statements+-+En.pdf" target="_top" tabindex="-1"><img src="images/webdriver/fileicons/16/pdf.gif" border="0" align="left" hspace="5" alt="Download"></a></td>
+<td class="wd_attachment_info" valign="top"><p style="margin-top:0px; padding-top:0px;"><a href="/download/2025+-+Annual+Consolidated+Financial+Statements+-+En.pdf" target="_top" class="itemlink"><span class="wd_attachment_title">Download</span></a><br>
+<span class="wd_attachment_description"></span><span class="wd_attachment_size"> (934&nbsp;KB)</span></p></td>
+</tr><tr>
+<td class="wd_attachment_spacer" colspan="2">&nbsp;</td>
+</tr></table>
+</div>
+<div class="item"><div class="item_name">2025 Management Discussion & Analysis</div><table class="wd_attachment" border="0" cellpadding="0" cellspacing="0" role="presentation"><tr>
+<td class="wd_attachment_image" valign="top" aria-hidden="true" role="presentation"><a href="/download/2025+-+Q4+Management+Discussion+%26+Analysis+-+En.pdf" target="_top" tabindex="-1"><img src="images/webdriver/fileicons/16/pdf.gif" border="0" align="left" hspace="5" alt="Download"></a></td>
+<td class="wd_attachment_info" valign="top"><p style="margin-top:0px; padding-top:0px;"><a href="/download/2025+-+Q4+Management+Discussion+%26+Analysis+-+En.pdf" target="_top" class="itemlink"><span class="wd_attachment_title">Download</span></a><br>
+<span class="wd_attachment_description"></span><span class="wd_attachment_size"> (904&nbsp;KB)</span></p></td>
+</tr><tr>
+<td class="wd_attachment_spacer" colspan="2">&nbsp;</td>
+</tr></table>
+</div>
+<div class="item"><div class="item_name">2025 Management Proxy Circular</div><table class="wd_attachment" border="0" cellpadding="0" cellspacing="0" role="presentation"><tr>
+<td class="wd_attachment_image" valign="top" aria-hidden="true" role="presentation"><a href="/download/2025+Proxy+Circular_EN.pdf" target="_top" tabindex="-1"><img src="images/webdriver/fileicons/16/pdf.gif" border="0" align="left" hspace="5" alt="Download"></a></td>
+<td class="wd_attachment_info" valign="top"><p style="margin-top:0px; padding-top:0px;"><a href="/download/2025+Proxy+Circular_EN.pdf" target="_top" class="itemlink"><span class="wd_attachment_title">Download</span></a><br>
+<span class="wd_attachment_description"></span><span class="wd_attachment_size"> (12.4&nbsp;MB)</span></p></td>
+</tr><tr>
+<td class="wd_attachment_spacer" colspan="2">&nbsp;</td>
+</tr></table>
+</div>
+<div class="item"><div class="item_name">2025 Sustainability Report</div><table class="wd_attachment" border="0" cellpadding="0" cellspacing="0" role="presentation"><tr>
+<td class="wd_attachment_image" valign="top" aria-hidden="true" role="presentation"><a href="/download/COTA085_ACT_2025_Sustainability_Report_EN_20250625_v2.pdf" target="_top" tabindex="-1"><img src="images/webdriver/fileicons/16/pdf.gif" border="0" align="left" hspace="5" alt="Download"></a></td>
+<td class="wd_attachment_info" valign="top"><p style="margin-top:0px; padding-top:0px;"><a href="/download/COTA085_ACT_2025_Sustainability_Report_EN_20250625_v2.pdf" target="_top" class="itemlink"><span class="wd_attachment_title">Download</span></a><br>
+<span class="wd_attachment_description"></span><span class="wd_attachment_size"> (20.1&nbsp;MB)</span></p></td>
+</tr><tr>
+<td class="wd_attachment_spacer" colspan="2">&nbsp;</td>
+</tr></table>
+</div>
+<div class="item"><div class="item_name">2025 Financial Workbook
+</div><ul>
+	<li>
+	<p class="more"><a href="download/External-Quarterly-Data-Q1-2025.xlsx" target="_blank">Q1 2025</a></p>
+	</li>
+	<li>
+	<p class="more"><a href="download/External+Quarterly+Data+Q2+2025.xlsx" target="_blank">Q2 2025</a></p>
+	</li>
+	<li>
+	<p class="more"><a href="download/External+Quarterly+Data+Q3+2025.xlsx" target="_blank">Q3 2025</a></p>
+	</li>
+	<li>
+	<p class="more"><a href="download/External+Quarterly+Data+Q4+2025.xlsx" target="_blank">Q4 2025</a></p>
+	</li>
+</ul>
+</div>
+<div class="item"><div class="item_name">2025 Quarterly Reports
+</div><ul>
+	<li>
+	<p class="more"><a href="image/2025-Quarterly-Report-Q1-En.pdf" target="_blank">Q1 2025</a></p>
+	</li>
+	<li>
+	<p class="more"><a href="image/2025+-+Quarterly+Report+Q2+-+En.pdf" target="_blank">Q2 2025</a></p>
+	</li>
+	<li>
+	<p class="more"><a href="image/2025+-+Quarterly+Report+Q3+-+En.pdf" target="_blank">Q3 2025</a></p>
+	</li>
+	<!--- <li>
+	<p class="more"><a href="image/xxxxxx.pdf" target="_blank">Q4 2025</a></p>
+	</li> --->
+</ul>
+</div>
+</div></div>
+</div>
+</div>          
+          </div>
+        </div>
+			</div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 footer-nav wd_footer_nav_116">
+  <ul class="menu-footer">
+	<li class="menu-item title-item">
+	  <a href="https://corporate.couche-tard.com/our-company" target="_self">Our Company</a>
+	</li>
+	<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/who-we-are" target="_self">Who We Are</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/our-values" target="_self">Our Values</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/our-brands" target="_self">Our Brands</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/where-we-operate" target="_self">Where We Operate</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/leadership-governance" target="_self">Leadership & Governance</a>
+</li>
+  </ul>
+</div>
+<div class="col-md-3 footer-nav wd_footer_nav_129">
+  <ul class="menu-footer">
+	<li class="menu-item title-item">
+	  <a href="https://corporate.couche-tard.com/investors" target="_self">Investors</a>
+	</li>
+	<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/financial-information" target="_self">Financial Information</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/sustainable-finance" target="_self">Sustainable Finance</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/events-presentations" target="_self">Events & Presentations</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/stock-information" target="_self">Stock Information</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/shareholders-ressources" target="_self">Shareholders Resources</a>
+</li>
+  </ul>
+</div>
+<div class="col-md-3 footer-nav wd_footer_nav_410">
+  <ul class="menu-footer">
+	<li class="menu-item title-item">
+	  <a href="https://corporate.couche-tard.com/sustainability" target="_self">Sustainability</a>
+	</li>
+	<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/our-sustainability-journey" target="_self">Our Sustainability Journey</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/planet" target="_self">Planet</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/people" target="_self">People</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/prosperity" target="_self">Prosperity</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/reports-and-indexes" target="_self">Reports & Indexes</a>
+</li>
+  </ul>
+</div>
+<div class="col-md-2 offset-md-1 footer-nav wd_footer_nav_418">
+  <ul class="menu-footer">
+	<li class="menu-item title-item">
+	  <a href="https://corporate.couche-tard.com/newsroom" target="_self">Newsroom</a>
+	</li>
+	<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/press-releases" target="_self">Press Releases</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/stories" target="_self">News & Stories</a>
+</li>
+<li class="menu-item">
+  <a href="https://corporate.couche-tard.com/media-resources" target="_self">Media Resources</a>
+</li>
+  </ul>
+</div>
+            <div class="d-lg-none col-lg-2 footer-right footer-right-mobile">
+              <div class="menu-footer-top-container">
+                <ul id="menu-footer-top" class="nav">
+                  <li id="menu-item-48" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48">
+                    <a target="_blank" rel="noopener" href="https://workwithus.circlek.com/global/en">Careers</a>
+                  </li>
+                  <li id="menu-item-489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
+                    <a href="https://corporate.couche-tard.com/media-resources">Media Resources</a>
+                  </li>
+                  <li id="menu-item-490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490">
+                    <a href="https://corporate.couche-tard.com/contact-us">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="socials">
+                <p>Follow us</p>
+                <a href="https://www.linkedin.com/company/alimentation-couche-tard/" class="reset-font picto" target="_blank">
+                  <span class="wd_sr-only">LinkedIn</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <g fill="none" fill-rule="evenodd">
+                      <rect width="20" height="20"></rect>
+                      <path fill="#FFF" fill-rule="nonzero" d="M10,0.4 C4.698,0.4 0.4,4.698 0.4,10 C0.4,15.302 4.698,19.6 10,19.6 C15.302,19.6 19.6,15.302 19.6,10 C19.6,4.698 15.302,0.4 10,0.4 Z M7.65,13.979 L5.706,13.979 L5.706,7.723 L7.65,7.723 L7.65,13.979 Z M6.666,6.955 C6.052,6.955 5.655,6.52 5.655,5.982 C5.655,5.433 6.064,5.011 6.691,5.011 C7.318,5.011 7.702,5.433 7.714,5.982 C7.714,6.52 7.318,6.955 6.666,6.955 Z M14.75,13.979 L12.806,13.979 L12.806,10.512 C12.806,9.705 12.524,9.157 11.821,9.157 C11.284,9.157 10.965,9.528 10.824,9.885 C10.772,10.012 10.759,10.192 10.759,10.371 L10.759,13.978 L8.814,13.978 L8.814,9.718 C8.814,8.937 8.789,8.284 8.763,7.722 L10.452,7.722 L10.541,8.591 L10.58,8.591 C10.836,8.183 11.463,7.581 12.512,7.581 C13.791,7.581 14.75,8.438 14.75,10.28 L14.75,13.979 L14.75,13.979 Z"></path>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="footer-right footer-right-desktop">
+              <div class="menu-footer-top-container">
+                <ul id="menu-footer-top" class="nav">
+                  <li id="menu-item-48" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-48">
+                    <a target="_blank" rel="noopener" href="https://workwithus.circlek.com/global/en">Careers</a>
+                  </li>
+                  <li id="menu-item-489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
+                    <a href="https://corporate.couche-tard.com/media-resources">Media Resources</a>
+                  </li>
+                  <li id="menu-item-490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490">
+                    <a href="https://corporate.couche-tard.com/contact-us">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="socials">
+                <p>Follow us</p>
+                <a href="https://www.linkedin.com/company/alimentation-couche-tard/" class="reset-font picto" target="_blank">
+                  <span class="wd_sr-only">LinkedIn</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <g fill="none" fill-rule="evenodd">
+                      <rect width="20" height="20"></rect>
+                      <path fill="#FFF" fill-rule="nonzero" d="M10,0.4 C4.698,0.4 0.4,4.698 0.4,10 C0.4,15.302 4.698,19.6 10,19.6 C15.302,19.6 19.6,15.302 19.6,10 C19.6,4.698 15.302,0.4 10,0.4 Z M7.65,13.979 L5.706,13.979 L5.706,7.723 L7.65,7.723 L7.65,13.979 Z M6.666,6.955 C6.052,6.955 5.655,6.52 5.655,5.982 C5.655,5.433 6.064,5.011 6.691,5.011 C7.318,5.011 7.702,5.433 7.714,5.982 C7.714,6.52 7.318,6.955 6.666,6.955 Z M14.75,13.979 L12.806,13.979 L12.806,10.512 C12.806,9.705 12.524,9.157 11.821,9.157 C11.284,9.157 10.965,9.528 10.824,9.885 C10.772,10.012 10.759,10.192 10.759,10.371 L10.759,13.978 L8.814,13.978 L8.814,9.718 C8.814,8.937 8.789,8.284 8.763,7.722 L10.452,7.722 L10.541,8.591 L10.58,8.591 C10.836,8.183 11.463,7.581 12.512,7.581 C13.791,7.581 14.75,8.438 14.75,10.28 L14.75,13.979 L14.75,13.979 Z"></path>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 legend">
+              <p>Financial Market Data powered by&nbsp; <a href="https://www.quotemedia.com/" target="_blank">Quotemedia</a>. All rights reserved. View the&nbsp; <a href="https://www.quotemedia.com/legal/tos" target="_blank">Terms of Use</a>. Data delayed 15 minutes unless indicated. Information is provided “as is”, with no representation and warranty as to its accuracy and reliability. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-left">
+            <p class="legals">© 2026 All rights reserved.</p>
+          </div>
+          <div class="footer-right">
+            <div class="second_footer">
+              <ul id="menu-footer-bottom" class="menu">
+                <li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134">
+  <a href="https://corporate.couche-tard.com/sitemap" target="_self">Sitemap</a>
+</li>
+<li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135">
+  <a href="privacy-policy" target="_blank">Privacy policy</a>
+</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script id="qmod" type="application/javascript" src="https://qmod.quotemedia.com/js/qmodLoader.js" data-qmod-wmid="104196"></script>
+    </footer>
+    <script type="text/javascript" src="js/main.js" id="sage/main.js-js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <!-- <script type="text/javascript" src="thirdparty/slick/slick.min.js"></script> -->
+        <script type="text/javascript" src="js/wd_js.js"></script>
+  
+<!-- begin spin_special_output(body_end) -->
+<script wd_script_id="piwik_tracking_code"></script>
+<!-- Piwik Tracking Code -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+
+  _paq.push(["setCustomVariable", 1, "Content Type", "Standard", "page"]);
+
+  _paq.push(["setCustomVariable", 3, "Navigation Page", "Investors : Financial Information : Financial Reporting", "page"]);
+
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function() {
+    var u="//stats.drivetheweb.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", 7263]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+    g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript>
+	<img src="https://stats.drivetheweb.com/piwik.php?idsite=7263&rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Piwik Tracking Code -->
+		
+<!-- end spin_special_output(body_end) -->
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a474c3b77d7c543b',t:'MTc5MTQ1ODUxMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

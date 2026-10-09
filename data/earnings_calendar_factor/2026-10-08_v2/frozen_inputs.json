@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-10-08T10:48:31.475409+00:00",
+  "files": [
+    {
+      "path": "data/earnings_calendar_factor_spec_v1.json",
+      "sha256": "26dda382868465b8bfb0a6405dcf9f2d5bb34ae0529702d955cd59c7369215d6"
+    },
+    {
+      "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/earnings_calendar_factor.py",
+      "sha256": "0b8e4f56517ae1511c11e2fb8917e45c66f4da2c8ef95160814e474ea2169785"
+    },
+    {
+      "path": "data/historical_evidence_extension/2026-10-08_review_v3/reviewed_peer_history.json",
+      "sha256": "9c3d33a443e1cb387496da4778e2143bc930a5b96b16d9c0e233503a2ac95914"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/results.json",
+      "sha256": "ec3e6408ee2c2ad2b20bd2ed71c27d5373265d2a7eabe974a87a35b06e455f3c"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/historical_targets.json",
+      "sha256": "f68a74c09e54f18d92b38f276b2dc0a5b8a3928f67af74347cb72c85c2e47397"
+    },
+    {
+      "path": "musa_nowcast/historical_evidence_extension.py",
+      "sha256": "a5aaf48dfa910ebd9d8a02d2d0caef92949d1176f40f6a9396da058e32a88afc"
+    },
+    {
+      "path": "musa_nowcast/mathutils.py",
+      "sha256": "fef59998d413cd8e796ae8b823bf880f66be682ec31ac2bacd6386d526b88d70"
+    },
+    {
+      "path": "musa_nowcast/timing.py",
+      "sha256": "965cd871276b85a8b96496268c60eb9a7d1767d20a60519311000362e0b1b8c4"
+    },
+    {
+      "path": "data/historical_evidence_extension/2026-10-08_review_v3/frozen_inputs.json",
+      "sha256": "fabb6bf9e37a79d0a108c21fa10b21e096c03a3ed4adf316e9fb124945beac0d"
+    },
+    {
+      "path": "data/historical_evidence_extension/2026-10-08_review_v3/perimeter_audit.json",
+      "sha256": "0440856d2b0d8d21ae966c73ae98f7d7a301f485f57d834992e69b9f3b8a43d1"
+    }
+  ]
+}

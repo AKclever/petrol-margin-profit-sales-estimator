@@ -1,0 +1,42 @@
+{
+  "available_at": "2026-10-07T15:49:09Z",
+  "captured_at_precision": "VERIFIED_AT_CONSERVATIVE_NOT_ORIGINAL_RELEASE",
+  "contracts": [
+    {
+      "contract_month": "2026-11",
+      "settlement_cpg": 327.32,
+      "settlement_usd_per_gallon": 3.2732
+    },
+    {
+      "contract_month": "2026-12",
+      "settlement_cpg": 308.8,
+      "settlement_usd_per_gallon": 3.088
+    },
+    {
+      "contract_month": "2027-01",
+      "settlement_cpg": 296.74,
+      "settlement_usd_per_gallon": 2.9674
+    },
+    {
+      "contract_month": "2027-02",
+      "settlement_cpg": 290.45,
+      "settlement_usd_per_gallon": 2.9045
+    },
+    {
+      "contract_month": "2027-03",
+      "settlement_cpg": 290.11,
+      "settlement_usd_per_gallon": 2.9011
+    },
+    {
+      "contract_month": "2027-04",
+      "settlement_cpg": 310.70000000000005,
+      "settlement_usd_per_gallon": 3.107
+    }
+  ],
+  "market_basis": "NYMEX_RBOB_NOT_DELIVERED_MUSA_FUEL",
+  "raw_evidence_row": "NYMEX          RBOB Gasoline ($/gal)          3.2732 (Nov 26)        3.0880 (Dec 26)         2.9674 (Jan 27)           2.9045 (Feb 27)        2.9011 (Mar 27)          3.1070 (Apr 27)",
+  "raw_sha256": "3d487b02bb2d4d72c06d63c0f4b28ce0f25ea18fed735d20fc83ae1167c24470",
+  "report_publication_date": "2026-10-07",
+  "settlement_observation_date": "2026-10-06",
+  "source_url": "https://www.ams.usda.gov/mnreports/ams_3617.pdf"
+}

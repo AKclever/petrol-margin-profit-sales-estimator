@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:49.043617+00:00",
+  "captured_at": "2026-10-07T16:15:49.043600+00:00",
+  "key": "USGC",
+  "original_index_locator_or_series": "EER_EPMRU_PF4_RGC_DPG",
+  "raw_file": "USGC.xls",
+  "sha256": "7b3254eb60355a3058e910f291f4f994ab232bdb791b8442819b3e95bf88ce9e",
+  "source_type": "EIA_WHOLESALE_XLS",
+  "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EER_EPMRU_PF4_RGC_DPGw.xls",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:07.915508+00:00",
+  "captured_at": "2026-10-07T16:15:07.915499+00:00",
+  "key": "2016Q2",
+  "original_index_locator_or_series": "https://s22.q4cdn.com/506259022/files/doc_news/archive/2016-Q2-Earnings-Release-PDF.pdf",
+  "raw_file": "2016Q2.pdf",
+  "sha256": "911d44a6d348523503c3158fb4e0929db935f097dc32404df20dc388e48962ba",
+  "source_type": "ISSUER_EARNINGS_RELEASE",
+  "source_url": "https://s22.q4cdn.com/506259022/files/doc_news/archive/2016-Q2-Earnings-Release-PDF.pdf",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

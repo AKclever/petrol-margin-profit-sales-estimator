@@ -1,0 +1,39 @@
+{
+  "disclosure_state": {
+    "status": "NOT_CHECKED"
+  },
+  "evaluation_role": "PROSPECTIVE_CAPTURE",
+  "eventual_actual_margin_cpg": null,
+  "forecast_created_at": "2026-10-08T08:27:37.086955+00:00",
+  "gallons_state": {
+    "status": "BLOCKED_NO_REGISTERED_GALLONS_METHODOLOGY"
+  },
+  "information_cutoff": "2026-10-08T08:27:08.735391+00:00",
+  "input_hashes": {
+    "actuals": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+    "market_manifest": "5096efe79722eccfb3426193e98e4aab87826b652ee2bb2be8c5ddf1553542ef",
+    "weights": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986"
+  },
+  "market_forecast_status": "BLOCKED: No complete weighted market weeks between 2026-10-01 and 2026-12-31",
+  "model_source_hashes": {
+    "data.py": "3941d8e512dc0d447b685695eda8253d7b9d7151d675eb3174a64f5cd4d202f6",
+    "eia.py": "acbf923364e14b59524bfb4700bd924d4886f9cd9f63674c971901d7467f7661",
+    "mathutils.py": "fef59998d413cd8e796ae8b823bf880f66be682ec31ac2bacd6386d526b88d70",
+    "model.py": "a62800fe77ff2c8230c5b5144c5ff78b7e4af769b91a29396bdee44cfae51311",
+    "prospective.py": "edb79ec2b9dd8f113bb9f8f76ea170855c88e676457a280c62fa5c490516dbb1",
+    "risk.py": "824207ee0436cb321a1dce9e0ebd4104261682909edae192ba06ab96008bcd7c",
+    "uncertain_quarter.py": "9c9e2c09e3d38c81f7ae1a7b22a2922440ed92b73fa602561eb0f02a8641bf4f"
+  },
+  "partial_quarter_shadow": null,
+  "production_forecast": null,
+  "quarter": "2026Q4",
+  "quarter_end": "2026-12-31",
+  "quarter_start": "2026-10-01",
+  "regime_risk_state": null,
+  "remaining_period_forecast": {
+    "period_end": "2026-12-31",
+    "period_start": "2026-10-09",
+    "status": "BLOCKED_NO_REGISTERED_REMAINING_PERIOD_METHODOLOGY"
+  },
+  "spec_id": "PROSPECTIVE_INFORMATION_CAPTURE_V1"
+}

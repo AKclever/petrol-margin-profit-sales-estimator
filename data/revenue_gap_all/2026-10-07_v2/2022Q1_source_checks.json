@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "audit_result": "CAPTURED_PENDING_VALUE_REVIEW",
+      "captured_at": "2026-10-07T15:43:33.906417+00:00",
+      "date_precision": "DATE_ONLY",
+      "publication_date": "2022-05-05",
+      "quarter": "2022Q1",
+      "raw_file": "sources/2022Q1_filing.html",
+      "sha256": "aac540ce92f75c7fc159d195daf17da436269645eb2c8bdfb0e91dad3b830284",
+      "source_type": "10-Q",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000022/musa-20220331.htm"
+    },
+    {
+      "audit_result": "CAPTURED_PENDING_VALUE_REVIEW",
+      "captured_at": "2026-10-07T15:43:34.027163+00:00",
+      "date_precision": "DATE_ONLY",
+      "publication_date": "2022-05-03",
+      "quarter": "2022Q1",
+      "raw_file": "sources/2022Q1_cover.html",
+      "sha256": "00217a7db33f25e228d0fb69717e5f59e662c8ce1f33ae927204cc24c838cd45",
+      "source_type": "SEC_EARNINGS_8K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000017/musa-20220503.htm"
+    },
+    {
+      "audit_result": "CAPTURED_PENDING_VALUE_REVIEW",
+      "captured_at": "2026-10-07T15:43:34.154212+00:00",
+      "date_precision": "DATE_ONLY",
+      "publication_date": "2022-05-03",
+      "quarter": "2022Q1",
+      "raw_file": "sources/2022Q1_release.html",
+      "sha256": "e43bd97d49a23a6af1174d51bd147395965dab8919fa93d0924a5a14b84d6205",
+      "source_type": "SEC_EARNINGS_EXHIBIT",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000017/exh991_03312022.htm"
+    }
+  ]
+}

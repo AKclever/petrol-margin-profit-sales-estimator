@@ -1,0 +1,9 @@
+{
+  "captured_at": "2026-10-08T10:13:37.766467+00:00",
+  "id": "eia_rack_table",
+  "raw_file": "eia_rack_table.html",
+  "search_performed_at": "2026-10-08T10:13:27.567864+00:00",
+  "sha256": "37f0553563c220a1b701f587dd7f77b839bcfce4fd24477772da24c0b4faf324",
+  "source_url": "https://www.eia.gov/dnav/pet/pet_pri_allmg_a_epmr_pra_dpgal_m.htm",
+  "status": "RAW_CAPTURED"
+}

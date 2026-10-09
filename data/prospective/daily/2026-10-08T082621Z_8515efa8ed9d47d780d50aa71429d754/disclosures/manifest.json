@@ -1,0 +1,120 @@
+{
+  "audit_status": "CAPTURED_PENDING_REVIEW",
+  "feed_captured_at": "2026-10-08T08:27:09.179558+00:00",
+  "feed_sha256": "eaddd8399dafacadacaad9cfe4b43a5a1283179a4d7b39b548bec9b5ad281a9f",
+  "feed_url": "https://ir.corporate.murphyusa.com/rss/pressrelease.aspx",
+  "negative_disclosure_conclusion_authorized": false,
+  "source_scope": "ISSUER_RSS_LINKED_RELEASES_ONLY",
+  "sources": [
+    {
+      "availability_method": "FIRST_CAPTURE_CONSERVATIVE",
+      "available_at": "2026-10-08T08:27:09.369415+00:00",
+      "captured_at": "2026-10-08T08:27:09.369421+00:00",
+      "classification_status": "PENDING_DISCLOSURE_REVIEW",
+      "published_at": "2026-09-17T16:31:00-04:00",
+      "raw_file": "e3c0c4474f33dffa8f7d694ac5e52070b0ce44b8e7bfe38ebad3d23ca68a50cd.html",
+      "raw_sha256": "c9b5ec2c13ebd5a37a2cb856d5bf72eac5a027ca258c3bf944ae41eac9f72325",
+      "title": "Murphy USA Schedules Third Quarter 2026 Results Conference Call",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Schedules-Third-Quarter-2026-Results-Conference-Call/default.aspx"
+    },
+    {
+      "availability_method": "FIRST_CAPTURE_CONSERVATIVE",
+      "available_at": "2026-10-08T08:27:10.093782+00:00",
+      "captured_at": "2026-10-08T08:27:10.093788+00:00",
+      "classification_status": "PENDING_DISCLOSURE_REVIEW",
+      "published_at": "2026-08-20T16:31:00-04:00",
+      "raw_file": "121bc022c10b8be42e98554e73e7c477891792581995debb4bca6f06be8473ee.html",
+      "raw_sha256": "8743aee39801d0d2049114fcf2fd2f1f3becd25b510239e61d02dcd387f487e5",
+      "title": "Murphy USA Debuts Automated Retail Technologies Foodservice Platform Featuring White Castle",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Debuts-Automated-Retail-Technologies-Foodservice-Platform-Featuring-White-Castle/default.aspx"
+    },
+    {
+      "availability_method": "FIRST_CAPTURE_CONSERVATIVE",
+      "available_at": "2026-10-08T08:27:10.906529+00:00",
+      "captured_at": "2026-10-08T08:27:10.906534+00:00",
+      "classification_status": "PENDING_DISCLOSURE_REVIEW",
+      "published_at": "2026-08-13T16:31:00-04:00",
+      "raw_file": "09bd0c07934395a82f8787e194eac64a12899f1bb9e246ed56c86eff9e3fdcb7.html",
+      "raw_sha256": "33106058bfd0ee3ae0ce8f877c0270df5b8429b4017ab031e54cda938b5fd817",
+      "title": "Murphy USA Inc. Announces Dividend Increase",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Inc--Announces-Dividend-Increase-e93b9eea7/default.aspx"
+    },
+    {
+      "availability_method": "FIRST_CAPTURE_CONSERVATIVE",
+      "available_at": "2026-10-08T08:27:11.191745+00:00",
+      "captured_at": "2026-10-08T08:27:11.191752+00:00",
+      "classification_status": "PENDING_DISCLOSURE_REVIEW",
+      "published_at": "2026-08-05T16:31:00-04:00",
+      "raw_file": "029fd1660e7e30a347a94a432d713dac8f52236d5953c54e033733ad18199891.html",
+      "raw_sha256": "52e115be345b2d949987c17d2c6cc4dc39990b2bf585a65bfa158020fa44742e",
+      "title": "Murphy USA Inc. Reports Second Quarter 2026 Results",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Inc--Reports-Second-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "availability_method": "FIRST_CAPTURE_CONSERVATIVE",
+      "available_at": "2026-10-08T08:27:11.930845+00:00",
+      "captured_at": "2026-10-08T08:27:11.930851+00:00",
+      "classification_status": "PENDING_DISCLOSURE_REVIEW",
+      "published_at": "2026-07-06T16:31:00-04:00",
+      "raw_file": "0759515976e113650484888dc24c328ab6f21dc6698730e5e144bfe37fcb1b62.html",
+      "raw_sha256": "36a0a95ad4a1b389feb70640b9a74f6c5f386353dccd76d9512014f2456cab72",
+      "title": "Murphy USA Schedules Second Quarter 2026 Results Conference Call",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Schedules-Second-Quarter-2026-Results-Conference-Call/default.aspx"
+    },
+    {
+      "availability_method": "FIRST_CAPTURE_CONSERVATIVE",
+      "available_at": "2026-10-08T08:27:12.750112+00:00",
+      "captured_at": "2026-10-08T08:27:12.750118+00:00",
+      "classification_status": "PENDING_DISCLOSURE_REVIEW",
+      "published_at": "2026-05-12T16:31:00-04:00",
+      "raw_file": "958be545bc1afc9b7e01a12b7dbbe2ff051d2f91f35e93044083bc3907f4881e.html",
+      "raw_sha256": "b288ce11557bc07e348d958ae21c2adb8b64c26e849227b83c30aae309459dd8",
+      "title": "Murphy USA Inc. Announces Pricing of Notes Offering",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Inc--Announces-Pricing-of-Notes-Offering/default.aspx"
+    },
+    {
+      "availability_method": "FIRST_CAPTURE_CONSERVATIVE",
+      "available_at": "2026-10-08T08:27:13.405620+00:00",
+      "captured_at": "2026-10-08T08:27:13.405627+00:00",
+      "classification_status": "PENDING_DISCLOSURE_REVIEW",
+      "published_at": "2026-05-12T09:01:00-04:00",
+      "raw_file": "fc867df471436ab137c7366cb53f188ad8f0d85d7d08b8e70a6bfaca23cf2ba0.html",
+      "raw_sha256": "7d304f16b80488878e94bcaf87947d65d748889cc0e0e3606c9ee3a3e1485293",
+      "title": "Murphy USA Inc. Announces Private Offering of Senior Notes",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Inc--Announces-Private-Offering-of-Senior-Notes/default.aspx"
+    },
+    {
+      "availability_method": "FIRST_CAPTURE_CONSERVATIVE",
+      "available_at": "2026-10-08T08:27:13.629406+00:00",
+      "captured_at": "2026-10-08T08:27:13.629412+00:00",
+      "classification_status": "PENDING_DISCLOSURE_REVIEW",
+      "published_at": "2026-05-07T16:31:00-04:00",
+      "raw_file": "a0fb7569bb36c51893d65126b6ceb8bd5fc9c6b7d503167e66ebe8969ab045d1.html",
+      "raw_sha256": "88b6152d6f700b6986a2be03832d97ff8f5d1bb3a86a58e8f6bc7b456500fa7d",
+      "title": "Murphy USA Inc. Announces Dividend Increase",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Inc--Announces-Dividend-Increase/default.aspx"
+    },
+    {
+      "availability_method": "FIRST_CAPTURE_CONSERVATIVE",
+      "available_at": "2026-10-08T08:27:13.858932+00:00",
+      "captured_at": "2026-10-08T08:27:13.858940+00:00",
+      "classification_status": "PENDING_DISCLOSURE_REVIEW",
+      "published_at": "2026-04-29T16:31:00-04:00",
+      "raw_file": "a61d3e0e20c21b54102356a493dddb4edb1e643fd5bb29c4a10d9b1762afb441.html",
+      "raw_sha256": "06d3344f20a6104232f6e1479e173d07cd0b66d1a97b2448f2018592f56ad017",
+      "title": "Murphy USA Inc. Reports First Quarter 2026 Results",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Inc--Reports-First-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "availability_method": "FIRST_CAPTURE_CONSERVATIVE",
+      "available_at": "2026-10-08T08:27:14.593555+00:00",
+      "captured_at": "2026-10-08T08:27:14.593561+00:00",
+      "classification_status": "PENDING_DISCLOSURE_REVIEW",
+      "published_at": "2026-04-06T16:31:00-04:00",
+      "raw_file": "af6967a6beebe14ca31190fc96a0aa70fa2314cd60a7d763cf3fe9c4ad68ad32.html",
+      "raw_sha256": "27b6da6c6af54bd05b46ea86114eb7d2b1477e30ab85ce58280807811d6210e2",
+      "title": "Murphy USA Schedules First Quarter 2026 Results Conference Call",
+      "url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2026/Murphy-USA-Schedules-First-Quarter-2026-Results-Conference-Call/default.aspx"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:08.997618+00:00",
+  "captured_at": "2026-10-07T16:15:08.997604+00:00",
+  "key": "2015Q4",
+  "original_index_locator_or_series": "https://s22.q4cdn.com/506259022/files/doc_news/archive/Q4-2015-Earnings-Release-final.pdf",
+  "raw_file": "2015Q4.pdf",
+  "sha256": "bf7e49ba4fb6308f1d38c947462eac17747dfdc945faaae1653b9080125e6d18",
+  "source_type": "ISSUER_EARNINGS_RELEASE",
+  "source_url": "https://s22.q4cdn.com/506259022/files/doc_news/archive/Q4-2015-Earnings-Release-final.pdf",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

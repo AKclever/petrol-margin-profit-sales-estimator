@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:10.859524+00:00",
+  "captured_at": "2026-10-07T16:15:10.859511+00:00",
+  "key": "2014Q1",
+  "original_index_locator_or_series": "http://murphyusa2017ir.q4web.com/investor-relations/news-releases/press-release-details/2014/Murphy-USA-Inc-Reports-First-Quarter-2014-Results/default.aspx",
+  "raw_file": "2014Q1.html",
+  "sha256": "64156a25862b7f2d889788a1394e831f5c1224054c9b746a8900a6c9b5952064",
+  "source_type": "ISSUER_EARNINGS_RELEASE",
+  "source_url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2014/Murphy-USA-Inc-Reports-First-Quarter-2014-Results/default.aspx",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

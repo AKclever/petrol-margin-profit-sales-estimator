@@ -1,0 +1,18 @@
+{
+  "spec_id": "MUSA_ALL_QUARTER_REVENUE_GAP_AUDIT_V1",
+  "frozen_before_evaluation": true,
+  "role": "RETROSPECTIVE_ACCOUNTING_PROXY_DIAGNOSTIC_NOT_FORECAST_VALIDATION",
+  "scope": "All actuals.csv quarters, not selected on errors",
+  "revenue_definition": "Retail-only petroleum revenue divided by reported chain retail gallons",
+  "q4_derivation": "Annual retail-only revenue minus nine-month retail-only revenue",
+  "gap_definition_unchanged": "Current revenue per gallon minus prior-year same-quarter revenue per gallon minus EIA basket year-over-year change",
+  "source_selection": "Original period SEC 10Q/10K; original SEC earnings exhibit for reported same-store growth",
+  "source_gaps": "Explicitly blocked or null; no total-petroleum substitution, inferred same-store growth, calendar fraction or future-quarter imputation",
+  "descriptive_comparisons": ["gap versus directly reported same-store gallon growth", "gap versus actual-minus-production margin error", "previous-quarter gap versus next production error, only when gap source was published before target quarter end"],
+  "statistics": ["Pearson correlation", "Spearman correlation with average tied ranks"],
+  "error_groups": "Previously selected six largest misses versus other production OOF quarters; no retuned threshold",
+  "independent_acquisition_cost_recovered": false,
+  "regression_or_forecast_adjustment": false,
+  "production_changed": false,
+  "limitations": ["Taxes, product mix, geography, acquisitions and volume/time weighting remain unmatched", "Contemporaneous gap is post-results and not a live forecasting input", "Annual-minus-YTD can incorporate revisions; comparatives checked against archived current-period sources", "Correlations are exploratory after previous historical model development, not prospective evidence", "2019 prior-year market data is absent; first-year gaps remain blocked", "Original retail-revenue revisions are not exhaustively audited"]
+}

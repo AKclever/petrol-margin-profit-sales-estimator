@@ -1,0 +1,294 @@
+{
+  "evaluation_role": "DEVELOPMENTAL_CURRENT_VINTAGE_RESEARCH_NOT_STRICT_PIT",
+  "files": [
+    {
+      "path": "data/history_floor_basis_spec_v1.json",
+      "sha256": "f38c4a9c567c2ed3f80dd654a97b6542bb3f5659aba2776da9281cc893704265"
+    },
+    {
+      "path": "data/actuals.csv",
+      "sha256": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6"
+    },
+    {
+      "path": "data/market.csv",
+      "sha256": "721da8ca24e87c7da17892413b70ad6d45eddc223c512eb329753679b1de4005"
+    },
+    {
+      "path": "data/weights.csv",
+      "sha256": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986"
+    },
+    {
+      "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/history_floor_basis.py",
+      "sha256": "ffe563230f530f4b8ca2d56fc286105d72655dbc51ce8934194bfc15b3ddbb81"
+    },
+    {
+      "path": "musa_nowcast/model.py",
+      "sha256": "a62800fe77ff2c8230c5b5144c5ff78b7e4af769b91a29396bdee44cfae51311"
+    },
+    {
+      "path": "musa_nowcast/mathutils.py",
+      "sha256": "fef59998d413cd8e796ae8b823bf880f66be682ec31ac2bacd6386d526b88d70"
+    },
+    {
+      "path": "musa_nowcast/geo.py",
+      "sha256": "98633e7d4348fb39ac870ff87626ed39a2c0f7226633e09338fa9b8b78ddc168"
+    },
+    {
+      "path": "musa_nowcast/timing.py",
+      "sha256": "965cd871276b85a8b96496268c60eb9a7d1767d20a60519311000362e0b1b8c4"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_capture_v1/diesel_PADD1.xls",
+      "sha256": "6589f27d423d2ead81c08f9d39982f9ade4ff1bfc9c055acfe025765ae2f7740"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_capture_v1/all_grade_PADD1.xls",
+      "sha256": "2cccea10d14919883c957952cfe2da2813c1c8bdbffece4b27efcaab6e6a4821"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_capture_v1/NYH.xls",
+      "sha256": "21940af0fd8240c1741317e064da773e9ecf867a9aafb991d86fdbdf3cf1f110"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_capture_v1/all_grade_PADD2.xls",
+      "sha256": "01748f26c7053b128baab2b0108b27d981b2d33da322f460fb9b361a72ffb954"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_capture_v1/diesel_PADD3.xls",
+      "sha256": "9f3e43c96364b1158994d79201918300457c4e5df3f8c3bbbceb0289687c35ed"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_capture_v1/diesel_PADD2.xls",
+      "sha256": "db0e8055f34079382bdcd4f5341591bb26c9a7d086f4fb1d90e79b727dab518f"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_capture_v1/regular_PADD1.xls",
+      "sha256": "ccd5a1fda5e23838fd2a95d61c6ae115eda88d2b00febe5bc482d1dad046ccab"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_capture_v1/all_grade_PADD3.xls",
+      "sha256": "171c3e757e8656bc1b42b57c99fdad532a7401c3c168eb266750feac7ef6c0d2"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_capture_v1/regular_PADD2.xls",
+      "sha256": "550495ea6a1bfc59af8ffd9d5e3d0903bbd5799efdca000fbe18a5ed2082b22d"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_capture_v1/regular_PADD3.xls",
+      "sha256": "432e16b297e7994e277f3e339f71af9c8af3d1151a84373f1a63b18377ac65ab"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_capture_v1/USGC.xls",
+      "sha256": "7b3254eb60355a3058e910f291f4f994ab232bdb791b8442819b3e95bf88ce9e"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2017Q4_release.html",
+      "sha256": "c5bbb6a925b1473ba1ec454b1a124fc0630332eb5236488bf6db0755e071aa2c"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2017Q3_release.html",
+      "sha256": "655275a6ffb564fdcbcf900a6a93b9b65d10f55f8cdf87183d5ecf185abfdc7d"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2017Q2_release.html",
+      "sha256": "7ae114d7283d23c37094fc86b313af266a0eb240627e9147935af167bfceb618"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2017Q1_release.html",
+      "sha256": "b8f7121f0f2ed8561b9838f3d83a41259e5d9e6780d68189b0e934c272880480"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2016Q4_release.html",
+      "sha256": "b7ea168383bf24afeb8292583498709a5294101e28a65e0811c14418c5e22a93"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2016Q3_release.html",
+      "sha256": "6d4eb054e5431dbb0e08b6df4b94cbaebc458b5108784ab35e2c9ba06f7e55b7"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2016Q2_release.html",
+      "sha256": "743eb8a86ca4dee3d69f705b11ce0ae67748ab1a7a02679ce3fac97e1330936d"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2016Q1_release.html",
+      "sha256": "6db409980b1edbdee08da5e6c89f338207d803fc60a4c6562324ecb268b042ec"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2015Q4_release.html",
+      "sha256": "bd102d833d1205243b7bf9c168ec5c775c3ba542673ee99b0b311e7621ce1b50"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2015Q3_release.html",
+      "sha256": "45b34273999ffdd556f65376f4329dbbd1546e254ef29305e7270ab3f3c1d48b"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2015Q2_release.html",
+      "sha256": "33b210490edd486f524a74136e8f425c3d43f8575a0d9bfa5c957854f01c7eab"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2015Q1_release.html",
+      "sha256": "b0f6db07c82d149d1dc09d2a702aadeac6cef6b745108dad636b759866f4ebb1"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2014Q4_release.html",
+      "sha256": "6adfb5a91a599eccdf0d9c929eb89cf80854a01a17b206c9ac7163e5934eae4e"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2014Q3_release.html",
+      "sha256": "dba45a95e4cdee57ff302e8c6ae6e55901c057a51f0886b3e59869a3de375e64"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2014Q2_release.html",
+      "sha256": "27b6521d9ee6f617281fcc44d883bdeeaabdddb69d94f3fb5e51caae71899df8"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2014Q1_release.html",
+      "sha256": "a33c28176087a286bf213b22c6335c21cde1c18d45e3c44ae61ae882ed7073c0"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2013Q4_release.html",
+      "sha256": "426b1e2a18b86702bf8b0e3efcad0103d7fe8381ebb3ec9b5bd79524c2691bb9"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2013Q3_release.html",
+      "sha256": "dec7234e02dcab7ffc7c34a7c261b1c722e74c3399d7a43c5a4d55631be61101"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2018Q4_release.html",
+      "sha256": "60344e8f88d8a9e4aa43c4028f83db18427311692ac1ee3e1ff93733de59ce57"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2018Q3_release.html",
+      "sha256": "bf844a5fc6e49b963bc969a35a11ebd6cd39f9c34011781b3cc12d2dd249699f"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2018Q2_release.html",
+      "sha256": "58e44fc56285a3cd92bcac1d836c2a0ed8efb2e1dedbed3c88e7febf524e55c9"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_sec_v2/2018Q1_release.html",
+      "sha256": "8b000d15fc17f3fda712f0b2a84a4e4ff08e90948f105b2681dcc36358c9cf5d"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2019Q1_release.html",
+      "sha256": "aba6169ae812c7bc21afaa865fb3ebe49d69ce81ad3e2edd0e7c77a62b397c8c"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2019Q2_release.html",
+      "sha256": "03acaa333e77763317c65f3322a250b38ce64c3624ed9e8f64252fddf3ee6ba4"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2019Q3_release.html",
+      "sha256": "8ab80bd130f40e1ebba750f45caa1b2eec22ce65e483622e04c9e446ac634560"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2019Q4_release.html",
+      "sha256": "6bf93551a3d5465c33146e3eb6d52fc352870065d57bd9ae50562dda00193a5e"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2020Q1_release.html",
+      "sha256": "a79f77787abbf12fef6a6e3288b3104b8dca14bcb5b1fa3f9569f5e9c4038297"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2020Q2_release.html",
+      "sha256": "956f6ddff1a300e127b871c307516638032f851b47c0ad6c815b9ba3033442ce"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2020Q3_release.html",
+      "sha256": "45d2be8e2559b6527d54017d68fe017bcb400c2a33ffae0b95fca08477f91afc"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2020Q4_release.html",
+      "sha256": "5e821a005d2b21fa46d790330e4c7fd62093b72304665a266a4894e65da71c64"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2021Q1_release.html",
+      "sha256": "21a151636109ac4291163117aa0630d0a6e2a3cd4ef17b014d7fb7bd898f2692"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2021Q2_release.html",
+      "sha256": "40bcf486821f23d93b73e9e3af2a2e5aeb76a76737b752be862a9156e747cd35"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2021Q3_release.html",
+      "sha256": "e4e2515c2ad71f09528d33537f42194006cf72eb3269e55ad4798a18b924d6f9"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2021Q4_release.html",
+      "sha256": "55fc900ca81f938d030578812985058a268df218985169178fa8bb169f37c8c9"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2022Q1_release.html",
+      "sha256": "e43bd97d49a23a6af1174d51bd147395965dab8919fa93d0924a5a14b84d6205"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2022Q2_release.html",
+      "sha256": "189448ed0d379e71c2ef1282f01a64c750740ef0c283cda1fd2772a3f092812a"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2022Q3_release.html",
+      "sha256": "5667fb80c25d2e14eb594ba6c97df82e6f4f0f911b462cc4011e19cf70686b6a"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2022Q4_release.html",
+      "sha256": "00078cf1425dac5154025e39e70ac742fc030e02c94fbdd49b64834e38066b59"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2023Q1_release.html",
+      "sha256": "bc13bda8ca579e461478715df28dacc176fa8bce8a7845aa7f105b269eed3d81"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2023Q2_release.html",
+      "sha256": "fcc44c3da41d33a55519a4bb70b168024b8dd70e31ab0dea570ec3aa9c997986"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2023Q3_release.html",
+      "sha256": "165459175cc2a016cd163e3380f7fffba292e0190ec40a382b61f92ad6fa0a34"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2023Q4_release.html",
+      "sha256": "3888391b48fa7f7f90237dc5d63cf3272048f36752a51df43c5d8a070af828fa"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2024Q1_release.html",
+      "sha256": "47fb613e7ee2053eb538c9c2c3424db05e0e07b38aebb5ef387fdbad446a7015"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2024Q2_release.html",
+      "sha256": "e36ff6c4d5c4cd89c1fe72f1b0da6a2f79e12b9b730f36a7c08628aad7e193ac"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2024Q3_release.html",
+      "sha256": "f300713e88c7d5f008ace205218a25ee413a617594d5255288797e734f395c73"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2024Q4_release.html",
+      "sha256": "dae6e2025ead066ed60cea7ba767d0232ac8de0645458edb4cdb357c1c3a0dce"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2025Q1_release.html",
+      "sha256": "b88adf4b2b4c4a91051183521293f3ba622bed3deb9ab8e82ff9a099f8f7a0f9"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2025Q2_release.html",
+      "sha256": "02e5adcd016fe5d217be0d597984b17b74a751d15eaf8900ec50ad314cbf2791"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2025Q3_release.html",
+      "sha256": "f298366926581bcecd290d26a04396e707f37edca7a7496b0162e07c7fa2a415"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2025Q4_release.html",
+      "sha256": "43bb981056a2417646f23b900e5d3581214fa853725c6495e00037bd5c954c6a"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2026Q1_release.html",
+      "sha256": "75445b1f1acfb25b23450ddfe6bed333bce881fcf760c8cba2a9c6e1aaf24b7b"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_v2/sources/2026Q2_release.html",
+      "sha256": "6b12b0990defbc4ff388b6a2449ee904aff5024eacd5c3a27c07332abee7a703"
+    }
+  ],
+  "frozen_at": "2026-10-07T16:28:22.889755+00:00"
+}

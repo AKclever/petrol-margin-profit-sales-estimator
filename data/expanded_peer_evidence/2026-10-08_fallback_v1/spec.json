@@ -1,0 +1,7 @@
+{
+  "role":"RESEARCH_EVIDENCE_ONLY_NOT_FORECAST_INPUT",
+  "sources":[
+    {"id":"CAPL_2025Q2","company":"CAPL","url":"https://www.sec.gov/Archives/edgar/data/1538849/000095017025104311/capl-ex99_1.htm"},
+    {"id":"CAPL_2025Q4","company":"CAPL","url":"https://www.sec.gov/Archives/edgar/data/1538849/000119312526071725/capl-ex99_1.htm"}
+  ]
+}

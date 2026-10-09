@@ -1,0 +1,12 @@
+{
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_PUBLICATION_FILTERED_NOT_STRICT_PIT",
+  "consensus": "Both eligible peers must make the same non-neutral call; disagreement or missing evidence abstains",
+  "overlap_filter": "Each peer must overlap at least 50 percent of MUSA calendar quarter; same threshold as existing overlap diagnostics",
+  "strength_filter": "Each peer absolute own-baseline surprise must be at least 2 cents per gallon; illustrative threshold frozen before this experiment, not optimized",
+  "variants": ["consensus", "overlap_only", "strength_only", "overlap_and_strength"],
+  "comparisons": "Each individual peer and constant direction on identical called rows; coverage and abstained-row outcomes reported",
+  "company_specific_effects": "No new acquisition or accounting exclusions inferred from outcomes; incompatible peer definitions remain a limitation",
+  "selection": "No best variant selected for deployment; no threshold search; existing history already researched",
+  "production_changed": false,
+  "probability_calibrated": false
+}

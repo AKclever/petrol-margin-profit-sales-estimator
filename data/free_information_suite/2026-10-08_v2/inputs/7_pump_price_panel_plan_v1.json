@@ -1,0 +1,14 @@
+{
+  "id": "MUSA_MANUAL_PUMP_PANEL_V1",
+  "status": "BLOCKED_NO_VERIFIED_FIXED_STATION_PAIRS",
+  "collection_mode": "MANUAL_ONLY",
+  "automated_permission": "NOT_ESTABLISHED",
+  "historical_station_price_access": "NOT_VERIFIED",
+  "source_faq": "https://www.murphyusa.com/murphyusa/faqs",
+  "source_terms": "https://www.murphyusa.com/murphyusa/legal",
+  "investigation": "Issuer confirms frequently updated website/app station prices; no clear automated-research data license found. Public visibility is not permission.",
+  "sampling_plan": "Proposed 12 fixed MUSA/nearby competitor pairs, four per East Coast/Midwest/Gulf Coast. Freeze actual verified identities and geography before observations; do not infer company volume weights.",
+  "required_price_basis": ["grade", "cash/card", "base/member/reward", "tax inclusion", "observation timestamp", "paired competitor timestamp", "source evidence hash"],
+  "pairs": [],
+  "no_collector_enabled": true
+}

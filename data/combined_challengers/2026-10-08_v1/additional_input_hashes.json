@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "path": "data/revenue_gap_all/2026-10-07_review_v2/quarter_rows.json",
+      "sha256": "656e079d2de5be1bb808a8f3bacbd97aa4a7f68e507480e9f0f32461b06b544a"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/historical_targets.json",
+      "sha256": "f68a74c09e54f18d92b38f276b2dc0a5b8a3928f67af74347cb72c85c2e47397"
+    }
+  ]
+}

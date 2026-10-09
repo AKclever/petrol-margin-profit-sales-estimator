@@ -1,0 +1,7 @@
+{
+  "error": "source capture failed after three attempts: https://mymarketnews.ams.usda.gov/viewReport/3198",
+  "id": "usda_ethanol",
+  "search_performed_at": "2026-10-08T10:15:20.636536+00:00",
+  "source_url": "https://mymarketnews.ams.usda.gov/viewReport/3198",
+  "status": "UNRESOLVED_FETCH_FAILED"
+}

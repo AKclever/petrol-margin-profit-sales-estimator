@@ -1,0 +1,165 @@
+{
+  "created_at": "2026-10-08T11:12:21.982281+00:00",
+  "files": [
+    {
+      "path": "data/caseys_specific_spec_v1.json",
+      "sha256": "4d1e81631f6fe618112bb98d111c33080890bf13d94b8482ae4826fb2ff5d071"
+    },
+    {
+      "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/caseys_specific.py",
+      "sha256": "755d3365e61b478239d88edfba60c577806c9e22a4189826b1f584d3ff187297"
+    },
+    {
+      "path": "data/historical_evidence_extension/2026-10-08_review_v3/reviewed_peer_history.json",
+      "sha256": "9c3d33a443e1cb387496da4778e2143bc930a5b96b16d9c0e233503a2ac95914"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/source_checks.json",
+      "sha256": "ca4b4fd290145172b117ce0cca6bc0cb9f9c40c525904699039e489969e17e30"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_policies_v1/source_checks.json",
+      "sha256": "09d4be310aa71dad82d6a94aa289242628dcf17d2c2775b20afe91b2dad2de46"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/normalized_market.json",
+      "sha256": "fae439c5b66ddc595fb1d5b6898dde93ab3b88e1c023cf32d350916d5f612531"
+    },
+    {
+      "path": "data/caseys/weights.csv",
+      "sha256": "bf2c7b5929e68948914c64826ef7efd9f5b76944f4e566336a08f6bd0a44666a"
+    },
+    {
+      "path": "musa_nowcast/couchetard_peer.py",
+      "sha256": "f4c954ab90a937b87dd3bb56585ce89e0b229670c233c5b659b605f617c523ef"
+    },
+    {
+      "path": "musa_nowcast/model.py",
+      "sha256": "a62800fe77ff2c8230c5b5144c5ff78b7e4af769b91a29396bdee44cfae51311"
+    },
+    {
+      "path": "musa_nowcast/mathutils.py",
+      "sha256": "fef59998d413cd8e796ae8b823bf880f66be682ec31ac2bacd6386d526b88d70"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2020Q1.html",
+      "sha256": "2fe8e95fe87fafdb7c931f041993a7ee20c9386a308a7ec4645304bf1e6439fe"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2020Q2.html",
+      "sha256": "d7053c8483797ce332e774c73589f7ef91c3d856bf95f3d70c4206af4fecb0d0"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2020Q3.html",
+      "sha256": "a122ea1b6caa2ffe511497788dd7037b650ddad9b564f96931cf5c18d9ac49b3"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2020Q4.html",
+      "sha256": "483b23db069aca1a0cf97c1a0f7317e71214ba87324d8e5560345f1610cb60ff"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2021Q2.html",
+      "sha256": "4695c6372cdf5384cfae70863bc921d5d478c02f5b1e304ee6d9d86475c5dfce"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2021Q3.html",
+      "sha256": "46e344e481da96905e874d2640c8d865e3c322cbc52575b4e539a8767b455041"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2021Q4.html",
+      "sha256": "06089af5254f3ace28f3814ad1f5beb47a8556b3f5f1e5c8f7618ae10fe3b2ed"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2022Q1.html",
+      "sha256": "87d8090f8a948740a12404706d2909af9b021d51f3687826a92df88d4b654a8f"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2022Q2.html",
+      "sha256": "11ca61498481c84a086d68c1f9689266471b6f60ae3ded60398ffad56a22dce4"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2022Q3.html",
+      "sha256": "481d7b4dd87899f7ebd0286ddfa0d7199fa6f810d8a47bc4109adecd6f7bfc8d"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2022Q4.html",
+      "sha256": "b86f7bd2344017092ac6bbd635747dcf4358ce0806f25d2a7520d5bcdbe157a8"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2023Q1.html",
+      "sha256": "e1c0695e61a7cb73f8e3fec5f2e90dac2f1436073213c631d5db0796b3cf1afc"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2023Q2.html",
+      "sha256": "cb97af4289532217d7e1d95d92cefbf0e8b807080903721224193e774814d439"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2023Q3.html",
+      "sha256": "34a0f2cb12936bde2202bdf3beceef08326eefbb604bfbab711b54725471b9f6"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2023Q4.html",
+      "sha256": "5f58c7ed70bb6354c738c2f76f2e8cdb188490f08fe57695876adfde1991d622"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2024Q1.html",
+      "sha256": "a59943859d0317f40f5aa1ba7d056518e22f222d8bb8508148c88d49dc4169d2"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2024Q2.html",
+      "sha256": "e03836d840075c4941904f119a44fb585fb9dd0e4d33dde34f08597076e4ab7c"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2024Q3.html",
+      "sha256": "1e1f78eea5d461145aa4e1e429677b290934f749805b534e136b2e91f7056eb6"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2024Q4.html",
+      "sha256": "3dffed378df06b08608416467c2fdb299564a8a834244c8fea7c44f2b5aada40"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2025Q1.html",
+      "sha256": "30a39ac82d174ac9246d00d06781f65fd514ecdc39a772144b395c24272ed5f5"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2025Q2.html",
+      "sha256": "0ead5648cbac13dcc1efc7fe90797b685cb87c975f1a7f71ffebf1985a46f926"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2025Q3.html",
+      "sha256": "9545183192ab922f8036bdc4600a2699380924e96a265473bf6150df5b659107"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2025Q4.html",
+      "sha256": "69dda15c2c2c94436eb68f6880e2d86c888f8aec7206b4b72c3088180286d09f"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2026Q1.html",
+      "sha256": "eaf8f88b89861a621243e19ed480af84bb9cc940bf77d5c8935e8c7a1457853b"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2026Q2.html",
+      "sha256": "208f8d4c595fd8e07f23fec48a1b1a37db151bfbc4438710a56a634f9f2457b0"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2026Q3.html",
+      "sha256": "8b698dc98f842a3418929c542334833d650acbc83f4bb01e339a3ce640de8493"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2026Q4.html",
+      "sha256": "63e8059c868c3259918f38ba3c83b758136dd649ecbcd6fb844e4a8a10d91722"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_sources_v2/F2027Q1.html",
+      "sha256": "d6fbdfde2eee7888ae9d528839f9bf64ab0586ea8a338de0b66fdb19d97cc668"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_policies_v1/policy_2024.html",
+      "sha256": "387636009141ff622c51119774cad63b7ee1fa1f3b97818615ce05354795adff"
+    },
+    {
+      "path": "data/caseys_specific/2026-10-08_policies_v1/policy_2027q1.html",
+      "sha256": "cdce3bf7be9de314ce742efbe3e521b4655adfa91ec2cee0785c08a1ac1eedfa"
+    }
+  ]
+}

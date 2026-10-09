@@ -1,0 +1,905 @@
+{
+  "automatic_promotion": false,
+  "groups": {
+    "2021_onward_start": {
+      "large_group": {
+        "challenger": {
+          "large_error_count": 0,
+          "large_error_frequency": 0,
+          "mae_cpg": 4.461382860405898,
+          "rmse_cpg": 4.461382860405898,
+          "worst_abs_error_cpg": 4.461382860405898
+        },
+        "n": 1,
+        "production": {
+          "large_error_count": 1,
+          "large_error_frequency": 1,
+          "mae_cpg": 6.487148557498259,
+          "rmse_cpg": 6.487148557498259,
+          "worst_abs_error_cpg": 6.487148557498259
+        }
+      },
+      "metrics": {
+        "challenger_directional_accuracy": 0.6428571428571429,
+        "challenger_mae_cpg": 2.0916998157611366,
+        "challenger_rmse_cpg": 2.602234684955732,
+        "identical_backtest_rows": 14,
+        "mean_paired_improvement_cpg": 0.4387360662854312,
+        "paired_improvement_ci_low_cpg": -0.4783935842750638,
+        "passes_pre_registered_gate": false,
+        "production_directional_accuracy": 0.42857142857142855,
+        "production_mae_cpg": 2.530435882046568,
+        "production_rmse_cpg": 2.99429618739884,
+        "production_status": "UNCHANGED",
+        "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+        "recent_eight_challenger_directional_accuracy": 0.75,
+        "recent_eight_challenger_mae_cpg": 1.9500395341358239,
+        "recent_eight_production_directional_accuracy": 0.5,
+        "recent_eight_production_mae_cpg": 2.5486429708754557
+      },
+      "ordinary_group": {
+        "challenger": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.07692307692307693,
+          "mae_cpg": 1.9094165046346168,
+          "rmse_cpg": 2.4003015507846523,
+          "worst_abs_error_cpg": 5.564720202074938
+        },
+        "n": 13,
+        "production": {
+          "large_error_count": 0,
+          "large_error_frequency": 0,
+          "mae_cpg": 2.226073368550284,
+          "rmse_cpg": 2.5334415449700862,
+          "worst_abs_error_cpg": 4.57134079342633
+        }
+      },
+      "quarters": [
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2",
+        "F2026Q3",
+        "F2026Q4"
+      ],
+      "recent_level_baseline": {
+        "challenger": {
+          "large_error_count": 2,
+          "large_error_frequency": 0.14285714285714285,
+          "mae_cpg": 2.6133928571428564,
+          "rmse_cpg": 3.4141332433827816,
+          "worst_abs_error_cpg": 8.375
+        },
+        "n": 14,
+        "production": {
+          "large_error_count": 2,
+          "large_error_frequency": 0.14285714285714285,
+          "mae_cpg": 2.6133928571428564,
+          "rmse_cpg": 3.4141332433827816,
+          "worst_abs_error_cpg": 8.375
+        }
+      },
+      "seasonal_baseline": {
+        "challenger": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.07142857142857142,
+          "mae_cpg": 2.4857142857142853,
+          "rmse_cpg": 3.3088625581264974,
+          "worst_abs_error_cpg": 9.299999999999997
+        },
+        "n": 14,
+        "production": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.07142857142857142,
+          "mae_cpg": 2.4857142857142853,
+          "rmse_cpg": 3.3088625581264974,
+          "worst_abs_error_cpg": 9.299999999999997
+        }
+      },
+      "tails": {
+        "challenger": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.07142857142857142,
+          "mae_cpg": 2.0916998157611366,
+          "rmse_cpg": 2.602234684955732,
+          "worst_abs_error_cpg": 5.564720202074938
+        },
+        "n": 14,
+        "production": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.07142857142857142,
+          "mae_cpg": 2.530435882046568,
+          "rmse_cpg": 2.9942961873988394,
+          "worst_abs_error_cpg": 6.487148557498259
+        }
+      }
+    },
+    "all": {
+      "large_group": {
+        "challenger": {
+          "large_error_count": 0,
+          "large_error_frequency": 0,
+          "mae_cpg": 4.461382860405898,
+          "rmse_cpg": 4.461382860405898,
+          "worst_abs_error_cpg": 4.461382860405898
+        },
+        "n": 1,
+        "production": {
+          "large_error_count": 1,
+          "large_error_frequency": 1,
+          "mae_cpg": 6.487148557498259,
+          "rmse_cpg": 6.487148557498259,
+          "worst_abs_error_cpg": 6.487148557498259
+        }
+      },
+      "metrics": {
+        "challenger_directional_accuracy": 0.6428571428571429,
+        "challenger_mae_cpg": 2.0916998157611366,
+        "challenger_rmse_cpg": 2.602234684955732,
+        "identical_backtest_rows": 14,
+        "mean_paired_improvement_cpg": 0.4387360662854312,
+        "paired_improvement_ci_low_cpg": -0.4783935842750638,
+        "passes_pre_registered_gate": false,
+        "production_directional_accuracy": 0.42857142857142855,
+        "production_mae_cpg": 2.530435882046568,
+        "production_rmse_cpg": 2.99429618739884,
+        "production_status": "UNCHANGED",
+        "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+        "recent_eight_challenger_directional_accuracy": 0.75,
+        "recent_eight_challenger_mae_cpg": 1.9500395341358239,
+        "recent_eight_production_directional_accuracy": 0.5,
+        "recent_eight_production_mae_cpg": 2.5486429708754557
+      },
+      "ordinary_group": {
+        "challenger": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.07692307692307693,
+          "mae_cpg": 1.9094165046346168,
+          "rmse_cpg": 2.4003015507846523,
+          "worst_abs_error_cpg": 5.564720202074938
+        },
+        "n": 13,
+        "production": {
+          "large_error_count": 0,
+          "large_error_frequency": 0,
+          "mae_cpg": 2.226073368550284,
+          "rmse_cpg": 2.5334415449700862,
+          "worst_abs_error_cpg": 4.57134079342633
+        }
+      },
+      "quarters": [
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2",
+        "F2026Q3",
+        "F2026Q4"
+      ],
+      "recent_level_baseline": {
+        "challenger": {
+          "large_error_count": 2,
+          "large_error_frequency": 0.14285714285714285,
+          "mae_cpg": 2.6133928571428564,
+          "rmse_cpg": 3.4141332433827816,
+          "worst_abs_error_cpg": 8.375
+        },
+        "n": 14,
+        "production": {
+          "large_error_count": 2,
+          "large_error_frequency": 0.14285714285714285,
+          "mae_cpg": 2.6133928571428564,
+          "rmse_cpg": 3.4141332433827816,
+          "worst_abs_error_cpg": 8.375
+        }
+      },
+      "seasonal_baseline": {
+        "challenger": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.07142857142857142,
+          "mae_cpg": 2.4857142857142853,
+          "rmse_cpg": 3.3088625581264974,
+          "worst_abs_error_cpg": 9.299999999999997
+        },
+        "n": 14,
+        "production": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.07142857142857142,
+          "mae_cpg": 2.4857142857142853,
+          "rmse_cpg": 3.3088625581264974,
+          "worst_abs_error_cpg": 9.299999999999997
+        }
+      },
+      "tails": {
+        "challenger": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.07142857142857142,
+          "mae_cpg": 2.0916998157611366,
+          "rmse_cpg": 2.602234684955732,
+          "worst_abs_error_cpg": 5.564720202074938
+        },
+        "n": 14,
+        "production": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.07142857142857142,
+          "mae_cpg": 2.530435882046568,
+          "rmse_cpg": 2.9942961873988394,
+          "worst_abs_error_cpg": 6.487148557498259
+        }
+      }
+    }
+  },
+  "live_forecast_generated": false,
+  "production_changed": false,
+  "reconciled_component_quarters": 22,
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_PUBLICATION_FILTERED_NOT_STRICT_PIT",
+  "rows": [
+    {
+      "actual_cpg": 40.7,
+      "available_at": "2023-03-07",
+      "direction_correct": true,
+      "end": "2023-01-31",
+      "ex_rin_forecast_cpg": 38.73353072601671,
+      "forecast_information_cutoff": "2023-01-31",
+      "information_cutoff": "2023-01-31",
+      "original_abs_error_cpg": 0.9924687828531731,
+      "original_prediction_cpg": 41.692468782853176,
+      "prediction_cpg": 40.225000272928845,
+      "quarter": "F2023Q3",
+      "recent_level_prediction_cpg": 41.3,
+      "rin_forecast_cpg": 1.4914695469121357,
+      "rin_training_quarters": [
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2"
+      ],
+      "seasonal_cpg": 38.3,
+      "shadow_abs_error_cpg": 0.47499972707115745,
+      "source": {
+        "available_at": "2023-03-07",
+        "sha256": "e3b66a4f2131ed98e4df887c03c349465456c43c68aa303dcc12eb029361b5a1",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695823000018/casy-20230302.htm"
+      },
+      "start": "2022-11-01",
+      "surprise_cpg": -0.9924687828531731,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2"
+      ]
+    },
+    {
+      "actual_cpg": 34.6,
+      "available_at": "2023-06-06",
+      "direction_correct": false,
+      "end": "2023-04-30",
+      "ex_rin_forecast_cpg": 38.970956594875865,
+      "forecast_information_cutoff": "2023-04-30",
+      "information_cutoff": "2023-04-30",
+      "original_abs_error_cpg": 1.8855981978932377,
+      "original_prediction_cpg": 36.48559819789324,
+      "prediction_cpg": 40.16472020207494,
+      "quarter": "F2023Q4",
+      "recent_level_prediction_cpg": 38.825,
+      "rin_forecast_cpg": 1.1937636071990707,
+      "rin_training_quarters": [
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3"
+      ],
+      "seasonal_cpg": 36.2,
+      "shadow_abs_error_cpg": 5.564720202074938,
+      "source": {
+        "available_at": "2023-06-06",
+        "sha256": "ee7934cffc0055a99d74421fe6edc016c452b9960e8dadfdab9bf8aa14df9571",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695823000043/casy-20230531.htm"
+      },
+      "start": "2023-02-01",
+      "surprise_cpg": -1.8855981978932377,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3"
+      ]
+    },
+    {
+      "actual_cpg": 41.6,
+      "available_at": "2023-09-11",
+      "direction_correct": true,
+      "end": "2023-07-31",
+      "ex_rin_forecast_cpg": 40.84179744843374,
+      "forecast_information_cutoff": "2023-07-31",
+      "information_cutoff": "2023-07-31",
+      "original_abs_error_cpg": 4.57134079342633,
+      "original_prediction_cpg": 46.17134079342633,
+      "prediction_cpg": 41.991286054747306,
+      "quarter": "F2024Q1",
+      "recent_level_prediction_cpg": 46.725,
+      "rin_forecast_cpg": 1.1494886063135707,
+      "rin_training_quarters": [
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4"
+      ],
+      "seasonal_cpg": 44.7,
+      "shadow_abs_error_cpg": 0.3912860547473045,
+      "source": {
+        "available_at": "2023-09-11",
+        "sha256": "2e205e59277b9eb76caa4481e946187959c573f418bf404686ab69b4abb7301c",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695823000090/casy-20230911.htm"
+      },
+      "start": "2023-05-01",
+      "surprise_cpg": -4.57134079342633,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4"
+      ]
+    },
+    {
+      "actual_cpg": 42.3,
+      "available_at": "2023-12-11",
+      "direction_correct": false,
+      "end": "2023-10-31",
+      "ex_rin_forecast_cpg": 38.99681394864141,
+      "forecast_information_cutoff": "2023-10-31",
+      "information_cutoff": "2023-10-31",
+      "original_abs_error_cpg": 2.345896877846805,
+      "original_prediction_cpg": 39.95410312215319,
+      "prediction_cpg": 40.211794268402045,
+      "quarter": "F2024Q2",
+      "recent_level_prediction_cpg": 40.9375,
+      "rin_forecast_cpg": 1.2149803197606328,
+      "rin_training_quarters": [
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1"
+      ],
+      "seasonal_cpg": 40.5,
+      "shadow_abs_error_cpg": 2.0882057315979523,
+      "source": {
+        "available_at": "2023-12-11",
+        "sha256": "ad13f613fcee4d6abc52e4fe6d5c943541b97ad75ae833ac785bc12564ef55d6",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695823000099/casy-20231211.htm"
+      },
+      "start": "2023-08-01",
+      "surprise_cpg": 2.345896877846805,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1"
+      ]
+    },
+    {
+      "actual_cpg": 37.3,
+      "available_at": "2024-03-11",
+      "direction_correct": true,
+      "end": "2024-01-31",
+      "ex_rin_forecast_cpg": 39.213407475913186,
+      "forecast_information_cutoff": "2024-01-31",
+      "information_cutoff": "2024-01-31",
+      "original_abs_error_cpg": 2.388884993836214,
+      "original_prediction_cpg": 39.68888499383621,
+      "prediction_cpg": 40.32061120241136,
+      "quarter": "F2024Q3",
+      "recent_level_prediction_cpg": 40.6375,
+      "rin_forecast_cpg": 1.1072037264981727,
+      "rin_training_quarters": [
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2"
+      ],
+      "seasonal_cpg": 40.7,
+      "shadow_abs_error_cpg": 3.0206112024113594,
+      "source": {
+        "available_at": "2024-03-11",
+        "sha256": "4f49a5e7e30f75d1373d897301f6414c1effac90d2101d422e61f46b33d8c537",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695824000012/casy-20240311.htm"
+      },
+      "start": "2023-11-01",
+      "surprise_cpg": -2.388884993836214,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2"
+      ]
+    },
+    {
+      "actual_cpg": 36.5,
+      "available_at": "2024-06-11",
+      "direction_correct": false,
+      "end": "2024-04-30",
+      "ex_rin_forecast_cpg": 33.23822932866746,
+      "forecast_information_cutoff": "2024-04-30",
+      "information_cutoff": "2024-04-30",
+      "original_abs_error_cpg": 2.8527689357925468,
+      "original_prediction_cpg": 33.64723106420745,
+      "prediction_cpg": 34.35634177033339,
+      "quarter": "F2024Q4",
+      "recent_level_prediction_cpg": 33.8125,
+      "rin_forecast_cpg": 1.1181124416659323,
+      "rin_training_quarters": [
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3"
+      ],
+      "seasonal_cpg": 34.6,
+      "shadow_abs_error_cpg": 2.143658229666613,
+      "source": {
+        "available_at": "2024-06-11",
+        "sha256": "78ffacea29c31c9be5a18aa661336ef8fa03164be31eb2e44f601acd02690ca9",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695824000030/casy-20240605.htm"
+      },
+      "start": "2024-02-01",
+      "surprise_cpg": 2.8527689357925468,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3"
+      ]
+    },
+    {
+      "actual_cpg": 40.7,
+      "available_at": "2024-09-04",
+      "direction_correct": true,
+      "end": "2024-07-31",
+      "ex_rin_forecast_cpg": 38.78944318439489,
+      "forecast_information_cutoff": "2024-07-31",
+      "information_cutoff": "2024-07-31",
+      "original_abs_error_cpg": 1.5435251350444545,
+      "original_prediction_cpg": 42.24352513504446,
+      "prediction_cpg": 39.943527418420125,
+      "quarter": "F2025Q1",
+      "recent_level_prediction_cpg": 41.25,
+      "rin_forecast_cpg": 1.1540842340252357,
+      "rin_training_quarters": [
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4"
+      ],
+      "seasonal_cpg": 41.6,
+      "shadow_abs_error_cpg": 0.7564725815798781,
+      "source": {
+        "available_at": "2024-09-04",
+        "sha256": "d381f1f4823024baf7beb17accb7cdf8e253c4f7456d802c316259a09da46304",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695824000072/casy-20240828.htm"
+      },
+      "start": "2024-05-01",
+      "surprise_cpg": -1.5435251350444545,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4"
+      ]
+    },
+    {
+      "actual_cpg": 40.2,
+      "available_at": "2024-12-09",
+      "direction_correct": true,
+      "end": "2024-10-31",
+      "ex_rin_forecast_cpg": 41.531767615454854,
+      "forecast_information_cutoff": "2024-10-31",
+      "information_cutoff": "2024-10-31",
+      "original_abs_error_cpg": 3.5174114528654528,
+      "original_prediction_cpg": 43.717411452865456,
+      "prediction_cpg": 42.133892587897606,
+      "quarter": "F2025Q2",
+      "recent_level_prediction_cpg": 42.224999999999994,
+      "rin_forecast_cpg": 0.6021249724427546,
+      "rin_training_quarters": [
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1"
+      ],
+      "seasonal_cpg": 42.3,
+      "shadow_abs_error_cpg": 1.9338925878976028,
+      "source": {
+        "available_at": "2024-12-09",
+        "sha256": "d8ad2aaea08cf41264b7765d336a63d4b58d701e0204c46d0315bb3f19f9df93",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695824000090/casy-20241205.htm"
+      },
+      "start": "2024-08-01",
+      "surprise_cpg": -3.5174114528654528,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1"
+      ]
+    },
+    {
+      "actual_cpg": 36.4,
+      "available_at": "2025-03-11",
+      "direction_correct": false,
+      "end": "2025-01-31",
+      "ex_rin_forecast_cpg": 37.855562785978826,
+      "forecast_information_cutoff": "2025-01-31",
+      "information_cutoff": "2025-01-31",
+      "original_abs_error_cpg": 1.2013655478141203,
+      "original_prediction_cpg": 37.60136554781412,
+      "prediction_cpg": 38.3280677399488,
+      "quarter": "F2025Q3",
+      "recent_level_prediction_cpg": 36.7375,
+      "rin_forecast_cpg": 0.47250495396997383,
+      "rin_training_quarters": [
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2"
+      ],
+      "seasonal_cpg": 37.3,
+      "shadow_abs_error_cpg": 1.9280677399488013,
+      "source": {
+        "available_at": "2025-03-11",
+        "sha256": "85aa5225013361845a8cccdaa2cba60fb4e03ff4511911d3f27f23f43c8d91a0",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695825000012/casy-20250311.htm"
+      },
+      "start": "2024-11-01",
+      "surprise_cpg": -1.2013655478141203,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2"
+      ]
+    },
+    {
+      "actual_cpg": 37.6,
+      "available_at": "2025-06-09",
+      "direction_correct": true,
+      "end": "2025-04-30",
+      "ex_rin_forecast_cpg": 37.272824767871626,
+      "forecast_information_cutoff": "2025-04-30",
+      "information_cutoff": "2025-04-30",
+      "original_abs_error_cpg": 1.3167823885696635,
+      "original_prediction_cpg": 38.916782388569665,
+      "prediction_cpg": 37.70034325877359,
+      "quarter": "F2025Q4",
+      "recent_level_prediction_cpg": 36.25,
+      "rin_forecast_cpg": 0.42751849090196564,
+      "rin_training_quarters": [
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3"
+      ],
+      "seasonal_cpg": 36.5,
+      "shadow_abs_error_cpg": 0.10034325877359151,
+      "source": {
+        "available_at": "2025-06-09",
+        "sha256": "91a7e1e12fe147dd5f38e1f70aa499135dc769c78a95ffaf2f2f1266f1f11519",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695825000032/casy-20250604.htm"
+      },
+      "start": "2025-02-01",
+      "surprise_cpg": -1.3167823885696635,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3"
+      ]
+    },
+    {
+      "actual_cpg": 41.0,
+      "available_at": "2025-09-08",
+      "direction_correct": true,
+      "end": "2025-07-31",
+      "ex_rin_forecast_cpg": 41.360441262295005,
+      "forecast_information_cutoff": "2025-07-31",
+      "information_cutoff": "2025-07-31",
+      "original_abs_error_cpg": 0.027419972510173807,
+      "original_prediction_cpg": 40.972580027489826,
+      "prediction_cpg": 41.88330315272275,
+      "quarter": "F2026Q1",
+      "recent_level_prediction_cpg": 40.35,
+      "rin_forecast_cpg": 0.5228618904277498,
+      "rin_training_quarters": [
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4"
+      ],
+      "seasonal_cpg": 40.7,
+      "shadow_abs_error_cpg": 0.8833031527227533,
+      "source": {
+        "available_at": "2025-09-08",
+        "sha256": "1f4d56126c9b6b0f9cca2497cd546cbd17e1266da7eef1d56f4fd3ec659ee896",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695825000102/casy-20250903.htm"
+      },
+      "start": "2025-05-01",
+      "surprise_cpg": 0.027419972510173807,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4"
+      ]
+    },
+    {
+      "actual_cpg": 41.6,
+      "available_at": "2025-12-09",
+      "direction_correct": false,
+      "end": "2025-10-31",
+      "ex_rin_forecast_cpg": 39.09449467410602,
+      "forecast_information_cutoff": "2025-10-31",
+      "information_cutoff": "2025-10-31",
+      "original_abs_error_cpg": 2.47576644781185,
+      "original_prediction_cpg": 39.12423355218815,
+      "prediction_cpg": 39.64573059339713,
+      "quarter": "F2026Q2",
+      "recent_level_prediction_cpg": 40.0,
+      "rin_forecast_cpg": 0.5512359192911063,
+      "rin_training_quarters": [
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1"
+      ],
+      "seasonal_cpg": 40.2,
+      "shadow_abs_error_cpg": 1.9542694066028687,
+      "source": {
+        "available_at": "2025-12-09",
+        "sha256": "ef133bd9459abf642daed5241338af418fade9e411e5d745b7d62b5ddd7029ed",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695825000116/casy-20251209.htm"
+      },
+      "start": "2025-08-01",
+      "surprise_cpg": 2.47576644781185,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1"
+      ]
+    },
+    {
+      "actual_cpg": 41.0,
+      "available_at": "2026-03-09",
+      "direction_correct": true,
+      "end": "2026-01-31",
+      "ex_rin_forecast_cpg": 36.82552509379841,
+      "forecast_information_cutoff": "2026-01-31",
+      "information_cutoff": "2026-01-31",
+      "original_abs_error_cpg": 3.819724264889672,
+      "original_prediction_cpg": 37.18027573511033,
+      "prediction_cpg": 37.4174153148448,
+      "quarter": "F2026Q3",
+      "recent_level_prediction_cpg": 36.637499999999996,
+      "rin_forecast_cpg": 0.5918902210463888,
+      "rin_training_quarters": [
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2"
+      ],
+      "seasonal_cpg": 36.4,
+      "shadow_abs_error_cpg": 3.5825846851551972,
+      "source": {
+        "available_at": "2026-03-09",
+        "sha256": "f1d28f514135aa2f179f6699cfb7b4d9ef026af2f6ca2e6f8c004d534e6c316b",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000012/casy-20260309.htm"
+      },
+      "start": "2025-11-01",
+      "surprise_cpg": 3.819724264889672,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2"
+      ]
+    },
+    {
+      "actual_cpg": 46.9,
+      "available_at": "2026-06-09",
+      "direction_correct": true,
+      "end": "2026-04-30",
+      "ex_rin_forecast_cpg": 41.73942660359003,
+      "forecast_information_cutoff": "2026-04-30",
+      "information_cutoff": "2026-04-30",
+      "original_abs_error_cpg": 6.487148557498259,
+      "original_prediction_cpg": 40.41285144250174,
+      "prediction_cpg": 42.4386171395941,
+      "quarter": "F2026Q4",
+      "recent_level_prediction_cpg": 38.525,
+      "rin_forecast_cpg": 0.699190536004066,
+      "rin_training_quarters": [
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2",
+        "F2026Q3"
+      ],
+      "seasonal_cpg": 37.6,
+      "shadow_abs_error_cpg": 4.461382860405898,
+      "source": {
+        "available_at": "2026-06-09",
+        "sha256": "9ded33b0922753edc7058d899466faee85b250d5182c8c35d824a1287f25cde3",
+        "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000033/casy-20260603.htm"
+      },
+      "start": "2026-02-01",
+      "surprise_cpg": 6.487148557498259,
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2",
+        "F2026Q3"
+      ]
+    }
+  ],
+  "strict_market_pit_verified": false
+}

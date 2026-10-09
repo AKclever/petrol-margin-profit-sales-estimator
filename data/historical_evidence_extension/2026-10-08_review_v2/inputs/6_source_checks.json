@@ -1,0 +1,154 @@
+{
+  "checks": [
+    {
+      "captured_at": "2026-10-08T10:13:25.926719+00:00",
+      "id": "quickchek_close",
+      "raw_file": "quickchek_close.html",
+      "search_performed_at": "2026-10-08T10:13:25.847170+00:00",
+      "sha256": "163cb9ec2757ad6e0b796b3a66d62800438158b4ab6e95a3b6e2a38d37e45163",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000095010321001416/dp145149_ex9901.htm",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "captured_at": "2026-10-08T10:13:26.220669+00:00",
+      "id": "musa_2022q2_filing",
+      "raw_file": "musa_2022q2_filing.html",
+      "search_performed_at": "2026-10-08T10:13:25.926860+00:00",
+      "sha256": "616f4c4e34a7c91efafc16194733d338d2bf7a61f311e3ef646ae0ff6f98f54b",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000035/musa-20220630.htm",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "captured_at": "2026-10-08T10:13:26.473274+00:00",
+      "id": "caseys_buchanan_filing",
+      "raw_file": "caseys_buchanan_filing.html",
+      "search_performed_at": "2026-10-08T10:13:26.220870+00:00",
+      "sha256": "0d8c8c119705c745a88b483a5408a600cad657c4959fa52c7a87ea87af2bc47b",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695821000136/casy-20211031.htm",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "captured_at": "2026-10-08T10:13:27.567678+00:00",
+      "id": "atd_f2018q2",
+      "raw_file": "atd_f2018q2.html",
+      "search_performed_at": "2026-10-08T10:13:26.473465+00:00",
+      "sha256": "e7f8d659fc8d9ba9e43a814325cd75ef40cad63d5e6f986800f21cac2ffc5309",
+      "source_url": "https://corporate.couche-tard.com/2017-11-28-Alimentation-Couche-Tard-announces-record-earnings-for-its-second-quarter-of-fiscal-year-2018-with-the-contribution-from-CST",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "captured_at": "2026-10-08T10:13:37.766467+00:00",
+      "id": "eia_rack_table",
+      "raw_file": "eia_rack_table.html",
+      "search_performed_at": "2026-10-08T10:13:27.567864+00:00",
+      "sha256": "37f0553563c220a1b701f587dd7f77b839bcfce4fd24477772da24c0b4faf324",
+      "source_url": "https://www.eia.gov/dnav/pet/pet_pri_allmg_a_epmr_pra_dpgal_m.htm",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "captured_at": "2026-10-08T10:13:46.982746+00:00",
+      "id": "eia_resale_table",
+      "raw_file": "eia_resale_table.html",
+      "search_performed_at": "2026-10-08T10:13:37.766669+00:00",
+      "sha256": "dea4a09ee69a183ae7f44a17b158d412affcb85768c95374b416362bd3b3dda2",
+      "source_url": "https://www.eia.gov/dnav/pet/PET_PRI_REFMG_A_EPMR_PWG_DPGAL_M.htm",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "error": "source capture failed after three attempts: https://www.energy.ca.gov/data-reports/energy-almanac/californias-petroleum-market/california-oil-refinery-cost-disclosure",
+      "id": "cec_wholesale",
+      "search_performed_at": "2026-10-08T10:13:46.982937+00:00",
+      "source_url": "https://www.energy.ca.gov/data-reports/energy-almanac/californias-petroleum-market/california-oil-refinery-cost-disclosure",
+      "status": "UNRESOLVED_FETCH_FAILED"
+    },
+    {
+      "captured_at": "2026-10-08T10:15:20.636151+00:00",
+      "id": "opis_history",
+      "raw_file": "opis_history.html",
+      "search_performed_at": "2026-10-08T10:15:20.115649+00:00",
+      "sha256": "ab242b39faa4be73a93990fe2c79d67cc2ef15504459e2574ac3bc065f93d5a6",
+      "source_url": "https://www.opis.com/product/pricing/",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "error": "source capture failed after three attempts: https://mymarketnews.ams.usda.gov/viewReport/3198",
+      "id": "usda_ethanol",
+      "search_performed_at": "2026-10-08T10:15:20.636536+00:00",
+      "source_url": "https://mymarketnews.ams.usda.gov/viewReport/3198",
+      "status": "UNRESOLVED_FETCH_FAILED"
+    },
+    {
+      "captured_at": "2026-10-08T10:17:04.616196+00:00",
+      "id": "EMA_EPMR_PRA_R10_DPG",
+      "raw_file": "EMA_EPMR_PRA_R10_DPG.xls",
+      "search_performed_at": "2026-10-08T10:16:54.326259+00:00",
+      "sha256": "7aeda775506f73833ba05225878d88e153e293283ad5d1878260a0b28dccce64",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMR_PRA_R10_DPGm.xls",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "captured_at": "2026-10-08T10:17:14.857517+00:00",
+      "id": "EMA_EPMR_PWG_R10_DPG",
+      "raw_file": "EMA_EPMR_PWG_R10_DPG.xls",
+      "search_performed_at": "2026-10-08T10:17:04.616381+00:00",
+      "sha256": "03f1e450c42b3841e8a0fe702cb1d7c1f965da5fc5539e8fe5ff4aeb7b192208",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMR_PWG_R10_DPGm.xls",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "captured_at": "2026-10-08T10:17:24.080188+00:00",
+      "id": "EMA_EPMR_PRA_R20_DPG",
+      "raw_file": "EMA_EPMR_PRA_R20_DPG.xls",
+      "search_performed_at": "2026-10-08T10:17:14.857755+00:00",
+      "sha256": "83f4d6e90f7873a2faa3f11e2fff29f8249da68d17dbb21b0f0a03ac41587542",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMR_PRA_R20_DPGm.xls",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "captured_at": "2026-10-08T10:17:33.307539+00:00",
+      "id": "EMA_EPMR_PWG_R20_DPG",
+      "raw_file": "EMA_EPMR_PWG_R20_DPG.xls",
+      "search_performed_at": "2026-10-08T10:17:24.080378+00:00",
+      "sha256": "93598a15c927024d6975783c0cf39c35b59dd276f3dbd2191d35e1708fa17e8d",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMR_PWG_R20_DPGm.xls",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "captured_at": "2026-10-08T10:17:43.527758+00:00",
+      "id": "EMA_EPMR_PRA_R30_DPG",
+      "raw_file": "EMA_EPMR_PRA_R30_DPG.xls",
+      "search_performed_at": "2026-10-08T10:17:33.307741+00:00",
+      "sha256": "e34afe949237ceb927f682c4de255ea79a6ffa0bc8ef21128c4f60d80ebaf932",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMR_PRA_R30_DPGm.xls",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "captured_at": "2026-10-08T10:17:52.738400+00:00",
+      "id": "EMA_EPMR_PWG_R30_DPG",
+      "raw_file": "EMA_EPMR_PWG_R30_DPG.xls",
+      "search_performed_at": "2026-10-08T10:17:43.527963+00:00",
+      "sha256": "f1f84db61208437420e9d4796453b87ab05445c5499584d816ef8419508120a8",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMR_PWG_R30_DPGm.xls",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "captured_at": "2026-10-08T10:18:01.960597+00:00",
+      "id": "EMA_EPMR_PRA_STX_DPG",
+      "raw_file": "EMA_EPMR_PRA_STX_DPG.xls",
+      "search_performed_at": "2026-10-08T10:17:52.738619+00:00",
+      "sha256": "9192abd3e3d1cf2ea7396508b7b9d194960a2a97a9e43ed465f3b6f1974b62cd",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMR_PRA_STX_DPGm.xls",
+      "status": "RAW_CAPTURED"
+    },
+    {
+      "captured_at": "2026-10-08T10:18:12.164962+00:00",
+      "id": "EMA_EPMR_PWG_STX_DPG",
+      "raw_file": "EMA_EPMR_PWG_STX_DPG.xls",
+      "search_performed_at": "2026-10-08T10:18:01.960813+00:00",
+      "sha256": "dbde7ece394d6bb7ff9a5a9474004c7092f067a5e6a4f5f3d1b29578fa502596",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMA_EPMR_PWG_STX_DPGm.xls",
+      "status": "RAW_CAPTURED"
+    }
+  ],
+  "historical_available_at_not_inferred_from_capture": true
+}

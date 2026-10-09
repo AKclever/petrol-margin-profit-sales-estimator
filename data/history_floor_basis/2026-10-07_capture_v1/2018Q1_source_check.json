@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:05.740822+00:00",
+  "captured_at": "2026-10-07T16:15:05.740809+00:00",
+  "key": "2018Q1",
+  "original_index_locator_or_series": "https://s22.q4cdn.com/506259022/files/doc_financials/quarterly_filings/2018/Q1/Exh-99_1-20180331-Earnings-Release-As-Filed.pdf",
+  "raw_file": "2018Q1.pdf",
+  "sha256": "c5d0d0fecffe329657bc8d4b5ae7e9b99439f3e52b6a5ef6d28a181f8d74b546",
+  "source_type": "ISSUER_EARNINGS_RELEASE",
+  "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/quarterly_filings/2018/Q1/Exh-99_1-20180331-Earnings-Release-As-Filed.pdf",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

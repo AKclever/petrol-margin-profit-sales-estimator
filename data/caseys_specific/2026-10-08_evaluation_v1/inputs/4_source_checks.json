@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "captured_at": "2026-10-08T11:10:49.190269+00:00",
+      "id": "policy_2024",
+      "raw_file": "policy_2024.html",
+      "sha256": "387636009141ff622c51119774cad63b7ee1fa1f3b97818615ce05354795adff",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695824000046/casy-20240430.htm"
+    },
+    {
+      "captured_at": "2026-10-08T11:10:49.473551+00:00",
+      "id": "policy_2027q1",
+      "raw_file": "policy_2027q1.html",
+      "sha256": "cdce3bf7be9de314ce742efbe3e521b4655adfa91ec2cee0785c08a1ac1eedfa",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000085/casy-20260731.htm"
+    }
+  ]
+}

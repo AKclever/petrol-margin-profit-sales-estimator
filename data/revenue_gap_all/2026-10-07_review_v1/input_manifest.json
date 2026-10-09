@@ -1,0 +1,13 @@
+{
+  "capture_source_checks_sha256": "f2cb25f574a5f4de9a64ad82982f678752a45ae202a5c44de1e2b30062435698",
+  "frozen_at": "2026-10-07T15:45:49.975853+00:00",
+  "hashes": {
+    "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/scripts/review_all_quarter_revenue.py": "c508cc70faf040a0ee0ea49b2df04685c0c67ab357018e1c6db21dc9fd43901b",
+    "data/actuals.csv": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+    "data/market.csv": "721da8ca24e87c7da17892413b70ad6d45eddc223c512eb329753679b1de4005",
+    "data/revenue_gap_all_quarters_spec_v1.json": "8e17f4077ad7a022e5561bb9a9da75e8a771a5a1c343b78b0bead577ea26343a",
+    "data/weights.csv": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986",
+    "musa_nowcast/revenue_forward.py": "cd4c581d55cbd31c56f88078ca66122ed1da08fc89f3fac5c34b61abb0229b60",
+    "musa_nowcast/revenue_gap_audit.py": "0aea68e3e30893cfc4321d2859aaa391cfc00711462e3bf6f5e4ed0fb3553bd6"
+  }
+}

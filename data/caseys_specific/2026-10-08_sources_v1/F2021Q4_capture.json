@@ -1,0 +1,12 @@
+{
+  "available_at": "2021-06-08",
+  "captured_at": "2026-10-08T11:08:50.013660+00:00",
+  "cover_sha256": "f39211a9752883c84b13b04df60b83e1825da6f253a64753849f49aed7c6b4a5",
+  "cover_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695821000054/casy-20210602.htm",
+  "quarter": "F2021Q4",
+  "raw_file": "F2021Q4.html",
+  "search_performed_at": "2026-10-08T11:08:49.772940+00:00",
+  "sha256": "06089af5254f3ace28f3814ad1f5beb47a8556b3f5f1e5c8f7618ae10fe3b2ed",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695821000054/ex991q42021pressrelease.htm",
+  "status": "RAW_CAPTURED"
+}

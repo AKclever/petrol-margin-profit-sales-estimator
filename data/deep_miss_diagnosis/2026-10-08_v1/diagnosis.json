@@ -1,0 +1,1766 @@
+{
+  "all_22_predictions_reproduced": true,
+  "confirmed_company_cost_observations": 0,
+  "created_at": "2026-10-08T09:18:48.251688+00:00",
+  "disclosure_audit_not_changed": true,
+  "group_context": {
+    "large": {
+      "mean_abs_revenue_gap_cpg": 3.3263001333294064,
+      "mean_volatility_cpg": 10.183648380808076,
+      "n": 6,
+      "negative_falling_capture_slope_count": 2,
+      "positive_rising_squeeze_slope_count": 6
+    },
+    "ordinary": {
+      "mean_abs_revenue_gap_cpg": 3.640218177827192,
+      "mean_volatility_cpg": 8.048507040151518,
+      "n": 16,
+      "negative_falling_capture_slope_count": 14,
+      "positive_rising_squeeze_slope_count": 16
+    }
+  },
+  "large_quarters": [
+    "2021Q2",
+    "2021Q4",
+    "2022Q1",
+    "2022Q3",
+    "2023Q3",
+    "2026Q2"
+  ],
+  "model_fitted_for_new_forecasts": false,
+  "ordinary_quarters": [
+    "2021Q1",
+    "2021Q3",
+    "2022Q2",
+    "2022Q4",
+    "2023Q1",
+    "2023Q2",
+    "2023Q4",
+    "2024Q1",
+    "2024Q2",
+    "2024Q3",
+    "2024Q4",
+    "2025Q1",
+    "2025Q2",
+    "2025Q3",
+    "2025Q4",
+    "2026Q1"
+  ],
+  "production_changed": false,
+  "role": "RETROSPECTIVE_DOCUMENTARY_AND_MODEL_ARITHMETIC_DIAGNOSIS",
+  "rows": [
+    {
+      "actual_cpg": 15.5,
+      "actual_minus_production_cpg": -3.3571265418797687,
+      "company_revenue_gap_cpg": 8.393832398710089,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 2.9324297545454594,
+        "maximum_weekly_drop_cpg": 10.290516000000025,
+        "maximum_weekly_increase_cpg": 11.513791999999995,
+        "rising_squeeze": 1.9569800636363652,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 6.73369905454546,
+        "wholesale_change_cpg": 43.39827679999999
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": -11.399999999999999,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.059309346407568825,
+          "rising_squeeze": -0.14331818673527713,
+          "spread": -11.058324260418662,
+          "volatility": -1.6380403573738667
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": -6.198756645454537,
+          "rising_squeeze": 0.1092318000000061,
+          "spread": -25.469747141666645,
+          "volatility": -6.758699127272716
+        },
+        "intercept_contribution_cpg": 4.7375,
+        "prior_year_anchor_cpg": 26.9,
+        "raw_feature_slopes": {
+          "falling_capture": -0.016215576105839208,
+          "rising_squeeze": 1.8360181499973878,
+          "spread": 0.5403255769013874,
+          "volatility": 0.36304844041175444
+        },
+        "reconstructed_production_cpg": 18.857126541879765,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": -8.042873458120233,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4"
+        ],
+        "unshrunk_model_yoy_change_cpg": -16.085746916240474,
+        "unshrunk_sensitivity_prediction_cpg": 10.814253083759525,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 18.85712654187977,
+      "quarter": "2021Q1",
+      "release_source": {
+        "available_at": "2021-04-28",
+        "sha256": "21a151636109ac4291163117aa0630d0a6e2a3cd4ef17b014d7fb7bd898f2692",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000024/exh991_03312021.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 21.8,
+      "actual_minus_production_cpg": -5.180859753382396,
+      "company_revenue_gap_cpg": -1.6787375308573473,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 1.9722572272727141,
+        "maximum_weekly_drop_cpg": 3.9706895999999574,
+        "maximum_weekly_increase_cpg": 8.635344799999956,
+        "rising_squeeze": 3.312001409090902,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 3.9829936727272623,
+        "wholesale_change_cpg": 24.68361999999999
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": -9.899999999999999,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.15732998028569356,
+          "rising_squeeze": -3.021755181283546,
+          "spread": -3.453782075383609,
+          "volatility": -1.0509329702361871
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": 0.6892320999999846,
+          "rising_squeeze": -2.002356281818191,
+          "spread": -17.226080299999992,
+          "volatility": -3.1351884363636446
+        },
+        "intercept_contribution_cpg": 2.65,
+        "prior_year_anchor_cpg": 31.7,
+        "raw_feature_slopes": {
+          "falling_capture": 0.3037544964540029,
+          "rising_squeeze": 2.7022386097411832,
+          "spread": 0.2819184336248437,
+          "volatility": 0.5845761088075683
+        },
+        "reconstructed_production_cpg": 26.980859753382354,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": -4.719140246617645,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1"
+        ],
+        "unshrunk_model_yoy_change_cpg": -9.438280493235297,
+        "unshrunk_sensitivity_prediction_cpg": 22.261719506764702,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": true,
+      "production_prediction_cpg": 26.980859753382397,
+      "quarter": "2021Q2",
+      "release_source": {
+        "available_at": "2021-07-28",
+        "sha256": "40bcf486821f23d93b73e9e3af2a2e5aeb76a76737b752be862a9156e747cd35",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000042/exh991_06302021.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 24.0,
+      "actual_minus_production_cpg": 3.1510434904913325,
+      "company_revenue_gap_cpg": 4.222154579068729,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 4.806546654545449,
+        "maximum_weekly_drop_cpg": 15.941379199999972,
+        "maximum_weekly_increase_cpg": 18.575865599999986,
+        "rising_squeeze": 4.222857999999997,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 7.455721236363633,
+        "wholesale_change_cpg": -2.531898400000017
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 5.0,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.21889618884723988,
+          "rising_squeeze": 1.1267600975805512,
+          "spread": -1.4484045246993515,
+          "volatility": 0.5683714144469096
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": 1.6692267181818168,
+          "rising_squeeze": 0.849372945454546,
+          "spread": -7.0351039916666736,
+          "volatility": 1.6232754181818176
+        },
+        "intercept_contribution_cpg": 1.3833333333333335,
+        "prior_year_anchor_cpg": 19.0,
+        "raw_feature_slopes": {
+          "falling_capture": 0.23751157702590592,
+          "rising_squeeze": 2.2809058873780077,
+          "spread": 0.2832413241300264,
+          "volatility": 0.6450769606847977
+        },
+        "reconstructed_production_cpg": 20.84895650950868,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 1.8489565095086817,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2"
+        ],
+        "unshrunk_model_yoy_change_cpg": 3.6979130190173652,
+        "unshrunk_sensitivity_prediction_cpg": 22.697913019017363,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 20.848956509508668,
+      "quarter": "2021Q3",
+      "release_source": {
+        "available_at": "2021-10-27",
+        "sha256": "e4e2515c2ad71f09528d33537f42194006cf72eb3269e55ad4798a18b924d6f9",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351621000052/exh991_09302021.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 25.5,
+      "actual_minus_production_cpg": 6.309437081649843,
+      "company_revenue_gap_cpg": 1.5689719732140475,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 3.9538505499999914,
+        "maximum_weekly_drop_cpg": 27.7155152,
+        "maximum_weekly_increase_cpg": 12.366378400000002,
+        "rising_squeeze": 2.837236666666653,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 7.4109915333333305,
+        "wholesale_change_cpg": -10.888792799999976
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 10.1,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.3039343518888324,
+          "rising_squeeze": 0.12413605556727245,
+          "spread": 0.7194190800338004,
+          "volatility": 1.1002162880030888
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": 2.463792886363625,
+          "rising_squeeze": 0.103877075757564,
+          "spread": 6.9051779128205055,
+          "volatility": 3.3560541515151447
+        },
+        "intercept_contribution_cpg": 1.542857142857143,
+        "prior_year_anchor_cpg": 15.4,
+        "raw_feature_slopes": {
+          "falling_capture": 0.2559995044820435,
+          "rising_squeeze": 2.449512981672575,
+          "spread": 0.27809121450136737,
+          "volatility": 0.6784715296642425
+        },
+        "reconstructed_production_cpg": 19.19056291835014,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 3.7905629183501386,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3"
+        ],
+        "unshrunk_model_yoy_change_cpg": 7.581125836700274,
+        "unshrunk_sensitivity_prediction_cpg": 22.981125836700272,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": true,
+      "production_prediction_cpg": 19.190562918350157,
+      "quarter": "2021Q4",
+      "release_source": {
+        "available_at": "2022-02-02",
+        "sha256": "55fc900ca81f938d030578812985058a268df218985169178fa8bb169f37c8c9",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000003/exh991_12312021.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 23.3,
+      "actual_minus_production_cpg": -5.178742512014008,
+      "company_revenue_gap_cpg": 4.1141951471117295,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 5.263432909090904,
+        "maximum_weekly_drop_cpg": 27.01465360000003,
+        "maximum_weekly_increase_cpg": 41.738794399999904,
+        "rising_squeeze": 8.678422281818174,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 14.473041163636367,
+        "wholesale_change_cpg": 100.94827840000005
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 7.800000000000001,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.26347370239785034,
+          "rising_squeeze": 8.51695882094259,
+          "spread": -0.33885505104316876,
+          "volatility": 2.555915039716693
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": 2.3310031545454444,
+          "rising_squeeze": 6.721442218181808,
+          "spread": -0.026652166666679022,
+          "volatility": 7.739342109090907
+        },
+        "intercept_contribution_cpg": 1.9812500000000002,
+        "prior_year_anchor_cpg": 15.5,
+        "raw_feature_slopes": {
+          "falling_capture": 0.27093936571667665,
+          "rising_squeeze": 2.5400058347680323,
+          "spread": 0.2818392196076573,
+          "volatility": 0.7079013012924334
+        },
+        "reconstructed_production_cpg": 28.478742512013966,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 12.978742512013966,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4"
+        ],
+        "unshrunk_model_yoy_change_cpg": 25.957485024027932,
+        "unshrunk_sensitivity_prediction_cpg": 41.45748502402793,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": true,
+      "production_prediction_cpg": 28.47874251201401,
+      "quarter": "2022Q1",
+      "release_source": {
+        "available_at": "2022-05-03",
+        "sha256": "e43bd97d49a23a6af1174d51bd147395965dab8919fa93d0924a5a14b84d6205",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000017/exh991_03312022.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 26.5,
+      "actual_minus_production_cpg": 2.772433895257837,
+      "company_revenue_gap_cpg": 1.296542631499733,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 4.1797541727272725,
+        "maximum_weekly_drop_cpg": 29.61551520000006,
+        "maximum_weekly_increase_cpg": 33.206031199999984,
+        "rising_squeeze": 7.475689763636359,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 14.48981163636364,
+        "wholesale_change_cpg": 81.46207039999996
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 4.699999999999999,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.045526513088644964,
+          "rising_squeeze": 0.6276820898147503,
+          "spread": -3.4766327407902744,
+          "volatility": 2.5365457981846133
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": 2.207496945454558,
+          "rising_squeeze": 4.163688354545457,
+          "spread": -17.006423208333338,
+          "volatility": 10.506817963636378
+        },
+        "intercept_contribution_cpg": 2.1944444444444446,
+        "prior_year_anchor_cpg": 21.8,
+        "raw_feature_slopes": {
+          "falling_capture": 0.05672077253961204,
+          "rising_squeeze": 0.36886040310770435,
+          "spread": 0.3637179340289943,
+          "volatility": 0.552249186985134
+        },
+        "reconstructed_production_cpg": 23.72756610474218,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 1.92756610474218,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1"
+        ],
+        "unshrunk_model_yoy_change_cpg": 3.8551322094843576,
+        "unshrunk_sensitivity_prediction_cpg": 25.655132209484357,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 23.727566104742163,
+      "quarter": "2022Q2",
+      "release_source": {
+        "available_at": "2022-07-27",
+        "sha256": "189448ed0d379e71c2ef1282f01a64c750740ef0c283cda1fd2772a3f092812a",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000032/exh991_06302022.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 39.3,
+      "actual_minus_production_cpg": 9.791776879808118,
+      "company_revenue_gap_cpg": -6.9144393961495325,
+      "disclosure_audit_state": "SOURCE_VERIFIED",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 4.141308299999996,
+        "maximum_weekly_drop_cpg": 44.74483520000001,
+        "maximum_weekly_increase_cpg": 15.545693599999993,
+        "rising_squeeze": 6.5745270249999805,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 12.049283333333312,
+        "wholesale_change_cpg": -78.99999680000002
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 15.299999999999997,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": -0.06826362304527706,
+          "rising_squeeze": 0.25643864079505246,
+          "spread": 2.480024537268216,
+          "volatility": 0.6300235651738858
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": -0.665238354545453,
+          "rising_squeeze": 2.3516690249999836,
+          "spread": 14.124998829487197,
+          "volatility": 4.593562096969679
+        },
+        "intercept_contribution_cpg": 2.21,
+        "prior_year_anchor_cpg": 24.0,
+        "raw_feature_slopes": {
+          "falling_capture": 0.0956087567211402,
+          "rising_squeeze": 0.4099727649059924,
+          "spread": 0.3561731343593366,
+          "volatility": 0.5351980078139741
+        },
+        "reconstructed_production_cpg": 29.50822312019188,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 5.508223120191879,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2"
+        ],
+        "unshrunk_model_yoy_change_cpg": 11.016446240383754,
+        "unshrunk_sensitivity_prediction_cpg": 35.01644624038376,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": true,
+      "production_prediction_cpg": 29.50822312019188,
+      "quarter": "2022Q3",
+      "release_source": {
+        "available_at": "2022-10-26",
+        "sha256": "5667fb80c25d2e14eb594ba6c97df82e6f4f0f911b462cc4011e19cf70686b6a",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351622000043/exh991_09302022.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 28.3,
+      "actual_minus_production_cpg": 0.9398965687869456,
+      "company_revenue_gap_cpg": 0.1699475298440234,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 8.25009163333334,
+        "maximum_weekly_drop_cpg": 24.17327439999997,
+        "maximum_weekly_increase_cpg": 26.46465520000004,
+        "rising_squeeze": 7.688999100000004,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 14.121193533333335,
+        "wholesale_change_cpg": -46.3715512
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 2.8000000000000007,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": -0.10186213811998107,
+          "rising_squeeze": 0.7785225404940282,
+          "spread": -2.815046628212729,
+          "volatility": 1.293944202506302
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": 4.296241083333349,
+          "rising_squeeze": 4.85176243333335,
+          "spread": -13.375316330769238,
+          "volatility": 6.710202000000004
+        },
+        "intercept_contribution_cpg": 2.7045454545454546,
+        "prior_year_anchor_cpg": 25.5,
+        "raw_feature_slopes": {
+          "falling_capture": -0.05561196738149069,
+          "rising_squeeze": 0.42806903097971694,
+          "spread": 0.3793771069690055,
+          "volatility": 0.6079187372965812
+        },
+        "reconstructed_production_cpg": 27.360103431213073,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 1.8601034312130729,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3"
+        ],
+        "unshrunk_model_yoy_change_cpg": 3.7202068624261493,
+        "unshrunk_sensitivity_prediction_cpg": 29.22020686242615,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 27.360103431213055,
+      "quarter": "2022Q4",
+      "release_source": {
+        "available_at": "2023-02-01",
+        "sha256": "00078cf1425dac5154025e39e70ac742fc030e02c94fbdd49b64834e38066b59",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000005/exh991_12312022.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 23.2,
+      "actual_minus_production_cpg": 0.4167633750089941,
+      "company_revenue_gap_cpg": -4.113436333817333,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 4.918050975,
+        "maximum_weekly_drop_cpg": 19.377588800000012,
+        "maximum_weekly_increase_cpg": 19.838794399999983,
+        "rising_squeeze": 5.830991574999994,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 9.976221666666666,
+        "wholesale_change_cpg": 24.98879599999998
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": -0.10000000000000142,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.06051018841775997,
+          "rising_squeeze": -0.8211082342429606,
+          "spread": -0.05976161157407098,
+          "volatility": -2.292237050943052
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": -0.3453819340909039,
+          "rising_squeeze": -2.8474307068181792,
+          "spread": -0.08313661666667826,
+          "volatility": -4.496819496969701
+        },
+        "intercept_contribution_cpg": 2.595833333333333,
+        "prior_year_anchor_cpg": 23.3,
+        "raw_feature_slopes": {
+          "falling_capture": -0.09428330451828394,
+          "rising_squeeze": 0.3762290394515409,
+          "spread": 0.38372110962412515,
+          "volatility": 0.6275971269467294
+        },
+        "reconstructed_production_cpg": 22.783236624991012,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": -0.5167633750089884,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4"
+        ],
+        "unshrunk_model_yoy_change_cpg": -1.0335267500179812,
+        "unshrunk_sensitivity_prediction_cpg": 22.26647324998202,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 22.783236624991005,
+      "quarter": "2023Q1",
+      "release_source": {
+        "available_at": "2023-05-02",
+        "sha256": "bc13bda8ca579e461478715df28dacc176fa8bce8a7845aa7f105b269eed3d81",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000019/exh992_03312023er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 27.0,
+      "actual_minus_production_cpg": -3.015562500819577,
+      "company_revenue_gap_cpg": -7.888674296474051,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 6.6477971750000036,
+        "maximum_weekly_drop_cpg": 21.116379999999992,
+        "maximum_weekly_increase_cpg": 15.375000799999953,
+        "rising_squeeze": 3.92313708333333,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 9.498203933333329,
+        "wholesale_change_cpg": -32.25431280000004
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 0.5,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": -0.0611344785769363,
+          "rising_squeeze": -0.8811967424631064,
+          "spread": 4.213289608138454,
+          "volatility": -2.1477035785865217
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": 2.468043002272731,
+          "rising_squeeze": -3.5525526803030285,
+          "spread": 21.849545632692305,
+          "volatility": -4.991607703030311
+        },
+        "intercept_contribution_cpg": 2.3923076923076922,
+        "prior_year_anchor_cpg": 26.5,
+        "raw_feature_slopes": {
+          "falling_capture": -0.07507704502385872,
+          "rising_squeeze": 0.37226097235515826,
+          "spread": 0.3893055075598146,
+          "volatility": 0.5934781000155815
+        },
+        "reconstructed_production_cpg": 30.01556250081958,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 3.5155625008195805,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1"
+        ],
+        "unshrunk_model_yoy_change_cpg": 7.031125001639163,
+        "unshrunk_sensitivity_prediction_cpg": 33.53112500163916,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 30.015562500819577,
+      "quarter": "2023Q2",
+      "release_source": {
+        "available_at": "2023-08-02",
+        "sha256": "fcc44c3da41d33a55519a4bb70b168024b8dd70e31ab0dea570ec3aa9c997986",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000036/exh991_06302023er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 28.7,
+      "actual_minus_production_cpg": -6.683410918305999,
+      "company_revenue_gap_cpg": 5.326815420102321,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 3.569473258333327,
+        "maximum_weekly_drop_cpg": 10.677588799999967,
+        "maximum_weekly_increase_cpg": 22.42586399999999,
+        "rising_squeeze": 4.087279833333319,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 8.397414399999986,
+        "wholesale_change_cpg": 30.08620799999997
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": -10.599999999999998,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.1818307923729872,
+          "rising_squeeze": -0.6436856722817729,
+          "spread": -3.673687410008059,
+          "volatility": -2.0203325060628754
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": -0.5718350416666689,
+          "rising_squeeze": -2.487247191666661,
+          "spread": -18.696542692307702,
+          "volatility": -3.6518689333333256
+        },
+        "intercept_contribution_cpg": 2.2392857142857143,
+        "prior_year_anchor_cpg": 39.3,
+        "raw_feature_slopes": {
+          "falling_capture": -0.23805678142297626,
+          "rising_squeeze": 0.3865021136129808,
+          "spread": 0.35933731746080927,
+          "volatility": 0.7509178490244361
+        },
+        "reconstructed_production_cpg": 35.38341091830599,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": -3.9165890816940063,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2"
+        ],
+        "unshrunk_model_yoy_change_cpg": -7.8331781633880135,
+        "unshrunk_sensitivity_prediction_cpg": 31.466821836611985,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": true,
+      "production_prediction_cpg": 35.383410918306,
+      "quarter": "2023Q3",
+      "release_source": {
+        "available_at": "2023-11-01",
+        "sha256": "165459175cc2a016cd163e3380f7fffba292e0190ec40a382b61f92ad6fa0a34",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351623000046/exh991_09302023er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 31.1,
+      "actual_minus_production_cpg": 1.4963188191918064,
+      "company_revenue_gap_cpg": -2.2804361488352356,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 3.666460975000002,
+        "maximum_weekly_drop_cpg": 14.406037600000019,
+        "maximum_weekly_increase_cpg": 15.88966080000003,
+        "rising_squeeze": 4.226758175000012,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 7.019828266666676,
+        "wholesale_change_cpg": -29.127583999999985
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 2.8000000000000007,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.6737353403332882,
+          "rising_squeeze": -0.9423348847455129,
+          "spread": 3.0139215849887107,
+          "volatility": -3.1783075264349536
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": -4.583630658333339,
+          "rising_squeeze": -3.4622409249999917,
+          "spread": 16.57685821538462,
+          "volatility": -7.101365266666659
+        },
+        "intercept_contribution_cpg": 1.736666666666667,
+        "prior_year_anchor_cpg": 28.3,
+        "raw_feature_slopes": {
+          "falling_capture": -0.24780708504763357,
+          "rising_squeeze": 0.4615030153519182,
+          "spread": 0.3723299024999521,
+          "volatility": 0.7503322948671851
+        },
+        "reconstructed_production_cpg": 29.603681180808202,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 1.3036811808082014,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q3"
+        ],
+        "unshrunk_model_yoy_change_cpg": 2.607362361616398,
+        "unshrunk_sensitivity_prediction_cpg": 30.9073623616164,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 29.603681180808195,
+      "quarter": "2023Q4",
+      "release_source": {
+        "available_at": "2024-02-07",
+        "sha256": "3888391b48fa7f7f90237dc5d63cf3272048f36752a51df43c5d8a070af828fa",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000003/exh991_12312023er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 21.7,
+      "actual_minus_production_cpg": -0.9278780510969895,
+      "company_revenue_gap_cpg": -0.6298910750009554,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 2.7152253416666667,
+        "maximum_weekly_drop_cpg": 6.656897599999979,
+        "maximum_weekly_increase_cpg": 15.79655360000001,
+        "rising_squeeze": 3.354866566666672,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 5.583189733333337,
+        "wholesale_change_cpg": 41.09827999999999
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": -1.5,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.3118359050665319,
+          "rising_squeeze": -0.6877360136961089,
+          "spread": -0.01522094962020252,
+          "volatility": -1.896625890653223
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": -2.202825633333333,
+          "rising_squeeze": -2.476125008333322,
+          "spread": 1.317717253846169,
+          "volatility": -4.3930319333333285
+        },
+        "intercept_contribution_cpg": 1.7156250000000002,
+        "prior_year_anchor_cpg": 23.2,
+        "raw_feature_slopes": {
+          "falling_capture": -0.2295505674855084,
+          "rising_squeeze": 0.48390988389568873,
+          "spread": 0.3736851589330264,
+          "volatility": 0.7247444080203791
+        },
+        "reconstructed_production_cpg": 22.627878051096996,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": -0.5721219489030034,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q3",
+          "2023Q4"
+        ],
+        "unshrunk_model_yoy_change_cpg": -1.144243897806005,
+        "unshrunk_sensitivity_prediction_cpg": 22.055756102193996,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 22.62787805109699,
+      "quarter": "2024Q1",
+      "release_source": {
+        "available_at": "2024-05-01",
+        "sha256": "47fb613e7ee2053eb538c9c2c3424db05e0e07b38aebb5ef387fdbad446a7015",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000032/exh991_03312024er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 29.7,
+      "actual_minus_production_cpg": 2.4675124952485348,
+      "company_revenue_gap_cpg": 1.0056758799578915,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 2.7315802083333267,
+        "maximum_weekly_drop_cpg": 9.484481600000038,
+        "maximum_weekly_increase_cpg": 6.571551199999988,
+        "rising_squeeze": 1.5686636083333287,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 4.836637733333331,
+        "wholesale_change_cpg": -24.068966399999994
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 2.6999999999999993,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.49245554334232594,
+          "rising_squeeze": -0.6306953152824449,
+          "spread": 0.681693918848241,
+          "volatility": -1.8815548774507773
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": -3.916216966666677,
+          "rising_squeeze": -2.3544734750000016,
+          "spread": 5.014902038461557,
+          "volatility": -4.661566199999998
+        },
+        "intercept_contribution_cpg": 1.5705882352941176,
+        "prior_year_anchor_cpg": 27.0,
+        "raw_feature_slopes": {
+          "falling_capture": -0.23063144867974025,
+          "rising_squeeze": 0.49397312470747723,
+          "spread": 0.37657313470970044,
+          "volatility": 0.724430950748596
+        },
+        "reconstructed_production_cpg": 27.23248750475146,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 0.23248750475146096,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1"
+        ],
+        "unshrunk_model_yoy_change_cpg": 0.46497500950292503,
+        "unshrunk_sensitivity_prediction_cpg": 27.464975009502925,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 27.232487504751465,
+      "quarter": "2024Q2",
+      "release_source": {
+        "available_at": "2024-07-31",
+        "sha256": "e36ff6c4d5c4cd89c1fe72f1b0da6a2f79e12b9b730f36a7c08628aad7e193ac",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000044/exh991_06302024er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 31.9,
+      "actual_minus_production_cpg": -0.5176038328933714,
+      "company_revenue_gap_cpg": -4.17097761432575,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 3.877222174999993,
+        "maximum_weekly_drop_cpg": 26.01551839999999,
+        "maximum_weekly_increase_cpg": 7.864655199999987,
+        "rising_squeeze": 1.7965519749999928,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 5.334410866666663,
+        "wholesale_change_cpg": -46.2629288
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 3.1999999999999993,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": -0.026739646785173984,
+          "rising_squeeze": -0.5548589225409601,
+          "spread": 3.954093151249381,
+          "volatility": -1.2132240823631972
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": 0.3077489166666658,
+          "rising_squeeze": -2.2907278583333266,
+          "spread": 22.329679838461516,
+          "volatility": -3.0630035333333234
+        },
+        "intercept_contribution_cpg": 1.5583333333333333,
+        "prior_year_anchor_cpg": 28.7,
+        "raw_feature_slopes": {
+          "falling_capture": -0.28041032229832474,
+          "rising_squeeze": 0.47263243054577686,
+          "spread": 0.38140873568594874,
+          "volatility": 0.7336370100452113
+        },
+        "reconstructed_production_cpg": 32.417603832893384,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 3.717603832893385,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2"
+        ],
+        "unshrunk_model_yoy_change_cpg": 7.435207665786766,
+        "unshrunk_sensitivity_prediction_cpg": 36.135207665786766,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 32.41760383289337,
+      "quarter": "2024Q3",
+      "release_source": {
+        "available_at": "2024-10-30",
+        "sha256": "f300713e88c7d5f008ace205218a25ee413a617594d5255288797e734f395c73",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000052/exh991_09302024er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 28.9,
+      "actual_minus_production_cpg": -1.8316087499574607,
+      "company_revenue_gap_cpg": 2.529260414550663,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 2.887272572727276,
+        "maximum_weekly_drop_cpg": 9.757759200000038,
+        "maximum_weekly_increase_cpg": 8.134483200000005,
+        "rising_squeeze": 2.032481490909096,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 5.5760193454545535,
+        "wholesale_change_cpg": -17.184481599999998
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": -2.200000000000003,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.143129625081642,
+          "rising_squeeze": -0.48067859185634737,
+          "spread": -0.9995880167867948,
+          "volatility": -0.5917805822705197
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": -0.7791884022727258,
+          "rising_squeeze": -2.1942766840909163,
+          "spread": -2.8120037557692257,
+          "volatility": -1.4438089212121223
+        },
+        "intercept_contribution_cpg": 1.5605263157894733,
+        "prior_year_anchor_cpg": 31.1,
+        "raw_feature_slopes": {
+          "falling_capture": -0.31586979575123975,
+          "rising_squeeze": 0.45178181980419774,
+          "spread": 0.36356562780546414,
+          "volatility": 0.7816650845233349
+        },
+        "reconstructed_production_cpg": 30.731608749957456,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": -0.3683912500425457,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3"
+        ],
+        "unshrunk_model_yoy_change_cpg": -0.7367825000850932,
+        "unshrunk_sensitivity_prediction_cpg": 30.36321749991491,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 30.73160874995746,
+      "quarter": "2024Q4",
+      "release_source": {
+        "available_at": "2025-02-05",
+        "sha256": "dae6e2025ead066ed60cea7ba767d0232ac8de0645458edb4cdb357c1c3a0dce",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000003/exh991_12312024er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 23.7,
+      "actual_minus_production_cpg": -0.7687644484290352,
+      "company_revenue_gap_cpg": -3.529530157957538,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 2.4201774636363753,
+        "maximum_weekly_drop_cpg": 12.622411200000016,
+        "maximum_weekly_increase_cpg": 9.912068800000043,
+        "rising_squeeze": 2.4774554727272857,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 4.946630036363641,
+        "wholesale_change_cpg": 1.56983120000001
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 2.0,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.06034452141831577,
+          "rising_squeeze": -0.1696343150088808,
+          "spread": 1.6961574710153655,
+          "volatility": -0.24560322899577675
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": -0.2950478780302914,
+          "rising_squeeze": -0.8774110939393864,
+          "spread": 11.628537629487155,
+          "volatility": -0.6365596969696963
+        },
+        "intercept_contribution_cpg": 1.4274999999999995,
+        "prior_year_anchor_cpg": 21.7,
+        "raw_feature_slopes": {
+          "falling_capture": -0.32029683170981993,
+          "rising_squeeze": 0.48146306285380347,
+          "spread": 0.36806265809061545,
+          "volatility": 0.778214314651777
+        },
+        "reconstructed_production_cpg": 24.46876444842902,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 2.768764448429021,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4"
+        ],
+        "unshrunk_model_yoy_change_cpg": 5.5375288968580465,
+        "unshrunk_sensitivity_prediction_cpg": 27.237528896858045,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 24.468764448429035,
+      "quarter": "2025Q1",
+      "release_source": {
+        "available_at": "2025-05-07",
+        "sha256": "b88adf4b2b4c4a91051183521293f3ba622bed3deb9ab8e82ff9a099f8f7a0f9",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000036/exh991_03312025er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 29.2,
+      "actual_minus_production_cpg": -4.487606755773019,
+      "company_revenue_gap_cpg": 1.9852979415373397,
+      "disclosure_audit_state": "SOURCE_VERIFIED",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 3.6139550636363666,
+        "maximum_weekly_drop_cpg": 18.48793120000002,
+        "maximum_weekly_increase_cpg": 16.329307199999988,
+        "rising_squeeze": 5.616535699999999,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 7.732679927272735,
+        "wholesale_change_cpg": 18.13361519999998
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": -0.5,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": -0.13006003719635978,
+          "rising_squeeze": 1.022431865935801,
+          "spread": 0.5378724145714106,
+          "volatility": 1.1502196553193087
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": 0.8823748553030399,
+          "rising_squeeze": 4.047872091666671,
+          "spread": 5.815882903846131,
+          "volatility": 2.8960421939394045
+        },
+        "intercept_contribution_cpg": 1.407142857142857,
+        "prior_year_anchor_cpg": 29.7,
+        "raw_feature_slopes": {
+          "falling_capture": -0.3177768624992869,
+          "rising_squeeze": 0.4806720249267112,
+          "spread": 0.36279808694792787,
+          "volatility": 0.7847413054487752
+        },
+        "reconstructed_production_cpg": 33.68760675577302,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 3.987606755773019,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1"
+        ],
+        "unshrunk_model_yoy_change_cpg": 7.975213511546036,
+        "unshrunk_sensitivity_prediction_cpg": 37.67521351154603,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 33.68760675577302,
+      "quarter": "2025Q2",
+      "release_source": {
+        "available_at": "2025-07-30",
+        "sha256": "02e5adcd016fe5d217be0d597984b17b74a751d15eaf8900ec50ad314cbf2791",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000046/exh991_06302025er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 28.3,
+      "actual_minus_production_cpg": -2.1325246857703988,
+      "company_revenue_gap_cpg": 3.5065150713580238,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 2.820798627272738,
+        "maximum_weekly_drop_cpg": 8.661205600000017,
+        "maximum_weekly_increase_cpg": 6.281035199999991,
+        "rising_squeeze": 1.7699316090909127,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 3.892240654545462,
+        "wholesale_change_cpg": -9.300858400000038
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": -3.599999999999998,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.22003871975178543,
+          "rising_squeeze": -0.0008402184081860289,
+          "spread": -2.3075639513506108,
+          "volatility": -0.7109280460407771
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": -1.0564235477272548,
+          "rising_squeeze": -0.026620365909080013,
+          "spread": -10.338887350641016,
+          "volatility": -1.442170212121201
+        },
+        "intercept_contribution_cpg": 1.331818181818182,
+        "prior_year_anchor_cpg": 31.9,
+        "raw_feature_slopes": {
+          "falling_capture": -0.38021497364153706,
+          "rising_squeeze": 0.12277236046182706,
+          "spread": 0.34636625878169996,
+          "volatility": 0.9232839643299525
+        },
+        "reconstructed_production_cpg": 30.432524685770396,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": -1.4674753142296026,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2"
+        ],
+        "unshrunk_model_yoy_change_cpg": -2.9349506284592133,
+        "unshrunk_sensitivity_prediction_cpg": 28.965049371540786,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 30.4325246857704,
+      "quarter": "2025Q3",
+      "release_source": {
+        "available_at": "2025-10-29",
+        "sha256": "f298366926581bcecd290d26a04396e707f37edca7a7496b0162e07c7fa2a415",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000071/exh992_09302025er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 31.0,
+      "actual_minus_production_cpg": 0.8024332935143761,
+      "company_revenue_gap_cpg": -1.7360287455275056,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 2.2977433181818143,
+        "maximum_weekly_drop_cpg": 10.819829599999991,
+        "maximum_weekly_increase_cpg": 4.8129336000000364,
+        "rising_squeeze": 2.086348436363636,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 4.652821381818182,
+        "wholesale_change_cpg": -21.329313599999978
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 2.1000000000000014,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": 0.12557314033046585,
+          "rising_squeeze": 0.003701906040590313,
+          "spread": 0.42013491460054214,
+          "volatility": -0.4474954283990154
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": -0.5895292545454618,
+          "rising_squeeze": 0.05386694545454018,
+          "spread": 4.820437816666683,
+          "volatility": -0.9231979636363716
+        },
+        "intercept_contribution_cpg": 1.1956521739130435,
+        "prior_year_anchor_cpg": 28.9,
+        "raw_feature_slopes": {
+          "falling_capture": -0.39227766187897595,
+          "rising_squeeze": 0.10985699855627022,
+          "spread": 0.34804847192641125,
+          "volatility": 0.9380767470009032
+        },
+        "reconstructed_production_cpg": 30.197566706485624,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 1.2975667064856253,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2",
+          "2025Q3"
+        ],
+        "unshrunk_model_yoy_change_cpg": 2.595133412971253,
+        "unshrunk_sensitivity_prediction_cpg": 31.495133412971253,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 30.197566706485624,
+      "quarter": "2025Q4",
+      "release_source": {
+        "available_at": "2026-02-04",
+        "sha256": "43bb981056a2417646f23b900e5d3581214fa853725c6495e00037bd5c954c6a",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351626000026/exh991_12312025er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 25.4,
+      "actual_minus_production_cpg": 0.08266436957322654,
+      "company_revenue_gap_cpg": 10.785290026770213,
+      "disclosure_audit_state": "PENDING_SOURCE_AUDIT",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 5.803051690909097,
+        "maximum_weekly_drop_cpg": 28.58448800000002,
+        "maximum_weekly_increase_cpg": 56.362070399999965,
+        "rising_squeeze": 7.10626396363636,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 16.926803636363648,
+        "wholesale_change_cpg": 108.40689600000002
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 1.6999999999999993,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": -0.6806665560376457,
+          "rising_squeeze": 0.22224289415795317,
+          "spread": -4.82630552430954,
+          "volatility": 5.712481483282677
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": 3.3828742272727217,
+          "rising_squeeze": 4.6288084909090745,
+          "spread": -25.168382924999996,
+          "volatility": 11.980173600000008
+        },
+        "intercept_contribution_cpg": 1.1895833333333334,
+        "prior_year_anchor_cpg": 23.7,
+        "raw_feature_slopes": {
+          "falling_capture": -0.4052969290689481,
+          "rising_squeeze": 0.09580408789771003,
+          "spread": 0.34878221240396506,
+          "volatility": 0.9529494557548219
+        },
+        "reconstructed_production_cpg": 25.31733563042678,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": 1.6173356304267799,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2",
+          "2025Q3",
+          "2025Q4"
+        ],
+        "unshrunk_model_yoy_change_cpg": 3.234671260853558,
+        "unshrunk_sensitivity_prediction_cpg": 26.934671260853555,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": false,
+      "production_prediction_cpg": 25.317335630426772,
+      "quarter": "2026Q1",
+      "release_source": {
+        "available_at": "2026-04-29",
+        "sha256": "75445b1f1acfb25b23450ddfe6bed333bce881fcf760c8cba2a9c6e1aaf24b7b",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351626000127/exh991_03312026er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    },
+    {
+      "actual_cpg": 35.1,
+      "actual_minus_production_cpg": 6.60491566916393,
+      "company_revenue_gap_cpg": 0.3546413325414619,
+      "disclosure_audit_state": "SOURCE_VERIFIED",
+      "economic_root_cause_cents_attribution": "UNRESOLVED",
+      "market_path": {
+        "falling_capture": 8.786117509090921,
+        "maximum_weekly_drop_cpg": 39.393103999999994,
+        "maximum_weekly_increase_cpg": 32.58706960000001,
+        "rising_squeeze": 7.622231118181829,
+        "status": "MARKET_PATH_OBSERVED_CAUSAL_CONTRIBUTION_UNRESOLVED",
+        "volatility_cpg": 14.788166181818196,
+        "wholesale_change_cpg": -12.838791199999946
+      },
+      "model_arithmetic_status": "CONFIRMED_REPRODUCED",
+      "model_decomposition": {
+        "actual_yoy_change_cpg": 5.900000000000002,
+        "centered_feature_contributions_cpg": {
+          "falling_capture": -0.8722274600919501,
+          "rising_squeeze": 0.15584447424689243,
+          "spread": -4.017245751780005,
+          "volatility": 2.852713068461144
+        },
+        "feature_deltas_cpg": {
+          "falling_capture": 5.172162445454555,
+          "rising_squeeze": 2.00569541818183,
+          "spread": -21.41343804166665,
+          "volatility": 7.055486254545461
+        },
+        "intercept_contribution_cpg": 1.1759999999999997,
+        "prior_year_anchor_cpg": 29.2,
+        "raw_feature_slopes": {
+          "falling_capture": -0.3479315403421258,
+          "rising_squeeze": 0.17024422370761505,
+          "spread": 0.3521856271236627,
+          "volatility": 0.8664533200203007
+        },
+        "reconstructed_production_cpg": 28.49508433083608,
+        "sensitivity_role": "MODEL_MECHANICS_ONLY_NOT_NEW_VALIDATION",
+        "shrunken_market_adjustment_cpg": -0.7049156691639205,
+        "training_quarters": [
+          "2019Q1",
+          "2019Q2",
+          "2019Q3",
+          "2019Q4",
+          "2020Q1",
+          "2020Q2",
+          "2020Q3",
+          "2020Q4",
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2022Q2",
+          "2022Q3",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2",
+          "2025Q3",
+          "2025Q4",
+          "2026Q1"
+        ],
+        "unshrunk_model_yoy_change_cpg": -1.4098313383278374,
+        "unshrunk_sensitivity_prediction_cpg": 27.790168661672162,
+        "weekly_cost_or_margin_observed": false
+      },
+      "original_large_miss": true,
+      "production_prediction_cpg": 28.49508433083607,
+      "quarter": "2026Q2",
+      "release_source": {
+        "available_at": "2026-08-05",
+        "sha256": "6b12b0990defbc4ff388b6a2449ee904aff5024eacd5c3a27c07332abee7a703",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351626000164/exh991_06302026er.htm"
+      },
+      "revenue_gap_is_pure_price_difference": false
+    }
+  ],
+  "supplier_cost_backsolved_from_actual_margin": false,
+  "unshrunk_sensitivity_all22": {
+    "challenger": {
+      "large_error_count": 4,
+      "large_error_frequency": 0.18181818181818182,
+      "mae_cpg": 3.359331194591659,
+      "rmse_cpg": 5.20948550738507,
+      "worst_abs_error_cpg": 18.15748502402793
+    },
+    "n": 22,
+    "production": {
+      "large_error_count": 6,
+      "large_error_frequency": 0.2727272727272727,
+      "mae_cpg": 3.132585667637135,
+      "rmse_cpg": 4.019369015075438,
+      "worst_abs_error_cpg": 9.791776879808118
+    }
+  },
+  "unshrunk_sensitivity_original_large": {
+    "challenger": {
+      "large_error_count": 2,
+      "large_error_frequency": 0.3333333333333333,
+      "mae_cpg": 5.9163809381080705,
+      "rmse_cpg": 8.323560380361476,
+      "worst_abs_error_cpg": 18.15748502402793
+    },
+    "n": 6,
+    "production": {
+      "large_error_count": 6,
+      "large_error_frequency": 1,
+      "mae_cpg": 6.624857135720716,
+      "rmse_cpg": 6.802468486278842,
+      "worst_abs_error_cpg": 9.791776879808118
+    }
+  },
+  "unshrunk_sensitivity_original_ordinary": {
+    "challenger": {
+      "large_error_count": 2,
+      "large_error_frequency": 0.125,
+      "mae_cpg": 2.4004375407730043,
+      "rmse_cpg": 3.3667706996400137,
+      "worst_abs_error_cpg": 8.475213511546034
+    },
+    "n": 16,
+    "production": {
+      "large_error_count": 0,
+      "large_error_frequency": 0,
+      "mae_cpg": 1.822983867105792,
+      "rmse_cpg": 2.2047638068618367,
+      "worst_abs_error_cpg": 4.487606755773019
+    }
+  }
+}

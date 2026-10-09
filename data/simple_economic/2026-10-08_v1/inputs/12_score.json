@@ -1,0 +1,19 @@
+{
+  "actual_available_at": "2025-07-30",
+  "actual_margin_cpg": 29.2,
+  "actual_source_url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2025/Murphy-USA-Inc--Reports-Second-Quarter-2025-Results/default.aspx",
+  "evaluation_role": "RETROSPECTIVE_MECHANICAL_REPLAY",
+  "frozen_forecast_sha256": "3d7f2cf173c3b6be8271187331f90229bb00e3f90320131f05267bb037a67d0f",
+  "incremental_abs_error_improvement": 3.8132331755963484,
+  "methodology_origin": "RETROSPECTIVE_PIT_RULE_REPLAY",
+  "outcome_sha256": "1220fa69cbe6006d891ab48352ddc5e57bd5b16304c292a9f247a540aa38f923",
+  "production_abs_error": 4.1154339541481555,
+  "production_forecast_same_as_of": 33.315433954148155,
+  "prospective_validation": false,
+  "quarter": "2025Q2",
+  "scored_at": "2026-10-07T09:56:45.196114+00:00",
+  "shadow_abs_error": 0.30220077855180705,
+  "shadow_forecast": 28.897799221448192,
+  "status": "SCORED_RESEARCH_REPLAY_NOT_VALIDATION",
+  "strict_replay_unchanged": true
+}

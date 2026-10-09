@@ -1,0 +1,12 @@
+{
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_PUBLICATION_FILTERED_NOT_STRICT_PIT",
+  "features": "CASY and ATD own-baseline surprises multiplied by calendar overlap fraction",
+  "fit": "Two-feature ridge without intercept, alpha 25 square cents, coefficients constrained to [0,1], minimum eight earlier same-era complete pairs",
+  "cutoff": "Target quarter end; earlier target outcomes must be published strictly before cutoff; each historical feature reconstructed at its own quarter end",
+  "missing": "No imputation; missing peer or insufficient training blocks fitted correction",
+  "comparators": "Unchanged production and 0.5 times overlap-weighted Casey surprise on identical scored quarters",
+  "metrics": "MAE, RMSE, errors >=5 cents, ordinary-quarter damage, largest-miss subgroup and leave-best-gain-out sensitivity",
+  "selection": "No consensus selection, threshold sweep or coefficient tuning on held-out targets; disagreements included",
+  "production_changed": false,
+  "probability_calibrated": false
+}

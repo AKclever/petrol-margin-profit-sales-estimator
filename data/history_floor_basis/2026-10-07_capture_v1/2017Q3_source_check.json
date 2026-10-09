@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:05.794484+00:00",
+  "captured_at": "2026-10-07T16:15:05.794475+00:00",
+  "key": "2017Q3",
+  "original_index_locator_or_series": "/investor-relations/news-releases/press-release-details/2017/Murphy-USA-Inc-Reports-Third-Quarter-2017-Results/default.aspx",
+  "raw_file": "2017Q3.html",
+  "sha256": "52ced1f382d817d9e0931cf42abfb19b8922b68ca7d7bd0d8c3ddc31d368775c",
+  "source_type": "ISSUER_EARNINGS_RELEASE",
+  "source_url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2017/Murphy-USA-Inc-Reports-Third-Quarter-2017-Results/default.aspx",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

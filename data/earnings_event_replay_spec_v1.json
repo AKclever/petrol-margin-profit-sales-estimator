@@ -1,0 +1,18 @@
+{
+  "id": "MULTI_COMPANY_EARNINGS_EVENT_REPLAY_V1",
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_PUBLICATION_FILTERED_NOT_STRICT_PIT",
+  "companies": ["MUSA", "CASY", "ATD"],
+  "targets": "Separate original reported bases: MUSA retail; Casey reported fuel excluding card fees including RIN; ATD US company-operated before payment fees",
+  "scope": "Completed-period pre-earnings nowcast only. Baseline proxy available after period end; no completed-period market inputs used for an earlier in-quarter forecast",
+  "event_clock": "Group all releases by available_at date; next-day date-only information cutoff. Releases with available_at strictly before cutoff are eligible; recipient reporting at cutoff is still treated as pre-report (no same-day actuals)",
+  "peer_selection": "Latest already published positive-overlap fiscal period per donor; donor end must predate cutoff; preserve source hashes and target overlap days",
+  "transfer_input": "Donor actual minus its earlier-trained own-basis forecast, multiplied by target-calendar overlap fraction; calendar fraction is exposure proxy not observed gallons",
+  "loading": "Recipient-donor through-origin ridge with penalty10 in raw cpg units; bound loading to [0,1]; minimum8 earlier published recipient residuals and eligible pre-report donor matches within same start-date regime",
+  "training": "Earlier recipient periods must end before current recipient starts; recipient outcomes published before current cutoff; historical donor selection uses earlier recipient report-date cutoff, never its later hindsight report",
+  "update": "Baseline plus half the average of eligible donor loading times overlap-weighted surprise; recompute from baseline, never add the same event cumulatively",
+  "no_effect_rule": "No overlap or insufficient training means unchanged forecast with explicit reason; an earnings release is not forced to affect every company",
+  "evaluation": "Score one final checkpoint per recipient target, compare baseline on identical targets. Report all targets with blocked unchanged states and separately eligible shadows; event diagnostics paired before/after not independent quarterly samples",
+  "regimes": "Period start before2020, 2020 transition, 2021 onward; no blind pooling",
+  "governance": "No fitted shared latent model, no absolute margin averaging, no post-result parameter tuning, no automatic promotion or live schedule deployment",
+  "production_changed": false
+}

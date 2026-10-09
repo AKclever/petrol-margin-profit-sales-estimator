@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "audit_result": "CAPTURED_PENDING_VALUE_REVIEW",
+      "captured_at": "2026-10-07T15:42:43.057477+00:00",
+      "date_precision": "DATE_ONLY",
+      "publication_date": "2019-05-01",
+      "quarter": "2019Q1",
+      "raw_file": "sources/2019Q1_filing.html",
+      "sha256": "ff5ac1ee359ec336ba993b166324b3353d50bf4d45c5d848bf5082bb9c5e3564",
+      "source_type": "10-Q",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351619000020/musa_03312019x10qxdoc.htm"
+    },
+    {
+      "audit_result": "CAPTURED_PENDING_VALUE_REVIEW",
+      "captured_at": "2026-10-07T15:42:43.159709+00:00",
+      "date_precision": "DATE_ONLY",
+      "publication_date": "2019-04-29",
+      "quarter": "2019Q1",
+      "raw_file": "sources/2019Q1_cover.html",
+      "sha256": "d16270572a838f7848d85485d8ff4c1198732c2d4a409b2c95f3fb4115a41244",
+      "source_type": "SEC_EARNINGS_8K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351619000015/form8-k03312019earning.htm"
+    },
+    {
+      "audit_result": "CAPTURED_PENDING_VALUE_REVIEW",
+      "captured_at": "2026-10-07T15:42:43.626956+00:00",
+      "date_precision": "DATE_ONLY",
+      "publication_date": "2019-04-29",
+      "quarter": "2019Q1",
+      "raw_file": "sources/2019Q1_release.html",
+      "sha256": "aba6169ae812c7bc21afaa865fb3ebe49d69ce81ad3e2edd0e7c77a62b397c8c",
+      "source_type": "SEC_EARNINGS_EXHIBIT",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351619000015/exh99103312019earnings.htm"
+    }
+  ]
+}

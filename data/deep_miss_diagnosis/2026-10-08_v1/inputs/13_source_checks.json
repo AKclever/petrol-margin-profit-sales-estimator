@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "captured_at": "2026-10-08T09:16:33.109422+00:00",
+      "document_title": "Q&A Transcript",
+      "index_path": "data/accounting_miss_audit/2026-10-07_deeper_v2/issuer_report_index.json",
+      "index_sha256": "07a775db7832aeb3328ef54bf1511b9c30c0aa292602e98e7e922869e131208a",
+      "quarter": "2026Q1",
+      "raw_file": "data/deep_miss_diagnosis/2026-10-08_controls_v1/2026Q1_call_1.pdf",
+      "role": "POST_RESULT_DIAGNOSTIC_NOT_FORECAST_INPUT",
+      "sha256": "bb1fd692d50037d4d52144e3ef8aa4a9d105ef3c358c1f12033e414d1a74535f",
+      "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2026/q1/MurphyUSA_Q126_Q-ATranscript.pdf",
+      "status": "CAPTURED_REQUIRES_REVIEW",
+      "text_file": "data/deep_miss_diagnosis/2026-10-08_controls_v1/2026Q1_call_1.json"
+    },
+    {
+      "captured_at": "2026-10-08T09:16:33.524876+00:00",
+      "document_title": "Pre Recorded Remarks Transcript",
+      "index_path": "data/accounting_miss_audit/2026-10-07_deeper_v2/issuer_report_index.json",
+      "index_sha256": "07a775db7832aeb3328ef54bf1511b9c30c0aa292602e98e7e922869e131208a",
+      "quarter": "2026Q1",
+      "raw_file": "data/deep_miss_diagnosis/2026-10-08_controls_v1/2026Q1_call_5.pdf",
+      "role": "POST_RESULT_DIAGNOSTIC_NOT_FORECAST_INPUT",
+      "sha256": "b1c22d3216768fe4e73e80d9106a2763033ff379a18566368f67a70350b4975a",
+      "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2026/q1/MurphyUSA_Q126_PreparedRemarksTranscript.pdf",
+      "status": "CAPTURED_REQUIRES_REVIEW",
+      "text_file": "data/deep_miss_diagnosis/2026-10-08_controls_v1/2026Q1_call_5.json"
+    },
+    {
+      "captured_at": "2026-10-08T09:16:34.342364+00:00",
+      "document_title": "Transcript",
+      "index_path": "data/accounting_miss_audit/2026-10-07_deeper_v2/issuer_report_index.json",
+      "index_sha256": "07a775db7832aeb3328ef54bf1511b9c30c0aa292602e98e7e922869e131208a",
+      "quarter": "2022Q4",
+      "raw_file": "data/deep_miss_diagnosis/2026-10-08_controls_v1/2022Q4_call_2.pdf",
+      "role": "POST_RESULT_DIAGNOSTIC_NOT_FORECAST_INPUT",
+      "sha256": "dd5d6f6bde57514cbd238856d9ab3194d93dbb8eeea6412010f73d72a6aaebb2",
+      "source_url": "https://s22.q4cdn.com/506259022/files/doc_financials/2022/q4/4Q22-MUSA-Earnings-Transcript-Final.pdf",
+      "status": "CAPTURED_REQUIRES_REVIEW",
+      "text_file": "data/deep_miss_diagnosis/2026-10-08_controls_v1/2022Q4_call_2.json"
+    },
+    {
+      "captured_at": "2026-10-08T09:16:35.300344+00:00",
+      "document_title": "Transcript",
+      "index_path": "data/accounting_miss_audit/2026-10-07_deeper_v2/issuer_report_index.json",
+      "index_sha256": "07a775db7832aeb3328ef54bf1511b9c30c0aa292602e98e7e922869e131208a",
+      "quarter": "2022Q2",
+      "raw_file": "data/deep_miss_diagnosis/2026-10-08_controls_v1/2022Q2_call_2.pdf",
+      "role": "POST_RESULT_DIAGNOSTIC_NOT_FORECAST_INPUT",
+      "sha256": "9bddf8ca02cbfc1966aa6fd4657395026e692e08a7a27038b319c7ad1518f7ea",
+      "source_url": "https://s22.q4cdn.com/506259022/files/doc_downloads/2022/07/Q2-2022-Earnings-Transcript-MUSA.pdf",
+      "status": "CAPTURED_REQUIRES_REVIEW",
+      "text_file": "data/deep_miss_diagnosis/2026-10-08_controls_v1/2022Q2_call_2.json"
+    }
+  ],
+  "created_at": "2026-10-08T09:16:36.190921+00:00",
+  "production_changed": false
+}

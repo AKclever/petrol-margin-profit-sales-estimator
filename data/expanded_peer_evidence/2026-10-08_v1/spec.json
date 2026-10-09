@@ -1,0 +1,22 @@
+{
+  "role": "RESEARCH_EVIDENCE_ONLY_NOT_FORECAST_INPUT",
+  "production_changed": false,
+  "sources": [
+    {"id":"ARKO_2025Q1","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/181/arko-corp-reports-first-quarter-2025-results"},
+    {"id":"ARKO_2025Q2","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/186/arko-corp-reports-second-quarter-2025-results"},
+    {"id":"ARKO_2025Q3","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/191/arko-corp-reports-third-quarter-2025-results"},
+    {"id":"ARKO_2025Q4","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/205/arko-corp-reports-fourth-quarter-and-full-year-2025-results"},
+    {"id":"ARKO_2026Q1","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/211/arko-corp-reports-first-quarter-2026-results"},
+    {"id":"ARKO_2026Q2","company":"ARKO","url":"https://www.arkocorp.com/news-events/press-releases/detail/213/arko-corp-reports-second-quarter-2026-results"},
+    {"id":"CAPL_2025Q2","company":"CAPL","url":"https://caplp.gcs-web.com/news-releases/news-release-details/crossamerica-partners-lp-reports-second-quarter-2025-results/"},
+    {"id":"CAPL_2025Q4","company":"CAPL","url":"https://caplp.gcs-web.com/news-releases/news-release-details/crossamerica-partners-lp-reports-fourth-quarter-and-full-year-5/"},
+    {"id":"CAPL_2026Q1","company":"CAPL","url":"https://www.sec.gov/Archives/edgar/data/1538849/000119312526209170/capl-ex99_1.htm"},
+    {"id":"CAPL_2026Q2","company":"CAPL","url":"https://www.sec.gov/Archives/edgar/data/1538849/000119312526335332/capl-ex99_1.htm"},
+    {"id":"GLP_2025Q2","company":"GLP","url":"https://ir.globalp.com/news/news-details/2025/Global-Partners-Reports-Second-Quarter-2025-Financial-Results/"},
+    {"id":"GLP_2025Q3","company":"GLP","url":"https://ir.globalp.com/news/news-details/2025/Global-Partners-Reports-Third-Quarter-2025-Financial-Results/"},
+    {"id":"MPC_SCREEN","company":"MPC","url":"https://ir.marathonpetroleum.com/investor/news-releases/news-details/2026/Marathon-Petroleum-Corp--Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"},
+    {"id":"AROC_SCREEN","company":"AROC","url":"https://investors.archrock.com/news/news-details/2026/Archrock-Reports-Fourth-Quarter-and-Full-Year-2025-Results-and-Provides-2026-Financial-Guidance/default.aspx"},
+    {"id":"ET_SCREEN","company":"ET","url":"https://ir.energytransfer.com/news-releases/news-release-details/energy-transfer-reports-fourth-quarter-2025-results"},
+    {"id":"LBRT_SCREEN","company":"LBRT","url":"https://libertyenergy.com/fourth-quarter-and-full-year-2025-financial-and-operational-results/"}
+  ]
+}

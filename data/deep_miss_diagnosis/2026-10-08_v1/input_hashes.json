@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-08T09:18:48.144682+00:00",
+  "files": [
+    {
+      "path": "data/deep_miss_diagnosis_spec_v1.json",
+      "sha256": "7da25984fe48521efa1ad93fdb40abac5dc276781468fd256deee87b71a061a1"
+    },
+    {
+      "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/deep_diagnosis.py",
+      "sha256": "e3b8d62e0864993d8e9a82a521fd611b1250af68367a8b8581ba8c8f78e150a8"
+    },
+    {
+      "path": "musa_nowcast/model.py",
+      "sha256": "a62800fe77ff2c8230c5b5144c5ff78b7e4af769b91a29396bdee44cfae51311"
+    },
+    {
+      "path": "musa_nowcast/mathutils.py",
+      "sha256": "fef59998d413cd8e796ae8b823bf880f66be682ec31ac2bacd6386d526b88d70"
+    },
+    {
+      "path": "data/actuals.csv",
+      "sha256": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6"
+    },
+    {
+      "path": "data/weights.csv",
+      "sha256": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/results.json",
+      "sha256": "ec3e6408ee2c2ad2b20bd2ed71c27d5373265d2a7eabe974a87a35b06e455f3c"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/normalized_market.json",
+      "sha256": "fae439c5b66ddc595fb1d5b6898dde93ab3b88e1c023cf32d350916d5f612531"
+    },
+    {
+      "path": "data/miss_evidence/2026-10-08_v1/quarter_diagnostics.json",
+      "sha256": "0002056e926faba561a8901220bd1929c4e21204d980a6deec14d985e31f17e8"
+    },
+    {
+      "path": "data/revenue_gap_all/2026-10-07_review_v2/quarter_rows.json",
+      "sha256": "656e079d2de5be1bb808a8f3bacbd97aa4a7f68e507480e9f0f32461b06b544a"
+    },
+    {
+      "path": "data/partial_quarter_disclosure_audit.csv",
+      "sha256": "9f92f0d4989fdaefec6e47c8103c9f3af9e81b34911f7e6ced9743782b80a245"
+    },
+    {
+      "path": "data/accounting_miss_audit/2026-10-07_deeper_v2/source_checks.json",
+      "sha256": "7f2803fab14df37e86fdfa8b94cdbc4bc6c5b6118d63ab7f0b96cc01de82ec34"
+    },
+    {
+      "path": "data/accounting_miss_audit/2026-10-07_deeper_v2/reviewed_findings.json",
+      "sha256": "5cc81ff80d114d1b5ed13bd050890362999f89573098822e5cff83b2cbb4aa0e"
+    },
+    {
+      "path": "data/deep_miss_diagnosis/2026-10-08_controls_v1/source_checks.json",
+      "sha256": "6055a3bf6ac6b90028c1b3b78529b9affaded48ff4d8efce1e902a167ee701dd"
+    }
+  ]
+}

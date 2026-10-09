@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:29.489590+00:00",
+  "captured_at": "2026-10-07T16:15:29.489575+00:00",
+  "key": "all_grade_PADD2",
+  "original_index_locator_or_series": "EMM_EPM0_PTE_R20_DPG",
+  "raw_file": "all_grade_PADD2.xls",
+  "sha256": "01748f26c7053b128baab2b0108b27d981b2d33da322f460fb9b361a72ffb954",
+  "source_type": "EIA_RETAIL_XLS",
+  "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPM0_PTE_R20_DPGw.xls",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

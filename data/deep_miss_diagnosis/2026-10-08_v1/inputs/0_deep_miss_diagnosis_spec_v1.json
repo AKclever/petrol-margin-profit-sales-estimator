@@ -1,0 +1,13 @@
+{
+  "id": "MUSA_DEEP_MISS_DIAGNOSIS_V1",
+  "role": "RETROSPECTIVE_DOCUMENTARY_AND_MODEL_ARITHMETIC_DIAGNOSIS",
+  "scope": "All 22 modern quarters for model arithmetic and existing release/revenue/path evidence; targeted filing/call review of all six original large misses and calls from three ordinary comparison quarters",
+  "comparisons": "Keep original >=5-cent error threshold; all 16 ordinary quarters in quantitative comparison; three call controls explicitly selected for extreme market moves, not representative random controls",
+  "model_math": "Reproduce archived four-feature production predictions exactly, retain coefficient signs, centered contributions and 0.5 shrinkage; no new model or tuned correction",
+  "counterfactual": "Removing shrinkage is explanatory sensitivity only across all22, not proposed promotion or fresh validation",
+  "disclosure": "Do not classify pending audits as no disclosure; newly discovered passages go to a separate pending evidence queue",
+  "causality": "Distinguish confirmed model arithmetic, issuer-reported mechanisms, analyst hypotheses and unquantified economic residual; no complete causal cents attribution without evidence",
+  "accounting": "Do not assign supply/RIN effects or LIFO reserve balances to retail margins; do not back out acquisition costs from already-reported margins",
+  "production_changed": false,
+  "probability_model_fitted": false
+}

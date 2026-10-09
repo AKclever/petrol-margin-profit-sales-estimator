@@ -1,0 +1,16 @@
+{
+  "id": "MUSA_MISS_EVIDENCE_WORKSTREAM_V1",
+  "production_changed": false,
+  "audit_scope": "All 52 original reported quarters, not only six large misses",
+  "dimensions": ["company_selling_price", "wholesale_proxy_mismatch", "timing", "accounting_perimeter"],
+  "keyword_evidence": "Source-review candidates only, not confirmed causal findings",
+  "unknowns": "UNRESOLVED; missing evidence never becomes no effect",
+  "supplier_cost": "Not reverse-engineered from reported margin; purchase invoices absent",
+  "peers": "Original releases, fiscal dates, publication dates and payment/RIN basis separately preserved; no fitting until review",
+  "pump_panel": "Manual evidence intake only until explicit automated-collection permission; fixed station/competitor pairs frozen before measurements",
+  "disclosures": "Only verified numeric same-basis retail; explicit gallons and remaining model required; no calendar substitution",
+  "prospective_primary_selection": "First complete checkpoint captured 3-7 UTC days after quarter end and before earnings; one per quarter; missing selection remains missing",
+  "prospective_secondary": "Weekly checkpoint diagnostics are repeated observations, not independent trials",
+  "risk_thresholds": "Existing V1 frozen; no new thresholds",
+  "negative_disclosure_audit": "Existing source-order taxonomy unchanged; RSS does not resolve historical pending audits"
+}

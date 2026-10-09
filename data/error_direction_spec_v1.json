@@ -1,0 +1,12 @@
+{
+  "role":"DEVELOPMENTAL_CURRENT_VINTAGE_PUBLICATION_FILTERED_NOT_STRICT_PIT",
+  "target":"Sign of actual MUSA retail margin minus unchanged production forecast; not year-over-year margin direction",
+  "cutoff":"MUSA quarter end; donor publication strictly before cutoff and positive fiscal overlap",
+  "signals":["Sign of Casey own-baseline surprise","Sign of ATD own-baseline surprise","Sign of mean latest four published same-era MUSA residuals, at least four required"],
+  "neutral":"Absolute signal <=1e-10 abstains; no forced direction for missing evidence",
+  "comparators":["Always ABOVE","Always BELOW","Majority sign of earlier published same-era MUSA residuals, at least four required"],
+  "groups":"All eligible production-test quarters and modern 2021 onward; large original production error >=5c is a retrospective scoring subgroup, never a signal selector",
+  "metrics":"Call coverage, correct/total, above/below recalls, balanced accuracy, same-row naive comparators, Wilson descriptive interval, drop-one-quarter accuracy range",
+  "selection":"No threshold tuning, no fitting to selected large misses, no automatic forecast adjustment or probability calibration",
+  "production_changed":false
+}

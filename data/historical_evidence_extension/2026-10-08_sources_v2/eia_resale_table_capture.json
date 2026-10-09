@@ -1,0 +1,9 @@
+{
+  "captured_at": "2026-10-08T10:13:46.982746+00:00",
+  "id": "eia_resale_table",
+  "raw_file": "eia_resale_table.html",
+  "search_performed_at": "2026-10-08T10:13:37.766669+00:00",
+  "sha256": "dea4a09ee69a183ae7f44a17b158d412affcb85768c95374b416362bd3b3dda2",
+  "source_url": "https://www.eia.gov/dnav/pet/PET_PRI_REFMG_A_EPMR_PWG_DPGAL_M.htm",
+  "status": "RAW_CAPTURED"
+}

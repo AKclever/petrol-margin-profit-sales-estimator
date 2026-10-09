@@ -1,0 +1,14 @@
+{
+  "id": "MUSA_HISTORICAL_EVIDENCE_EXTENSION_V1",
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_PUBLICATION_FILTERED_NOT_STRICT_PIT",
+  "local_wholesale": "Check free regional/state rack and resale series; no substitution of resale for rack, no purchased data or inaccessible archive inferred",
+  "peer_basis": "Keep Casey reported fuel margin including RIN and excluding credit card fees distinct from Couche-Tard US company-operated before-payment-fee margin and MUSA retail margin",
+  "peer_selection": "latest published overlapping fiscal period strictly before MUSA quarter end AND MUSA report date; require reviewed period/basis and source hash",
+  "peer_prediction": "unchanged separate fiscal expanding YoY ridge models; actual not fitted into own prediction; current-vintage market proxies",
+  "musa_correction": "one challenger: ridge alpha=10 on Casey and ATD surprise residual features, half-strength correction; minimum 8 earlier published complete residual rows within same historical regime",
+  "no_blind_pool": true,
+  "tail_definition": "original production absolute error >=5c, never challenger activation rule",
+  "perimeter": "all52 quarter original-release review, separately flag QuickChek partial closing quarter and first-year anchor discontinuity; organic opening/closure/rebuild and denominator comparability evidence retained, no fitted adjustment",
+  "production_changed": false,
+  "automatic_promotion": false
+}

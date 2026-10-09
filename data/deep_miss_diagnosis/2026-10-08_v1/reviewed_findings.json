@@ -1,0 +1,226 @@
+{
+  "control_selection": "PURPOSIVE_EXTREME_MARKET_MOVES_NOT_RANDOM",
+  "created_at": "2026-10-08T09:20:56.532850+00:00",
+  "ordinary_call_controls": [
+    {
+      "assessment": "Large upward wholesale movement also occurred in an ordinary-error quarter. Issuer describes faster pump pass-through and deliberate discount/volume tradeoffs; a rising-price indicator alone is insufficient.",
+      "evidence": {
+        "exact_error_effect_cpg": null,
+        "locator": "pricing precision",
+        "page_1_based": 4,
+        "reviewed_at": "2026-10-08T09:20:56.532232+00:00",
+        "start_offset": 6439,
+        "text_sha256": "0815094537647752799f7efc9f370560658e97567d8b07ce21fd9f580be2733d",
+        "text_source": "data/deep_miss_diagnosis/2026-10-08_controls_v1/2022Q2_call_2.json"
+      },
+      "quarter": "2022Q2"
+    },
+    {
+      "assessment": "Large falling prices and company pricing/supply capabilities also appear in an ordinary-error quarter. These mechanisms are not exclusive to the selected large misses.",
+      "evidence": {
+        "exact_error_effect_cpg": null,
+        "locator": "lower our supply cost",
+        "page_1_based": 4,
+        "reviewed_at": "2026-10-08T09:20:56.532658+00:00",
+        "start_offset": 6348,
+        "text_sha256": "f815afc69f4473fcc229947309446444e58b5099468cf26a58ec234737753421",
+        "text_source": "data/deep_miss_diagnosis/2026-10-08_controls_v1/2022Q4_call_2.json"
+      },
+      "quarter": "2022Q4"
+    },
+    {
+      "assessment": "Even greater volatility and an upward wholesale move coexist with a nearly exact production estimate. Issuer explains retail floors, prompt competitive pass-through and market-based rack transfer prices; procurement savings and inventory effects also reside in fuel supply.",
+      "evidence": {
+        "exact_error_effect_cpg": null,
+        "locator": "market-based internal transfer price",
+        "page_1_based": 3,
+        "reviewed_at": "2026-10-08T09:20:56.532841+00:00",
+        "start_offset": 6243,
+        "text_sha256": "768880b9ab474305665ddac8871b9a8d8c68bae58a630d6b392fa2b90a4d3854",
+        "text_source": "data/deep_miss_diagnosis/2026-10-08_controls_v1/2026Q1_call_5.json"
+      },
+      "quarter": "2026Q1"
+    }
+  ],
+  "production_changed": false,
+  "quantified_retail_inventory_adjustments_identified_in_checked_scope": 0,
+  "quarters": [
+    {
+      "all_economic_error_cents_explained": false,
+      "assessment": "The model recognizes deterioration versus exceptional 2020 but its half-shrunk adjustment is too small. Issuer describes rising-price retail pressure, a higher industry baseline and QuickChek pricing integration. Neither acquisition mix nor accounting is quantified as the cause of the 5.18-cent error.",
+      "assessment_status": "SUPPORTED_MECHANISMS_UNQUANTIFIED",
+      "evidence": [
+        {
+          "exact_error_effect_cpg": null,
+          "locator": "rising price environment",
+          "page_1_based": 11,
+          "reviewed_at": "2026-10-08T09:20:56.527819+00:00",
+          "start_offset": 34547,
+          "text_sha256": "cb02f2677b2a3bd0b29c54848f2516ed712fc3c3432bcf0c82f18c26c46c10b9",
+          "text_source": "data/accounting_miss_audit/2026-10-07_deeper_v2/2021Q2_call_0_text.json"
+        },
+        {
+          "exact_error_effect_cpg": null,
+          "locator": "fuel pricing playbooks",
+          "page_1_based": 6,
+          "reviewed_at": "2026-10-08T09:20:56.528364+00:00",
+          "start_offset": 13273,
+          "text_sha256": "cb02f2677b2a3bd0b29c54848f2516ed712fc3c3432bcf0c82f18c26c46c10b9",
+          "text_source": "data/accounting_miss_audit/2026-10-07_deeper_v2/2021Q2_call_0_text.json"
+        }
+      ],
+      "quarter": "2021Q2",
+      "retail_accounting_adjustment_cpg": null,
+      "source_role": "POST_RESULT_DIAGNOSIS",
+      "supplier_cost_observed": false
+    },
+    {
+      "all_economic_error_cents_explained": false,
+      "assessment": "A depressed 2020 anchor plus partial market correction underestimates the higher 2021 level. Issuer attributes synergies to pricing tactics and improved supply terms; annual combined synergies cannot be assigned to Q4 retail alone. This is evidence of company-specific mechanisms, not a quantified explanation of the full error.",
+      "assessment_status": "SUPPORTED_MECHANISMS_UNQUANTIFIED",
+      "evidence": [
+        {
+          "exact_error_effect_cpg": null,
+          "locator": "over $8 million",
+          "page_1_based": 5,
+          "reviewed_at": "2026-10-08T09:20:56.528766+00:00",
+          "start_offset": 10336,
+          "text_sha256": "2487c04fccd55d130ff683db4653dc6d5dac3711ee7c4eba7db1daea5154dbbb",
+          "text_source": "data/accounting_miss_audit/2026-10-07_deeper_v2/2021Q4_call_0_text.json"
+        },
+        {
+          "exact_error_effect_cpg": null,
+          "locator": "renegotiating supply contracts",
+          "page_1_based": 5,
+          "reviewed_at": "2026-10-08T09:20:56.529125+00:00",
+          "start_offset": 10811,
+          "text_sha256": "2487c04fccd55d130ff683db4653dc6d5dac3711ee7c4eba7db1daea5154dbbb",
+          "text_source": "data/accounting_miss_audit/2026-10-07_deeper_v2/2021Q4_call_0_text.json"
+        }
+      ],
+      "quarter": "2021Q4",
+      "retail_accounting_adjustment_cpg": null,
+      "source_role": "POST_RESULT_DIAGNOSIS",
+      "supplier_cost_observed": false
+    },
+    {
+      "all_economic_error_cents_explained": false,
+      "assessment": "Unconstrained calibration gives rising squeeze a strong positive coefficient: its centered contribution is +8.52 cents, despite qualitative rising-price retail pressure. Issuer describes internal transfer pricing and retail/supply timing differences. Supply timing economics are not a permissible retail adjustment.",
+      "assessment_status": "CONFIRMED_MODEL_SIGN_BEHAVIOR_ECONOMIC_ATTRIBUTION_UNRESOLVED",
+      "evidence": [
+        {
+          "exact_error_effect_cpg": null,
+          "locator": "internal spot-to-rack",
+          "page_1_based": 6,
+          "reviewed_at": "2026-10-08T09:20:56.529498+00:00",
+          "start_offset": 13969,
+          "text_sha256": "291015353e02bfda0f0606284673daf5a04ee4b273e29bb9fa3d8142b7fb43eb",
+          "text_source": "data/accounting_miss_audit/2026-10-07_deeper_v2/2022Q1_call_0_text.json"
+        },
+        {
+          "exact_error_effect_cpg": null,
+          "locator": "retail margin for us was probably",
+          "page_1_based": 9,
+          "reviewed_at": "2026-10-08T09:20:56.529872+00:00",
+          "start_offset": 23829,
+          "text_sha256": "291015353e02bfda0f0606284673daf5a04ee4b273e29bb9fa3d8142b7fb43eb",
+          "text_source": "data/accounting_miss_audit/2026-10-07_deeper_v2/2022Q1_call_0_text.json"
+        }
+      ],
+      "quarter": "2022Q1",
+      "retail_accounting_adjustment_cpg": null,
+      "source_role": "POST_RESULT_DIAGNOSIS",
+      "supplier_cost_observed": false
+    },
+    {
+      "all_economic_error_cents_explained": false,
+      "assessment": "The issuer attributes strong retail economics to falling costs plus a higher industry baseline. Production predicts improvement but half-shrinkage leaves a 9.79-cent shortfall. Removing shrinkage still leaves 4.28 cents unexplained. Exact company pump/cost/volume effects are unobserved.",
+      "assessment_status": "SUPPORTED_MECHANISMS_UNQUANTIFIED",
+      "evidence": [
+        {
+          "exact_error_effect_cpg": null,
+          "locator": "periods of steeply falling",
+          "page_1_based": 8,
+          "reviewed_at": "2026-10-08T09:20:56.530268+00:00",
+          "start_offset": 18222,
+          "text_sha256": "9c66bdb9bb42fde9532221d5413252cd868027d822ef8c4e16776db9c025a7d3",
+          "text_source": "data/accounting_miss_audit/2026-10-07_deeper_v2/2022Q3_call_0_text.json"
+        },
+        {
+          "exact_error_effect_cpg": null,
+          "locator": "higher equilibrium",
+          "page_1_based": 6,
+          "reviewed_at": "2026-10-08T09:20:56.530660+00:00",
+          "start_offset": 13694,
+          "text_sha256": "9c66bdb9bb42fde9532221d5413252cd868027d822ef8c4e16776db9c025a7d3",
+          "text_source": "data/accounting_miss_audit/2026-10-07_deeper_v2/2022Q3_call_0_text.json"
+        }
+      ],
+      "quarter": "2022Q3",
+      "retail_accounting_adjustment_cpg": null,
+      "source_role": "POST_RESULT_DIAGNOSIS",
+      "supplier_cost_observed": false
+    },
+    {
+      "all_economic_error_cents_explained": false,
+      "assessment": "The prior-year anchor inherits the 2022 falling-price windfall. Production forecasts too little normalization. The call also identifies several Friday price shocks and later recovery, demonstrating timing hidden by smooth quarterly summaries; it does not quantify their contribution to model error.",
+      "assessment_status": "SUPPORTED_MECHANISMS_UNQUANTIFIED",
+      "evidence": [
+        {
+          "exact_error_effect_cpg": null,
+          "locator": "3 separate price moves",
+          "page_1_based": 10,
+          "reviewed_at": "2026-10-08T09:20:56.531019+00:00",
+          "start_offset": 36316,
+          "text_sha256": "df69d755050d6b10480f3e105ac0731082ef5bb1a2e77ccf251aef5ac42351fb",
+          "text_source": "data/accounting_miss_audit/2026-10-07_deeper_v2/2023Q3_call_0_text.json"
+        },
+        {
+          "exact_error_effect_cpg": null,
+          "locator": "retail pricing excellence",
+          "page_1_based": 5,
+          "reviewed_at": "2026-10-08T09:20:56.531358+00:00",
+          "start_offset": 14793,
+          "text_sha256": "df69d755050d6b10480f3e105ac0731082ef5bb1a2e77ccf251aef5ac42351fb",
+          "text_source": "data/accounting_miss_audit/2026-10-07_deeper_v2/2023Q3_call_0_text.json"
+        }
+      ],
+      "quarter": "2023Q3",
+      "retail_accounting_adjustment_cpg": null,
+      "source_role": "POST_RESULT_DIAGNOSIS",
+      "supplier_cost_observed": false
+    },
+    {
+      "all_economic_error_cents_explained": false,
+      "assessment": "Regional spot spreads weaken while reported MUSA retail margin rises. Spread contributes -4.02 cents and falling capture -0.87 cents in production. Issuer reports higher competitor margin floors and uneven within-quarter price/volume responses. Supply inventory exposure is a loss, not a retail tailwind. The amount attributable to market-based rack costs, local pricing and gallon weights remains unobserved.",
+      "assessment_status": "CONFIRMED_PROXY_MODEL_CONFLICT_ECONOMIC_ATTRIBUTION_UNRESOLVED",
+      "evidence": [
+        {
+          "exact_error_effect_cpg": null,
+          "locator": "marginal retailers",
+          "page_1_based": 4,
+          "reviewed_at": "2026-10-08T09:20:56.531552+00:00",
+          "start_offset": 7733,
+          "text_sha256": "ac3ab213da3e2e5adcf213590f819a39f44825942c69d822a4139589d15aa97b",
+          "text_source": "data/accounting_miss_audit/2026-10-07_deeper_v2/2026Q2_call_0_text.json"
+        },
+        {
+          "exact_error_effect_cpg": null,
+          "locator": "RBOB declined 16%",
+          "page_1_based": 9,
+          "reviewed_at": "2026-10-08T09:20:56.531903+00:00",
+          "start_offset": 23511,
+          "text_sha256": "8036a0239c710091431558b7160118f4446c9287537f580ebcd942039d4b2e5e",
+          "text_source": "data/accounting_miss_audit/2026-10-07_deeper_v2/2026Q2_call_1_text.json"
+        }
+      ],
+      "quarter": "2026Q2",
+      "retail_accounting_adjustment_cpg": null,
+      "source_role": "POST_RESULT_DIAGNOSIS",
+      "supplier_cost_observed": false
+    }
+  ],
+  "review_code_sha256": "d876f1cb0ce4903d80afd353c498931585d675db8df067155baadb876e959e33",
+  "role": "RETROSPECTIVE_DOCUMENTARY_DIAGNOSIS_NOT_VALIDATION",
+  "universal_root_cause_confirmed": false
+}

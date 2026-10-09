@@ -1,0 +1,38 @@
+{
+  "spec_id": "MUSA_ALTERNATIVE_MARGIN_EXPERIMENTS_V1",
+  "production_changed": false,
+  "automatic_promotion": false,
+  "historical_role": "DEVELOPMENTAL_CURRENT_VINTAGE_PUBLICATION_FILTERED_NOT_STRICT_PIT",
+  "lagged_gap": {
+    "features": ["immediately_previous_quarter_revenue_gap_cpg"],
+    "availability": "Gap company sources and earlier training outcomes must be public strictly before target quarter-end cutoff",
+    "minimum_training_oof_residuals": 8,
+    "ridge_alpha": 2.0,
+    "correction_shrinkage": 0.5
+  },
+  "regional_supply": {
+    "features": ["weighted_yoy_gasoline_stocks_percent_change", "weighted_yoy_utilization_percentage_point_change"],
+    "region_mapping": {"East Coast":"PADD1", "Midwest":"PADD2", "Gulf Coast":"PADD3"},
+    "regional_weights": "Frozen data/weights.csv, provisional company exposure weights",
+    "historical_observation_rule": "Friday observations inside quarter, at least seven days before quarter end; exact common weeks across all six series; missing weekly rows block, no filling",
+    "historical_availability": "Original EIA release times/vintages unverified; seven-day exclusion is not proof of PIT availability",
+    "minimum_training_oof_residuals": 8,
+    "ridge_alpha": 2.0,
+    "correction_shrinkage": 0.5,
+    "cost_recovery_claim": false
+  },
+  "comparison": "Identical rows versus unchanged production; existing timing gate; fixed recent8 and removal-of-best-benefit sensitivity",
+  "combined_model": "NOT_AUTHORIZED_BY_THIS_SPEC",
+  "futures": {
+    "source": "USDA AMS3617 dated NYMEX RBOB settlements",
+    "role": "CONDITIONAL_WHOLESALE_SCENARIO_NOT_MUSA_MARGIN_FORECAST",
+    "preserve": ["report_publication_date", "settlement_observation_date", "captured_at", "available_at", "raw_sha256", "contract_month", "units"],
+    "quarter_weights": "Explicitly scenario-only equal-month weights; not observed gallon shares",
+    "missing_contract_rule": "BLOCKED_INCOMPLETE_CONTRACT_COVERAGE, no extrapolation",
+    "musa_margin_rule": "BLOCKED_RETAIL_RESPONSE_AND_REGIONAL_BASIS_METHODOLOGY until separate methodology exists",
+    "current_target_two_quarters_ahead": "2027Q2 from current calendar quarter2026Q4",
+    "scenario_shifts_cpg": [-20, 0, 20],
+    "shifts_are_probabilistic": false,
+    "historical_forward_validation": "BLOCKED_ARCHIVED_CURVE_VINTAGES_UNVERIFIED"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "PEER_DIRECTION_OVERLAP_DIAGNOSTICS_V1",
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_PUBLICATION_FILTERED_NOT_STRICT_PIT",
+  "directions": "All six ordered donor-recipient pairs across MUSA/CASY/ATD",
+  "checkpoint": "Final recipient pre-report date-only cutoff, donor strictly published before recipient report; unchanged existing replay selection and training",
+  "overlap": "Donor/recipient actual calendar overlap divided by recipient calendar-period length, exposure proxy not gallons; HIGH >=0.50, LOW positive <0.50, NO_OVERLAP blocked",
+  "models": "NO_UPDATE baseline; FIXED_UPDATE baseline +0.5*overlap-weighted own-basis donor surprise; FITTED_UPDATE baseline +0.5*existing bounded through-origin ridge loading*same surprise",
+  "fitted_rule": "Unchanged original replay penalty10, loading[0,1], minimum8 earlier published same-regime recipient residual pairs; do not fit overlap bins separately",
+  "comparison": "Primary no/fixed/fitted comparison on identical fitted-eligible targets; separately disclose fixed coverage without fitted eligibility, zero-loading/no-move states and exclusion counts",
+  "groups": "All and modern period start>=2021, each with all/high/low overlap groups; preserve original baseline >=5c and ordinary groups",
+  "concentration": "Descriptive leave-one-quarter-out scoring of already frozen predictions, no refit: drop each row, worst remaining mean improvement, largest positive contributor, improvement after dropping it, share of positive gains; also remove all originally >=5c cases",
+  "selection": "No thresholds/penalties/weights retuned, no winner auto-selected across six directions/bins, no promotion from subgroup results",
+  "production_changed": false
+}

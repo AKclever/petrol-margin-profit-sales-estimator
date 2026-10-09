@@ -1,0 +1,20 @@
+{
+  "id": "MUSA_EARNINGS_CALENDAR_AND_SHARED_FACTOR_V1",
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_PUBLICATION_FILTERED_NOT_STRICT_PIT",
+  "inputs": "Frozen v3 reconstructed peer predictions and MUSA archived production predictions; no new target definitions or market recalibration",
+  "calendar_cutoffs": "Quarter-end comparison requires publication strictly before quarter-end; final pre-report checkpoint requires publication strictly before MUSA report date. Date-only sources cannot be used on report day",
+  "calendar_selection": "Latest published fiscal period with positive target-quarter overlap per peer; preserve actual overlap days, source hashes, basis and period endpoints",
+  "calendar_correction": "Ridge alpha10 on both peer surprises; half strength; require 8 earlier MUSA residual rows with a complete peer pair in the same regime, their outcomes strictly published before current cutoff",
+  "calendar_training_features": "Earlier rows use their own checkpoint, not current hindsight peer selection; forecast fit never uses own actual",
+  "factor_observations": "Peer own-basis reported-minus-market-model surprises and earlier MUSA production residuals, only released before cutoff. Monthly interval weights are calendar-day exposure proxies, not gallons",
+  "factor_structure": "24 monthly states ending in cutoff month, unit positive shared loading plus separate CASY/ATD/MUSA offsets; no absolute margin pooling",
+  "factor_penalties": {"monthly_level": 2, "adjacent_month_difference": 2, "company_offset": 2},
+  "factor_shrinkage": 0.5,
+  "factor_eligibility": "At least 8 earlier same-regime published MUSA residuals overall, at least4 fully window-contained observations for each peer, at least1 published peer observation overlapping target; use only same-regime-start-window observations",
+  "factor_training": "Penalized linear Gaussian latent factor; states reconstructed at each information cutoff using already published reports only. No target MUSA actual, full-history smoothing or learned loadings",
+  "regimes": "pre2020 low-margin, 2020 transition, 2021 onward modern; no blind pooling",
+  "diagnostics": "All eligible quarters; original >=5c production misses descriptive only; post-quarter peer sign hit rate exploratory and never an activation gate",
+  "promotion": "Existing MAE/RMSE/directional/recent-eight/paired improvement gate; no retuning or automatic promotion",
+  "production_changed": false,
+  "live_current_quarter_forecast_requested": false
+}

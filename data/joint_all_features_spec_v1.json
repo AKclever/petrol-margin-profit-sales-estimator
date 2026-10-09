@@ -1,0 +1,21 @@
+{
+  "id": "MUSA_JOINT_ALL_COMPATIBLE_FEATURES_V1",
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_NOT_PIT_VALIDATION",
+  "production_changed": false,
+  "scope": "Seven compatible research directions jointly, plus original market-change features; not every parameter of every failed model",
+  "feature_order": ["regular_spread_yoy", "regular_falling_capture_yoy", "regular_rising_squeeze_yoy", "regular_volatility_yoy", "all_grade_increment_spread_yoy", "all_grade_increment_falling_yoy", "all_grade_increment_rising_yoy", "all_grade_increment_volatility_yoy", "diesel_retail_yoy", "prior_published_revenue_gap", "regional_stocks_yoy_percent", "regional_utilization_yoy_points", "prior_station_cost_yoy_cpg", "negative_prior_direct_sss_percent", "caseys_unexpected_margin", "couchetard_unexpected_margin"],
+  "target": "Actual retail margin minus frozen original expanding-window production prediction",
+  "training_regime": "2021 onward only; published earlier OOF residuals",
+  "ridge_alpha": 10,
+  "correction_shrinkage": 0.5,
+  "minimum_training_rows": 8,
+  "missing_inputs": "BLOCK; no zero fill, no future training, no changing feature subsets",
+  "diesel": "Remove 2022Q2 through 2023Q2 features from both training and scoring due survey break",
+  "peer": "Latest public overlapping fiscal period strictly before target quarter end; unexpected margins only",
+  "big_miss_quarters_frozen_from_original": ["2021Q2", "2021Q4", "2022Q1", "2022Q3", "2023Q3", "2026Q2"],
+  "evaluation": "All eligible matched quarters plus fixed six-big-miss coverage and error report; squared-error fitting without ex-post big-miss weighting; same-row simpler model and remove-best-benefit diagnostic",
+  "tail_claim": "One scored big miss cannot establish systematic tail improvement",
+  "tuning": "One model, no parameter grid or feature subset search",
+  "excluded": ["all-in supply/RIN", "qualitative disclosures", "risk labels", "blocked replays", "futures lacking retail mapping", "failed-model outputs"],
+  "promotion": "Research only; existing gate; never automatic"
+}

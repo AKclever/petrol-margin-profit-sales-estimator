@@ -1,0 +1,22 @@
+[
+  {
+    "path": "data/earnings_event_replay/2026-10-08_v3/dataset.json",
+    "sha256": "81a5d08eb92b32987037056596293ad71fc9276b63c9a074ee845e03e3ae9b30"
+  },
+  {
+    "path": "data/peer_magnitude_spec_v1.json",
+    "sha256": "95dcffc63aa35421afa58997f0e44be56b3864df240ff39e6cb564d3f1c17e2c"
+  },
+  {
+    "path": "data/peer_surprise/2026-10-07_v2/result.json",
+    "sha256": "b62861c3c1242ddac0b2b40fa3e0e583164229a7ebb27c79f1cf57c3c09da985"
+  },
+  {
+    "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/peer_magnitude.py",
+    "sha256": "0dab00b0ce42a2160a1fabb192f02eca7b2dd706e3c30217751a5c89501b4fda"
+  },
+  {
+    "path": "musa_nowcast/earnings_event_replay.py",
+    "sha256": "fcaa6d92394c279259038a4cd0ec88a225143e8a890bc6a0fb115ec2dc19246d"
+  }
+]

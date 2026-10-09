@@ -1,0 +1,19 @@
+{
+  "id": "MUSA_COMBINED_CHALLENGERS_V1",
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_RESEARCH_NOT_PIT_VALIDATION",
+  "production_changed": false,
+  "frozen_before_new_combination_scoring": true,
+  "diesel_break_date": "2022-06-13",
+  "diesel_break_rule": "Exclude features whose current/prior-year quarter observations span pre/post survey designs; exclude those rows from both diesel training and scoring. No inferred bridge adjustment.",
+  "regimes": "Modern 2021 onward only for combinations; older tests stay separate in previous archive",
+  "candidates": ["equal_blend_clean_diesel_and_gap", "joint_clean_diesel_and_gap", "joint_clean_diesel_gap_caseys_couchetard", "equal_blend_all_compatible_available_shadows"],
+  "joint_ridge_alpha": 10,
+  "correction_shrinkage": 0.5,
+  "minimum_earlier_published_oof_residuals": 8,
+  "peer_selection": "Latest reported overlapping fiscal period, public strictly before target quarter-end; preserve unexpected margin and peer basis; never copy absolute peer margin",
+  "all_blend_components": ["clean_diesel", "lagged_gap", "regional_supply", "floor", "all_grade", "caseys", "couchetard"],
+  "all_blend_weights": "Fixed equal weights, require every component; no missing-component reweighting",
+  "excluded_from_blending": ["all-in supply/RIN", "qualitative evidence", "risk flags", "blocked replays", "unusable negative state-space forecasts", "futures without retail-response mapping"],
+  "comparison": "Production and individual challengers on identical rows; fixed existing gate, recent eight and remove-largest-benefit sensitivity",
+  "tuning": "No subset search, no optimized blend weights, no automatic promotion; history already examined"
+}

@@ -73,13 +73,18 @@ def capture_disclosures(root: Path, fetcher=fetch) -> Path:
             "availability_method": "FIRST_CAPTURE_CONSERVATIVE",
             "classification_status": "PENDING_DISCLOSURE_REVIEW",
         })
-    return save(directory / "manifest.json", {
+    manifest_path = save(directory / "manifest.json", {
         "source_scope": "ISSUER_RSS_LINKED_RELEASES_ONLY",
         "feed_url": IR_FEED, "feed_sha256": sha(directory / "feed.xml"),
         "feed_captured_at": captured, "sources": sources,
         "audit_status": "CAPTURED_PENDING_REVIEW",
         "negative_disclosure_conclusion_authorized": False,
     })
+    # Candidates require human period/target review; this never assimilates
+    # reported prior-quarter actuals as current-quarter QTD disclosures.
+    from .evidence_intake import queue_disclosures
+    queue_disclosures(manifest_path, directory / "review_queue.json")
+    return manifest_path
 
 
 def run_local(root: Path, *, weights: Path, actuals: Path, revision: str,

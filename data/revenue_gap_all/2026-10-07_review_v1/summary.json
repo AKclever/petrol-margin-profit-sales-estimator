@@ -1,0 +1,366 @@
+{
+  "causal_interpretation_authorized": false,
+  "coverage": {
+    "direct_sss_quarters": 30,
+    "production_oof_quarters": 22,
+    "retail_revenue_quarters": 30,
+    "total_quarters": 30,
+    "yoy_gap_quarters": 26
+  },
+  "current_quarter_gap_is_available_before_results": false,
+  "gap_vs_same_quarter_margin_error": {
+    "n": 22,
+    "pearson_r": -0.2787704900646363,
+    "quarters": [
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1",
+      "2024Q2",
+      "2024Q3",
+      "2024Q4",
+      "2025Q1",
+      "2025Q2",
+      "2025Q3",
+      "2025Q4",
+      "2026Q1",
+      "2026Q2"
+    ],
+    "spearman_r": -0.2523997741389046
+  },
+  "gap_vs_same_quarter_volume": {
+    "n": 26,
+    "pearson_r": -0.3598317839356852,
+    "quarters": [
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1",
+      "2024Q2",
+      "2024Q3",
+      "2024Q4",
+      "2025Q1",
+      "2025Q2",
+      "2025Q3",
+      "2025Q4",
+      "2026Q1",
+      "2026Q2"
+    ],
+    "spearman_r": -0.217168275354131
+  },
+  "groups": {
+    "other_oof_quarters": {
+      "gap_vs_error": {
+        "n": 16,
+        "pearson_r": -0.01927317530286681,
+        "quarters": [
+          "2021Q1",
+          "2021Q3",
+          "2022Q2",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2",
+          "2025Q3",
+          "2025Q4",
+          "2026Q1"
+        ],
+        "spearman_r": -0.03823529411764706
+      },
+      "gap_vs_volume": {
+        "n": 16,
+        "pearson_r": -0.2593632879730096,
+        "quarters": [
+          "2021Q1",
+          "2021Q3",
+          "2022Q2",
+          "2022Q4",
+          "2023Q1",
+          "2023Q2",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2",
+          "2025Q3",
+          "2025Q4",
+          "2026Q1"
+        ],
+        "spearman_r": -0.14705882352941177
+      },
+      "mean_abs_margin_error_cpg": 1.822983867105792,
+      "mean_abs_revenue_gap_cpg": 3.640218177827192,
+      "n": 16
+    },
+    "previous_six_large_misses": {
+      "gap_vs_error": {
+        "n": 6,
+        "pearson_r": -0.6532107712096167,
+        "quarters": [
+          "2021Q2",
+          "2021Q4",
+          "2022Q1",
+          "2022Q3",
+          "2023Q3",
+          "2026Q2"
+        ],
+        "spearman_r": -0.6571428571428571
+      },
+      "gap_vs_volume": {
+        "n": 6,
+        "pearson_r": -0.5846570969685089,
+        "quarters": [
+          "2021Q2",
+          "2021Q4",
+          "2022Q1",
+          "2022Q3",
+          "2023Q3",
+          "2026Q2"
+        ],
+        "spearman_r": -0.7142857142857143
+      },
+      "mean_abs_margin_error_cpg": 6.624857135720716,
+      "mean_abs_revenue_gap_cpg": 3.3263001333294064,
+      "n": 6
+    }
+  },
+  "lagged_gap_vs_next_margin_error": {
+    "n": 22,
+    "pearson_r": 0.40643608242323076,
+    "quarters": [
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1",
+      "2024Q2",
+      "2024Q3",
+      "2024Q4",
+      "2025Q1",
+      "2025Q2",
+      "2025Q3",
+      "2025Q4",
+      "2026Q1",
+      "2026Q2"
+    ],
+    "spearman_r": 0.39808018068887635
+  },
+  "lagged_rows": [
+    {
+      "actual_minus_production_cpg": -3.3571265418797687,
+      "previous_revenue_gap_cpg": -3.608090071378001,
+      "prior_gap_available_at": "2021-02-19",
+      "prior_quarter": "2020Q4",
+      "quarter": "2021Q1",
+      "target_quarter_end_cutoff": "2021-03-31"
+    },
+    {
+      "actual_minus_production_cpg": -5.180859753382396,
+      "previous_revenue_gap_cpg": 8.393832398710089,
+      "prior_gap_available_at": "2021-04-29",
+      "prior_quarter": "2021Q1",
+      "quarter": "2021Q2",
+      "target_quarter_end_cutoff": "2021-06-30"
+    },
+    {
+      "actual_minus_production_cpg": 3.1510434904913325,
+      "previous_revenue_gap_cpg": -1.6787375308573473,
+      "prior_gap_available_at": "2021-07-29",
+      "prior_quarter": "2021Q2",
+      "quarter": "2021Q3",
+      "target_quarter_end_cutoff": "2021-09-30"
+    },
+    {
+      "actual_minus_production_cpg": 6.309437081649843,
+      "previous_revenue_gap_cpg": 4.222154579068729,
+      "prior_gap_available_at": "2021-10-28",
+      "prior_quarter": "2021Q3",
+      "quarter": "2021Q4",
+      "target_quarter_end_cutoff": "2021-12-31"
+    },
+    {
+      "actual_minus_production_cpg": -5.178742512014008,
+      "previous_revenue_gap_cpg": 1.5689719732140475,
+      "prior_gap_available_at": "2022-02-17",
+      "prior_quarter": "2021Q4",
+      "quarter": "2022Q1",
+      "target_quarter_end_cutoff": "2022-03-31"
+    },
+    {
+      "actual_minus_production_cpg": 2.772433895257837,
+      "previous_revenue_gap_cpg": 4.1141951471117295,
+      "prior_gap_available_at": "2022-05-05",
+      "prior_quarter": "2022Q1",
+      "quarter": "2022Q2",
+      "target_quarter_end_cutoff": "2022-06-30"
+    },
+    {
+      "actual_minus_production_cpg": 9.791776879808118,
+      "previous_revenue_gap_cpg": 1.296542631499733,
+      "prior_gap_available_at": "2022-07-28",
+      "prior_quarter": "2022Q2",
+      "quarter": "2022Q3",
+      "target_quarter_end_cutoff": "2022-09-30"
+    },
+    {
+      "actual_minus_production_cpg": 0.9398965687869456,
+      "previous_revenue_gap_cpg": -6.9144393961495325,
+      "prior_gap_available_at": "2022-10-27",
+      "prior_quarter": "2022Q3",
+      "quarter": "2022Q4",
+      "target_quarter_end_cutoff": "2022-12-31"
+    },
+    {
+      "actual_minus_production_cpg": 0.4167633750089941,
+      "previous_revenue_gap_cpg": 0.1699475298440234,
+      "prior_gap_available_at": "2023-02-15",
+      "prior_quarter": "2022Q4",
+      "quarter": "2023Q1",
+      "target_quarter_end_cutoff": "2023-03-31"
+    },
+    {
+      "actual_minus_production_cpg": -3.015562500819577,
+      "previous_revenue_gap_cpg": -4.113436333817333,
+      "prior_gap_available_at": "2023-05-04",
+      "prior_quarter": "2023Q1",
+      "quarter": "2023Q2",
+      "target_quarter_end_cutoff": "2023-06-30"
+    },
+    {
+      "actual_minus_production_cpg": -6.683410918305999,
+      "previous_revenue_gap_cpg": -7.888674296474051,
+      "prior_gap_available_at": "2023-08-03",
+      "prior_quarter": "2023Q2",
+      "quarter": "2023Q3",
+      "target_quarter_end_cutoff": "2023-09-30"
+    },
+    {
+      "actual_minus_production_cpg": 1.4963188191918064,
+      "previous_revenue_gap_cpg": 5.326815420102321,
+      "prior_gap_available_at": "2023-11-02",
+      "prior_quarter": "2023Q3",
+      "quarter": "2023Q4",
+      "target_quarter_end_cutoff": "2023-12-31"
+    },
+    {
+      "actual_minus_production_cpg": -0.9278780510969895,
+      "previous_revenue_gap_cpg": -2.2804361488352356,
+      "prior_gap_available_at": "2024-02-16",
+      "prior_quarter": "2023Q4",
+      "quarter": "2024Q1",
+      "target_quarter_end_cutoff": "2024-03-31"
+    },
+    {
+      "actual_minus_production_cpg": 2.4675124952485348,
+      "previous_revenue_gap_cpg": -0.6298910750009554,
+      "prior_gap_available_at": "2024-05-09",
+      "prior_quarter": "2024Q1",
+      "quarter": "2024Q2",
+      "target_quarter_end_cutoff": "2024-06-30"
+    },
+    {
+      "actual_minus_production_cpg": -0.5176038328933714,
+      "previous_revenue_gap_cpg": 1.0056758799578915,
+      "prior_gap_available_at": "2024-08-01",
+      "prior_quarter": "2024Q2",
+      "quarter": "2024Q3",
+      "target_quarter_end_cutoff": "2024-09-30"
+    },
+    {
+      "actual_minus_production_cpg": -1.8316087499574607,
+      "previous_revenue_gap_cpg": -4.17097761432575,
+      "prior_gap_available_at": "2024-10-31",
+      "prior_quarter": "2024Q3",
+      "quarter": "2024Q4",
+      "target_quarter_end_cutoff": "2024-12-31"
+    },
+    {
+      "actual_minus_production_cpg": -0.7687644484290352,
+      "previous_revenue_gap_cpg": 2.529260414550663,
+      "prior_gap_available_at": "2025-02-20",
+      "prior_quarter": "2024Q4",
+      "quarter": "2025Q1",
+      "target_quarter_end_cutoff": "2025-03-31"
+    },
+    {
+      "actual_minus_production_cpg": -4.487606755773019,
+      "previous_revenue_gap_cpg": -3.529530157957538,
+      "prior_gap_available_at": "2025-05-08",
+      "prior_quarter": "2025Q1",
+      "quarter": "2025Q2",
+      "target_quarter_end_cutoff": "2025-06-30"
+    },
+    {
+      "actual_minus_production_cpg": -2.1325246857703988,
+      "previous_revenue_gap_cpg": 1.9852979415373397,
+      "prior_gap_available_at": "2025-07-31",
+      "prior_quarter": "2025Q2",
+      "quarter": "2025Q3",
+      "target_quarter_end_cutoff": "2025-09-30"
+    },
+    {
+      "actual_minus_production_cpg": 0.8024332935143761,
+      "previous_revenue_gap_cpg": 3.5065150713580238,
+      "prior_gap_available_at": "2025-10-30",
+      "prior_quarter": "2025Q3",
+      "quarter": "2025Q4",
+      "target_quarter_end_cutoff": "2025-12-31"
+    },
+    {
+      "actual_minus_production_cpg": 0.08266436957322654,
+      "previous_revenue_gap_cpg": -1.7360287455275056,
+      "prior_gap_available_at": "2026-02-18",
+      "prior_quarter": "2025Q4",
+      "quarter": "2026Q1",
+      "target_quarter_end_cutoff": "2026-03-31"
+    },
+    {
+      "actual_minus_production_cpg": 6.60491566916393,
+      "previous_revenue_gap_cpg": 10.785290026770213,
+      "prior_gap_available_at": "2026-05-07",
+      "prior_quarter": "2026Q1",
+      "quarter": "2026Q2",
+      "target_quarter_end_cutoff": "2026-06-30"
+    }
+  ],
+  "new_coefficients_fitted": false,
+  "production_changed": false
+}

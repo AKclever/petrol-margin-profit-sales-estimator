@@ -1,0 +1,927 @@
+{
+  "automatic_promotion": false,
+  "blocked": [
+    {
+      "quarter": "2021Q1",
+      "reason": "FEWER_THAN_EIGHT_PUBLISHED_FEATURE_COMPLETE_QUARTERS"
+    }
+  ],
+  "created_at": "2026-10-08T09:07:52.565926+00:00",
+  "disclosure_example": {
+    "archived_score": {
+      "actual_available_at": "2025-07-30",
+      "actual_margin_cpg": 29.2,
+      "actual_source_url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2025/Murphy-USA-Inc--Reports-Second-Quarter-2025-Results/default.aspx",
+      "evaluation_role": "RETROSPECTIVE_MECHANICAL_REPLAY",
+      "frozen_forecast_sha256": "3d7f2cf173c3b6be8271187331f90229bb00e3f90320131f05267bb037a67d0f",
+      "incremental_abs_error_improvement": 3.8132331755963484,
+      "methodology_origin": "RETROSPECTIVE_PIT_RULE_REPLAY",
+      "outcome_sha256": "1220fa69cbe6006d891ab48352ddc5e57bd5b16304c292a9f247a540aa38f923",
+      "production_abs_error": 4.1154339541481555,
+      "production_forecast_same_as_of": 33.315433954148155,
+      "prospective_validation": false,
+      "quarter": "2025Q2",
+      "scored_at": "2026-10-07T09:56:45.196114+00:00",
+      "shadow_abs_error": 0.30220077855180705,
+      "shadow_forecast": 28.897799221448192,
+      "status": "SCORED_RESEARCH_REPLAY_NOT_VALIDATION",
+      "strict_replay_unchanged": true
+    },
+    "forecast_sha256": "3d7f2cf173c3b6be8271187331f90229bb00e3f90320131f05267bb037a67d0f",
+    "gallon_share_evidence_type": "PIT_MODELLED_GALLON_SHARE",
+    "gallon_share_method": "EIA_WEEKLY_DEMAND_52_WEEK_SEASONAL_PROXY_V1",
+    "limitations": "This transfers quarterly coefficients and a quarterly seasonal anchor to an unobserved monthly target. It is an explicit unvalidated research assumption, not an observed June2024 margin or a validated monthly model.",
+    "new_replay_or_validation": false,
+    "observed_gallon_share": 0.6597307719845121,
+    "recomputed_shadow_forecast_cpg": 28.897799221448192,
+    "remaining_margin_forecast_cpg": 27.536337697513318,
+    "role": "RETROSPECTIVE_MECHANICAL_REPLAY",
+    "score_sha256": "18dd33286874361f64da4607c3903c8d97cbcbc6a42faa128f6d9233d610399e",
+    "source": "data/historical_pit/2025Q2/2025-06-16/rule_replay_v1",
+    "strict_replay_status": "BLOCKED_MISSING_OBSERVED_COMPANY_GALLONS"
+  },
+  "feature_exclusions": [
+    {
+      "quarter": "2019Q1",
+      "reason": "missing regional state at 2018-12-31/Gulf Coast"
+    }
+  ],
+  "large_group": {
+    "challenger": {
+      "large_error_count": 3,
+      "large_error_frequency": 0.5,
+      "mae_cpg": 6.925792760951976,
+      "rmse_cpg": 8.580997575577207,
+      "worst_abs_error_cpg": 17.33377683943909
+    },
+    "n": 6,
+    "production": {
+      "large_error_count": 6,
+      "large_error_frequency": 1,
+      "mae_cpg": 6.624857135720716,
+      "rmse_cpg": 6.802468486278842,
+      "worst_abs_error_cpg": 9.791776879808118
+    }
+  },
+  "metrics": {
+    "challenger_directional_accuracy": 0.6190476190476191,
+    "challenger_mae_cpg": 4.327379721171573,
+    "challenger_rmse_cpg": 5.942739001319335,
+    "identical_backtest_rows": 21,
+    "mean_paired_improvement_cpg": -1.2054864761174204,
+    "paired_improvement_ci_low_cpg": -2.7495698449424935,
+    "passes_pre_registered_gate": false,
+    "production_directional_accuracy": 0.9047619047619048,
+    "production_mae_cpg": 3.121893245054152,
+    "production_rmse_cpg": 4.048203020079952,
+    "production_status": "UNCHANGED",
+    "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+    "recent_eight_challenger_directional_accuracy": 0.75,
+    "recent_eight_challenger_mae_cpg": 2.947276210855765,
+    "recent_eight_production_directional_accuracy": 0.75,
+    "recent_eight_production_mae_cpg": 2.153515225634352
+  },
+  "ordinary_group": {
+    "challenger": {
+      "large_error_count": 4,
+      "large_error_frequency": 0.26666666666666666,
+      "mae_cpg": 3.2880145052594116,
+      "rmse_cpg": 4.470928071004715,
+      "worst_abs_error_cpg": 10.840809322595033
+    },
+    "n": 15,
+    "production": {
+      "large_error_count": 0,
+      "large_error_frequency": 0,
+      "mae_cpg": 1.720707688787527,
+      "rmse_cpg": 2.1056342906049754,
+      "worst_abs_error_cpg": 4.487606755773019
+    }
+  },
+  "original_large_error_quarters": [
+    "2021Q2",
+    "2021Q4",
+    "2022Q1",
+    "2022Q3",
+    "2023Q3",
+    "2026Q2"
+  ],
+  "production_changed": false,
+  "q3_2026": {
+    "calibration": {
+      "active_features": [
+        1
+      ],
+      "alpha": 2,
+      "means": [
+        -0.8081957776273361
+      ],
+      "scales": [
+        2.3504280697736823
+      ],
+      "standardized_coefficients": [
+        29.1875,
+        1.215472756867103
+      ]
+    },
+    "eventual_actual_margin_cpg": null,
+    "gallon_basis": "NATIONAL_DEMAND_AND_REGIONAL_STORE_WEIGHT_PROXY",
+    "retail_margin_cpg": 26.984587167886136,
+    "role": "Q3_2026_POST_PATH_RESEARCH_SHADOW",
+    "training_quarters": [
+      "2024Q3",
+      "2024Q4",
+      "2025Q1",
+      "2025Q2",
+      "2025Q3",
+      "2025Q4",
+      "2026Q1",
+      "2026Q2"
+    ]
+  },
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_NOT_PIT_VALIDATION",
+  "rows": [
+    {
+      "actual_cpg": 21.8,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          77.1068037687308,
+          -0.3311642610454778
+        ],
+        "scales": [
+          7.809386565809664,
+          3.9374819244093797
+        ],
+        "standardized_coefficients": [
+          19.399999999999995,
+          4.560498996748224,
+          0.11603838224437135
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 17.61965833607089,
+      "production_prediction_cpg": 26.980859753382397,
+      "quarter": "2021Q2",
+      "training_quarters": [
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1"
+      ]
+    },
+    {
+      "actual_cpg": 24.0,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          77.48631674145356,
+          -0.5837153693686788
+        ],
+        "scales": [
+          7.57589995137054,
+          3.894525870688949
+        ],
+        "standardized_coefficients": [
+          20.450000000000003,
+          4.080954123088699,
+          0.1982807610935407
+        ]
+      },
+      "direction_correct": false,
+      "prediction_cpg": 17.916686858788715,
+      "production_prediction_cpg": 20.848956509508668,
+      "quarter": "2021Q3",
+      "training_quarters": [
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2"
+      ]
+    },
+    {
+      "actual_cpg": 25.5,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          77.59639747878248,
+          -0.5864713376340069
+        ],
+        "scales": [
+          7.499529748973577,
+          3.894283565910798
+        ],
+        "standardized_coefficients": [
+          21.149999999999995,
+          3.737383429734589,
+          0.23341167089337905
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 23.673980447852106,
+      "production_prediction_cpg": 19.190562918350157,
+      "quarter": "2021Q4",
+      "training_quarters": [
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3"
+      ]
+    },
+    {
+      "actual_cpg": 23.3,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          79.06906812083844,
+          -0.23758032835844362
+        ],
+        "scales": [
+          7.1234242352551,
+          3.9798408118971915
+        ],
+        "standardized_coefficients": [
+          22.475,
+          3.385307271725288,
+          0.2943052321816571
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 18.181505620110446,
+      "production_prediction_cpg": 28.47874251201401,
+      "quarter": "2022Q1",
+      "training_quarters": [
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4"
+      ]
+    },
+    {
+      "actual_cpg": 26.5,
+      "calibration": {
+        "active_features": [
+          0
+        ],
+        "alpha": 2,
+        "means": [
+          77.23551586764164
+        ],
+        "scales": [
+          7.155585505519864
+        ],
+        "standardized_coefficients": [
+          22.025000000000002,
+          2.7904226598517843
+        ]
+      },
+      "direction_correct": false,
+      "prediction_cpg": 15.659190677404967,
+      "production_prediction_cpg": 23.727566104742163,
+      "quarter": "2022Q2",
+      "training_quarters": [
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1"
+      ]
+    },
+    {
+      "actual_cpg": 39.3,
+      "calibration": {
+        "active_features": [
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          -1.4510640736850462
+        ],
+        "scales": [
+          1.8630329022473804
+        ],
+        "standardized_coefficients": [
+          21.375,
+          0.251462022656885
+        ]
+      },
+      "direction_correct": false,
+      "prediction_cpg": 21.966223160560908,
+      "production_prediction_cpg": 29.50822312019188,
+      "quarter": "2022Q3",
+      "training_quarters": [
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2"
+      ]
+    },
+    {
+      "actual_cpg": 28.3,
+      "calibration": {
+        "active_features": [
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          -0.9971484909247434
+        ],
+        "scales": [
+          2.364967420857852
+        ],
+        "standardized_coefficients": [
+          23.9125,
+          3.203644474939042
+        ]
+      },
+      "direction_correct": false,
+      "prediction_cpg": 22.70684808387518,
+      "production_prediction_cpg": 27.360103431213055,
+      "quarter": "2022Q4",
+      "training_quarters": [
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3"
+      ]
+    },
+    {
+      "actual_cpg": 23.2,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          72.5738412920241,
+          -0.9886894678495479
+        ],
+        "scales": [
+          6.674069181693015,
+          2.3616454860610543
+        ],
+        "standardized_coefficients": [
+          25.525,
+          0.5522258822074897,
+          2.3105632521155224
+        ]
+      },
+      "direction_correct": false,
+      "prediction_cpg": 25.4106570158978,
+      "production_prediction_cpg": 22.783236624991005,
+      "quarter": "2023Q1",
+      "training_quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4"
+      ]
+    },
+    {
+      "actual_cpg": 27.0,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          72.28654975369791,
+          -0.8317913926836658
+        ],
+        "scales": [
+          6.870216761993147,
+          2.340118582368268
+        ],
+        "standardized_coefficients": [
+          26.4875,
+          0.5778135173691115,
+          1.8805007568703427
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 28.632817676683562,
+      "production_prediction_cpg": 30.015562500819577,
+      "quarter": "2023Q2",
+      "training_quarters": [
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1"
+      ]
+    },
+    {
+      "actual_cpg": 28.7,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          72.62436013659021,
+          -0.5607036104810375
+        ],
+        "scales": [
+          7.015102200558517,
+          2.4509093610594994
+        ],
+        "standardized_coefficients": [
+          27.1375,
+          0.834119157788302,
+          1.5977843552063233
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 24.22298533480341,
+      "production_prediction_cpg": 35.383410918306,
+      "quarter": "2023Q3",
+      "training_quarters": [
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2"
+      ]
+    },
+    {
+      "actual_cpg": 31.1,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          72.25395512924344,
+          -1.0932714709302367
+        ],
+        "scales": [
+          7.0765314706225855,
+          2.768641965955143
+        ],
+        "standardized_coefficients": [
+          27.725,
+          1.1652797108067317,
+          1.0723417174128156
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 30.946021090035575,
+      "production_prediction_cpg": 29.603681180808195,
+      "quarter": "2023Q4",
+      "training_quarters": [
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3"
+      ]
+    },
+    {
+      "actual_cpg": 21.7,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          72.40633900978878,
+          -1.0356816194113883
+        ],
+        "scales": [
+          7.3019629397951595,
+          2.835313646266873
+        ],
+        "standardized_coefficients": [
+          28.425000000000004,
+          1.7979917565090413,
+          1.261351258107552
+        ]
+      },
+      "direction_correct": false,
+      "prediction_cpg": 26.515845593874328,
+      "production_prediction_cpg": 22.62787805109699,
+      "quarter": "2024Q1",
+      "training_quarters": [
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4"
+      ]
+    },
+    {
+      "actual_cpg": 29.7,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          72.17448243671156,
+          -0.896226542055047
+        ],
+        "scales": [
+          7.381702446810894,
+          2.6866153840825415
+        ],
+        "standardized_coefficients": [
+          28.225,
+          2.0309517601934806,
+          1.0959291675392255
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 32.730543780803416,
+      "production_prediction_cpg": 27.232487504751465,
+      "quarter": "2024Q2",
+      "training_quarters": [
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1"
+      ]
+    },
+    {
+      "actual_cpg": 31.9,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          74.88986900014442,
+          -0.0698548291843597
+        ],
+        "scales": [
+          6.7034118086531205,
+          2.768837065717476
+        ],
+        "standardized_coefficients": [
+          28.625000000000004,
+          2.3748487748549114,
+          0.7067079018736785
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 34.15947456997305,
+      "production_prediction_cpg": 32.41760383289337,
+      "quarter": "2024Q3",
+      "training_quarters": [
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2"
+      ]
+    },
+    {
+      "actual_cpg": 28.9,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          75.73037791377108,
+          -0.15360428024175238
+        ],
+        "scales": [
+          7.8751377395408015,
+          2.685743721962638
+        ],
+        "standardized_coefficients": [
+          27.7,
+          2.01046324727723,
+          0.16299726473122497
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 29.54141963798753,
+      "production_prediction_cpg": 30.73160874995746,
+      "quarter": "2024Q4",
+      "training_quarters": [
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3"
+      ]
+    },
+    {
+      "actual_cpg": 23.7,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          77.53488635890547,
+          -0.05433653735646349
+        ],
+        "scales": [
+          7.716819269822075,
+          2.634012659588403
+        ],
+        "standardized_coefficients": [
+          27.775,
+          2.1782881134502516,
+          0.23752960449785984
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 28.095407332385598,
+      "production_prediction_cpg": 24.468764448429035,
+      "quarter": "2025Q1",
+      "training_quarters": [
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4"
+      ]
+    },
+    {
+      "actual_cpg": 29.2,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          79.09183364536331,
+          -0.15880815233771717
+        ],
+        "scales": [
+          6.530424256370152,
+          2.670116358762997
+        ],
+        "standardized_coefficients": [
+          27.8375,
+          1.4117610545517196,
+          0.704718416361157
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 29.60525095124562,
+      "production_prediction_cpg": 33.68760675577302,
+      "quarter": "2025Q2",
+      "training_quarters": [
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1"
+      ]
+    },
+    {
+      "actual_cpg": 28.3,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          80.49057431218927,
+          -0.42176622349936177
+        ],
+        "scales": [
+          7.0630512425816,
+          2.6097963290330566
+        ],
+        "standardized_coefficients": [
+          28.1125,
+          1.2609259221389624,
+          0.9152028604828238
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 28.14245877122684,
+      "production_prediction_cpg": 30.4325246857704,
+      "quarter": "2025Q3",
+      "training_quarters": [
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2"
+      ]
+    },
+    {
+      "actual_cpg": 31.0,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          81.80614476401135,
+          0.11173670449164452
+        ],
+        "scales": [
+          5.81760372740175,
+          2.106346464239577
+        ],
+        "standardized_coefficients": [
+          28.0625,
+          1.6088704872526427,
+          1.3791659495250463
+        ]
+      },
+      "direction_correct": true,
+      "prediction_cpg": 30.902608630515605,
+      "production_prediction_cpg": 30.197566706485624,
+      "quarter": "2025Q4",
+      "training_quarters": [
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2",
+        "2025Q3"
+      ]
+    },
+    {
+      "actual_cpg": 25.4,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          82.21548506974091,
+          0.10039498448805234
+        ],
+        "scales": [
+          6.038685859229487,
+          2.0941512645030027
+        ],
+        "standardized_coefficients": [
+          28.05,
+          1.695568399049637,
+          1.2551680170271133
+        ]
+      },
+      "direction_correct": false,
+      "prediction_cpg": 18.397384868112855,
+      "production_prediction_cpg": 25.317335630426772,
+      "quarter": "2026Q1",
+      "training_quarters": [
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2",
+        "2025Q3",
+        "2025Q4"
+      ]
+    },
+    {
+      "actual_cpg": 35.1,
+      "calibration": {
+        "active_features": [
+          0,
+          1
+        ],
+        "alpha": 2,
+        "means": [
+          81.11125054755551,
+          -0.1804628613042924
+        ],
+        "scales": [
+          8.6339344804984,
+          2.622395159125442
+        ],
+        "standardized_coefficients": [
+          28.5125,
+          0.7196182884542,
+          1.0725116745054537
+        ]
+      },
+      "direction_correct": false,
+      "prediction_cpg": 26.480890534890385,
+      "production_prediction_cpg": 28.49508433083607,
+      "quarter": "2026Q2",
+      "training_quarters": [
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2",
+        "2025Q3",
+        "2025Q4",
+        "2026Q1"
+      ]
+    }
+  ],
+  "tail_metrics": {
+    "challenger": {
+      "large_error_count": 7,
+      "large_error_frequency": 0.3333333333333333,
+      "mae_cpg": 4.327379721171573,
+      "rmse_cpg": 5.942739001319335,
+      "worst_abs_error_cpg": 17.33377683943909
+    },
+    "n": 21,
+    "production": {
+      "large_error_count": 6,
+      "large_error_frequency": 0.2857142857142857,
+      "mae_cpg": 3.121893245054152,
+      "rmse_cpg": 4.048203020079952,
+      "worst_abs_error_cpg": 9.791776879808118
+    }
+  }
+}

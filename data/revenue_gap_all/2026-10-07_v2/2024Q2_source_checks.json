@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "audit_result": "CAPTURED_PENDING_VALUE_REVIEW",
+      "captured_at": "2026-10-07T15:43:35.426479+00:00",
+      "date_precision": "DATE_ONLY",
+      "publication_date": "2024-08-01",
+      "quarter": "2024Q2",
+      "raw_file": "sources/2024Q2_filing.html",
+      "sha256": "be7f628d331345aba76ce3b735355e9502b87d1deeb36bf6700709263a2024a9",
+      "source_type": "10-Q",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000046/musa-20240630.htm"
+    },
+    {
+      "audit_result": "CAPTURED_PENDING_VALUE_REVIEW",
+      "captured_at": "2026-10-07T15:43:35.495556+00:00",
+      "date_precision": "DATE_ONLY",
+      "publication_date": "2024-07-31",
+      "quarter": "2024Q2",
+      "raw_file": "sources/2024Q2_cover.html",
+      "sha256": "7f33bc0b2291fccca1e4c168faadfe3990d0214d5d922d30710f6e8da32a0ba6",
+      "source_type": "SEC_EARNINGS_8K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000044/musa-20240731.htm"
+    },
+    {
+      "audit_result": "CAPTURED_PENDING_VALUE_REVIEW",
+      "captured_at": "2026-10-07T15:43:35.707035+00:00",
+      "date_precision": "DATE_ONLY",
+      "publication_date": "2024-07-31",
+      "quarter": "2024Q2",
+      "raw_file": "sources/2024Q2_release.html",
+      "sha256": "e36ff6c4d5c4cd89c1fe72f1b0da6a2f79e12b9b730f36a7c08628aad7e193ac",
+      "source_type": "SEC_EARNINGS_EXHIBIT",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351624000044/exh991_06302024er.htm"
+    }
+  ]
+}

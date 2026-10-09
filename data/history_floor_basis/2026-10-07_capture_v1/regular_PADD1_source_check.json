@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:20.108985+00:00",
+  "captured_at": "2026-10-07T16:15:20.108970+00:00",
+  "key": "regular_PADD1",
+  "original_index_locator_or_series": "EMM_EPMR_PTE_R10_DPG",
+  "raw_file": "regular_PADD1.xls",
+  "sha256": "ccd5a1fda5e23838fd2a95d61c6ae115eda88d2b00febe5bc482d1dad046ccab",
+  "source_type": "EIA_RETAIL_XLS",
+  "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EMM_EPMR_PTE_R10_DPGw.xls",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

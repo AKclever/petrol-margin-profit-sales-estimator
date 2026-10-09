@@ -1,0 +1,751 @@
+{
+  "aaa_automation_status": "DISABLED_PENDING_PERMISSION_REVIEW",
+  "acquisition_mode": "REPROCESS_EXISTING_RAW_CAPTURE",
+  "backtest_status": "BLOCKED_DAILY_RETAIL_HISTORY",
+  "captured_at": "2026-10-07T14:51:39.189010+00:00",
+  "daily_margin_forecast": null,
+  "daily_retail_historical_dates": [
+    "2026-10-07"
+  ],
+  "input_hashes": {
+    "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/daily_prices.py": "c06d0bd1a5d49f4ccfcef62981d050433b76749185d34e629248a4cdf3427065",
+    "data/actuals.csv": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+    "data/daily_prices_spec_v1.json": "d06d6b84c71daf05dc06f72167215b5a3b4eca6405d411c873fa5dc68109973d"
+  },
+  "processed_at": "2026-10-07T15:00:52.526420+00:00",
+  "production_changed": false,
+  "quarterly_wholesale_path_diagnostics": [
+    {
+      "quarter": "2019Q1",
+      "regions": {
+        "NYH": {
+          "daily_observations": 61,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 16.399999999999977,
+          "mean_within_week_range_cpg": 7.461538461538453,
+          "negative_daily_move_magnitude_total_cpg": 53.29999999999981,
+          "positive_daily_move_total_cpg": 101.99999999999983,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 61,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 21.099999999999994,
+          "mean_within_week_range_cpg": 9.338461538461543,
+          "negative_daily_move_magnitude_total_cpg": 57.20000000000002,
+          "positive_daily_move_total_cpg": 120.6,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2019Q2",
+      "regions": {
+        "NYH": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 18.100000000000023,
+          "mean_within_week_range_cpg": 9.976923076923072,
+          "negative_daily_move_magnitude_total_cpg": 94.39999999999998,
+          "positive_daily_move_total_cpg": 96.0,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 17.099999999999994,
+          "mean_within_week_range_cpg": 8.492307692307698,
+          "negative_daily_move_magnitude_total_cpg": 98.89999999999998,
+          "positive_daily_move_total_cpg": 86.99999999999991,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2019Q3",
+      "regions": {
+        "NYH": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 21.0,
+          "mean_within_week_range_cpg": 8.246153846153854,
+          "negative_daily_move_magnitude_total_cpg": 96.30000000000015,
+          "positive_daily_move_total_cpg": 94.50000000000017,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 15.400000000000006,
+          "mean_within_week_range_cpg": 8.630769230769229,
+          "negative_daily_move_magnitude_total_cpg": 104.19999999999993,
+          "positive_daily_move_total_cpg": 100.79999999999993,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2019Q4",
+      "regions": {
+        "NYH": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 8.900000000000006,
+          "mean_within_week_range_cpg": 5.01428571428571,
+          "negative_daily_move_magnitude_total_cpg": 45.59999999999994,
+          "positive_daily_move_total_cpg": 64.69999999999993,
+          "weeks_with_at_least_two_observations": 14
+        },
+        "USGC": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 9.200000000000017,
+          "mean_within_week_range_cpg": 5.035714285714286,
+          "negative_daily_move_magnitude_total_cpg": 46.0,
+          "positive_daily_move_total_cpg": 64.1,
+          "weeks_with_at_least_two_observations": 14
+        }
+      }
+    },
+    {
+      "quarter": "2020Q1",
+      "regions": {
+        "NYH": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 28.0,
+          "mean_within_week_range_cpg": 9.98571428571429,
+          "negative_daily_move_magnitude_total_cpg": 190.60000000000005,
+          "positive_daily_move_total_cpg": 68.90000000000003,
+          "weeks_with_at_least_two_observations": 14
+        },
+        "USGC": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 23.400000000000006,
+          "mean_within_week_range_cpg": 10.978571428571433,
+          "negative_daily_move_magnitude_total_cpg": 217.20000000000002,
+          "positive_daily_move_total_cpg": 90.49999999999999,
+          "weeks_with_at_least_two_observations": 14
+        }
+      }
+    },
+    {
+      "quarter": "2020Q2",
+      "regions": {
+        "NYH": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 16.09999999999998,
+          "mean_within_week_range_cpg": 8.299999999999999,
+          "negative_daily_move_magnitude_total_cpg": 81.1,
+          "positive_daily_move_total_cpg": 143.19999999999996,
+          "weeks_with_at_least_two_observations": 14
+        },
+        "USGC": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 15.400000000000006,
+          "mean_within_week_range_cpg": 9.971428571428575,
+          "negative_daily_move_magnitude_total_cpg": 87.10000000000002,
+          "positive_daily_move_total_cpg": 151.4,
+          "weeks_with_at_least_two_observations": 14
+        }
+      }
+    },
+    {
+      "quarter": "2020Q3",
+      "regions": {
+        "NYH": {
+          "daily_observations": 64,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 12.500000000000014,
+          "mean_within_week_range_cpg": 5.935714285714286,
+          "negative_daily_move_magnitude_total_cpg": 69.69999999999999,
+          "positive_daily_move_total_cpg": 83.5,
+          "weeks_with_at_least_two_observations": 14
+        },
+        "USGC": {
+          "daily_observations": 64,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 12.799999999999997,
+          "mean_within_week_range_cpg": 7.1999999999999975,
+          "negative_daily_move_magnitude_total_cpg": 79.70000000000003,
+          "positive_daily_move_total_cpg": 90.70000000000003,
+          "weeks_with_at_least_two_observations": 14
+        }
+      }
+    },
+    {
+      "quarter": "2020Q4",
+      "regions": {
+        "NYH": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 8.999999999999986,
+          "mean_within_week_range_cpg": 5.27142857142857,
+          "negative_daily_move_magnitude_total_cpg": 53.79999999999998,
+          "positive_daily_move_total_cpg": 81.59999999999998,
+          "weeks_with_at_least_two_observations": 14
+        },
+        "USGC": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 10.200000000000003,
+          "mean_within_week_range_cpg": 5.492857142857141,
+          "negative_daily_move_magnitude_total_cpg": 57.09999999999994,
+          "positive_daily_move_total_cpg": 84.19999999999997,
+          "weeks_with_at_least_two_observations": 14
+        }
+      }
+    },
+    {
+      "quarter": "2021Q1",
+      "regions": {
+        "NYH": {
+          "daily_observations": 61,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 27.599999999999994,
+          "mean_within_week_range_cpg": 9.661538461538461,
+          "negative_daily_move_magnitude_total_cpg": 75.9,
+          "positive_daily_move_total_cpg": 119.29999999999998,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 61,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 20.299999999999983,
+          "mean_within_week_range_cpg": 8.392307692307687,
+          "negative_daily_move_magnitude_total_cpg": 70.99999999999989,
+          "positive_daily_move_total_cpg": 117.09999999999991,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2021Q2",
+      "regions": {
+        "NYH": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 15.399999999999977,
+          "mean_within_week_range_cpg": 6.676923076923075,
+          "negative_daily_move_magnitude_total_cpg": 63.50000000000006,
+          "positive_daily_move_total_cpg": 86.90000000000006,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 14.400000000000006,
+          "mean_within_week_range_cpg": 6.392307692307696,
+          "negative_daily_move_magnitude_total_cpg": 62.900000000000006,
+          "positive_daily_move_total_cpg": 84.40000000000006,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2021Q3",
+      "regions": {
+        "NYH": {
+          "daily_observations": 64,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 21.099999999999966,
+          "mean_within_week_range_cpg": 8.207142857142843,
+          "negative_daily_move_magnitude_total_cpg": 93.5999999999998,
+          "positive_daily_move_total_cpg": 113.89999999999978,
+          "weeks_with_at_least_two_observations": 14
+        },
+        "USGC": {
+          "daily_observations": 64,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 31.30000000000001,
+          "mean_within_week_range_cpg": 10.535714285714286,
+          "negative_daily_move_magnitude_total_cpg": 117.20000000000005,
+          "positive_daily_move_total_cpg": 134.90000000000003,
+          "weeks_with_at_least_two_observations": 14
+        }
+      }
+    },
+    {
+      "quarter": "2021Q4",
+      "regions": {
+        "NYH": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 15.400000000000006,
+          "mean_within_week_range_cpg": 9.307692307692308,
+          "negative_daily_move_magnitude_total_cpg": 108.60000000000002,
+          "positive_daily_move_total_cpg": 124.30000000000001,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 17.400000000000034,
+          "mean_within_week_range_cpg": 9.346153846153864,
+          "negative_daily_move_magnitude_total_cpg": 100.00000000000014,
+          "positive_daily_move_total_cpg": 111.50000000000017,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2022Q1",
+      "regions": {
+        "NYH": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 58.80000000000001,
+          "mean_within_week_range_cpg": 19.076923076923073,
+          "negative_daily_move_magnitude_total_cpg": 177.0000000000001,
+          "positive_daily_move_total_cpg": 255.10000000000014,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 80.00000000000006,
+          "mean_within_week_range_cpg": 21.115384615384617,
+          "negative_daily_move_magnitude_total_cpg": 186.6,
+          "positive_daily_move_total_cpg": 269.4,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2022Q2",
+      "regions": {
+        "NYH": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 43.00000000000006,
+          "mean_within_week_range_cpg": 27.107692307692318,
+          "negative_daily_move_magnitude_total_cpg": 234.50000000000017,
+          "positive_daily_move_total_cpg": 295.7000000000001,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 50.400000000000034,
+          "mean_within_week_range_cpg": 27.984615384615385,
+          "negative_daily_move_magnitude_total_cpg": 220.7000000000001,
+          "positive_daily_move_total_cpg": 297.7000000000001,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2022Q3",
+      "regions": {
+        "NYH": {
+          "daily_observations": 64,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 36.30000000000001,
+          "mean_within_week_range_cpg": 21.076923076923073,
+          "negative_daily_move_magnitude_total_cpg": 266.0999999999999,
+          "positive_daily_move_total_cpg": 189.10000000000005,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 64,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 53.5,
+          "mean_within_week_range_cpg": 21.938461538461535,
+          "negative_daily_move_magnitude_total_cpg": 285.7,
+          "positive_daily_move_total_cpg": 205.89999999999998,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2022Q4",
+      "regions": {
+        "NYH": {
+          "daily_observations": 61,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 29.400000000000006,
+          "mean_within_week_range_cpg": 18.561538461538472,
+          "negative_daily_move_magnitude_total_cpg": 173.20000000000016,
+          "positive_daily_move_total_cpg": 181.40000000000012,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 61,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 48.69999999999999,
+          "mean_within_week_range_cpg": 22.10000000000001,
+          "negative_daily_move_magnitude_total_cpg": 220.9,
+          "positive_daily_move_total_cpg": 233.50000000000003,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2023Q1",
+      "regions": {
+        "NYH": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 22.30000000000004,
+          "mean_within_week_range_cpg": 13.900000000000006,
+          "negative_daily_move_magnitude_total_cpg": 130.19999999999993,
+          "positive_daily_move_total_cpg": 138.59999999999997,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 37.29999999999998,
+          "mean_within_week_range_cpg": 17.999999999999996,
+          "negative_daily_move_magnitude_total_cpg": 154.3,
+          "positive_daily_move_total_cpg": 170.90000000000006,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2023Q2",
+      "regions": {
+        "NYH": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 24.599999999999966,
+          "mean_within_week_range_cpg": 12.73076923076922,
+          "negative_daily_move_magnitude_total_cpg": 130.89999999999986,
+          "positive_daily_move_total_cpg": 136.8999999999998,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 24.30000000000004,
+          "mean_within_week_range_cpg": 13.407692307692322,
+          "negative_daily_move_magnitude_total_cpg": 161.40000000000023,
+          "positive_daily_move_total_cpg": 152.50000000000017,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2023Q3",
+      "regions": {
+        "NYH": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 22.30000000000001,
+          "mean_within_week_range_cpg": 12.238461538461543,
+          "negative_daily_move_magnitude_total_cpg": 128.2999999999999,
+          "positive_daily_move_total_cpg": 138.09999999999994,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 21.19999999999999,
+          "mean_within_week_range_cpg": 11.792307692307702,
+          "negative_daily_move_magnitude_total_cpg": 121.59999999999997,
+          "positive_daily_move_total_cpg": 148.39999999999995,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2023Q4",
+      "regions": {
+        "NYH": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 49.69999999999999,
+          "mean_within_week_range_cpg": 14.64615384615385,
+          "negative_daily_move_magnitude_total_cpg": 193.6000000000001,
+          "positive_daily_move_total_cpg": 121.2000000000001,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 23.299999999999955,
+          "mean_within_week_range_cpg": 13.038461538461528,
+          "negative_daily_move_magnitude_total_cpg": 169.59999999999988,
+          "positive_daily_move_total_cpg": 116.39999999999992,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2024Q1",
+      "regions": {
+        "NYH": {
+          "daily_observations": 61,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 17.600000000000023,
+          "mean_within_week_range_cpg": 8.338461538461537,
+          "negative_daily_move_magnitude_total_cpg": 76.99999999999994,
+          "positive_daily_move_total_cpg": 117.79999999999995,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 61,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 14.900000000000006,
+          "mean_within_week_range_cpg": 9.723076923076926,
+          "negative_daily_move_magnitude_total_cpg": 80.80000000000004,
+          "positive_daily_move_total_cpg": 136.4,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2024Q2",
+      "regions": {
+        "NYH": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 18.19999999999999,
+          "mean_within_week_range_cpg": 7.86923076923077,
+          "negative_daily_move_magnitude_total_cpg": 96.09999999999994,
+          "positive_daily_move_total_cpg": 77.19999999999999,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 63,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 17.69999999999999,
+          "mean_within_week_range_cpg": 9.030769230769213,
+          "negative_daily_move_magnitude_total_cpg": 108.39999999999984,
+          "positive_daily_move_total_cpg": 83.29999999999987,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2024Q3",
+      "regions": {
+        "NYH": {
+          "daily_observations": 64,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 14.900000000000006,
+          "mean_within_week_range_cpg": 7.238461538461531,
+          "negative_daily_move_magnitude_total_cpg": 114.59999999999994,
+          "positive_daily_move_total_cpg": 86.39999999999992,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 64,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 23.400000000000006,
+          "mean_within_week_range_cpg": 10.53076923076923,
+          "negative_daily_move_magnitude_total_cpg": 141.60000000000002,
+          "positive_daily_move_total_cpg": 111.30000000000004,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2024Q4",
+      "regions": {
+        "NYH": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 12.300000000000011,
+          "mean_within_week_range_cpg": 5.928571428571426,
+          "negative_daily_move_magnitude_total_cpg": 77.9,
+          "positive_daily_move_total_cpg": 93.19999999999996,
+          "weeks_with_at_least_two_observations": 14
+        },
+        "USGC": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 12.800000000000011,
+          "mean_within_week_range_cpg": 6.1857142857142815,
+          "negative_daily_move_magnitude_total_cpg": 83.60000000000005,
+          "positive_daily_move_total_cpg": 102.1,
+          "weeks_with_at_least_two_observations": 14
+        }
+      }
+    },
+    {
+      "quarter": "2025Q1",
+      "regions": {
+        "NYH": {
+          "daily_observations": 60,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 19.600000000000023,
+          "mean_within_week_range_cpg": 6.292307692307693,
+          "negative_daily_move_magnitude_total_cpg": 80.60000000000005,
+          "positive_daily_move_total_cpg": 80.30000000000007,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 60,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 13.200000000000017,
+          "mean_within_week_range_cpg": 6.307692307692303,
+          "negative_daily_move_magnitude_total_cpg": 73.69999999999993,
+          "positive_daily_move_total_cpg": 90.29999999999995,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2025Q2",
+      "regions": {
+        "NYH": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 30.49999999999997,
+          "mean_within_week_range_cpg": 11.03846153846154,
+          "negative_daily_move_magnitude_total_cpg": 111.70000000000007,
+          "positive_daily_move_total_cpg": 114.70000000000002,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 25.30000000000001,
+          "mean_within_week_range_cpg": 9.14615384615385,
+          "negative_daily_move_magnitude_total_cpg": 101.30000000000001,
+          "positive_daily_move_total_cpg": 93.59999999999994,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2025Q3",
+      "regions": {
+        "NYH": {
+          "daily_observations": 64,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 17.80000000000001,
+          "mean_within_week_range_cpg": 5.664285714285709,
+          "negative_daily_move_magnitude_total_cpg": 71.19999999999993,
+          "positive_daily_move_total_cpg": 74.49999999999991,
+          "weeks_with_at_least_two_observations": 14
+        },
+        "USGC": {
+          "daily_observations": 64,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 15.300000000000011,
+          "mean_within_week_range_cpg": 6.085714285714289,
+          "negative_daily_move_magnitude_total_cpg": 92.20000000000002,
+          "positive_daily_move_total_cpg": 80.39999999999998,
+          "weeks_with_at_least_two_observations": 14
+        }
+      }
+    },
+    {
+      "quarter": "2025Q4",
+      "regions": {
+        "NYH": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 11.900000000000006,
+          "mean_within_week_range_cpg": 5.478571428571428,
+          "negative_daily_move_magnitude_total_cpg": 75.29999999999998,
+          "positive_daily_move_total_cpg": 59.400000000000006,
+          "weeks_with_at_least_two_observations": 14
+        },
+        "USGC": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 15.69999999999996,
+          "mean_within_week_range_cpg": 7.921428571428568,
+          "negative_daily_move_magnitude_total_cpg": 113.19999999999996,
+          "positive_daily_move_total_cpg": 86.99999999999997,
+          "weeks_with_at_least_two_observations": 14
+        }
+      }
+    },
+    {
+      "quarter": "2026Q1",
+      "regions": {
+        "NYH": {
+          "daily_observations": 61,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 41.69999999999999,
+          "mean_within_week_range_cpg": 17.484615384615378,
+          "negative_daily_move_magnitude_total_cpg": 125.89999999999989,
+          "positive_daily_move_total_cpg": 259.29999999999995,
+          "weeks_with_at_least_two_observations": 13
+        },
+        "USGC": {
+          "daily_observations": 61,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 61.69999999999999,
+          "mean_within_week_range_cpg": 19.984615384615385,
+          "negative_daily_move_magnitude_total_cpg": 145.10000000000005,
+          "positive_daily_move_total_cpg": 275.70000000000005,
+          "weeks_with_at_least_two_observations": 13
+        }
+      }
+    },
+    {
+      "quarter": "2026Q2",
+      "regions": {
+        "NYH": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 40.099999999999966,
+          "mean_within_week_range_cpg": 19.807142857142857,
+          "negative_daily_move_magnitude_total_cpg": 223.39999999999992,
+          "positive_daily_move_total_cpg": 232.2999999999999,
+          "weeks_with_at_least_two_observations": 14
+        },
+        "USGC": {
+          "daily_observations": 62,
+          "interpretation": "WHOLESALE_PATH_DIAGNOSTIC_NOT_REALIZED_MUSA_MARGIN",
+          "maximum_within_week_range_cpg": 37.5,
+          "mean_within_week_range_cpg": 20.0142857142857,
+          "negative_daily_move_magnitude_total_cpg": 231.19999999999987,
+          "positive_daily_move_total_cpg": 243.19999999999982,
+          "weeks_with_at_least_two_observations": 14
+        }
+      }
+    }
+  ],
+  "retail_observations": 51,
+  "source_archive_manifest_sha256": "48a950b13155c16bdfe882bdb94cbd7a555580a3114892bb59fd86af35fc8a0c",
+  "sources": [
+    {
+      "captured_at": "2026-10-07T14:51:39.189010+00:00",
+      "raw_file": "NYH.xls",
+      "sha256": "177a8512983a6c16a4c6981b1f4fcf10ba7323357d0fb11c9a91f9eb8bffc1fb",
+      "url": "https://www.eia.gov/dnav/pet/hist_xls/EER_EPMRU_PF4_Y35NY_DPGd.xls"
+    },
+    {
+      "captured_at": "2026-10-07T14:51:39.189010+00:00",
+      "raw_file": "USGC.xls",
+      "sha256": "9e2d77a112486a0d8fc14b08dafcbb66e02e98bf052babaedf90397b49f42d50",
+      "url": "https://www.eia.gov/dnav/pet/hist_xls/EER_EPMRU_PF4_RGC_DPGd.xls"
+    },
+    {
+      "capture_mode": "LOCAL_FEASIBILITY_SNAPSHOT",
+      "raw_file": "aaa_snapshot.html",
+      "sha256": "8af9741035a9096aa10037c39ca0d9aa3486edf127a97ff1dc298f16769a8022",
+      "url": "https://gasprices.aaa.com/"
+    }
+  ],
+  "specification": {
+    "automated_aaa": "Disabled unless an explicit permission artifact is supplied; robots allowances alone are not a data license",
+    "availability": "First capture timestamp is conservative available_at for snapshots; historical EIA download is current-vintage research, not historical PIT evidence",
+    "daily_shadow_scoring": "Not authorized without a supported historical paired dataset and a separately frozen estimator",
+    "features": [
+      "mean exact-date spread",
+      "spread change on consecutive calendar dates",
+      "positive and negative spread-change totals separately",
+      "within-week wholesale high-low range as diagnostic only"
+    ],
+    "id": "MUSA_DAILY_PRICE_INFORMATION_V1",
+    "joins": "Exact observed-date matches only; do not interpolate or forward-fill weekly retail prices",
+    "missing_history": "BLOCKED_DAILY_RETAIL_HISTORY when no genuine archived daily retail history exists",
+    "paid_data": false,
+    "production_changed": false,
+    "retail_basis": "AAA state average regular gasoline, not MUSA pump prices; no regional gallon-weight equivalence claimed",
+    "source_scope": "EIA daily NYH/USGC conventional gasoline spot prices plus dated AAA state regular-price snapshots",
+    "status": "FROZEN_BEFORE_EVALUATION"
+  },
+  "wholesale_observations": 18353
+}

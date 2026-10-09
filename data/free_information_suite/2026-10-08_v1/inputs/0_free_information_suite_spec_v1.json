@@ -1,0 +1,17 @@
+{
+  "id": "MUSA_FREE_INFORMATION_SUITE_V1",
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_NOT_PIT_VALIDATION",
+  "production_changed": false,
+  "rack_series": "EMA_EPMR_PRG_NUS_DPG monthly US regular gasoline rack sales price by refiners, excluding taxes",
+  "rack_candidate": "production minus 0.5 times year-over-year change in (quarterly national monthly rack average minus existing regional weekly spot average)",
+  "rack_weight": "Fixed 0.5 before scoring; no fitting or optimization; broad national-v-regional diagnostic, not observed company rack costs",
+  "rack_coverage": "Require all three current and all three prior-year months; no extrapolation after March 2022; no monthly release-date assumption",
+  "rack_periods": "Same-quarter full-period explanatory test using today's archive; historical publication vintages not verified and lagged monthly values may have been unavailable at quarter-end",
+  "regimes": "Earlier pre2020, transition2020 and modern2021+ reported separately",
+  "metrics": ["MAE", "RMSE", "abs error >=5c frequency", "original large-error group", "original ordinary group"],
+  "regional_context": "Rerun frozen regional stocks/utilization and lagged revenue-gap experiments without changing specifications; summarize previously frozen all-grade/diesel and daily-price coverage separately",
+  "disclosures": "Reproduce all archived mechanical scoring links and arithmetic; preserve observed versus modelled gallon distinction; no new source completeness claim",
+  "pump_panel": "Run existing manual-only readiness validation; no fabricated station prices or permission bypass",
+  "commercial_rack": "No purchase, free trial enrollment or licensing commitment authorized; continuous local series remains blocked",
+  "promotion": "None automatic; even a positive tiny historical rack result would not establish live predictive utility"
+}

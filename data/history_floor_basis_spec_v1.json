@@ -1,0 +1,39 @@
+{
+  "spec_id": "MUSA_HISTORY_FLOOR_FUEL_BASIS_V1",
+  "production_changed": false,
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_RESEARCH_NOT_STRICT_PIT",
+  "history": {
+    "target_scope": "2013Q3 onward, post-spin company reporting; no chart digitization",
+    "source_order": ["SEC original earnings exhibits", "SEC original quarterly/annual filings", "Issuer original earnings releases"],
+    "target": "Retail fuel margin, excluding supply/RIN and payment fees where disclosed",
+    "reconciliation": "Reported retail fuel contribution divided by reported retail gallons within rounding tolerance",
+    "regimes": {"earlier_low_margin":"before2020", "transition":"2020", "later_regime":"2021onward"},
+    "old_history_use": "Separate expanding-window old-history model for earlier regime; frozen existing 2019-start production model retained for later regime, not blind pooling",
+    "source_gaps": "Explicitly blocked; no quarterly outcomes inferred from annual averages"
+  },
+  "floor": {
+    "hypothesis": "Previously reported retailer cost and volume pressure can shift required pricing economics",
+    "features": ["prior_quarter_yoy_station_operating_cost_per_gallon_change", "negative_prior_quarter_reported_sss_volume_growth"],
+    "proxy_scope": "MUSA own disclosed station operating cost, not competitors or industry wage measurement",
+    "feature_basis": "One consistent station-operating-expense total divided by chain gallons; cost/volume proxy only, never add expense to gross margin mechanically",
+    "source_available_before_cutoff": true,
+    "minimum_training_published_oof_residuals": 8,
+    "ridge_alpha": 2.0,
+    "shrinkage": 0.5,
+    "no_negative_sss_assumption": "Use signed negative growth feature, not a clipped posthoc threshold"
+  },
+  "fuel_basis": {
+    "experiments": ["all_grade_gasoline_retail_replaces_regular_with_same_wholesale", "diesel_price_yoy_change_as_context_only_residual_feature"],
+    "diesel_is_company_mix": false,
+    "all_grade_weights_are_company_mix": false,
+    "geographic_weights": "Existing frozen weights.csv; no optimized regional weights",
+    "minimum_training_residuals": 8,
+    "ridge_alpha": 2.0,
+    "shrinkage": 0.5,
+    "diesel_wholesale_substitution": "FORBIDDEN gasoline spot not labelled diesel acquisition cost"
+  },
+  "evaluation": "Matched expanding-window rows, reported separately by regime; fixed existing promotion gate and recent8; no adaptive feature selection",
+  "promotion": "NOT_AUTOMATIC even if historical gate passes; previously mined history is developmental",
+  "threshold_tuning": false,
+  "combined_challenger": false
+}

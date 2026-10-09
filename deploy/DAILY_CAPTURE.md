@@ -1,5 +1,31 @@
 # Daily capture deployment
 
+## Evidence review and prospective evaluation (October 8, 2026)
+
+Each new issuer-source capture also writes `disclosures/review_queue.json`.
+This is a candidate queue, not automatic numerical classification: previous
+quarter actuals must not be mistaken for current-quarter QTD retail guidance.
+The existing `prospective checkpoint` command assimilates a reviewed retail
+disclosure only with archived gallon shares and a same-cutoff remaining-period
+forecast for the exact undisclosed period. Missing methods remain blocked.
+
+The frozen primary risk-evaluation rule is in
+`data/miss_evidence_workstream_spec_v1.json`: select the first complete capture
+3–7 UTC days after quarter end, score only after verified earnings, and count
+one primary trial per quarter. Repeated weekly/daily captures are secondary
+diagnostics, not independent validation observations.
+
+```bash
+.venv/bin/python -m musa_nowcast.evidence_intake prospective \
+  --root data/prospective --out data/prospective/NEW_UNIQUE_INVENTORY.json
+```
+
+This prepares and audits the evaluation workflow; it does not deploy a
+scheduler. Today's local capture completed, but Q4 has no complete market
+week yet and therefore no numerical production/risk checkpoint. Cloud billing
+and authenticated deployment remain required. See `docs/MISS_EVIDENCE_WORKSTREAMS.md`.
+
+
 ## Daily-price research extension (October 7, 2026)
 
 The deployment script now sets `MUSA_CAPTURE_DAILY_PRICES=1`. This adds immutable

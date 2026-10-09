@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "data/anchor_reliability_spec_v1.json",
+      "sha256": "7f146ec548963adc3adf27cabbfafa88c6dd7c9614855d87da3d2c1b973a79f2"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/historical_targets.json",
+      "sha256": "f68a74c09e54f18d92b38f276b2dc0a5b8a3928f67af74347cb72c85c2e47397"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/results.json",
+      "sha256": "ec3e6408ee2c2ad2b20bd2ed71c27d5373265d2a7eabe974a87a35b06e455f3c"
+    },
+    {
+      "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/anchor_reliability.py",
+      "sha256": "29c906e040ac0fc5b36b5d87dd354f484783a22c61d5b9a85151e6df1c8c0017"
+    },
+    {
+      "path": "musa_nowcast/timing.py",
+      "sha256": "965cd871276b85a8b96496268c60eb9a7d1767d20a60519311000362e0b1b8c4"
+    }
+  ],
+  "frozen_at": "2026-10-08T08:47:27.668125+00:00"
+}

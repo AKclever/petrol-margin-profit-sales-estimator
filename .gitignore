@@ -15,3 +15,8 @@ dist/
 # Public AAA pages embed a third-party browser API key. Keep immutable raw
 # snapshots locally; publish normalized observations and original hashes only.
 /data/daily_prices/**/aaa_snapshot.html
+# These issuer pages embed third-party Q4 browser API keys. Retain raw bytes
+# locally; reviewed evidence and source hashes remain publishable.
+/data/expanded_peer_evidence/2026-10-08_v1/raw/GLP_2025Q2.html
+/data/expanded_peer_evidence/2026-10-08_v1/raw/GLP_2025Q3.html
+/data/expanded_peer_evidence/2026-10-08_v1/raw/MPC_SCREEN.html

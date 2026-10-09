@@ -1,0 +1,3319 @@
+{
+  "automatic_promotion": false,
+  "by_regime": {
+    "earlier_low_margin": {
+      "large_group": {
+        "challenger": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.3333333333333333,
+          "mae_cpg": 6.399716687556714,
+          "rmse_cpg": 6.8511429361810565,
+          "worst_abs_error_cpg": 9.850336948790643
+        },
+        "n": 3,
+        "production": {
+          "large_error_count": 3,
+          "large_error_frequency": 1,
+          "mae_cpg": 6.546488087722689,
+          "rmse_cpg": 6.770315420022227,
+          "worst_abs_error_cpg": 8.983435282035897
+        }
+      },
+      "metrics": {
+        "challenger_directional_accuracy": 0.7222222222222222,
+        "challenger_mae_cpg": 2.5324694531463905,
+        "challenger_rmse_cpg": 3.404971838256207,
+        "identical_backtest_rows": 18,
+        "mean_paired_improvement_cpg": 0.06517062532188837,
+        "paired_improvement_ci_low_cpg": -0.21942303709505695,
+        "passes_pre_registered_gate": false,
+        "production_directional_accuracy": 0.7777777777777778,
+        "production_mae_cpg": 2.5976400784682787,
+        "production_rmse_cpg": 3.4314121846551013,
+        "production_status": "UNCHANGED",
+        "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+        "recent_eight_challenger_directional_accuracy": 0.875,
+        "recent_eight_challenger_mae_cpg": 2.1786011310915674,
+        "recent_eight_production_directional_accuracy": 0.875,
+        "recent_eight_production_mae_cpg": 2.420235854724382
+      },
+      "new_large_errors": [],
+      "ordinary_group": {
+        "challenger": {
+          "large_error_count": 0,
+          "large_error_frequency": 0,
+          "mae_cpg": 1.7590200062643255,
+          "rmse_cpg": 2.1271972068392486,
+          "worst_abs_error_cpg": 4.070038049367733
+        },
+        "n": 15,
+        "production": {
+          "large_error_count": 0,
+          "large_error_frequency": 0,
+          "mae_cpg": 1.8078704766173967,
+          "rmse_cpg": 2.2275711705535346,
+          "worst_abs_error_cpg": 4.423818779048142
+        }
+      },
+      "original_large_quarters": [
+        "2015Q4",
+        "2018Q4",
+        "2019Q4"
+      ],
+      "quarters": [
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4",
+        "2018Q1",
+        "2018Q2",
+        "2018Q3",
+        "2018Q4",
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4"
+      ],
+      "seasonal_baseline_comparison": {
+        "challenger": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.05555555555555555,
+          "mae_cpg": 2.5324694531463905,
+          "rmse_cpg": 3.4049718382562064,
+          "worst_abs_error_cpg": 9.850336948790643
+        },
+        "n": 18,
+        "production": {
+          "large_error_count": 4,
+          "large_error_frequency": 0.2222222222222222,
+          "mae_cpg": 3.433333333333334,
+          "rmse_cpg": 4.732394273045681,
+          "worst_abs_error_cpg": 12.200000000000001
+        }
+      },
+      "tail_metrics": {
+        "challenger": {
+          "large_error_count": 1,
+          "large_error_frequency": 0.05555555555555555,
+          "mae_cpg": 2.5324694531463905,
+          "rmse_cpg": 3.4049718382562064,
+          "worst_abs_error_cpg": 9.850336948790643
+        },
+        "n": 18,
+        "production": {
+          "large_error_count": 3,
+          "large_error_frequency": 0.16666666666666666,
+          "mae_cpg": 2.5976400784682787,
+          "rmse_cpg": 3.4314121846551013,
+          "worst_abs_error_cpg": 8.983435282035897
+        }
+      }
+    },
+    "later_regime": {
+      "large_group": {
+        "challenger": {
+          "large_error_count": 5,
+          "large_error_frequency": 0.8333333333333334,
+          "mae_cpg": 6.800762497036694,
+          "rmse_cpg": 7.087445422910833,
+          "worst_abs_error_cpg": 9.879469661870967
+        },
+        "n": 6,
+        "production": {
+          "large_error_count": 6,
+          "large_error_frequency": 1,
+          "mae_cpg": 6.624857135720716,
+          "rmse_cpg": 6.802468486278842,
+          "worst_abs_error_cpg": 9.791776879808118
+        }
+      },
+      "metrics": {
+        "challenger_directional_accuracy": 0.9090909090909091,
+        "challenger_mae_cpg": 3.3356506318573236,
+        "challenger_rmse_cpg": 4.267418168900162,
+        "identical_backtest_rows": 22,
+        "mean_paired_improvement_cpg": -0.20306496422018874,
+        "paired_improvement_ci_low_cpg": -0.5695218387363827,
+        "passes_pre_registered_gate": false,
+        "production_directional_accuracy": 0.9090909090909091,
+        "production_mae_cpg": 3.1325856676371346,
+        "production_rmse_cpg": 4.019369015075438,
+        "production_status": "UNCHANGED",
+        "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+        "recent_eight_challenger_directional_accuracy": 0.75,
+        "recent_eight_challenger_mae_cpg": 2.026165984172036,
+        "recent_eight_production_directional_accuracy": 0.75,
+        "recent_eight_production_mae_cpg": 2.153515225634352
+      },
+      "new_large_errors": [],
+      "ordinary_group": {
+        "challenger": {
+          "large_error_count": 0,
+          "large_error_frequency": 0,
+          "mae_cpg": 2.0362336824150598,
+          "rmse_cpg": 2.490576947281294,
+          "worst_abs_error_cpg": 4.831910880636979
+        },
+        "n": 16,
+        "production": {
+          "large_error_count": 0,
+          "large_error_frequency": 0,
+          "mae_cpg": 1.822983867105792,
+          "rmse_cpg": 2.2047638068618367,
+          "worst_abs_error_cpg": 4.487606755773019
+        }
+      },
+      "original_large_quarters": [
+        "2021Q2",
+        "2021Q4",
+        "2022Q1",
+        "2022Q3",
+        "2023Q3",
+        "2026Q2"
+      ],
+      "quarters": [
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2",
+        "2025Q3",
+        "2025Q4",
+        "2026Q1",
+        "2026Q2"
+      ],
+      "seasonal_baseline_comparison": {
+        "challenger": {
+          "large_error_count": 5,
+          "large_error_frequency": 0.22727272727272727,
+          "mae_cpg": 3.3356506318573236,
+          "rmse_cpg": 4.267418168900162,
+          "worst_abs_error_cpg": 9.879469661870967
+        },
+        "n": 22,
+        "production": {
+          "large_error_count": 8,
+          "large_error_frequency": 0.36363636363636365,
+          "mae_cpg": 4.836363636363636,
+          "rmse_cpg": 6.339773440173337,
+          "worst_abs_error_cpg": 15.299999999999997
+        }
+      },
+      "tail_metrics": {
+        "challenger": {
+          "large_error_count": 5,
+          "large_error_frequency": 0.22727272727272727,
+          "mae_cpg": 3.3356506318573236,
+          "rmse_cpg": 4.267418168900162,
+          "worst_abs_error_cpg": 9.879469661870967
+        },
+        "n": 22,
+        "production": {
+          "large_error_count": 6,
+          "large_error_frequency": 0.2727272727272727,
+          "mae_cpg": 3.132585667637135,
+          "rmse_cpg": 4.019369015075438,
+          "worst_abs_error_cpg": 9.791776879808118
+        }
+      }
+    },
+    "transition": {
+      "large_group": {
+        "challenger": {
+          "large_error_count": 2,
+          "large_error_frequency": 1,
+          "mae_cpg": 13.275849883634697,
+          "rmse_cpg": 13.397993324299849,
+          "worst_abs_error_cpg": 15.080852649610389
+        },
+        "n": 2,
+        "production": {
+          "large_error_count": 2,
+          "large_error_frequency": 1,
+          "mae_cpg": 13.871734215189512,
+          "rmse_cpg": 13.894343002041099,
+          "worst_abs_error_cpg": 14.664045594325948
+        }
+      },
+      "metrics": {
+        "challenger_directional_accuracy": 1.0,
+        "challenger_mae_cpg": 7.269159396905865,
+        "challenger_rmse_cpg": 9.515779628735817,
+        "identical_backtest_rows": 4,
+        "mean_paired_improvement_cpg": 0.45708669232957,
+        "paired_improvement_ci_low_cpg": -0.37585436235997804,
+        "passes_pre_registered_gate": false,
+        "production_directional_accuracy": 1.0,
+        "production_mae_cpg": 7.726246089235435,
+        "production_rmse_cpg": 9.888718633507455,
+        "production_status": "UNCHANGED",
+        "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+        "recent_eight_challenger_directional_accuracy": 1.0,
+        "recent_eight_challenger_mae_cpg": 7.269159396905865,
+        "recent_eight_production_directional_accuracy": 1.0,
+        "recent_eight_production_mae_cpg": 7.726246089235435
+      },
+      "new_large_errors": [],
+      "ordinary_group": {
+        "challenger": {
+          "large_error_count": 0,
+          "large_error_frequency": 0,
+          "mae_cpg": 1.2624689101770317,
+          "rmse_cpg": 1.2624970365683466,
+          "worst_abs_error_cpg": 1.2708961386819766
+        },
+        "n": 2,
+        "production": {
+          "large_error_count": 0,
+          "large_error_frequency": 0,
+          "mae_cpg": 1.5807579632813562,
+          "rmse_cpg": 1.5876854118453707,
+          "worst_abs_error_cpg": 1.728910683503372
+        }
+      },
+      "original_large_quarters": [
+        "2020Q1",
+        "2020Q2"
+      ],
+      "quarters": [
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4"
+      ],
+      "seasonal_baseline_comparison": {
+        "challenger": {
+          "large_error_count": 2,
+          "large_error_frequency": 0.5,
+          "mae_cpg": 7.269159396905865,
+          "rmse_cpg": 9.515779628735817,
+          "worst_abs_error_cpg": 15.080852649610389
+        },
+        "n": 4,
+        "production": {
+          "large_error_count": 2,
+          "large_error_frequency": 0.5,
+          "mae_cpg": 9.475,
+          "rmse_cpg": 13.016816046944813,
+          "worst_abs_error_cpg": 18.5
+        }
+      },
+      "tail_metrics": {
+        "challenger": {
+          "large_error_count": 2,
+          "large_error_frequency": 0.5,
+          "mae_cpg": 7.269159396905865,
+          "rmse_cpg": 9.515779628735817,
+          "worst_abs_error_cpg": 15.080852649610389
+        },
+        "n": 4,
+        "production": {
+          "large_error_count": 2,
+          "large_error_frequency": 0.5,
+          "mae_cpg": 7.726246089235435,
+          "rmse_cpg": 9.888718633507455,
+          "worst_abs_error_cpg": 14.664045594325948
+        }
+      }
+    }
+  },
+  "created_at": "2026-10-08T10:04:16.636788+00:00",
+  "current_forecast_changed": false,
+  "production_changed": false,
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_NOT_PIT_VALIDATION",
+  "rows": [
+    {
+      "absolute_error_improvement_cpg": -1.2419982055072474,
+      "actual_cpg": 18.1,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 3.294603427272736,
+        "rising_squeeze": 0.5914682727272793,
+        "spread": 10.403245308333325,
+        "volatility": 4.747335854545469
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 3.9750000000000005,
+        "means": [
+          4.749252798717951,
+          -1.0592865248106114,
+          -0.2644023045454571
+        ],
+        "penalized_training_loss": 50.53994360159663,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.4196142584272152,
+          "spread": 0.2891978871160528,
+          "volatility": 0.3939071177210464
+        },
+        "scales": [
+          12.808357792004918,
+          2.431541315046028,
+          2.858451455038467
+        ],
+        "standardized_coefficients": [
+          3.9750000000000005,
+          3.7041500108742538,
+          -1.0203094057481747,
+          1.1259643737997338
+        ]
+      },
+      "prediction_cpg": 20.945800885178407,
+      "production_prediction_cpg": 19.70380267967116,
+      "quarter": "2015Q3",
+      "reconstructed_production_cpg": 19.70380267967116,
+      "seasonal_cpg": 17.5,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2"
+      ],
+      "yoy_training_rows": 4
+    },
+    {
+      "absolute_error_improvement_cpg": -0.866901666754746,
+      "actual_cpg": 12.4,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 0.6991487000000003,
+        "rising_squeeze": 3.4794882909090874,
+        "spread": -12.91147861666667,
+        "volatility": -2.7523511272727292
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 3.3000000000000007,
+        "means": [
+          5.880051300641026,
+          -0.7291355653030331,
+          0.7379453272727281
+        ],
+        "penalized_training_loss": 67.06736731317073,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.6109126183239132,
+          "spread": 0.2783361272744884,
+          "volatility": 0.05668945968067979
+        },
+        "scales": [
+          11.677244729396417,
+          2.2728645269077767,
+          3.2489073358123526
+        ],
+        "standardized_coefficients": [
+          3.3000000000000007,
+          3.2501990752166305,
+          -1.3885216192287722,
+          0.18417880141979914
+        ]
+      },
+      "prediction_cpg": 22.250336948790643,
+      "production_prediction_cpg": 21.383435282035897,
+      "quarter": "2015Q4",
+      "reconstructed_production_cpg": 21.383435282035897,
+      "seasonal_cpg": 24.6,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3"
+      ],
+      "yoy_training_rows": 5
+    },
+    {
+      "absolute_error_improvement_cpg": 0.1486661290672764,
+      "actual_cpg": 11.1,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 0.3396866363636326,
+        "rising_squeeze": -1.2784068000000017,
+        "spread": 4.082981449999998,
+        "volatility": 0.4592482909090929
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.7166666666666669,
+        "means": [
+          2.7481296477564094,
+          -0.02769825593434642,
+          0.15622925151515185
+        ],
+        "penalized_training_loss": 103.14840339642956,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.9976472373753016,
+          "spread": 0.2962872099175031,
+          "volatility": 0.27708680039057937
+        },
+        "scales": [
+          12.754464705514607,
+          2.600961192764771,
+          3.2385388209118946
+        ],
+        "standardized_coefficients": [
+          0.7166666666666669,
+          3.778984761588191,
+          -2.594841748482143,
+          0.8973563598271563
+        ]
+      },
+      "prediction_cpg": 11.221947341319325,
+      "production_prediction_cpg": 10.829386529613398,
+      "quarter": "2016Q1",
+      "reconstructed_production_cpg": 10.829386529613398,
+      "seasonal_cpg": 10.0,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4"
+      ],
+      "yoy_training_rows": 6
+    },
+    {
+      "absolute_error_improvement_cpg": 0.14344038608263787,
+      "actual_cpg": 10.8,
+      "direction_correct": false,
+      "feature_delta": {
+        "falling_capture": 0.7701305272727241,
+        "rising_squeeze": 2.494216609090909,
+        "spread": 4.392140300000001,
+        "volatility": 1.1907524363636295
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.7714285714285717,
+        "means": [
+          2.9388227623626366,
+          -0.2063709050865829,
+          0.19951768571428627
+        ],
+        "penalized_training_loss": 98.71068001945133,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.9594434987681899,
+          "spread": 0.3113870544674867,
+          "volatility": 0.2650743159274298
+        },
+        "scales": [
+          11.817574695775006,
+          2.4474709749022656,
+          3.0001786967209556
+        ],
+        "standardized_coefficients": [
+          0.7714285714285717,
+          3.679839775466885,
+          -2.3482101152938224,
+          0.7952703156933552
+        ]
+      },
+      "prediction_cpg": 8.44783128939957,
+      "production_prediction_cpg": 8.304390903316932,
+      "quarter": "2016Q2",
+      "reconstructed_production_cpg": 8.304390903316932,
+      "seasonal_cpg": 9.0,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1"
+      ],
+      "yoy_training_rows": 7
+    },
+    {
+      "absolute_error_improvement_cpg": 0.7588957102492326,
+      "actual_cpg": 13.7,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -2.737392182575765,
+        "rising_squeeze": -1.0172274780303066,
+        "spread": -12.919734432051271,
+        "volatility": -4.333098036363651
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.9000000000000002,
+        "means": [
+          3.120487454567307,
+          0.1312025341856036,
+          0.3234220295454542
+        ],
+        "penalized_training_loss": 100.81493148439128,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.7601295310919447,
+          "spread": 0.3469343694191452,
+          "volatility": 0.2597945629729393
+        },
+        "scales": [
+          11.06477302757272,
+          2.457445968822058,
+          2.8254918493366064
+        ],
+        "standardized_coefficients": [
+          0.9000000000000002,
+          3.8387500530869074,
+          -1.8679772519645008,
+          0.7340474201820057
+        ]
+      },
+      "prediction_cpg": 15.599156352801417,
+      "production_prediction_cpg": 16.35805206305065,
+      "quarter": "2016Q3",
+      "reconstructed_production_cpg": 16.35805206305065,
+      "seasonal_cpg": 18.1,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2"
+      ],
+      "yoy_training_rows": 8
+    },
+    {
+      "absolute_error_improvement_cpg": 0.731105667658694,
+      "actual_cpg": 10.6,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -1.937256290909089,
+        "rising_squeeze": -0.9448089325757523,
+        "spread": -12.050057140384602,
+        "volatility": -0.7365398727272741
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.3111111111111112,
+        "means": [
+          1.338240578276354,
+          0.003599199494946914,
+          -0.19396908888889086
+        ],
+        "penalized_training_loss": 103.16617007430384,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.8175129254383208,
+          "spread": 0.3308472717179698,
+          "volatility": 0.25811031317183225
+        },
+        "scales": [
+          11.58607737297526,
+          2.3448447830928294,
+          3.039392675530978
+        ],
+        "standardized_coefficients": [
+          0.3111111111111112,
+          3.833222088762168,
+          -1.9169409183250037,
+          0.7844985953334739
+        ]
+      },
+      "prediction_cpg": 10.658461064784207,
+      "production_prediction_cpg": 11.389566732442901,
+      "quarter": "2016Q4",
+      "reconstructed_production_cpg": 11.389566732442901,
+      "seasonal_cpg": 12.4,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3"
+      ],
+      "yoy_training_rows": 9
+    },
+    {
+      "absolute_error_improvement_cpg": -0.757598227385694,
+      "actual_cpg": 10.1,
+      "direction_correct": false,
+      "feature_delta": {
+        "falling_capture": 0.17613809924242863,
+        "rising_squeeze": -1.4844495431818103,
+        "spread": -1.0157005820512808,
+        "volatility": -3.5249285393939407
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.09999999999999998,
+        "means": [
+          -0.0005891935897416545,
+          -0.091241613712123,
+          -0.2482261672727292
+        ],
+        "penalized_training_loss": 104.85822484268076,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.902588884407153,
+          "spread": 0.30674500005631744,
+          "volatility": 0.300943127689331
+        },
+        "scales": [
+          11.702378238017587,
+          2.242636923303881,
+          2.888011691018056
+        ],
+        "standardized_coefficients": [
+          0.09999999999999998,
+          3.589646013279753,
+          -2.02417915873514,
+          0.8691272710983277
+        ]
+      },
+      "prediction_cpg": 11.130006293761616,
+      "production_prediction_cpg": 9.827591933624078,
+      "quarter": "2017Q1",
+      "reconstructed_production_cpg": 9.827591933624078,
+      "seasonal_cpg": 11.1,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4"
+      ],
+      "yoy_training_rows": 10
+    },
+    {
+      "absolute_error_improvement_cpg": 0.35378072968040897,
+      "actual_cpg": 16.6,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -0.05505410757575291,
+        "rising_squeeze": -1.9428128515151482,
+        "spread": 6.0578470448718065,
+        "volatility": -0.4783767575757514
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": -1.8448376545928044e-16,
+        "means": [
+          -0.0928720470862452,
+          -0.21789688002754914,
+          -0.5461082011019301
+        ],
+        "penalized_training_loss": 102.98006003732402,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.8836418686650049,
+          "spread": 0.3111877658279911,
+          "volatility": 0.32019687368308064
+        },
+        "scales": [
+          11.161595430157808,
+          2.175457630248204,
+          2.9102768213096475
+        ],
+        "standardized_coefficients": [
+          -1.8448376545928044e-16,
+          3.4733519449867236,
+          -1.9223254455940664,
+          0.9318615397356826
+        ]
+      },
+      "prediction_cpg": 12.529961950632268,
+      "production_prediction_cpg": 12.17618122095186,
+      "quarter": "2017Q2",
+      "reconstructed_production_cpg": 12.17618122095186,
+      "seasonal_cpg": 10.8,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1"
+      ],
+      "yoy_training_rows": 11
+    },
+    {
+      "absolute_error_improvement_cpg": -0.012807374330634502,
+      "actual_cpg": 15.5,
+      "direction_correct": false,
+      "feature_delta": {
+        "falling_capture": 0.8635342333333376,
+        "rising_squeeze": 1.0119678333333324,
+        "spread": -4.85495390769232,
+        "volatility": 3.288576333333343
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.48333333333333345,
+        "means": [
+          0.4196878772435924,
+          -0.36163987765151573,
+          -0.5404639141414154
+        ],
+        "penalized_training_loss": 105.81851785409904,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.9303536868418852,
+          "spread": 0.3190649951480387,
+          "volatility": 0.31563107270776963
+        },
+        "scales": [
+          10.820782747594038,
+          2.136706293717786,
+          2.7864408031859194
+        ],
+        "standardized_coefficients": [
+          0.48333333333333345,
+          3.4525329948590726,
+          -1.9878925780586023,
+          0.8794872997462709
+        ]
+      },
+      "prediction_cpg": 13.0655014301888,
+      "production_prediction_cpg": 13.078308804519434,
+      "quarter": "2017Q3",
+      "reconstructed_production_cpg": 13.078308804519434,
+      "seasonal_cpg": 13.7,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2"
+      ],
+      "yoy_training_rows": 12
+    },
+    {
+      "absolute_error_improvement_cpg": -0.016589682028453012,
+      "actual_cpg": 13.8,
+      "direction_correct": false,
+      "feature_delta": {
+        "falling_capture": -0.17199732499999953,
+        "rising_squeeze": 1.307639099999998,
+        "spread": 2.0266031923076824,
+        "volatility": -0.9980608666666644
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.5846153846153845,
+        "means": [
+          0.013946201479291504,
+          -0.2559777460372966,
+          -0.245922356643357
+        ],
+        "penalized_training_loss": 111.46222044861449,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.932679944768504,
+          "spread": 0.30160238936242606,
+          "volatility": 0.42510421568515855
+        },
+        "scales": [
+          10.490852334699323,
+          2.0852563991452544,
+          2.8649710152175967
+        ],
+        "standardized_coefficients": [
+          0.5846153846153845,
+          3.1640661305937017,
+          -1.9448768231829654,
+          1.217911256384789
+        ]
+      },
+      "prediction_cpg": 10.306773108512495,
+      "production_prediction_cpg": 10.323362790540948,
+      "quarter": "2017Q4",
+      "reconstructed_production_cpg": 10.323362790540948,
+      "seasonal_cpg": 10.6,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3"
+      ],
+      "yoy_training_rows": 13
+    },
+    {
+      "absolute_error_improvement_cpg": -0.20045704477749204,
+      "actual_cpg": 8.4,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 1.1504788166666606,
+        "rising_squeeze": 1.5142145833333274,
+        "spread": -5.7381657615384825,
+        "volatility": 2.678591866666664
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.7714285714285715,
+        "means": [
+          0.15770741510989086,
+          -0.14429082846320412,
+          -0.29964653593073604
+        ],
+        "penalized_training_loss": 121.83474398927511,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.7998184624433082,
+          "spread": 0.325195099748661,
+          "volatility": 0.3635381595927766
+        },
+        "scales": [
+          10.122518113313957,
+          2.0493568215366254,
+          2.7675423631882046
+        ],
+        "standardized_coefficients": [
+          0.7714285714285715,
+          3.29179328756676,
+          -1.639113421999129,
+          1.0061072573084835
+        ]
+      },
+      "prediction_cpg": 9.405159782467365,
+      "production_prediction_cpg": 9.204702737689873,
+      "quarter": "2018Q1",
+      "reconstructed_production_cpg": 9.204702737689873,
+      "seasonal_cpg": 10.1,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4"
+      ],
+      "yoy_training_rows": 14
+    },
+    {
+      "absolute_error_improvement_cpg": 0.5433309852509343,
+      "actual_cpg": 13.0,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -1.2436064250000032,
+        "rising_squeeze": 0.44932951666665133,
+        "spread": -6.396790053846161,
+        "volatility": -0.388290200000017
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.6066666666666668,
+        "means": [
+          -0.23535079666666736,
+          -0.03372380101010205,
+          -0.1010973090909094
+        ],
+        "penalized_training_loss": 120.78076152049007,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.7988894689453981,
+          "spread": 0.329130884540273,
+          "volatility": 0.3521790867533837
+        },
+        "scales": [
+          9.889250462020584,
+          2.0226278539771463,
+          2.7749912588343344
+        ],
+        "standardized_coefficients": [
+          0.6066666666666668,
+          3.2548577520051385,
+          -1.6158560921379728,
+          0.9772938872848985
+        ]
+      },
+      "prediction_cpg": 15.645848587718246,
+      "production_prediction_cpg": 16.18917957296918,
+      "quarter": "2018Q2",
+      "reconstructed_production_cpg": 16.18917957296918,
+      "seasonal_cpg": 16.6,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4",
+        "2018Q1"
+      ],
+      "yoy_training_rows": 15
+    },
+    {
+      "absolute_error_improvement_cpg": -0.5660132768796267,
+      "actual_cpg": 14.2,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 0.22049803333333973,
+        "rising_squeeze": -0.21268174999998735,
+        "spread": -0.5489808999999894,
+        "volatility": -2.0236341999999894
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.3437500000000001,
+        "means": [
+          -0.6204407502403857,
+          -0.0035329686553049605,
+          -0.11904686477272863
+        ],
+        "penalized_training_loss": 122.10350994787456,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.8001512584670823,
+          "spread": 0.33651748887439176,
+          "volatility": 0.34995664534528176
+        },
+        "scales": [
+          9.690684140809644,
+          1.9618885713332617,
+          2.6877729171996
+        ],
+        "standardized_coefficients": [
+          0.3437500000000001,
+          3.261084692540154,
+          -1.5698076093244955,
+          0.9406039935530738
+        ]
+      },
+      "prediction_cpg": 15.434312577677401,
+      "production_prediction_cpg": 14.868299300797775,
+      "quarter": "2018Q3",
+      "reconstructed_production_cpg": 14.868299300797775,
+      "seasonal_cpg": 15.5,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4",
+        "2018Q1",
+        "2018Q2"
+      ],
+      "yoy_training_rows": 16
+    },
+    {
+      "absolute_error_improvement_cpg": 0.9902329830360834,
+      "actual_cpg": 22.8,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 2.2345307583333303,
+        "rising_squeeze": -2.8987935666666687,
+        "spread": 15.179487630769259,
+        "volatility": 2.9693248666666605
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.24705882352941172,
+        "means": [
+          -0.6162372296380094,
+          -0.01583583814616863,
+          -0.23108141390374398
+        ],
+        "penalized_training_loss": 121.75550585005388,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.8058125614788019,
+          "spread": 0.33666808996240094,
+          "volatility": 0.36740726132646195
+        },
+        "scales": [
+          9.401359576266167,
+          1.9039475762652274,
+          2.6457518158142146
+        ],
+        "standardized_coefficients": [
+          0.24705882352941172,
+          3.165137771591257,
+          -1.5342248733516393,
+          0.9720684287978144
+        ]
+      },
+      "prediction_cpg": 18.331975700192466,
+      "production_prediction_cpg": 17.341742717156382,
+      "quarter": "2018Q4",
+      "reconstructed_production_cpg": 17.341742717156382,
+      "seasonal_cpg": 13.8,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4",
+        "2018Q1",
+        "2018Q2",
+        "2018Q3"
+      ],
+      "yoy_training_rows": 17
+    },
+    {
+      "absolute_error_improvement_cpg": 0.543310505331343,
+      "actual_cpg": 8.4,
+      "direction_correct": false,
+      "feature_delta": {
+        "falling_capture": -1.2507234613636384,
+        "rising_squeeze": -0.4094612674242417,
+        "spread": 2.1061527435897673,
+        "volatility": -0.11972900000000308
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.7333333333333332,
+        "means": [
+          0.2613030403846166,
+          -0.1760001563973075,
+          -0.05328106498316595
+        ],
+        "penalized_training_loss": 123.93585014589473,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.8082654531403319,
+          "spread": 0.3327433037457831,
+          "volatility": 0.3708153714097779
+        },
+        "scales": [
+          9.82682861468982,
+          1.964617246425238,
+          2.673674255198194
+        ],
+        "standardized_coefficients": [
+          0.7333333333333332,
+          3.269811418595488,
+          -1.5879322489292063,
+          0.9914395119700795
+        ]
+      },
+      "prediction_cpg": 9.155626676742196,
+      "production_prediction_cpg": 9.69893718207354,
+      "quarter": "2019Q1",
+      "reconstructed_production_cpg": 9.69893718207354,
+      "seasonal_cpg": 8.4,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4",
+        "2018Q1",
+        "2018Q2",
+        "2018Q3",
+        "2018Q4"
+      ],
+      "yoy_training_rows": 18
+    },
+    {
+      "absolute_error_improvement_cpg": -0.23604755422505974,
+      "actual_cpg": 13.4,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 1.7538739499999967,
+        "rising_squeeze": 1.8913456083333386,
+        "spread": 4.845457461538459,
+        "volatility": 2.2023702000000114
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.6947368421052629,
+        "means": [
+          0.35840039318488764,
+          -0.18828758329346196,
+          -0.05677832472089422
+        ],
+        "penalized_training_loss": 124.64539924945015,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.8081987030482521,
+          "spread": 0.3328185676583804,
+          "volatility": 0.37333759593209165
+        },
+        "scales": [
+          9.573599750876532,
+          1.9129284811121927,
+          2.602405722593427
+        ],
+        "standardized_coefficients": [
+          0.6947368421052629,
+          3.186271756421355,
+          -1.546026317458937,
+          0.9715758961129478
+        ]
+      },
+      "prediction_cpg": 13.675390489690033,
+      "production_prediction_cpg": 13.360657064535028,
+      "quarter": "2019Q2",
+      "reconstructed_production_cpg": 13.360657064535028,
+      "seasonal_cpg": 13.0,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4",
+        "2018Q1",
+        "2018Q2",
+        "2018Q3",
+        "2018Q4",
+        "2019Q1"
+      ],
+      "yoy_training_rows": 19
+    },
+    {
+      "absolute_error_improvement_cpg": 0.5417383071097479,
+      "actual_cpg": 18.4,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 1.664334508333328,
+        "rising_squeeze": -0.5533860583333476,
+        "spread": 8.541302469230772,
+        "volatility": 1.0726295333333224
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.68,
+        "means": [
+          0.5827532466025662,
+          -0.08430592371212192,
+          0.05617910151515106
+        ],
+        "penalized_training_loss": 124.63462562043719,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.8349878873826995,
+          "spread": 0.3303975145550528,
+          "volatility": 0.3655104410540341
+        },
+        "scales": [
+          9.382295637762672,
+          1.9187918412934204,
+          2.5838571923450466
+        ],
+        "standardized_coefficients": [
+          0.68,
+          3.099887159537501,
+          -1.602167945888753,
+          0.9444267819946761
+        ]
+      },
+      "prediction_cpg": 16.2363421794422,
+      "production_prediction_cpg": 15.694603872332452,
+      "quarter": "2019Q3",
+      "reconstructed_production_cpg": 15.694603872332452,
+      "seasonal_cpg": 14.2,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4",
+        "2018Q1",
+        "2018Q2",
+        "2018Q3",
+        "2018Q4",
+        "2019Q1",
+        "2019Q2"
+      ],
+      "yoy_training_rows": 20
+    },
+    {
+      "absolute_error_improvement_cpg": 0.3169828842165856,
+      "actual_cpg": 14.9,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -2.135329851515147,
+        "rising_squeeze": 1.846694599242428,
+        "spread": -10.122749149358995,
+        "volatility": -4.200084854545453
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.8476190476190477,
+        "means": [
+          0.9617317810134332,
+          -0.10664307297979934,
+          0.10458150303030209
+        ],
+        "penalized_training_loss": 124.05653482693945,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.8384618852719935,
+          "spread": 0.33081049490575337,
+          "volatility": 0.36736403673142126
+        },
+        "scales": [
+          9.311722808978288,
+          1.875211745046849,
+          2.530860315302992
+        ],
+        "standardized_coefficients": [
+          0.8476190476190477,
+          3.0804156308632997,
+          -1.572293575036166,
+          0.9297470618330647
+        ]
+      },
+      "prediction_cpg": 19.780788814071965,
+      "production_prediction_cpg": 20.09777169828855,
+      "quarter": "2019Q4",
+      "reconstructed_production_cpg": 20.09777169828855,
+      "seasonal_cpg": 22.8,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4",
+        "2018Q1",
+        "2018Q2",
+        "2018Q3",
+        "2018Q4",
+        "2019Q1",
+        "2019Q2",
+        "2019Q3"
+      ],
+      "yoy_training_rows": 21
+    },
+    {
+      "absolute_error_improvement_cpg": 1.6085757183940714,
+      "actual_cpg": 26.9,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 7.858720236363637,
+        "rising_squeeze": -0.6530204272727311,
+        "spread": 29.585039358333326,
+        "volatility": 8.228290981818184
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 0.4499999999999999,
+        "means": [
+          0.4578917387237773,
+          -0.017854996969698098,
+          -0.09108514958677771
+        ],
+        "penalized_training_loss": 127.34058007259256,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.8838105484152302,
+          "spread": 0.3297474310360843,
+          "volatility": 0.4137735452808632
+        },
+        "scales": [
+          9.386045559163515,
+          1.8767342989159086,
+          2.630228173996862
+        ],
+        "standardized_coefficients": [
+          0.4499999999999999,
+          3.095024410721816,
+          -1.6586775699545417,
+          1.0883188364522927
+        ]
+      },
+      "prediction_cpg": 15.429152882340993,
+      "production_prediction_cpg": 13.820577163946922,
+      "quarter": "2020Q1",
+      "reconstructed_production_cpg": 13.820577163946922,
+      "seasonal_cpg": 8.4,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4",
+        "2018Q1",
+        "2018Q2",
+        "2018Q3",
+        "2018Q4",
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4"
+      ],
+      "yoy_training_rows": 22
+    },
+    {
+      "absolute_error_improvement_cpg": -0.4168070552844405,
+      "actual_cpg": 31.7,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -2.2133584810605975,
+        "rising_squeeze": 0.9499277992424329,
+        "spread": 19.160805214102567,
+        "volatility": 0.24109937575757545
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 1.2347826086956522,
+        "means": [
+          1.7242894613154969,
+          -0.04547088524374301,
+          0.27062685612648146
+        ],
+        "penalized_training_loss": 148.46240809838974,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.8679370076096132,
+          "spread": 0.3488449681734104,
+          "volatility": 0.5142780545921272
+        },
+        "scales": [
+          10.933905985500788,
+          1.840047143752097,
+          3.0815087103089485
+        ],
+        "standardized_coefficients": [
+          1.2347826086956522,
+          3.8142380855230833,
+          -1.597045011808811,
+          1.5847523047463807
+        ]
+      },
+      "prediction_cpg": 16.61914735038961,
+      "production_prediction_cpg": 17.03595440567405,
+      "quarter": "2020Q2",
+      "reconstructed_production_cpg": 17.03595440567405,
+      "seasonal_cpg": 13.4,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4",
+        "2018Q1",
+        "2018Q2",
+        "2018Q3",
+        "2018Q4",
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1"
+      ],
+      "yoy_training_rows": 23
+    },
+    {
+      "absolute_error_improvement_cpg": 0.4580145448213955,
+      "actual_cpg": 19.0,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -1.0662099469697037,
+        "rising_squeeze": 0.8213536712121234,
+        "spread": 7.331880562179492,
+        "volatility": -0.13472424848485254
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 1.945833333333333,
+        "means": [
+          2.450810951014958,
+          -0.0039959400568190155,
+          0.2693965444444437
+        ],
+        "penalized_training_loss": 257.06707004534144,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.46281695025005315,
+          "spread": 0.4684939921374625,
+          "volatility": 0.269243889279856
+        },
+        "scales": [
+          11.256518445794008,
+          1.8122537158362417,
+          3.016633346777918
+        ],
+        "standardized_coefficients": [
+          1.945833333333333,
+          5.27361126423902,
+          -0.8387417378426558,
+          0.8122100948177952
+        ]
+      },
+      "prediction_cpg": 20.270896138681977,
+      "production_prediction_cpg": 20.728910683503372,
+      "quarter": "2020Q3",
+      "reconstructed_production_cpg": 20.728910683503372,
+      "seasonal_cpg": 18.4,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4",
+        "2018Q1",
+        "2018Q2",
+        "2018Q3",
+        "2018Q4",
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2"
+      ],
+      "yoy_training_rows": 24
+    },
+    {
+      "absolute_error_improvement_cpg": 0.1785635613872536,
+      "actual_cpg": 15.4,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -0.11374581818181695,
+        "rising_squeeze": -0.05685990000000363,
+        "spread": 5.771597275000005,
+        "volatility": 0.7257836363636447
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "rising_squeeze",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 1.8919999999999997,
+        "means": [
+          2.6460537354615394,
+          0.029018044393938684,
+          0.25323171272727185
+        ],
+        "penalized_training_loss": 264.3338779137298,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": -0.516085528056419,
+          "spread": 0.4580677234024005,
+          "volatility": 0.29637459611640166
+        },
+        "scales": [
+          11.070488385647835,
+          1.7829893845458902,
+          2.9567456640305587
+        ],
+        "standardized_coefficients": [
+          1.8919999999999997,
+          5.071033411766419,
+          -0.9201750180423554,
+          0.8763043019959786
+        ]
+      },
+      "prediction_cpg": 16.654041681672087,
+      "production_prediction_cpg": 16.83260524305934,
+      "quarter": "2020Q4",
+      "reconstructed_production_cpg": 16.83260524305934,
+      "seasonal_cpg": 14.9,
+      "training_quarters": [
+        "2013Q3",
+        "2013Q4",
+        "2014Q1",
+        "2014Q2",
+        "2014Q3",
+        "2014Q4",
+        "2015Q1",
+        "2015Q2",
+        "2015Q3",
+        "2015Q4",
+        "2016Q1",
+        "2016Q2",
+        "2016Q3",
+        "2016Q4",
+        "2017Q1",
+        "2017Q2",
+        "2017Q3",
+        "2017Q4",
+        "2018Q1",
+        "2018Q2",
+        "2018Q3",
+        "2018Q4",
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3"
+      ],
+      "yoy_training_rows": 25
+    },
+    {
+      "absolute_error_improvement_cpg": -1.0385858407427726,
+      "actual_cpg": 15.5,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -6.198756645454541,
+        "rising_squeeze": 0.1092318000000061,
+        "spread": -25.469747141666673,
+        "volatility": -6.758699127272719
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 9.475,
+        "means": [
+          15.462330602403847,
+          2.2651124363636375
+        ],
+        "penalized_training_loss": 135.3922909863837,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.5396253547911838,
+          "volatility": 0.15465618380091212
+        },
+        "scales": [
+          9.658469694232462,
+          3.456330297545625
+        ],
+        "standardized_coefficients": [
+          9.475,
+          5.211955135490089,
+          0.5345428537738774
+        ]
+      },
+      "prediction_cpg": 19.89571238262254,
+      "production_prediction_cpg": 18.85712654187977,
+      "quarter": "2021Q1",
+      "reconstructed_production_cpg": 18.85712654187977,
+      "seasonal_cpg": 26.9,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4"
+      ],
+      "yoy_training_rows": 4
+    },
+    {
+      "absolute_error_improvement_cpg": -2.697372645755898,
+      "actual_cpg": 21.8,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 0.689232099999995,
+        "rising_squeeze": -2.0023562818181833,
+        "spread": -17.226080299999992,
+        "volatility": -3.135188436363629
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "falling_capture",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 5.299999999999999,
+        "means": [
+          7.275915053589744,
+          -0.3466701310606041,
+          0.46035012363636635
+        ],
+        "penalized_training_loss": 216.74914501730422,
+        "raw_slopes": {
+          "falling_capture": 0.1325589150712719,
+          "rising_squeeze": 0.0,
+          "spread": 0.31202513812897753,
+          "volatility": 0.5105256868537966
+        },
+        "scales": [
+          18.512115698076943,
+          4.596343423461833,
+          4.752435514801671
+        ],
+        "standardized_coefficients": [
+          5.299999999999999,
+          5.776245457752071,
+          0.6092862975090763,
+          2.4262404054224995
+        ]
+      },
+      "prediction_cpg": 29.678232399138295,
+      "production_prediction_cpg": 26.980859753382397,
+      "quarter": "2021Q2",
+      "reconstructed_production_cpg": 26.980859753382397,
+      "seasonal_cpg": 31.7,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1"
+      ],
+      "yoy_training_rows": 5
+    },
+    {
+      "absolute_error_improvement_cpg": -1.6808673901456466,
+      "actual_cpg": 24.0,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 1.6692267181818168,
+        "rising_squeeze": 0.8493729454545393,
+        "spread": -7.0351039916666736,
+        "volatility": 1.6232754181818114
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 2.766666666666667,
+        "means": [
+          3.192249161324787,
+          -0.13890630303029958
+        ],
+        "penalized_training_loss": 242.34957736478754,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.3442511054579761,
+          "volatility": 0.6187155318668565
+        },
+        "scales": [
+          19.20842676051485,
+          4.540584847769798
+        ],
+        "standardized_coefficients": [
+          2.766666666666667,
+          6.612522146415808,
+          2.8093303690744804
+        ]
+      },
+      "prediction_cpg": 19.16808911936302,
+      "production_prediction_cpg": 20.848956509508668,
+      "quarter": "2021Q3",
+      "reconstructed_production_cpg": 20.848956509508668,
+      "seasonal_cpg": 19.0,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2"
+      ],
+      "yoy_training_rows": 6
+    },
+    {
+      "absolute_error_improvement_cpg": -0.19828608572919038,
+      "actual_cpg": 25.5,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 2.4637928863636382,
+        "rising_squeeze": 0.1038770757575751,
+        "spread": 6.905177912820534,
+        "volatility": 3.3560541515151474
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 3.085714285714286,
+        "means": [
+          1.7311987108974358,
+          0.11283394285714486
+        ],
+        "penalized_training_loss": 247.816476040097,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.31814061671227223,
+          "volatility": 0.7562811920151095
+        },
+        "scales": [
+          18.14008200197848,
+          4.248750016476407
+        ],
+        "standardized_coefficients": [
+          3.085714285714286,
+          5.771096875320624,
+          3.2132497270349933
+        ]
+      },
+      "prediction_cpg": 18.992276832620966,
+      "production_prediction_cpg": 19.190562918350157,
+      "quarter": "2021Q4",
+      "reconstructed_production_cpg": 19.190562918350157,
+      "seasonal_cpg": 15.4,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3"
+      ],
+      "yoy_training_rows": 7
+    },
+    {
+      "absolute_error_improvement_cpg": 1.8510973911466237,
+      "actual_cpg": 23.3,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 2.3310031545454475,
+        "rising_squeeze": 6.72144221818182,
+        "spread": -0.0266521666666506,
+        "volatility": 7.7393421090909165
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 3.962500000000001,
+        "means": [
+          2.377946111137823,
+          0.5182364689393952
+        ],
+        "penalized_training_loss": 245.61451784279458,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.32417778614379056,
+          "volatility": 0.7979009575060259
+        },
+        "scales": [
+          17.054551549563374,
+          4.116533805493625
+        ],
+        "standardized_coefficients": [
+          3.962500000000001,
+          5.528706765012608,
+          3.284586265009288
+        ]
+      },
+      "prediction_cpg": 19.972354879132617,
+      "production_prediction_cpg": 28.47874251201401,
+      "quarter": "2022Q1",
+      "reconstructed_production_cpg": 28.47874251201401,
+      "seasonal_cpg": 15.5,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4"
+      ],
+      "yoy_training_rows": 8
+    },
+    {
+      "absolute_error_improvement_cpg": 0.07292622248963809,
+      "actual_cpg": 26.5,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 2.207496945454556,
+        "rising_squeeze": 4.163688354545457,
+        "spread": -17.006423208333338,
+        "volatility": 10.506817963636369
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 4.38888888888889,
+        "means": [
+          2.1107685247151036,
+          1.320581540067342
+        ],
+        "penalized_training_loss": 242.26939507276236,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.35033264006819,
+          "volatility": 0.6868397159815313
+        },
+        "scales": [
+          16.09693368511585,
+          4.49589136782973
+        ],
+        "standardized_coefficients": [
+          4.38888888888889,
+          5.639281274909214,
+          3.0879567501639897
+        ]
+      },
+      "prediction_cpg": 23.8004923272318,
+      "production_prediction_cpg": 23.727566104742163,
+      "quarter": "2022Q2",
+      "reconstructed_production_cpg": 23.727566104742163,
+      "seasonal_cpg": 21.8,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1"
+      ],
+      "yoy_training_rows": 9
+    },
+    {
+      "absolute_error_improvement_cpg": -0.0876927820628488,
+      "actual_cpg": 39.3,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -0.665238354545461,
+        "rising_squeeze": 2.351669024999998,
+        "spread": 14.124998829487197,
+        "volatility": 4.593562096969691
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 4.42,
+        "means": [
+          0.1990493514102596,
+          2.2392051824242447
+        ],
+        "penalized_training_loss": 249.59145915884284,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.34512207026470687,
+          "volatility": 0.685923256582455
+        },
+        "scales": [
+          16.312332096758816,
+          5.078046852764048
+        ],
+        "standardized_coefficients": [
+          4.42,
+          5.629745824078829,
+          3.4831504343262023
+        ]
+      },
+      "prediction_cpg": 29.42053033812903,
+      "production_prediction_cpg": 29.50822312019188,
+      "quarter": "2022Q3",
+      "reconstructed_production_cpg": 29.50822312019188,
+      "seasonal_cpg": 24.0,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2"
+      ],
+      "yoy_training_rows": 10
+    },
+    {
+      "absolute_error_improvement_cpg": -0.332534084431785,
+      "actual_cpg": 28.3,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 4.296241083333326,
+        "rising_squeeze": 4.851762433333322,
+        "spread": -13.375316330769238,
+        "volatility": 6.7102019999999865
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 5.409090909090909,
+        "means": [
+          1.465044758508163,
+          2.4532376292011033
+        ],
+        "penalized_training_loss": 262.67093244351804,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.3615004790612755,
+          "volatility": 0.7072752237112798
+        },
+        "scales": [
+          16.060181322243437,
+          4.888806194663017
+        ],
+        "standardized_coefficients": [
+          5.409090909090909,
+          5.805763241801952,
+          3.457731495011376
+        ]
+      },
+      "prediction_cpg": 27.02756934678127,
+      "production_prediction_cpg": 27.360103431213055,
+      "quarter": "2022Q4",
+      "reconstructed_production_cpg": 27.360103431213055,
+      "seasonal_cpg": 25.5,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3"
+      ],
+      "yoy_training_rows": 11
+    },
+    {
+      "absolute_error_improvement_cpg": 0.35273893422860425,
+      "actual_cpg": 23.2,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -0.34538193409090656,
+        "rising_squeeze": -2.8474307068181792,
+        "spread": -0.08313661666669248,
+        "volatility": -4.496819496969708
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 5.191666666666666,
+        "means": [
+          0.2283480010683796,
+          2.80798466010101
+        ],
+        "penalized_training_loss": 260.8874912616151,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.3636048896121997,
+          "volatility": 0.7050648236849875
+        },
+        "scales": [
+          15.914110499696228,
+          4.826284684601205
+        ],
+        "standardized_coefficients": [
+          5.191666666666666,
+          5.7864483915183955,
+          3.4028435602019043
+        ]
+      },
+      "prediction_cpg": 23.26402444078039,
+      "production_prediction_cpg": 22.783236624991005,
+      "quarter": "2023Q1",
+      "reconstructed_production_cpg": 22.783236624991005,
+      "seasonal_cpg": 23.3,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4"
+      ],
+      "yoy_training_rows": 12
+    },
+    {
+      "absolute_error_improvement_cpg": -0.35127873907627816,
+      "actual_cpg": 27.0,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 2.4680430022727187,
+        "rising_squeeze": -3.552552680303034,
+        "spread": 21.849545632692305,
+        "volatility": -4.9916077030303185
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 4.7846153846153845,
+        "means": [
+          0.20438764585798944,
+          2.2460766480186476
+        ],
+        "penalized_training_loss": 257.6276002610759,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.36848549841202743,
+          "volatility": 0.6945397851014111
+        },
+        "scales": [
+          15.290008088098435,
+          5.028930319602317
+        ],
+        "standardized_coefficients": [
+          4.7846153846153845,
+          5.634146251066882,
+          3.492792183466564
+        ]
+      },
+      "prediction_cpg": 30.366841239895855,
+      "production_prediction_cpg": 30.015562500819577,
+      "quarter": "2023Q2",
+      "reconstructed_production_cpg": 30.015562500819577,
+      "seasonal_cpg": 26.5,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1"
+      ],
+      "yoy_training_rows": 13
+    },
+    {
+      "absolute_error_improvement_cpg": -0.6383089235158437,
+      "actual_cpg": 28.7,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -0.5718350416666498,
+        "rising_squeeze": -2.4872471916666568,
+        "spread": -18.696542692307702,
+        "volatility": -3.651868933333315
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 4.478571428571429,
+        "means": [
+          1.7504703592032977,
+          1.7290991943722926
+        ],
+        "penalized_training_loss": 299.36866584185765,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.3251114923859847,
+          "volatility": 0.8153872524024992
+        },
+        "scales": [
+          15.753104399331779,
+          5.1921243740036465
+        ],
+        "standardized_coefficients": [
+          4.478571428571429,
+          5.121515280978976,
+          4.23359202745088
+        ]
+      },
+      "prediction_cpg": 36.02171984182184,
+      "production_prediction_cpg": 35.383410918306,
+      "quarter": "2023Q3",
+      "reconstructed_production_cpg": 35.383410918306,
+      "seasonal_cpg": 39.3,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2"
+      ],
+      "yoy_training_rows": 14
+    },
+    {
+      "absolute_error_improvement_cpg": -0.4305930162742193,
+      "actual_cpg": 31.1,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -4.583630658333327,
+        "rising_squeeze": -3.462240924999996,
+        "spread": 16.576858215384604,
+        "volatility": -7.10136526666665
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 3.4733333333333336,
+        "means": [
+          0.387336155769231,
+          1.3703679858585855
+        ],
+        "penalized_training_loss": 314.8767735600083,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.3393251573388117,
+          "volatility": 0.8523248913948293
+        },
+        "scales": [
+          16.050861856210986,
+          5.192550266190187
+        ],
+        "standardized_coefficients": [
+          3.4733333333333336,
+          5.446461224782324,
+          4.425739841692743
+        ]
+      },
+      "prediction_cpg": 29.173088164533976,
+      "production_prediction_cpg": 29.603681180808195,
+      "quarter": "2023Q4",
+      "reconstructed_production_cpg": 29.603681180808195,
+      "seasonal_cpg": 28.3,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3"
+      ],
+      "yoy_training_rows": 15
+    },
+    {
+      "absolute_error_improvement_cpg": -0.10793367640450668,
+      "actual_cpg": 21.7,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -2.2028256333333336,
+        "rising_squeeze": -2.4761250083333435,
+        "spread": 1.3177172538461832,
+        "volatility": -4.393031933333343
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 3.43125,
+        "means": [
+          1.3991812844951919,
+          0.8408846575757583
+        ],
+        "penalized_training_loss": 319.02655136593967,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.34347311903488437,
+          "volatility": 0.8276107891792861
+        },
+        "scales": [
+          16.027655455481238,
+          5.4297979749868865
+        ],
+        "standardized_coefficients": [
+          3.43125,
+          5.505068810110621,
+          4.493759387162987
+        ]
+      },
+      "prediction_cpg": 22.735811727501495,
+      "production_prediction_cpg": 22.62787805109699,
+      "quarter": "2024Q1",
+      "reconstructed_production_cpg": 22.62787805109699,
+      "seasonal_cpg": 23.2,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4"
+      ],
+      "yoy_training_rows": 16
+    },
+    {
+      "absolute_error_improvement_cpg": -0.1995325082685575,
+      "actual_cpg": 29.7,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -3.9162169666666675,
+        "rising_squeeze": -2.354473474999999,
+        "spread": 5.014902038461543,
+        "volatility": -4.661566199999991
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 3.1411764705882352,
+        "means": [
+          1.394389282692309,
+          0.5330072110516936
+        ],
+        "penalized_training_loss": 315.43145995892,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.3456168907598188,
+          "volatility": 0.8329032043367911
+        },
+        "scales": [
+          15.549121549627223,
+          5.409717698364739
+        ],
+        "standardized_coefficients": [
+          3.1411764705882352,
+          5.374039044028656,
+          4.505771205525441
+        ]
+      },
+      "prediction_cpg": 27.032954996482907,
+      "production_prediction_cpg": 27.232487504751465,
+      "quarter": "2024Q2",
+      "reconstructed_production_cpg": 27.232487504751465,
+      "seasonal_cpg": 27.0,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1"
+      ],
+      "yoy_training_rows": 17
+    },
+    {
+      "absolute_error_improvement_cpg": -0.12821045081982874,
+      "actual_cpg": 31.9,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 0.3077489166666516,
+        "rising_squeeze": -2.2907278583333452,
+        "spread": 22.329679838461516,
+        "volatility": -3.063003533333352
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 3.1166666666666667,
+        "means": [
+          1.5955288802350442,
+          0.24441979932659988
+        ],
+        "penalized_training_loss": 318.2906284089998,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.34995009540365,
+          "volatility": 0.810587558814004
+        },
+        "scales": [
+          15.133770112166886,
+          5.390270448889603
+        ],
+        "standardized_coefficients": [
+          3.1166666666666667,
+          5.2960642945697085,
+          4.369286164512689
+        ]
+      },
+      "prediction_cpg": 32.5458142837132,
+      "production_prediction_cpg": 32.41760383289337,
+      "quarter": "2024Q3",
+      "reconstructed_production_cpg": 32.41760383289337,
+      "seasonal_cpg": 28.7,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2"
+      ],
+      "yoy_training_rows": 18
+    },
+    {
+      "absolute_error_improvement_cpg": -0.3847738219368644,
+      "actual_cpg": 28.9,
+      "direction_correct": false,
+      "feature_delta": {
+        "falling_capture": -0.7791884022727187,
+        "rising_squeeze": -2.1942766840908945,
+        "spread": -2.8120037557692257,
+        "volatility": -1.4438089212121188
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 3.1210526315789466,
+        "means": [
+          2.6867999832995952,
+          0.07034488708133929
+        ],
+        "penalized_training_loss": 336.17045624836487,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.3308733368087534,
+          "volatility": 0.8380125844799453
+        },
+        "scales": [
+          15.44061015414549,
+          5.29823003660129
+        ],
+        "standardized_coefficients": [
+          3.1210526315789466,
+          5.1088862040652385,
+          4.439983446141523
+        ]
+      },
+      "prediction_cpg": 31.116382571894324,
+      "production_prediction_cpg": 30.73160874995746,
+      "quarter": "2024Q4",
+      "reconstructed_production_cpg": 30.73160874995746,
+      "seasonal_cpg": 31.1,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3"
+      ],
+      "yoy_training_rows": 19
+    },
+    {
+      "absolute_error_improvement_cpg": 0.06696391401629498,
+      "actual_cpg": 23.7,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -0.2950478780302985,
+        "rising_squeeze": -0.8774110939393767,
+        "spread": 11.628537629487155,
+        "volatility": -0.6365596969696741
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 2.854999999999999,
+        "means": [
+          2.411859796346154,
+          -0.00536280333333361
+        ],
+        "penalized_training_loss": 336.67653766238186,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.33452240955865953,
+          "volatility": 0.846937324046348
+        },
+        "scales": [
+          15.097286837618329,
+          5.1746092488300475
+        ],
+        "standardized_coefficients": [
+          2.854999999999999,
+          5.050380770718318,
+          4.382569710189603
+        ]
+      },
+      "prediction_cpg": 24.40180053441274,
+      "production_prediction_cpg": 24.468764448429035,
+      "quarter": "2025Q1",
+      "reconstructed_production_cpg": 24.468764448429035,
+      "seasonal_cpg": 21.7,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4"
+      ],
+      "yoy_training_rows": 20
+    },
+    {
+      "absolute_error_improvement_cpg": 0.8397590813314793,
+      "actual_cpg": 29.2,
+      "direction_correct": false,
+      "feature_delta": {
+        "falling_capture": 0.8823748553030457,
+        "rising_squeeze": 4.047872091666672,
+        "spread": 5.815882903846159,
+        "volatility": 2.896042193939402
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 2.814285714285714,
+        "means": [
+          2.8507492169719164,
+          -0.03541979826839744
+        ],
+        "penalized_training_loss": 344.1824871591537,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.3295234107307068,
+          "volatility": 0.8542934124620677
+        },
+        "scales": [
+          14.86360759424893,
+          5.05169021784388
+        ],
+        "standardized_coefficients": [
+          2.814285714285714,
+          4.897906670219743,
+          4.315625674903094
+        ]
+      },
+      "prediction_cpg": 32.84784767444154,
+      "production_prediction_cpg": 33.68760675577302,
+      "quarter": "2025Q2",
+      "reconstructed_production_cpg": 33.68760675577302,
+      "seasonal_cpg": 29.7,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1"
+      ],
+      "yoy_training_rows": 21
+    },
+    {
+      "absolute_error_improvement_cpg": 0.015577938514940826,
+      "actual_cpg": 28.3,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -1.0564235477272623,
+        "rising_squeeze": -0.02662036590907757,
+        "spread": -10.338887350641002,
+        "volatility": -1.4421702121211957
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 2.663636363636364,
+        "means": [
+          2.985528020920746,
+          0.09782847410468434
+        ],
+        "penalized_training_loss": 384.4644620369625,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.32720058290830595,
+          "volatility": 0.8246671922496508
+        },
+        "scales": [
+          14.53499824192577,
+          4.9731730878786955
+        ],
+        "standardized_coefficients": [
+          2.663636363636364,
+          4.755859897329314,
+          4.10121268695245
+        ]
+      },
+      "prediction_cpg": 30.41694674725546,
+      "production_prediction_cpg": 30.4325246857704,
+      "quarter": "2025Q3",
+      "reconstructed_production_cpg": 30.4325246857704,
+      "seasonal_cpg": 31.9,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2"
+      ],
+      "yoy_training_rows": 22
+    },
+    {
+      "absolute_error_improvement_cpg": -0.10022581290320787,
+      "actual_cpg": 31.0,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": -0.5895292545454613,
+        "rising_squeeze": 0.05386694545452997,
+        "spread": 4.820437816666683,
+        "volatility": -0.9231979636363716
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 2.391304347826087,
+        "means": [
+          2.406205613461539,
+          0.030872009486167824
+        ],
+        "penalized_training_loss": 383.1080779417054,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.32892417524315093,
+          "volatility": 0.8287881593821022
+        },
+        "scales": [
+          14.472878290465069,
+          4.873987722995951
+        ],
+        "standardized_coefficients": [
+          2.391304347826087,
+          4.760479555085727,
+          4.039503313792777
+        ]
+      },
+      "prediction_cpg": 30.097340893582416,
+      "production_prediction_cpg": 30.197566706485624,
+      "quarter": "2025Q4",
+      "reconstructed_production_cpg": 30.197566706485624,
+      "seasonal_cpg": 28.9,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2",
+        "2025Q3"
+      ],
+      "yoy_training_rows": 23
+    },
+    {
+      "absolute_error_improvement_cpg": -0.005427794525569851,
+      "actual_cpg": 25.4,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 3.3828742272727212,
+        "rising_squeeze": 4.62880849090908,
+        "spread": -25.168382924999996,
+        "volatility": 11.980173599999999
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 2.379166666666667,
+        "means": [
+          2.50679862192842,
+          -0.008880906060604654
+        ],
+        "penalized_training_loss": 380.0332051954195,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.32983169252303157,
+          "volatility": 0.8318254763626227
+        },
+        "scales": [
+          14.176362956953323,
+          4.775173286125321
+        ],
+        "standardized_coefficients": [
+          2.379166666666667,
+          4.675813787912723,
+          3.972110793445266
+        ]
+      },
+      "prediction_cpg": 25.311907835901202,
+      "production_prediction_cpg": 25.317335630426772,
+      "quarter": "2026Q1",
+      "reconstructed_production_cpg": 25.317335630426772,
+      "seasonal_cpg": 23.7,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2",
+        "2025Q3",
+        "2025Q4"
+      ],
+      "yoy_training_rows": 24
+    },
+    {
+      "absolute_error_improvement_cpg": 0.7151308780212844,
+      "actual_cpg": 35.1,
+      "direction_correct": true,
+      "feature_delta": {
+        "falling_capture": 5.172162445454536,
+        "rising_squeeze": 2.00569541818182,
+        "spread": -21.41343804166668,
+        "volatility": 7.055486254545448
+      },
+      "fit": {
+        "active_features": [
+          "spread",
+          "volatility"
+        ],
+        "alpha": 2,
+        "intercept": 2.352,
+        "means": [
+          1.3997913600512835,
+          0.47068127418181943
+        ],
+        "penalized_training_loss": 392.3790882301881,
+        "raw_slopes": {
+          "falling_capture": 0.0,
+          "rising_squeeze": 0.0,
+          "spread": 0.3327738443502234,
+          "volatility": 0.7988203877645402
+        },
+        "scales": [
+          14.911125305896816,
+          5.235427962380604
+        ],
+        "standardized_coefficients": [
+          2.352,
+          4.962032491631184,
+          4.182166595022191
+        ]
+      },
+      "prediction_cpg": 29.210215208857356,
+      "production_prediction_cpg": 28.49508433083607,
+      "quarter": "2026Q2",
+      "reconstructed_production_cpg": 28.49508433083607,
+      "seasonal_cpg": 29.2,
+      "training_quarters": [
+        "2019Q1",
+        "2019Q2",
+        "2019Q3",
+        "2019Q4",
+        "2020Q1",
+        "2020Q2",
+        "2020Q3",
+        "2020Q4",
+        "2021Q1",
+        "2021Q2",
+        "2021Q3",
+        "2021Q4",
+        "2022Q1",
+        "2022Q2",
+        "2022Q3",
+        "2022Q4",
+        "2023Q1",
+        "2023Q2",
+        "2023Q3",
+        "2023Q4",
+        "2024Q1",
+        "2024Q2",
+        "2024Q3",
+        "2024Q4",
+        "2025Q1",
+        "2025Q2",
+        "2025Q3",
+        "2025Q4",
+        "2026Q1"
+      ],
+      "yoy_training_rows": 25
+    }
+  ]
+}

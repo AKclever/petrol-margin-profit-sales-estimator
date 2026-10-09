@@ -1,0 +1,15 @@
+{
+  "role":"RESEARCH_ONLY",
+  "production_changed":false,
+  "companies":{
+    "ARKO":{"role":"DIRECT_RETAIL_RESEARCH","estimate_candidate":true,"basis":"ARKO_RETAIL_FUEL_CONTRIBUTION_EXCLUDES_GPMP_FIXED_MARGIN_OR_FEE","constraints":["Store-to-dealer conversions","Internal fuel fee exclusion differs from MUSA","Payment fees appear in operating expenses; verify historical consistency","No invented geographic weights"]},
+    "CAPL":{"role":"DIRECT_RETAIL_RESEARCH","estimate_candidate":true,"basis":"CAPL_COMPANY_OPERATED_BEFORE_CREDIT_CARD_FEES","constraints":["Keep company-operated, commission-agent and combined retail margins separate","Track site conversions and asset sales","Wholesale margin is a separate series"]},
+    "GLP":{"role":"DISTRIBUTION_AND_RETAIL_CONTEXT","estimate_candidate":true,"basis":"GDSO_GASOLINE_DISTRIBUTION_PRODUCT_MARGIN_NOT_PUMP_MARGIN","constraints":["Do not divide total GDSO margin by gallons: it includes station operations","Fuel distribution mixes classes of trade","Own-target experiment only after consistent history is built"]},
+    "MPC":{"role":"REFINING_SUPPLY_CONTEXT","estimate_candidate":false,"basis":"REFINING_AND_MARKETING_MARGIN_PER_THROUGHPUT_BARREL","constraints":["Not retail fuel cents per gallon","Do not convert refinery margin into retailer margin"]},
+    "ET":{"role":"MIDSTREAM_CONTEXT_ONLY","estimate_candidate":false,"basis":"SEGMENT_ADJUSTED_EBITDA_AND_TRANSPORT_VOLUMES","constraints":["Not a comparable company-operated pump margin","Do not double-count subsidiary exposures as independent peers"]},
+    "AROC":{"role":"EXCLUDED_RETAIL_PEER","estimate_candidate":false,"basis":"NATURAL_GAS_COMPRESSION_SERVICES","constraints":["Different target and economic mechanism"]},
+    "LBRT":{"role":"EXCLUDED_RETAIL_PEER","estimate_candidate":false,"basis":"COMPLETIONS_AND_POWER_SERVICES","constraints":["Different target and economic mechanism"]}
+  },
+  "forecast_gate":"No automatic ingestion into existing three-company replay; build dated same-basis own-company history and freeze experiment first",
+  "timing":"Strict publication date < recipient cutoff; unavailable or same-day dates blocked; current capture is not historical raw vintage proof"
+}

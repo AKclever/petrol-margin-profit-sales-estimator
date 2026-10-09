@@ -1,0 +1,10 @@
+{
+  "role":"DEVELOPMENTAL_PUBLISHED_TARGET_BENCHMARKS_NOT_PROSPECTIVE_VALIDATION",
+  "cutoff":"Target quarter end; training outcomes must be published strictly before cutoff and periods end before target start",
+  "minimum_history":8,
+  "models":{"seasonal":"Prior-year same-quarter margin","recent":"Mean of latest four published quarterly margins","blend":"50% seasonal plus 50% recent"},
+  "comparison":"All three scored on identical eligible quarters; predictions frozen before attaching outcomes",
+  "metrics":["MAE","RMSE","absolute_error_ge_5_cpg","ordinary_error_cost","leave_one_out_without_refit"],
+  "selection":"No weight or threshold tuning; no winner promoted from developmental sample",
+  "production_changed":false
+}

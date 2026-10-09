@@ -1,0 +1,2633 @@
+[
+  {
+    "quarter": "2015Q3",
+    "era": "earlier",
+    "cutoff": "2015-09-30",
+    "production_cpg": 19.70380267967116,
+    "direction_x": null,
+    "tail_x": null,
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2015Q4",
+    "era": "earlier",
+    "cutoff": "2015-12-31",
+    "production_cpg": 21.383435282035897,
+    "direction_x": null,
+    "tail_x": null,
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2016Q1",
+    "era": "earlier",
+    "cutoff": "2016-03-31",
+    "production_cpg": 10.829386529613398,
+    "direction_x": null,
+    "tail_x": null,
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2016Q2",
+    "era": "earlier",
+    "cutoff": "2016-06-30",
+    "production_cpg": 8.304390903316932,
+    "direction_x": null,
+    "tail_x": null,
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2016Q3",
+    "era": "earlier",
+    "cutoff": "2016-09-30",
+    "production_cpg": 16.35805206305065,
+    "direction_x": [
+      0.0465577048266496,
+      0.09545378601526354
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        0.23278852413324802,
+        0.4772689300763177
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2017Q1",
+          "available_at": "2016-09-06",
+          "source_sha256": "a28861990c119e47e04215b105243fa26ce7e2dd6255a2a04d1dbd6aad389e81"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2017Q1",
+          "available_at": "2016-08-30",
+          "source_sha256": "f7be2deb175b7f0ee3249703ff2ed69692d4a0021fd70b229690cbd1a9e24808"
+        }
+      ]
+    },
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2016Q4",
+    "era": "earlier",
+    "cutoff": "2016-12-31",
+    "production_cpg": 11.389566732442901,
+    "direction_x": [
+      -0.24770888941281205,
+      -0.10265232762794876
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        -1.2385444470640603,
+        -0.5132616381397438
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2017Q2",
+          "available_at": "2016-12-07",
+          "source_sha256": "59fd2f62ae24be452db769aa057ccfdea9a0d5ccd516e210a1ffe684e6e8babf"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2017Q2",
+          "available_at": "2016-11-22",
+          "source_sha256": "ca4a91fdcce06779a13e13136ac3ee6f67256fec96e7851e7b6046d13d88a270"
+        }
+      ]
+    },
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2017Q1",
+    "era": "earlier",
+    "cutoff": "2017-03-31",
+    "production_cpg": 9.827591933624078,
+    "direction_x": [
+      -0.015632673492271203,
+      -0.027539662442234148
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        -0.07816336746135602,
+        -0.13769831221117074
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2017Q3",
+          "available_at": "2017-03-06",
+          "source_sha256": "d1098f2d5c7ed434a4a1877ea87b013377dace8a03ee00d7a3adb5387fec160d"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2017Q3",
+          "available_at": "2017-03-14",
+          "source_sha256": "20da4566fa8d31021baf2098799bedd421688762f44844e88cb0796a83bc161b"
+        }
+      ]
+    },
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2017Q2",
+    "era": "earlier",
+    "cutoff": "2017-06-30",
+    "production_cpg": 12.17618122095186,
+    "direction_x": null,
+    "tail_x": null,
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2017Q3",
+    "era": "earlier",
+    "cutoff": "2017-09-30",
+    "production_cpg": 13.078308804519434,
+    "direction_x": [
+      -0.021518059348285164,
+      -0.0007466283324234268
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        -0.10759029674142583,
+        -0.0037331416621171343
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2018Q1",
+          "available_at": "2017-09-05",
+          "source_sha256": "a22a4b41c80b7bf9989e05840835dfcd548da3c75dda8662dbd602c2d663652a"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2018Q1",
+          "available_at": "2017-09-06",
+          "source_sha256": "04bafdb21ce69f3cafd7998ce7d3f2481856d8b8ec54ca601063ca7b01df90c8"
+        }
+      ]
+    },
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2017Q4",
+    "era": "earlier",
+    "cutoff": "2017-12-31",
+    "production_cpg": 10.323362790540948,
+    "direction_x": [
+      -0.02925258232024751,
+      0.1167549839396314
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        -0.14626291160123756,
+        0.583774919698157
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2018Q2",
+          "available_at": "2017-12-11",
+          "source_sha256": "034af26d51c2ba360465c4477e0647d88d6133d9ebc2c412704c45366d0b5ef2"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2018Q2",
+          "available_at": "2017-11-28",
+          "source_sha256": "e7f8d659fc8d9ba9e43a814325cd75ef40cad63d5e6f986800f21cac2ffc5309"
+        }
+      ]
+    },
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2018Q1",
+    "era": "earlier",
+    "cutoff": "2018-03-31",
+    "production_cpg": 9.204702737689873,
+    "direction_x": [
+      0.031970409022327215,
+      -0.13850799311335776
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        0.15985204511163606,
+        -0.6925399655667889
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2018Q3",
+          "available_at": "2018-03-07",
+          "source_sha256": "98cbaff846725e497f8779231423d946c62e0d5f36412e86a764e52015cc0dd7"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2018Q3",
+          "available_at": "2018-03-20",
+          "source_sha256": "7690eeb04f951cca67bf1474306c89d856d7c1e94077894af21cde7fb361431a"
+        }
+      ]
+    },
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2018Q2",
+    "era": "earlier",
+    "cutoff": "2018-06-30",
+    "production_cpg": 16.18917957296918,
+    "direction_x": null,
+    "tail_x": null,
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2018Q3",
+    "era": "earlier",
+    "cutoff": "2018-09-30",
+    "production_cpg": 14.868299300797775,
+    "direction_x": [
+      0.04333772608069637,
+      0.11323846709202907
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        0.21668863040348188,
+        0.5661923354601454
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2019Q1",
+          "available_at": "2018-09-10",
+          "source_sha256": "ba95d80bf0ca0a2cd828d5deffbec515ad67646d51c84a887542bd80c838bbb2"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2019Q1",
+          "available_at": "2018-09-05",
+          "source_sha256": "8aa793e8a0f6e4ed2622ce8046ae65e779018dc4ba5e5c3a89880dc199f15e9d"
+        }
+      ]
+    },
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2018Q4",
+    "era": "earlier",
+    "cutoff": "2018-12-31",
+    "production_cpg": 17.341742717156382,
+    "direction_x": [
+      -0.030572417960794414,
+      -0.03934491747894818
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        -0.15286208980397206,
+        -0.1967245873947409
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2019Q2",
+          "available_at": "2018-12-10",
+          "source_sha256": "b6d6b6afa667404cc78a5650ba96a7787240a36518d72e3e75b203475bef15e5"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2019Q2",
+          "available_at": "2018-11-27",
+          "source_sha256": "e1782d674f96d76607e0bdcf160c30aa0346ba61820b80e45e1e1073996d3c3a"
+        }
+      ]
+    },
+    "risk_training_quarters": [],
+    "risk_blocker": "No market data for weighted regions: East Coast, Gulf Coast, Midwest"
+  },
+  {
+    "quarter": "2019Q1",
+    "era": "earlier",
+    "cutoff": "2019-03-31",
+    "production_cpg": 9.69893718207354,
+    "direction_x": null,
+    "tail_x": null,
+    "risk_training_quarters": [],
+    "risk_blocker": "Forecast requires exactly one prior-year actual for 2018Q1"
+  },
+  {
+    "quarter": "2019Q2",
+    "era": "earlier",
+    "cutoff": "2019-06-30",
+    "production_cpg": 13.360657064535028,
+    "direction_x": null,
+    "tail_x": null,
+    "risk_training_quarters": [
+      "2019Q1"
+    ],
+    "risk_blocker": "Forecast requires exactly one prior-year actual for 2018Q2"
+  },
+  {
+    "quarter": "2019Q3",
+    "era": "earlier",
+    "cutoff": "2019-09-30",
+    "production_cpg": 15.694603872332452,
+    "direction_x": [
+      0.15004939327201922,
+      0.09243014255275864
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        0.750246966360096,
+        0.4621507127637932
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2020Q1",
+          "available_at": "2019-09-10",
+          "source_sha256": "b9cbd30ff926713870389c0fb3eed66aa4174500219c9aa842ac2d0395cd2422"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2020Q1",
+          "available_at": "2019-09-04",
+          "source_sha256": "ddf61e64442457023989c7270e2a03d3764d5608a43e1d8e2bf4fddb7ff4e530"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2"
+    ],
+    "risk_blocker": "Forecast requires exactly one prior-year actual for 2018Q3"
+  },
+  {
+    "quarter": "2019Q4",
+    "era": "earlier",
+    "cutoff": "2019-12-31",
+    "production_cpg": 20.09777169828855,
+    "direction_x": [
+      0.14276506296805455,
+      0.11372688147229874
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        0.7138253148402728,
+        0.5686344073614937
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2020Q2",
+          "available_at": "2019-12-10",
+          "source_sha256": "f28d5cb52e1a9dc5110c2382ec818ba784e1f2181ed110cdb8c0bc94bda2e595"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2020Q2",
+          "available_at": "2019-11-26",
+          "source_sha256": "78ecfa6950182b0094e773a770ae5d1f77bfb8bd76ce8d5a3ceafe6a668d8a4c"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3"
+    ],
+    "risk_blocker": "Forecast requires exactly one prior-year actual for 2018Q4"
+  },
+  {
+    "quarter": "2020Q1",
+    "era": "transition",
+    "cutoff": "2020-03-31",
+    "production_cpg": 13.820577163946922,
+    "direction_x": null,
+    "tail_x": null,
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4"
+    ],
+    "risk_blocker": "Features and targets must have equal nonzero length"
+  },
+  {
+    "quarter": "2020Q2",
+    "era": "transition",
+    "cutoff": "2020-06-30",
+    "production_cpg": 17.03595440567405,
+    "direction_x": null,
+    "tail_x": null,
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1"
+    ],
+    "risk_blocker": "Backtest requires prior-year actuals after the training window"
+  },
+  {
+    "quarter": "2020Q3",
+    "era": "transition",
+    "cutoff": "2020-09-30",
+    "production_cpg": 20.728910683503372,
+    "direction_x": [
+      0.8684423285139955,
+      0.6312828789524911
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        4.3422116425699775,
+        3.1564143947624554
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2021Q1",
+          "available_at": "2020-09-14",
+          "source_sha256": "7e63ce29be0796eba9e313b3d9def29e4eb9243ee54cf3723199f3a453e21509"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2021Q1",
+          "available_at": "2020-09-01",
+          "source_sha256": "ac00871e3c6fe764364d034b8a3356f966a0f16adb9db27201e1fd7e88cc4ddf"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2"
+    ],
+    "risk_blocker": "Backtest requires prior-year actuals after the training window"
+  },
+  {
+    "quarter": "2020Q4",
+    "era": "transition",
+    "cutoff": "2020-12-31",
+    "production_cpg": 16.83260524305934,
+    "direction_x": [
+      0.7693578914055474,
+      0.17982516080601077
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        3.8467894570277372,
+        0.8991258040300538
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2021Q2",
+          "available_at": "2020-12-10",
+          "source_sha256": "707bb321f4c475127cce4da1af0565ebc75a243b5a27bf29f33450c1b5c8bece"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2021Q2",
+          "available_at": "2020-11-24",
+          "source_sha256": "375a331add2c865a2b35bd760af5768e3b7d1ffb6d46230da6e1bbb8af6d186d"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3"
+    ],
+    "risk_blocker": "Backtest requires prior-year actuals after the training window"
+  },
+  {
+    "quarter": "2021Q1",
+    "era": "modern",
+    "cutoff": "2021-03-31",
+    "production_cpg": 18.85712654187977,
+    "direction_x": [
+      0.6900832562898367,
+      0.22626369923895379
+    ],
+    "tail_x": null,
+    "peer_evidence": {
+      "x": [
+        3.450416281449183,
+        1.1313184961947689
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2021Q3",
+          "available_at": "2021-03-08",
+          "source_sha256": "41361c7b94fba9ff6095939a06b39f72d4d603d39aa24702d8115f472bab6ece"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2021Q3",
+          "available_at": "2021-03-17",
+          "source_sha256": "d4cf1c8d0d6d29a3bdc0a113bd3d510a53a6574e009dce55ccd9009f82d8c238"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4"
+    ],
+    "risk_blocker": "Backtest requires prior-year actuals after the training window"
+  },
+  {
+    "quarter": "2021Q2",
+    "era": "modern",
+    "cutoff": "2021-06-30",
+    "production_cpg": 26.980859753382397,
+    "direction_x": [
+      -0.22270049084439755,
+      -0.176858020659251
+    ],
+    "tail_x": [
+      0.5
+    ],
+    "peer_evidence": {
+      "x": [
+        -1.1135024542219878,
+        -0.8842901032962549
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2021Q4",
+          "available_at": "2021-06-08",
+          "source_sha256": "f39211a9752883c84b13b04df60b83e1825da6f253a64753849f49aed7c6b4a5"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2021Q4",
+          "available_at": "2021-06-29",
+          "source_sha256": "aa78230c846cde17854466e58e21be693f1ef7b37c919ed8dadfe0d270e2f658"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2021-06-30",
+      "quarter_start": "2021-04-01",
+      "quarter_end": "2021-06-30",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 4,
+          "mean_capture_gap_cpg": 7.35,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "LOW",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 0,
+          "mean_capture_gap_cpg": 0.0,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 31.7,
+          "prior_year_margin_percentile": 1.0,
+          "wholesale_change_difference_cpg": -33.16,
+          "triggered": true,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 0.92,
+          "adaptive_regime": "NORMAL",
+          "historical_regime_support": 5,
+          "trailing_four_reported_margin_shift_cpg": 2.35,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2021Q3",
+    "era": "modern",
+    "cutoff": "2021-09-30",
+    "production_cpg": 20.848956509508668,
+    "direction_x": [
+      -0.2022015477312195,
+      -0.12237276608792871
+    ],
+    "tail_x": [
+      0.5
+    ],
+    "peer_evidence": {
+      "x": [
+        -1.0110077386560976,
+        -0.6118638304396435
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2022Q1",
+          "available_at": "2021-09-07",
+          "source_sha256": "ce7111aa75c9e0e72c38de1c11214f918e06ffe7f1d0a82c4dd5fcd961d912e3"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2022Q1",
+          "available_at": "2021-08-31",
+          "source_sha256": "a73ca4530ac553ae26d5ca6a6ed8409394aeabdec7f229e840c4a8f6f094c492"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2021-09-30",
+      "quarter_start": "2021-07-01",
+      "quarter_end": "2021-09-30",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 2,
+          "mean_capture_gap_cpg": 18.78,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 5,
+          "mean_capture_gap_cpg": 10.57,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 19.0,
+          "prior_year_margin_percentile": 0.7,
+          "wholesale_change_difference_cpg": -3.1,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.91,
+          "adaptive_regime": "HIGH_VOLATILITY",
+          "historical_regime_support": 0,
+          "trailing_four_reported_margin_shift_cpg": 0.6,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2021Q4",
+    "era": "modern",
+    "cutoff": "2021-12-31",
+    "production_cpg": 19.190562918350157,
+    "direction_x": [
+      -0.11748609076400529,
+      0.005161197094008901
+    ],
+    "tail_x": [
+      0.5
+    ],
+    "peer_evidence": {
+      "x": [
+        -0.5874304538200265,
+        0.025805985470044503
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2022Q2",
+          "available_at": "2021-12-07",
+          "source_sha256": "5618ee882945e3730a0b3fc15df78b4a9a3286411eb88ae1957a63f335df5215"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2022Q2",
+          "available_at": "2021-11-23",
+          "source_sha256": "70c836f291c8f34b522e57b9f763060f2dde2d6f29b1061890d376e218540314"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2021-12-31",
+      "quarter_start": "2021-10-01",
+      "quarter_end": "2021-12-31",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 4,
+          "mean_capture_gap_cpg": 7.08,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 4,
+          "mean_capture_gap_cpg": 11.86,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 15.4,
+          "prior_year_margin_percentile": 0.364,
+          "wholesale_change_difference_cpg": -22.66,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.29,
+          "adaptive_regime": "FAST_FALLING",
+          "historical_regime_support": 3,
+          "trailing_four_reported_margin_shift_cpg": 0.25,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2022Q1",
+    "era": "modern",
+    "cutoff": "2022-03-31",
+    "production_cpg": 28.47874251201401,
+    "direction_x": [
+      0.19232366679256424,
+      0.38183848348071237
+    ],
+    "tail_x": [
+      0.75
+    ],
+    "peer_evidence": {
+      "x": [
+        0.9616183339628213,
+        1.909192417403562
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2022Q3",
+          "available_at": "2022-03-08",
+          "source_sha256": "339ca25c856a6727e143d8a12e02548941ce0aea0b722d3eff771732064e3a19"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2022Q3",
+          "available_at": "2022-03-15",
+          "source_sha256": "8ffe7cc88f15a2a72fe2184e355494320fa5fc802e7cc594af9ffc171f8b12df"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2022-03-31",
+      "quarter_start": "2022-01-01",
+      "quarter_end": "2022-03-31",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 8,
+          "mean_capture_gap_cpg": 11.93,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 1,
+          "mean_capture_gap_cpg": 45.69,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 15.5,
+          "prior_year_margin_percentile": 0.417,
+          "wholesale_change_difference_cpg": 57.55,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 7.15,
+          "adaptive_regime": "FAST_RISING",
+          "historical_regime_support": 3,
+          "trailing_four_reported_margin_shift_cpg": 6.0,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2022Q2",
+    "era": "modern",
+    "cutoff": "2022-06-30",
+    "production_cpg": 23.727566104742163,
+    "direction_x": [
+      -0.03275901423201208,
+      0.5138488167130952
+    ],
+    "tail_x": [
+      0.75
+    ],
+    "peer_evidence": {
+      "x": [
+        -0.1637950711600604,
+        2.569244083565476
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2022Q4",
+          "available_at": "2022-06-07",
+          "source_sha256": "3817db830ab23ec7fb59dffc6565fba3637864edaa1cbf400c283476656aa273"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2022Q4",
+          "available_at": "2022-06-28",
+          "source_sha256": "3d492481dca87f8ad298fd99fd6fbc06908df7d47cba626bdff0031f2f2fa13c"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2022-06-30",
+      "quarter_start": "2022-04-01",
+      "quarter_end": "2022-06-30",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 7,
+          "mean_capture_gap_cpg": 11.11,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 2,
+          "mean_capture_gap_cpg": 22.99,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 21.8,
+          "prior_year_margin_percentile": 0.615,
+          "wholesale_change_difference_cpg": 56.78,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 3.67,
+          "adaptive_regime": "FAST_RISING",
+          "historical_regime_support": 3,
+          "trailing_four_reported_margin_shift_cpg": 8.15,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2022Q3",
+    "era": "modern",
+    "cutoff": "2022-09-30",
+    "production_cpg": 29.50822312019188,
+    "direction_x": [
+      0.48518911640296114,
+      0.27922347562964855
+    ],
+    "tail_x": [
+      0.75
+    ],
+    "peer_evidence": {
+      "x": [
+        2.4259455820148057,
+        1.3961173781482428
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2023Q1",
+          "available_at": "2022-09-07",
+          "source_sha256": "46b041a947babe1101d411a6f526af1a865b6f7f1bacade070d3794c89a0413a"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2023Q1",
+          "available_at": "2022-08-30",
+          "source_sha256": "524e63f2b7810ac59fbcfbbf753f26ece57afc8ec4e69ae88e28f080d56f310d"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2022-09-30",
+      "quarter_start": "2022-07-01",
+      "quarter_end": "2022-09-30",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 3,
+          "mean_capture_gap_cpg": 18.89,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 6,
+          "mean_capture_gap_cpg": 8.28,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 24.0,
+          "prior_year_margin_percentile": 0.714,
+          "wholesale_change_difference_cpg": -76.47,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 2.44,
+          "adaptive_regime": "FAST_FALLING",
+          "historical_regime_support": 3,
+          "trailing_four_reported_margin_shift_cpg": 7.8,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2022Q4",
+    "era": "modern",
+    "cutoff": "2022-12-31",
+    "production_cpg": 27.360103431213055,
+    "direction_x": [
+      0.04507325620144818,
+      0.15891854011469464
+    ],
+    "tail_x": [
+      0.75
+    ],
+    "peer_evidence": {
+      "x": [
+        0.22536628100724088,
+        0.7945927005734732
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2023Q2",
+          "available_at": "2022-12-06",
+          "source_sha256": "48211cd1b0620f8d048769d2604c3b595d4408dffac941a889cd09f037eaeafb"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2023Q2",
+          "available_at": "2022-11-22",
+          "source_sha256": "8550a1b2cf3db43f2e8aa8b19bc9518d675a22a755174c39c5ce845d574da8a2"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2022-12-31",
+      "quarter_start": "2022-10-01",
+      "quarter_end": "2022-12-31",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 3,
+          "mean_capture_gap_cpg": 25.99,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 8,
+          "mean_capture_gap_cpg": 12.38,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 25.5,
+          "prior_year_margin_percentile": 0.733,
+          "wholesale_change_difference_cpg": -35.48,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 2.4,
+          "adaptive_regime": "FAST_FALLING",
+          "historical_regime_support": 3,
+          "trailing_four_reported_margin_shift_cpg": 7.6,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2023Q1",
+    "era": "modern",
+    "cutoff": "2023-03-31",
+    "production_cpg": 22.783236624991005,
+    "direction_x": [
+      -0.06837007170766304,
+      0.337838674381935
+    ],
+    "tail_x": [
+      0.75
+    ],
+    "peer_evidence": {
+      "x": [
+        -0.3418503585383152,
+        1.689193371909675
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2023Q3",
+          "available_at": "2023-03-07",
+          "source_sha256": "e3b66a4f2131ed98e4df887c03c349465456c43c68aa303dcc12eb029361b5a1"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2023Q3",
+          "available_at": "2023-03-15",
+          "source_sha256": "78d7dd7dd638c672109ace2b6fd4f814aec6a017a4cc796bbe3a1ffa71cbd080"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2023-03-31",
+      "quarter_start": "2023-01-01",
+      "quarter_end": "2023-03-31",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 6,
+          "mean_capture_gap_cpg": 10.59,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 3,
+          "mean_capture_gap_cpg": 19.67,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 23.3,
+          "prior_year_margin_percentile": 0.562,
+          "wholesale_change_difference_cpg": -75.96,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.52,
+          "adaptive_regime": "NORMAL",
+          "historical_regime_support": 8,
+          "trailing_four_reported_margin_shift_cpg": 8.7,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2023Q2",
+    "era": "modern",
+    "cutoff": "2023-06-30",
+    "production_cpg": 30.015562500819577,
+    "direction_x": [
+      -0.12432515590504864,
+      -0.020932111560664525
+    ],
+    "tail_x": [
+      0.75
+    ],
+    "peer_evidence": {
+      "x": [
+        -0.6216257795252432,
+        -0.10466055780332263
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2023Q4",
+          "available_at": "2023-06-06",
+          "source_sha256": "ee7934cffc0055a99d74421fe6edc016c452b9960e8dadfdab9bf8aa14df9571"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2023Q4",
+          "available_at": "2023-06-27",
+          "source_sha256": "5c656fd86743b8b53c159a9f7badc03857a9518f36f72866d756056a0e082b40"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2023-06-30",
+      "quarter_start": "2023-04-01",
+      "quarter_end": "2023-06-30",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 4,
+          "mean_capture_gap_cpg": 11.19,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 6,
+          "mean_capture_gap_cpg": 12.47,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 26.5,
+          "prior_year_margin_percentile": 0.765,
+          "wholesale_change_difference_cpg": -113.72,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.27,
+          "adaptive_regime": "FAST_FALLING",
+          "historical_regime_support": 4,
+          "trailing_four_reported_margin_shift_cpg": 8.4,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2023Q3",
+    "era": "modern",
+    "cutoff": "2023-09-30",
+    "production_cpg": 35.383410918306,
+    "direction_x": [
+      -0.3080686186874266,
+      0.032998932245524415
+    ],
+    "tail_x": [
+      0.875
+    ],
+    "peer_evidence": {
+      "x": [
+        -1.540343093437133,
+        0.16499466122762207
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2024Q1",
+          "available_at": "2023-09-11",
+          "source_sha256": "2e205e59277b9eb76caa4481e946187959c573f418bf404686ab69b4abb7301c"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2024Q1",
+          "available_at": "2023-09-06",
+          "source_sha256": "5517f114ac48bdffb60ba427469349ae1b68abfc9a607e762167fa7aa88278bc"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2023-09-30",
+      "quarter_start": "2023-07-01",
+      "quarter_end": "2023-09-30",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 5,
+          "mean_capture_gap_cpg": 9.02,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 3,
+          "mean_capture_gap_cpg": 5.88,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "MEDIUM",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 39.3,
+          "prior_year_margin_percentile": 1.0,
+          "wholesale_change_difference_cpg": 109.09,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.61,
+          "adaptive_regime": "NORMAL",
+          "historical_regime_support": 10,
+          "trailing_four_reported_margin_shift_cpg": 7.25,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2023Q4",
+    "era": "modern",
+    "cutoff": "2023-12-31",
+    "production_cpg": 29.603681180808195,
+    "direction_x": [
+      0.158093050463589,
+      0.10062099783061965
+    ],
+    "tail_x": [
+      0.875
+    ],
+    "peer_evidence": {
+      "x": [
+        0.7904652523179451,
+        0.5031049891530982
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2024Q2",
+          "available_at": "2023-12-11",
+          "source_sha256": "ad13f613fcee4d6abc52e4fe6d5c943541b97ad75ae833ac785bc12564ef55d6"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2024Q2",
+          "available_at": "2023-11-28",
+          "source_sha256": "9fc0950d3e1cec33a565305c76547f66339175f9c166d678f14baa944ea33c57"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2023-12-31",
+      "quarter_start": "2023-10-01",
+      "quarter_end": "2023-12-31",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 3,
+          "mean_capture_gap_cpg": 16.91,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 4,
+          "mean_capture_gap_cpg": 8.44,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "MEDIUM",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 28.3,
+          "prior_year_margin_percentile": 0.842,
+          "wholesale_change_difference_cpg": 17.24,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.35,
+          "adaptive_regime": "FAST_FALLING",
+          "historical_regime_support": 4,
+          "trailing_four_reported_margin_shift_cpg": 5.85,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2024Q1",
+    "era": "modern",
+    "cutoff": "2024-03-31",
+    "production_cpg": 22.62787805109699,
+    "direction_x": [
+      -0.1627591973822476,
+      -0.29209494078039566
+    ],
+    "tail_x": [
+      0.75
+    ],
+    "peer_evidence": {
+      "x": [
+        -0.8137959869112379,
+        -1.4604747039019783
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2024Q3",
+          "available_at": "2024-03-11",
+          "source_sha256": "4f49a5e7e30f75d1373d897301f6414c1effac90d2101d422e61f46b33d8c537"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2024Q3",
+          "available_at": "2024-03-20",
+          "source_sha256": "a4c8178d35c791c929c7ca79663978867980d12b860ba70394fb299dd1975094"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2024-03-31",
+      "quarter_start": "2024-01-01",
+      "quarter_end": "2024-03-31",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 7,
+          "mean_capture_gap_cpg": 5.75,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 1,
+          "mean_capture_gap_cpg": 13.51,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 23.2,
+          "prior_year_margin_percentile": 0.45,
+          "wholesale_change_difference_cpg": 16.11,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.0,
+          "adaptive_regime": "NORMAL",
+          "historical_regime_support": 12,
+          "trailing_four_reported_margin_shift_cpg": 5.3,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2024Q2",
+    "era": "modern",
+    "cutoff": "2024-06-30",
+    "production_cpg": 27.232487504751465,
+    "direction_x": [
+      0.1880946551072009,
+      -0.3615917528991203
+    ],
+    "tail_x": [
+      0.5
+    ],
+    "peer_evidence": {
+      "x": [
+        0.9404732755360045,
+        -1.8079587644956017
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2024Q4",
+          "available_at": "2024-06-11",
+          "source_sha256": "78ffacea29c31c9be5a18aa661336ef8fa03164be31eb2e44f601acd02690ca9"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2024Q4",
+          "available_at": "2024-06-25",
+          "source_sha256": "ef5281ce623d5e9120e93dc21b3191947ad4d6ba77f9544e1b193ff13f819b52"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2024-06-30",
+      "quarter_start": "2024-04-01",
+      "quarter_end": "2024-06-30",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 1,
+          "mean_capture_gap_cpg": 4.08,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 4,
+          "mean_capture_gap_cpg": 7.05,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 27.0,
+          "prior_year_margin_percentile": 0.762,
+          "wholesale_change_difference_cpg": 8.19,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.41,
+          "adaptive_regime": "NORMAL",
+          "historical_regime_support": 11,
+          "trailing_four_reported_margin_shift_cpg": 4.65,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2024Q3",
+    "era": "modern",
+    "cutoff": "2024-09-30",
+    "production_cpg": 32.41760383289337,
+    "direction_x": [
+      -0.10402017214430019,
+      -0.17145749267500646
+    ],
+    "tail_x": [
+      1.0
+    ],
+    "peer_evidence": {
+      "x": [
+        -0.520100860721501,
+        -0.8572874633750323
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2025Q1",
+          "available_at": "2024-09-04",
+          "source_sha256": "d381f1f4823024baf7beb17accb7cdf8e253c4f7456d802c316259a09da46304"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2025Q1",
+          "available_at": "2024-09-04",
+          "source_sha256": "ccbf0873857beb38c06d0114d0b32f3498a54ecf4b3cd7fa17a7c83c526a7145"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1",
+      "2024Q2"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2024-09-30",
+      "quarter_start": "2024-07-01",
+      "quarter_end": "2024-09-30",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 1,
+          "mean_capture_gap_cpg": 15.3,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 3,
+          "mean_capture_gap_cpg": 10.95,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 28.7,
+          "prior_year_margin_percentile": 0.818,
+          "wholesale_change_difference_cpg": -76.35,
+          "triggered": true,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.75,
+          "adaptive_regime": "FAST_FALLING",
+          "historical_regime_support": 5,
+          "trailing_four_reported_margin_shift_cpg": 5.95,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2024Q4",
+    "era": "modern",
+    "cutoff": "2024-12-31",
+    "production_cpg": 30.73160874995746,
+    "direction_x": [
+      -0.23704294573658485,
+      -0.18141484978452063
+    ],
+    "tail_x": [
+      0.875
+    ],
+    "peer_evidence": {
+      "x": [
+        -1.1852147286829242,
+        -0.9070742489226031
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2025Q2",
+          "available_at": "2024-12-09",
+          "source_sha256": "d8ad2aaea08cf41264b7765d336a63d4b58d701e0204c46d0315bb3f19f9df93"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2025Q2",
+          "available_at": "2024-11-25",
+          "source_sha256": "c2265d36e76b1b7e6d28b1d687b73c51a08de688855f9806a42c735807195e7e"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1",
+      "2024Q2",
+      "2024Q3"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2024-12-31",
+      "quarter_start": "2024-10-01",
+      "quarter_end": "2024-12-31",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 2,
+          "mean_capture_gap_cpg": 8.68,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 4,
+          "mean_capture_gap_cpg": 6.94,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "MEDIUM",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 31.1,
+          "prior_year_margin_percentile": 0.87,
+          "wholesale_change_difference_cpg": 11.94,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.02,
+          "adaptive_regime": "NORMAL",
+          "historical_regime_support": 13,
+          "trailing_four_reported_margin_shift_cpg": 7.1,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2025Q1",
+    "era": "modern",
+    "cutoff": "2025-03-31",
+    "production_cpg": 24.468764448429035,
+    "direction_x": [
+      -0.08276073773830607,
+      -0.008557652342691237
+    ],
+    "tail_x": [
+      0.75
+    ],
+    "peer_evidence": {
+      "x": [
+        -0.41380368869153034,
+        -0.042788261713456184
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2025Q3",
+          "available_at": "2025-03-11",
+          "source_sha256": "85aa5225013361845a8cccdaa2cba60fb4e03ff4511911d3f27f23f43c8d91a0"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2025Q3",
+          "available_at": "2025-03-18",
+          "source_sha256": "cc2ade9a4fc2643973f29fd2951f1a2069457b98e83cea002f987cc59415d629"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1",
+      "2024Q2",
+      "2024Q3",
+      "2024Q4"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2025-03-31",
+      "quarter_start": "2025-01-01",
+      "quarter_end": "2025-03-31",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 2,
+          "mean_capture_gap_cpg": 10.05,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 2,
+          "mean_capture_gap_cpg": 11.38,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 21.7,
+          "prior_year_margin_percentile": 0.333,
+          "wholesale_change_difference_cpg": -39.53,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 0.86,
+          "adaptive_regime": "NORMAL",
+          "historical_regime_support": 14,
+          "trailing_four_reported_margin_shift_cpg": 5.65,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2025Q2",
+    "era": "modern",
+    "cutoff": "2025-06-30",
+    "production_cpg": 33.68760675577302,
+    "direction_x": [
+      -0.08682081682876902,
+      0.029544943185952143
+    ],
+    "tail_x": [
+      0.875
+    ],
+    "peer_evidence": {
+      "x": [
+        -0.4341040841438451,
+        0.14772471592976072
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2025Q4",
+          "available_at": "2025-06-09",
+          "source_sha256": "91a7e1e12fe147dd5f38e1f70aa499135dc769c78a95ffaf2f2f1266f1f11519"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2025Q4",
+          "available_at": "2025-06-25",
+          "source_sha256": "be7d3b90242331d46f754ee047e8b5a48e85b0a60dcad39c8b9635ed05834f8b"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1",
+      "2024Q2",
+      "2024Q3",
+      "2024Q4",
+      "2025Q1"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2025-06-30",
+      "quarter_start": "2025-04-01",
+      "quarter_end": "2025-06-30",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 4,
+          "mean_capture_gap_cpg": 11.09,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 2,
+          "mean_capture_gap_cpg": 17.58,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "MEDIUM",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 29.7,
+          "prior_year_margin_percentile": 0.84,
+          "wholesale_change_difference_cpg": 42.2,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.42,
+          "adaptive_regime": "NORMAL",
+          "historical_regime_support": 15,
+          "trailing_four_reported_margin_shift_cpg": 6.0,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2025Q3",
+    "era": "modern",
+    "cutoff": "2025-09-30",
+    "production_cpg": 30.4325246857704,
+    "direction_x": [
+      0.001847867712642148,
+      -0.25428908209010603
+    ],
+    "tail_x": [
+      0.875
+    ],
+    "peer_evidence": {
+      "x": [
+        0.00923933856321074,
+        -1.2714454104505302
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2026Q1",
+          "available_at": "2025-09-08",
+          "source_sha256": "1f4d56126c9b6b0f9cca2497cd546cbd17e1266da7eef1d56f4fd3ec659ee896"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2026Q1",
+          "available_at": "2025-09-02",
+          "source_sha256": "883378e1ca139548a46344245001609e6d0c5498bb2bad9130536955340df25a"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1",
+      "2024Q2",
+      "2024Q3",
+      "2024Q4",
+      "2025Q1",
+      "2025Q2"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2025-09-30",
+      "quarter_start": "2025-07-01",
+      "quarter_end": "2025-09-30",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 2,
+          "mean_capture_gap_cpg": 4.15,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 2,
+          "mean_capture_gap_cpg": 7.72,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "MEDIUM",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 31.9,
+          "prior_year_margin_percentile": 0.962,
+          "wholesale_change_difference_cpg": 36.96,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.16,
+          "adaptive_regime": "NORMAL",
+          "historical_regime_support": 13,
+          "trailing_four_reported_margin_shift_cpg": 5.4,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2025Q4",
+    "era": "modern",
+    "cutoff": "2025-12-31",
+    "production_cpg": 30.197566706485624,
+    "direction_x": [
+      0.16684513017862468,
+      0.012074019928553215
+    ],
+    "tail_x": [
+      0.25
+    ],
+    "peer_evidence": {
+      "x": [
+        0.8342256508931234,
+        0.06037009964276608
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2026Q2",
+          "available_at": "2025-12-09",
+          "source_sha256": "ef133bd9459abf642daed5241338af418fade9e411e5d745b7d62b5ddd7029ed"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2026Q2",
+          "available_at": "2025-11-24",
+          "source_sha256": "79b71e446994d47d53d8413209250e8c6d5ee3e945bebe85909fe91c30edf819"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1",
+      "2024Q2",
+      "2024Q3",
+      "2024Q4",
+      "2025Q1",
+      "2025Q2",
+      "2025Q3"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2025-12-31",
+      "quarter_start": "2025-10-01",
+      "quarter_end": "2025-12-31",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "UNDER_ESTIMATE_RISK",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "LOW",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 0,
+          "mean_capture_gap_cpg": 0.0,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 4,
+          "mean_capture_gap_cpg": 5.03,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 28.9,
+          "prior_year_margin_percentile": 0.778,
+          "wholesale_change_difference_cpg": -4.14,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 1.26,
+          "adaptive_regime": "NORMAL",
+          "historical_regime_support": 14,
+          "trailing_four_reported_margin_shift_cpg": 4.6,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2026Q1",
+    "era": "modern",
+    "cutoff": "2026-03-31",
+    "production_cpg": 25.317335630426772,
+    "direction_x": [
+      0.26313656047017736,
+      0.24865038404266065
+    ],
+    "tail_x": [
+      0.75
+    ],
+    "peer_evidence": {
+      "x": [
+        1.3156828023508869,
+        1.2432519202133032
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2026Q3",
+          "available_at": "2026-03-09",
+          "source_sha256": "f1d28f514135aa2f179f6699cfb7b4d9ef026af2f6ca2e6f8c004d534e6c316b"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2026Q3",
+          "available_at": "2026-03-17",
+          "source_sha256": "4a6412837e3b5829961908eb4034a758c844d5306fed92c0b788246c1eddb059"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1",
+      "2024Q2",
+      "2024Q3",
+      "2024Q4",
+      "2025Q1",
+      "2025Q2",
+      "2025Q3",
+      "2025Q4"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2026-03-31",
+      "quarter_start": "2026-01-01",
+      "quarter_end": "2026-03-31",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 5,
+          "mean_capture_gap_cpg": 14.93,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 2,
+          "mean_capture_gap_cpg": 29.62,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 23.7,
+          "prior_year_margin_percentile": 0.429,
+          "wholesale_change_difference_cpg": 106.84,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 4.99,
+          "adaptive_regime": "FAST_RISING",
+          "historical_regime_support": 6,
+          "trailing_four_reported_margin_shift_cpg": 4.0,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  },
+  {
+    "quarter": "2026Q2",
+    "era": "modern",
+    "cutoff": "2026-06-30",
+    "production_cpg": 28.49508433083607,
+    "direction_x": [
+      0.4277240807141709,
+      0.30472718407411725
+    ],
+    "tail_x": [
+      0.75
+    ],
+    "peer_evidence": {
+      "x": [
+        2.1386204035708545,
+        1.5236359203705863
+      ],
+      "donors": [
+        {
+          "company": "CASY",
+          "quarter": "F2026Q4",
+          "available_at": "2026-06-09",
+          "source_sha256": "9ded33b0922753edc7058d899466faee85b250d5182c8c35d824a1287f25cde3"
+        },
+        {
+          "company": "ATD",
+          "quarter": "F2026Q4",
+          "available_at": "2026-06-22",
+          "source_sha256": "32cf8ee64bf4f9b95e75eabf56b327494d065c9b7a0fdae129327087237751a4"
+        }
+      ]
+    },
+    "risk_training_quarters": [
+      "2019Q1",
+      "2019Q2",
+      "2019Q3",
+      "2019Q4",
+      "2020Q1",
+      "2020Q2",
+      "2020Q3",
+      "2020Q4",
+      "2021Q1",
+      "2021Q2",
+      "2021Q3",
+      "2021Q4",
+      "2022Q1",
+      "2022Q2",
+      "2022Q3",
+      "2022Q4",
+      "2023Q1",
+      "2023Q2",
+      "2023Q3",
+      "2023Q4",
+      "2024Q1",
+      "2024Q2",
+      "2024Q3",
+      "2024Q4",
+      "2025Q1",
+      "2025Q2",
+      "2025Q3",
+      "2025Q4",
+      "2026Q1"
+    ],
+    "risk": {
+      "spec_id": "MUSA_MARGIN_REGIME_RISK_V1",
+      "forecast_type": "production_model_risk_diagnostic",
+      "as_of": "2026-06-30",
+      "quarter_start": "2026-04-01",
+      "quarter_end": "2026-06-30",
+      "point_forecast_changed": false,
+      "overall_risk": "ELEVATED",
+      "risk_orientation": "BIDIRECTIONAL",
+      "risks": {
+        "rising_squeeze_risk": {
+          "level": "HIGH",
+          "orientation": "OVER_ESTIMATE_RISK",
+          "qualifying_weeks": 3,
+          "mean_capture_gap_cpg": 23.06,
+          "reason": "Wholesale rises faster than retail during qualifying weekly increases."
+        },
+        "falling_capture_expansion": {
+          "level": "HIGH",
+          "orientation": "UNDER_ESTIMATE_RISK",
+          "qualifying_weeks": 5,
+          "mean_capture_gap_cpg": 18.49,
+          "reason": "Retail falls more slowly than wholesale during qualifying weekly declines."
+        },
+        "anchor_reversal_risk": {
+          "level": "LOW",
+          "orientation": "BIDIRECTIONAL",
+          "prior_year_margin_cpg": 29.2,
+          "prior_year_margin_percentile": 0.793,
+          "wholesale_change_difference_cpg": -30.97,
+          "triggered": false,
+          "reason": "Extreme same-quarter prior-year anchor with an opposite market move."
+        },
+        "structural_capture_uncertainty": {
+          "level": "HIGH",
+          "orientation": "BIDIRECTIONAL",
+          "feature_distance_z": 2.69,
+          "adaptive_regime": "HIGH_VOLATILITY",
+          "historical_regime_support": 0,
+          "trailing_four_reported_margin_shift_cpg": 4.75,
+          "reason": "Unusual market features or a material shift in the reported margin floor."
+        }
+      }
+    }
+  }
+]

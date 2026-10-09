@@ -1,0 +1,57 @@
+{
+  "search_performed_date": "2026-10-08",
+  "purpose": "Locate permitted company-specific station pricing evidence",
+  "status": "BLOCKED_VERIFIED_PRICE_EVIDENCE_AND_PERMISSION",
+  "verified_station_price_observations": 0,
+  "automated_collection_enabled": false,
+  "source_checks": [
+    {
+      "source_locator": "https://www.murphyusa.com/murphyusa/find-a-store",
+      "source_type": "COMPANY_STORE_LOCATOR",
+      "audit_result": "HTTP_403_RESEARCH_BROWSER",
+      "matched_disclosure": null,
+      "raw_evidence_id": null,
+      "sha256": null
+    },
+    {
+      "source_locator": "https://www.murphyusa.com/murphyusa/faqs",
+      "source_type": "COMPANY_PRICING_FAQ",
+      "audit_result": "HTTP_403_RESEARCH_BROWSER",
+      "matched_disclosure": null,
+      "raw_evidence_id": null,
+      "sha256": null
+    },
+    {
+      "source_locator": "https://www.murphyusa.com/murphyusa/legal",
+      "source_type": "COMPANY_COLLECTION_PERMISSION",
+      "audit_result": "HTTP_403_RESEARCH_BROWSER",
+      "permission_conclusion": "NOT_ESTABLISHED",
+      "raw_evidence_id": null,
+      "sha256": null
+    },
+    {
+      "source_locator": "https://www.murphyexpress.com/murphyusa/faqs",
+      "source_type": "COMPANY_SEARCH_DISCOVERY_ONLY",
+      "audit_result": "SEARCH_RESULT_SAYS_APP_AND_WEBSITE_PRICES_UPDATE_APPROXIMATELY_EVERY_FIVE_MINUTES",
+      "station_price_observation": null,
+      "permission_conclusion": "NOT_ESTABLISHED",
+      "raw_evidence_id": null,
+      "sha256": null
+    },
+    {
+      "source_locator": "https://help.gasbuddy.com/hc/en-us/articles/40439396627991-Updated-Terms-of-Service-Effective-June-22nd-2026",
+      "source_type": "THIRD_PARTY_COLLECTION_TERMS",
+      "publication_date": "2026-06-22",
+      "audit_result": "SEARCH_RESULT_REPORTS_PROHIBITION_ON_OUTSIDE_AUTOMATED_PRICE_SCRAPING; DIRECT_OPEN_REDIRECT_INACCESSIBLE",
+      "permission_conclusion": "DO_NOT_AUTOMATE_WITHOUT_EXPLICIT_PERMISSION",
+      "raw_evidence_id": null,
+      "sha256": null
+    }
+  ],
+  "limitations": [
+    "Browser/search discovery summaries are not archived raw source bytes; raw hashes intentionally remain null",
+    "Search capture date does not establish when any station price was observed or available",
+    "No denied page was bypassed and no hidden pricing endpoint was accessed",
+    "Manual intake requires actual timestamped raw evidence and verified station identity; none was fabricated"
+  ]
+}

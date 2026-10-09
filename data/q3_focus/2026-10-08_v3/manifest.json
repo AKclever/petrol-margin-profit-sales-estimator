@@ -1,0 +1,66 @@
+[
+  {
+    "path": "data/weights.csv",
+    "sha256": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986"
+  },
+  {
+    "path": "data/actuals.csv",
+    "sha256": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6"
+  },
+  {
+    "path": "data/earnings_event_replay/2026-10-08_v3/dataset.json",
+    "sha256": "81a5d08eb92b32987037056596293ad71fc9276b63c9a074ee845e03e3ae9b30"
+  },
+  {
+    "path": "data/shadow/checkpoints/2026Q3_2026-09-28_20260927T211754Z.json",
+    "sha256": "4b1c78e07ef4803daa11c96baddc951e3e8aa924356f4f7c2371e1d3120cf7ba"
+  },
+  {
+    "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/q3_focus.py",
+    "sha256": "38ba7495c17488b791a43d8cf5e42bc1a3028c46a5436ae4cb90ad224f602f6a"
+  },
+  {
+    "path": "data/peer_surprise/2026-10-07_v2/result.json",
+    "sha256": "b62861c3c1242ddac0b2b40fa3e0e583164229a7ebb27c79f1cf57c3c09da985"
+  },
+  {
+    "path": "data/accounting_miss_audit/2026-10-07_v1/2026Q2.html",
+    "sha256": "21b175a3bf82ca294918de5437b0e4faf618983dd4997c0dc7615f775ca96680"
+  },
+  {
+    "path": "musa_nowcast/model.py",
+    "sha256": "a62800fe77ff2c8230c5b5144c5ff78b7e4af769b91a29396bdee44cfae51311"
+  },
+  {
+    "path": "musa_nowcast/timing.py",
+    "sha256": "965cd871276b85a8b96496268c60eb9a7d1767d20a60519311000362e0b1b8c4"
+  },
+  {
+    "path": "musa_nowcast/risk.py",
+    "sha256": "824207ee0436cb321a1dce9e0ebd4104261682909edae192ba06ab96008bcd7c"
+  },
+  {
+    "path": "data/q3_focus/2026-10-08_v3/raw/PET.EER_EPMRU_PF4_RGC_DPG.W.xls",
+    "sha256": "0c664e5ea45071fc67d4a6db1f3d878b2ecda5907c37a5519912810f83fd7e5d"
+  },
+  {
+    "path": "data/q3_focus/2026-10-08_v3/raw/PET.EER_EPMRU_PF4_Y35NY_DPG.W.xls",
+    "sha256": "6064ffedc96ebf21841769e7ef11128f4aa38079835cce47626cb5d6f3cbf40e"
+  },
+  {
+    "path": "data/q3_focus/2026-10-08_v3/raw/PET.EMM_EPMR_PTE_R10_DPG.W.xls",
+    "sha256": "ccd5a1fda5e23838fd2a95d61c6ae115eda88d2b00febe5bc482d1dad046ccab"
+  },
+  {
+    "path": "data/q3_focus/2026-10-08_v3/raw/PET.EMM_EPMR_PTE_R20_DPG.W.xls",
+    "sha256": "550495ea6a1bfc59af8ffd9d5e3d0903bbd5799efdca000fbe18a5ed2082b22d"
+  },
+  {
+    "path": "data/q3_focus/2026-10-08_v3/raw/PET.EMM_EPMR_PTE_R30_DPG.W.xls",
+    "sha256": "432e16b297e7994e277f3e339f71af9c8af3d1151a84373f1a63b18377ac65ab"
+  },
+  {
+    "path": "data/q3_focus/2026-10-08_v3/raw/musa_q2_2026.html",
+    "sha256": "21b175a3bf82ca294918de5437b0e4faf618983dd4997c0dc7615f775ca96680"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:11.402391+00:00",
+  "captured_at": "2026-10-07T16:15:11.402377+00:00",
+  "key": "2013Q3",
+  "original_index_locator_or_series": "https://s22.q4cdn.com/506259022/files/doc_news/archive/585009.pdf",
+  "raw_file": "2013Q3.pdf",
+  "sha256": "cebf7a2c878ce81b04fb5a35b56045f24c8b8ea87b9ffe6b4ddff6333bfa674a",
+  "source_type": "ISSUER_EARNINGS_RELEASE",
+  "source_url": "https://s22.q4cdn.com/506259022/files/doc_news/archive/585009.pdf",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

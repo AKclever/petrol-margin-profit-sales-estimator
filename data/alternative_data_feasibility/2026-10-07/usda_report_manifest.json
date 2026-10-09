@@ -1,0 +1,15 @@
+{
+  "role": "SOURCE_FEASIBILITY_ONLY_NOT_FORECAST_INPUT",
+  "source_url": "https://www.ams.usda.gov/mnreports/ams_3617.pdf",
+  "raw_file": "usda_daily_report.pdf",
+  "sha256": "3d487b02bb2d4d72c06d63c0f4b28ce0f25ea18fed735d20fc83ae1167c24470",
+  "raw_hash_verified_at": "2026-10-07T15:49:09Z",
+  "available_at_conservative": "2026-10-07T15:49:09Z",
+  "publication_date_printed": "2026-10-07",
+  "settlement_observation_date_printed": "2026-10-06",
+  "intraday_source_publication_time_verified": false,
+  "visual_review": "Page1 verified commodity units, quote date and contract months",
+  "verified_contents": ["Corn bids at ethanol plants", "NYMEX RBOB gasoline settlement prices for Nov2026 through Apr2027", "Natural gas and corn futures settlements"],
+  "not_verified": ["Delivered fuel cost to MUSA", "Delivered ethanol prices", "Complete historical PIT report archive", "Original exchange-data redistribution terms"],
+  "used_to_adjust_production": false
+}

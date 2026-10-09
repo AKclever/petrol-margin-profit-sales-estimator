@@ -1,0 +1,18 @@
+{
+  "id": "MUSA_SIMPLE_ECONOMIC_TWO_PATH_V1",
+  "production_changed": false,
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_NOT_PIT_VALIDATION",
+  "market_features": ["volume_proxy_weighted_retail_minus_smoothed_spot", "volume_proxy_weighted_capture_minus_squeeze"],
+  "sequence_method": "Reuse weekly V1: two-week cost average, asymmetric mismatch impulses, fixed 0.5 weekly decay, eight-transition warmup",
+  "calibration": "Absolute retail margin; intercept and two nonnegative slopes; standardized ridge alpha=2; latest eight published feature-complete quarters; no prior-year anchor",
+  "training_cutoff": "Completed quarters and outcomes published strictly before target quarter-end; minimum eight; no missing feature filler",
+  "weights": "Archived current-vintage EIA national-demand times regional store weights; explicit proxy, not MUSA observed gallons",
+  "boundary": "Existing weekly V1 final partial-week carry only; no internal gaps or future-week data",
+  "tail_threshold_cpg": 5,
+  "metrics": ["MAE", "RMSE", "frequency absolute error >=5 cents", "original-large group", "original-ordinary group", "recent-eight metrics", "existing gate"],
+  "activation": "Every eligible modern quarter, not only known misses; one frozen candidate, no parameter search",
+  "disclosure_route": "Same-basis retail, verified and available by cutoff; explicit observed or separately opted-in PIT-modelled gallon share and independently archived remaining-period estimate; missing inputs block, no calendar substitute",
+  "historical_disclosure_example": "Verify and reaggregate existing Q2 2025 frozen modelled-share replay; preserve strict replay block and original retrospective role; not a new backtest of market calibration",
+  "current_shadow": "2026Q3 post-path research only; no automatic promotion or current-quarter publication claim",
+  "limitations": "Quarterly labels supervise inferred weekly allocations, not observed weekly company margins; historical market vintages not verified in this experiment"
+}

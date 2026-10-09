@@ -1,0 +1,12 @@
+{
+  "available_at": "2024-03-11",
+  "captured_at": "2026-10-08T11:08:52.939586+00:00",
+  "cover_sha256": "4f49a5e7e30f75d1373d897301f6414c1effac90d2101d422e61f46b33d8c537",
+  "cover_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695824000012/casy-20240311.htm",
+  "quarter": "F2024Q3",
+  "raw_file": "F2024Q3.html",
+  "search_performed_at": "2026-10-08T11:08:52.629423+00:00",
+  "sha256": "1e1f78eea5d461145aa4e1e429677b290934f749805b534e136b2e91f7056eb6",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695824000012/q3fy2024earningspressrelea.htm",
+  "status": "RAW_CAPTURED"
+}

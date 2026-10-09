@@ -1,0 +1,66 @@
+{
+  "captured_at": "2026-10-07T15:59:48.565993+00:00",
+  "role": "CURRENT_VINTAGE_ARCHIVE_NOT_HISTORICAL_PIT",
+  "sources": [
+    {
+      "available_at": "2026-10-07T15:59:37.331714+00:00",
+      "captured_at": "2026-10-07T15:59:37.331714+00:00",
+      "count": 1917,
+      "name": "stocks_PADD1",
+      "series_id": "WGTSTP11",
+      "sha256": "eafc9aa9d93a70115bcf5a02fa71ee83a439f410f6c4ec1211c7fa4c6f7e5765",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/WGTSTP11w.xls",
+      "units": "thousand_barrels"
+    },
+    {
+      "available_at": "2026-10-07T15:59:37.307282+00:00",
+      "captured_at": "2026-10-07T15:59:37.307282+00:00",
+      "count": 1917,
+      "name": "stocks_PADD2",
+      "series_id": "WGTSTP21",
+      "sha256": "816ca4d904229d127653f694dd8465eb848ce4909dc50da937b714156a6f2108",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/WGTSTP21w.xls",
+      "units": "thousand_barrels"
+    },
+    {
+      "available_at": "2026-10-07T15:59:39.321900+00:00",
+      "captured_at": "2026-10-07T15:59:39.321900+00:00",
+      "count": 1917,
+      "name": "stocks_PADD3",
+      "series_id": "WGTSTP31",
+      "sha256": "2cdc004e105e665b348efb43553de1eb1fe62a9603ea5fb78672b32d402e3658",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/WGTSTP31w.xls",
+      "units": "thousand_barrels"
+    },
+    {
+      "available_at": "2026-10-07T15:59:46.679399+00:00",
+      "captured_at": "2026-10-07T15:59:46.679399+00:00",
+      "count": 852,
+      "name": "utilization_PADD1",
+      "series_id": "W_NA_YUP_R10_PER",
+      "sha256": "88e289ed0f21ddfe63079ba8717c58cd386a62192b3d313c036b2233215f6564",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/W_NA_YUP_R10_PERw.xls",
+      "units": "percent"
+    },
+    {
+      "available_at": "2026-10-07T15:59:45.609222+00:00",
+      "captured_at": "2026-10-07T15:59:45.609222+00:00",
+      "count": 852,
+      "name": "utilization_PADD2",
+      "series_id": "W_NA_YUP_R20_PER",
+      "sha256": "327aa3cdff1f5ecd8d2b784ab57f8788cb2755c6edb4b29d73c9c5a4231ed2ff",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/W_NA_YUP_R20_PERw.xls",
+      "units": "percent"
+    },
+    {
+      "available_at": "2026-10-07T15:59:48.556386+00:00",
+      "captured_at": "2026-10-07T15:59:48.556386+00:00",
+      "count": 852,
+      "name": "utilization_PADD3",
+      "series_id": "W_NA_YUP_R30_PER",
+      "sha256": "a618e7c3a47cc6cce9f77bc07151ad646988f017a8e368570691c96bd000beb0",
+      "source_url": "https://www.eia.gov/dnav/pet/hist_xls/W_NA_YUP_R30_PERw.xls",
+      "units": "percent"
+    }
+  ]
+}

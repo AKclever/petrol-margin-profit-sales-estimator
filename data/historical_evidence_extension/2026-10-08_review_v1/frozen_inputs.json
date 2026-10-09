@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-08T10:19:22.714080+00:00",
+  "files": [
+    {
+      "path": "data/historical_evidence_extension_spec_v1.json",
+      "sha256": "94430bd378691c6984eca4e22c2f91fc6f523bd5f738c171707074493e2d6ebd"
+    },
+    {
+      "path": "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/historical_evidence_extension.py",
+      "sha256": "4250543eebf48460d453141814b14ee035906be0d5b24bf6d44a479aab03d89c"
+    },
+    {
+      "path": "data/older_peer_evidence/2026-10-08_review_v4/review.json",
+      "sha256": "f5546023258a5671f565212981aaf759d3ecd45addeeeda54967fb7f70c1a905"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/historical_targets.json",
+      "sha256": "f68a74c09e54f18d92b38f276b2dc0a5b8a3928f67af74347cb72c85c2e47397"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/results.json",
+      "sha256": "ec3e6408ee2c2ad2b20bd2ed71c27d5373265d2a7eabe974a87a35b06e455f3c"
+    },
+    {
+      "path": "data/history_floor_basis/2026-10-07_evaluation_v6/normalized_market.json",
+      "sha256": "fae439c5b66ddc595fb1d5b6898dde93ab3b88e1c023cf32d350916d5f612531"
+    },
+    {
+      "path": "data/historical_evidence_extension/2026-10-08_sources_v2/source_checks.json",
+      "sha256": "de9164f1f2d86a5422848ba0fabe4654067486bc368314216dfabf2d2ee4c6e8"
+    },
+    {
+      "path": "data/older_peer_evidence/2026-10-08_v1/source_checks.json",
+      "sha256": "0666f2c7f1da7c5cf1803baf9dc3accd6a0cbe5db8c2c83e27794ceff77a6aa7"
+    },
+    {
+      "path": "data/caseys/actuals.csv",
+      "sha256": "41785e08fde0d457aea551ce48222952cb42ba4ec2b9ee5e9ccda3c6de97c3c3"
+    },
+    {
+      "path": "data/caseys/weights.csv",
+      "sha256": "bf2c7b5929e68948914c64826ef7efd9f5b76944f4e566336a08f6bd0a44666a"
+    },
+    {
+      "path": "musa_nowcast/couchetard_peer.py",
+      "sha256": "f4c954ab90a937b87dd3bb56585ce89e0b229670c233c5b659b605f617c523ef"
+    },
+    {
+      "path": "musa_nowcast/mathutils.py",
+      "sha256": "fef59998d413cd8e796ae8b823bf880f66be682ec31ac2bacd6386d526b88d70"
+    },
+    {
+      "path": "musa_nowcast/model.py",
+      "sha256": "a62800fe77ff2c8230c5b5144c5ff78b7e4af769b91a29396bdee44cfae51311"
+    },
+    {
+      "path": "musa_nowcast/timing.py",
+      "sha256": "965cd871276b85a8b96496268c60eb9a7d1767d20a60519311000362e0b1b8c4"
+    }
+  ]
+}

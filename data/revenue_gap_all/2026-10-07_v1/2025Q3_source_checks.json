@@ -1,0 +1,32 @@
+{
+  "checks": [
+    {
+      "audit_result": "CAPTURED_PENDING_VALUE_REVIEW",
+      "captured_at": "2026-10-07T15:42:51.689042+00:00",
+      "date_precision": "DATE_ONLY",
+      "publication_date": "2025-10-30",
+      "quarter": "2025Q3",
+      "raw_file": "sources/2025Q3_filing.html",
+      "sha256": "56b66169164ed6d17286e07eda6057f8ab6b7d6b0c630a248bff68446c64e383",
+      "source_type": "10-Q",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000074/musa-20250930.htm"
+    },
+    {
+      "audit_result": "CAPTURED_PENDING_VALUE_REVIEW",
+      "captured_at": "2026-10-07T15:42:51.738306+00:00",
+      "date_precision": "DATE_ONLY",
+      "publication_date": "2025-10-29",
+      "quarter": "2025Q3",
+      "raw_file": "sources/2025Q3_cover.html",
+      "sha256": "248d24e8a7d57210d9c573a2779ea7dfc7681a7801220213295464a249253e9e",
+      "source_type": "SEC_EARNINGS_8K",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351625000071/musa-20251023.htm"
+    },
+    {
+      "audit_result": "SOURCE_CAPTURE_FAILED",
+      "error_type": "ValueError",
+      "quarter": "2025Q3",
+      "source_type": "SEC_EARNINGS_EXHIBIT"
+    }
+  ]
+}

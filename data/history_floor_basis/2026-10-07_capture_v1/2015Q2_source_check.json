@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:08.895122+00:00",
+  "captured_at": "2026-10-07T16:15:08.895109+00:00",
+  "key": "2015Q2",
+  "original_index_locator_or_series": "http://murphyusa2017ir.q4web.com/investor-relations/news-releases/press-release-details/2015/Murphy-USA-Inc-Reports-Second-Quarter-2015-Results/default.aspx",
+  "raw_file": "2015Q2.html",
+  "sha256": "d14ff1a423b3dcdc8c04b194abbb7a23c4f15d9572b14146f077c546633d1a12",
+  "source_type": "ISSUER_EARNINGS_RELEASE",
+  "source_url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2015/Murphy-USA-Inc-Reports-Second-Quarter-2015-Results/default.aspx",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

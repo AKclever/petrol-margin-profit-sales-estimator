@@ -1,0 +1,12 @@
+{
+  "available_at": "2020-06-10",
+  "captured_at": "2026-10-08T11:10:02.374051+00:00",
+  "cover_sha256": "d40feadeffabb67d47d96d78b66c7f5adfec43ea9cc83b2080deb263a10dbd01",
+  "cover_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695820000069/a8-kq4fy20transcript.htm",
+  "quarter": "F2020Q4",
+  "raw_file": "F2020Q4.html",
+  "search_performed_at": "2026-10-08T11:10:02.169485+00:00",
+  "sha256": "483b23db069aca1a0cf97c1a0f7317e71214ba87324d8e5560345f1610cb60ff",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695820000069/a2020jun09casyoq13796459.htm",
+  "status": "RAW_CAPTURED"
+}

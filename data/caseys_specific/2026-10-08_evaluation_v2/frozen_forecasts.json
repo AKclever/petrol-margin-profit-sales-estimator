@@ -1,0 +1,497 @@
+{
+  "baseline_excluded": [
+    {
+      "quarter": "F2013Q3",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2013Q4",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2014Q1",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2014Q2",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2014Q3",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2014Q4",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2015Q1",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2015Q2",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2020Q3",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2020Q4",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    }
+  ],
+  "component_model_target": "EX_RIN_PROCEEDS_PROXY",
+  "created_at": "2026-10-08T11:13:15.915182+00:00",
+  "excluded": [
+    {
+      "quarter": "F2021Q3",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2021Q4",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2022Q1",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2022Q2",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2022Q3",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2022Q4",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2023Q1",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    },
+    {
+      "quarter": "F2023Q2",
+      "reason": "INSUFFICIENT_HISTORY_OR_FISCAL_ANCHOR"
+    }
+  ],
+  "forecasts": {
+    "F2023Q3": {
+      "ex_rin_forecast_cpg": 38.73353072601671,
+      "information_cutoff": "2023-01-31",
+      "prediction_cpg": 40.225000272928845,
+      "rin_forecast_cpg": 1.4914695469121357,
+      "rin_training_quarters": [
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2"
+      ]
+    },
+    "F2023Q4": {
+      "ex_rin_forecast_cpg": 38.970956594875865,
+      "information_cutoff": "2023-04-30",
+      "prediction_cpg": 40.16472020207494,
+      "rin_forecast_cpg": 1.1937636071990707,
+      "rin_training_quarters": [
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3"
+      ]
+    },
+    "F2024Q1": {
+      "ex_rin_forecast_cpg": 40.84179744843374,
+      "information_cutoff": "2023-07-31",
+      "prediction_cpg": 41.991286054747306,
+      "rin_forecast_cpg": 1.1494886063135707,
+      "rin_training_quarters": [
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4"
+      ]
+    },
+    "F2024Q2": {
+      "ex_rin_forecast_cpg": 38.99681394864141,
+      "information_cutoff": "2023-10-31",
+      "prediction_cpg": 40.211794268402045,
+      "rin_forecast_cpg": 1.2149803197606328,
+      "rin_training_quarters": [
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1"
+      ]
+    },
+    "F2024Q3": {
+      "ex_rin_forecast_cpg": 39.213407475913186,
+      "information_cutoff": "2024-01-31",
+      "prediction_cpg": 40.32061120241136,
+      "rin_forecast_cpg": 1.1072037264981727,
+      "rin_training_quarters": [
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2"
+      ]
+    },
+    "F2024Q4": {
+      "ex_rin_forecast_cpg": 33.23822932866746,
+      "information_cutoff": "2024-04-30",
+      "prediction_cpg": 34.35634177033339,
+      "rin_forecast_cpg": 1.1181124416659323,
+      "rin_training_quarters": [
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3"
+      ]
+    },
+    "F2025Q1": {
+      "ex_rin_forecast_cpg": 38.78944318439489,
+      "information_cutoff": "2024-07-31",
+      "prediction_cpg": 39.943527418420125,
+      "rin_forecast_cpg": 1.1540842340252357,
+      "rin_training_quarters": [
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4"
+      ]
+    },
+    "F2025Q2": {
+      "ex_rin_forecast_cpg": 41.531767615454854,
+      "information_cutoff": "2024-10-31",
+      "prediction_cpg": 42.133892587897606,
+      "rin_forecast_cpg": 0.6021249724427546,
+      "rin_training_quarters": [
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1"
+      ]
+    },
+    "F2025Q3": {
+      "ex_rin_forecast_cpg": 37.855562785978826,
+      "information_cutoff": "2025-01-31",
+      "prediction_cpg": 38.3280677399488,
+      "rin_forecast_cpg": 0.47250495396997383,
+      "rin_training_quarters": [
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2"
+      ]
+    },
+    "F2025Q4": {
+      "ex_rin_forecast_cpg": 37.272824767871626,
+      "information_cutoff": "2025-04-30",
+      "prediction_cpg": 37.70034325877359,
+      "rin_forecast_cpg": 0.42751849090196564,
+      "rin_training_quarters": [
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3"
+      ]
+    },
+    "F2026Q1": {
+      "ex_rin_forecast_cpg": 41.360441262295005,
+      "information_cutoff": "2025-07-31",
+      "prediction_cpg": 41.88330315272275,
+      "rin_forecast_cpg": 0.5228618904277498,
+      "rin_training_quarters": [
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4"
+      ]
+    },
+    "F2026Q2": {
+      "ex_rin_forecast_cpg": 39.09449467410602,
+      "information_cutoff": "2025-10-31",
+      "prediction_cpg": 39.64573059339713,
+      "rin_forecast_cpg": 0.5512359192911063,
+      "rin_training_quarters": [
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1"
+      ]
+    },
+    "F2026Q3": {
+      "ex_rin_forecast_cpg": 36.82552509379841,
+      "information_cutoff": "2026-01-31",
+      "prediction_cpg": 37.4174153148448,
+      "rin_forecast_cpg": 0.5918902210463888,
+      "rin_training_quarters": [
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2"
+      ]
+    },
+    "F2026Q4": {
+      "ex_rin_forecast_cpg": 41.73942660359003,
+      "information_cutoff": "2026-04-30",
+      "prediction_cpg": 42.4386171395941,
+      "rin_forecast_cpg": 0.699190536004066,
+      "rin_training_quarters": [
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2",
+        "F2026Q3"
+      ],
+      "training_quarters": [
+        "F2021Q3",
+        "F2021Q4",
+        "F2022Q1",
+        "F2022Q2",
+        "F2022Q3",
+        "F2022Q4",
+        "F2023Q1",
+        "F2023Q2",
+        "F2023Q3",
+        "F2023Q4",
+        "F2024Q1",
+        "F2024Q2",
+        "F2024Q3",
+        "F2024Q4",
+        "F2025Q1",
+        "F2025Q2",
+        "F2025Q3",
+        "F2025Q4",
+        "F2026Q1",
+        "F2026Q2",
+        "F2026Q3"
+      ]
+    }
+  },
+  "recent_level_baselines": {
+    "F2023Q3": 41.3,
+    "F2023Q4": 38.825,
+    "F2024Q1": 46.725,
+    "F2024Q2": 40.9375,
+    "F2024Q3": 40.6375,
+    "F2024Q4": 33.8125,
+    "F2025Q1": 41.25,
+    "F2025Q2": 42.224999999999994,
+    "F2025Q3": 36.7375,
+    "F2025Q4": 36.25,
+    "F2026Q1": 40.35,
+    "F2026Q2": 40.0,
+    "F2026Q3": 36.637499999999996,
+    "F2026Q4": 38.525
+  }
+}

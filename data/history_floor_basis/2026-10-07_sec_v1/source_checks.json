@@ -1,0 +1,469 @@
+{
+  "checks": [
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2018-01-31",
+      "captured_at": "2026-10-07T16:16:05.828778+00:00",
+      "evidence": " Results of Operations and Financial Condition On January 31, 2018, Murphy USA Inc. issued a news release announcing its preliminary earnings for the three and twelve months ended December 31, 2017. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2017Q4",
+      "raw_file": "000157351618000003_cover.html",
+      "sha256": "00b7cfbda7e333f3f40788ce5a3d40a5bf9c308ce6e22859817d0b6539d849bf",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351618000003/form8-kq42017earningsrelea.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "available_at": "2018-01-31",
+      "captured_at": "2026-10-07T16:16:06.100444+00:00",
+      "quarter": "2017Q4",
+      "raw_file": "2017Q4_release.html",
+      "sha256": "c5bbb6a925b1473ba1ec454b1a124fc0630332eb5236488bf6db0755e071aa2c",
+      "source_type": "SEC_EARNINGS_EXHIBIT",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351618000003/exh99_120171231earningsrel.htm",
+      "status": "CAPTURED_PENDING_TARGET_RECONCILIATION"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2017-11-01",
+      "captured_at": "2026-10-07T16:16:06.186596+00:00",
+      "evidence": " Results of Operations and Financial Condition On November 1, 2017, Murphy USA Inc. issued a news release announcing its earnings for the three and nine months ended September 30, 2017. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2017Q3",
+      "raw_file": "000157351617000036_cover.html",
+      "sha256": "b0ed900c8c0bb189b90599ef064ea448c0b377a6845f3d54bcd9bb0a19edd6fa",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351617000036/form8-kq32017earningsrelea.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "available_at": "2017-11-01",
+      "captured_at": "2026-10-07T16:16:06.305329+00:00",
+      "quarter": "2017Q3",
+      "raw_file": "2017Q3_release.html",
+      "sha256": "655275a6ffb564fdcbcf900a6a93b9b65d10f55f8cdf87183d5ecf185abfdc7d",
+      "source_type": "SEC_EARNINGS_EXHIBIT",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351617000036/exh99_120170930earningsrel.htm",
+      "status": "CAPTURED_PENDING_TARGET_RECONCILIATION"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2017-08-02",
+      "captured_at": "2026-10-07T16:16:05.926907+00:00",
+      "evidence": " Results of Operations and Financial Condition On August 2, 2017, Murphy USA Inc. issued a news release announcing its earnings for the three and six months ended June 30, 2017. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2017Q2",
+      "raw_file": "000157351617000030_cover.html",
+      "sha256": "3771e2be462ca15428d58fe6f2fc848793dec73631cff3425cbbe01c11016ad1",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351617000030/form8-kq22017earningsrelea.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351617000030/form8-kq22017earningsrelea.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "raw_file": "000157351617000023_cover.html",
+      "sha256": "25b70f19ab53d8b0db2ab2e841f32938a640ce1b3ff3e5278dbe2504fb94de55",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351617000023/form8kanalystday.htm",
+      "status": "COVER_NOT_UNAMBIGUOUS_PERIOD_RESULT"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2017-05-01",
+      "captured_at": "2026-10-07T16:16:06.308809+00:00",
+      "evidence": " Results of Operations and Financial Condition On May 1, 2017, Murphy USA Inc. issued a news release announcing its earnings for the three months ended March 31, 2017. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2017Q1",
+      "raw_file": "000157351617000016_cover.html",
+      "sha256": "9f580a270ec8d9e8eb6ad90c3f4c1d1704e51afe4d7d934cddccd409f2ec6853",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351617000016/form8-kq12017earningsrelea.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351617000016/form8-kq12017earningsrelea.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2017-04-18",
+      "captured_at": "2026-10-07T16:16:06.708661+00:00",
+      "evidence": " Results of Operations and Financial Condition On April 18, 2017, Murphy USA Inc. issued a news release announcing its preliminary earnings for the three months ended March 31, 2017 along with guidance changes for the full year 2017. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2017Q1",
+      "raw_file": "000157351617000010_cover.html",
+      "sha256": "3d61550b46930d1bb109b0e6c214f7641d13408c00b260898c44fb176aee0090",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351617000010/form8-kapril2017prexearnin.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351617000010/form8-kapril2017prexearnin.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2017-02-01",
+      "captured_at": "2026-10-07T16:16:06.800531+00:00",
+      "evidence": " Results of Operations and Financial Condition On February 1, 2017, Murphy USA Inc. issued a news release announcing its earnings for the three and twelve months ended December 31, 2016. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2016Q4",
+      "raw_file": "000157351617000002_cover.html",
+      "sha256": "07aa80926e13b67b3b02c6cb6627a2d772da5ecd68a8f45705c16adfe6767eca",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351617000002/form8-kq42016earningsrelea.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351617000002/form8-kq42016earningsrelea.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2016-11-02",
+      "captured_at": "2026-10-07T16:16:06.707297+00:00",
+      "evidence": " Results of Operations and Financial Condition On November 2, 2016, Murphy USA Inc. issued a news release announcing its earnings for the three and nine months ended September 30, 2016. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2016Q3",
+      "raw_file": "000157351616000072_cover.html",
+      "sha256": "3f9af0e6c10fe53a0d760aa8aa95917f0be77fd426db413f38b0245e72a3f7f5",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351616000072/form8-kq32016earningsrelea.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351616000072/form8-kq32016earningsrelea.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2016-08-03",
+      "captured_at": "2026-10-07T16:16:07.051630+00:00",
+      "evidence": " Results of Operations and Financial Condition On August 3, 2016, Murphy USA Inc. issued a news release announcing its earnings for the three and six months ended June 30, 2016. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2016Q2",
+      "raw_file": "000157351616000064_cover.html",
+      "sha256": "337ad824c3659ddf3b8e9d0086ff0e78b54f771378eae0c2741cdf83d7566db5",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351616000064/form8-kq22016earningsrelea.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351616000064/form8-kq22016earningsrelea.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2016-05-09",
+      "captured_at": "2026-10-07T16:16:07.084265+00:00",
+      "evidence": " Results of Operations and Financial Condition On May 9, 2016, Murphy USA Inc. issued a news release announcing its earnings for the three months ended March 31, 2016. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2016Q1",
+      "raw_file": "000157351616000057_cover.html",
+      "sha256": "7504cb87298f511ccf1c2b151e6384e8e7d2ad02bdbfccd168327e113dec4362",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351616000057/form8-kq12016earningsrelea.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351616000057/form8-kq12016earningsrelea.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2016-02-04",
+      "captured_at": "2026-10-07T16:16:06.874662+00:00",
+      "evidence": " Results of Operations and Financial Condition On February 3, 2016, Murphy USA Inc. issued a news release announcing its earnings for the three and twelve months ended December 31, 2015. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2015Q4",
+      "raw_file": "000157351616000042_cover.html",
+      "sha256": "0bc70646c3218e63c7741127d3c2b26ec227a96cce9b0057ec2d3120d2a6dc73",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351616000042/form8-k12312015earningsrel.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351616000042/form8-k12312015earningsrel.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "raw_file": "000157351616000037_cover.html",
+      "sha256": "10fb178293fd4ec4324bf55c0519847ce2f608950a71a169a5f86aaf9e895568",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351616000037/form8-kgrowthsharerepurcha.htm",
+      "status": "COVER_NOT_UNAMBIGUOUS_PERIOD_RESULT"
+    },
+    {
+      "raw_file": "000157351615000033_cover.html",
+      "sha256": "d54a93d3bdb60d5b87529e5ce0c4126323512e860472c7693401b32d6f1ea8d4",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351615000033/form8kherefordsale.htm",
+      "status": "COVER_NOT_UNAMBIGUOUS_PERIOD_RESULT"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2015-11-05",
+      "captured_at": "2026-10-07T16:16:07.423121+00:00",
+      "evidence": " Results of Operations and Financial Condition On November 4, 2015, Murphy USA Inc. issued a news release announcing its earnings for the three months and nine months ended September 30, 2015. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2015Q3",
+      "raw_file": "000157351615000028_cover.html",
+      "sha256": "ff250e63c5c5e79234571ffab578453f3463445157a630eee66f8327cffd467f",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351615000028/form8-k.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351615000028/form8-k.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "raw_file": "000157351615000026_cover.html",
+      "sha256": "22a7b7585bbafb6686e906af576951a4575877efe09c6552b7415290df37dfe4",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351615000026/core-mark8xk.htm",
+      "status": "COVER_NOT_UNAMBIGUOUS_PERIOD_RESULT"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2015-08-06",
+      "captured_at": "2026-10-07T16:16:07.835977+00:00",
+      "evidence": " Results of Operations and Financial Condition On August 5, 2015, Murphy USA Inc. issued a news release announcing its earnings for the three months and six months ended June 30, 2015. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2015Q2",
+      "raw_file": "000157351615000021_cover.html",
+      "sha256": "4cc93d202a646d5ba07459d4bdf7ff6473d4644915015abe0905962ee1fbcda7",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351615000021/musa-20150805x8k.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351615000021/musa-20150805x8k.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2015-05-04",
+      "captured_at": "2026-10-07T16:16:07.776442+00:00",
+      "evidence": " Results of Operations and Financial Condition On May 4, 2015, Murphy USA Inc. issued a news release announcing its earnings for the quarter ended March 31, 2015. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2015Q1",
+      "raw_file": "000157351615000012_cover.html",
+      "sha256": "49b0c1e3a2752568d97a1654e3a638741995c7e1277109d252a0cc7a7a745fb1",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351615000012/musa-20150504x8k.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351615000012/musa-20150504x8k.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2015-02-04",
+      "captured_at": "2026-10-07T16:16:07.778639+00:00",
+      "evidence": " Results of Operations and Financial Condition On February 4, 2015, Murphy USA Inc. issued a news release announcing its earnings for the quarter and year ended December 31, 2014. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2014Q4",
+      "raw_file": "000157351615000002_cover.html",
+      "sha256": "2be0f5b287bddcc93555a5960e152df1126c71cd227cc398038bc1cff62e539d",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351615000002/musa-20150204x8k.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351615000002/musa-20150204x8k.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2014-11-05",
+      "captured_at": "2026-10-07T16:16:08.095904+00:00",
+      "evidence": " Results of Operations and Financial Condition On November 5, 2014, Murphy USA Inc. issued a news release announcing its earnings for the quarter and nine months ended September 30, 2014. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2014Q3",
+      "raw_file": "000157351614000033_cover.html",
+      "sha256": "d30de953e518d2cc7d339052dd317198fa13637b0df263cce3f2d8a40b0e5d43",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351614000033/musa-20141105x8k.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351614000033/musa-20141105x8k.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2014-08-06",
+      "captured_at": "2026-10-07T16:16:08.106629+00:00",
+      "evidence": " Results of Operations and Financial Condition On August 6, 2014, Murphy USA Inc. issued a news release announcing its earnings for the quarter and six months ended June 30, 2014. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2014Q2",
+      "raw_file": "000157351614000024_cover.html",
+      "sha256": "a3ba4ccc8507b5c047a7bb6a6cf758ec7744f97fead28acca16c1b94cb8d3a5a",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351614000024/musa-20140806x8k.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351614000024/musa-20140806x8k.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2014-05-05",
+      "captured_at": "2026-10-07T16:16:08.172471+00:00",
+      "evidence": " Results of Operations and Financial Condition On May 5, 2014, Murphy USA Inc. issued a news release announcing its earnings for the quarter ended March 31, 2014. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2014Q1",
+      "raw_file": "000157351614000008_cover.html",
+      "sha256": "e734625473e65b1918d02c544c39488a6b9550d2da4b5d9e9a0c949933666536",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351614000008/musa-20140505x8k.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351614000008/musa-20140505x8k.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2014-02-19",
+      "captured_at": "2026-10-07T16:16:08.360729+00:00",
+      "evidence": " Results of Operations and Financial Condition On February 19, 2014, Murphy USA Inc. issued a news release announcing its earnings for the quarter and year ended December 31, 2013. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2013Q4",
+      "raw_file": "000157351614000003_cover.html",
+      "sha256": "9799e0752dd88e6b185ff99992f1ab2962704761cb2463d79ccd9faec67d51f9",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351614000003/musa-20140219x8k.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351614000003/musa-20140219x8k.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "raw_file": "000157351613000022_cover.html",
+      "sha256": "189f5902286ad9a976790dfff5581cf3dd7f5ef4d6320a5883999c1453e8487d",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351613000022/musa-20131219x8k.htm",
+      "status": "COVER_NOT_UNAMBIGUOUS_PERIOD_RESULT"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2013-11-07",
+      "captured_at": "2026-10-07T16:16:08.587867+00:00",
+      "evidence": " Results of Operations and Financial Condition On November 6, 2013, Murphy USA Inc. issued a news release announcing its earnings for the quarter ended September 30, 2013. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2013Q3",
+      "raw_file": "000157351613000015_cover.html",
+      "sha256": "891199cb27494bc26cb948bb9e55303475e0b1a4c326641c19daaa8d9cbf8bff",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351613000015/musa-20131106x8k.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "error_type": "ValueError",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351613000015/musa-20131106x8k.htm",
+      "status": "SOURCE_FAILED"
+    },
+    {
+      "raw_file": "000119312513338280_cover.html",
+      "sha256": "eb7e1adbcf69803ae7be869d5807535d4b0086a3fd42d57b5f5a7e31a4f4d8c9",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000119312513338280/d585843d8k.htm",
+      "status": "COVER_NOT_UNAMBIGUOUS_PERIOD_RESULT"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2019-01-30",
+      "captured_at": "2026-10-07T16:16:08.747389+00:00",
+      "evidence": " Results of Operations and Financial Condition On January 30, 2019, Murphy USA Inc. issued a news release announcing its financial results for the three and twelve months ended December 31, 2018. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2018Q4",
+      "raw_file": "000157351619000004_cover.html",
+      "sha256": "1d04fd63e81f66879c5554ee2275eb606f7b43cd5a92b49ca2bf01e89584cc2d",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351619000004/form8-kq42018earningsr.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "available_at": "2019-01-30",
+      "captured_at": "2026-10-07T16:16:09.175452+00:00",
+      "quarter": "2018Q4",
+      "raw_file": "2018Q4_release.html",
+      "sha256": "60344e8f88d8a9e4aa43c4028f83db18427311692ac1ee3e1ff93733de59ce57",
+      "source_type": "SEC_EARNINGS_EXHIBIT",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351619000004/exh991q42018earningsre.htm",
+      "status": "CAPTURED_PENDING_TARGET_RECONCILIATION"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2018-10-31",
+      "captured_at": "2026-10-07T16:16:08.890454+00:00",
+      "evidence": " Results of Operations and Financial Condition On October 31, 2018, Murphy USA Inc. issued a news release announcing its financial results for the three and nine months ended September 30, 2018. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2018Q3",
+      "raw_file": "000157351618000046_cover.html",
+      "sha256": "a392e787faab07fb06fc4d54ca248d685b16f0688e015056eef95c47b62b61c3",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351618000046/form8-k09302018earning.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "available_at": "2018-10-31",
+      "captured_at": "2026-10-07T16:16:09.428824+00:00",
+      "quarter": "2018Q3",
+      "raw_file": "2018Q3_release.html",
+      "sha256": "bf844a5fc6e49b963bc969a35a11ebd6cd39f9c34011781b3cc12d2dd249699f",
+      "source_type": "SEC_EARNINGS_EXHIBIT",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351618000046/exh99109302018earnings.htm",
+      "status": "CAPTURED_PENDING_TARGET_RECONCILIATION"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2018-08-01",
+      "captured_at": "2026-10-07T16:16:09.421722+00:00",
+      "evidence": " Results of Operations and Financial Condition On August 1, 2018, Murphy USA Inc. issued a news release announcing its financial results for the three and six months ended June 30, 2018. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2018Q2",
+      "raw_file": "000157351618000037_cover.html",
+      "sha256": "b2e168f4f6dad645b2b37b9ca17b4d8d3bcfb563e4318f5d061d626c216a5a0f",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351618000037/form8-kq22018earningsrelea.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "available_at": "2018-08-01",
+      "captured_at": "2026-10-07T16:16:09.990873+00:00",
+      "quarter": "2018Q2",
+      "raw_file": "2018Q2_release.html",
+      "sha256": "58e44fc56285a3cd92bcac1d836c2a0ed8efb2e1dedbed3c88e7febf524e55c9",
+      "source_type": "SEC_EARNINGS_EXHIBIT",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351618000037/exh99_120180630earningsrel.htm",
+      "status": "CAPTURED_PENDING_TARGET_RECONCILIATION"
+    },
+    {
+      "availability_basis": "SEC_FILING_DATE_CONSERVATIVE_DATE_ONLY",
+      "available_at": "2018-05-01",
+      "captured_at": "2026-10-07T16:16:09.442422+00:00",
+      "evidence": " Results of Operations and Financial Condition On May 1, 2018, Murphy USA Inc. issued a news release announcing its financial results for the three months ended March 31, 2018. The full text of this news release is attached hereto as Exhibit 99.1. The information in this ",
+      "quarter": "2018Q1",
+      "raw_file": "000157351618000013_cover.html",
+      "sha256": "42faf5dd251f67f5601604ecbd7119a4902ebbb67836bc2c05ffd3038e2fdcb0",
+      "source_type": "SEC_EARNINGS_COVER",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351618000013/form8-kq12018earningsrelea.htm",
+      "status": "PERIOD_VERIFIED"
+    },
+    {
+      "available_at": "2018-05-01",
+      "captured_at": "2026-10-07T16:16:09.978140+00:00",
+      "quarter": "2018Q1",
+      "raw_file": "2018Q1_release.html",
+      "sha256": "8b000d15fc17f3fda712f0b2a84a4e4ff08e90948f105b2681dcc36358c9cf5d",
+      "source_type": "SEC_EARNINGS_EXHIBIT",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351618000013/exh99_120180331earningsrel.htm",
+      "status": "CAPTURED_PENDING_TARGET_RECONCILIATION"
+    },
+    {
+      "raw_file": "000157351618000007_cover.html",
+      "sha256": "ee1fc5672c6824ae15da1db0aed9d48d0d530eb4d7a5c394e0e703cbf6c1e679",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1573516/000157351618000007/form8-ksettlementproceeds.htm",
+      "status": "COVER_NOT_UNAMBIGUOUS_PERIOD_RESULT"
+    }
+  ],
+  "created_at": "2026-10-07T16:16:09.991525+00:00",
+  "metadata_sha256": "b871328966502cded61c3be8ac22ed50762e47f2eeb7a229ba587b52c6300f7d"
+}

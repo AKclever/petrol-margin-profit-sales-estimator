@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:04.830913+00:00",
+  "captured_at": "2026-10-07T16:15:04.830900+00:00",
+  "key": "2018Q4",
+  "original_index_locator_or_series": "/investor-relations/news-releases/press-release-details/2019/Murphy-USA-Inc-Reports-Preliminary-Fourth-Quarter-2018-Results ",
+  "raw_file": "2018Q4.html",
+  "sha256": "8541e9e7ffc8bc8c37156a46bcf029e30431783f1897a6fb5b1cfa57bec21ede",
+  "source_type": "ISSUER_EARNINGS_RELEASE",
+  "source_url": "https://ir.corporate.murphyusa.com/investor-relations/news-releases/press-release-details/2019/Murphy-USA-Inc-Reports-Preliminary-Fourth-Quarter-2018-Results ",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

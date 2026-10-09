@@ -1,0 +1,7 @@
+{
+  "error": "source capture failed after three attempts: https://www.energy.ca.gov/data-reports/energy-almanac/californias-petroleum-market/california-oil-refinery-cost-disclosure",
+  "id": "cec_wholesale",
+  "search_performed_at": "2026-10-08T10:13:46.982937+00:00",
+  "source_url": "https://www.energy.ca.gov/data-reports/energy-almanac/californias-petroleum-market/california-oil-refinery-cost-disclosure",
+  "status": "UNRESOLVED_FETCH_FAILED"
+}

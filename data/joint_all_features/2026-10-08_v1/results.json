@@ -1,0 +1,1802 @@
+{
+  "automatic_promotion": false,
+  "big_miss_coverage": [
+    {
+      "actual_cpg": 21.8,
+      "joint_abs_error_cpg": null,
+      "joint_prediction_cpg": null,
+      "production_abs_error_cpg": 5.180859753382396,
+      "production_prediction_cpg": 26.980859753382397,
+      "quarter": "2021Q2",
+      "reason": "MISSING_PUBLISHED_OVERLAPPING_PEER",
+      "status": "BLOCKED"
+    },
+    {
+      "actual_cpg": 25.5,
+      "joint_abs_error_cpg": null,
+      "joint_prediction_cpg": null,
+      "production_abs_error_cpg": 6.309437081649843,
+      "production_prediction_cpg": 19.190562918350157,
+      "quarter": "2021Q4",
+      "reason": "FEWER_THAN_EIGHT_PUBLISHED_COMPLETE_FEATURE_ROWS",
+      "status": "BLOCKED"
+    },
+    {
+      "actual_cpg": 23.3,
+      "joint_abs_error_cpg": null,
+      "joint_prediction_cpg": null,
+      "production_abs_error_cpg": 5.178742512014008,
+      "production_prediction_cpg": 28.47874251201401,
+      "quarter": "2022Q1",
+      "reason": "FEWER_THAN_EIGHT_PUBLISHED_COMPLETE_FEATURE_ROWS",
+      "status": "BLOCKED"
+    },
+    {
+      "actual_cpg": 39.3,
+      "joint_abs_error_cpg": null,
+      "joint_prediction_cpg": null,
+      "production_abs_error_cpg": 9.791776879808118,
+      "production_prediction_cpg": 29.50822312019188,
+      "quarter": "2022Q3",
+      "reason": "DIESEL_SURVEY_BREAK_CROSSING",
+      "status": "BLOCKED"
+    },
+    {
+      "actual_cpg": 28.7,
+      "joint_abs_error_cpg": null,
+      "joint_prediction_cpg": null,
+      "production_abs_error_cpg": 6.683410918305999,
+      "production_prediction_cpg": 35.383410918306,
+      "quarter": "2023Q3",
+      "reason": "FEWER_THAN_EIGHT_PUBLISHED_COMPLETE_FEATURE_ROWS",
+      "status": "BLOCKED"
+    },
+    {
+      "actual_cpg": 35.1,
+      "joint_abs_error_cpg": 5.549461997916442,
+      "joint_prediction_cpg": 29.55053800208356,
+      "production_abs_error_cpg": 6.60491566916393,
+      "production_prediction_cpg": 28.49508433083607,
+      "quarter": "2026Q2",
+      "reason": null,
+      "status": "SCORED"
+    }
+  ],
+  "big_vs_other": {
+    "original_big_misses": {
+      "joint_mae_cpg": 5.549461997916442,
+      "n": 1,
+      "production_mae_cpg": 6.60491566916393,
+      "quarters": [
+        "2026Q2"
+      ]
+    },
+    "other_eligible_quarters": {
+      "joint_mae_cpg": 1.9730130267038237,
+      "n": 6,
+      "production_mae_cpg": 1.6842670505029194,
+      "quarters": [
+        "2024Q4",
+        "2025Q1",
+        "2025Q2",
+        "2025Q3",
+        "2025Q4",
+        "2026Q1"
+      ]
+    }
+  },
+  "complete_feature_rows": 15,
+  "created_at": "2026-10-08T08:17:06.070813+00:00",
+  "evaluation": {
+    "metrics": {
+      "challenger_directional_accuracy": 0.7142857142857143,
+      "challenger_mae_cpg": 2.4839343083056264,
+      "challenger_rmse_cpg": 2.9445686527924444,
+      "identical_backtest_rows": 7,
+      "mean_paired_improvement_cpg": -0.09671745513684828,
+      "paired_improvement_ci_low_cpg": -1.2854786895793964,
+      "passes_pre_registered_gate": false,
+      "production_directional_accuracy": 0.7142857142857143,
+      "production_mae_cpg": 2.387216853168778,
+      "production_rmse_cpg": 3.2272878685465334,
+      "production_status": "UNCHANGED",
+      "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+      "recent_eight_challenger_directional_accuracy": 0.7142857142857143,
+      "recent_eight_challenger_mae_cpg": 2.4839343083056264,
+      "recent_eight_production_directional_accuracy": 0.7142857142857143,
+      "recent_eight_production_mae_cpg": 2.387216853168778
+    },
+    "quarters": [
+      "2024Q4",
+      "2025Q1",
+      "2025Q2",
+      "2025Q3",
+      "2025Q4",
+      "2026Q1",
+      "2026Q2"
+    ],
+    "remove_best_benefit_sensitivity": {
+      "metrics": {
+        "challenger_directional_accuracy": 0.8333333333333334,
+        "challenger_mae_cpg": 2.4069966154258204,
+        "challenger_rmse_cpg": 2.944403318179572,
+        "identical_backtest_rows": 6,
+        "mean_paired_improvement_cpg": -0.3698447460244161,
+        "paired_improvement_ci_low_cpg": -1.6257133113210778,
+        "passes_pre_registered_gate": false,
+        "production_directional_accuracy": 0.8333333333333334,
+        "production_mae_cpg": 2.0371518694014044,
+        "production_rmse_cpg": 2.9656110812336167,
+        "production_status": "UNCHANGED",
+        "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+        "recent_eight_challenger_directional_accuracy": 0.8333333333333334,
+        "recent_eight_challenger_mae_cpg": 2.4069966154258204,
+        "recent_eight_production_directional_accuracy": 0.8333333333333334,
+        "recent_eight_production_mae_cpg": 2.0371518694014044
+      },
+      "omitted_quarter": "2025Q2"
+    },
+    "rows": [
+      {
+        "actual_cpg": 28.9,
+        "correction_cpg": -0.10177615921801256,
+        "direction_correct": true,
+        "feature_evidence": {
+          "floor": {
+            "input_available_at": [
+              "2024-10-30",
+              "2023-11-01"
+            ],
+            "prior_quarter": "2024Q3",
+            "prior_year_quarter": "2023Q3"
+          },
+          "gap_available_at": "2024-10-31",
+          "market_role": "CURRENT_VINTAGE_NOT_HISTORICAL_AVAILABILITY_PROOF",
+          "peers": {
+            "caseys": {
+              "actual_cpg": 40.2,
+              "available_at": "2024-12-09",
+              "direction_correct": false,
+              "end": "2024-10-31",
+              "forecast_information_cutoff": "2024-10-31",
+              "prediction_cpg": 44.05120072295265,
+              "quarter": "F2025Q2",
+              "seasonal_cpg": 42.3,
+              "source": {
+                "availability_basis": "SEC filingDate, conservative date only",
+                "available_at": "2024-12-09",
+                "evidence": " Results of Operations and Financial Condition.On December 9, 2024, Casey's General Stores, Inc. (the \"Company\") issued a press release announcing its financial results for the second quarter ended October 31, 2024 (the \"Press Release\"). A copy of the Press Release is attached as Exhibit 99.1 and is incorporated herein by reference.",
+                "sha256": "d8ad2aaea08cf41264b7765d336a63d4b58d701e0204c46d0315bb3f19f9df93",
+                "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695824000090/casy-20241205.htm"
+              },
+              "start": "2024-08-01",
+              "surprise_cpg": -3.8512007229526475,
+              "training_quarters": [
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1"
+              ]
+            },
+            "couchetard": {
+              "actual_cpg": 47.57,
+              "available_at": "2024-11-25",
+              "direction_correct": false,
+              "end": "2024-10-13",
+              "forecast_information_cutoff": "2024-10-13",
+              "prediction_cpg": 54.606535903257615,
+              "quarter": "F2025Q2",
+              "seasonal_cpg": 51.15,
+              "source": {
+                "available_at": "2024-11-25",
+                "sha256": "c2265d36e76b1b7e6d28b1d687b73c51a08de688855f9806a42c735807195e7e",
+                "url": "https://corporate.couche-tard.com/2024-11-25-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2025"
+              },
+              "start": "2024-07-22",
+              "surprise_cpg": -7.036535903257615,
+              "training_quarters": [
+                "F2019Q4",
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1"
+              ]
+            }
+          },
+          "supply": {
+            "observation_dates": [
+              "2024-10-04",
+              "2024-10-11",
+              "2024-10-18",
+              "2024-10-25",
+              "2024-11-01",
+              "2024-11-08",
+              "2024-11-15",
+              "2024-11-22",
+              "2024-11-29",
+              "2024-12-06",
+              "2024-12-13",
+              "2024-12-20"
+            ],
+            "original_eia_release_availability_verified": false,
+            "prior_observation_dates": [
+              "2023-10-06",
+              "2023-10-13",
+              "2023-10-20",
+              "2023-10-27",
+              "2023-11-03",
+              "2023-11-10",
+              "2023-11-17",
+              "2023-11-24",
+              "2023-12-01",
+              "2023-12-08",
+              "2023-12-15",
+              "2023-12-22"
+            ],
+            "weighted_current_stocks_thousand_barrels": 62589.72037141667,
+            "weighted_current_utilization_percent": 87.7820537,
+            "weighted_prior_stocks_thousand_barrels": 65025.14870008333,
+            "weighted_prior_utilization_percent": 86.28057190833334
+          }
+        },
+        "features": [
+          -2.8120037557692257,
+          -0.7791884022727258,
+          -2.1942766840909163,
+          -1.4438089212121223,
+          0.5042375839743869,
+          -0.0034963765151752035,
+          0.02133225757574353,
+          0.0,
+          -68.98547360128208,
+          -4.17097761432575,
+          -3.74536372058083,
+          1.501481791666663,
+          0.4168240846228457,
+          -0.5,
+          -3.8512007229526475,
+          -7.036535903257615
+        ],
+        "outcome_available_at": "2025-02-05",
+        "prediction_cpg": 30.629832590739447,
+        "quarter": "2024Q4",
+        "quarter_end": "2024-12-31",
+        "seasonal_cpg": 31.1,
+        "training_quarters": [
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3"
+        ]
+      },
+      {
+        "actual_cpg": 23.7,
+        "correction_cpg": -0.3670707229012221,
+        "direction_correct": true,
+        "feature_evidence": {
+          "floor": {
+            "input_available_at": [
+              "2025-02-05",
+              "2024-02-07"
+            ],
+            "prior_quarter": "2024Q4",
+            "prior_year_quarter": "2023Q4"
+          },
+          "gap_available_at": "2025-02-20",
+          "market_role": "CURRENT_VINTAGE_NOT_HISTORICAL_AVAILABILITY_PROOF",
+          "peers": {
+            "caseys": {
+              "actual_cpg": 36.4,
+              "available_at": "2025-03-11",
+              "direction_correct": false,
+              "end": "2025-01-31",
+              "forecast_information_cutoff": "2025-01-31",
+              "prediction_cpg": 38.136500022962544,
+              "quarter": "F2025Q3",
+              "seasonal_cpg": 37.3,
+              "source": {
+                "availability_basis": "SEC filingDate, conservative date only",
+                "available_at": "2025-03-11",
+                "evidence": " Results of Operations and Financial Condition.On March 11, 2025, Casey's General Stores, Inc. (the \"Company\") issued a press release announcing its financial results for the third quarter ended January 31, 2025 (the \"Press Release\"). A copy of the Press Release is attached as Exhibit 99.1 and is incorporated herein by reference.",
+                "sha256": "85aa5225013361845a8cccdaa2cba60fb4e03ff4511911d3f27f23f43c8d91a0",
+                "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695825000012/casy-20250311.htm"
+              },
+              "start": "2024-11-01",
+              "surprise_cpg": -1.7365000229625451,
+              "training_quarters": [
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1",
+                "F2025Q2"
+              ]
+            },
+            "couchetard": {
+              "actual_cpg": 45.35,
+              "available_at": "2025-03-18",
+              "direction_correct": true,
+              "end": "2025-02-02",
+              "forecast_information_cutoff": "2025-02-02",
+              "prediction_cpg": 45.96488146726661,
+              "quarter": "F2025Q3",
+              "seasonal_cpg": 44.38,
+              "source": {
+                "available_at": "2025-03-18",
+                "sha256": "cc2ade9a4fc2643973f29fd2951f1a2069457b98e83cea002f987cc59415d629",
+                "url": "https://corporate.couche-tard.com/2025-03-18-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2025"
+              },
+              "start": "2024-10-14",
+              "surprise_cpg": -0.6148814672666063,
+              "training_quarters": [
+                "F2019Q4",
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1",
+                "F2025Q2"
+              ]
+            }
+          },
+          "supply": {
+            "observation_dates": [
+              "2025-01-03",
+              "2025-01-10",
+              "2025-01-17",
+              "2025-01-24",
+              "2025-01-31",
+              "2025-02-07",
+              "2025-02-14",
+              "2025-02-21",
+              "2025-02-28",
+              "2025-03-07",
+              "2025-03-14",
+              "2025-03-21"
+            ],
+            "original_eia_release_availability_verified": false,
+            "prior_observation_dates": [
+              "2024-01-05",
+              "2024-01-12",
+              "2024-01-19",
+              "2024-01-26",
+              "2024-02-02",
+              "2024-02-09",
+              "2024-02-16",
+              "2024-02-23",
+              "2024-03-01",
+              "2024-03-08",
+              "2024-03-15",
+              "2024-03-22"
+            ],
+            "weighted_current_stocks_thousand_barrels": 70869.067017,
+            "weighted_current_utilization_percent": 83.17216267500001,
+            "weighted_prior_stocks_thousand_barrels": 69888.72243075,
+            "weighted_prior_utilization_percent": 85.77847204999999
+          }
+        },
+        "features": [
+          11.628537629487155,
+          -0.2950478780302914,
+          -0.8774110939393864,
+          -0.6365596969696963,
+          0.5846859153846253,
+          -0.004764046969711444,
+          -0.008766972727287214,
+          0.0,
+          -33.53593488397439,
+          2.529260414550663,
+          1.402722144794355,
+          -2.606309374999981,
+          1.231633135785689,
+          2.8,
+          -1.7365000229625451,
+          -0.6148814672666063
+        ],
+        "outcome_available_at": "2025-05-07",
+        "prediction_cpg": 24.101693725527813,
+        "quarter": "2025Q1",
+        "quarter_end": "2025-03-31",
+        "seasonal_cpg": 21.7,
+        "training_quarters": [
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4"
+        ]
+      },
+      {
+        "actual_cpg": 29.2,
+        "correction_cpg": -1.5420462901885585,
+        "direction_correct": false,
+        "feature_evidence": {
+          "floor": {
+            "input_available_at": [
+              "2025-05-07",
+              "2024-05-01"
+            ],
+            "prior_quarter": "2025Q1",
+            "prior_year_quarter": "2024Q1"
+          },
+          "gap_available_at": "2025-05-08",
+          "market_role": "CURRENT_VINTAGE_NOT_HISTORICAL_AVAILABILITY_PROOF",
+          "peers": {
+            "caseys": {
+              "actual_cpg": 37.6,
+              "available_at": "2025-06-09",
+              "direction_correct": true,
+              "end": "2025-04-30",
+              "forecast_information_cutoff": "2025-04-30",
+              "prediction_cpg": 38.81043705978777,
+              "quarter": "F2025Q4",
+              "seasonal_cpg": 36.5,
+              "source": {
+                "availability_basis": "SEC filingDate, conservative date only",
+                "available_at": "2025-06-09",
+                "evidence": " Results of Operations and Financial ConditionOn June 9, 2025, the Company issued a press release announcing its financial results for the fourth quarter and year ended April 30, 2025. A copy of the Company's press release is attached as Exhibit 99.1 and is incorporated herein by reference.",
+                "sha256": "91a7e1e12fe147dd5f38e1f70aa499135dc769c78a95ffaf2f2f1266f1f11519",
+                "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695825000032/casy-20250604.htm"
+              },
+              "start": "2025-02-01",
+              "surprise_cpg": -1.2104370597877718,
+              "training_quarters": [
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1",
+                "F2025Q2",
+                "F2025Q3"
+              ]
+            },
+            "couchetard": {
+              "actual_cpg": 43.86,
+              "available_at": "2025-06-25",
+              "direction_correct": true,
+              "end": "2025-04-27",
+              "forecast_information_cutoff": "2025-04-27",
+              "prediction_cpg": 43.58823964285123,
+              "quarter": "F2025Q4",
+              "seasonal_cpg": 39.28,
+              "source": {
+                "available_at": "2025-06-25",
+                "sha256": "be7d3b90242331d46f754ee047e8b5a48e85b0a60dcad39c8b9635ed05834f8b",
+                "url": "https://corporate.couche-tard.com/2025-06-25-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2025"
+              },
+              "start": "2025-02-03",
+              "surprise_cpg": 0.27176035714877145,
+              "training_quarters": [
+                "F2019Q4",
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1",
+                "F2025Q2",
+                "F2025Q3"
+              ]
+            }
+          },
+          "supply": {
+            "observation_dates": [
+              "2025-04-04",
+              "2025-04-11",
+              "2025-04-18",
+              "2025-04-25",
+              "2025-05-02",
+              "2025-05-09",
+              "2025-05-16",
+              "2025-05-23",
+              "2025-05-30",
+              "2025-06-06",
+              "2025-06-13",
+              "2025-06-20"
+            ],
+            "original_eia_release_availability_verified": false,
+            "prior_observation_dates": [
+              "2024-04-05",
+              "2024-04-12",
+              "2024-04-19",
+              "2024-04-26",
+              "2024-05-03",
+              "2024-05-10",
+              "2024-05-17",
+              "2024-05-24",
+              "2024-05-31",
+              "2024-06-07",
+              "2024-06-14",
+              "2024-06-21"
+            ],
+            "weighted_current_stocks_thousand_barrels": 66889.1792975,
+            "weighted_current_utilization_percent": 88.44099035,
+            "weighted_prior_stocks_thousand_barrels": 66194.20464741667,
+            "weighted_prior_utilization_percent": 90.34332086666666
+          }
+        },
+        "features": [
+          5.815882903846131,
+          0.8823748553030399,
+          4.047872091666671,
+          2.8960421939394045,
+          0.4865686948717922,
+          -0.04203674242424915,
+          -0.007405516666665335,
+          0.0,
+          -33.727067530128124,
+          -3.529530157957538,
+          1.049902561387528,
+          -1.9023305166666518,
+          1.6608870412296142,
+          4.2,
+          -1.2104370597877718,
+          0.27176035714877145
+        ],
+        "outcome_available_at": "2025-07-30",
+        "prediction_cpg": 32.14556046558446,
+        "quarter": "2025Q2",
+        "quarter_end": "2025-06-30",
+        "seasonal_cpg": 29.7,
+        "training_quarters": [
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1"
+        ]
+      },
+      {
+        "actual_cpg": 28.3,
+        "correction_cpg": -0.03055279171668701,
+        "direction_correct": true,
+        "feature_evidence": {
+          "floor": {
+            "input_available_at": [
+              "2025-07-30",
+              "2024-07-31"
+            ],
+            "prior_quarter": "2025Q2",
+            "prior_year_quarter": "2024Q2"
+          },
+          "gap_available_at": "2025-07-31",
+          "market_role": "CURRENT_VINTAGE_NOT_HISTORICAL_AVAILABILITY_PROOF",
+          "peers": {
+            "caseys": {
+              "actual_cpg": 41.0,
+              "available_at": "2025-09-08",
+              "direction_correct": true,
+              "end": "2025-07-31",
+              "forecast_information_cutoff": "2025-07-31",
+              "prediction_cpg": 41.72704725977066,
+              "quarter": "F2026Q1",
+              "seasonal_cpg": 40.7,
+              "source": {
+                "availability_basis": "SEC filingDate, conservative date only",
+                "available_at": "2025-09-08",
+                "evidence": " Results of Operations and Financial Condition.On September 8, 2025, Casey's General Stores, Inc. (the \"Company\") issued a press release announcing its financial results for the first quarter ended July 31, 2025 (the \"Press Release\"). A copy of the Press Release is attached as Exhibit 99.1 and is incorporated herein by reference.",
+                "sha256": "1f4d56126c9b6b0f9cca2497cd546cbd17e1266da7eef1d56f4fd3ec659ee896",
+                "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695825000102/casy-20250903.htm"
+              },
+              "start": "2025-05-01",
+              "surprise_cpg": -0.7270472597706572,
+              "training_quarters": [
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1",
+                "F2025Q2",
+                "F2025Q3",
+                "F2025Q4"
+              ]
+            },
+            "couchetard": {
+              "actual_cpg": 44.81,
+              "available_at": "2025-09-02",
+              "direction_correct": false,
+              "end": "2025-07-20",
+              "forecast_information_cutoff": "2025-07-20",
+              "prediction_cpg": 51.83069537091503,
+              "quarter": "F2026Q1",
+              "seasonal_cpg": 49.49,
+              "source": {
+                "available_at": "2025-09-02",
+                "sha256": "883378e1ca139548a46344245001609e6d0c5498bb2bad9130536955340df25a",
+                "url": "https://corporate.couche-tard.com/2025-09-02-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2026"
+              },
+              "start": "2025-04-28",
+              "surprise_cpg": -7.020695370915028,
+              "training_quarters": [
+                "F2019Q4",
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1",
+                "F2025Q2",
+                "F2025Q3",
+                "F2025Q4"
+              ]
+            }
+          },
+          "supply": {
+            "observation_dates": [
+              "2025-07-04",
+              "2025-07-11",
+              "2025-07-18",
+              "2025-07-25",
+              "2025-08-01",
+              "2025-08-08",
+              "2025-08-15",
+              "2025-08-22",
+              "2025-08-29",
+              "2025-09-05",
+              "2025-09-12",
+              "2025-09-19"
+            ],
+            "original_eia_release_availability_verified": false,
+            "prior_observation_dates": [
+              "2024-07-05",
+              "2024-07-12",
+              "2024-07-19",
+              "2024-07-26",
+              "2024-08-02",
+              "2024-08-09",
+              "2024-08-16",
+              "2024-08-23",
+              "2024-08-30",
+              "2024-09-06",
+              "2024-09-13",
+              "2024-09-20"
+            ],
+            "weighted_current_stocks_thousand_barrels": 64997.225978,
+            "weighted_current_utilization_percent": 93.422454,
+            "weighted_prior_stocks_thousand_barrels": 64654.76746125,
+            "weighted_prior_utilization_percent": 91.02668708333333
+          }
+        },
+        "features": [
+          -10.338887350641016,
+          -1.0564235477272548,
+          -0.026620365909080013,
+          -1.442170212121201,
+          0.3045081788461488,
+          -0.009147090151534698,
+          -0.01678727500000088,
+          0.0,
+          2.7953289948717384,
+          1.9852979415373397,
+          0.5296724900530458,
+          2.3957669166666733,
+          0.4721414952496801,
+          3.2,
+          -0.7270472597706572,
+          -7.020695370915028
+        ],
+        "outcome_available_at": "2025-10-29",
+        "prediction_cpg": 30.401971894053712,
+        "quarter": "2025Q3",
+        "quarter_end": "2025-09-30",
+        "seasonal_cpg": 31.9,
+        "training_quarters": [
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2"
+        ]
+      },
+      {
+        "actual_cpg": 31.0,
+        "correction_cpg": -0.3448452588610731,
+        "direction_correct": true,
+        "feature_evidence": {
+          "floor": {
+            "input_available_at": [
+              "2025-10-29",
+              "2024-10-30"
+            ],
+            "prior_quarter": "2025Q3",
+            "prior_year_quarter": "2024Q3"
+          },
+          "gap_available_at": "2025-10-30",
+          "market_role": "CURRENT_VINTAGE_NOT_HISTORICAL_AVAILABILITY_PROOF",
+          "peers": {
+            "caseys": {
+              "actual_cpg": 41.6,
+              "available_at": "2025-12-09",
+              "direction_correct": false,
+              "end": "2025-10-31",
+              "forecast_information_cutoff": "2025-10-31",
+              "prediction_cpg": 39.8531261689221,
+              "quarter": "F2026Q2",
+              "seasonal_cpg": 40.2,
+              "source": {
+                "availability_basis": "SEC filingDate, conservative date only",
+                "available_at": "2025-12-09",
+                "evidence": " Results of Operations and Financial Condition.On December 9, 2025, Casey's General Stores, Inc. (the \"Company\") issued a press release announcing its financial results for the second quarter ended October 31, 2025 (the \"Press Release\"). A copy of the Press Release is attached as Exhibit 99.1 and is incorporated herein by reference.",
+                "sha256": "ef133bd9459abf642daed5241338af418fade9e411e5d745b7d62b5ddd7029ed",
+                "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695825000116/casy-20251209.htm"
+              },
+              "start": "2025-08-01",
+              "surprise_cpg": 1.7468738310778988,
+              "training_quarters": [
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1",
+                "F2025Q2",
+                "F2025Q3",
+                "F2025Q4",
+                "F2026Q1"
+              ]
+            },
+            "couchetard": {
+              "actual_cpg": 46.92,
+              "available_at": "2025-11-24",
+              "direction_correct": true,
+              "end": "2025-10-12",
+              "forecast_information_cutoff": "2025-10-12",
+              "prediction_cpg": 47.10546207982029,
+              "quarter": "F2026Q2",
+              "seasonal_cpg": 47.57,
+              "source": {
+                "available_at": "2025-11-24",
+                "sha256": "79b71e446994d47d53d8413209250e8c6d5ee3e945bebe85909fe91c30edf819",
+                "url": "https://corporate.couche-tard.com/2025-11-24-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2026"
+              },
+              "start": "2025-07-21",
+              "surprise_cpg": -0.18546207982029017,
+              "training_quarters": [
+                "F2019Q4",
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1",
+                "F2025Q2",
+                "F2025Q3",
+                "F2025Q4",
+                "F2026Q1"
+              ]
+            }
+          },
+          "supply": {
+            "observation_dates": [
+              "2025-10-03",
+              "2025-10-10",
+              "2025-10-17",
+              "2025-10-24",
+              "2025-10-31",
+              "2025-11-07",
+              "2025-11-14",
+              "2025-11-21",
+              "2025-11-28",
+              "2025-12-05",
+              "2025-12-12",
+              "2025-12-19"
+            ],
+            "original_eia_release_availability_verified": false,
+            "prior_observation_dates": [
+              "2024-10-04",
+              "2024-10-11",
+              "2024-10-18",
+              "2024-10-25",
+              "2024-11-01",
+              "2024-11-08",
+              "2024-11-15",
+              "2024-11-22",
+              "2024-11-29",
+              "2024-12-06",
+              "2024-12-13",
+              "2024-12-20"
+            ],
+            "weighted_current_stocks_thousand_barrels": 62175.47922966667,
+            "weighted_current_utilization_percent": 92.77487591666667,
+            "weighted_prior_stocks_thousand_barrels": 62589.72037141667,
+            "weighted_prior_utilization_percent": 87.7820537
+          }
+        },
+        "features": [
+          4.820437816666683,
+          -0.5895292545454618,
+          0.05386694545454018,
+          -0.9231979636363716,
+          0.3342767166666363,
+          0.026045136363662458,
+          0.006651027272741139,
+          0.0,
+          16.775075441666672,
+          3.5065150713580238,
+          -0.6618357444190925,
+          4.992822216666667,
+          0.5148843292556968,
+          2.6,
+          1.7468738310778988,
+          -0.18546207982029017
+        ],
+        "outcome_available_at": "2026-02-04",
+        "prediction_cpg": 29.85272144762455,
+        "quarter": "2025Q4",
+        "quarter_end": "2025-12-31",
+        "seasonal_cpg": 28.9,
+        "training_quarters": [
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2",
+          "2025Q3"
+        ]
+      },
+      {
+        "actual_cpg": 25.4,
+        "correction_cpg": -3.42907656236883,
+        "direction_correct": false,
+        "feature_evidence": {
+          "floor": {
+            "input_available_at": [
+              "2026-02-04",
+              "2025-02-05"
+            ],
+            "prior_quarter": "2025Q4",
+            "prior_year_quarter": "2024Q4"
+          },
+          "gap_available_at": "2026-02-18",
+          "market_role": "CURRENT_VINTAGE_NOT_HISTORICAL_AVAILABILITY_PROOF",
+          "peers": {
+            "caseys": {
+              "actual_cpg": 41.0,
+              "available_at": "2026-03-09",
+              "direction_correct": true,
+              "end": "2026-01-31",
+              "forecast_information_cutoff": "2026-01-31",
+              "prediction_cpg": 37.77361226916676,
+              "quarter": "F2026Q3",
+              "seasonal_cpg": 36.4,
+              "source": {
+                "availability_basis": "SEC filingDate, conservative date only",
+                "available_at": "2026-03-09",
+                "evidence": " Results of Operations and Financial Condition.On March 9, 2026, Casey's General Stores, Inc. (the \"Company\") issued a press release announcing its financial results for the third quarter ended January 31, 2026 (the \"Press Release\"). A copy of the Press Release is attached as Exhibit 99.1 and is incorporated herein by reference.",
+                "sha256": "f1d28f514135aa2f179f6699cfb7b4d9ef026af2f6ca2e6f8c004d534e6c316b",
+                "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000012/casy-20260309.htm"
+              },
+              "start": "2025-11-01",
+              "surprise_cpg": 3.2263877308332383,
+              "training_quarters": [
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1",
+                "F2025Q2",
+                "F2025Q3",
+                "F2025Q4",
+                "F2026Q1",
+                "F2026Q2"
+              ]
+            },
+            "couchetard": {
+              "actual_cpg": 49.26,
+              "available_at": "2026-03-17",
+              "direction_correct": true,
+              "end": "2026-02-01",
+              "forecast_information_cutoff": "2026-02-01",
+              "prediction_cpg": 46.32168946804349,
+              "quarter": "F2026Q3",
+              "seasonal_cpg": 45.35,
+              "source": {
+                "available_at": "2026-03-17",
+                "sha256": "4a6412837e3b5829961908eb4034a758c844d5306fed92c0b788246c1eddb059",
+                "url": "https://corporate.couche-tard.com/2026-03-17-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2026"
+              },
+              "start": "2025-10-13",
+              "surprise_cpg": 2.9383105319565104,
+              "training_quarters": [
+                "F2019Q4",
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1",
+                "F2025Q2",
+                "F2025Q3",
+                "F2025Q4",
+                "F2026Q1",
+                "F2026Q2"
+              ]
+            }
+          },
+          "supply": {
+            "observation_dates": [
+              "2026-01-02",
+              "2026-01-09",
+              "2026-01-16",
+              "2026-01-23",
+              "2026-01-30",
+              "2026-02-06",
+              "2026-02-13",
+              "2026-02-20",
+              "2026-02-27",
+              "2026-03-06",
+              "2026-03-13",
+              "2026-03-20"
+            ],
+            "original_eia_release_availability_verified": false,
+            "prior_observation_dates": [
+              "2025-01-03",
+              "2025-01-10",
+              "2025-01-17",
+              "2025-01-24",
+              "2025-01-31",
+              "2025-02-07",
+              "2025-02-14",
+              "2025-02-21",
+              "2025-02-28",
+              "2025-03-07",
+              "2025-03-14",
+              "2025-03-21"
+            ],
+            "weighted_current_stocks_thousand_barrels": 73193.25584225,
+            "weighted_current_utilization_percent": 91.42887588333333,
+            "weighted_prior_stocks_thousand_barrels": 70869.067017,
+            "weighted_prior_utilization_percent": 83.17216267500001
+          }
+        },
+        "features": [
+          -25.168382924999996,
+          3.3828742272727217,
+          4.6288084909090745,
+          11.980173600000008,
+          0.2822556083333225,
+          0.028563218181824723,
+          -0.009535036363615745,
+          0.0,
+          37.40414350833339,
+          -1.7360287455275056,
+          3.2795532988920018,
+          8.256713208333323,
+          0.5243781396856235,
+          0.6,
+          3.2263877308332383,
+          2.9383105319565104
+        ],
+        "outcome_available_at": "2026-04-29",
+        "prediction_cpg": 21.88825906805794,
+        "quarter": "2026Q1",
+        "quarter_end": "2026-03-31",
+        "seasonal_cpg": 23.7,
+        "training_quarters": [
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2",
+          "2025Q3",
+          "2025Q4"
+        ]
+      },
+      {
+        "actual_cpg": 35.1,
+        "correction_cpg": 1.0554536712474865,
+        "direction_correct": true,
+        "feature_evidence": {
+          "floor": {
+            "input_available_at": [
+              "2026-04-29",
+              "2025-05-07"
+            ],
+            "prior_quarter": "2026Q1",
+            "prior_year_quarter": "2025Q1"
+          },
+          "gap_available_at": "2026-05-07",
+          "market_role": "CURRENT_VINTAGE_NOT_HISTORICAL_AVAILABILITY_PROOF",
+          "peers": {
+            "caseys": {
+              "actual_cpg": 46.9,
+              "available_at": "2026-06-09",
+              "direction_correct": true,
+              "end": "2026-04-30",
+              "forecast_information_cutoff": "2026-04-30",
+              "prediction_cpg": 41.41621877360856,
+              "quarter": "F2026Q4",
+              "seasonal_cpg": 37.6,
+              "source": {
+                "availability_basis": "SEC filingDate, conservative date only",
+                "available_at": "2026-06-09",
+                "evidence": " Results of Operations and Financial ConditionOn June 9, 2026, the Company issued a press release announcing its financial results for the fourth quarter and year ended April 30, 2026 (the \"Press Release\"). A copy of the Press Release is attached as Exhibit 99.1 and is incorporated herein by reference.",
+                "sha256": "9ded33b0922753edc7058d899466faee85b250d5182c8c35d824a1287f25cde3",
+                "url": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000033/casy-20260603.htm"
+              },
+              "start": "2026-02-01",
+              "surprise_cpg": 5.483781226391436,
+              "training_quarters": [
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1",
+                "F2025Q2",
+                "F2025Q3",
+                "F2025Q4",
+                "F2026Q1",
+                "F2026Q2",
+                "F2026Q3"
+              ]
+            },
+            "couchetard": {
+              "actual_cpg": 53.75,
+              "available_at": "2026-06-22",
+              "direction_correct": true,
+              "end": "2026-04-26",
+              "forecast_information_cutoff": "2026-04-26",
+              "prediction_cpg": 49.43512769605076,
+              "quarter": "F2026Q4",
+              "seasonal_cpg": 43.86,
+              "source": {
+                "available_at": "2026-06-22",
+                "sha256": "32cf8ee64bf4f9b95e75eabf56b327494d065c9b7a0fdae129327087237751a4",
+                "url": "https://corporate.couche-tard.com/2026-06-22-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026"
+              },
+              "start": "2026-02-02",
+              "surprise_cpg": 4.314872303949237,
+              "training_quarters": [
+                "F2019Q4",
+                "F2020Q1",
+                "F2020Q2",
+                "F2020Q3",
+                "F2020Q4",
+                "F2021Q1",
+                "F2021Q2",
+                "F2021Q3",
+                "F2021Q4",
+                "F2022Q1",
+                "F2022Q2",
+                "F2022Q3",
+                "F2022Q4",
+                "F2023Q1",
+                "F2023Q2",
+                "F2023Q3",
+                "F2023Q4",
+                "F2024Q1",
+                "F2024Q2",
+                "F2024Q3",
+                "F2024Q4",
+                "F2025Q1",
+                "F2025Q2",
+                "F2025Q3",
+                "F2025Q4",
+                "F2026Q1",
+                "F2026Q2",
+                "F2026Q3"
+              ]
+            }
+          },
+          "supply": {
+            "observation_dates": [
+              "2026-04-03",
+              "2026-04-10",
+              "2026-04-17",
+              "2026-04-24",
+              "2026-05-01",
+              "2026-05-08",
+              "2026-05-15",
+              "2026-05-22",
+              "2026-05-29",
+              "2026-06-05",
+              "2026-06-12",
+              "2026-06-19"
+            ],
+            "original_eia_release_availability_verified": false,
+            "prior_observation_dates": [
+              "2025-04-04",
+              "2025-04-11",
+              "2025-04-18",
+              "2025-04-25",
+              "2025-05-02",
+              "2025-05-09",
+              "2025-05-16",
+              "2025-05-23",
+              "2025-05-30",
+              "2025-06-06",
+              "2025-06-13",
+              "2025-06-20"
+            ],
+            "weighted_current_stocks_thousand_barrels": 64024.09099625,
+            "weighted_current_utilization_percent": 91.64086077500001,
+            "weighted_prior_stocks_thousand_barrels": 66889.1792975,
+            "weighted_prior_utilization_percent": 88.44099035
+          }
+        },
+        "features": [
+          -21.41343804166665,
+          5.172162445454555,
+          2.00569541818183,
+          7.055486254545461,
+          0.22865890833331548,
+          0.020433645454545513,
+          -0.01307735454545611,
+          0.0,
+          180.13735623333332,
+          10.785290026770213,
+          -4.283336006422012,
+          3.1998704250000003,
+          0.7119081718850566,
+          0.8,
+          5.483781226391436,
+          4.314872303949237
+        ],
+        "outcome_available_at": "2026-08-05",
+        "prediction_cpg": 29.55053800208356,
+        "quarter": "2026Q2",
+        "quarter_end": "2026-06-30",
+        "seasonal_cpg": 29.2,
+        "training_quarters": [
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2",
+          "2025Q3",
+          "2025Q4",
+          "2026Q1"
+        ]
+      }
+    ]
+  },
+  "feature_count": 16,
+  "input_exclusions": [
+    {
+      "quarter": "2021Q1",
+      "reason": "MISSING_PUBLISHED_OVERLAPPING_PEER"
+    },
+    {
+      "quarter": "2021Q2",
+      "reason": "MISSING_PUBLISHED_OVERLAPPING_PEER"
+    },
+    {
+      "quarter": "2022Q2",
+      "reason": "DIESEL_SURVEY_BREAK_CROSSING"
+    },
+    {
+      "quarter": "2022Q3",
+      "reason": "DIESEL_SURVEY_BREAK_CROSSING"
+    },
+    {
+      "quarter": "2022Q4",
+      "reason": "DIESEL_SURVEY_BREAK_CROSSING"
+    },
+    {
+      "quarter": "2023Q1",
+      "reason": "DIESEL_SURVEY_BREAK_CROSSING"
+    },
+    {
+      "quarter": "2023Q2",
+      "reason": "DIESEL_SURVEY_BREAK_CROSSING"
+    }
+  ],
+  "limitations": [
+    "More features than initial training rows; ridge makes the fit possible, not trustworthy",
+    "Only one of six original big misses is scoreable; no general tail-performance claim",
+    "Previously examined history and current market vintages; not independent validation"
+  ],
+  "production_changed": false,
+  "simpler_two_feature_on_same_targets": {
+    "metrics": {
+      "challenger_directional_accuracy": 0.7142857142857143,
+      "challenger_mae_cpg": 2.0888056140742775,
+      "challenger_rmse_cpg": 2.8097421274839074,
+      "identical_backtest_rows": 7,
+      "mean_paired_improvement_cpg": 0.2984112390945007,
+      "paired_improvement_ci_low_cpg": -0.11872613898245654,
+      "passes_pre_registered_gate": false,
+      "production_directional_accuracy": 0.7142857142857143,
+      "production_mae_cpg": 2.387216853168778,
+      "production_rmse_cpg": 3.2272878685465334,
+      "production_status": "UNCHANGED",
+      "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+      "recent_eight_challenger_directional_accuracy": 0.7142857142857143,
+      "recent_eight_challenger_mae_cpg": 2.0888056140742775,
+      "recent_eight_production_directional_accuracy": 0.7142857142857143,
+      "recent_eight_production_mae_cpg": 2.387216853168778
+    },
+    "quarters": [
+      "2024Q4",
+      "2025Q1",
+      "2025Q2",
+      "2025Q3",
+      "2025Q4",
+      "2026Q1",
+      "2026Q2"
+    ],
+    "remove_best_benefit_sensitivity": {
+      "metrics": {
+        "challenger_directional_accuracy": 0.6666666666666666,
+        "challenger_mae_cpg": 2.266876939377225,
+        "challenger_rmse_cpg": 3.0061432985103558,
+        "identical_backtest_rows": 6,
+        "mean_paired_improvement_cpg": 0.21294126432677274,
+        "paired_improvement_ci_low_cpg": -0.23907240674160957,
+        "passes_pre_registered_gate": false,
+        "production_directional_accuracy": 0.6666666666666666,
+        "production_mae_cpg": 2.4798182037039975,
+        "production_rmse_cpg": 3.4047251061907247,
+        "production_status": "UNCHANGED",
+        "promotion_status": "NOT_AUTOMATICALLY_PROMOTED",
+        "recent_eight_challenger_directional_accuracy": 0.6666666666666666,
+        "recent_eight_challenger_mae_cpg": 2.266876939377225,
+        "recent_eight_production_directional_accuracy": 0.6666666666666666,
+        "recent_eight_production_mae_cpg": 2.4798182037039975
+      },
+      "omitted_quarter": "2024Q4"
+    },
+    "rows": [
+      {
+        "actual_cpg": 28.9,
+        "correction_cpg": -0.8112310877008683,
+        "direction_correct": true,
+        "feature_evidence": {
+          "role": "DIESEL_RETAIL_YOY_CONTEXT_NOT_MUSA_FUEL_MIX"
+        },
+        "features": [
+          -68.98547360128208,
+          -4.17097761432575
+        ],
+        "gap_available_at": "2024-10-31",
+        "outcome_available_at": "2025-02-05",
+        "prediction_cpg": 29.92037766225659,
+        "quarter": "2024Q4",
+        "quarter_end": "2024-12-31",
+        "seasonal_cpg": 31.1,
+        "training_quarters": [
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3"
+        ]
+      },
+      {
+        "actual_cpg": 23.7,
+        "correction_cpg": -0.41409249709490936,
+        "direction_correct": true,
+        "feature_evidence": {
+          "role": "DIESEL_RETAIL_YOY_CONTEXT_NOT_MUSA_FUEL_MIX"
+        },
+        "features": [
+          -33.53593488397439,
+          2.529260414550663
+        ],
+        "gap_available_at": "2025-02-20",
+        "outcome_available_at": "2025-05-07",
+        "prediction_cpg": 24.054671951334125,
+        "quarter": "2025Q1",
+        "quarter_end": "2025-03-31",
+        "seasonal_cpg": 21.7,
+        "training_quarters": [
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4"
+        ]
+      },
+      {
+        "actual_cpg": 29.2,
+        "correction_cpg": -0.729749328393087,
+        "direction_correct": false,
+        "feature_evidence": {
+          "role": "DIESEL_RETAIL_YOY_CONTEXT_NOT_MUSA_FUEL_MIX"
+        },
+        "features": [
+          -33.727067530128124,
+          -3.529530157957538
+        ],
+        "gap_available_at": "2025-05-08",
+        "outcome_available_at": "2025-07-30",
+        "prediction_cpg": 32.95785742737993,
+        "quarter": "2025Q2",
+        "quarter_end": "2025-06-30",
+        "seasonal_cpg": 29.7,
+        "training_quarters": [
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1"
+        ]
+      },
+      {
+        "actual_cpg": 28.3,
+        "correction_cpg": -0.4562696603499472,
+        "direction_correct": true,
+        "feature_evidence": {
+          "role": "DIESEL_RETAIL_YOY_CONTEXT_NOT_MUSA_FUEL_MIX"
+        },
+        "features": [
+          2.7953289948717384,
+          1.9852979415373397
+        ],
+        "gap_available_at": "2025-07-31",
+        "outcome_available_at": "2025-10-29",
+        "prediction_cpg": 29.976255025420453,
+        "quarter": "2025Q3",
+        "quarter_end": "2025-09-30",
+        "seasonal_cpg": 31.9,
+        "training_quarters": [
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2"
+        ]
+      },
+      {
+        "actual_cpg": 31.0,
+        "correction_cpg": -0.37326805062712837,
+        "direction_correct": true,
+        "feature_evidence": {
+          "role": "DIESEL_RETAIL_YOY_CONTEXT_NOT_MUSA_FUEL_MIX"
+        },
+        "features": [
+          16.775075441666672,
+          3.5065150713580238
+        ],
+        "gap_available_at": "2025-10-30",
+        "outcome_available_at": "2026-02-04",
+        "prediction_cpg": 29.824298655858495,
+        "quarter": "2025Q4",
+        "quarter_end": "2025-12-31",
+        "seasonal_cpg": 28.9,
+        "training_quarters": [
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2",
+          "2025Q3"
+        ]
+      },
+      {
+        "actual_cpg": 25.4,
+        "correction_cpg": -0.6128817096727633,
+        "direction_correct": true,
+        "feature_evidence": {
+          "role": "DIESEL_RETAIL_YOY_CONTEXT_NOT_MUSA_FUEL_MIX"
+        },
+        "features": [
+          37.40414350833339,
+          -1.7360287455275056
+        ],
+        "gap_available_at": "2026-02-18",
+        "outcome_available_at": "2026-04-29",
+        "prediction_cpg": 24.70445392075401,
+        "quarter": "2026Q1",
+        "quarter_end": "2026-03-31",
+        "seasonal_cpg": 23.7,
+        "training_quarters": [
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2",
+          "2025Q3",
+          "2025Q4"
+        ]
+      },
+      {
+        "actual_cpg": 35.1,
+        "correction_cpg": 0.6636858604225835,
+        "direction_correct": false,
+        "feature_evidence": {
+          "role": "DIESEL_RETAIL_YOY_CONTEXT_NOT_MUSA_FUEL_MIX"
+        },
+        "features": [
+          180.13735623333332,
+          10.785290026770213
+        ],
+        "gap_available_at": "2026-05-07",
+        "outcome_available_at": "2026-08-05",
+        "prediction_cpg": 29.158770191258654,
+        "quarter": "2026Q2",
+        "quarter_end": "2026-06-30",
+        "seasonal_cpg": 29.2,
+        "training_quarters": [
+          "2021Q1",
+          "2021Q2",
+          "2021Q3",
+          "2021Q4",
+          "2022Q1",
+          "2023Q3",
+          "2023Q4",
+          "2024Q1",
+          "2024Q2",
+          "2024Q3",
+          "2024Q4",
+          "2025Q1",
+          "2025Q2",
+          "2025Q3",
+          "2025Q4",
+          "2026Q1"
+        ]
+      }
+    ]
+  },
+  "specification": {
+    "big_miss_quarters_frozen_from_original": [
+      "2021Q2",
+      "2021Q4",
+      "2022Q1",
+      "2022Q3",
+      "2023Q3",
+      "2026Q2"
+    ],
+    "correction_shrinkage": 0.5,
+    "diesel": "Remove 2022Q2 through 2023Q2 features from both training and scoring due survey break",
+    "evaluation": "All eligible matched quarters plus fixed six-big-miss coverage and error report; squared-error fitting without ex-post big-miss weighting; same-row simpler model and remove-best-benefit diagnostic",
+    "excluded": [
+      "all-in supply/RIN",
+      "qualitative disclosures",
+      "risk labels",
+      "blocked replays",
+      "futures lacking retail mapping",
+      "failed-model outputs"
+    ],
+    "feature_order": [
+      "regular_spread_yoy",
+      "regular_falling_capture_yoy",
+      "regular_rising_squeeze_yoy",
+      "regular_volatility_yoy",
+      "all_grade_increment_spread_yoy",
+      "all_grade_increment_falling_yoy",
+      "all_grade_increment_rising_yoy",
+      "all_grade_increment_volatility_yoy",
+      "diesel_retail_yoy",
+      "prior_published_revenue_gap",
+      "regional_stocks_yoy_percent",
+      "regional_utilization_yoy_points",
+      "prior_station_cost_yoy_cpg",
+      "negative_prior_direct_sss_percent",
+      "caseys_unexpected_margin",
+      "couchetard_unexpected_margin"
+    ],
+    "id": "MUSA_JOINT_ALL_COMPATIBLE_FEATURES_V1",
+    "minimum_training_rows": 8,
+    "missing_inputs": "BLOCK; no zero fill, no future training, no changing feature subsets",
+    "peer": "Latest public overlapping fiscal period strictly before target quarter end; unexpected margins only",
+    "production_changed": false,
+    "promotion": "Research only; existing gate; never automatic",
+    "ridge_alpha": 10,
+    "role": "DEVELOPMENTAL_CURRENT_VINTAGE_NOT_PIT_VALIDATION",
+    "scope": "Seven compatible research directions jointly, plus original market-change features; not every parameter of every failed model",
+    "tail_claim": "One scored big miss cannot establish systematic tail improvement",
+    "target": "Actual retail margin minus frozen original expanding-window production prediction",
+    "training_regime": "2021 onward only; published earlier OOF residuals",
+    "tuning": "One model, no parameter grid or feature subset search"
+  },
+  "tail_edge_demonstrated": false,
+  "training_exclusions": [
+    {
+      "quarter": "2021Q3",
+      "reason": "FEWER_THAN_EIGHT_PUBLISHED_COMPLETE_FEATURE_ROWS"
+    },
+    {
+      "quarter": "2021Q4",
+      "reason": "FEWER_THAN_EIGHT_PUBLISHED_COMPLETE_FEATURE_ROWS"
+    },
+    {
+      "quarter": "2022Q1",
+      "reason": "FEWER_THAN_EIGHT_PUBLISHED_COMPLETE_FEATURE_ROWS"
+    },
+    {
+      "quarter": "2023Q3",
+      "reason": "FEWER_THAN_EIGHT_PUBLISHED_COMPLETE_FEATURE_ROWS"
+    },
+    {
+      "quarter": "2023Q4",
+      "reason": "FEWER_THAN_EIGHT_PUBLISHED_COMPLETE_FEATURE_ROWS"
+    },
+    {
+      "quarter": "2024Q1",
+      "reason": "FEWER_THAN_EIGHT_PUBLISHED_COMPLETE_FEATURE_ROWS"
+    },
+    {
+      "quarter": "2024Q2",
+      "reason": "FEWER_THAN_EIGHT_PUBLISHED_COMPLETE_FEATURE_ROWS"
+    },
+    {
+      "quarter": "2024Q3",
+      "reason": "FEWER_THAN_EIGHT_PUBLISHED_COMPLETE_FEATURE_ROWS"
+    }
+  ]
+}

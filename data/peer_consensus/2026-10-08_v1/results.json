@@ -1,0 +1,5157 @@
+{
+  "role": "DEVELOPMENTAL_CURRENT_VINTAGE_PUBLICATION_FILTERED_NOT_STRICT_PIT",
+  "groups": {
+    "all": {
+      "consensus": {
+        "consensus": {
+          "eligible_rows": 44,
+          "calls": 25,
+          "coverage": 0.5681818181818182,
+          "correct": 14,
+          "accuracy": 0.56,
+          "above_recall": 0.6363636363636364,
+          "below_recall": 0.5,
+          "balanced_accuracy": 0.5681818181818181,
+          "always_above_accuracy": 0.44,
+          "always_below_accuracy": 0.56,
+          "historical_majority_calls": 13,
+          "historical_majority_accuracy": 0.23076923076923078,
+          "signal_accuracy_on_majority_coverage": 0.7692307692307693,
+          "wilson_descriptive_95_interval": [
+            0.37067017019564436,
+            0.7333462505299744
+          ],
+          "leave_one_out_accuracy_range": [
+            0.5416666666666666,
+            0.5833333333333334
+          ],
+          "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 25,
+            "calls": 25,
+            "coverage": 1.0,
+            "correct": 14,
+            "accuracy": 0.56,
+            "above_recall": 0.6363636363636364,
+            "below_recall": 0.5,
+            "balanced_accuracy": 0.5681818181818181,
+            "always_above_accuracy": 0.44,
+            "always_below_accuracy": 0.56,
+            "historical_majority_calls": 13,
+            "historical_majority_accuracy": 0.23076923076923078,
+            "signal_accuracy_on_majority_coverage": 0.7692307692307693,
+            "wilson_descriptive_95_interval": [
+              0.37067017019564436,
+              0.7333462505299744
+            ],
+            "leave_one_out_accuracy_range": [
+              0.5416666666666666,
+              0.5833333333333334
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 25,
+            "calls": 25,
+            "coverage": 1.0,
+            "correct": 14,
+            "accuracy": 0.56,
+            "above_recall": 0.6363636363636364,
+            "below_recall": 0.5,
+            "balanced_accuracy": 0.5681818181818181,
+            "always_above_accuracy": 0.44,
+            "always_below_accuracy": 0.56,
+            "historical_majority_calls": 13,
+            "historical_majority_accuracy": 0.23076923076923078,
+            "signal_accuracy_on_majority_coverage": 0.7692307692307693,
+            "wilson_descriptive_95_interval": [
+              0.37067017019564436,
+              0.7333462505299744
+            ],
+            "leave_one_out_accuracy_range": [
+              0.5416666666666666,
+              0.5833333333333334
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 19,
+            "calls": 15,
+            "coverage": 0.7894736842105263,
+            "correct": 6,
+            "accuracy": 0.4,
+            "above_recall": 0.25,
+            "below_recall": 0.5714285714285714,
+            "balanced_accuracy": 0.4107142857142857,
+            "always_above_accuracy": 0.5333333333333333,
+            "always_below_accuracy": 0.4666666666666667,
+            "historical_majority_calls": 10,
+            "historical_majority_accuracy": 0.5,
+            "signal_accuracy_on_majority_coverage": 0.5,
+            "wilson_descriptive_95_interval": [
+              0.19824228082594664,
+              0.642535572434923
+            ],
+            "leave_one_out_accuracy_range": [
+              0.35714285714285715,
+              0.42857142857142855
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 19,
+            "calls": 12,
+            "coverage": 0.631578947368421,
+            "correct": 7,
+            "accuracy": 0.5833333333333334,
+            "above_recall": 0.7142857142857143,
+            "below_recall": 0.4,
+            "balanced_accuracy": 0.5571428571428572,
+            "always_above_accuracy": 0.5833333333333334,
+            "always_below_accuracy": 0.4166666666666667,
+            "historical_majority_calls": 8,
+            "historical_majority_accuracy": 0.625,
+            "signal_accuracy_on_majority_coverage": 0.625,
+            "wilson_descriptive_95_interval": [
+              0.3195073356553728,
+              0.8067425380947535
+            ],
+            "leave_one_out_accuracy_range": [
+              0.5454545454545454,
+              0.6363636363636364
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      },
+      "overlap_only": {
+        "consensus": {
+          "eligible_rows": 44,
+          "calls": 0
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 0,
+            "calls": 0
+          },
+          "ATD": {
+            "eligible_rows": 0,
+            "calls": 0
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 44,
+            "calls": 40,
+            "coverage": 0.9090909090909091,
+            "correct": 20,
+            "accuracy": 0.5,
+            "above_recall": 0.47368421052631576,
+            "below_recall": 0.5238095238095238,
+            "balanced_accuracy": 0.4987468671679198,
+            "always_above_accuracy": 0.475,
+            "always_below_accuracy": 0.525,
+            "historical_majority_calls": 23,
+            "historical_majority_accuracy": 0.34782608695652173,
+            "signal_accuracy_on_majority_coverage": 0.6521739130434783,
+            "wilson_descriptive_95_interval": [
+              0.35199278797099753,
+              0.6480072120290025
+            ],
+            "leave_one_out_accuracy_range": [
+              0.48717948717948717,
+              0.5128205128205128
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 44,
+            "calls": 37,
+            "coverage": 0.8409090909090909,
+            "correct": 21,
+            "accuracy": 0.5675675675675675,
+            "above_recall": 0.6666666666666666,
+            "below_recall": 0.47368421052631576,
+            "balanced_accuracy": 0.5701754385964912,
+            "always_above_accuracy": 0.4864864864864865,
+            "always_below_accuracy": 0.5135135135135135,
+            "historical_majority_calls": 21,
+            "historical_majority_accuracy": 0.38095238095238093,
+            "signal_accuracy_on_majority_coverage": 0.7142857142857143,
+            "wilson_descriptive_95_interval": [
+              0.40913906334200717,
+              0.713285131596487
+            ],
+            "leave_one_out_accuracy_range": [
+              0.5555555555555556,
+              0.5833333333333334
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      },
+      "strength_only": {
+        "consensus": {
+          "eligible_rows": 44,
+          "calls": 15,
+          "coverage": 0.3409090909090909,
+          "correct": 9,
+          "accuracy": 0.6,
+          "above_recall": 0.8333333333333334,
+          "below_recall": 0.4444444444444444,
+          "balanced_accuracy": 0.6388888888888888,
+          "always_above_accuracy": 0.4,
+          "always_below_accuracy": 0.6,
+          "historical_majority_calls": 7,
+          "historical_majority_accuracy": 0.2857142857142857,
+          "signal_accuracy_on_majority_coverage": 0.8571428571428571,
+          "wilson_descriptive_95_interval": [
+            0.357464427565077,
+            0.8017577191740534
+          ],
+          "leave_one_out_accuracy_range": [
+            0.5714285714285714,
+            0.6428571428571429
+          ],
+          "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 15,
+            "calls": 15,
+            "coverage": 1.0,
+            "correct": 9,
+            "accuracy": 0.6,
+            "above_recall": 0.8333333333333334,
+            "below_recall": 0.4444444444444444,
+            "balanced_accuracy": 0.6388888888888888,
+            "always_above_accuracy": 0.4,
+            "always_below_accuracy": 0.6,
+            "historical_majority_calls": 7,
+            "historical_majority_accuracy": 0.2857142857142857,
+            "signal_accuracy_on_majority_coverage": 0.8571428571428571,
+            "wilson_descriptive_95_interval": [
+              0.357464427565077,
+              0.8017577191740534
+            ],
+            "leave_one_out_accuracy_range": [
+              0.5714285714285714,
+              0.6428571428571429
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 15,
+            "calls": 15,
+            "coverage": 1.0,
+            "correct": 9,
+            "accuracy": 0.6,
+            "above_recall": 0.8333333333333334,
+            "below_recall": 0.4444444444444444,
+            "balanced_accuracy": 0.6388888888888888,
+            "always_above_accuracy": 0.4,
+            "always_below_accuracy": 0.6,
+            "historical_majority_calls": 7,
+            "historical_majority_accuracy": 0.2857142857142857,
+            "signal_accuracy_on_majority_coverage": 0.8571428571428571,
+            "wilson_descriptive_95_interval": [
+              0.357464427565077,
+              0.8017577191740534
+            ],
+            "leave_one_out_accuracy_range": [
+              0.5714285714285714,
+              0.6428571428571429
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 29,
+            "calls": 25,
+            "coverage": 0.8620689655172413,
+            "correct": 11,
+            "accuracy": 0.44,
+            "above_recall": 0.3076923076923077,
+            "below_recall": 0.5833333333333334,
+            "balanced_accuracy": 0.44551282051282054,
+            "always_above_accuracy": 0.52,
+            "always_below_accuracy": 0.48,
+            "historical_majority_calls": 16,
+            "historical_majority_accuracy": 0.375,
+            "signal_accuracy_on_majority_coverage": 0.5625,
+            "wilson_descriptive_95_interval": [
+              0.2666537494700256,
+              0.6293298298043557
+            ],
+            "leave_one_out_accuracy_range": [
+              0.4166666666666667,
+              0.4583333333333333
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 29,
+            "calls": 22,
+            "coverage": 0.7586206896551724,
+            "correct": 12,
+            "accuracy": 0.5454545454545454,
+            "above_recall": 0.5833333333333334,
+            "below_recall": 0.5,
+            "balanced_accuracy": 0.5416666666666667,
+            "always_above_accuracy": 0.5454545454545454,
+            "always_below_accuracy": 0.45454545454545453,
+            "historical_majority_calls": 14,
+            "historical_majority_accuracy": 0.42857142857142855,
+            "signal_accuracy_on_majority_coverage": 0.6428571428571429,
+            "wilson_descriptive_95_interval": [
+              0.34659473289041554,
+              0.7307998556799515
+            ],
+            "leave_one_out_accuracy_range": [
+              0.5238095238095238,
+              0.5714285714285714
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      },
+      "overlap_and_strength": {
+        "consensus": {
+          "eligible_rows": 44,
+          "calls": 0
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 0,
+            "calls": 0
+          },
+          "ATD": {
+            "eligible_rows": 0,
+            "calls": 0
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 44,
+            "calls": 40,
+            "coverage": 0.9090909090909091,
+            "correct": 20,
+            "accuracy": 0.5,
+            "above_recall": 0.47368421052631576,
+            "below_recall": 0.5238095238095238,
+            "balanced_accuracy": 0.4987468671679198,
+            "always_above_accuracy": 0.475,
+            "always_below_accuracy": 0.525,
+            "historical_majority_calls": 23,
+            "historical_majority_accuracy": 0.34782608695652173,
+            "signal_accuracy_on_majority_coverage": 0.6521739130434783,
+            "wilson_descriptive_95_interval": [
+              0.35199278797099753,
+              0.6480072120290025
+            ],
+            "leave_one_out_accuracy_range": [
+              0.48717948717948717,
+              0.5128205128205128
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 44,
+            "calls": 37,
+            "coverage": 0.8409090909090909,
+            "correct": 21,
+            "accuracy": 0.5675675675675675,
+            "above_recall": 0.6666666666666666,
+            "below_recall": 0.47368421052631576,
+            "balanced_accuracy": 0.5701754385964912,
+            "always_above_accuracy": 0.4864864864864865,
+            "always_below_accuracy": 0.5135135135135135,
+            "historical_majority_calls": 21,
+            "historical_majority_accuracy": 0.38095238095238093,
+            "signal_accuracy_on_majority_coverage": 0.7142857142857143,
+            "wilson_descriptive_95_interval": [
+              0.40913906334200717,
+              0.713285131596487
+            ],
+            "leave_one_out_accuracy_range": [
+              0.5555555555555556,
+              0.5833333333333334
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      }
+    },
+    "modern": {
+      "consensus": {
+        "consensus": {
+          "eligible_rows": 22,
+          "calls": 15,
+          "coverage": 0.6818181818181818,
+          "correct": 12,
+          "accuracy": 0.8,
+          "above_recall": 0.8571428571428571,
+          "below_recall": 0.75,
+          "balanced_accuracy": 0.8035714285714286,
+          "always_above_accuracy": 0.4666666666666667,
+          "always_below_accuracy": 0.5333333333333333,
+          "historical_majority_calls": 9,
+          "historical_majority_accuracy": 0.2222222222222222,
+          "signal_accuracy_on_majority_coverage": 1.0,
+          "wilson_descriptive_95_interval": [
+            0.5481406466534955,
+            0.9295257935638959
+          ],
+          "leave_one_out_accuracy_range": [
+            0.7857142857142857,
+            0.8571428571428571
+          ],
+          "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 15,
+            "calls": 15,
+            "coverage": 1.0,
+            "correct": 12,
+            "accuracy": 0.8,
+            "above_recall": 0.8571428571428571,
+            "below_recall": 0.75,
+            "balanced_accuracy": 0.8035714285714286,
+            "always_above_accuracy": 0.4666666666666667,
+            "always_below_accuracy": 0.5333333333333333,
+            "historical_majority_calls": 9,
+            "historical_majority_accuracy": 0.2222222222222222,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.5481406466534955,
+              0.9295257935638959
+            ],
+            "leave_one_out_accuracy_range": [
+              0.7857142857142857,
+              0.8571428571428571
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 15,
+            "calls": 15,
+            "coverage": 1.0,
+            "correct": 12,
+            "accuracy": 0.8,
+            "above_recall": 0.8571428571428571,
+            "below_recall": 0.75,
+            "balanced_accuracy": 0.8035714285714286,
+            "always_above_accuracy": 0.4666666666666667,
+            "always_below_accuracy": 0.5333333333333333,
+            "historical_majority_calls": 9,
+            "historical_majority_accuracy": 0.2222222222222222,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.5481406466534955,
+              0.9295257935638959
+            ],
+            "leave_one_out_accuracy_range": [
+              0.7857142857142857,
+              0.8571428571428571
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 7,
+            "calls": 7,
+            "coverage": 1.0,
+            "correct": 3,
+            "accuracy": 0.42857142857142855,
+            "above_recall": 0.25,
+            "below_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.4583333333333333,
+            "always_above_accuracy": 0.5714285714285714,
+            "always_below_accuracy": 0.42857142857142855,
+            "historical_majority_calls": 6,
+            "historical_majority_accuracy": 0.6666666666666666,
+            "signal_accuracy_on_majority_coverage": 0.5,
+            "wilson_descriptive_95_interval": [
+              0.15821692226262685,
+              0.7495457695909742
+            ],
+            "leave_one_out_accuracy_range": [
+              0.3333333333333333,
+              0.5
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 7,
+            "calls": 7,
+            "coverage": 1.0,
+            "correct": 4,
+            "accuracy": 0.5714285714285714,
+            "above_recall": 0.75,
+            "below_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.5416666666666666,
+            "always_above_accuracy": 0.5714285714285714,
+            "always_below_accuracy": 0.42857142857142855,
+            "historical_majority_calls": 6,
+            "historical_majority_accuracy": 0.6666666666666666,
+            "signal_accuracy_on_majority_coverage": 0.5,
+            "wilson_descriptive_95_interval": [
+              0.2504542304090258,
+              0.8417830777373732
+            ],
+            "leave_one_out_accuracy_range": [
+              0.5,
+              0.6666666666666666
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      },
+      "overlap_only": {
+        "consensus": {
+          "eligible_rows": 22,
+          "calls": 0
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 0,
+            "calls": 0
+          },
+          "ATD": {
+            "eligible_rows": 0,
+            "calls": 0
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 22,
+            "calls": 22,
+            "coverage": 1.0,
+            "correct": 15,
+            "accuracy": 0.6818181818181818,
+            "above_recall": 0.6363636363636364,
+            "below_recall": 0.7272727272727273,
+            "balanced_accuracy": 0.6818181818181819,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 15,
+            "historical_majority_accuracy": 0.4,
+            "signal_accuracy_on_majority_coverage": 0.8,
+            "wilson_descriptive_95_interval": [
+              0.47318222782839336,
+              0.8363961264530752
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6666666666666666,
+              0.7142857142857143
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 22,
+            "calls": 22,
+            "coverage": 1.0,
+            "correct": 16,
+            "accuracy": 0.7272727272727273,
+            "above_recall": 0.8181818181818182,
+            "below_recall": 0.6363636363636364,
+            "balanced_accuracy": 0.7272727272727273,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 15,
+            "historical_majority_accuracy": 0.4,
+            "signal_accuracy_on_majority_coverage": 0.8,
+            "wilson_descriptive_95_interval": [
+              0.5184787630099802,
+              0.8684941798418556
+            ],
+            "leave_one_out_accuracy_range": [
+              0.7142857142857143,
+              0.7619047619047619
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      },
+      "strength_only": {
+        "consensus": {
+          "eligible_rows": 22,
+          "calls": 10,
+          "coverage": 0.45454545454545453,
+          "correct": 7,
+          "accuracy": 0.7,
+          "above_recall": 0.8,
+          "below_recall": 0.6,
+          "balanced_accuracy": 0.7,
+          "always_above_accuracy": 0.5,
+          "always_below_accuracy": 0.5,
+          "historical_majority_calls": 5,
+          "historical_majority_accuracy": 0.2,
+          "signal_accuracy_on_majority_coverage": 1.0,
+          "wilson_descriptive_95_interval": [
+            0.39677321997956516,
+            0.892210712513788
+          ],
+          "leave_one_out_accuracy_range": [
+            0.6666666666666666,
+            0.7777777777777778
+          ],
+          "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 10,
+            "calls": 10,
+            "coverage": 1.0,
+            "correct": 7,
+            "accuracy": 0.7,
+            "above_recall": 0.8,
+            "below_recall": 0.6,
+            "balanced_accuracy": 0.7,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 5,
+            "historical_majority_accuracy": 0.2,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.39677321997956516,
+              0.892210712513788
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6666666666666666,
+              0.7777777777777778
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 10,
+            "calls": 10,
+            "coverage": 1.0,
+            "correct": 7,
+            "accuracy": 0.7,
+            "above_recall": 0.8,
+            "below_recall": 0.6,
+            "balanced_accuracy": 0.7,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 5,
+            "historical_majority_accuracy": 0.2,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.39677321997956516,
+              0.892210712513788
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6666666666666666,
+              0.7777777777777778
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 12,
+            "calls": 12,
+            "coverage": 1.0,
+            "correct": 8,
+            "accuracy": 0.6666666666666666,
+            "above_recall": 0.5,
+            "below_recall": 0.8333333333333334,
+            "balanced_accuracy": 0.6666666666666667,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 10,
+            "historical_majority_accuracy": 0.5,
+            "signal_accuracy_on_majority_coverage": 0.7,
+            "wilson_descriptive_95_interval": [
+              0.3906175873976139,
+              0.8618821601026385
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6363636363636364,
+              0.7272727272727273
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 12,
+            "calls": 12,
+            "coverage": 1.0,
+            "correct": 9,
+            "accuracy": 0.75,
+            "above_recall": 0.8333333333333334,
+            "below_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.75,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 10,
+            "historical_majority_accuracy": 0.5,
+            "signal_accuracy_on_majority_coverage": 0.7,
+            "wilson_descriptive_95_interval": [
+              0.46768966087934005,
+              0.9110599603710386
+            ],
+            "leave_one_out_accuracy_range": [
+              0.7272727272727273,
+              0.8181818181818182
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      },
+      "overlap_and_strength": {
+        "consensus": {
+          "eligible_rows": 22,
+          "calls": 0
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 0,
+            "calls": 0
+          },
+          "ATD": {
+            "eligible_rows": 0,
+            "calls": 0
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 22,
+            "calls": 22,
+            "coverage": 1.0,
+            "correct": 15,
+            "accuracy": 0.6818181818181818,
+            "above_recall": 0.6363636363636364,
+            "below_recall": 0.7272727272727273,
+            "balanced_accuracy": 0.6818181818181819,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 15,
+            "historical_majority_accuracy": 0.4,
+            "signal_accuracy_on_majority_coverage": 0.8,
+            "wilson_descriptive_95_interval": [
+              0.47318222782839336,
+              0.8363961264530752
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6666666666666666,
+              0.7142857142857143
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 22,
+            "calls": 22,
+            "coverage": 1.0,
+            "correct": 16,
+            "accuracy": 0.7272727272727273,
+            "above_recall": 0.8181818181818182,
+            "below_recall": 0.6363636363636364,
+            "balanced_accuracy": 0.7272727272727273,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 15,
+            "historical_majority_accuracy": 0.4,
+            "signal_accuracy_on_majority_coverage": 0.8,
+            "wilson_descriptive_95_interval": [
+              0.5184787630099802,
+              0.8684941798418556
+            ],
+            "leave_one_out_accuracy_range": [
+              0.7142857142857143,
+              0.7619047619047619
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      }
+    },
+    "modern_large": {
+      "consensus": {
+        "consensus": {
+          "eligible_rows": 6,
+          "calls": 4,
+          "coverage": 0.6666666666666666,
+          "correct": 3,
+          "accuracy": 0.75,
+          "above_recall": 1.0,
+          "below_recall": 0.5,
+          "balanced_accuracy": 0.75,
+          "always_above_accuracy": 0.5,
+          "always_below_accuracy": 0.5,
+          "historical_majority_calls": 1,
+          "historical_majority_accuracy": 0.0,
+          "signal_accuracy_on_majority_coverage": 1.0,
+          "wilson_descriptive_95_interval": [
+            0.3006360524426366,
+            0.9544139373553637
+          ],
+          "leave_one_out_accuracy_range": [
+            0.6666666666666666,
+            1.0
+          ],
+          "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 4,
+            "calls": 4,
+            "coverage": 1.0,
+            "correct": 3,
+            "accuracy": 0.75,
+            "above_recall": 1.0,
+            "below_recall": 0.5,
+            "balanced_accuracy": 0.75,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 1,
+            "historical_majority_accuracy": 0.0,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.3006360524426366,
+              0.9544139373553637
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6666666666666666,
+              1.0
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 4,
+            "calls": 4,
+            "coverage": 1.0,
+            "correct": 3,
+            "accuracy": 0.75,
+            "above_recall": 1.0,
+            "below_recall": 0.5,
+            "balanced_accuracy": 0.75,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 1,
+            "historical_majority_accuracy": 0.0,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.3006360524426366,
+              0.9544139373553637
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6666666666666666,
+              1.0
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 2,
+            "calls": 2,
+            "coverage": 1.0,
+            "correct": 1,
+            "accuracy": 0.5,
+            "above_recall": 0.0,
+            "below_recall": 1.0,
+            "balanced_accuracy": 0.5,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 1,
+            "historical_majority_accuracy": 0.0,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.09452865480086614,
+              0.9054713451991339
+            ],
+            "leave_one_out_accuracy_range": [
+              0.0,
+              1.0
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 2,
+            "calls": 2,
+            "coverage": 1.0,
+            "correct": 1,
+            "accuracy": 0.5,
+            "above_recall": 1.0,
+            "below_recall": 0.0,
+            "balanced_accuracy": 0.5,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 1,
+            "historical_majority_accuracy": 0.0,
+            "signal_accuracy_on_majority_coverage": 0.0,
+            "wilson_descriptive_95_interval": [
+              0.09452865480086614,
+              0.9054713451991339
+            ],
+            "leave_one_out_accuracy_range": [
+              0.0,
+              1.0
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      },
+      "overlap_only": {
+        "consensus": {
+          "eligible_rows": 6,
+          "calls": 0
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 0,
+            "calls": 0
+          },
+          "ATD": {
+            "eligible_rows": 0,
+            "calls": 0
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 6,
+            "calls": 6,
+            "coverage": 1.0,
+            "correct": 4,
+            "accuracy": 0.6666666666666666,
+            "above_recall": 0.6666666666666666,
+            "below_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.6666666666666666,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 2,
+            "historical_majority_accuracy": 0.0,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.29998832134152864,
+              0.9032306674407831
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6,
+              0.8
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 6,
+            "calls": 6,
+            "coverage": 1.0,
+            "correct": 4,
+            "accuracy": 0.6666666666666666,
+            "above_recall": 1.0,
+            "below_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.6666666666666666,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 2,
+            "historical_majority_accuracy": 0.0,
+            "signal_accuracy_on_majority_coverage": 0.5,
+            "wilson_descriptive_95_interval": [
+              0.29998832134152864,
+              0.9032306674407831
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6,
+              0.8
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      },
+      "strength_only": {
+        "consensus": {
+          "eligible_rows": 6,
+          "calls": 4,
+          "coverage": 0.6666666666666666,
+          "correct": 3,
+          "accuracy": 0.75,
+          "above_recall": 1.0,
+          "below_recall": 0.5,
+          "balanced_accuracy": 0.75,
+          "always_above_accuracy": 0.5,
+          "always_below_accuracy": 0.5,
+          "historical_majority_calls": 1,
+          "historical_majority_accuracy": 0.0,
+          "signal_accuracy_on_majority_coverage": 1.0,
+          "wilson_descriptive_95_interval": [
+            0.3006360524426366,
+            0.9544139373553637
+          ],
+          "leave_one_out_accuracy_range": [
+            0.6666666666666666,
+            1.0
+          ],
+          "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 4,
+            "calls": 4,
+            "coverage": 1.0,
+            "correct": 3,
+            "accuracy": 0.75,
+            "above_recall": 1.0,
+            "below_recall": 0.5,
+            "balanced_accuracy": 0.75,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 1,
+            "historical_majority_accuracy": 0.0,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.3006360524426366,
+              0.9544139373553637
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6666666666666666,
+              1.0
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 4,
+            "calls": 4,
+            "coverage": 1.0,
+            "correct": 3,
+            "accuracy": 0.75,
+            "above_recall": 1.0,
+            "below_recall": 0.5,
+            "balanced_accuracy": 0.75,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 1,
+            "historical_majority_accuracy": 0.0,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.3006360524426366,
+              0.9544139373553637
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6666666666666666,
+              1.0
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 2,
+            "calls": 2,
+            "coverage": 1.0,
+            "correct": 1,
+            "accuracy": 0.5,
+            "above_recall": 0.0,
+            "below_recall": 1.0,
+            "balanced_accuracy": 0.5,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 1,
+            "historical_majority_accuracy": 0.0,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.09452865480086614,
+              0.9054713451991339
+            ],
+            "leave_one_out_accuracy_range": [
+              0.0,
+              1.0
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 2,
+            "calls": 2,
+            "coverage": 1.0,
+            "correct": 1,
+            "accuracy": 0.5,
+            "above_recall": 1.0,
+            "below_recall": 0.0,
+            "balanced_accuracy": 0.5,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 1,
+            "historical_majority_accuracy": 0.0,
+            "signal_accuracy_on_majority_coverage": 0.0,
+            "wilson_descriptive_95_interval": [
+              0.09452865480086614,
+              0.9054713451991339
+            ],
+            "leave_one_out_accuracy_range": [
+              0.0,
+              1.0
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      },
+      "overlap_and_strength": {
+        "consensus": {
+          "eligible_rows": 6,
+          "calls": 0
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 0,
+            "calls": 0
+          },
+          "ATD": {
+            "eligible_rows": 0,
+            "calls": 0
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 6,
+            "calls": 6,
+            "coverage": 1.0,
+            "correct": 4,
+            "accuracy": 0.6666666666666666,
+            "above_recall": 0.6666666666666666,
+            "below_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.6666666666666666,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 2,
+            "historical_majority_accuracy": 0.0,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.29998832134152864,
+              0.9032306674407831
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6,
+              0.8
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 6,
+            "calls": 6,
+            "coverage": 1.0,
+            "correct": 4,
+            "accuracy": 0.6666666666666666,
+            "above_recall": 1.0,
+            "below_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.6666666666666666,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 2,
+            "historical_majority_accuracy": 0.0,
+            "signal_accuracy_on_majority_coverage": 0.5,
+            "wilson_descriptive_95_interval": [
+              0.29998832134152864,
+              0.9032306674407831
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6,
+              0.8
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      }
+    },
+    "modern_ordinary": {
+      "consensus": {
+        "consensus": {
+          "eligible_rows": 16,
+          "calls": 11,
+          "coverage": 0.6875,
+          "correct": 9,
+          "accuracy": 0.8181818181818182,
+          "above_recall": 0.8,
+          "below_recall": 0.8333333333333334,
+          "balanced_accuracy": 0.8166666666666667,
+          "always_above_accuracy": 0.45454545454545453,
+          "always_below_accuracy": 0.5454545454545454,
+          "historical_majority_calls": 8,
+          "historical_majority_accuracy": 0.25,
+          "signal_accuracy_on_majority_coverage": 1.0,
+          "wilson_descriptive_95_interval": [
+            0.5230138624217553,
+            0.9486333993289995
+          ],
+          "leave_one_out_accuracy_range": [
+            0.8,
+            0.9
+          ],
+          "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 11,
+            "calls": 11,
+            "coverage": 1.0,
+            "correct": 9,
+            "accuracy": 0.8181818181818182,
+            "above_recall": 0.8,
+            "below_recall": 0.8333333333333334,
+            "balanced_accuracy": 0.8166666666666667,
+            "always_above_accuracy": 0.45454545454545453,
+            "always_below_accuracy": 0.5454545454545454,
+            "historical_majority_calls": 8,
+            "historical_majority_accuracy": 0.25,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.5230138624217553,
+              0.9486333993289995
+            ],
+            "leave_one_out_accuracy_range": [
+              0.8,
+              0.9
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 11,
+            "calls": 11,
+            "coverage": 1.0,
+            "correct": 9,
+            "accuracy": 0.8181818181818182,
+            "above_recall": 0.8,
+            "below_recall": 0.8333333333333334,
+            "balanced_accuracy": 0.8166666666666667,
+            "always_above_accuracy": 0.45454545454545453,
+            "always_below_accuracy": 0.5454545454545454,
+            "historical_majority_calls": 8,
+            "historical_majority_accuracy": 0.25,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.5230138624217553,
+              0.9486333993289995
+            ],
+            "leave_one_out_accuracy_range": [
+              0.8,
+              0.9
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 5,
+            "calls": 5,
+            "coverage": 1.0,
+            "correct": 2,
+            "accuracy": 0.4,
+            "above_recall": 0.3333333333333333,
+            "below_recall": 0.5,
+            "balanced_accuracy": 0.41666666666666663,
+            "always_above_accuracy": 0.6,
+            "always_below_accuracy": 0.4,
+            "historical_majority_calls": 5,
+            "historical_majority_accuracy": 0.8,
+            "signal_accuracy_on_majority_coverage": 0.4,
+            "wilson_descriptive_95_interval": [
+              0.1176182311592533,
+              0.769280067791163
+            ],
+            "leave_one_out_accuracy_range": [
+              0.25,
+              0.5
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 5,
+            "calls": 5,
+            "coverage": 1.0,
+            "correct": 3,
+            "accuracy": 0.6,
+            "above_recall": 0.6666666666666666,
+            "below_recall": 0.5,
+            "balanced_accuracy": 0.5833333333333333,
+            "always_above_accuracy": 0.6,
+            "always_below_accuracy": 0.4,
+            "historical_majority_calls": 5,
+            "historical_majority_accuracy": 0.8,
+            "signal_accuracy_on_majority_coverage": 0.6,
+            "wilson_descriptive_95_interval": [
+              0.23071993220883708,
+              0.8823817688407467
+            ],
+            "leave_one_out_accuracy_range": [
+              0.5,
+              0.75
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      },
+      "overlap_only": {
+        "consensus": {
+          "eligible_rows": 16,
+          "calls": 0
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 0,
+            "calls": 0
+          },
+          "ATD": {
+            "eligible_rows": 0,
+            "calls": 0
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 16,
+            "calls": 16,
+            "coverage": 1.0,
+            "correct": 11,
+            "accuracy": 0.6875,
+            "above_recall": 0.625,
+            "below_recall": 0.75,
+            "balanced_accuracy": 0.6875,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 13,
+            "historical_majority_accuracy": 0.46153846153846156,
+            "signal_accuracy_on_majority_coverage": 0.7692307692307693,
+            "wilson_descriptive_95_interval": [
+              0.4440393186673406,
+              0.8583556494803894
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6666666666666666,
+              0.7333333333333333
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 16,
+            "calls": 16,
+            "coverage": 1.0,
+            "correct": 12,
+            "accuracy": 0.75,
+            "above_recall": 0.75,
+            "below_recall": 0.75,
+            "balanced_accuracy": 0.75,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 13,
+            "historical_majority_accuracy": 0.46153846153846156,
+            "signal_accuracy_on_majority_coverage": 0.8461538461538461,
+            "wilson_descriptive_95_interval": [
+              0.5050123107060135,
+              0.8981809801576265
+            ],
+            "leave_one_out_accuracy_range": [
+              0.7333333333333333,
+              0.8
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      },
+      "strength_only": {
+        "consensus": {
+          "eligible_rows": 16,
+          "calls": 6,
+          "coverage": 0.375,
+          "correct": 4,
+          "accuracy": 0.6666666666666666,
+          "above_recall": 0.6666666666666666,
+          "below_recall": 0.6666666666666666,
+          "balanced_accuracy": 0.6666666666666666,
+          "always_above_accuracy": 0.5,
+          "always_below_accuracy": 0.5,
+          "historical_majority_calls": 4,
+          "historical_majority_accuracy": 0.25,
+          "signal_accuracy_on_majority_coverage": 1.0,
+          "wilson_descriptive_95_interval": [
+            0.29998832134152864,
+            0.9032306674407831
+          ],
+          "leave_one_out_accuracy_range": [
+            0.6,
+            0.8
+          ],
+          "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 6,
+            "calls": 6,
+            "coverage": 1.0,
+            "correct": 4,
+            "accuracy": 0.6666666666666666,
+            "above_recall": 0.6666666666666666,
+            "below_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.6666666666666666,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 4,
+            "historical_majority_accuracy": 0.25,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.29998832134152864,
+              0.9032306674407831
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6,
+              0.8
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 6,
+            "calls": 6,
+            "coverage": 1.0,
+            "correct": 4,
+            "accuracy": 0.6666666666666666,
+            "above_recall": 0.6666666666666666,
+            "below_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.6666666666666666,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 4,
+            "historical_majority_accuracy": 0.25,
+            "signal_accuracy_on_majority_coverage": 1.0,
+            "wilson_descriptive_95_interval": [
+              0.29998832134152864,
+              0.9032306674407831
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6,
+              0.8
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 10,
+            "calls": 10,
+            "coverage": 1.0,
+            "correct": 7,
+            "accuracy": 0.7,
+            "above_recall": 0.6,
+            "below_recall": 0.8,
+            "balanced_accuracy": 0.7,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 9,
+            "historical_majority_accuracy": 0.5555555555555556,
+            "signal_accuracy_on_majority_coverage": 0.6666666666666666,
+            "wilson_descriptive_95_interval": [
+              0.39677321997956516,
+              0.892210712513788
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6666666666666666,
+              0.7777777777777778
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 10,
+            "calls": 10,
+            "coverage": 1.0,
+            "correct": 8,
+            "accuracy": 0.8,
+            "above_recall": 0.8,
+            "below_recall": 0.8,
+            "balanced_accuracy": 0.8,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 9,
+            "historical_majority_accuracy": 0.5555555555555556,
+            "signal_accuracy_on_majority_coverage": 0.7777777777777778,
+            "wilson_descriptive_95_interval": [
+              0.49015684672072335,
+              0.9433190520193067
+            ],
+            "leave_one_out_accuracy_range": [
+              0.7777777777777778,
+              0.8888888888888888
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      },
+      "overlap_and_strength": {
+        "consensus": {
+          "eligible_rows": 16,
+          "calls": 0
+        },
+        "individuals_same_rows": {
+          "CASY": {
+            "eligible_rows": 0,
+            "calls": 0
+          },
+          "ATD": {
+            "eligible_rows": 0,
+            "calls": 0
+          }
+        },
+        "individuals_abstained_rows": {
+          "CASY": {
+            "eligible_rows": 16,
+            "calls": 16,
+            "coverage": 1.0,
+            "correct": 11,
+            "accuracy": 0.6875,
+            "above_recall": 0.625,
+            "below_recall": 0.75,
+            "balanced_accuracy": 0.6875,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 13,
+            "historical_majority_accuracy": 0.46153846153846156,
+            "signal_accuracy_on_majority_coverage": 0.7692307692307693,
+            "wilson_descriptive_95_interval": [
+              0.4440393186673406,
+              0.8583556494803894
+            ],
+            "leave_one_out_accuracy_range": [
+              0.6666666666666666,
+              0.7333333333333333
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          },
+          "ATD": {
+            "eligible_rows": 16,
+            "calls": 16,
+            "coverage": 1.0,
+            "correct": 12,
+            "accuracy": 0.75,
+            "above_recall": 0.75,
+            "below_recall": 0.75,
+            "balanced_accuracy": 0.75,
+            "always_above_accuracy": 0.5,
+            "always_below_accuracy": 0.5,
+            "historical_majority_calls": 13,
+            "historical_majority_accuracy": 0.46153846153846156,
+            "signal_accuracy_on_majority_coverage": 0.8461538461538461,
+            "wilson_descriptive_95_interval": [
+              0.5050123107060135,
+              0.8981809801576265
+            ],
+            "leave_one_out_accuracy_range": [
+              0.7333333333333333,
+              0.8
+            ],
+            "interval_note": "Descriptive independent-Bernoulli interval; serial dependence and repeated research are not accounted for"
+          }
+        }
+      }
+    }
+  },
+  "scored_rows": [
+    {
+      "quarter": "2015Q3",
+      "era": "earlier",
+      "cutoff": "2015-09-30",
+      "production_forecast_cpg": 19.70380267967116,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [],
+      "signals": {
+        "recent_residual": {
+          "call": "ABSTAIN"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -2.2034173620663644,
+          "quarter": "F2016Q1",
+          "available_at": "2015-09-08",
+          "source_sha256": "d1adeb3ada413dab7f3bb770ae3245e1216d1b334b1312d2b2df4cd54d65c299",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695815000105/q12016pressrelease.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABSTAIN",
+          "reason": "NO_ELIGIBLE_OVERLAPPING_DONOR"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 1.6038026796711584
+    },
+    {
+      "quarter": "2015Q4",
+      "era": "earlier",
+      "cutoff": "2015-12-31",
+      "production_forecast_cpg": 21.383435282035897,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABSTAIN"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 3.3390179001433395,
+          "quarter": "F2016Q2",
+          "available_at": "2015-12-07",
+          "source_sha256": "979a016b2da2094f5b51669e5f97bbaf55dac700f439340632533c8cd070ce26",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695815000146/q22016pressrelease.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABSTAIN",
+          "reason": "NO_ELIGIBLE_OVERLAPPING_DONOR"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 8.983435282035897
+    },
+    {
+      "quarter": "2016Q1",
+      "era": "earlier",
+      "cutoff": "2016-03-31",
+      "production_forecast_cpg": 10.829386529613398,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABSTAIN"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -2.0585303715293684,
+          "quarter": "F2016Q3",
+          "available_at": "2016-03-07",
+          "source_sha256": "d33f1ae9050d4540c7de7f83d1629946412e27329f6a9d0d50d6cf6589c7590a",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695816000169/q32016pressrelease.htm",
+          "overlap_fraction": 0.34065934065934067,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABSTAIN",
+          "reason": "NO_ELIGIBLE_OVERLAPPING_DONOR"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 0.27061347038660166
+    },
+    {
+      "quarter": "2016Q2",
+      "era": "earlier",
+      "cutoff": "2016-06-30",
+      "production_forecast_cpg": 8.304390903316932,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABSTAIN"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -0.6139834659201,
+          "quarter": "F2016Q4",
+          "available_at": "2016-06-06",
+          "source_sha256": "6aaf2f446ce472910479a1071e62b21bd3ba6af66a4aed18d7165e04c24e52ec",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695816000196/q42016pressrelease.htm",
+          "overlap_fraction": 0.32967032967032966,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABSTAIN",
+          "reason": "NO_ELIGIBLE_OVERLAPPING_DONOR"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 2.4956090966830686
+    },
+    {
+      "quarter": "2016Q3",
+      "era": "earlier",
+      "cutoff": "2016-09-30",
+      "production_forecast_cpg": 16.35805206305065,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 0.6908562651696393,
+          "quarter": "F2017Q1",
+          "available_at": "2016-09-06",
+          "source_sha256": "a28861990c119e47e04215b105243fa26ce7e2dd6255a2a04d1dbd6aad389e81",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695816000270/q12017pressrelease.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 2.582867151001249,
+          "quarter": "F2017Q1",
+          "available_at": "2016-08-30",
+          "source_sha256": "f7be2deb175b7f0ee3249703ff2ed69692d4a0021fd70b229690cbd1a9e24808",
+          "source_url": "https://corporate.couche-tard.com/2016-08-30-Alimentation-Couche-Tard-announces-its-results-for-its-first-quarter-of-fiscal-year-2017",
+          "overlap_fraction": 0.18478260869565216,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 2.6580520630506506
+    },
+    {
+      "quarter": "2016Q4",
+      "era": "earlier",
+      "cutoff": "2016-12-31",
+      "production_forecast_cpg": 11.389566732442901,
+      "historical_majority": "BELOW",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -3.675680294512695,
+          "quarter": "F2017Q2",
+          "available_at": "2016-12-07",
+          "source_sha256": "59fd2f62ae24be452db769aa057ccfdea9a0d5ccd516e210a1ffe684e6e8babf",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695816000301/q22017pressrelease.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -5.24667452320627,
+          "quarter": "F2017Q2",
+          "available_at": "2016-11-22",
+          "source_sha256": "ca4a91fdcce06779a13e13136ac3ee6f67256fec96e7851e7b6046d13d88a270",
+          "source_url": "https://corporate.couche-tard.com/2016-11-22-Alimentation-Couche-Tard-announces-its-results-for-its-second-quarter-of-fiscal-year-2017",
+          "overlap_fraction": 0.09782608695652174,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "BELOW"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "BELOW"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 0.7895667324429017
+    },
+    {
+      "quarter": "2017Q1",
+      "era": "earlier",
+      "cutoff": "2017-03-31",
+      "production_forecast_cpg": 9.827591933624078,
+      "historical_majority": "BELOW",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        },
+        {
+          "quarter": "2016Q4",
+          "available_at": "2017-02-01"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -0.2269259055329691,
+          "quarter": "F2017Q3",
+          "available_at": "2017-03-06",
+          "source_sha256": "d1098f2d5c7ed434a4a1877ea87b013377dace8a03ee00d7a3adb5387fec160d",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695817000010/q32017pressrelease.htm",
+          "overlap_fraction": 0.34444444444444444,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -0.4273395896208747,
+          "quarter": "F2017Q3",
+          "available_at": "2017-03-14",
+          "source_sha256": "20da4566fa8d31021baf2098799bedd421688762f44844e88cb0796a83bc161b",
+          "source_url": "https://corporate.couche-tard.com/2017-03-14-Alimentation-Couche-Tard-announces-its-results-for-its-third-quarter-of-fiscal-year-2017",
+          "overlap_fraction": 0.32222222222222224,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "BELOW"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 0.2724080663759221
+    },
+    {
+      "quarter": "2017Q2",
+      "era": "earlier",
+      "cutoff": "2017-06-30",
+      "production_forecast_cpg": 12.17618122095186,
+      "historical_majority": "BELOW",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        },
+        {
+          "quarter": "2016Q4",
+          "available_at": "2017-02-01"
+        },
+        {
+          "quarter": "2017Q1",
+          "available_at": "2017-05-01"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 0.42469277381020376,
+          "quarter": "F2017Q4",
+          "available_at": "2017-06-05",
+          "source_sha256": "59f6499a5285a205907d9e238edea2f3fe6764e51ea81557270a86799569b624",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695817000025/q42017pressrelease.htm",
+          "overlap_fraction": 0.32967032967032966,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABSTAIN",
+          "reason": "NO_ELIGIBLE_OVERLAPPING_DONOR"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 4.423818779048142
+    },
+    {
+      "quarter": "2017Q3",
+      "era": "earlier",
+      "cutoff": "2017-09-30",
+      "production_forecast_cpg": 13.078308804519434,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        },
+        {
+          "quarter": "2016Q4",
+          "available_at": "2017-02-01"
+        },
+        {
+          "quarter": "2017Q1",
+          "available_at": "2017-05-01"
+        },
+        {
+          "quarter": "2017Q2",
+          "available_at": "2017-08-02"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -0.3193002354906831,
+          "quarter": "F2018Q1",
+          "available_at": "2017-09-05",
+          "source_sha256": "a22a4b41c80b7bf9989e05840835dfcd548da3c75dda8662dbd602c2d663652a",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695817000093/q1fy2018pressrelease.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -0.014932566648468537,
+          "quarter": "F2018Q1",
+          "available_at": "2017-09-06",
+          "source_sha256": "04bafdb21ce69f3cafd7998ce7d3f2481856d8b8ec54ca601063ca7b01df90c8",
+          "source_url": "https://corporate.couche-tard.com/2017-09-06-Alimentation-Couche-Tard-announces-its-results-for-its-first-quarter-of-fiscal-year-2018",
+          "overlap_fraction": 0.25,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "BELOW"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 2.421691195480566
+    },
+    {
+      "quarter": "2017Q4",
+      "era": "earlier",
+      "cutoff": "2017-12-31",
+      "production_forecast_cpg": 10.323362790540948,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        },
+        {
+          "quarter": "2016Q4",
+          "available_at": "2017-02-01"
+        },
+        {
+          "quarter": "2017Q1",
+          "available_at": "2017-05-01"
+        },
+        {
+          "quarter": "2017Q2",
+          "available_at": "2017-08-02"
+        },
+        {
+          "quarter": "2017Q3",
+          "available_at": "2017-11-01"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -0.43407057636496305,
+          "quarter": "F2018Q2",
+          "available_at": "2017-12-11",
+          "source_sha256": "034af26d51c2ba360465c4477e0647d88d6133d9ebc2c412704c45366d0b5ef2",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695817000135/q2fy2018pressrelease.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 3.580486174148696,
+          "quarter": "F2018Q2",
+          "available_at": "2017-11-28",
+          "source_sha256": "e7f8d659fc8d9ba9e43a814325cd75ef40cad63d5e6f986800f21cac2ffc5309",
+          "source_url": "https://corporate.couche-tard.com/2017-11-28-Alimentation-Couche-Tard-announces-record-earnings-for-its-second-quarter-of-fiscal-year-2018-with-the-contribution-from-CST",
+          "overlap_fraction": 0.16304347826086957,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 3.476637209459053
+    },
+    {
+      "quarter": "2018Q1",
+      "era": "earlier",
+      "cutoff": "2018-03-31",
+      "production_forecast_cpg": 9.204702737689873,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        },
+        {
+          "quarter": "2016Q4",
+          "available_at": "2017-02-01"
+        },
+        {
+          "quarter": "2017Q1",
+          "available_at": "2017-05-01"
+        },
+        {
+          "quarter": "2017Q2",
+          "available_at": "2017-08-02"
+        },
+        {
+          "quarter": "2017Q3",
+          "available_at": "2017-11-01"
+        },
+        {
+          "quarter": "2017Q4",
+          "available_at": "2018-01-31"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 0.46408658258216917,
+          "quarter": "F2018Q3",
+          "available_at": "2018-03-07",
+          "source_sha256": "98cbaff846725e497f8779231423d946c62e0d5f36412e86a764e52015cc0dd7",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695818000008/q3fy2018earningspressrelea.htm",
+          "overlap_fraction": 0.34444444444444444,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -1.7808170543145998,
+          "quarter": "F2018Q3",
+          "available_at": "2018-03-20",
+          "source_sha256": "7690eeb04f951cca67bf1474306c89d856d7c1e94077894af21cde7fb361431a",
+          "source_url": "https://corporate.couche-tard.com/2018-03-20-Alimentation-Couche-Tard-Announces-its-Results-for-its-Third-Quarter-of-Fiscal-Year-2018",
+          "overlap_fraction": 0.3888888888888889,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 0.8047027376898725
+    },
+    {
+      "quarter": "2018Q2",
+      "era": "earlier",
+      "cutoff": "2018-06-30",
+      "production_forecast_cpg": 16.18917957296918,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        },
+        {
+          "quarter": "2016Q4",
+          "available_at": "2017-02-01"
+        },
+        {
+          "quarter": "2017Q1",
+          "available_at": "2017-05-01"
+        },
+        {
+          "quarter": "2017Q2",
+          "available_at": "2017-08-02"
+        },
+        {
+          "quarter": "2017Q3",
+          "available_at": "2017-11-01"
+        },
+        {
+          "quarter": "2017Q4",
+          "available_at": "2018-01-31"
+        },
+        {
+          "quarter": "2018Q1",
+          "available_at": "2018-05-01"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -1.9659652060479402,
+          "quarter": "F2018Q4",
+          "available_at": "2018-06-12",
+          "source_sha256": "2461bc787fef1333c39228471a13a1eb542e0961db5d1ffba2f04bd73ec03c00",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695818000084/q42018pressrelease.htm",
+          "overlap_fraction": 0.32967032967032966,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABSTAIN",
+          "reason": "NO_ELIGIBLE_OVERLAPPING_DONOR"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 3.1891795729691808
+    },
+    {
+      "quarter": "2018Q3",
+      "era": "earlier",
+      "cutoff": "2018-09-30",
+      "production_forecast_cpg": 14.868299300797775,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        },
+        {
+          "quarter": "2016Q4",
+          "available_at": "2017-02-01"
+        },
+        {
+          "quarter": "2017Q1",
+          "available_at": "2017-05-01"
+        },
+        {
+          "quarter": "2017Q2",
+          "available_at": "2017-08-02"
+        },
+        {
+          "quarter": "2017Q3",
+          "available_at": "2017-11-01"
+        },
+        {
+          "quarter": "2017Q4",
+          "available_at": "2018-01-31"
+        },
+        {
+          "quarter": "2018Q1",
+          "available_at": "2018-05-01"
+        },
+        {
+          "quarter": "2018Q2",
+          "available_at": "2018-08-01"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 0.6430759353909785,
+          "quarter": "F2019Q1",
+          "available_at": "2018-09-10",
+          "source_sha256": "ba95d80bf0ca0a2cd828d5deffbec515ad67646d51c84a887542bd80c838bbb2",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695818000138/q1fy2019earningspressrelea.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 2.367713402833335,
+          "quarter": "F2019Q1",
+          "available_at": "2018-09-05",
+          "source_sha256": "8aa793e8a0f6e4ed2622ce8046ae65e779018dc4ba5e5c3a89880dc199f15e9d",
+          "source_url": "https://corporate.couche-tard.com/2018-09-05-Alimentation-Couche-Tard-announces-its-results-for-its-first-quarter-of-fiscal-year-2019",
+          "overlap_fraction": 0.2391304347826087,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 0.6682993007977753
+    },
+    {
+      "quarter": "2018Q4",
+      "era": "earlier",
+      "cutoff": "2018-12-31",
+      "production_forecast_cpg": 17.341742717156382,
+      "historical_majority": "BELOW",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        },
+        {
+          "quarter": "2016Q4",
+          "available_at": "2017-02-01"
+        },
+        {
+          "quarter": "2017Q1",
+          "available_at": "2017-05-01"
+        },
+        {
+          "quarter": "2017Q2",
+          "available_at": "2017-08-02"
+        },
+        {
+          "quarter": "2017Q3",
+          "available_at": "2017-11-01"
+        },
+        {
+          "quarter": "2017Q4",
+          "available_at": "2018-01-31"
+        },
+        {
+          "quarter": "2018Q1",
+          "available_at": "2018-05-01"
+        },
+        {
+          "quarter": "2018Q2",
+          "available_at": "2018-08-01"
+        },
+        {
+          "quarter": "2018Q3",
+          "available_at": "2018-10-31"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -0.4536552342569493,
+          "quarter": "F2019Q2",
+          "available_at": "2018-12-10",
+          "source_sha256": "b6d6b6afa667404cc78a5650ba96a7787240a36518d72e3e75b203475bef15e5",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695818000164/q2fy2019earningspressrelea.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -1.2927615743082974,
+          "quarter": "F2019Q2",
+          "available_at": "2018-11-27",
+          "source_sha256": "e1782d674f96d76607e0bdcf160c30aa0346ba61820b80e45e1e1073996d3c3a",
+          "source_url": "https://corporate.couche-tard.com/2018-11-27-Alimentation-Couche-Tard-maintains-its-momentum-into-the-second-quarter-of-fiscal-year-2019",
+          "overlap_fraction": 0.15217391304347827,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "BELOW"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 5.458257282843618
+    },
+    {
+      "quarter": "2019Q1",
+      "era": "earlier",
+      "cutoff": "2019-03-31",
+      "production_forecast_cpg": 9.69893718207354,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        },
+        {
+          "quarter": "2016Q4",
+          "available_at": "2017-02-01"
+        },
+        {
+          "quarter": "2017Q1",
+          "available_at": "2017-05-01"
+        },
+        {
+          "quarter": "2017Q2",
+          "available_at": "2017-08-02"
+        },
+        {
+          "quarter": "2017Q3",
+          "available_at": "2017-11-01"
+        },
+        {
+          "quarter": "2017Q4",
+          "available_at": "2018-01-31"
+        },
+        {
+          "quarter": "2018Q1",
+          "available_at": "2018-05-01"
+        },
+        {
+          "quarter": "2018Q2",
+          "available_at": "2018-08-01"
+        },
+        {
+          "quarter": "2018Q3",
+          "available_at": "2018-10-31"
+        },
+        {
+          "quarter": "2018Q4",
+          "available_at": "2019-01-30"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "ABSTAIN",
+          "reason": "NO_ELIGIBLE_OVERLAPPING_DONOR"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 11.66288405912767,
+          "quarter": "F2019Q3",
+          "available_at": "2019-03-19",
+          "source_sha256": "c3e1cdc776bec4100344c1acceb27fd01d80a18154038f938ae143ea74c37b5d",
+          "source_url": "https://corporate.couche-tard.com/2019-03-19-Alimentation-Couche-Tard-announces-record-earnings-in-third-quarter-of-fiscal-year-2019",
+          "overlap_fraction": 0.37777777777777777,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 1.298937182073539
+    },
+    {
+      "quarter": "2019Q2",
+      "era": "earlier",
+      "cutoff": "2019-06-30",
+      "production_forecast_cpg": 13.360657064535028,
+      "historical_majority": "BELOW",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        },
+        {
+          "quarter": "2016Q4",
+          "available_at": "2017-02-01"
+        },
+        {
+          "quarter": "2017Q1",
+          "available_at": "2017-05-01"
+        },
+        {
+          "quarter": "2017Q2",
+          "available_at": "2017-08-02"
+        },
+        {
+          "quarter": "2017Q3",
+          "available_at": "2017-11-01"
+        },
+        {
+          "quarter": "2017Q4",
+          "available_at": "2018-01-31"
+        },
+        {
+          "quarter": "2018Q1",
+          "available_at": "2018-05-01"
+        },
+        {
+          "quarter": "2018Q2",
+          "available_at": "2018-08-01"
+        },
+        {
+          "quarter": "2018Q3",
+          "available_at": "2018-10-31"
+        },
+        {
+          "quarter": "2018Q4",
+          "available_at": "2019-01-30"
+        },
+        {
+          "quarter": "2019Q1",
+          "available_at": "2019-04-29"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "ABSTAIN",
+          "reason": "NO_ELIGIBLE_OVERLAPPING_DONOR"
+        },
+        "ATD": {
+          "call": "ABSTAIN",
+          "reason": "NO_ELIGIBLE_OVERLAPPING_DONOR"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 0.039342935464972584
+    },
+    {
+      "quarter": "2019Q3",
+      "era": "earlier",
+      "cutoff": "2019-09-30",
+      "production_forecast_cpg": 15.694603872332452,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        },
+        {
+          "quarter": "2016Q4",
+          "available_at": "2017-02-01"
+        },
+        {
+          "quarter": "2017Q1",
+          "available_at": "2017-05-01"
+        },
+        {
+          "quarter": "2017Q2",
+          "available_at": "2017-08-02"
+        },
+        {
+          "quarter": "2017Q3",
+          "available_at": "2017-11-01"
+        },
+        {
+          "quarter": "2017Q4",
+          "available_at": "2018-01-31"
+        },
+        {
+          "quarter": "2018Q1",
+          "available_at": "2018-05-01"
+        },
+        {
+          "quarter": "2018Q2",
+          "available_at": "2018-08-01"
+        },
+        {
+          "quarter": "2018Q3",
+          "available_at": "2018-10-31"
+        },
+        {
+          "quarter": "2018Q4",
+          "available_at": "2019-01-30"
+        },
+        {
+          "quarter": "2019Q1",
+          "available_at": "2019-04-29"
+        },
+        {
+          "quarter": "2019Q2",
+          "available_at": "2019-07-31"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 2.226539384036414,
+          "quarter": "F2020Q1",
+          "available_at": "2019-09-10",
+          "source_sha256": "b9cbd30ff926713870389c0fb3eed66aa4174500219c9aa842ac2d0395cd2422",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695819000113/a8-kq1fy20transcript.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 2.02466026544138,
+          "quarter": "F2020Q1",
+          "available_at": "2019-09-04",
+          "source_sha256": "ddf61e64442457023989c7270e2a03d3764d5608a43e1d8e2bf4fddb7ff4e530",
+          "source_url": "https://corporate.couche-tard.com/2019-09-04-Alimentation-Couche-Tard-Announces-its-Results-for-its-First-Quarter-of-Fiscal-Year-2020",
+          "overlap_fraction": 0.22826086956521738,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABOVE"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 2.7053961276675462
+    },
+    {
+      "quarter": "2019Q4",
+      "era": "earlier",
+      "cutoff": "2019-12-31",
+      "production_forecast_cpg": 20.09777169828855,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2015Q3",
+          "available_at": "2015-11-05"
+        },
+        {
+          "quarter": "2015Q4",
+          "available_at": "2016-02-04"
+        },
+        {
+          "quarter": "2016Q1",
+          "available_at": "2016-05-09"
+        },
+        {
+          "quarter": "2016Q2",
+          "available_at": "2016-08-03"
+        },
+        {
+          "quarter": "2016Q3",
+          "available_at": "2016-11-02"
+        },
+        {
+          "quarter": "2016Q4",
+          "available_at": "2017-02-01"
+        },
+        {
+          "quarter": "2017Q1",
+          "available_at": "2017-05-01"
+        },
+        {
+          "quarter": "2017Q2",
+          "available_at": "2017-08-02"
+        },
+        {
+          "quarter": "2017Q3",
+          "available_at": "2017-11-01"
+        },
+        {
+          "quarter": "2017Q4",
+          "available_at": "2018-01-31"
+        },
+        {
+          "quarter": "2018Q1",
+          "available_at": "2018-05-01"
+        },
+        {
+          "quarter": "2018Q2",
+          "available_at": "2018-08-01"
+        },
+        {
+          "quarter": "2018Q3",
+          "available_at": "2018-10-31"
+        },
+        {
+          "quarter": "2018Q4",
+          "available_at": "2019-01-30"
+        },
+        {
+          "quarter": "2019Q1",
+          "available_at": "2019-04-29"
+        },
+        {
+          "quarter": "2019Q2",
+          "available_at": "2019-07-31"
+        },
+        {
+          "quarter": "2019Q3",
+          "available_at": "2019-10-30"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 2.118449321461455,
+          "quarter": "F2020Q2",
+          "available_at": "2019-12-10",
+          "source_sha256": "f28d5cb52e1a9dc5110c2382ec818ba784e1f2181ed110cdb8c0bc94bda2e595",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695819000130/a8-kq2fy20transcript.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 4.024181959789033,
+          "quarter": "F2020Q2",
+          "available_at": "2019-11-26",
+          "source_sha256": "78ecfa6950182b0094e773a770ae5d1f77bfb8bd76ce8d5a3ceafe6a668d8a4c",
+          "source_url": "https://corporate.couche-tard.com/2019-11-26-Alimentation-Couche-Tard-Announces-its-Results-for-its-Second-Quarter-of-Fiscal-Year-2020",
+          "overlap_fraction": 0.14130434782608695,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABOVE"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 5.19777169828855
+    },
+    {
+      "quarter": "2020Q1",
+      "era": "transition",
+      "cutoff": "2020-03-31",
+      "production_forecast_cpg": 13.820577163946922,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [],
+      "signals": {
+        "recent_residual": {
+          "call": "ABSTAIN"
+        },
+        "CASY": {
+          "call": "ABSTAIN",
+          "reason": "NO_ELIGIBLE_OVERLAPPING_DONOR"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -0.7201458611508116,
+          "quarter": "F2020Q3",
+          "available_at": "2020-03-17",
+          "source_sha256": "a0aac8f11df0e90ca7fbbae31895cab83f5db4875e7d6166886bb623c93427cc",
+          "source_url": "https://corporate.couche-tard.com/2020-03-17-Alimentation-Couche-Tard-Announces-its-Results-for-its-Third-Quarter-of-Fiscal-Year-2020",
+          "overlap_fraction": 0.3626373626373626,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 13.079422836053077
+    },
+    {
+      "quarter": "2020Q2",
+      "era": "transition",
+      "cutoff": "2020-06-30",
+      "production_forecast_cpg": 17.03595440567405,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2020Q1",
+          "available_at": "2020-04-17"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABSTAIN"
+        },
+        "CASY": {
+          "call": "ABSTAIN",
+          "reason": "NO_ELIGIBLE_OVERLAPPING_DONOR"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 17.836880170881486,
+          "quarter": "F2020Q4",
+          "available_at": "2020-06-29",
+          "source_sha256": "a82e47e7a318c389c7d8198d77cae349bca92c527d601735d3c57d7fdeacd4ef",
+          "source_url": "https://corporate.couche-tard.com/2020-06-29-Alimentation-Couche-Tard-Announces-Its-Results-for-Its-Fourth-Quarter-and-Fiscal-Year-2020",
+          "overlap_fraction": 0.2857142857142857,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 14.664045594325948
+    },
+    {
+      "quarter": "2020Q3",
+      "era": "transition",
+      "cutoff": "2020-09-30",
+      "production_forecast_cpg": 20.728910683503372,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2020Q1",
+          "available_at": "2020-04-17"
+        },
+        {
+          "quarter": "2020Q2",
+          "available_at": "2020-07-21"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABSTAIN"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 12.886563584401223,
+          "quarter": "F2021Q1",
+          "available_at": "2020-09-14",
+          "source_sha256": "7e63ce29be0796eba9e313b3d9def29e4eb9243ee54cf3723199f3a453e21509",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695820000120/casy-20200909.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 15.283690753586626,
+          "quarter": "F2021Q1",
+          "available_at": "2020-09-01",
+          "source_sha256": "ac00871e3c6fe764364d034b8a3356f966a0f16adb9db27201e1fd7e88cc4ddf",
+          "source_url": "https://corporate.couche-tard.com/2020-09-01-Alimentation-Couche-Tard-Announces-its-Results-for-its-First-Quarter-of-Fiscal-Year-2021",
+          "overlap_fraction": 0.20652173913043478,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABOVE"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 1.728910683503372
+    },
+    {
+      "quarter": "2020Q4",
+      "era": "transition",
+      "cutoff": "2020-12-31",
+      "production_forecast_cpg": 16.83260524305934,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2020Q1",
+          "available_at": "2020-04-17"
+        },
+        {
+          "quarter": "2020Q2",
+          "available_at": "2020-07-21"
+        },
+        {
+          "quarter": "2020Q3",
+          "available_at": "2020-10-28"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABSTAIN"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 11.416278388598446,
+          "quarter": "F2021Q2",
+          "available_at": "2020-12-10",
+          "source_sha256": "707bb321f4c475127cce4da1af0565ebc75a243b5a27bf29f33450c1b5c8bece",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695820000135/casy-20201208.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 7.51996127006954,
+          "quarter": "F2021Q2",
+          "available_at": "2020-11-24",
+          "source_sha256": "375a331add2c865a2b35bd760af5768e3b7d1ffb6d46230da6e1bbb8af6d186d",
+          "source_url": "https://corporate.couche-tard.com/2020-11-24-Alimentation-Couche-Tard-Announces-its-Results-for-its-Second-Quarter-of-Fiscal-Year-2021",
+          "overlap_fraction": 0.11956521739130435,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABOVE"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 1.4326052430593403
+    },
+    {
+      "quarter": "2021Q1",
+      "era": "modern",
+      "cutoff": "2021-03-31",
+      "production_forecast_cpg": 18.85712654187977,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [],
+      "signals": {
+        "recent_residual": {
+          "call": "ABSTAIN"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 10.01733759130408,
+          "quarter": "F2021Q3",
+          "available_at": "2021-03-08",
+          "source_sha256": "41361c7b94fba9ff6095939a06b39f72d4d603d39aa24702d8115f472bab6ece",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695821000025/casy-20210308.htm",
+          "overlap_fraction": 0.34444444444444444,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 3.284473053468684,
+          "quarter": "F2021Q3",
+          "available_at": "2021-03-17",
+          "source_sha256": "d4cf1c8d0d6d29a3bdc0a113bd3d510a53a6574e009dce55ccd9009f82d8c238",
+          "source_url": "https://corporate.couche-tard.com/2021-03-17-Alimentation-Couche-Tard-Announces-its-Results-for-its-Third-Quarter-of-Fiscal-Year-2021",
+          "overlap_fraction": 0.34444444444444444,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABOVE"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 3.3571265418797687
+    },
+    {
+      "quarter": "2021Q2",
+      "era": "modern",
+      "cutoff": "2021-06-30",
+      "production_forecast_cpg": 26.980859753382397,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABSTAIN"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -3.3776241111400296,
+          "quarter": "F2021Q4",
+          "available_at": "2021-06-08",
+          "source_sha256": "f39211a9752883c84b13b04df60b83e1825da6f253a64753849f49aed7c6b4a5",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695821000054/casy-20210602.htm",
+          "overlap_fraction": 0.32967032967032966,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -3.2188159759983677,
+          "quarter": "F2021Q4",
+          "available_at": "2021-06-29",
+          "source_sha256": "aa78230c846cde17854466e58e21be693f1ef7b37c919ed8dadfe0d270e2f658",
+          "source_url": "https://corporate.couche-tard.com/2021-06-29-Alimentation-Couche-Tard-Announces-its-Results-for-its-Fourth-Quarter-and-Fiscal-Year-2021",
+          "overlap_fraction": 0.27472527472527475,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "BELOW"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "BELOW"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 5.180859753382396
+    },
+    {
+      "quarter": "2021Q3",
+      "era": "modern",
+      "cutoff": "2021-09-30",
+      "production_forecast_cpg": 20.848956509508668,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABSTAIN"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -3.0004100631084185,
+          "quarter": "F2022Q1",
+          "available_at": "2021-09-07",
+          "source_sha256": "ce7111aa75c9e0e72c38de1c11214f918e06ffe7f1d0a82c4dd5fcd961d912e3",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695821000119/casy-20210901.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -3.127304022247067,
+          "quarter": "F2022Q1",
+          "available_at": "2021-08-31",
+          "source_sha256": "a73ca4530ac553ae26d5ca6a6ed8409394aeabdec7f229e840c4a8f6f094c492",
+          "source_url": "https://corporate.couche-tard.com/2021-08-31-Alimentation-Couche-Tard-Announces-its-Results-for-its-First-Quarter-of-Fiscal-Year-2022",
+          "overlap_fraction": 0.1956521739130435,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "BELOW"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "BELOW"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 3.1510434904913325
+    },
+    {
+      "quarter": "2021Q4",
+      "era": "modern",
+      "cutoff": "2021-12-31",
+      "production_forecast_cpg": 19.190562918350157,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABSTAIN"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -1.743341991982014,
+          "quarter": "F2022Q2",
+          "available_at": "2021-12-07",
+          "source_sha256": "5618ee882945e3730a0b3fc15df78b4a9a3286411eb88ae1957a63f335df5215",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695821000134/casy-20211207.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 0.23741506632440945,
+          "quarter": "F2022Q2",
+          "available_at": "2021-11-23",
+          "source_sha256": "70c836f291c8f34b522e57b9f763060f2dde2d6f29b1061890d376e218540314",
+          "source_url": "https://corporate.couche-tard.com/2021-11-23-Alimentation-Couche-Tard-Announces-its-Results-for-its-Second-Quarter-of-Fiscal-Year-2022",
+          "overlap_fraction": 0.10869565217391304,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 6.309437081649843
+    },
+    {
+      "quarter": "2022Q1",
+      "era": "modern",
+      "cutoff": "2022-03-31",
+      "production_forecast_cpg": 28.47874251201401,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 2.791795163117868,
+          "quarter": "F2022Q3",
+          "available_at": "2022-03-08",
+          "source_sha256": "339ca25c856a6727e143d8a12e02548941ce0aea0b722d3eff771732064e3a19",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695822000022/casy-20220303.htm",
+          "overlap_fraction": 0.34444444444444444,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 5.727577252210686,
+          "quarter": "F2022Q3",
+          "available_at": "2022-03-15",
+          "source_sha256": "8ffe7cc88f15a2a72fe2184e355494320fa5fc802e7cc594af9ffc171f8b12df",
+          "source_url": "https://corporate.couche-tard.com/2022-03-15-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2022",
+          "overlap_fraction": 0.3333333333333333,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABOVE"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 5.178742512014008
+    },
+    {
+      "quarter": "2022Q2",
+      "era": "modern",
+      "cutoff": "2022-06-30",
+      "production_forecast_cpg": 23.727566104742163,
+      "historical_majority": "BELOW",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -0.49684504918551653,
+          "quarter": "F2022Q4",
+          "available_at": "2022-06-07",
+          "source_sha256": "3817db830ab23ec7fb59dffc6565fba3637864edaa1cbf400c283476656aa273",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695822000045/casy-20220601.htm",
+          "overlap_fraction": 0.32967032967032966,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 9.741717150185764,
+          "quarter": "F2022Q4",
+          "available_at": "2022-06-28",
+          "source_sha256": "3d492481dca87f8ad298fd99fd6fbc06908df7d47cba626bdff0031f2f2fa13c",
+          "source_url": "https://corporate.couche-tard.com/2022-06-28-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2022",
+          "overlap_fraction": 0.26373626373626374,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 2.772433895257837
+    },
+    {
+      "quarter": "2022Q3",
+      "era": "modern",
+      "cutoff": "2022-09-30",
+      "production_forecast_cpg": 29.50822312019188,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 7.199580436947166,
+          "quarter": "F2023Q1",
+          "available_at": "2022-09-07",
+          "source_sha256": "46b041a947babe1101d411a6f526af1a865b6f7f1bacade070d3794c89a0413a",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695822000114/a8-kq1fy23pressrelease.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 7.555458752331667,
+          "quarter": "F2023Q1",
+          "available_at": "2022-08-30",
+          "source_sha256": "524e63f2b7810ac59fbcfbbf753f26ece57afc8ec4e69ae88e28f080d56f310d",
+          "source_url": "https://corporate.couche-tard.com/2022-08-30-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2023",
+          "overlap_fraction": 0.18478260869565216,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABOVE"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 9.791776879808118
+    },
+    {
+      "quarter": "2022Q4",
+      "era": "modern",
+      "cutoff": "2022-12-31",
+      "production_forecast_cpg": 27.360103431213055,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 0.668828962989231,
+          "quarter": "F2023Q2",
+          "available_at": "2022-12-06",
+          "source_sha256": "48211cd1b0620f8d048769d2604c3b595d4408dffac941a889cd09f037eaeafb",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695822000128/casy-20221206.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 8.122503161417725,
+          "quarter": "F2023Q2",
+          "available_at": "2022-11-22",
+          "source_sha256": "8550a1b2cf3db43f2e8aa8b19bc9518d675a22a755174c39c5ce845d574da8a2",
+          "source_url": "https://corporate.couche-tard.com/2022-11-22-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2023",
+          "overlap_fraction": 0.09782608695652174,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 0.9398965687869456
+    },
+    {
+      "quarter": "2023Q1",
+      "era": "modern",
+      "cutoff": "2023-03-31",
+      "production_forecast_cpg": 22.783236624991005,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -0.9924687828531731,
+          "quarter": "F2023Q3",
+          "available_at": "2023-03-07",
+          "source_sha256": "e3b66a4f2131ed98e4df887c03c349465456c43c68aa303dcc12eb029361b5a1",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695823000018/casy-20230302.htm",
+          "overlap_fraction": 0.34444444444444444,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 5.242324257650715,
+          "quarter": "F2023Q3",
+          "available_at": "2023-03-15",
+          "source_sha256": "78d7dd7dd638c672109ace2b6fd4f814aec6a017a4cc796bbe3a1ffa71cbd080",
+          "source_url": "https://corporate.couche-tard.com/2023-03-15-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2023",
+          "overlap_fraction": 0.32222222222222224,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 0.4167633750089941
+    },
+    {
+      "quarter": "2023Q2",
+      "era": "modern",
+      "cutoff": "2023-06-30",
+      "production_forecast_cpg": 30.015562500819577,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -1.8855981978932377,
+          "quarter": "F2023Q4",
+          "available_at": "2023-06-06",
+          "source_sha256": "ee7934cffc0055a99d74421fe6edc016c452b9960e8dadfdab9bf8aa14df9571",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695823000043/casy-20230531.htm",
+          "overlap_fraction": 0.32967032967032966,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -0.31747035867007867,
+          "quarter": "F2023Q4",
+          "available_at": "2023-06-27",
+          "source_sha256": "5c656fd86743b8b53c159a9f7badc03857a9518f36f72866d756056a0e082b40",
+          "source_url": "https://corporate.couche-tard.com/2023-06-27-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2023",
+          "overlap_fraction": 0.32967032967032966,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "BELOW"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 3.015562500819577
+    },
+    {
+      "quarter": "2023Q3",
+      "era": "modern",
+      "cutoff": "2023-09-30",
+      "production_forecast_cpg": 35.383410918306,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        },
+        {
+          "quarter": "2023Q2",
+          "available_at": "2023-08-02"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -4.57134079342633,
+          "quarter": "F2024Q1",
+          "available_at": "2023-09-11",
+          "source_sha256": "2e205e59277b9eb76caa4481e946187959c573f418bf404686ab69b4abb7301c",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695823000090/casy-20230911.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 0.6599786449104883,
+          "quarter": "F2024Q1",
+          "available_at": "2023-09-06",
+          "source_sha256": "5517f114ac48bdffb60ba427469349ae1b68abfc9a607e762167fa7aa88278bc",
+          "source_url": "https://corporate.couche-tard.com/2023-09-06-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2024",
+          "overlap_fraction": 0.25,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 6.683410918305999
+    },
+    {
+      "quarter": "2023Q4",
+      "era": "modern",
+      "cutoff": "2023-12-31",
+      "production_forecast_cpg": 29.603681180808195,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        },
+        {
+          "quarter": "2023Q2",
+          "available_at": "2023-08-02"
+        },
+        {
+          "quarter": "2023Q3",
+          "available_at": "2023-11-01"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 2.345896877846805,
+          "quarter": "F2024Q2",
+          "available_at": "2023-12-11",
+          "source_sha256": "ad13f613fcee4d6abc52e4fe6d5c943541b97ad75ae833ac785bc12564ef55d6",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695823000099/casy-20231211.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 3.0857106001390022,
+          "quarter": "F2024Q2",
+          "available_at": "2023-11-28",
+          "source_sha256": "9fc0950d3e1cec33a565305c76547f66339175f9c166d678f14baa944ea33c57",
+          "source_url": "https://corporate.couche-tard.com/2023-11-28-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2024",
+          "overlap_fraction": 0.16304347826086957,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABOVE"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 1.4963188191918064
+    },
+    {
+      "quarter": "2024Q1",
+      "era": "modern",
+      "cutoff": "2024-03-31",
+      "production_forecast_cpg": 22.62787805109699,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        },
+        {
+          "quarter": "2023Q2",
+          "available_at": "2023-08-02"
+        },
+        {
+          "quarter": "2023Q3",
+          "available_at": "2023-11-01"
+        },
+        {
+          "quarter": "2023Q4",
+          "available_at": "2024-02-07"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -2.388884993836214,
+          "quarter": "F2024Q3",
+          "available_at": "2024-03-11",
+          "source_sha256": "4f49a5e7e30f75d1373d897301f6414c1effac90d2101d422e61f46b33d8c537",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695824000012/casy-20240311.htm",
+          "overlap_fraction": 0.34065934065934067,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -3.7972342301451434,
+          "quarter": "F2024Q3",
+          "available_at": "2024-03-20",
+          "source_sha256": "a4c8178d35c791c929c7ca79663978867980d12b860ba70394fb299dd1975094",
+          "source_url": "https://corporate.couche-tard.com/2024-03-20-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2024",
+          "overlap_fraction": 0.38461538461538464,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "BELOW"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "BELOW"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 0.9278780510969895
+    },
+    {
+      "quarter": "2024Q2",
+      "era": "modern",
+      "cutoff": "2024-06-30",
+      "production_forecast_cpg": 27.232487504751465,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        },
+        {
+          "quarter": "2023Q2",
+          "available_at": "2023-08-02"
+        },
+        {
+          "quarter": "2023Q3",
+          "available_at": "2023-11-01"
+        },
+        {
+          "quarter": "2023Q4",
+          "available_at": "2024-02-07"
+        },
+        {
+          "quarter": "2024Q1",
+          "available_at": "2024-05-01"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 2.8527689357925468,
+          "quarter": "F2024Q4",
+          "available_at": "2024-06-11",
+          "source_sha256": "78ffacea29c31c9be5a18aa661336ef8fa03164be31eb2e44f601acd02690ca9",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695824000030/casy-20240605.htm",
+          "overlap_fraction": 0.32967032967032966,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -5.875865984610705,
+          "quarter": "F2024Q4",
+          "available_at": "2024-06-25",
+          "source_sha256": "ef5281ce623d5e9120e93dc21b3191947ad4d6ba77f9544e1b193ff13f819b52",
+          "source_url": "https://corporate.couche-tard.com/2024-06-25-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2024",
+          "overlap_fraction": 0.3076923076923077,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 2.4675124952485348
+    },
+    {
+      "quarter": "2024Q3",
+      "era": "modern",
+      "cutoff": "2024-09-30",
+      "production_forecast_cpg": 32.41760383289337,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        },
+        {
+          "quarter": "2023Q2",
+          "available_at": "2023-08-02"
+        },
+        {
+          "quarter": "2023Q3",
+          "available_at": "2023-11-01"
+        },
+        {
+          "quarter": "2023Q4",
+          "available_at": "2024-02-07"
+        },
+        {
+          "quarter": "2024Q1",
+          "available_at": "2024-05-01"
+        },
+        {
+          "quarter": "2024Q2",
+          "available_at": "2024-07-31"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -1.5435251350444545,
+          "quarter": "F2025Q1",
+          "available_at": "2024-09-04",
+          "source_sha256": "d381f1f4823024baf7beb17accb7cdf8e253c4f7456d802c316259a09da46304",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695824000072/casy-20240828.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -3.7557355538334747,
+          "quarter": "F2025Q1",
+          "available_at": "2024-09-04",
+          "source_sha256": "ccbf0873857beb38c06d0114d0b32f3498a54ecf4b3cd7fa17a7c83c526a7145",
+          "source_url": "https://corporate.couche-tard.com/2024-09-04-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2025",
+          "overlap_fraction": 0.22826086956521738,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "BELOW"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 0.5176038328933714
+    },
+    {
+      "quarter": "2024Q4",
+      "era": "modern",
+      "cutoff": "2024-12-31",
+      "production_forecast_cpg": 30.73160874995746,
+      "historical_majority": "ABOVE",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        },
+        {
+          "quarter": "2023Q2",
+          "available_at": "2023-08-02"
+        },
+        {
+          "quarter": "2023Q3",
+          "available_at": "2023-11-01"
+        },
+        {
+          "quarter": "2023Q4",
+          "available_at": "2024-02-07"
+        },
+        {
+          "quarter": "2024Q1",
+          "available_at": "2024-05-01"
+        },
+        {
+          "quarter": "2024Q2",
+          "available_at": "2024-07-31"
+        },
+        {
+          "quarter": "2024Q3",
+          "available_at": "2024-10-30"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "ABOVE"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -3.5174114528654528,
+          "quarter": "F2025Q2",
+          "available_at": "2024-12-09",
+          "source_sha256": "d8ad2aaea08cf41264b7765d336a63d4b58d701e0204c46d0315bb3f19f9df93",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695824000090/casy-20241205.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -6.419294684683038,
+          "quarter": "F2025Q2",
+          "available_at": "2024-11-25",
+          "source_sha256": "c2265d36e76b1b7e6d28b1d687b73c51a08de688855f9806a42c735807195e7e",
+          "source_url": "https://corporate.couche-tard.com/2024-11-25-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2025",
+          "overlap_fraction": 0.14130434782608695,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "BELOW"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "BELOW"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 1.8316087499574607
+    },
+    {
+      "quarter": "2025Q1",
+      "era": "modern",
+      "cutoff": "2025-03-31",
+      "production_forecast_cpg": 24.468764448429035,
+      "historical_majority": "ABSTAIN",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        },
+        {
+          "quarter": "2023Q2",
+          "available_at": "2023-08-02"
+        },
+        {
+          "quarter": "2023Q3",
+          "available_at": "2023-11-01"
+        },
+        {
+          "quarter": "2023Q4",
+          "available_at": "2024-02-07"
+        },
+        {
+          "quarter": "2024Q1",
+          "available_at": "2024-05-01"
+        },
+        {
+          "quarter": "2024Q2",
+          "available_at": "2024-07-31"
+        },
+        {
+          "quarter": "2024Q3",
+          "available_at": "2024-10-30"
+        },
+        {
+          "quarter": "2024Q4",
+          "available_at": "2025-02-05"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -1.2013655478141203,
+          "quarter": "F2025Q3",
+          "available_at": "2025-03-11",
+          "source_sha256": "85aa5225013361845a8cccdaa2cba60fb4e03ff4511911d3f27f23f43c8d91a0",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695825000012/casy-20250311.htm",
+          "overlap_fraction": 0.34444444444444444,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -0.11669525921851687,
+          "quarter": "F2025Q3",
+          "available_at": "2025-03-18",
+          "source_sha256": "cc2ade9a4fc2643973f29fd2951f1a2069457b98e83cea002f987cc59415d629",
+          "source_url": "https://corporate.couche-tard.com/2025-03-18-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2025",
+          "overlap_fraction": 0.36666666666666664,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "BELOW"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 0.7687644484290352
+    },
+    {
+      "quarter": "2025Q2",
+      "era": "modern",
+      "cutoff": "2025-06-30",
+      "production_forecast_cpg": 33.68760675577302,
+      "historical_majority": "BELOW",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        },
+        {
+          "quarter": "2023Q2",
+          "available_at": "2023-08-02"
+        },
+        {
+          "quarter": "2023Q3",
+          "available_at": "2023-11-01"
+        },
+        {
+          "quarter": "2023Q4",
+          "available_at": "2024-02-07"
+        },
+        {
+          "quarter": "2024Q1",
+          "available_at": "2024-05-01"
+        },
+        {
+          "quarter": "2024Q2",
+          "available_at": "2024-07-31"
+        },
+        {
+          "quarter": "2024Q3",
+          "available_at": "2024-10-30"
+        },
+        {
+          "quarter": "2024Q4",
+          "available_at": "2025-02-05"
+        },
+        {
+          "quarter": "2025Q1",
+          "available_at": "2025-05-07"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "BELOW",
+          "surprise_cpg": -1.3167823885696635,
+          "quarter": "F2025Q4",
+          "available_at": "2025-06-09",
+          "source_sha256": "91a7e1e12fe147dd5f38e1f70aa499135dc769c78a95ffaf2f2f1266f1f11519",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695825000032/casy-20250604.htm",
+          "overlap_fraction": 0.32967032967032966,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 0.49788700554104537,
+          "quarter": "F2025Q4",
+          "available_at": "2025-06-25",
+          "source_sha256": "be7d3b90242331d46f754ee047e8b5a48e85b0a60dcad39c8b9635ed05834f8b",
+          "source_url": "https://corporate.couche-tard.com/2025-06-25-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2025",
+          "overlap_fraction": 0.2967032967032967,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 4.487606755773019
+    },
+    {
+      "quarter": "2025Q3",
+      "era": "modern",
+      "cutoff": "2025-09-30",
+      "production_forecast_cpg": 30.4325246857704,
+      "historical_majority": "BELOW",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        },
+        {
+          "quarter": "2023Q2",
+          "available_at": "2023-08-02"
+        },
+        {
+          "quarter": "2023Q3",
+          "available_at": "2023-11-01"
+        },
+        {
+          "quarter": "2023Q4",
+          "available_at": "2024-02-07"
+        },
+        {
+          "quarter": "2024Q1",
+          "available_at": "2024-05-01"
+        },
+        {
+          "quarter": "2024Q2",
+          "available_at": "2024-07-31"
+        },
+        {
+          "quarter": "2024Q3",
+          "available_at": "2024-10-30"
+        },
+        {
+          "quarter": "2024Q4",
+          "available_at": "2025-02-05"
+        },
+        {
+          "quarter": "2025Q1",
+          "available_at": "2025-05-07"
+        },
+        {
+          "quarter": "2025Q2",
+          "available_at": "2025-07-30"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 0.027419972510173807,
+          "quarter": "F2026Q1",
+          "available_at": "2025-09-08",
+          "source_sha256": "1f4d56126c9b6b0f9cca2497cd546cbd17e1266da7eef1d56f4fd3ec659ee896",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695825000102/casy-20250903.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "BELOW",
+          "surprise_cpg": -5.848648888072439,
+          "quarter": "F2026Q1",
+          "available_at": "2025-09-02",
+          "source_sha256": "883378e1ca139548a46344245001609e6d0c5498bb2bad9130536955340df25a",
+          "source_url": "https://corporate.couche-tard.com/2025-09-02-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FIRST-QUARTER-OF-FISCAL-YEAR-2026",
+          "overlap_fraction": 0.21739130434782608,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABSTAIN"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "BELOW",
+      "absolute_production_error_cpg": 2.1325246857703988
+    },
+    {
+      "quarter": "2025Q4",
+      "era": "modern",
+      "cutoff": "2025-12-31",
+      "production_forecast_cpg": 30.197566706485624,
+      "historical_majority": "BELOW",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        },
+        {
+          "quarter": "2023Q2",
+          "available_at": "2023-08-02"
+        },
+        {
+          "quarter": "2023Q3",
+          "available_at": "2023-11-01"
+        },
+        {
+          "quarter": "2023Q4",
+          "available_at": "2024-02-07"
+        },
+        {
+          "quarter": "2024Q1",
+          "available_at": "2024-05-01"
+        },
+        {
+          "quarter": "2024Q2",
+          "available_at": "2024-07-31"
+        },
+        {
+          "quarter": "2024Q3",
+          "available_at": "2024-10-30"
+        },
+        {
+          "quarter": "2024Q4",
+          "available_at": "2025-02-05"
+        },
+        {
+          "quarter": "2025Q1",
+          "available_at": "2025-05-07"
+        },
+        {
+          "quarter": "2025Q2",
+          "available_at": "2025-07-30"
+        },
+        {
+          "quarter": "2025Q3",
+          "available_at": "2025-10-29"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 2.47576644781185,
+          "quarter": "F2026Q2",
+          "available_at": "2025-12-09",
+          "source_sha256": "ef133bd9459abf642daed5241338af418fade9e411e5d745b7d62b5ddd7029ed",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695825000116/casy-20251209.htm",
+          "overlap_fraction": 0.33695652173913043,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 0.46283743059453997,
+          "quarter": "F2026Q2",
+          "available_at": "2025-11-24",
+          "source_sha256": "79b71e446994d47d53d8413209250e8c6d5ee3e945bebe85909fe91c30edf819",
+          "source_url": "https://corporate.couche-tard.com/2025-11-24-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-SECOND-QUARTER-OF-FISCAL-YEAR-2026",
+          "overlap_fraction": 0.13043478260869565,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABSTAIN"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 0.8024332935143761
+    },
+    {
+      "quarter": "2026Q1",
+      "era": "modern",
+      "cutoff": "2026-03-31",
+      "production_forecast_cpg": 25.317335630426772,
+      "historical_majority": "BELOW",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        },
+        {
+          "quarter": "2023Q2",
+          "available_at": "2023-08-02"
+        },
+        {
+          "quarter": "2023Q3",
+          "available_at": "2023-11-01"
+        },
+        {
+          "quarter": "2023Q4",
+          "available_at": "2024-02-07"
+        },
+        {
+          "quarter": "2024Q1",
+          "available_at": "2024-05-01"
+        },
+        {
+          "quarter": "2024Q2",
+          "available_at": "2024-07-31"
+        },
+        {
+          "quarter": "2024Q3",
+          "available_at": "2024-10-30"
+        },
+        {
+          "quarter": "2024Q4",
+          "available_at": "2025-02-05"
+        },
+        {
+          "quarter": "2025Q1",
+          "available_at": "2025-05-07"
+        },
+        {
+          "quarter": "2025Q2",
+          "available_at": "2025-07-30"
+        },
+        {
+          "quarter": "2025Q3",
+          "available_at": "2025-10-29"
+        },
+        {
+          "quarter": "2025Q4",
+          "available_at": "2026-02-04"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 3.819724264889672,
+          "quarter": "F2026Q3",
+          "available_at": "2026-03-09",
+          "source_sha256": "f1d28f514135aa2f179f6699cfb7b4d9ef026af2f6ca2e6f8c004d534e6c316b",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000012/casy-20260309.htm",
+          "overlap_fraction": 0.34444444444444444,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 3.496646025599915,
+          "quarter": "F2026Q3",
+          "available_at": "2026-03-17",
+          "source_sha256": "4a6412837e3b5829961908eb4034a758c844d5306fed92c0b788246c1eddb059",
+          "source_url": "https://corporate.couche-tard.com/2026-03-17-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-THIRD-QUARTER-OF-FISCAL-YEAR-2026",
+          "overlap_fraction": 0.35555555555555557,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABOVE"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 0.08266436957322654
+    },
+    {
+      "quarter": "2026Q2",
+      "era": "modern",
+      "cutoff": "2026-06-30",
+      "production_forecast_cpg": 28.49508433083607,
+      "historical_majority": "BELOW",
+      "prior_residual_training": [
+        {
+          "quarter": "2021Q1",
+          "available_at": "2021-04-28"
+        },
+        {
+          "quarter": "2021Q2",
+          "available_at": "2021-07-28"
+        },
+        {
+          "quarter": "2021Q3",
+          "available_at": "2021-10-27"
+        },
+        {
+          "quarter": "2021Q4",
+          "available_at": "2022-02-02"
+        },
+        {
+          "quarter": "2022Q1",
+          "available_at": "2022-05-03"
+        },
+        {
+          "quarter": "2022Q2",
+          "available_at": "2022-07-27"
+        },
+        {
+          "quarter": "2022Q3",
+          "available_at": "2022-10-26"
+        },
+        {
+          "quarter": "2022Q4",
+          "available_at": "2023-02-01"
+        },
+        {
+          "quarter": "2023Q1",
+          "available_at": "2023-05-02"
+        },
+        {
+          "quarter": "2023Q2",
+          "available_at": "2023-08-02"
+        },
+        {
+          "quarter": "2023Q3",
+          "available_at": "2023-11-01"
+        },
+        {
+          "quarter": "2023Q4",
+          "available_at": "2024-02-07"
+        },
+        {
+          "quarter": "2024Q1",
+          "available_at": "2024-05-01"
+        },
+        {
+          "quarter": "2024Q2",
+          "available_at": "2024-07-31"
+        },
+        {
+          "quarter": "2024Q3",
+          "available_at": "2024-10-30"
+        },
+        {
+          "quarter": "2024Q4",
+          "available_at": "2025-02-05"
+        },
+        {
+          "quarter": "2025Q1",
+          "available_at": "2025-05-07"
+        },
+        {
+          "quarter": "2025Q2",
+          "available_at": "2025-07-30"
+        },
+        {
+          "quarter": "2025Q3",
+          "available_at": "2025-10-29"
+        },
+        {
+          "quarter": "2025Q4",
+          "available_at": "2026-02-04"
+        },
+        {
+          "quarter": "2026Q1",
+          "available_at": "2026-04-29"
+        }
+      ],
+      "signals": {
+        "recent_residual": {
+          "call": "BELOW"
+        },
+        "CASY": {
+          "call": "ABOVE",
+          "surprise_cpg": 6.487148557498259,
+          "quarter": "F2026Q4",
+          "available_at": "2026-06-09",
+          "source_sha256": "9ded33b0922753edc7058d899466faee85b250d5182c8c35d824a1287f25cde3",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/726958/000072695826000033/casy-20260603.htm",
+          "overlap_fraction": 0.32967032967032966,
+          "target_basis": "CASEYS_REPORTED_FUEL_EXCLUDING_CARD_FEES_INCLUDES_RIN"
+        },
+        "ATD": {
+          "call": "ABOVE",
+          "surprise_cpg": 5.332725721297052,
+          "quarter": "F2026Q4",
+          "available_at": "2026-06-22",
+          "source_sha256": "32cf8ee64bf4f9b95e75eabf56b327494d065c9b7a0fdae129327087237751a4",
+          "source_url": "https://corporate.couche-tard.com/2026-06-22-ALIMENTATION-COUCHE-TARD-ANNOUNCES-ITS-RESULTS-FOR-ITS-FOURTH-QUARTER-AND-FISCAL-YEAR-2026",
+          "overlap_fraction": 0.2857142857142857,
+          "target_basis": "US_COMPANY_OPERATED_BEFORE_PAYMENT_FEES"
+        },
+        "consensus": {
+          "call": "ABOVE"
+        },
+        "overlap_only": {
+          "call": "ABSTAIN"
+        },
+        "strength_only": {
+          "call": "ABOVE"
+        },
+        "overlap_and_strength": {
+          "call": "ABSTAIN"
+        }
+      },
+      "actual_direction": "ABOVE",
+      "absolute_production_error_cpg": 6.60491566916393
+    }
+  ],
+  "production_changed": false,
+  "probability_calibrated": false,
+  "variant_promoted": null
+}

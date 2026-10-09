@@ -1,0 +1,12 @@
+{
+  "availability_basis": "FIRST_CAPTURE_NOT_ORIGINAL_RELEASE",
+  "available_at": "2026-10-07T16:15:49.460245+00:00",
+  "captured_at": "2026-10-07T16:15:49.460230+00:00",
+  "key": "NYH",
+  "original_index_locator_or_series": "EER_EPMRU_PF4_Y35NY_DPG",
+  "raw_file": "NYH.xls",
+  "sha256": "21940af0fd8240c1741317e064da773e9ecf867a9aafb991d86fdbdf3cf1f110",
+  "source_type": "EIA_WHOLESALE_XLS",
+  "source_url": "https://www.eia.gov/dnav/pet/hist_xls/EER_EPMRU_PF4_Y35NY_DPGw.xls",
+  "status": "CAPTURED_PENDING_REVIEW"
+}

@@ -1,0 +1,17 @@
+{
+  "frozen_at": "2026-10-07T16:02:42.943480+00:00",
+  "hashes": {
+    "/home/aleksis/code/musa_margin/petrol-margin-profit-sales-estimator/musa_nowcast/alternative_experiments.py": "f85d232fcf844486baef12df5decae574f3ae09d9f4af074918d03ebfc770449",
+    "data/actuals.csv": "719f7e0154b9e1f125b8da7f7455e3d4a8fff13ccb705953432dc8eb8c7d67d6",
+    "data/alternative_margin_experiments/2026-10-07_supply_v1/manifest.json": "9855946de56690c8683a454cb1c41de7040da988ea59b3f21d379d042d212c45",
+    "data/alternative_margin_experiments_spec_v1.json": "4b6b18b50933a0c650822fb87ea5ef87d35ddde33087385bec597e975b3f4c0f",
+    "data/market.csv": "721da8ca24e87c7da17892413b70ad6d45eddc223c512eb329753679b1de4005",
+    "data/revenue_gap_all/2026-10-07_review_v2/quarter_rows.json": "656e079d2de5be1bb808a8f3bacbd97aa4a7f68e507480e9f0f32461b06b544a",
+    "data/revenue_gap_all/2026-10-07_v2/source_checks.json": "f2cb25f574a5f4de9a64ad82982f678752a45ae202a5c44de1e2b30062435698",
+    "data/weights.csv": "c6b9a3cad285998465bbdec124c252a546cbacad250f33a81733f9d8374b0986",
+    "musa_nowcast/geo.py": "98633e7d4348fb39ac870ff87626ed39a2c0f7226633e09338fa9b8b78ddc168",
+    "musa_nowcast/mathutils.py": "fef59998d413cd8e796ae8b823bf880f66be682ec31ac2bacd6386d526b88d70",
+    "musa_nowcast/model.py": "a62800fe77ff2c8230c5b5144c5ff78b7e4af769b91a29396bdee44cfae51311",
+    "musa_nowcast/timing.py": "965cd871276b85a8b96496268c60eb9a7d1767d20a60519311000362e0b1b8c4"
+  }
+}

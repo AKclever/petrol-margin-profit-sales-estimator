@@ -1,0 +1,4260 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US" >
+<head>
+	<meta charset="UTF-8" />
+	<meta name="designer" content="www.emagine.com" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Energy Prices | OPIS</title>
+	<!-- xml sitemap -->
+	<link rel="sitemap" href="https://www.opis.com/sitemap_index.xml" />
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<style type='text/css'>/**
+ * Jacket wrapper keyword
+ * @link https://github.com/at-import/jacket
+ *
+ * Used to target critical styles.
+ */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #737474;
+  font-family: "Simplon", sans-serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-x: hidden;
+  padding-top: var(--alert-bar-height, 0px);
+  position: relative;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1.1;
+  text-decoration: none;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-property: background-color, color, opacity;
+  transition-property: background-color, color, opacity;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+.green .btn--primary {
+  border: 0.125rem solid #2dcffd;
+}
+
+.btn--primary {
+  background: #0073a8;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 1.125rem 4.125rem;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-property: padding;
+  transition-property: padding;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+.btn--primary::after {
+  background: #2dcffd;
+  color: #ffffff;
+  content: "\f054";
+  display: inline-block;
+  font-family: "FontAwesome";
+  font-size: 1rem;
+  height: 100%;
+  opacity: 0;
+  padding-top: 1.125rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  width: 3.125rem;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+.btn--primary:hover {
+  padding: 1.125rem 5.375rem 1.125rem 2.875rem;
+}
+.btn--primary:hover::after {
+  opacity: 1;
+}
+.btn--reverse {
+  border: 0.125rem solid #0073a8;
+  font-size: 1.125rem;
+  padding: 1rem 4rem;
+  text-transform: uppercase;
+}
+.btn--reverse:hover {
+  background: #0073a8;
+  color: #ffffff;
+}
+.btn--secondary {
+  background: #2dcffd;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 0.625rem 3.125rem;
+}
+.btn--secondary:hover {
+  background: #0073a8;
+}
+
+.standalone {
+  font-weight: 700;
+  letter-spacing: 0.0625rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: color 250ms ease 0s;
+  transition: color 250ms ease 0s;
+}
+.standalone:after {
+  content: "\f054";
+  display: inline-block;
+  font-family: "FontAwesome";
+  font-size: 0.625rem;
+  margin-top: 0.3125rem;
+  margin-left: 0.625rem;
+  vertical-align: top;
+}
+.standalone:hover {
+  color: #2dcffd;
+}
+
+input {
+  -webkit-appearance: none !important;
+}
+
+input[type=submit],
+button[type=submit] {
+  background: #0073a8;
+  border: none;
+  color: #ffffff;
+  display: inline;
+  font-family: "Simplon", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-right: 0 !important;
+  padding: 1.25rem 8.75rem !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition-duration: 150ms;
+          transition-duration: 150ms;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+input[type=submit]:hover,
+button[type=submit]:hover {
+  background: #2dcffd;
+}
+
+input[type=text],
+input[type=search],
+input[type=email],
+input[type=phone],
+textarea {
+  background: #ffffff;
+  border: 1px solid #d2d7db;
+  border-radius: 0;
+  color: #737474;
+  font-family: "Simplon", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  outline: none;
+  padding: 0.9375rem !important;
+}
+input[type=text]:active, input[type=text]:focus,
+input[type=search]:active,
+input[type=search]:focus,
+input[type=email]:active,
+input[type=email]:focus,
+input[type=phone]:active,
+input[type=phone]:focus,
+textarea:active,
+textarea:focus {
+  border: 1px solid #2dcffd;
+}
+
+.chosen-choices {
+  padding: 0.625rem !important;
+  border: 1px solid #d2d7db !important;
+}
+.chosen-choices:active, .chosen-choices:focus {
+  border: 1px solid #2dcffd !important;
+}
+
+input[type=checkbox] {
+  font-family: "FontAwesome";
+  margin-right: 10px;
+  text-align: left;
+  vertical-align: top !important;
+  width: 1.125rem;
+}
+input[type=checkbox]::after {
+  background: #fff;
+  border: 1px solid #b1bac4;
+  content: " ";
+  display: block;
+  height: 1.125rem;
+  padding: 0.125rem 0 0 0.125rem;
+  position: relative;
+  left: -0.0625rem;
+  width: 1.125rem;
+}
+@media (max-width: 40em) {
+  input[type=checkbox]::after {
+    top: 0;
+  }
+}
+input[type=checkbox]:checked + label {
+  font-weight: normal !important;
+}
+input[type=checkbox]:checked::after {
+  background: #2dcffd;
+  border: 1px solid #2dcffd;
+  color: #ffffff;
+  content: "\f00c";
+}
+input[type=checkbox]:disabled::after {
+  border: 1px solid #d8dee5 !important;
+}
+input[type=checkbox]:disabled:checked::after {
+  background: #2dcffd !important;
+}
+
+input[type=radio] {
+  font-family: "FontAwesome";
+  margin-right: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  width: auto;
+}
+input[type=radio]::after {
+  background: #fff;
+  border: 1px solid #b1bac4;
+  border-radius: 16px;
+  content: " ";
+  display: block;
+  font-size: 7px;
+  height: 16px;
+  padding: 4px 0 0 4px;
+  position: relative;
+  top: -1px;
+  left: -1px;
+  width: 16px;
+}
+@media (max-width: 40em) {
+  input[type=radio]::after {
+    top: 0;
+  }
+}
+input[type=radio]:checked + label {
+  font-weight: normal !important;
+}
+input[type=radio]:checked::after {
+  background: #2dcffd;
+  border: 1px solid #2dcffd;
+  color: #ffffff;
+  content: "\f111";
+}
+input[type=radio]:disabled::after {
+  border: 1px solid #d8dee5 !important;
+}
+input[type=radio]:disabled:checked::after {
+  background: #d8dee5 !important;
+}
+
+.selector {
+  background: white;
+  border: 1px solid #dadee2;
+  border-radius: 0;
+  color: #5e6977;
+  overflow: hidden;
+  padding-right: 3.625rem;
+  position: relative;
+  vertical-align: middle;
+}
+.selector:after {
+  background-color: #2dcffd;
+  color: white;
+  content: "\f078";
+  font-family: "FontAwesome";
+  font-size: 1.125rem;
+  line-height: 2.375rem;
+  padding-top: 0.3125rem;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  width: 2.375rem;
+  z-index: 0;
+}
+.selector select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: none;
+  background-image: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #737474;
+  font-family: "Simplon", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  padding: 0.625rem 1.25rem !important;
+  padding-right: calc(30% + 20px);
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+  padding-left: 0.9375rem;
+  position: relative;
+  width: 130%;
+}
+.selector select:focus {
+  border: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Simplon", sans-serif;
+}
+
+h1 {
+  color: #737474;
+  font-size: 3.4375rem;
+  font-weight: 600;
+  line-height: 4.0625rem;
+}
+
+h2 {
+  color: #394859;
+  font-size: 2.625rem;
+  font-weight: 600;
+  line-height: 2.8125rem;
+  margin-bottom: 0.9375rem;
+}
+
+h3 {
+  color: #0073a8;
+  font-size: 2.25rem;
+  margin-bottom: 0.9375rem;
+}
+
+h4 {
+  color: #394859;
+  font-size: 1.6875rem;
+  line-height: 2.25rem;
+}
+
+h5 {
+  color: #394859;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+h6 {
+  color: #394859;
+  font-size: 1.25rem;
+}
+
+hr {
+  background-color: #0073a8;
+  border: none;
+  clear: both;
+  height: 0.0625rem;
+  margin: 1.875rem 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-padding-top: var(--alert-bar-height, 0px);
+}
+
+img {
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.circle-img {
+  border-radius: 50%;
+}
+
+a {
+  color: #0073a8;
+  text-decoration: underline;
+  -webkit-transition: color 250ms ease 0s;
+  transition: color 250ms ease 0s;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.green a {
+  color: #ffffff;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+em,
+i,
+var {
+  font-style: italic;
+}
+
+u,
+ins {
+  text-decoration: underline;
+}
+
+s,
+strike,
+del {
+  text-decoration: line-through;
+}
+
+small,
+sub,
+sup {
+  font-size: smaller;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+sup {
+  vertical-align: super;
+}
+
+abbr {
+  border-bottom: 1px dotted #808080;
+  cursor: help;
+}
+
+tt,
+code,
+kbd,
+samp {
+  font-family: monospace;
+}
+
+q {
+  display: inline;
+}
+q:before {
+  content: open-quote;
+}
+q:after {
+  content: close-quote;
+}
+
+mark {
+  background-color: yellow;
+  color: black;
+}
+
+ul,
+ol {
+  margin: 0 0 1.875rem;
+  padding: 0;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin-bottom: 0;
+}
+
+li {
+  font-size: 1rem;
+  line-height: 1.8125rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1.875rem;
+  position: relative;
+}
+li:before {
+  position: absolute;
+  font-weight: 700;
+}
+li li:first-child {
+  padding-top: 0.625rem;
+}
+li li:last-child {
+  padding-bottom: 0;
+}
+
+ol {
+  counter-reset: item;
+}
+
+ol li:before {
+  content: counter(item) ".";
+  counter-increment: item;
+  left: 0.4375rem;
+}
+
+ul li:before {
+  color: #0073a8;
+  content: "\f054";
+  font-family: "FontAwesome";
+  font-size: 0.9375rem;
+  left: 0;
+  line-height: 1.8125rem;
+}
+
+ul li ul li:before {
+  content: "\f068";
+}
+
+.ie-11 ul li:before {
+  top: 0.875rem;
+}
+
+p {
+  margin-bottom: 1.875rem;
+}
+
+code,
+pre {
+  background-color: #efefef;
+  border-radius: 0.3125rem;
+  color: #333333;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+code {
+  font-size: 0.9375rem;
+  padding: 0.3125rem 0.625rem;
+}
+
+pre {
+  border-bottom: solid 0.3125rem #0073a8;
+  font-size: 0.75rem;
+  margin-bottom: 1.875rem;
+  padding: 1.5625rem;
+}
+
+.rwd-table {
+  width: 100%;
+}
+.rwd-table tr th {
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  background: #1175bc;
+  width: 50%;
+}
+@media (max-width: 40em) {
+  .rwd-table tr th {
+    display: none;
+  }
+}
+.rwd-table tr td {
+  display: table-cell;
+  text-align: center;
+  color: #4b4b4b !important;
+}
+.rwd-table tr td:first-child {
+  font-size: 16px;
+  font-weight: normal;
+}
+@media (max-width: 40em) {
+  .rwd-table tr td {
+    display: block;
+    color: #4b4b4b !important;
+  }
+}
+.rwd-table tr td:before {
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  background: #1175bc;
+  width: 100%;
+  padding: 5px 10px;
+}
+@media (max-width: 40em) {
+  .one_half .rwd-table {
+    margin-bottom: unset !important;
+  }
+  .one_half .rwd-table .no-primary {
+    margin-bottom: unset !important;
+  }
+}
+
+.three-col tr th {
+  width: 33%;
+}
+
+.no-primary tr td:first-child {
+  background-color: unset;
+}
+@media (max-width: 40em) {
+  .no-primary tr td:before {
+    display: inline-block !important;
+    float: left;
+    width: 50% !important;
+    background-color: unset;
+    color: black;
+    padding: unset;
+  }
+}
+@media (max-width: 40em) {
+  .no-primary tr td {
+    padding: 0.3125rem 0.9375rem;
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+*:focus {
+  outline: none;
+}
+
+/**
+ * Base styles for Wordpress Navigation Menus.
+ * Resets the default list styles for all navigation menus.
+ */
+.menu,
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding-bottom: inherit;
+  padding-left: 0;
+  position: relative;
+}
+.menu li:before {
+  content: "";
+}
+.menu li li:first-child {
+  padding-top: inherit;
+}
+.menu li li:last-child {
+  padding-top: inherit;
+}
+
+.menu-item.disabled > a {
+  cursor: default;
+  pointer-events: none;
+}
+
+/**
+ * Resets the default link styles for all navigation menus.
+ * Turns all navigation links block-level elements.
+ */
+.menu a {
+  color: inherit;
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+.menu a:hover {
+  text-decoration: none;
+}
+
+.main-menu {
+  display: inline;
+  float: right;
+  position: relative;
+  top: -2.875rem;
+}
+.main-menu a {
+  border-left: 0.25rem solid transparent;
+  color: #ffffff;
+  font-family: "Simplon", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.375rem;
+  text-decoration: none;
+}
+.main-menu a:hover {
+  border-left: 0.25rem solid #2dcffd;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.sticky-header {
+  opacity: 0;
+  z-index: -1;
+}
+.sticky-header .main-menu {
+  top: -1.75rem;
+}
+.sticky-header .sub-menu a {
+  text-transform: none;
+}
+.sticky-header .sub-menu a:hover {
+  border-left: 0.25rem solid transparent;
+}
+
+.menu a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-menu a {
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+.no-link > a {
+  cursor: text;
+}
+
+.main-menu .sub-menu {
+  background-color: #ffffff;
+  display: block;
+  padding-top: 0.9375rem;
+}
+.main-menu .sub-menu > .menu-item {
+  padding: 0;
+}
+.main-menu .sub-menu > .menu-item:last-child {
+  padding-bottom: 0.9375rem;
+}
+.main-menu .sub-menu a {
+  color: #67696b;
+  padding: 0.625rem 1.5625rem;
+}
+
+@media (max-width: 68.75em) {
+  .sticky-header .main-menu {
+    top: calc(3.125rem + var(--alert-bar-height, 0px));
+  }
+
+  .mm-screen {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    height: calc(100% - var(--alert-bar-height, 0px));
+    position: fixed;
+    top: var(--alert-bar-height, 0px);
+    left: 0;
+    width: 100%;
+  }
+
+  .main-menu {
+    display: none;
+    list-style: none;
+    background: #ffffff;
+    width: 17.5rem;
+    height: calc(100% - 8.125rem - var(--alert-bar-height, 0px));
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    top: calc(5rem + var(--alert-bar-height, 0px));
+    right: 0;
+    bottom: 0;
+    z-index: 105;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+  }
+  .main-menu a {
+    color: #394859;
+  }
+  .main-menu a:hover {
+    color: #2dcffd;
+  }
+
+  .main-menu .sub-menu a {
+    padding-right: 2.8125rem;
+  }
+  .main-menu .sub-menu,
+.main-menu .sub-menu-wrapper > .sub-menu {
+    display: none;
+    opacity: 1;
+    padding-top: 0;
+    visibility: visible;
+  }
+  .main-menu [class*=current-] > .sub-menu,
+.main-menu [class*=current-] > .sub-menu-wrapper > .sub-menu {
+    display: block;
+  }
+  .main-menu .toggle-control {
+    border-left: 0.0625rem solid #dee1e0;
+    color: inherit;
+    cursor: pointer;
+    height: 2.625rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 2.8125rem;
+  }
+  .main-menu .toggle-control:after {
+    color: grey;
+    content: "\f107";
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transition: color 250ms ease 0s, -webkit-transform 250ms ease 0s;
+    transition: color 250ms ease 0s, -webkit-transform 250ms ease 0s;
+    transition: transform 250ms ease 0s, color 250ms ease 0s;
+    transition: transform 250ms ease 0s, color 250ms ease 0s, -webkit-transform 250ms ease 0s;
+  }
+  .main-menu .toggle-control--active:after {
+    color: #ffffff;
+    -webkit-transform: translate(-50%, -50%) rotate(180deg);
+        -ms-transform: translate(-50%, -50%) rotate(180deg);
+            transform: translate(-50%, -50%) rotate(180deg);
+  }
+  .main-menu .level0 li .toggle-control {
+    border-left: none;
+  }
+  .main-menu > .menu-item {
+    border-bottom: 0.0625rem solid #dee1e0;
+  }
+  .main-menu > .menu-item[class*=current] > a, .main-menu > .menu-item[class*=current] > a:hover {
+    background-color: #0073a8;
+    color: #ffffff;
+  }
+  .main-menu > .menu-item[class*=current] > a + .toggle-control, .main-menu > .menu-item[class*=current] > a:hover + .toggle-control {
+    background-color: #2dcffd;
+    border-left: 0.0625rem solid #2dcffd;
+    color: #ffffff;
+  }
+  .main-menu > .menu-item > a {
+    border-left: none;
+    border-collapse: collapse;
+    padding: 0.625rem 1.25rem;
+  }
+  .main-menu > .menu-item > a:hover {
+    font-weight: 600;
+  }
+  .main-menu .menu-item .menu-item .toggle-control--active:after, .main-menu .menu-item .menu-item .toggle-control:after {
+    color: #737474;
+  }
+  .main-menu .menu-item .menu-item[class*=current] > a, .main-menu .menu-item .menu-item[class*=current] > a:hover {
+    background-color: #f8f9f9;
+  }
+  .main-menu .menu-item .menu-item[class*=current] > a + .toggle-control, .main-menu .menu-item .menu-item[class*=current] > a:hover + .toggle-control {
+    background-color: #f8f9f9;
+  }
+  .main-menu > .menu-item > .toggle-control {
+    border-collapse: collapse;
+  }
+  .main-menu .menu-content-item {
+    display: none;
+  }
+  .main-menu .sub-menu .sub-menu .sub-menu {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 68.8125em) {
+  .main-menu .sub-menu {
+    display: block;
+  }
+  .main-menu .sub-menu .current-menu-item > a {
+    color: #0073a8;
+  }
+  .main-menu > .menu-item:hover > a,
+.main-menu .sub-menu .sub-menu a:hover,
+.main-menu > .menu-item:not(.main-menu-is-megamenu) a:hover {
+    color: #ffffff;
+  }
+  .main-menu > .menu-item.hover > a {
+    border-left: 0.25rem solid #2dcffd;
+    color: #ffffff;
+  }
+  .main-menu .toggle-control {
+    display: none;
+  }
+  .main-menu > .menu-item > .sub-menu {
+    opacity: 0;
+    visibility: hidden;
+    width: 17.5rem;
+  }
+  .main-menu .menu-item.hover > .sub-menu {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+  }
+  .main-menu > .menu-item {
+    float: left;
+    padding-bottom: 1.25rem;
+    padding-left: 2.1875rem;
+  }
+  .main-menu > .menu-item.current-menu-item > a, .main-menu > .menu-item.current-page-parent > a {
+    border-left: 0.25rem solid #2dcffd;
+    color: #ffffff;
+  }
+  .main-menu > .menu-item > a {
+    padding-left: 0.625rem;
+  }
+  .main-menu > .menu-item > a:hover {
+    border-left: 0.25rem solid #2dcffd;
+    color: #0073a8;
+  }
+  .main-menu > .menu-item[class*=current] > a {
+    color: #ffffff;
+  }
+  .main-menu > .menu-item.hover > .sub-menu-wrapper > .sub-menu > .hover > .menu-content-item {
+    z-index: 10;
+  }
+  .main-menu > .menu-item.hover > .sub-menu-wrapper > .sub-menu > .hover > .sub-menu:hover {
+    z-index: 11;
+  }
+  .main-menu > .menu-item.hover > .sub-menu-wrapper > .sub-menu > .hover > .sub-menu > .hover .menu-content-item {
+    z-index: 11;
+  }
+  .main-menu > .menu-item:last-child > .sub-menu {
+    border-right: 0.1875rem solid #0073a8;
+    right: 0;
+    left: auto;
+  }
+  .main-menu > .menu-item > .sub-menu {
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    height: 0;
+    position: absolute;
+    left: -1.25rem;
+    top: 100%;
+  }
+  .main-menu > .menu-item > .sub-menu a {
+    border-left: none;
+  }
+  .main-menu > .menu-item > .sub-menu a:hover {
+    color: #0073a8;
+  }
+  .main-menu > .menu-item > .sub-menu .sub-menu {
+    border-bottom: 0.0625rem solid #dee1e0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    display: none;
+  }
+  .main-menu > .menu-item > .sub-menu > .menu-item.hover > .sub-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+  }
+  .main-menu > .menu-item:not(.menu-item-is-megamenu) .sub-menu .sub-menu {
+    border-left: 0.1875rem solid #2dcffd;
+  }
+  .main-menu .sub-menu-wrapper {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-transition: opacity 250ms, visibility 0s linear 250ms, min-height 0s linear 250ms, height 0s linear 250ms;
+    transition: opacity 250ms, visibility 0s linear 250ms, min-height 0s linear 250ms, height 0s linear 250ms;
+    visibility: hidden;
+    width: 95%;
+    z-index: 3;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu {
+    background-color: #394859;
+    opacity: 1;
+    min-height: 30.625rem;
+    padding-top: 1.875rem;
+    visibility: visible;
+    width: 70%;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu a {
+    color: #f8f9f9;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item {
+    clear: both;
+    float: left;
+    position: static;
+    text-align: right;
+    width: 15.6875rem;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item:hover > a {
+    color: inherit;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item.menu-item-has-children > a:after {
+    display: none;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .toggle-control {
+    color: white;
+    display: block;
+    line-height: 1;
+    margin-top: -1.75rem;
+    opacity: 0;
+    position: absolute;
+    left: 14.375rem;
+    -webkit-transition: opacity 250ms ease 0s;
+    transition: opacity 250ms ease 0s;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .toggle-control:after {
+    color: #0073a8;
+    content: "\f054";
+    font-family: "FontAwesome";
+    font-size: 0.75rem;
+    position: relative;
+    top: -0.0625rem;
+    left: 0.25rem;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item.hover > .toggle-control {
+    opacity: 1;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item.hover > .toggle-control:after {
+    color: #f8f9f9;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > a {
+    -webkit-transition: background-color 250ms ease 0s, color 250ms ease 0s;
+    transition: background-color 250ms ease 0s, color 250ms ease 0s;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item.hover > a {
+    background-color: #0073a8;
+    color: #f8f9f9;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu .menu-item.hover > .menu-content-item {
+    opacity: 1;
+    -webkit-transition: opacity 250ms, visibility 0s linear, height 0s linear;
+    transition: opacity 250ms, visibility 0s linear, height 0s linear;
+    visibility: visible;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu {
+    background-color: #0073a8;
+    opacity: 0;
+    display: none;
+    height: 100%;
+    min-height: 100%;
+    padding-top: 1.875rem;
+    position: absolute;
+    top: 0;
+    left: 15.625rem;
+    visibility: visible;
+    z-index: 2;
+  }
+  .main-menu .sub-menu-wrapper.hover > .sub-menu > .menu-item > .sub-menu {
+    opacity: 1;
+    display: block;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item {
+    clear: both;
+    color: #f8f9f9;
+    float: left;
+    position: static;
+    text-align: right;
+    width: 15.6875rem;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item:hover > a {
+    color: inherit;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item.menu-item-has-children > a:after {
+    display: none;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .toggle-control {
+    color: white;
+    display: block;
+    line-height: 1;
+    margin-top: -1.6875rem;
+    opacity: 0;
+    position: absolute;
+    left: 14.375rem;
+    -webkit-transition: opacity 250ms ease 0s;
+    transition: opacity 250ms ease 0s;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .toggle-control:after {
+    color: #f8f9f9;
+    content: "\f054";
+    font-family: "FontAwesome";
+    font-size: 0.75rem;
+    position: relative;
+    top: -0.125rem;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item.hover > .toggle-control {
+    opacity: 1;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item.hover > .toggle-control:after {
+    color: #394859;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > a {
+    -webkit-transition: background-color 250ms ease 0s, color 250ms ease 0s;
+    transition: background-color 250ms ease 0s, color 250ms ease 0s;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item.hover > a {
+    background-color: #f8f9f9;
+    color: #394859;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item.hover > .sub-menu,
+.main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item.hover > .sub-menu {
+    opacity: 1;
+    -webkit-transition: opacity 250ms, visibility 250ms;
+    transition: opacity 250ms, visibility 250ms;
+    visibility: visible;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu {
+    background-color: #f8f9f9;
+    color: #394859;
+    min-height: 100%;
+    opacity: 0;
+    padding-top: 1.875rem;
+    position: absolute;
+    left: 15.625rem;
+    top: 0;
+    z-index: 2;
+    text-align: right;
+    visibility: hidden;
+    width: 100%;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item {
+    clear: both;
+    float: left;
+    position: static;
+    text-align: right;
+    width: 15.6875rem;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item.menu-item-has-children a {
+    font-weight: 600;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item.hover.menu-item-has-children {
+    background: #dddddd;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item > .toggle-control {
+    color: #f8f9f9;
+    display: block;
+    line-height: 1;
+    margin-top: -1.6875rem;
+    opacity: 0;
+    position: absolute;
+    left: 14.4375rem;
+    -webkit-transition: opacity 250ms ease 0s;
+    transition: opacity 250ms ease 0s;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item > .toggle-control:after {
+    color: #f8f9f9;
+    content: "\f054";
+    font-family: "FontAwesome";
+    font-size: 0.75rem;
+    position: relative;
+    top: -0.125rem;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item.hover > .toggle-control {
+    opacity: 1;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item.hover > .toggle-control:after {
+    color: #394859;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item a {
+    color: #394859;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item a:hover {
+    color: #0073a8;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu {
+    background-color: #dddddd;
+    color: #394859;
+    min-height: 100%;
+    opacity: 0;
+    padding-top: 1.875rem;
+    position: absolute;
+    left: 15.625rem;
+    top: 0;
+    z-index: 2;
+    text-align: left;
+    visibility: hidden;
+    width: 95%;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item a {
+    color: #394859;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item > .sub-menu > .menu-item a:hover {
+    color: #0073a8;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item.hover > .sub-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+  .main-menu .sub-menu-wrapper > .sub-menu > .menu-item.hover > .sub-menu > .menu-item.hover > .sub-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+  .main-menu > .menu-item-is-megamenu {
+    position: static;
+  }
+  .main-menu > .menu-item-is-megamenu .menu-item {
+    position: static;
+  }
+  .main-menu > .menu-item-is-megamenu.hover > .sub-menu-wrapper {
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+    visibility: visible;
+    -webkit-transition: opacity 250ms, visibility 0s linear, min-height 0s linear, height 0s linear;
+    transition: opacity 250ms, visibility 0s linear, min-height 0s linear, height 0s linear;
+  }
+  .main-menu > .menu-item-is-megamenu .sub-menu .sub-menu .sub-menu a {
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+}
+.alert-bar {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.alert-bar--cobalt {
+  background-color: #002d79;
+}
+.alert-bar--bond-blue {
+  background-color: #0073a8;
+}
+.alert-bar--teal {
+  background-color: #008e89;
+}
+.alert-bar--blue {
+  background-color: #2dcffd;
+}
+.alert-bar--dark-grey {
+  background-color: #394859;
+}
+.alert-bar--grey {
+  background-color: #dee1e0;
+}
+.alert-bar--error-red {
+  background-color: #f4364c;
+}
+.alert-bar__inner {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  gap: 0.625rem 1.25rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  max-width: 100rem;
+  padding: 0.75rem 1.25rem;
+  position: relative;
+  width: 90%;
+}
+@media (max-width: 40em) {
+  .alert-bar__inner {
+    gap: 0.5rem;
+    padding: 0.625rem 0.9375rem;
+    width: 100%;
+  }
+}
+.alert-bar__text {
+  color: #ffffff;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+@media (max-width: 40em) {
+  .alert-bar__text {
+    font-size: 0.875rem;
+    text-align: center;
+    width: 100%;
+  }
+}
+.alert-bar__btn {
+  background: rgba(255, 255, 255, 0.15);
+  border: 0.0625rem solid rgba(255, 255, 255, 0.7);
+  color: #ffffff;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding: 0.4375rem 1.125rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: background 250ms ease;
+  transition: background 250ms ease;
+  white-space: nowrap;
+}
+.alert-bar__btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+}
+.alert-bar__close {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: #ffffff;
+  cursor: pointer;
+  height: 2rem;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 2rem;
+}
+.alert-bar__close:hover .alert-bar__close-icon {
+  opacity: 1;
+}
+.alert-bar__close:focus-visible {
+  outline: 0.125rem solid currentColor;
+  outline-offset: 0.125rem;
+}
+.alert-bar__close-icon {
+  display: block;
+  height: 0.875rem;
+  margin: 0 auto;
+  opacity: 0.75;
+  position: relative;
+  -webkit-transition: opacity 250ms ease;
+  transition: opacity 250ms ease;
+  width: 0.875rem;
+}
+.alert-bar__close-icon::before, .alert-bar__close-icon::after {
+  background: currentColor;
+  content: "";
+  height: 0.125rem;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+}
+.alert-bar__close-icon::before {
+  -webkit-transform: translateY(-50%) rotate(45deg);
+      -ms-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
+}
+.alert-bar__close-icon::after {
+  -webkit-transform: translateY(-50%) rotate(-45deg);
+      -ms-transform: translateY(-50%) rotate(-45deg);
+          transform: translateY(-50%) rotate(-45deg);
+}
+
+.alert-bar--dismissible .alert-bar__inner {
+  padding-left: 3.125rem;
+  padding-right: 3.125rem;
+}
+@media (max-width: 40em) {
+  .alert-bar--dismissible .alert-bar__inner {
+    padding-left: 2.375rem;
+    padding-right: 2.375rem;
+  }
+}
+
+.alert-bar--blue .alert-bar__text,
+.alert-bar--grey .alert-bar__text {
+  color: #394859;
+}
+.alert-bar--blue .alert-bar__close,
+.alert-bar--grey .alert-bar__close {
+  color: #394859;
+}
+.alert-bar--blue .alert-bar__btn,
+.alert-bar--grey .alert-bar__btn {
+  border-color: rgba(57, 72, 89, 0.5);
+  color: #394859;
+}
+.alert-bar--blue .alert-bar__btn:hover,
+.alert-bar--grey .alert-bar__btn:hover {
+  background: rgba(57, 72, 89, 0.1);
+  color: #394859;
+}
+
+.site-header {
+  height: 8.125rem;
+  position: absolute;
+  top: var(--alert-bar-height, 0px);
+  width: 100%;
+  z-index: 101;
+}
+.site-header .inner-header {
+  margin: 0 auto;
+  max-width: 100rem;
+  position: relative;
+  width: 90%;
+}
+.site-header .logo {
+  float: left;
+  margin-top: 0.9375rem;
+  max-width: 10.3125rem;
+  position: relative;
+  z-index: 1;
+}
+.site-header .utilities {
+  height: 3.4375rem;
+  position: relative;
+  z-index: 0;
+}
+
+.top-header .logo img {
+  margin-top: 1rem;
+}
+.top-header .utilities-menu {
+  position: absolute;
+  right: 33.125rem;
+  top: 1.25rem;
+}
+.top-header .utilities-menu--btn {
+  right: 20.625rem;
+}
+
+.home .top-header {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.sticky-header {
+  background-color: rgba(57, 72, 89, 0.9);
+  height: 6.25rem;
+  opacity: 0;
+  position: fixed;
+  top: var(--alert-bar-height, 0px);
+  z-index: 101;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+.sticky-header .logo img {
+  height: 4.0625rem;
+  min-height: 0;
+}
+.sticky-header .utilities {
+  top: 1.125rem;
+}
+.sticky-header .utilities-newsletter {
+  display: none;
+}
+
+.utilities-menu {
+  margin-right: 0.9375rem;
+  text-align: right;
+}
+.utilities-menu .utility-link {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  margin-right: 1.875rem;
+  text-decoration: none;
+}
+.utilities-menu .utility-link:hover {
+  color: #2dcffd;
+}
+
+.utilities-newsletter {
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.utilities-newsletter .btn {
+  float: right;
+}
+.utilities-newsletter .validation_error {
+  display: none;
+}
+.utilities-newsletter .gform_confirmation_message {
+  background-color: #2dcffd;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 1rem 0;
+  text-align: center;
+}
+.utilities-newsletter .gform_wrapper,
+.utilities-newsletter .ginput_container {
+  margin: 0 !important;
+}
+.utilities-newsletter .gform_wrapper .validation_message {
+  background: rgba(255, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 0 1.25rem;
+}
+.utilities-newsletter .gform_wrapper .gfield_error {
+  margin: 0 !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  background-color: transparent !important;
+}
+.utilities-newsletter .gform_wrapper .field_description_below .gfield_description {
+  margin: 0 !important;
+  padding-top: 0;
+  position: absolute;
+  bottom: -1.6875rem;
+  width: calc(100% + 20px);
+}
+.utilities-newsletter .gform_validation_error .gform_footer {
+  top: -3.875rem;
+}
+.utilities-newsletter .gform_footer {
+  float: right;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative;
+  top: -3.375rem;
+  right: 0;
+  max-width: 10.625rem;
+  max-height: 3.375rem;
+}
+.utilities-newsletter li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.utilities-newsletter label {
+  display: none !important;
+}
+.utilities-newsletter input[type=text] {
+  background: rgba(255, 255, 255, 0.2);
+  border: 0.0625rem solid rgba(210, 215, 219, 0.25);
+  border-top: none;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0.9375rem !important;
+}
+.utilities-newsletter input[type=text]::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.utilities-newsletter input[type=text]::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.utilities-newsletter input[type=text]:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.utilities-newsletter input[type=text]::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.utilities-newsletter input[type=text]::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+.utilities-newsletter input[type=submit] {
+  background-color: #2dcffd;
+  font-size: 1.125rem !important;
+  padding: 1.125rem 2.5rem !important;
+  max-height: 3.375rem;
+  outline: none;
+}
+.utilities-newsletter input[type=submit]:hover {
+  background-color: #0073a8;
+}
+
+@media (max-width: 68.75em) {
+  .utilities-newsletter {
+    display: none;
+  }
+
+  .utilities-menu {
+    display: none;
+  }
+
+  .top-header .utilities-menu {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+
+  .utilities-menu {
+    margin-right: 0;
+    text-align: left;
+  }
+  .utilities-menu .utility-link {
+    border: none;
+    color: #394859;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.25rem;
+    margin-right: 0;
+    padding: 0.625rem 1.25rem;
+    text-transform: none;
+  }
+  .utilities-menu .utility-link:hover {
+    border: none;
+    color: #2dcffd;
+    font-weight: normal;
+  }
+
+  .site-header .logo {
+    max-width: 9.375rem;
+  }
+  .site-header .logo img {
+    min-height: 3.125rem;
+  }
+}
+@media (max-width: 48em) {
+  .site-header .logo {
+    max-width: 9.375rem;
+  }
+  .site-header .logo img {
+    min-height: 3.125rem;
+  }
+}
+.masthead {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+.masthead--large {
+  height: 31.25rem;
+}
+@media (max-width: 40em) {
+  .masthead--large {
+    height: 28.125rem;
+  }
+}
+.masthead--small {
+  height: 23.4375rem;
+}
+@media (max-width: 40em) {
+  .masthead--small {
+    height: 20.9375rem;
+  }
+}
+.masthead .page-title,
+.masthead .page-subtitle {
+  color: inherit;
+}
+.masthead .page-title {
+  font-weight: normal;
+  padding-bottom: 1.25rem;
+}
+.masthead .title-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 90%;
+}
+.masthead .page-subtitle {
+  font-size: 1.3125rem;
+  line-height: 2rem;
+  margin: 0 auto;
+  max-width: 50rem;
+  opacity: 0.9;
+  width: 90%;
+}
+.masthead .masthead-overlay {
+  height: 100%;
+  padding-top: 6.875rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.masthead .masthead-overlay .inner {
+  height: calc(100% - 20px);
+  z-index: 2;
+}
+.masthead__flex-parent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+.masthead__flex-child {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  min-height: 28.125rem;
+  padding-top: 8.125rem;
+  padding-bottom: 1.875rem;
+  width: 100%;
+}
+@media (max-width: 48em) {
+  .masthead h1 {
+    font-size: 3.125rem;
+    line-height: 3.75rem;
+  }
+  .masthead .page-subtitle {
+    font-size: 1.125rem;
+    line-height: 1.8125rem;
+  }
+}
+@media (max-width: 40em) {
+  .masthead h1 {
+    font-size: 2.1875rem;
+    line-height: 2.3125rem;
+  }
+  .masthead .page-subtitle {
+    font-size: 1rem;
+    line-height: 1.125rem;
+  }
+}
+
+.content__layer--hero {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+.hero-screen {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.6)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.hero-video {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.hero-video .video {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.hero-content {
+  padding-top: 14.25rem;
+  padding-bottom: 3.25rem;
+  max-width: 53.75rem;
+}
+.hero-content h1 {
+  color: #ffffff;
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 4.375rem;
+  text-transform: none;
+  padding-bottom: 1.25rem;
+}
+.hero-content h1 .title-small {
+  display: block;
+  font-size: 3.4rem;
+  font-weight: 400;
+  line-height: 3.75rem;
+  text-transform: none;
+}
+.hero-content .subtitle {
+  border-left: 0.3125rem solid #2dcffd;
+  padding-left: 1.5625rem;
+  color: #ffffff;
+  font-size: 1.625rem;
+  font-weight: 300;
+  line-height: 2rem;
+  max-width: 60.5rem;
+}
+.hero-content .subtitle a {
+  color: #2dcffd;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.hero-content .subtitle a:after {
+  content: "\f054";
+  display: inline-block;
+  font-family: "FontAwesome";
+  font-size: 0.875rem;
+  margin-top: 0.125rem;
+  margin-left: 0.4375rem;
+  vertical-align: top;
+}
+.hero-content .subtitle a:hover {
+  color: #0073a8;
+}
+.hero-content .btn--hero {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-property: padding;
+  transition-property: padding;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+.hero-content .btn--hero:hover {
+  padding: 1.125rem 5.375rem 1.125rem 2.875rem;
+}
+
+@media (max-width: 64em) {
+  .hero-content h1 {
+    font-size: 2rem;
+    line-height: 3.75rem;
+  }
+}
+@media (max-width: 48em) {
+  .hero-content {
+    padding-top: 10rem;
+  }
+  .hero-content h1 {
+    font-size: 1.625rem;
+    line-height: 3rem;
+  }
+  .hero-content h1 .title-small {
+    font-size: 2.875rem;
+    line-height: 3.25rem;
+  }
+  .hero-content .subtitle {
+    max-width: 40rem;
+  }
+  .hero-content .btn--hero {
+    left: 1.25rem;
+    right: 0;
+  }
+}
+@media (max-width: 40em) {
+  .hero-content {
+    padding-top: 9.375rem;
+    padding-bottom: 7.5rem;
+  }
+  .hero-content h1 {
+    font-size: 1.625rem;
+    font-weight: bold;
+    line-height: 2.25rem;
+    padding-bottom: 0.625rem;
+  }
+  .hero-content h1 .title-small {
+    border-left: none;
+    display: inline;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    padding-left: 0;
+    display: block;
+  }
+  .hero-content .subtitle {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    max-width: 20rem;
+  }
+  .hero-content .subtitle a {
+    display: block;
+    padding: 0.875rem 0;
+  }
+
+  .btn--hero {
+    left: 0;
+    right: 0;
+    text-align: right;
+  }
+}
+.main {
+  -js-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 6.25rem;
+}
+
+.main__sidebar {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 3.75rem;
+  max-width: 23.75rem;
+  width: 100%;
+}
+
+.main__content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  margin: 0 auto 5rem auto;
+  max-width: 46.25rem;
+  position: relative;
+  width: 100%;
+}
+.main__content h3 {
+  color: #484848;
+  font-size: 2.25rem;
+  letter-spacing: 0;
+  line-height: 2.8125rem;
+}
+
+@media (max-width: 64em) {
+  .main__sidebar {
+    margin-left: 1.875rem;
+    max-width: 17.5rem;
+  }
+
+  .main__content {
+    max-width: 38.75rem;
+  }
+  .main__content h1 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+  }
+  .main__content h2 {
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+  }
+  .main__content h3,
+.main__content h4 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+  .main__content h5 {
+    font-size: 1rem;
+    line-height: 1.375rem;
+  }
+  .main__content p {
+    font-size: 1rem;
+    line-height: 1.375rem;
+  }
+}
+@media (max-width: 48em) {
+  .main {
+    -js-display: block;
+    display: block;
+    margin-bottom: 6.25rem;
+  }
+
+  .main__sidebar {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .main__content {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+.site-footer {
+  background-color: #394859;
+  padding-bottom: 3.125rem;
+  width: 100%;
+}
+.site-footer ul {
+  margin: 0;
+  padding: 0;
+}
+.site-footer li {
+  padding-bottom: inherit;
+  padding-left: 0;
+  position: relative;
+}
+.site-footer li:before {
+  content: "";
+}
+.site-footer li li:first-child {
+  padding-top: inherit;
+}
+.site-footer li li:last-child {
+  padding-top: inherit;
+}
+.site-footer .footer-menu {
+  border-bottom: 0.0625rem solid #737474;
+  -js-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  font-size: 0;
+  padding: 5rem 0;
+}
+.site-footer .footer-menu .sub-menu {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.site-footer .footer-menu li {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  max-width: 20%;
+  overflow: hidden;
+  padding-bottom: 1.875rem;
+  position: relative;
+  width: calc(20% - 1px);
+}
+.site-footer .footer-menu li a {
+  border-left: 0.25rem solid #2dcffd;
+  color: #ffffff;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.875rem;
+  padding-left: 0.625rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.site-footer .footer-menu li a:hover {
+  color: #2dcffd;
+}
+.site-footer .footer-menu li li {
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
+  margin-left: 0;
+  max-width: 100%;
+  padding-bottom: 0;
+  width: 100%;
+}
+.site-footer .footer-menu li li a {
+  border: none;
+  margin: 0.3125rem 0;
+  font-weight: normal;
+  text-transform: none;
+}
+.site-footer .footer-social {
+  margin-top: 1.875rem;
+}
+.site-footer .footer-social .social__title {
+  border-left: 0.25rem solid #2dcffd;
+  color: #ffffff;
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.875rem;
+  padding-left: 0.625rem;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.site-footer .footer-social .social__item {
+  width: auto;
+}
+.site-footer .footer-social .social__item a {
+  display: inline;
+  font-size: 1.25rem;
+}
+.site-footer .sub-footer {
+  -js-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.9375rem 0;
+}
+.site-footer .sub-footer--left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.site-footer .sub-footer--right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+}
+.site-footer .sub-footer--right li {
+  display: inline;
+}
+.site-footer .sub-footer--right a {
+  color: #ffffff;
+  border-right: 0.0625rem solid rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1rem;
+  margin-right: 0.625rem;
+  padding-right: 0.625rem;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.site-footer .sub-footer--right a:hover {
+  color: #2dcffd;
+}
+.site-footer .sub-footer p {
+  color: #ffffff;
+  opacity: 0.8;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.875rem;
+}
+
+.sticky-footer {
+  background-color: #0073a8;
+  -webkit-box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.5);
+  height: 3.125rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-property: height;
+  transition-property: height;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  z-index: 102;
+}
+.sticky-footer .wrapper {
+  -js-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  max-width: 100rem;
+}
+.sticky-footer-link {
+  border-right: 0.0625rem solid rgba(255, 255, 255, 0.6);
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 33%;
+  text-align: center;
+}
+.sticky-footer-link:last-child {
+  border-right: none;
+}
+.sticky-footer-link a {
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 3.125rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.sticky-footer-link a:hover {
+  color: #2dcffd;
+}
+.sticky-footer.product .sticky-footer-link {
+  max-width: 25%;
+}
+.sticky-footer .mobile-toggle {
+  display: none;
+}
+
+@media (max-width: 64em) {
+  .site-footer .footer-menu li {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    max-width: 33%;
+    overflow: visible;
+    position: relative;
+    width: calc(33.3333333333% - 1px);
+  }
+  .site-footer .footer-social {
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 48em) {
+  .site-footer .footer-menu li {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    max-width: 50%;
+    overflow: visible;
+    position: relative;
+    width: calc(50% - 1px);
+  }
+  .site-footer .sub-footer {
+    -js-display: block;
+    display: block;
+  }
+  .site-footer .sub-footer--left {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+  }
+  .site-footer .sub-footer--right {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+    text-align: left;
+  }
+
+  .sticky-footer.product .sticky-footer-link {
+    max-width: 100%;
+  }
+  .sticky-footer .wrapper {
+    display: block;
+  }
+  .sticky-footer .sticky-footer-link {
+    border: none;
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+        -ms-flex: none;
+            flex: none;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+  }
+  .sticky-footer .sticky-footer-link span {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 3.125rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .sticky-footer .sticky-footer-link.mobile-toggle span::after {
+    color: #ffffff;
+    content: "\f067";
+    font-family: "FontAwesome";
+    font-size: 0.9375rem;
+    position: relative;
+    left: 0.9375rem;
+    line-height: 1.8125rem;
+  }
+  .sticky-footer .sticky-footer-link.mobile-toggle.open span::after {
+    content: "\f068";
+  }
+  .sticky-footer .mobile-toggle {
+    display: block;
+  }
+}
+@media (max-width: 40em) {
+  .site-footer .footer-menu li {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    max-width: 100%;
+    overflow: visible;
+    position: relative;
+    width: calc(100% - 1px);
+  }
+  .site-footer .footer-social {
+    margin-top: 1.875rem;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+.menu-footer-utility-menu-container,
+.footer-utility-menu,
+.cmp-footer-links,
+#regulation-links {
+  display: inline !important;
+}
+
+.cmp-footer-links a:last-child {
+  border-right: none !important;
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}</style>		<script>
+			// Promise-based wrapper for vendor consent check.
+			var checkVendorConsent = function(vendorId, vendorName) {
+				return new Promise(function(resolve, reject) {
+					window.__ace('djcmp', 'customVendorIsEnabled', [vendorId, function(isEnabled) {
+						console.log('🔍 ' + vendorName + ': Vendor', vendorId, 'consent status:', isEnabled);
+						if (isEnabled) {
+							resolve(true);
+						} else {
+							reject(vendorName + ' consent not granted');
+						}
+					}]);
+				});
+			};
+		</script>
+		<!-- DJCMP Stub Functions -->
+		<script type="text/javascript">
+		"use strict";function _typeof(e){return(_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}!function(){var e=function(){for(var e,t,n=[],a=window,p=a;p;){try{if(p.frames.__tcfapiLocator){e=p;break}}catch(e){}if(p===a.top)break;p=p.parent}e||(function e(){var t=a.document,n=!!a.frames.__tcfapiLocator;if(!n)if(t.body){var p=t.createElement("iframe");p.style.cssText="display:none",p.name="__tcfapiLocator",t.body.appendChild(p)}else setTimeout(e,5);return!n}(),a.__tcfapi=function(){for(var e=arguments.length,a=new Array(e),p=0;p<e;p++)a[p]=arguments[p];if(!a.length)return n;"setGdprApplies"===a[0]?a.length>3&&2===parseInt(a[1],10)&&"boolean"==typeof a[3]&&(t=a[3],"function"==typeof a[2]&&a[2]("set",!0)):"ping"===a[0]?"function"==typeof a[2]&&a[2]({gdprApplies:t,cmpLoaded:!1,cmpStatus:"stub"}):n.push(a)},a.addEventListener("message",(function(e){var t="string"==typeof e.data,n={};if(t)try{n=JSON.parse(e.data)}catch(e){}else n=e.data;var a="object"===_typeof(n)&&null!==n?n.__tcfapiCall:null;a&&window.__tcfapi(a.command,a.version,(function(n,p){var r={__tcfapiReturn:{returnValue:n,success:p,callId:a.callId}};e&&e.source&&e.source.postMessage&&e.source.postMessage(t?JSON.stringify(r):r,"*")}),a.parameter)}),!1))};"undefined"!=typeof module?module.exports=e:e()}(),function(){var e=!1,t=window,n=document;function a(e){var n="string"==typeof e.data;try{var a=n?JSON.parse(e.data):e.data;if(a.__cmpCall){var p=a.__cmpCall;t.__uspapi(p.command,p.parameter,(function(t,a){var r={__cmpReturn:{returnValue:t,success:a,callId:p.callId}};e.source.postMessage(n?JSON.stringify(r):r,"*")}))}}catch(a){}}!function e(){if(!t.frames.__uspapiLocator)if(n.body){var a=n.body,p=n.createElement("iframe");p.style.cssText="display:none",p.name="__uspapiLocator",a.appendChild(p)}else setTimeout(e,5)}(),"function"!=typeof __uspapi&&(t.__uspapi=function(){var t=arguments;if(__uspapi.a=__uspapi.a||[],!t.length)return __uspapi.a;"ping"===t[0]?t[2]({gdprAppliesGlobally:e,cmpLoaded:!1},!0):__uspapi.a.push([].slice.apply(t))},__uspapi.msgHandler=a,t.addEventListener("message",a,!1))}(),function(e){var t={};function n(a){if(t[a])return t[a].exports;var p=t[a]={i:a,l:!1,exports:{}};return e[a].call(p.exports,p,p.exports,n),p.l=!0,p.exports}n.m=e,n.c=t,n.d=function(e,t,a){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:a})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var a=Object.create(null);if(n.r(a),Object.defineProperty(a,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var p in e)n.d(a,p,function(t){return e[t]}.bind(null,p));return a},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="/",n(n.s=0)}([function(e,t,n){n.r(t);var a=function(e,t){var n={allRegulations:!1,cb:t,regulationType:"gdpr"};return(0,window.__ace)("djcmp","regulationApplies",[e,n])},p=function(e,t){var n={allRegulations:!1,cb:t,regulationType:"usp"};return(0,window.__ace)("djcmp","regulationApplies",[e,n])};!function(){var e=[];function t(){e.push(arguments)}window.djcmp||(t.gdprApplies=a,t.ccpaApplies=p,t.queue=e,window.djcmp=t)}()}]),window.__gpp_addFrame=function(e){if(!window.frames[e])if(document.body){var t=document.createElement("iframe");t.style.cssText="display:none",t.name=e,document.body.appendChild(t)}else window.setTimeout(window.__gpp_addFrame,10,e)},window.__gpp_stub=function(){var e=arguments;if(__gpp.queue=__gpp.queue||[],__gpp.events=__gpp.events||[],!e.length||1==e.length&&"queue"==e[0])return __gpp.queue;if(1==e.length&&"events"==e[0])return __gpp.events;var t=e[0],n=e.length>1?e[1]:null,a=e.length>2?e[2]:null;if("ping"===t)n({gppVersion:"1.1",cmpStatus:"stub",cmpDisplayStatus:"hidden",signalStatus:"not ready",supportedAPIs:["2:tcfeuv2","5:tcfcav1","6:uspv1","7:usnatv1","8:uscav1","9:usvav1","10:uscov1","11:usutv1","12:usctv1"],cmpId:0,sectionList:[],applicableSections:[],gppString:"",parsedSections:{}},!0);else if("addEventListener"===t){"lastId"in __gpp||(__gpp.lastId=0),__gpp.lastId++;var p=__gpp.lastId;__gpp.events.push({id:p,callback:n,parameter:a}),n({eventName:"listenerRegistered",listenerId:p,data:!0,pingData:{gppVersion:"1.1",cmpStatus:"stub",cmpDisplayStatus:"hidden",signalStatus:"not ready",supportedAPIs:["2:tcfeuv2","5:tcfcav1","6:uspv1","7:usnatv1","8:uscav1","9:usvav1","10:uscov1","11:usutv1","12:usctv1"],cmpId:0,sectionList:[],applicableSections:[],gppString:"",parsedSections:{}}},!0)}else if("removeEventListener"===t){for(var r=!1,s=0;s<__gpp.events.length;s++)if(__gpp.events[s].id==a){__gpp.events.splice(s,1),r=!0;break}n({eventName:"listenerRemoved",listenerId:a,data:r,pingData:{gppVersion:"1.1",cmpStatus:"stub",cmpDisplayStatus:"hidden",signalStatus:"not ready",supportedAPIs:["2:tcfeuv2","5:tcfcav1","6:uspv1","7:usnatv1","8:uscav1","9:usvav1","10:uscov1","11:usutv1","12:usctv1"],cmpId:0,sectionList:[],applicableSections:[],gppString:"",parsedSections:{}}},!0)}else"hasSection"===t?n(!1,!0):"getSection"===t||"getField"===t?n(null,!0):__gpp.queue.push([].slice.apply(e))},window.__gpp_msghandler=function(e){var t="string"==typeof e.data;try{var n=t?JSON.parse(e.data):e.data}catch(e){n=null}if("object"==typeof n&&null!==n&&"__gppCall"in n){var a=n.__gppCall;window.__gpp(a.command,(function(n,p){var r={__gppReturn:{returnValue:n,success:p,callId:a.callId}};e.source.postMessage(t?JSON.stringify(r):r,"*")}),"parameter"in a?a.parameter:null,"version"in a?a.version:"1.1")}},"__gpp"in window&&"function"==typeof window.__gpp||(window.__gpp=window.__gpp_stub,window.addEventListener("message",window.__gpp_msghandler,!1),window.__gpp_addFrame("__gppLocator"));
+		</script>
+
+		<!-- ACE Global Messaging System (GMS) stub function -->
+		<script type="text/javascript">
+		!function(){var e,t,i;window.ace=window.ace||{},e={},t={},i={addToExecutionQueue(e){return t[e]||(t[e]=[]),t[e].push(arguments),t},getSubscribedElements:()=>Object.keys(e),getSubscribedFunctions:t=>Object.keys(e[t]||{}),executeQueue(e){try{t[e]&&t[e].forEach((e=>this.execute(...e))),delete t[e]}catch(e){console.error(e)}},execute(){var[t,i,r,n]=arguments,s=e[t][i],u=e=>e,c=[];return"function"!=typeof s?s:(r&&("function"==typeof r?(u=r,n&&Array.isArray(n)&&(c=n)):Array.isArray(r)&&(c=r)),u(s.apply(null,c)))},__reset(){var i=e=>Object.keys(e).forEach((t=>delete e[t]));i(e),i(t)},hasSubscription(e){return this.getSubscribedElements().indexOf(e)>-1},hasSubscribedFunction(e,t){return this.getSubscribedFunctions(e).indexOf(t)>-1},uniqueFucntionsUnderSubscription(t,i){const{__ace:r=(()=>({}))}=window;let n={};return Object.keys(i).forEach((s=>{e[t][s]?r("log","log",[{type:"warning",initiator:"page",message:"You are trying to subscribe the function "+s+" under the "+t+" namespace again. Use another name."}]):n[s]=i[s]})),n},addSubscription(t,i){if(this.hasSubscription(t)){const r=this.uniqueFucntionsUnderSubscription(t,i);e[t]={...e[t],...r}}else e[t]=i;return e},subscribe(t,i,r){if(r)return e[t]=i,e;if(!i||"object"!=typeof i)throw new Error("Missing third parameter. You must provide an object.");return this.addSubscription(t,i),this.executeQueue(t),e},globalMessaging(){var[e,t,...i]=arguments;if(!e&&!t)return this.getSubscribedElements();if(e&&"string"==typeof e&&!t)return this.getSubscribedFunctions(e);if("string"!=typeof e||"string"!=typeof t)throw new Error("First and second argument must be String types");if(this.hasSubscribedFunction(e,t))return this.execute(e,t,...i);this.addToExecutionQueue(e,t,...i)}},window.__ace=i.globalMessaging.bind(i),window.__ace.subscribe=i.subscribe.bind(i)}()
+		</script>
+
+		<!-- DataLayer stub function -->
+		<script type="text/javascript">
+		!function(){try{window.__dataLayer__={__subscriptions:{},__waitFor:{}},window.__dataLayerMemo__={},window.isDLDataPresent=t=>void 0!==t&&("object"!=typeof t||Array.isArray(t)?"number"==typeof t||("boolean"==typeof t||t.length>0):Object.keys(t).length>0);const t=(...t)=>{const{__ace:a,__dataLayer__:e,__dataLayerMemo__:r}=window,[i,o]=t;if(2===t.length&&"string"!=typeof o)return e[i](...t);return t.reduce(((t,i)=>{if(i in r)return t[i]=r[i],t;if(!e[i])return a("log","log",[{type:"info",initiator:"data-layer",message:`Requested data ${i} does not exist.`}]),t;if("function"==typeof e[i]){const a=e[i](i);return a[i]&&(r[i]=a[i]),Object.assign(t,a)}}),{})},a=t=>{const{__ace:a,__dataLayer__:e,__dataLayerMemo__:r}=window,i=Array.isArray(t);return"object"!=typeof r||i?(a("log","log",[{type:"error",initiator:"data-layer",message:`Trying to set data in Data Layer with invalid type: "${i?"array":typeof t}".`}]),null):(Object.assign(r,t),Object.entries(t).forEach((t=>{const a=t[0],r=t[1],{__subscriptions:i,__waitFor:o}=e;i[a]&&i[a].length>0&&i[a].forEach((t=>{t(r)})),o[a]&&o[a].length>0&&(o[a].forEach((t=>{t(r)})),delete e.__waitFor[a])})),r)},e=t=>Object.entries(t).reduce(((t,a)=>{const{__ace:e,__dataLayer__:r,__dataLayerMemo__:i,isDLDataPresent:o}=window,_=a[0],n=a[1],s=i[_];return o(s)&&n(s),r.__subscriptions[_]||(r.__subscriptions[_]=[]),r.__subscriptions[_]&&e("log","log",[{type:"info",initiator:"data-layer",message:`Adding subscription fn to: ${_}`}]),r.__subscriptions[_].push(n),Object.assign(t,{subscriptions:r.__subscriptions}),t}),{}),r=t=>Object.entries(t).reduce(((t,a)=>{const{__ace:e,__dataLayer__:r,__dataLayerMemo__:i,isDLDataPresent:o}=window,{__waitFor:_}=r,[n,s]=a,c=i[n];return o(c)?(s(c),{...t,waitFor:_}):(_[n]||(_[n]=[]),_[n]&&e("log","log",[{type:"info",initiator:"data-layer",message:`Adding wait for fn to: ${n}`}]),_[n].push(s),{...t,waitFor:_})}),{}),i=()=>{window.__dataLayerMemo__={}};__ace.subscribe("dataLayer",{getData:t,setData:a,subscribeData:e,clearData:i,waitForData:r})}catch(t){console.log("Error in dataLayer initialization: ",t)}}();
+		</script>
+		<!-- End DJCMP Stub Functions -->
+				<!-- Google Tag Manager with CMP Integration -->
+		<script type="text/javascript">
+		(function() {
+			var loadGTMScript = function() {
+				console.log('📊 Google Tag Manager: Loading with ID GTM-N7Z4Q7B');
+				
+				// GTM DataLayer initialization
+				window.dataLayer = window.dataLayer || [];
+				window.dataLayer.push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+				
+				// Load GTM script
+				var f = document.getElementsByTagName('script')[0],
+					j = document.createElement('script');
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-N7Z4Q7B';
+				f.parentNode.insertBefore(j, f);
+				
+				console.log('✅ Google Tag Manager: Successfully loaded and initialized');
+			};
+
+			// Use CMP wrapper to check consent before loading GTM
+			if (typeof window.__ace === 'function') {
+				var vendorId = '5e542b3a4cd8884eb41b5a72';
+				console.log('📊 GTM: Checking CMP consent status for vendor ID:', vendorId);
+				
+				// Combination approach: executeOnCmpReady + customVendorIsEnabled for reliable consent checking
+				window.__ace('djcmp', 'executeOnCmpReady', [{
+					cb: function() {
+						console.log('📊 GTM: CMP is ready, checking vendor consent for ID:', vendorId);
+						window.__ace('djcmp', 'customVendorIsEnabled', [vendorId, function(isVendorEnabled) {
+							console.log('📊 GTM: Vendor', vendorId, 'consent status:', isVendorEnabled);
+							if (isVendorEnabled) {
+								console.log('📊 GTM: User has consented to vendor', vendorId, '- loading script');
+								loadGTMScript();
+							} else {
+								console.log('📊 GTM: User has not consented to vendor', vendorId, '- script will not load');
+							}
+						}]);
+					}
+				}]);
+			} else {
+				// Fallback if CMP is not available - DO NOT load by default
+				console.warn('⚠️ GTM: CMP not available - not loading tracking script');
+			}
+		})();
+		</script>
+		<!-- End Google Tag Manager -->
+		<meta name="be:wp" content="1.1.18">
+<!-- be_ixf, sdk, gho-->
+<meta name="be:sdk" content="php_sdk_1.5.16" />
+<meta name="be:timer" content="167ms" />
+<meta name="be:orig_url" content="https%3A%2F%2Fwww.opis.com%2Fproduct%2Fpricing%2F" />
+<meta name="be:norm_url" content="https%3A%2F%2Fwww.opis.com%2Fproduct%2Fpricing%2F" />
+<meta name="be:capsule_url" content="https%3A%2F%2Fixfd1-api.bc0a.com%2Fapi%2Fixf%2F1.0.0%2Fget_capsule%2Ff00000000303210%2F0155202988" />
+<meta name="be:api_dt" content="Zy_2026;Zm_09;Zd_18;Zh_13;Zmh_06;p_epoch:1.78973678015E+12" />
+<meta name="be:mod_dt" content="Zy_2026;Zm_09;Zd_18;Zh_13;Zmh_06;p_epoch:1.78973678015E+12" />
+<meta name="be:diag" content="WXuwZTWHmUsmpg8UN3b+RNn06XRtT+YkWkbOYFbTvJ6ODOOifLutRvpyKkjPp58C5E0qKWLm8YnxLeNFT45H9sgiJu8ne/6hB+vNZaeCZqCEXOlrxkGktgtKUdTReRLaqBZjLeqek4nOFn8jmQGhZzHd+pgcLY6In4Zmee0Uq2nAEcFpiSJJn502eD85NwoBwg/bZNL5Uv1ozuHH770srZR7TjYVit6uBGamkzYcqeAbzUG/nO6VPTuS8CuS4nraPAl1G69uFUZ1S4icsQgE2BhUSgXg8uEv6+djaLRiVgoOleK7R79C57353MIMQfnNflOihB9cCaJmd8MOryqM6+mDLalNUL9jlseaOBUY2QNALgoonBsJwNOr8cMrsCloyyWAglWPkji8gJh/POV+gUM7gYwjCPjKe8sbxzAuKXPnbFz/1bKFUNVd6Xp/UrtM8uOBOc0ObWghTRKEUea3oGSxpGrpl4VIcANuoYRZMHunl+/jZjnvsFK6dU0pI8jY8lgqH2x+DYQpC4ctrGx3IvK3VKG8kK9gCYlMgmcRMpSolUzsbTZoCc0t9KbjfEfJZGY1CeCubXHQaUkl6jfmfkAqd7zZRg0d4hFoqtK3wEBoYayFiZqUJOTF1wTvs/vHerrVr+e93adgwJTK7LTpMn+luKqP/hxUiFzfaRdXlufbiM9afT4HPKYDZHdu5MfhqSc2VN2xVk5swQiAwZbP0TDsE3wS9f7rSm2S64dXdvBiBCnAX1ezYZ8GrEBsd8JxKSHxD6J0Vp6u3zErS8Vg91L/aihaq6KE4rB1xgKJXdP3us0hJPtlFWyiBIkePup93eKRx2Z3xByyUyNMlCYes90Ad9ULV/9hmaoqBRi4HTRbZL6BCflBvRIIo7JD8Yf8MSVm96nT+7h99XJ7Za2O8K90F2ktSC4RvRVbavs53v2BR9/32zkqT6Pfxw/dUewe+wK8DLy5sGyhigEO/6cfLn2Fpy5cY07tM3iV2bh0zOAK3USYxh65YLd/IDsB9a0T0IcP/ACg5VNuYLZAH9VgFWJ6bVFCAfPdy3y5P9rz+mW4rUBW+OOgprialKVCtJ2OU4+S/r9smsr3oiCKr3s0PQS2jAmC1EV0ZfcDjuMOHGl+mGxhLy4vqs0IIgON3WzFSRM59/x38kKvuEqqZUSFqu8z2DeFdR357nSvcZM1gWG7Q2W9q13dLZLwuqZd/bggjlg0UmGIdBAS/bjh5FIaNdW5gNoLLkfClXgJYm9agaNkTwX8BcJvrQJTUZwV21/T50+vmYKH4ctg1maVh9Vr3lbn7uyxwjpmzGB2vvxcpXM8hvzkPGYF+oMJ3YWZM8sygksswJ2SdDSKutCG88D/t5NVrXkCUoxRKqnR9woVkljFMJdETAR5l+gcWFidpRZ/sahhnIjDtyFNCnl8x46JTAnAIKUawBzBXECWKgYw9zTUBibNY9rVO8o6gFwjC8KhZV1F/cg8oCqcxsXi5X/oyO2RDKXVuH6bA8sv4zb9NbMjz04vRsXBqm7DLqjJGiJWIfQvZDtULrWlCfLAOgJaWpYppxwy6oMJ+u+O+vfcIYmMItgMO1piNPYkaXNvJ2PgF1Waqbxj6ZwtNECcsmBkobWZ5Td8YFM82SfPuzivfUhdQIj4a8zARlWY/9ssaa58pgnOQTshS/NFVlAKHzzjKWR6xXIiky4d3zV9cdf1leShFBvvZLD/FpE3Hx7clOeofGHg0zFHnERB9zKSc66AN4b9pzHsbvrx5RTs6qW+UadtAsl7ghjK1FKo03elfa0SwAXCUsTz+/GM/lYbVWCxM5OZWmAJOszum5ZGLP9Ry9sL5AJX62WmAhV58knRD7wrsW2B+8q1wooZzVi2YPsmd4Vp9QQJ+RByZfpQt53SUvJ9sKcSA2PdgE1yLk55kMMFJSTYm8gxXj55yNNChHoEB4OEdRCs3KGX0aUaXlbGnlfrqkPMC4wns0dmL5C4g8SiUbYtRubOTXCUt5F7zqKc75pcxf2RtIZVuitI5xzLVCy3vYvM7SZ48Y3WUjW2cHYDxuWsaOjMZ2L22O7ZyRZZ03jsmfs53Fwfc0Ag8IYENuB5HhgQP2EKWGX5nNOEtc55RUoPUFUSpPkmIMY17wbAOPg5YDztU9tlWthbQqCuhka1QUSaA/cSQwAk80+0r8ZGhAgpAmunXRrMnrxl26OJGpxEq+lGRs9nuSYe5Z6sfdK4FVVmmNT3eHjRF8+/qddQVm6nyTzKIok9MR3a5JpT8o8Zc7J1+gG7hHlY1o4DmMzgvgEZAA+cFL7InViBGC+mLbcbu7pc4F47WaCj7IorQlRWXsETAPXhb4iW2P64CKpBLPQnHAyb/cVHWgWhU73xBHOpbc0w/j2fj8fXV+YZyGe6YdRMqQrLAaZpOMI91XeOYxi/oGRSegIwMma18mlSJah483/TTmehz3UqVj1DkgX/YTOJlnsCj0suEo+3Okk=" />
+<meta name="be:messages" content="true" />
+<style>
+.be-ix-link-block .be-related-link-container {}
+.be-ix-link-block .be-related-link-container .be-label {margin: 0;color: white;line-height: 1em;font-weight: 700;text-transform: uppercase;text-decoration: none;}
+.be-ix-link-block .be-related-link-container .be-list { display: inline-block; list-style: none;margin: 0; padding: 0;}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item {display: inline-block;margin-right: 20px;margin-bottom: 6px;}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item .be-related-link {color: #fff; font-size: .8125rem;
+    font-weight: 600;
+    line-height: 1rem;
+    opacity: .8;
+    text-decoration: none;}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item .be-related-link:hover {    color: #2dcffd;}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item:last-child { margin-right: 0;}
+
+@media (max-width: 767px) {
+  .be-ix-link-block .be-related-link-container {margin-bottom: 20px;margin-top: 20px;}
+  .be-ix-link-block .be-related-link-container .be-label {width: 100%;margin-bottom: 10px;}
+  .be-ix-link-block .be-related-link-container .be-list { display: block;width: 100%;}
+  .be-ix-link-block .be-related-link-container .be-list .be-list-item {display: block;margin-right: 0;}
+}
+@media (min-width: 768px) {
+  .be-ix-link-block .be-related-link-container {display: flex;align-items: baseline;}
+  .be-ix-link-block .be-related-link-container .be-label {display: inline-block;margin-right: 20px;flex-grow: 0;flex-shrink: 0;}
+}
+</style>
+
+	<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<meta name="description" content="OPIS is the accepted energy price benchmark for fuel supply contracts. Learn about our daily &amp; historical pricing for gasoline, diesel, biofuels, LPG, coal, petrochemicals, carbon credits and more." />
+	<link rel="canonical" href="https://www.opis.com/product/pricing/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Energy Prices | OPIS" />
+	<meta property="og:description" content="OPIS is the accepted energy price benchmark for fuel supply contracts. Learn about our daily &amp; historical pricing for gasoline, diesel, biofuels, LPG, coal, petrochemicals, carbon credits and more." />
+	<meta property="og:url" content="https://www.opis.com/product/pricing/" />
+	<meta property="og:site_name" content="OPIS, A Dow Jones Company" />
+	<meta property="article:publisher" content="http://www.facebook.com/oilpriceinfo" />
+	<meta property="article:modified_time" content="2025-06-15T11:22:09+00:00" />
+	<meta property="og:image" content="https://www.opis.com/wp-content/uploads/2018/09/iStock-617376690-compressor.jpg" />
+	<meta property="og:image:width" content="1400" />
+	<meta property="og:image:height" content="933" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@OPIS" />
+	<meta name="twitter:label1" content="Est. reading time" />
+	<meta name="twitter:data1" content="5 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebPage","@id":"https:\/\/www.opis.com\/product\/pricing\/","url":"https:\/\/www.opis.com\/product\/pricing\/","name":"Energy Prices | OPIS","isPartOf":{"@id":"https:\/\/www.opis.com\/#website"},"primaryImageOfPage":{"@id":"https:\/\/www.opis.com\/product\/pricing\/#primaryimage"},"image":{"@id":"https:\/\/www.opis.com\/product\/pricing\/#primaryimage"},"thumbnailUrl":"https:\/\/www.opis.com\/wp-content\/uploads\/2018\/09\/iStock-617376690-compressor.jpg","datePublished":"2017-08-28T13:56:47+00:00","dateModified":"2025-06-15T11:22:09+00:00","description":"OPIS is the accepted energy price benchmark for fuel supply contracts. Learn about our daily & historical pricing for gasoline, diesel, biofuels, LPG, coal, petrochemicals, carbon credits and more.","breadcrumb":{"@id":"https:\/\/www.opis.com\/product\/pricing\/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https:\/\/www.opis.com\/product\/pricing\/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.opis.com\/product\/pricing\/#primaryimage","url":"https:\/\/www.opis.com\/wp-content\/uploads\/2018\/09\/iStock-617376690-compressor.jpg","contentUrl":"https:\/\/www.opis.com\/wp-content\/uploads\/2018\/09\/iStock-617376690-compressor.jpg","width":1400,"height":933,"caption":"Refinery during day"},{"@type":"BreadcrumbList","@id":"https:\/\/www.opis.com\/product\/pricing\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Products","item":"https:\/\/www.opis.com\/product\/"},{"@type":"ListItem","position":2,"name":"Pricing"}]},{"@type":"WebSite","@id":"https:\/\/www.opis.com\/#website","url":"https:\/\/www.opis.com\/","name":"OPIS, A Dow Jones Company","description":"Buy and Sell Fuel &amp; Energy Products With Confidence","publisher":{"@id":"https:\/\/www.opis.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.opis.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/www.opis.com\/#organization","name":"Oil Price Information Service, LLC.","url":"https:\/\/www.opis.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/www.opis.com\/#\/schema\/logo\/image\/","url":"https:\/\/www.opis.com\/wp-content\/uploads\/2022\/02\/OPIS_ADJC_Stacked_White-1.png","contentUrl":"https:\/\/www.opis.com\/wp-content\/uploads\/2022\/02\/OPIS_ADJC_Stacked_White-1.png","width":1920,"height":943,"caption":"Oil Price Information Service, LLC."},"image":{"@id":"https:\/\/www.opis.com\/#\/schema\/logo\/image\/"},"sameAs":["http:\/\/www.facebook.com\/oilpriceinfo","https:\/\/x.com\/OPIS","https:\/\/www.linkedin.com\/company\/opis","https:\/\/www.youtube.com\/user\/OilPriceInfoService"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+		<!-- ACE Manifest Script -->
+		<script type="text/javascript">
+		console.log('🚀 ACE Manifest: Starting to load for product "opis"');
+		console.log('⚙️ ACE Config:', {
+			enableSourcepoint: true,
+			enableUsp: true,
+			enableVendorScriptLevelUp: true,
+			enableMsps: true,
+			enableNewTcfStubs: true
+		});
+		</script>
+
+		<link rel="preload" href="https://www.wsj.com/asset/ace/ace.min.js" as="script" />
+		<script
+			async
+			src="https://www.wsj.com/asset/ace/ace.min.js"
+			data-product="opis"
+			data-ace-uac-url="https://www.wsj.com/asset/ace"
+			data-config="%7B%22enableSourcepoint%22%3Atrue%2C%22enableUsp%22%3Atrue%2C%22enableVendorScriptLevelUp%22%3Atrue%2C%22enableMsps%22%3Atrue%7D"
+			id="ace-manifest"
+			onload="console.log('✅ ACE Manifest: Script loaded successfully')"
+			onerror="console.error('❌ ACE Manifest: Failed to load script')"
+		></script>
+		<!-- End ACE Manifest Script -->
+		<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.opis.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.opis.com%2Fproduct%2Fpricing%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.opis.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.opis.com%2Fproduct%2Fpricing%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.opis.com/wp-includes/css/dist/block-library/style.min.css?ver=6.9.8' type='text/css' media='all' />
+
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='cpsh-shortcodes-css' href='https://www.opis.com/wp-content/plugins/column-shortcodes//assets/css/shortcodes.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='em-accordions-css' href='https://www.opis.com/wp-content/plugins/em-accordions/em-accordions.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='em-tabs-css' href='https://www.opis.com/wp-content/plugins/em-tabs/em-tabs.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='resource-manager-css' href='https://www.opis.com/wp-content/plugins/resource-manager-pc4K0q/public/css/plugin-name-public.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='emagine-base-styles-css' href='https://www.opis.com/wp-content/themes/em-base/core/css/global.css?ver=6.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-styles-css' href='https://www.opis.com/wp-content/themes/opis/css/child-theme.css' type='text/css' media='all' />
+<link rel='stylesheet' id='aos-styles-css' href='https://www.opis.com/wp-content/themes/opis/css/aos.css' type='text/css' media='all' />
+<link rel='stylesheet' id='em-base-font-awesome-css' href='https://www.opis.com/wp-content/themes/em-base/core/css/font-awesome.min.css' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.opis.com/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www.opis.com/wp-content/plugins/resource-manager-pc4K0q/public/js/plugin-name-public.js?ver=1.0.1" id="resource-manager-js"></script>
+<script type="text/javascript" src="https://www.opis.com/wp-content/themes/em-base/core/js/vendor/modernizr.js?v=1692789750" id="modernizr-js"></script>
+<script type="text/javascript" src="https://www.opis.com/wp-content/themes/em-base/core/js/vendor/picturefill.js?v=1692789750" id="picturefill-js"></script>
+<link rel="https://api.w.org/" href="https://www.opis.com/wp-json/" /><link rel='shortlink' href='https://www.opis.com/?p=2150' />
+<link rel="alternate" href="https://www.opis.com/product/pricing/" hreflang="en-us" />            <script type="text/javascript"><!--
+                                function powerpress_pinw(pinw_url){window.open(pinw_url, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=460,height=320');	return false;}
+                //-->
+
+                // tabnab protection
+                window.addEventListener('load', function () {
+                    // make all links have rel="noopener noreferrer"
+                    document.querySelectorAll('a[target="_blank"]').forEach(link => {
+                        link.setAttribute('rel', 'noopener noreferrer');
+                    });
+                });
+            </script>
+            <style type="text/css">
+  .elq-form .elq-required{
+    color:red!important;
+    display:inline;
+    float:none;
+    font-weight:700;
+    margin:0;
+    padding:0}
+  .elq-form #elq-FormLastRow{
+    position:absolute;
+    left:-80%;
+    top:-80%}
+  .elq-form .elq-label{
+    display:inline-block;
+    max-width:100%;
+    font-weight:400;
+    box-sizing:border-box;
+    margin-bottom:0}
+  .elq-form .elq-label-top{
+    padding-bottom:3px}
+  .elq-form .elq-item-label{
+    max-width:100%;
+    font-weight:400;
+    box-sizing:border-box}
+  .elq-form .list-order{
+    margin-left:0;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis}
+  .elq-form .one-column{
+    width:100%;
+    clear:both}
+  .elq-form .two-column{
+    float:left;
+    width:38%}
+  .elq-form .three-column{
+    float:left;
+    width:30%}
+  .elq-form .elq-item-textarea{
+    resize:vertical;
+    min-height:48px;
+    max-height:360px;
+    box-sizing:border-box}
+  .elq-form .elq-item-input,.elq-form .elq-item-select,.elq-form .elq-item-textarea{
+    font-family:inherit;
+    font-size:inherit;
+    line-height:inherit;
+    color:inherit;
+    font:inherit;
+    margin:0}
+  .elq-form .elq-item-select{
+    text-transform:none}
+  .elq-form .row.single-checkbox-row{
+    margin-left:0}
+  .elq-form .elq-field-style{
+    padding-bottom:10px}
+  .elq-form .elq-field-style input[type=submit]{
+    -webkit-appearance:square-button}
+  @-webkit-keyframes spin{
+    0%{
+      -webkit-transform:rotate(0deg)}
+    to{
+      -webkit-transform:rotate(1turn)}
+  }
+  @keyframes spin{
+    0%{
+      transform:rotate(0deg)}
+    to{
+      transform:rotate(1turn)}
+  }
+  .elq-form .loader{
+    vertical-align:middle;
+    display:inline-block;
+    margin-left:10px;
+    border:3px solid #f3f3f3;
+    border-radius:50%;
+    border-top:3px solid #3498db;
+    width:20px;
+    height:20px;
+    -webkit-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite}
+  .elq-form input[type=checkbox],.elq-form input[type=radio]{
+    margin:0}
+  .elq-form .list-order input[type=radio]{
+    margin-left:1px}
+  .elq-form *,.elq-form :after,.elq-form :before{
+    box-sizing:border-box}
+  .elq-form html{
+    font-size:10px;
+    -webkit-tap-highlight-color:transparent}
+  .elq-form body{
+    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size:14px;
+    line-height:1.42857;
+    color:#333;
+    background-color:#fff}
+  .elq-form button,.elq-form input,.elq-form select,.elq-form textarea{
+    font-family:inherit;
+    font-size:inherit;
+    line-height:inherit}
+  .elq-form a{
+    color:#337ab7;
+    text-decoration:none}
+  .elq-form a:focus,.elq-form a:hover{
+    color:#23527c;
+    text-decoration:underline}
+  .elq-form a:focus{
+    outline:5px auto -webkit-focus-ring-color;
+    outline-offset:-2px}
+  .elq-form figure{
+    margin:0}
+  .elq-form img{
+    vertical-align:middle}
+  .elq-form .img-responsive{
+    display:block;
+    max-width:100%;
+    height:auto}
+  .elq-form .img-rounded{
+    border-radius:6px}
+  .elq-form .img-thumbnail{
+    padding:4px;
+    line-height:1.42857;
+    background-color:#fff;
+    border:1px solid #ddd;
+    border-radius:4px;
+    transition:all .2s ease-in-out;
+    display:inline-block;
+    max-width:100%;
+    height:auto}
+  .elq-form .img-circle{
+    border-radius:50%}
+  .elq-form hr{
+    margin-top:20px;
+    margin-bottom:20px;
+    border:0;
+    border-top:1px solid #eee}
+  .elq-form .sr-only{
+    position:absolute;
+    width:1px;
+    height:1px;
+    padding:0;
+    margin:-1px;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    border:0}
+  .elq-form .sr-only-focusable:active,.elq-form .sr-only-focusable:focus{
+    position:static;
+    width:auto;
+    height:auto;
+    margin:0;
+    overflow:visible;
+    clip:auto}
+  .elq-form [role=button]{
+    cursor:pointer}
+  .elq-form .container{
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto}
+  .elq-form .container:after,.elq-form .container:before{
+    display:table;
+    content:" "}
+  .elq-form .container:after{
+    clear:both}
+  @media (min-width:768px){
+    .elq-form .container{
+      width:750px}
+  }
+  @media (min-width:992px){
+    .elq-form .container{
+      width:970px}
+  }
+  @media (min-width:1200px){
+    .elq-form .container{
+      width:1170px}
+  }
+  .elq-form .container-fluid{
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto}
+  .elq-form .container-fluid:after,.elq-form .container-fluid:before{
+    display:table;
+    content:" "}
+  .elq-form .container-fluid:after{
+    clear:both}
+  .elq-form .row{
+    margin-right:-15px;
+    margin-left:-15px}
+  .elq-form .row:after,.elq-form .row:before{
+    display:table;
+    content:" "}
+  .elq-form .row:after{
+    clear:both}
+  .elq-form .row-no-gutters{
+    margin-right:0;
+    margin-left:0}
+  .elq-form .row-no-gutters [class*=col-]{
+    padding-right:0;
+    padding-left:0}
+  .elq-form .col-lg-1,.elq-form .col-lg-2,.elq-form .col-lg-3,.elq-form .col-lg-4,.elq-form .col-lg-5,.elq-form .col-lg-6,.elq-form .col-lg-7,.elq-form .col-lg-8,.elq-form .col-lg-9,.elq-form .col-lg-10,.elq-form .col-lg-11,.elq-form .col-lg-12,.elq-form .col-md-1,.elq-form .col-md-2,.elq-form .col-md-3,.elq-form .col-md-4,.elq-form .col-md-5,.elq-form .col-md-6,.elq-form .col-md-7,.elq-form .col-md-8,.elq-form .col-md-9,.elq-form .col-md-10,.elq-form .col-md-11,.elq-form .col-md-12,.elq-form .col-sm-1,.elq-form .col-sm-2,.elq-form .col-sm-3,.elq-form .col-sm-4,.elq-form .col-sm-5,.elq-form .col-sm-6,.elq-form .col-sm-7,.elq-form .col-sm-8,.elq-form .col-sm-9,.elq-form .col-sm-10,.elq-form .col-sm-11,.elq-form .col-sm-12,.elq-form .col-xs-1,.elq-form .col-xs-2,.elq-form .col-xs-3,.elq-form .col-xs-4,.elq-form .col-xs-5,.elq-form .col-xs-6,.elq-form .col-xs-7,.elq-form .col-xs-8,.elq-form .col-xs-9,.elq-form .col-xs-10,.elq-form .col-xs-11,.elq-form .col-xs-12{
+    position:relative;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px}
+  .elq-form .col-xs-1,.elq-form .col-xs-2,.elq-form .col-xs-3,.elq-form .col-xs-4,.elq-form .col-xs-5,.elq-form .col-xs-6,.elq-form .col-xs-7,.elq-form .col-xs-8,.elq-form .col-xs-9,.elq-form .col-xs-10,.elq-form .col-xs-11,.elq-form .col-xs-12{
+    float:left}
+  .elq-form .col-xs-1{
+    width:8.33333%}
+  .elq-form .col-xs-2{
+    width:16.66667%}
+  .elq-form .col-xs-3{
+    width:25%}
+  .elq-form .col-xs-4{
+    width:33.33333%}
+  .elq-form .col-xs-5{
+    width:41.66667%}
+  .elq-form .col-xs-6{
+    width:50%}
+  .elq-form .col-xs-7{
+    width:58.33333%}
+  .elq-form .col-xs-8{
+    width:66.66667%}
+  .elq-form .col-xs-9{
+    width:75%}
+  .elq-form .col-xs-10{
+    width:83.33333%}
+  .elq-form .col-xs-11{
+    width:91.66667%}
+  .elq-form .col-xs-12{
+    width:100%}
+  .elq-form .col-xs-pull-0{
+    right:auto}
+  .elq-form .col-xs-pull-1{
+    right:8.33333%}
+  .elq-form .col-xs-pull-2{
+    right:16.66667%}
+  .elq-form .col-xs-pull-3{
+    right:25%}
+  .elq-form .col-xs-pull-4{
+    right:33.33333%}
+  .elq-form .col-xs-pull-5{
+    right:41.66667%}
+  .elq-form .col-xs-pull-6{
+    right:50%}
+  .elq-form .col-xs-pull-7{
+    right:58.33333%}
+  .elq-form .col-xs-pull-8{
+    right:66.66667%}
+  .elq-form .col-xs-pull-9{
+    right:75%}
+  .elq-form .col-xs-pull-10{
+    right:83.33333%}
+  .elq-form .col-xs-pull-11{
+    right:91.66667%}
+  .elq-form .col-xs-pull-12{
+    right:100%}
+  .elq-form .col-xs-push-0{
+    left:auto}
+  .elq-form .col-xs-push-1{
+    left:8.33333%}
+  .elq-form .col-xs-push-2{
+    left:16.66667%}
+  .elq-form .col-xs-push-3{
+    left:25%}
+  .elq-form .col-xs-push-4{
+    left:33.33333%}
+  .elq-form .col-xs-push-5{
+    left:41.66667%}
+  .elq-form .col-xs-push-6{
+    left:50%}
+  .elq-form .col-xs-push-7{
+    left:58.33333%}
+  .elq-form .col-xs-push-8{
+    left:66.66667%}
+  .elq-form .col-xs-push-9{
+    left:75%}
+  .elq-form .col-xs-push-10{
+    left:83.33333%}
+  .elq-form .col-xs-push-11{
+    left:91.66667%}
+  .elq-form .col-xs-push-12{
+    left:100%}
+  .elq-form .col-xs-offset-0{
+    margin-left:0}
+  .elq-form .col-xs-offset-1{
+    margin-left:8.33333%}
+  .elq-form .col-xs-offset-2{
+    margin-left:16.66667%}
+  .elq-form .col-xs-offset-3{
+    margin-left:25%}
+  .elq-form .col-xs-offset-4{
+    margin-left:33.33333%}
+  .elq-form .col-xs-offset-5{
+    margin-left:41.66667%}
+  .elq-form .col-xs-offset-6{
+    margin-left:50%}
+  .elq-form .col-xs-offset-7{
+    margin-left:58.33333%}
+  .elq-form .col-xs-offset-8{
+    margin-left:66.66667%}
+  .elq-form .col-xs-offset-9{
+    margin-left:75%}
+  .elq-form .col-xs-offset-10{
+    margin-left:83.33333%}
+  .elq-form .col-xs-offset-11{
+    margin-left:91.66667%}
+  .elq-form .col-xs-offset-12{
+    margin-left:100%}
+  @media (min-width:768px){
+    .elq-form .col-sm-1,.elq-form .col-sm-2,.elq-form .col-sm-3,.elq-form .col-sm-4,.elq-form .col-sm-5,.elq-form .col-sm-6,.elq-form .col-sm-7,.elq-form .col-sm-8,.elq-form .col-sm-9,.elq-form .col-sm-10,.elq-form .col-sm-11,.elq-form .col-sm-12{
+      float:left}
+    .elq-form .col-sm-1{
+      width:8.33333%}
+    .elq-form .col-sm-2{
+      width:16.66667%}
+    .elq-form .col-sm-3{
+      width:25%}
+    .elq-form .col-sm-4{
+      width:33.33333%}
+    .elq-form .col-sm-5{
+      width:41.66667%}
+    .elq-form .col-sm-6{
+      width:50%}
+    .elq-form .col-sm-7{
+      width:58.33333%}
+    .elq-form .col-sm-8{
+      width:66.66667%}
+    .elq-form .col-sm-9{
+      width:75%}
+    .elq-form .col-sm-10{
+      width:83.33333%}
+    .elq-form .col-sm-11{
+      width:91.66667%}
+    .elq-form .col-sm-12{
+      width:100%}
+    .elq-form .col-sm-pull-0{
+      right:auto}
+    .elq-form .col-sm-pull-1{
+      right:8.33333%}
+    .elq-form .col-sm-pull-2{
+      right:16.66667%}
+    .elq-form .col-sm-pull-3{
+      right:25%}
+    .elq-form .col-sm-pull-4{
+      right:33.33333%}
+    .elq-form .col-sm-pull-5{
+      right:41.66667%}
+    .elq-form .col-sm-pull-6{
+      right:50%}
+    .elq-form .col-sm-pull-7{
+      right:58.33333%}
+    .elq-form .col-sm-pull-8{
+      right:66.66667%}
+    .elq-form .col-sm-pull-9{
+      right:75%}
+    .elq-form .col-sm-pull-10{
+      right:83.33333%}
+    .elq-form .col-sm-pull-11{
+      right:91.66667%}
+    .elq-form .col-sm-pull-12{
+      right:100%}
+    .elq-form .col-sm-push-0{
+      left:auto}
+    .elq-form .col-sm-push-1{
+      left:8.33333%}
+    .elq-form .col-sm-push-2{
+      left:16.66667%}
+    .elq-form .col-sm-push-3{
+      left:25%}
+    .elq-form .col-sm-push-4{
+      left:33.33333%}
+    .elq-form .col-sm-push-5{
+      left:41.66667%}
+    .elq-form .col-sm-push-6{
+      left:50%}
+    .elq-form .col-sm-push-7{
+      left:58.33333%}
+    .elq-form .col-sm-push-8{
+      left:66.66667%}
+    .elq-form .col-sm-push-9{
+      left:75%}
+    .elq-form .col-sm-push-10{
+      left:83.33333%}
+    .elq-form .col-sm-push-11{
+      left:91.66667%}
+    .elq-form .col-sm-push-12{
+      left:100%}
+    .elq-form .col-sm-offset-0{
+      margin-left:0}
+    .elq-form .col-sm-offset-1{
+      margin-left:8.33333%}
+    .elq-form .col-sm-offset-2{
+      margin-left:16.66667%}
+    .elq-form .col-sm-offset-3{
+      margin-left:25%}
+    .elq-form .col-sm-offset-4{
+      margin-left:33.33333%}
+    .elq-form .col-sm-offset-5{
+      margin-left:41.66667%}
+    .elq-form .col-sm-offset-6{
+      margin-left:50%}
+    .elq-form .col-sm-offset-7{
+      margin-left:58.33333%}
+    .elq-form .col-sm-offset-8{
+      margin-left:66.66667%}
+    .elq-form .col-sm-offset-9{
+      margin-left:75%}
+    .elq-form .col-sm-offset-10{
+      margin-left:83.33333%}
+    .elq-form .col-sm-offset-11{
+      margin-left:91.66667%}
+    .elq-form .col-sm-offset-12{
+      margin-left:100%}
+  }
+  @media (min-width:992px){
+    .elq-form .col-md-1,.elq-form .col-md-2,.elq-form .col-md-3,.elq-form .col-md-4,.elq-form .col-md-5,.elq-form .col-md-6,.elq-form .col-md-7,.elq-form .col-md-8,.elq-form .col-md-9,.elq-form .col-md-10,.elq-form .col-md-11,.elq-form .col-md-12{
+      float:left}
+    .elq-form .col-md-1{
+      width:8.33333%}
+    .elq-form .col-md-2{
+      width:16.66667%}
+    .elq-form .col-md-3{
+      width:25%}
+    .elq-form .col-md-4{
+      width:33.33333%}
+    .elq-form .col-md-5{
+      width:41.66667%}
+    .elq-form .col-md-6{
+      width:50%}
+    .elq-form .col-md-7{
+      width:58.33333%}
+    .elq-form .col-md-8{
+      width:66.66667%}
+    .elq-form .col-md-9{
+      width:75%}
+    .elq-form .col-md-10{
+      width:83.33333%}
+    .elq-form .col-md-11{
+      width:91.66667%}
+    .elq-form .col-md-12{
+      width:100%}
+    .elq-form .col-md-pull-0{
+      right:auto}
+    .elq-form .col-md-pull-1{
+      right:8.33333%}
+    .elq-form .col-md-pull-2{
+      right:16.66667%}
+    .elq-form .col-md-pull-3{
+      right:25%}
+    .elq-form .col-md-pull-4{
+      right:33.33333%}
+    .elq-form .col-md-pull-5{
+      right:41.66667%}
+    .elq-form .col-md-pull-6{
+      right:50%}
+    .elq-form .col-md-pull-7{
+      right:58.33333%}
+    .elq-form .col-md-pull-8{
+      right:66.66667%}
+    .elq-form .col-md-pull-9{
+      right:75%}
+    .elq-form .col-md-pull-10{
+      right:83.33333%}
+    .elq-form .col-md-pull-11{
+      right:91.66667%}
+    .elq-form .col-md-pull-12{
+      right:100%}
+    .elq-form .col-md-push-0{
+      left:auto}
+    .elq-form .col-md-push-1{
+      left:8.33333%}
+    .elq-form .col-md-push-2{
+      left:16.66667%}
+    .elq-form .col-md-push-3{
+      left:25%}
+    .elq-form .col-md-push-4{
+      left:33.33333%}
+    .elq-form .col-md-push-5{
+      left:41.66667%}
+    .elq-form .col-md-push-6{
+      left:50%}
+    .elq-form .col-md-push-7{
+      left:58.33333%}
+    .elq-form .col-md-push-8{
+      left:66.66667%}
+    .elq-form .col-md-push-9{
+      left:75%}
+    .elq-form .col-md-push-10{
+      left:83.33333%}
+    .elq-form .col-md-push-11{
+      left:91.66667%}
+    .elq-form .col-md-push-12{
+      left:100%}
+    .elq-form .col-md-offset-0{
+      margin-left:0}
+    .elq-form .col-md-offset-1{
+      margin-left:8.33333%}
+    .elq-form .col-md-offset-2{
+      margin-left:16.66667%}
+    .elq-form .col-md-offset-3{
+      margin-left:25%}
+    .elq-form .col-md-offset-4{
+      margin-left:33.33333%}
+    .elq-form .col-md-offset-5{
+      margin-left:41.66667%}
+    .elq-form .col-md-offset-6{
+      margin-left:50%}
+    .elq-form .col-md-offset-7{
+      margin-left:58.33333%}
+    .elq-form .col-md-offset-8{
+      margin-left:66.66667%}
+    .elq-form .col-md-offset-9{
+      margin-left:75%}
+    .elq-form .col-md-offset-10{
+      margin-left:83.33333%}
+    .elq-form .col-md-offset-11{
+      margin-left:91.66667%}
+    .elq-form .col-md-offset-12{
+      margin-left:100%}
+  }
+  @media (min-width:1200px){
+    .elq-form .col-lg-1,.elq-form .col-lg-2,.elq-form .col-lg-3,.elq-form .col-lg-4,.elq-form .col-lg-5,.elq-form .col-lg-6,.elq-form .col-lg-7,.elq-form .col-lg-8,.elq-form .col-lg-9,.elq-form .col-lg-10,.elq-form .col-lg-11,.elq-form .col-lg-12{
+      float:left}
+    .elq-form .col-lg-1{
+      width:8.33333%}
+    .elq-form .col-lg-2{
+      width:16.66667%}
+    .elq-form .col-lg-3{
+      width:25%}
+    .elq-form .col-lg-4{
+      width:33.33333%}
+    .elq-form .col-lg-5{
+      width:41.66667%}
+    .elq-form .col-lg-6{
+      width:50%}
+    .elq-form .col-lg-7{
+      width:58.33333%}
+    .elq-form .col-lg-8{
+      width:66.66667%}
+    .elq-form .col-lg-9{
+      width:75%}
+    .elq-form .col-lg-10{
+      width:83.33333%}
+    .elq-form .col-lg-11{
+      width:91.66667%}
+    .elq-form .col-lg-12{
+      width:100%}
+    .elq-form .col-lg-pull-0{
+      right:auto}
+    .elq-form .col-lg-pull-1{
+      right:8.33333%}
+    .elq-form .col-lg-pull-2{
+      right:16.66667%}
+    .elq-form .col-lg-pull-3{
+      right:25%}
+    .elq-form .col-lg-pull-4{
+      right:33.33333%}
+    .elq-form .col-lg-pull-5{
+      right:41.66667%}
+    .elq-form .col-lg-pull-6{
+      right:50%}
+    .elq-form .col-lg-pull-7{
+      right:58.33333%}
+    .elq-form .col-lg-pull-8{
+      right:66.66667%}
+    .elq-form .col-lg-pull-9{
+      right:75%}
+    .elq-form .col-lg-pull-10{
+      right:83.33333%}
+    .elq-form .col-lg-pull-11{
+      right:91.66667%}
+    .elq-form .col-lg-pull-12{
+      right:100%}
+    .elq-form .col-lg-push-0{
+      left:auto}
+    .elq-form .col-lg-push-1{
+      left:8.33333%}
+    .elq-form .col-lg-push-2{
+      left:16.66667%}
+    .elq-form .col-lg-push-3{
+      left:25%}
+    .elq-form .col-lg-push-4{
+      left:33.33333%}
+    .elq-form .col-lg-push-5{
+      left:41.66667%}
+    .elq-form .col-lg-push-6{
+      left:50%}
+    .elq-form .col-lg-push-7{
+      left:58.33333%}
+    .elq-form .col-lg-push-8{
+      left:66.66667%}
+    .elq-form .col-lg-push-9{
+      left:75%}
+    .elq-form .col-lg-push-10{
+      left:83.33333%}
+    .elq-form .col-lg-push-11{
+      left:91.66667%}
+    .elq-form .col-lg-push-12{
+      left:100%}
+    .elq-form .col-lg-offset-0{
+      margin-left:0}
+    .elq-form .col-lg-offset-1{
+      margin-left:8.33333%}
+    .elq-form .col-lg-offset-2{
+      margin-left:16.66667%}
+    .elq-form .col-lg-offset-3{
+      margin-left:25%}
+    .elq-form .col-lg-offset-4{
+      margin-left:33.33333%}
+    .elq-form .col-lg-offset-5{
+      margin-left:41.66667%}
+    .elq-form .col-lg-offset-6{
+      margin-left:50%}
+    .elq-form .col-lg-offset-7{
+      margin-left:58.33333%}
+    .elq-form .col-lg-offset-8{
+      margin-left:66.66667%}
+    .elq-form .col-lg-offset-9{
+      margin-left:75%}
+    .elq-form .col-lg-offset-10{
+      margin-left:83.33333%}
+    .elq-form .col-lg-offset-11{
+      margin-left:91.66667%}
+    .elq-form .col-lg-offset-12{
+      margin-left:100%}
+  }
+  .elq-form .row{
+    display:inherit}
+  .LV_invalid_field,input.LV_invalid_field:active,input.LV_invalid_field:hover,textarea.LV_invalid_field:active,textarea.LV_invalid_field:hover{
+    outline:1px solid #c00}
+  .LV_validation_message{
+    font-weight:700;
+    margin:0 0 0 5px}
+  .LV_valid{
+    display:none}
+  .LV_invalid{
+    color:#c00;
+    font-size:10px}
+  .submit-button-style{
+    padding:7px 20px;
+    border:1px solid #979797;
+    border-radius:3px;
+    background-color:#fff;
+    color:#4a4a4a;
+    cursor:pointer}
+  .checkbox-aligned{
+    margin-left:5px;
+    display:inline}
+  .form-element-layout{
+    padding:5px 10px}
+  .form-element-instruction{
+    font-size:12px}
+  .form-element-form-text{
+    margin:0}
+  .form-field-visible-xs-block{
+    display:none}
+  .elq-form-design-field .list-order input[type=radio]{
+    margin-left:1px}
+  @media (max-width:767px){
+    .form-field-visible-xs-block{
+      display:block}
+  }
+  .form-field-hidden-xs{
+    display:block}
+  @media (max-width:767px){
+    .form-field-hidden-xs{
+      display:none}
+  }
+  .custom-overlay{
+    margin-left:2px;
+    background:#fff;
+    box-shadow:0 0 4px 0 #777;
+    border-radius:2px;
+    max-width:256px}
+</style><link rel="icon" href="https://www.opis.com/wp-content/uploads/2022/03/OPIS_Favicon.png" sizes="32x32" />
+<link rel="icon" href="https://www.opis.com/wp-content/uploads/2022/03/OPIS_Favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.opis.com/wp-content/uploads/2022/03/OPIS_Favicon.png" />
+<meta name="msapplication-TileImage" content="https://www.opis.com/wp-content/uploads/2022/03/OPIS_Favicon.png" />
+		<style type="text/css" id="wp-custom-css">
+			.rwd-table {
+	width: 100%;
+}
+.rwd-table tr th {
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	background: #1175bc;
+	width: 50%;
+	
+}
+
+.rwd-table tr td {
+	display: table-cell;
+	text-align: center;
+			color: rgb(75,75,75) !important;
+}
+
+.rwd-table tr td:before {
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	background: #1175bc;
+	width: 100%;
+	// padding: 5px 10px;
+}
+
+
+
+.rwd-table tr td:first-child {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.three-col tr th {
+	width: 33%;	
+}
+
+#wsmarket-share .one_half {
+	position: relative;
+}
+
+@media (min-width: 40em) {
+	#wsmarket-share .one_half:not(.last_column) .rwd-table:after {
+		right: 9px;
+		top: 0;
+		display: block;
+		content: "";
+		position: absolute;
+		width: 1px;
+		height: 100%;
+		background-color: #00b140;
+	}
+}
+
+@media (max-width: 40em) {
+	.rwd-table tr th {
+		display: none;
+	}
+	.rwd-table tr td {
+		display: block;
+		color: rgb(75,75,75) !important;
+		font-size: 12px;
+	}
+	.rwd-table tr td:before {
+		clear: both;
+	}
+	
+	.rwd-table tr td:first-child {
+		font-size: 12px;
+	}
+}
+
+form.post-password-form {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 24px;
+}
+
+form.post-password-form input[type="submit"] {
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+    vertical-align: top;
+    margin-left: 20px;
+    line-height: 1;
+}
+
+form.post-password-form input[type=password] {
+    font-size: 24px;
+}
+
+.glossary .term-list__header {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.glossary .term a h4:hover {
+  color: #0073a8;
+}
+.glossary .term:last-child {
+    padding-bottom: 20px;
+}
+.sub-menu-wrapper {
+	right:auto!important;
+}		</style>
+		</head>
+<body class="wp-singular product-template-default single single-product postid-2150 single-format-standard wp-custom-logo wp-theme-em-base wp-child-theme-opis interior">
+			<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N7Z4Q7B"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager -->
+					<div id="js-alert-bar"
+		     class="alert-bar alert-bar--cobalt alert-bar--dismissible"
+		     role="alert">
+			<div class="alert-bar__inner">
+									<span class="alert-bar__text">Read how Dow Jones Energy brings together trusted price reporting from OPIS and other heritage brands, proprietary data and deep research.</span>
+													<a class="alert-bar__btn"
+					   href="https://www.dowjones.com/press-room/dow-jones-debuts-dow-jones-energy-to-provide-essential-market-intelligence-for-a-transforming-global-landscape/?utm_source=opis&#038;utm_medium=website"
+					   target="_blank">
+						READ MORE					</a>
+													<button type="button"
+					        id="js-alert-bar-close"
+					        class="alert-bar__close"
+					        aria-label="Dismiss this alert">
+						<span class="alert-bar__close-icon" aria-hidden="true"></span>
+					</button>
+							</div>
+		</div>
+		<script>
+		(function () {
+			var bar = document.getElementById('js-alert-bar');
+			if (!bar) return;
+
+			var closeBtn = document.getElementById('js-alert-bar-close');
+
+			// Dismissal is deliberately not persisted: the bar is meant to come
+			// back on every page load, so closing it only clears the current view.
+			if (closeBtn) {
+				closeBtn.addEventListener('click', function () {
+					if (bar.parentNode) {
+						bar.parentNode.removeChild(bar);
+					}
+					// The observer stops firing once the bar leaves the document,
+					// so hand the layout back its space explicitly.
+					document.documentElement.style.setProperty('--alert-bar-height', '0px');
+				});
+			}
+
+			var last = -1;
+			function applyOffset() {
+				var height = bar.offsetHeight;
+				if (height === last) return;
+				last = height;
+				document.documentElement.style.setProperty('--alert-bar-height', height + 'px');
+			}
+
+			applyOffset();
+
+			// The bar's height changes for reasons that never fire a resize event:
+			// deferred CSS landing, web fonts swapping in and re-wrapping the copy,
+			// or the message being replaced. Watch the element itself so the offset
+			// can never go stale and let the bar cover the header.
+			if (window.ResizeObserver) {
+				new ResizeObserver(applyOffset).observe(bar);
+			}
+
+			window.addEventListener('resize', applyOffset);
+			window.addEventListener('orientationchange', applyOffset);
+			window.addEventListener('load', applyOffset);
+
+			if (document.fonts && document.fonts.ready) {
+				document.fonts.ready.then(applyOffset);
+			}
+		}());
+		</script>
+		<header id="js-site-header" class="site-header top-header">
+		<div class="inner-header clearfix">
+			<div class="upper-header clearfix">
+
+				<div class="logo">
+					<a href="https://www.opis.com/" class="custom-logo-link" rel="home"><img width="1920" height="943" src="https://www.opis.com/wp-content/uploads/2022/02/OPIS_ADJC_Stacked_White-1.png" class="custom-logo" alt="OPIS, A Dow Jones Company" decoding="async" fetchpriority="high" srcset="https://www.opis.com/wp-content/uploads/2022/02/OPIS_ADJC_Stacked_White-1.png 1920w, https://www.opis.com/wp-content/uploads/2022/02/OPIS_ADJC_Stacked_White-1-300x147.png 300w, https://www.opis.com/wp-content/uploads/2022/02/OPIS_ADJC_Stacked_White-1-1024x503.png 1024w, https://www.opis.com/wp-content/uploads/2022/02/OPIS_ADJC_Stacked_White-1-768x377.png 768w, https://www.opis.com/wp-content/uploads/2022/02/OPIS_ADJC_Stacked_White-1-1536x754.png 1536w, https://www.opis.com/wp-content/uploads/2022/02/OPIS_ADJC_Stacked_White-1-100x49.png 100w" sizes="(max-width: 1920px) 100vw, 1920px" /></a>				</div>
+
+				<div class="utilities" aria-label="Utility Menu and Search">
+										<div class="utilities-menu utilities-menu--btn">
+													<a class="utility-link" href="https://www.opis.com/blog/"  aria-label="Insights">
+									Insights								</a>
+																<a class="utility-link" href="https://accounts.opisnet.com" target="_blank" aria-label="Login">
+									Login								</a>
+											<div class="search-container">
+					<span class="search-open"><i class="fa fa-search" aria-hidden="true"></i></span>
+					<span class="search-close"><i class="fa fa-times" aria-hidden="true"></i></span>
+				</div>
+			</div>
+			<div class="utilities-newsletter">
+									<a class="btn btn--primary" href="https://www.opis.com/podcasts/" target="_blank">OPIS Talks Podcast</a>
+									</div>
+		</div>
+		</div>
+		<button id="js-navicon" class="navicon no-button-style" href="javascript:;">
+			<div class="navicon__trigger"></div>
+		</button>
+
+		<div class="mm-screen"></div>
+		<ul class="menu main-menu"><li id="menu-item-833" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-parent menu-item-833"><a href="https://www.opis.com/who-we-help/">Who We Help</a><span class="toggle-control"></span>
+<ul class="sub-menu level0">
+	<li id="menu-item-837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-837"><a href="https://www.opis.com/who-we-help/refiners-suppliers/">Refiners &#038; Suppliers</a></li>
+	<li id="menu-item-839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-839"><a href="https://www.opis.com/who-we-help/wholesalers-jobbers/">Wholesalers &#038; Jobbers</a></li>
+	<li id="menu-item-841" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-841"><a href="https://www.opis.com/who-we-help/retailers/">Retailers</a></li>
+	<li id="menu-item-843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-843"><a href="https://www.opis.com/who-we-help/traders/">Traders</a></li>
+	<li id="menu-item-845" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-845"><a href="https://www.opis.com/who-we-help/ngl-and-petrochemical-companies/">NGL &#038; Petrochemical Companies</a></li>
+	<li id="menu-item-847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-847"><a href="https://www.opis.com/who-we-help/transportation/">Transportation</a></li>
+	<li id="menu-item-851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-851"><a href="https://www.opis.com/who-we-help/municipalities/">Municipalities</a></li>
+	<li id="menu-item-853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-853"><a href="https://www.opis.com/who-we-help/financial-institutions/">Financial Institutions</a></li>
+</ul>
+</li>
+<li id="menu-item-855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-parent menu-item-855"><a href="https://www.opis.com/commodities/">Commodities</a><span class="toggle-control"></span>
+<ul class="sub-menu level0">
+	<li id="menu-item-33227" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33227"><a href="https://www.opis.com/commodities/refined-fuels-products/">Refined Fuels</a></li>
+	<li id="menu-item-9919" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9919"><a href="https://www.opis.com/commodities/gasoline-products/">Gasoline</a></li>
+	<li id="menu-item-9920" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9920"><a href="https://www.opis.com/commodities/diesel-products/">Diesel</a></li>
+	<li id="menu-item-9921" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9921"><a href="https://www.opis.com/commodities/jet-fuel-products/">Jet Fuel</a></li>
+	<li id="menu-item-9922" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9922"><a href="https://www.opis.com/commodities/lpg-ngl/">LPG/NGL</a></li>
+	<li id="menu-item-9923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9923"><a href="https://www.opis.com/commodities/feedstocks-products/">Refinery Feedstocks</a></li>
+	<li id="menu-item-25611" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25611"><a href="https://www.opis.com/product/analytics/chemicals/">Chemicals</a></li>
+	<li id="menu-item-13274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13274"><a href="https://www.opis.com/commodities/petrochemicals-products/">Petrochemicals</a></li>
+	<li id="menu-item-9924" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9924"><a href="https://www.opis.com/commodities/renewable-fuels-products/">Renewable Fuels</a></li>
+	<li id="menu-item-21925" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21925"><a href="https://www.opis.com/product/pricing/spot/europe-hydrogen-report/">Hydrogen</a></li>
+	<li id="menu-item-30409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30409"><a href="https://www.opis.com/commodities/carbon-markets/">Carbon</a></li>
+	<li id="menu-item-9925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9925"><a href="https://www.opis.com/commodities/environmental-products/">Environmental</a></li>
+	<li id="menu-item-20746" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20746"><a href="https://www.opis.com/product/pricing/spot/global-solar-markets/">Solar Panel Materials</a></li>
+	<li id="menu-item-9926" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9926"><a href="https://www.opis.com/commodities/crude-oil-products/">Crude Oil</a></li>
+	<li id="menu-item-19748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19748"><a href="https://www.opis.com/commodities/coal-metals-mining/">Coal, Metals &#038; Mining</a></li>
+</ul>
+</li>
+<li id="menu-item-879" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-parent menu-item-is-megamenu menu-item-879"><a href="https://www.opis.com/products/">Products</a><span class="toggle-control toggle-control--active"></span>
+<div class="sub-menu-wrapper">
+
+<ul class="sub-menu level0">
+	<li id="menu-item-2313" class="disabled menu-item menu-item-type-post_type menu-item-object-product current-menu-item current-menu-ancestor current-menu-parent menu-item-has-children menu-item-parent menu-item-2313"><a href="https://www.opis.com/product/pricing/" aria-current="page">Pricing</a><span class="toggle-control toggle-control--active"></span>
+	<ul class="sub-menu level1">
+		<li id="menu-item-4148" class="menu-item menu-item-type-post_type menu-item-object-product current-menu-item menu-item-4148"><a href="https://www.opis.com/product/pricing/" aria-current="page">Pricing Overview</a></li>
+		<li id="menu-item-36629" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-has-children menu-item-parent menu-item-36629"><a href="https://www.opis.com/product/pricing/spot/">Spot</a><span class="toggle-control"></span>
+		<ul class="sub-menu level2">
+			<li id="menu-item-2294" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2294"><a href="https://www.opis.com/product/pricing/spot/">Spot Overview</a></li>
+			<li id="menu-item-3733" class="disabled menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-3733"><a href="#">Refined Products Reports</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-2094" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2094"><a href="https://www.opis.com/product/pricing/spot/opis-spot-ticker/">OPIS Spot Ticker</a></li>
+				<li id="menu-item-2095" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2095"><a href="https://www.opis.com/product/pricing/spot/west-coast-spot-market-report/">West Coast Spot Market Report</a></li>
+				<li id="menu-item-2096" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2096"><a href="https://www.opis.com/product/pricing/spot/east-of-the-rockies-refined-spots-report/">OPIS East of the Rockies Refined Spot Report</a></li>
+				<li id="menu-item-15946" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-15946"><a href="https://www.opis.com/product/pricing/spot/mexico-fuels-report/">Mexico Fuels Report</a></li>
+				<li id="menu-item-11835" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11835"><a href="https://www.opis.com/product/pricing/spot/global-marine-fuels-report/">Global Marine Fuels Report</a></li>
+			</ul>
+</li>
+			<li id="menu-item-3734" class="disabled menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-3734"><a href="#">LPG/NGL &#038; Feedstocks Reports</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-2098" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2098"><a href="https://www.opis.com/product/pricing/spot/north-america-lpg-report/">North America LPG Report</a></li>
+				<li id="menu-item-28414" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-28414"><a href="https://www.opis.com/product/pricing/spot/global-lpg-naphtha-report/">Global LPG &#038; Naphtha Report</a></li>
+				<li id="menu-item-2097" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2097"><a href="https://www.opis.com/product/pricing/spot/ngl-forwards-report/">NGL Forwards Report</a></li>
+				<li id="menu-item-2099" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2099"><a href="https://www.opis.com/product/pricing/spot/global-lpg-ticker/">Global LPG Ticker</a></li>
+				<li id="menu-item-2100" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2100"><a href="https://www.opis.com/product/pricing/spot/north-american-propane-ticker/">North American Propane Ticker</a></li>
+				<li id="menu-item-2314" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2314"><a href="https://www.opis.com/product/pricing/spot/international-feedstocks-intelligence-report/">International Feedstocks Intelligence Report</a></li>
+			</ul>
+</li>
+			<li id="menu-item-3735" class="disabled menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-3735"><a href="#">Jet Fuel Reports</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-2323" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2323"><a href="https://www.opis.com/product/pricing/spot/worldwide-jet-fuel-report/">Worldwide Jet Fuel Report</a></li>
+				<li id="menu-item-2325" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2325"><a href="https://www.opis.com/product/pricing/spot/europe-jet-diesel-gasoil-report/">Europe Jet Fuel, Diesel and Gasoil Report</a></li>
+				<li id="menu-item-2324" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2324"><a href="https://www.opis.com/product/pricing/spot/asia-jet-fuel-gasoil-report/">Asia Jet Fuel &#038; Gasoil Report</a></li>
+			</ul>
+</li>
+			<li id="menu-item-18996" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-18996"><a href="#">Carbon Credit Reports</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-36619" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-36619"><a href="https://www.opis.com/product/pricing/spot/camiro/">CAMIRO</a></li>
+				<li id="menu-item-36618" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-36618"><a href="https://www.opis.com/product/pricing/spot/global-carbon-market-report/">Global Carbon Market Report</a></li>
+				<li id="menu-item-36621" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-36621"><a href="https://www.opis.com/product/pricing/spot/biodiversity-market-report/">Biodiversity Market Report</a></li>
+				<li id="menu-item-18292" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-18292"><a href="https://www.opis.com/product/pricing/spot/carbon-offsets-report/">Global Carbon Offsets Report</a></li>
+			</ul>
+</li>
+			<li id="menu-item-20485" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-20485"><a href="#">Renewable Fuels</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-36622" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-36622"><a href="https://www.opis.com/product/pricing/spot/biofuels-daily-report/">Biofuels Daily Report</a></li>
+				<li id="menu-item-20484" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-20484"><a href="https://www.opis.com/product/pricing/spot/global-solar-markets/">Global Solar Markets</a></li>
+			</ul>
+</li>
+			<li id="menu-item-14892" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-14892"><a href="https://www.opis.com/product/pricing/spot/crude-oil-prices/">Crude Oil Prices</a></li>
+			<li id="menu-item-11678" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-11678"><a href="https://www.opis.com/product/pricing/spot/petrochem-wire-reports/">PetroChem Wire Reports</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-11927" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11927"><a href="https://www.opis.com/product/pricing/spot/petrochem-wire-reports/">PetroChem Wire Reports Overview</a></li>
+				<li id="menu-item-11677" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11677"><a href="https://www.opis.com/product/pricing/spot/opis-petrochem-wire-daily/">PetroChem Wire Daily</a></li>
+				<li id="menu-item-11676" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11676"><a href="https://www.opis.com/product/pricing/spot/opis-petrochem-wire-midday-update/">Midday Update</a></li>
+				<li id="menu-item-11675" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11675"><a href="https://www.opis.com/product/pricing/spot/pcw-refinery-focus-daily/">Refinery Focus Daily</a></li>
+				<li id="menu-item-11668" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-11668"><a href="https://www.opis.com/product/pricing/spot/pcw-global-recycled-plastics-weekly/">Global Recycled Plastics Weekly</a></li>
+			</ul>
+</li>
+			<li id="menu-item-19767" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-parent menu-item-19767"><a href="https://www.opis.com/commodities/coal-metals-mining/">McCloskey Coal, Metals &#038; Mining Services</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-19799" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-19799"><a href="https://www.opis.com/product/pricing/spot/coal-price-data/">Coal Price Data</a></li>
+				<li id="menu-item-19798" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-19798"><a href="https://www.opis.com/product/pricing/spot/energy-markets-research/">McCloskey Energy Markets Service</a></li>
+				<li id="menu-item-19797" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-19797"><a href="https://www.opis.com/product/pricing/spot/steel-raw-materials/">Steel Raw Materials Service</a></li>
+				<li id="menu-item-19795" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-19795"><a href="https://www.opis.com/product/pricing/spot/energy-research/">McCloskey Energy Research</a></li>
+				<li id="menu-item-19794" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-19794"><a href="https://www.opis.com/product/pricing/spot/north-america-markets/">North America Markets</a></li>
+				<li id="menu-item-19793" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-19793"><a href="https://www.opis.com/product/pricing/spot/africa-apac-markets/">Africa &#038; APAC Markets</a></li>
+				<li id="menu-item-36625" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-36625"><a href="https://www.opis.com/product/pricing/spot/china-markets/">China Markets</a></li>
+				<li id="menu-item-19800" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-19800"><a href="https://www.opis.com/product/pricing/spot/minespans/">MineSpans</a></li>
+			</ul>
+</li>
+		</ul>
+</li>
+		<li id="menu-item-4249" class="disabled menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-4249"><a href="#">Rack</a><span class="toggle-control"></span>
+		<ul class="sub-menu level2">
+			<li id="menu-item-2296" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2296"><a href="https://www.opis.com/product/pricing/fuel-rack-prices/">Rack Overview</a></li>
+			<li id="menu-item-3738" class="disabled menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-3738"><a href="#">U.S Rack Pricing</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-34939" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-34939"><a href="https://www.opis.com/product/pricing/fuel-rack-prices/rackpro/">RackPro</a></li>
+				<li id="menu-item-42432" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-42432"><a href="https://www.opis.com/product/pricing/fuel-rack-prices/rackapi/">Rack API</a></li>
+				<li id="menu-item-2275" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2275"><a href="https://www.opis.com/product/pricing/fuel-rack-prices/gasoline-diesel-prices/">Gasoline &#038; Diesel Rack Prices</a></li>
+				<li id="menu-item-12447" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-12447"><a href="https://www.opis.com/product/pricing/fuel-rack-prices/biodiesel-prices/">Biodiesel Prices</a></li>
+				<li id="menu-item-2283" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2283"><a href="https://www.opis.com/product/pricing/fuel-rack-prices/propane-daily-report/">Propane Daily Report</a></li>
+				<li id="menu-item-2285" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2285"><a href="https://www.opis.com/product/pricing/fuel-rack-prices/bottom-line-report/">Bottom Line Report</a></li>
+			</ul>
+</li>
+			<li id="menu-item-10605" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-10605"><a href="#">International Rack Pricing</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-2280" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2280"><a href="https://www.opis.com/product/pricing/fuel-rack-prices/canadian-rack-report/">Canadian Rack Report</a></li>
+				<li id="menu-item-2281" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2281"><a href="https://www.opis.com/product/pricing/fuel-rack-prices/mexico/">Mexico Wholesale Prices</a></li>
+				<li id="menu-item-2282" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2282"><a href="https://www.opis.com/product/pricing/fuel-rack-prices/australian-terminal-gate-pricing/">Australian Terminal Gate Pricing</a></li>
+			</ul>
+</li>
+			<li id="menu-item-10607" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-10607"><a href="#">Specialty Rack Pricing</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-2284" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2284"><a href="https://www.opis.com/product/pricing/fuel-rack-prices/temperature-correction-assessment-report/">Temperature Correction Assessment Report</a></li>
+				<li id="menu-item-2286" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2286"><a href="https://www.opis.com/product/pricing/fuel-rack-prices/low-2-low-3-benchmarks/">Low 2 &#038; Low 3 Benchmarks</a></li>
+			</ul>
+</li>
+			<li id="menu-item-31754" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-31754"><a href="#">Wholesale Fuel Software</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-42275" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-42275"><a href="https://www.opis.com/product/analytics/axxis-software/axxis-analyze/">Axxis Analyze</a></li>
+				<li id="menu-item-36626" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-36626"><a href="https://www.opis.com/product/analytics/axxis-software/axxis-buy/">Axxis Buy</a></li>
+				<li id="menu-item-42277" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-42277"><a href="https://www.opis.com/product/analytics/axxis-software/axxis-move/">Axxis Move</a></li>
+				<li id="menu-item-42276" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-42276"><a href="https://www.opis.com/product/analytics/axxis-software/axxis-reconcile/">Axxis Reconcile</a></li>
+				<li id="menu-item-40852" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-40852"><a href="https://www.opis.com/product/analytics/axxis-software/axxis-sell/">Axxis Sell</a></li>
+			</ul>
+</li>
+		</ul>
+</li>
+		<li id="menu-item-4250" class="disabled menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-4250"><a href="#">Retail</a><span class="toggle-control"></span>
+		<ul class="sub-menu level2">
+			<li id="menu-item-2298" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2298"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/">Retail Overview</a></li>
+			<li id="menu-item-31559" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-31559"><a href="#">Retail Fuel Pricing Software</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-36627" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-36627"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/a2i-pricecast/">A2i PriceCast</a></li>
+				<li id="menu-item-2288" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2288"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/pricepro/">PricePro</a></li>
+			</ul>
+</li>
+			<li id="menu-item-3737" class="diabled menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-3737"><a href="#">Gas Station Performance &#038; Analytics Tools</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-5322" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5322"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/retailsuite/">RetailSuite</a></li>
+				<li id="menu-item-36628" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-36628"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/locationpro/">LocationPro</a></li>
+				<li id="menu-item-2287" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2287"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/analyticspro/">AnalyticsPro</a></li>
+				<li id="menu-item-5320" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5320"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/marginpro/">MarginPro</a></li>
+				<li id="menu-item-5321" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5321"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/demandpro/">DemandPro</a></li>
+				<li id="menu-item-5258" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5258"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/marketsharepro/">MarketSharePro</a></li>
+			</ul>
+</li>
+			<li id="menu-item-3739" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-3739"><a href="#">Retail Fuel Industry Reports</a><span class="toggle-control"></span>
+			<ul class="sub-menu level3">
+				<li id="menu-item-2289" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2289"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/demand-report/">Demand Report</a></li>
+				<li id="menu-item-2290" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2290"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/retail-radius-report/">Retail Radius Report</a></li>
+				<li id="menu-item-17742" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-17742"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/brand-power-ranking-report/">Brand Power Ranking Report</a></li>
+				<li id="menu-item-17362" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-17362"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/retail-year-review-profit-outlook-report/">Retail Year in Review and Profit Outlook Report</a></li>
+				<li id="menu-item-17364" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-17364"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/customized-retail-fuel-prices-margins/">Customized Retail Fuel Prices and Margins</a></li>
+			</ul>
+</li>
+			<li id="menu-item-2292" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2292"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/truckstop-spread-report/">Truckstop Pricing</a></li>
+			<li id="menu-item-12895" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-12895"><a href="https://www.opis.com/product/pricing/retail-fuel-prices/opisnavx/">OPISNAVX</a></li>
+		</ul>
+</li>
+		<li id="menu-item-4251" class="disabled menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-4251"><a href="#">Price History</a><span class="toggle-control"></span>
+		<ul class="sub-menu level2">
+			<li id="menu-item-2295" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2295"><a href="https://www.opis.com/product/pricing/oil-prices-forecast-and-history/">Price History Overview</a></li>
+			<li id="menu-item-17365" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-17365"><a href="https://www.opis.com/product/pricing/oil-prices-forecast-and-history/custom-history/">Custom History</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-2351" class="disabled menu-item menu-item-type-post_type menu-item-object-product menu-item-has-children menu-item-parent menu-item-2351"><a href="https://www.opis.com/product/news/">News</a><span class="toggle-control"></span>
+	<ul class="sub-menu level1">
+		<li id="menu-item-4149" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-4149"><a href="https://www.opis.com/product/news/">News Overview</a></li>
+		<li id="menu-item-3741" class="disabled menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-3741"><a href="#">Newsletters</a><span class="toggle-control"></span>
+		<ul class="sub-menu level2">
+			<li id="menu-item-2352" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2352"><a href="https://www.opis.com/product/news/oil-express/">Oil Express</a></li>
+			<li id="menu-item-2301" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2301"><a href="https://www.opis.com/product/news/opis-newsletter/">OPIS Newsletter</a></li>
+			<li id="menu-item-2303" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2303"><a href="https://www.opis.com/product/news/retail-fuel-watch/">Retail Fuel Watch</a></li>
+			<li id="menu-item-2353" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2353"><a href="https://www.opis.com/product/news/australian-oil-market-price-report/">Australian Oil Market Price Report</a></li>
+		</ul>
+</li>
+		<li id="menu-item-3742" class="disabled menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-3742"><a href="#">Real Time Alerts</a><span class="toggle-control"></span>
+		<ul class="sub-menu level2">
+			<li id="menu-item-2304" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-2304"><a href="https://www.opis.com/product/news/intraday-email-mobile-news-alerts/">Intraday Email News Alerts</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li id="menu-item-6589" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-6589"><a href="#">Analytics</a><span class="toggle-control"></span>
+	<ul class="sub-menu level1">
+		<li id="menu-item-6598" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-6598"><a href="https://www.opis.com/product/analytics/">Analytics Overview</a></li>
+		<li id="menu-item-6597" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-6597"><a href="https://www.opis.com/product/analytics/axxis-software/">Axxis Software</a></li>
+		<li id="menu-item-36623" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-36623"><a href="https://www.opis.com/product/analytics/chemicals/">Chemical Market Analytics</a></li>
+		<li id="menu-item-29860" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-29860"><a href="https://www.opis.com/product/pricing/spot/camiro/">CAMIRO</a></li>
+		<li id="menu-item-44273" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-44273"><a href="https://www.opis.com/product/analytics/global-hydrogen-analysis/">Global Hydrogen Analysis</a></li>
+		<li id="menu-item-36624" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-36624"><a href="https://www.opis.com/product/analytics/global-lpg-outlook/">Global LPG Outlook</a></li>
+	</ul>
+</li>
+	<li id="menu-item-9994" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9994"><a href="https://www.opis.com/products/find-a-product/">Find a Product</a></li>
+</ul>
+</div>
+</li>
+<li id="menu-item-29915" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29915"><a href="https://www.opis.com/resources/energy-market-news-from-opis/">Energy Market News</a></li>
+<li id="menu-item-1495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-parent menu-item-is-megamenu menu-item-1495"><a href="https://www.opis.com/events/">Events</a><span class="toggle-control"></span>
+<div class="sub-menu-wrapper">
+
+<ul class="sub-menu level0">
+	<li id="menu-item-37868" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-37868"><a href="https://www.opis.com/events/conferences-events/">Conferences &#038; Events</a><span class="toggle-control"></span>
+	<ul class="sub-menu level1">
+		<li id="menu-item-37862" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37862"><a href="https://www.opis.com/events/conferences/">Conferences</a></li>
+		<li id="menu-item-37864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37864"><a href="https://www.opis.com/events/conferences/seminars-industry-events/">Seminars &#038; Industry Events</a></li>
+		<li id="menu-item-37865" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37865"><a href="https://www.opis.com/events/webinars/">Webinars</a></li>
+	</ul>
+</li>
+	<li id="menu-item-37869" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-37869"><a href="https://www.opis.com/events/on-demand-events/">On-Demand Events</a><span class="toggle-control"></span>
+	<ul class="sub-menu level1">
+		<li id="menu-item-37867" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37867"><a href="https://www.opis.com/events/on-demand-events/webinar-recordings/">Webinar Recordings</a></li>
+	</ul>
+</li>
+</ul>
+</div>
+</li>
+<li id="menu-item-10596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-parent menu-item-10596"><a href="https://www.opis.com/resources/">Resources</a><span class="toggle-control"></span>
+<ul class="sub-menu level0">
+	<li id="menu-item-21451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21451"><a href="https://www.opis.com/energy-transition/">Energy Transition</a></li>
+	<li id="menu-item-23560" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-23560"><a href="https://www.opis.com/blog/">Insights</a></li>
+	<li id="menu-item-26178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26178"><a href="https://www.opis.com/podcasts/">OPIS Talks Podcast</a></li>
+	<li id="menu-item-11800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11800"><a href="https://www.opis.com/resources/video-library/">Video Library</a></li>
+	<li id="menu-item-10603" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10603"><a href="https://www.opis.com/resources/oil-spill-supplier-tax-list/">Oil Spill Tax and Superfund Supplier List</a></li>
+	<li id="menu-item-10604" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10604"><a href="https://www.opis.com/resources/glossary-of-terms/">Glossary of Terms</a></li>
+	<li id="menu-item-12706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12706"><a href="https://www.opis.com/resources/cap-and-invest/">Cap and Invest Resources</a></li>
+</ul>
+</li>
+<li id="menu-item-1502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-parent menu-item-1502"><a href="https://www.opis.com/about/">About</a><span class="toggle-control"></span>
+<ul class="sub-menu level0">
+	<li id="menu-item-31758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31758"><a href="https://www.opis.com/about/methodology/">Methodology</a></li>
+	<li id="menu-item-1508" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1508"><a href="https://www.opis.com/about/iosco-compliance/">IOSCO Compliance</a></li>
+	<li id="menu-item-21614" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21614"><a href="https://www.opis.com/about/benchmark-administration/">OPIS Benchmark Administration BV</a></li>
+	<li id="menu-item-1504" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1504"><a href="https://www.opis.com/about/meet-our-team/">Meet Our Team</a></li>
+	<li id="menu-item-5922" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5922"><a href="https://www.opis.com/about/careers/">Careers</a></li>
+	<li id="menu-item-1513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1513"><a href="https://www.opis.com/about/pressroom/">Company News &#038; Press Room</a></li>
+	<li id="menu-item-1511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1511"><a href="https://www.opis.com/about/rack-pricing-coverage-city/">Rack Pricing Coverage by City</a></li>
+	<li id="menu-item-1509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1509"><a href="https://www.opis.com/about/holiday-publishing-schedule/">Holiday Publishing Schedule</a></li>
+	<li id="menu-item-17670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17670"><a href="https://notices.opisnet.com/">Customer Notices</a></li>
+	<li id="menu-item-13354" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13354"><a href="https://www.opis.com/about/rvp-calendar/">RVP Calendar</a></li>
+	<li id="menu-item-8334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8334"><a href="https://www.opis.com/about/partners/">Industry Partners</a></li>
+</ul>
+</li>
+<li id="menu-item-1515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-parent menu-item-1515"><a href="https://www.opis.com/contact/">Contact</a><span class="toggle-control"></span>
+<ul class="sub-menu level0">
+	<li id="menu-item-1516" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1516"><a href="https://www.opis.com/contact/contact-us/">Contact Us</a></li>
+	<li id="menu-item-1518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1518"><a href="https://www.opis.com/contact/advertising-sponsorships/">Advertising/Sponsorships</a></li>
+</ul>
+</li>
+</ul>		</div>
+	</div>
+	</header>
+
+	<div class="search-form-wrapper"></div>
+
+	<div class="search-form-container">
+		<div class="wrap">
+			
+    <form role="search" method="get" class="search-form" action="https://www.opis.com/">
+        <div><input placeholder="Search" type="text" value="" name="s" class="search-input" /><button type="submit" class="search-button" value="Search">Search</button>
+        </div>
+    </form>
+  		</div>
+	</div>
+</div>
+
+  <section class="masthead masthead--large" style="background-image:url(https://www.opis.com/wp-content/uploads/2017/08/iStock-522303674.jpg);">
+    <div class="masthead-overlay gradient-overlay">
+    <div class="inner">
+      <div class="title-wrapper">
+      <h1 class="page-title">Energy Prices Overview</h1>
+      <p class="page-subtitle">An Introduction to OPIS  Oil, Fuel & Energy Pricing Products </p>      </div>
+    </div>
+          <div class="breadcrumbs-container">
+        <div class="breadcrumbs"><span><span><a href="https://www.opis.com/product/">Products</a></span> » <span class="breadcrumb_last" aria-current="page">Pricing</span></span></div>      </div>
+      </div>
+  </section>
+	  <div class="content__layer content__layer--split-content white text-dark">
+		<div class="layer-bg" style=""><div class="inner"><div class="circle-image"><div class="content-container left"><h3>OPIS Current & Historical Energy Pricing </h3><p>OPIS tracks current and historical pricing for oil products across the entire fuel supply chain. OPIS provides pricing reports, raw data, mobile apps and web-based pricing tools for the <a href="https://www.opis.com/product/pricing/spot/">spot</a> (also referred to as &#8220;bulk&#8221;), <a href="https://www.opis.com/product/pricing/rack/">wholesale rack</a> and <a href="https://www.opis.com/product/pricing/retail/">retail fuel</a> markets. Many of our pricing products are available in real-time and can be customized to suit your unique needs. Nearly all <a href="https://www.opis.com/products/">OPIS products</a> are available for a complimentary free trial or demo. Our data feeds are customizable with many options for delivery and timing method. Several options for accessing our <a href="https://www.opis.com/product/pricing/price-history/">historical pricing</a> are also available. <a href="https://www.opis.com/about/methodology/">View our complete pricing methodology</a>.</p>
+<p>We publish daily pricing for the following energy <a href="https://www.opis.com/commodities/">commodities</a>:</p>
+<ul class="two-column">
+<li><a href="https://www.opis.com/commodities/gasoline-products/">Gasoline</a></li>
+<li><a href="https://www.opis.com/commodities/diesel-products/">Diesel</a></li>
+<li><a href="https://www.opis.com/commodities/jet-fuel-products/">Jet Fuel</a></li>
+<li><a href="https://www.opis.com/commodities/lpg-ngl-products/">LPG/NGL</a></li>
+<li><a href="https://www.opis.com/commodities/feedstocks-products/">Refinery Feedstocks</a></li>
+<li><a href="https://www.opis.com/commodities/renewable-fuels-products/">Renewable Fuels</a></li>
+<li><a href="https://www.opis.com/commodities/rins-carbon-credits/">RINs and Carbon Credits</a></li>
+<li><a href="https://www.opis.com/commodities/crude-oil-products/">Crude Oil</a></li>
+<li><a href="https://www.opis.com/commodities/coal-metals-mining/">Coal, Metals and Mining</a></li>
+<li><a href="https://www.opis.com/commodities/petrochemicals-products/" target="_blank" rel="noopener">Petrochemicals</a></li>
+</ul>
+</div><div class="image-container right"><img width="500" height="498" src="https://www.opis.com/wp-content/uploads/2018/10/refinery-sq.jpg" class="attachment-square size-square" alt="Refinery in Daytime" decoding="async" loading="lazy" srcset="https://www.opis.com/wp-content/uploads/2018/10/refinery-sq.jpg 500w, https://www.opis.com/wp-content/uploads/2018/10/refinery-sq-150x150.jpg 150w, https://www.opis.com/wp-content/uploads/2018/10/refinery-sq-300x300.jpg 300w, https://www.opis.com/wp-content/uploads/2018/10/refinery-sq-100x100.jpg 100w" sizes="auto, (max-width: 500px) 100vw, 500px" /></div></div></div></div>	  </div>
+			  <div class="content__layer content__layer--wysiwyg grey text-dark">
+		
+		<div class="wysiwyg" >
+
+			
+			<div class="inner" >
+
+				<h2>Spot, Rack &amp; Retail Market Segments Explained</h2>
+<p>OPIS provides energy pricing for the downstream fuel market, which includes three segments tied to different points on the fuel supply chain. But what exactly is the difference, and how do you know which segment applies to your business?</p>
+<p><strong>The Spot Market</strong><br />
+The NYMEX futures or “paper” market is the most influential factor in increases or decreases of oil commodity pricing. Oil futures affect spot markets, then rack markets, then ultimately retail markets where the consumer sees an increase or decrease in the price they pay at the gas pump. Few actual barrels change hands at the futures level; it is a paper market on which contracts for the value of a commodity are bought and sold.</p>
+<p>The spot market, sometimes called the “bulk” market, is where physical products change hands. It is the point where prices for physical gasoline, diesel, jet fuel, gas liquids, petrochemicals, coal, metals and other <a href="https://www.opis.com/commodities/">commodities</a> are assigned, with price fluctuations often seen in-line with futures market moves. <a href="https://www.opis.com/product/pricing/spot/opis-spot-ticker-mobile-spot-ticker/">Spot transactions</a> are large deals – not truck quantities. Spot fuel purchases are traded either on a pipeline or on the water via barge or cargo. For example, an <a href="https://www.opis.com/who-we-help/refiners-suppliers/">oil refiner</a> sells diesel to an end-user or fuel retailer to put into a storage tank.</p>
+<p>The U.S. spot markets are Gulf Coast, Gulf Coast Waterborne, NY Harbor Barge, NY Harbor Cargo, Buckeye, Laurel, Boston, Group 3, Chicago, Los Angeles, San Francisco and Pacific Northwest.</p>
+<p><a href="https://www.opis.com/product/pricing/spot/">Learn more about spot pricing products</a>.</p>
+<p><strong>The Rack Market</strong><br />
+Rack is the common industry term for the wholesale fuel market. Wholesale physical fuel is purchased at <a href="https://www.opis.com/about/rack-pricing-coverage-city/">fuel terminals</a>,  sometimes located off an oil pipeline. Fuel is then picked up from the rack, usually by truck, and delivered to the end-user (example: a fleet) or for resale (example: a gas station).</p>
+<p>OPIS <a href="https://www.opis.com/product/pricing/rack/gasolinedieselbiodiesel-rack-prices/">wholesale gasoline and diesel pricing</a> is benchmarked in the U.S., meaning it is the standard price reference for wholesale fuel transactions and supply contracts. You are most likely billed on an OPIS price if you own a <a href="https://www.opis.com/who-we-help/retailers/">gas station</a>, source fuel for a <a href="https://www.opis.com/who-we-help/transportation/">fleet</a> or are bidding for <a href="https://www.opis.com/who-we-help/municipalities/">municipal fuel</a> and are being charged for wholesale fuel costs by a supplier (often called a <a href="https://www.opis.com/who-we-help/wholesalers-jobbers/">‘jobber’ or ‘marketer</a>’).</p>
+<p><a href="https://www.opis.com/product/pricing/rack/">Learn more about rack pricing products</a>.</p>
+<p><strong>The Retail Market</strong><br />
+The retail market is probably the easiest to identify. This applies to retail stations, be it the local gas station around the corner, the branded station with a busy convenience store or the “big box stores’ such as Walmart, Sam’s Club, Wawa, Costco, etc.</p>
+<p>Retail pricing focuses on competitor prices and comparison – what are the stations closest to you charging? What brands sell the most fuel in your local market? OPIS tracks <a href="https://www.opis.com/product/pricing/retail/pricepro/">retail profits</a> and <a href="https://www.opis.com/product/pricing/retail/marginpro/">margins</a>, <a href="https://www.opis.com/product/pricing/retail/demandpro/">volumes</a>, <a href="https://www.opis.com/product/pricing/retail/marketsharepro/">brand power and market share</a> to help <a href="https://www.opis.com/who-we-help/retailers/">retailers</a> measure their station’s performance and strategize new ways to increase sales and cut costs. OPIS also provides <a href="https://www.opis.com/product/news/oil-express/">news and insight on boosting convenience store sales</a>.</p>
+<p><a href="https://www.opis.com/product/pricing/retail-fuel-prices/">Learn more about retail pricing products</a>.</p>
+
+			</div>
+
+			
+		</div>
+
+			  </div>
+			  <div class="content__layer content__layer--split-content off-white text-dark">
+		<div class="layer-bg" style=""><div class="inner"><div class="circle-image"><div class="image-container left"><img width="534" height="533" src="https://www.opis.com/wp-content/uploads/2018/10/money-sq-compressor.jpg" class="attachment-square size-square" alt="Pricing" decoding="async" loading="lazy" srcset="https://www.opis.com/wp-content/uploads/2018/10/money-sq-compressor.jpg 534w, https://www.opis.com/wp-content/uploads/2018/10/money-sq-compressor-300x300.jpg 300w, https://www.opis.com/wp-content/uploads/2018/10/money-sq-compressor-150x150.jpg 150w, https://www.opis.com/wp-content/uploads/2018/10/money-sq-compressor-100x100.jpg 100w" sizes="auto, (max-width: 534px) 100vw, 534px" /></div><div class="content-container right"><h3>The Oil Industry's Price Benchmark</h3><p>OPIS is directly connected to nearly 100 billion gallons of fuel per year as the most widely-accepted price benchmark for supply contracts and competitive positioning. OPIS is the reliable benchmark because we’re unbiased and independent: we have no stake in fuel transactions, are not funded by oil industry organizations and adhere to antitrust guidelines determined by legal counsel.</p>
+<ul>
+<li>OPIS <a href="https://www.opis.com/about/methodology/">pricing methodology</a> complies with IOSCO (International Organization of Securities Commissions) principles for objectivity.</li>
+<li>OPIS is listed as a settlement mechanism on global commodity exchanges.</li>
+<li>Businesses have fuel contracts based on OPIS pricing for 10+ years into the future.</li>
+<li><span style="font-weight: 400;">Nearly all the major players in wholesale and retail fuel supply use OPIS prices to negotiate multiyear contracts.</span></li>
+</ul>
+<p><a href="https://www.opis.com/wp-content/uploads/2025/06/OPIS_Overview_Brochure_2025-REV0625-PROOF1.pdf" target="_blank" rel="noopener">View the OPIS Brochure</a></p>
+</div></div></div></div>	  </div>
+			  <div class="content__layer content__layer--product-cards white text-dark">
+		<div class="cards-wrapper" style=""><div class="inner"><h3>Oil Pricing Across the Fuel Supply Chain</h3><div class="card__container">						<a class="card" href="https://www.opis.com/product/pricing/spot/"
+												   		>
+			<div class="card__bg-image lazy" style="background-image:url(https://www.opis.com/wp-content/uploads/2017/07/refinery.jpg);"></div>
+			<h4>Spot</h4>
+			<p>OPIS tracks spot refined oil products, renewable fuels, LPG refinery feedstocks, petrochemicals, coal and carbon credits throughout the U.S., Europe and Asia throughout the trading day.</p>
+			<span class="card__learn-more">Learn More</span>
+		</a>
+												<a class="card" href="https://www.opis.com/product/pricing/fuel-rack-prices/"
+												   		>
+			<div class="card__bg-image lazy" style="background-image:url(https://www.opis.com/wp-content/uploads/2017/07/rack.jpg);"></div>
+			<h4>Rack</h4>
+			<p>Billions of gasoline and diesel gallons are sold in the U.S. based on definitive OPIS rack price benchmarks. OPIS also provides wholesale rack pricing for Mexico, Canada and Australia.</p>
+			<span class="card__learn-more">Learn More</span>
+		</a>
+												<a class="card" href="https://www.opis.com/product/pricing/retail-fuel-prices/"
+												   		>
+			<div class="card__bg-image lazy" style="background-image:url(https://www.opis.com/wp-content/uploads/2017/07/GastStation2.jpg);"></div>
+			<h4>Retail</h4>
+			<p>Track retail fuel pricing and margins, brand performance, volumes and market share with extensive data for North America as well as 61 countries across Europe, Latin America and the Asia-Pacific region.</p>
+			<span class="card__learn-more">Learn More</span>
+		</a>
+												<a class="card" href="https://www.opis.com/product/pricing/oil-prices-forecast-and-history/"
+												   		>
+			<div class="card__bg-image lazy" style="background-image:url(https://www.opis.com/wp-content/uploads/2017/09/iStock_000021653522Large.jpg);"></div>
+			<h4>Price History</h4>
+			<p>Historical pricing is available for gasoline, diesel, jet fuel and NGLs for all key North American spot markets since 1980, nearly 400 wholesale rack locations since 1995 and retail gasoline and diesel fuel prices since 2007.</p>
+			<span class="card__learn-more">Learn More</span>
+		</a>
+						</div></div></div>	  </div>
+			  <div class="content__layer content__layer--product-cards white text-dark">
+		<div class="cards-wrapper" style=""><div class="inner"><h3>Featured Spot, Rack & Retail Products</h3><div class="card__container">						<a class="card" href="https://www.opis.com/product/pricing/spot/opis-spot-ticker/"
+												   		>
+			<div class="card__bg-image lazy" style="background-image:url(https://www.opis.com/wp-content/uploads/2018/02/opis-spot-ticker.png);"></div>
+			<h4>OPIS Spot Ticker</h4>
+			<p>OPIS Spot Ticker provides live spot gasoline, diesel and jet fuel prices. Track spot market prices and NYMEX differentials, monitor volatility, dispatch/delay in anticipation of 6pm ET prices changes.</p>
+			<span class="card__learn-more">Learn More</span>
+		</a>
+												<a class="card" href="https://www.opis.com/product/pricing/fuel-rack-prices/rackpro/"
+												   		>
+			<div class="card__bg-image lazy" style="background-image:url(https://www.opis.com/wp-content/uploads/2017/08/f6df8d3a-add0-4eb3-82ac-bf7fef2f5dad.png);"></div>
+			<h4>RackPro</h4>
+			<p>Access real-time and historical wholesale fuel rack prices with OPIS RackPro. Get benchmarks, analytics, insights and rack price volatility alerts.</p>
+			<span class="card__learn-more">Learn More</span>
+		</a>
+												<a class="card" href="https://www.opis.com/product/pricing/retail-fuel-prices/retailsuite/"
+												   		>
+			<div class="card__bg-image lazy" style="background-image:url(https://www.opis.com/wp-content/uploads/2017/10/RetailSuite-Benefits-Intor.jpg);"></div>
+			<h4>RetailSuite</h4>
+			<p>Web-based solution provides critical data fuel retailers need – real-time competitor pricing, margins, market share, and weekly volume trends on regional and national levels. Optimize and grow your retail fuel business.</p>
+			<span class="card__learn-more">Learn More</span>
+		</a>
+						</div></div></div>	  </div>
+		<footer class="site-footer">
+  <div class="inner clearfix">
+    <div class="footer-social">
+      <ul class="social no-list-style social--footer"><li class="social__title">Follow Us</li><li class="social__item" ><a class="social__link fa li" target="_blank" href="https://www.linkedin.com/company/opis">&#xf0e1;</a></li><li class="social__item" ><a class="social__link fa tw" target="_blank" href="https://twitter.com/OPIS">&#120143;</a></li><li class="social__item" ><a class="social__link fa fb" target="_blank" href="http://www.facebook.com/oilpriceinfo">&#xf09a;</a></li><li class="social__item" data-yt="https://www.youtube.com/user/OilPriceInfoService"><a class="social__link fa yt" target="_blank" href="https://www.youtube.com/user/OilPriceInfoService">&#xf16a;</a></li></ul>    </div>
+    <div class="menu-deep-footer-menu-container"><ul class="footer-menu"><li id="menu-item-1996" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-parent menu-item-1996"><a href="https://www.opis.com/who-we-help/">Who We Help</a>
+<ul class="sub-menu">
+	<li id="menu-item-1998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1998"><a href="https://www.opis.com/who-we-help/refiners-suppliers/">Refiners &#038; Suppliers</a></li>
+	<li id="menu-item-2006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2006"><a href="https://www.opis.com/who-we-help/wholesalers-jobbers/">Wholesalers &#038; Jobbers</a></li>
+	<li id="menu-item-2007" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2007"><a href="https://www.opis.com/who-we-help/retailers/">Retailers</a></li>
+	<li id="menu-item-2008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2008"><a href="https://www.opis.com/who-we-help/traders/">Traders</a></li>
+	<li id="menu-item-2009" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2009"><a href="https://www.opis.com/who-we-help/ngl-and-petrochemical-companies/">NGL &#038; Petrochemical Companies</a></li>
+	<li id="menu-item-2010" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2010"><a href="https://www.opis.com/who-we-help/transportation/">Transportation</a></li>
+	<li id="menu-item-2021" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2021"><a href="https://www.opis.com/who-we-help/municipalities/">Municipalities</a></li>
+	<li id="menu-item-2022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2022"><a href="https://www.opis.com/who-we-help/financial-institutions/">Financial Institutions</a></li>
+</ul>
+</li>
+<li id="menu-item-1999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-parent menu-item-1999"><a href="https://www.opis.com/commodities/">Commodities</a>
+<ul class="sub-menu">
+	<li id="menu-item-33228" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33228"><a href="https://www.opis.com/commodities/refined-fuels-products/">Refined Fuels</a></li>
+	<li id="menu-item-9909" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9909"><a href="https://www.opis.com/commodities/gasoline-products/">Gasoline</a></li>
+	<li id="menu-item-9910" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9910"><a href="https://www.opis.com/commodities/diesel-products/">Diesel</a></li>
+	<li id="menu-item-9911" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9911"><a href="https://www.opis.com/commodities/jet-fuel-products/">Jet Fuel</a></li>
+	<li id="menu-item-9912" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9912"><a href="https://www.opis.com/commodities/lpg-ngl/">LPG/NGL</a></li>
+	<li id="menu-item-9913" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9913"><a href="https://www.opis.com/commodities/feedstocks-products/">Refinery Feedstocks</a></li>
+	<li id="menu-item-39406" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-39406"><a href="https://www.opis.com/product/analytics/chemicals/">Chemicals</a></li>
+	<li id="menu-item-13275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13275"><a href="https://www.opis.com/commodities/petrochemicals-products/">Petrochemicals</a></li>
+	<li id="menu-item-9914" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9914"><a href="https://www.opis.com/commodities/renewable-fuels-products/">Renewable Fuels</a></li>
+	<li id="menu-item-30408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30408"><a href="https://www.opis.com/commodities/carbon-markets/">Carbon</a></li>
+	<li id="menu-item-9915" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9915"><a href="https://www.opis.com/commodities/environmental-products/">Environmental</a></li>
+	<li id="menu-item-9916" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9916"><a href="https://www.opis.com/commodities/crude-oil-products/">Crude Oil</a></li>
+	<li id="menu-item-19766" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19766"><a href="https://www.opis.com/commodities/coal-metals-mining/">Coal, Metals &#038; Mining</a></li>
+</ul>
+</li>
+<li id="menu-item-2003" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-parent menu-item-2003"><a href="https://www.opis.com/products/">Products</a>
+<ul class="sub-menu">
+	<li id="menu-item-4014" class="menu-item menu-item-type-post_type menu-item-object-product current-menu-item menu-item-4014"><a href="https://www.opis.com/product/pricing/" aria-current="page">Pricing</a></li>
+	<li id="menu-item-4015" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-4015"><a href="https://www.opis.com/product/news/">News</a></li>
+	<li id="menu-item-9918" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-9918"><a href="https://www.opis.com/product/analytics/">Analytics</a></li>
+	<li id="menu-item-20482" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20482"><a href="https://www.axxispetro.com/">Axxis</a></li>
+	<li id="menu-item-20483" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20483"><a href="https://chemicalmarketanalytics.com/">Chemical Market Analytics</a></li>
+	<li id="menu-item-40132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40132"><a href="https://www.eco-movement.com/">Eco-Movement</a></li>
+	<li id="menu-item-20480" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20480"><a href="https://www.opis.com/commodities/coal-metals-mining/">McCloskey</a></li>
+	<li id="menu-item-20481" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20481"><a href="https://www.petrochemwire.com/">PetroChem Wire</a></li>
+	<li id="menu-item-5879" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5879"><a href="https://www.opis.com/resources/">Free Resources</a></li>
+	<li id="menu-item-2004" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2004"><a href="https://www.opis.com/products/find-a-product/">Find a Product</a></li>
+</ul>
+</li>
+<li id="menu-item-2023" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-parent menu-item-2023"><a href="https://www.opis.com/events/">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-37878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-parent menu-item-37878"><a href="https://www.opis.com/events/conferences-events/">Conferences &#038; Events</a></li>
+	<li id="menu-item-37883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-parent menu-item-37883"><a href="https://www.opis.com/events/on-demand-events/">On-Demand Events</a></li>
+</ul>
+</li>
+<li id="menu-item-2025" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2025"><a href="https://www.opis.com/contact/">Contact</a></li>
+</ul></div>    <div class="footer-autopilot">
+      
+<div class="be-ix-link-block"><div class="be-related-link-container"><div class="be-label">Also of Interest</div><ul class="be-list"><li class="be-list-item"><a class="be-related-link" href="https://www.opis.com/product/pricing/fuel-rack-prices/">Wholesale Rack Prices | OPIS</a></li><li class="be-list-item"><a class="be-related-link" href="https://www.opis.com/products/">OPIS Pricing, News and Data Products</a></li><li class="be-list-item"><a class="be-related-link" href="https://www.opis.com/product/pricing/retail-fuel-prices/">Retail Fuel Market Prices & Competitive...</a></li></ul> </div></div>
+    </div>
+    <div class="sub-footer">
+      <div class="sub-footer--left">
+        <p>OPIS, A <a style="color: #ffffff" href="https://www.dowjones.com/" target="_blank" rel="noopener">Dow Jones</a> Company<br />
+© 2026 Oil Price Information Service, LLC. All rights reserved.</p>
+      </div>
+      <div class="sub-footer--right">
+        <div class="menu-footer-utility-menu-container"><ul class="footer-utility-menu"><li id="menu-item-21892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21892"><a href="https://www.dowjones.com/privacy-notice/?mod=opis">Privacy Notice</a></li>
+<li id="menu-item-21893" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21893"><a href="https://www.dowjones.com/cookie-notice/?mod=opis">Cookie Notice</a></li>
+<li id="menu-item-3163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3163"><a href="https://www.opis.com/terms-of-use/">Terms of Use</a></li>
+<li id="menu-item-19683" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19683"><a href="https://www.opis.com/licensing-terms-conditions/">Terms &#038; Conditions</a></li>
+<li id="menu-item-19746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19746"><a href="https://www.opis.com/copyright-policy/">Copyright Policy</a></li>
+<li id="menu-item-18095" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18095"><a href="https://www.dowjones.com/modern-slavery-statement/">Modern Slavery Act Statement</a></li>
+<li id="menu-item-3170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3170"><a href="https://www.opis.com/site-map/">Site Map</a></li>
+<li id="menu-item-21164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21164"><a href="https://www.opis.com/contact/contact-us/">Contact Us</a></li>
+</ul></div>        <div class="cmp-footer-links">
+          <div id="regulation-links"></div>
+        </div>
+      </div>
+    </div>
+</footer>
+
+<div class="sticky-footer">
+  <div class="wrapper">
+    <div class="sticky-footer-link mobile-toggle">
+      <span>Learn More</span>
+    </div>
+    <div class="sticky-footer-link">      <a class="utility-link" href="https://www.opis.com/contact/contact-us/">
+        <span>Contact Us</span>
+      </a>
+      </div><div class="sticky-footer-link">      <a class="utility-link" href="https://www.opis.com/products/find-a-product/">
+        <span>Find A Product</span>
+      </a>
+      </div></div>
+</div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/opis/*","/wp-content/themes/em-base/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    var forms = document.querySelectorAll("form.elqForm"); // target Eloqua forms
+
+    forms.forEach(function(form) {
+      var submitting = false;
+
+      form.addEventListener("submit", function(e) {
+        if (submitting) {
+          e.preventDefault(); // block duplicate submission
+          return false;
+        }
+
+        submitting = true;
+        var submitButton = form.querySelector('input[type="submit"], button[type="submit"]');
+        if (submitButton) {
+          submitButton.disabled = true;
+          submitButton.value = "Submitting..."; // optional UI feedback
+        }
+      });
+    });
+  });
+</script>		<!-- CMP Footer Links Script -->
+		<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function() {
+			if (typeof window.__ace === 'function') {
+				window.__ace('djcmp', 'getRegulationLinkRenderer', function(RegulationLink) {
+					var linkConfigurations = window.__ace('djcmp', 'getRegulationLinkConfigurations');
+					if (linkConfigurations && RegulationLink) {
+						new RegulationLink(linkConfigurations).render();
+						console.log('✅ CMP Footer Links Script: Successfully loaded and initialized');
+					}
+				});
+			}
+		});
+		</script>
+		<!-- End CMP Footer Links Script -->
+				<!-- LinkedIn Tracking Code with CMP Integration -->
+		<script type="text/javascript">
+		(function() {
+			var loadLinkedInScript = function() {
+				console.log('🔗 LinkedIn Tracking Script: Loading with Partner ID ');
+				
+				_linkedin_data_partner_id = "";
+				
+				// Add noscript fallback
+				var noscriptImg = document.createElement('img');
+				noscriptImg.height = 1;
+				noscriptImg.width = 1;
+				noscriptImg.style.display = 'none';
+				noscriptImg.alt = '';
+				noscriptImg.src = 'https://dc.ads.linkedin.com/collect/?pid=&fmt=gif';
+				document.body.appendChild(noscriptImg);
+				
+				console.log('✅ LinkedIn Tracking Script: Successfully loaded and initialized');
+			};
+
+			// Use CMP wrapper to check consent before loading LinkedIn
+			if (typeof window.__ace === 'function') {
+				var vendorId = '5f2d22a6b8e05c02aa283b3c';
+				console.log('🔗 LinkedIn: Checking CMP consent status for vendor ID:', vendorId);
+				
+				// Combination approach: executeOnCmpReady + customVendorIsEnabled for reliable consent checking
+				window.__ace('djcmp', 'executeOnCmpReady', [{
+					cb: function() {
+						console.log('🔗 LinkedIn: CMP is ready, checking vendor consent for ID:', vendorId);
+						window.__ace('djcmp', 'customVendorIsEnabled', [vendorId, function(isVendorEnabled) {
+							console.log('🔗 LinkedIn: Vendor', vendorId, 'consent status:', isVendorEnabled);
+							if (isVendorEnabled) {
+								console.log('🔗 LinkedIn: User has consented to vendor', vendorId, '- loading script');
+								loadLinkedInScript();
+							} else {
+								console.log('🔗 LinkedIn: User has not consented to vendor', vendorId, '- script will not load');
+							}
+						}]);
+					}
+				}]);
+			} else {
+				// Fallback if CMP is not available - DO NOT load by default
+				console.warn('⚠️ LinkedIn: CMP not available - not loading tracking script');
+			}
+		})();
+		</script>
+		<!-- End LinkedIn Tracking Code -->
+				<!-- Twitter universal website tag code with CMP Integration -->
+		<script type="text/javascript">
+		(function() {
+			var loadTwitterScript = function() {
+				console.log('🐦 Twitter Tracking Script: Loading with configuration');
+				
+				!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+				},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+				a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+				// Insert Twitter Pixel ID and Standard Event data below
+								
+				console.log('✅ Twitter Tracking Script: Successfully loaded and initialized');
+			};
+
+			// Use CMP wrapper to check consent before loading Twitter
+			if (typeof window.__ace === 'function') {
+				var vendorId = '5e71760b69966540e4554f01';
+				console.log('🐦 Twitter: Checking CMP consent status for vendor ID:', vendorId);
+				
+				// Combination approach: executeOnCmpReady + customVendorIsEnabled for reliable consent checking
+				window.__ace('djcmp', 'executeOnCmpReady', [{
+					cb: function() {
+						console.log('🐦 Twitter: CMP is ready, checking vendor consent for ID:', vendorId);
+						window.__ace('djcmp', 'customVendorIsEnabled', [vendorId, function(isVendorEnabled) {
+							console.log('🐦 Twitter: Vendor', vendorId, 'consent status:', isVendorEnabled);
+							if (isVendorEnabled) {
+								console.log('🐦 Twitter: User has consented to vendor', vendorId, '- loading script');
+								loadTwitterScript();
+							} else {
+								console.log('🐦 Twitter: User has not consented to vendor', vendorId, '- script will not load');
+							}
+						}]);
+					}
+				}]);
+			} else {
+				// Fallback if CMP is not available - DO NOT load by default
+				console.warn('⚠️ Twitter: CMP not available - not loading tracking script');
+			}
+		})();
+		</script>
+		<!-- End Twitter universal website tag code -->
+
+				<!-- Start of HubSpot Embed Code with CMP Integration -->
+		<script type="text/javascript">
+		(function() {
+			var loadHubSpotScript = function() {
+				console.log('🟠 HubSpot Tracking Script: Loading');
+				
+				// Execute the HubSpot tracking code
+				var hubspotCode = "<script type=\"text\/javascript\" id=\"hs-script-loader\" async defer src=\"\/\/js.hs-scripts.com\/2902649.js\"><\/script>";
+				if (hubspotCode) {
+					console.log('📄 HubSpot: Parsing tracking code HTML');
+					
+					// Create a temporary div to parse the HTML
+					var tempDiv = document.createElement('div');
+					tempDiv.innerHTML = hubspotCode;
+					
+					// Find script tags and execute them
+					var scripts = tempDiv.querySelectorAll('script');
+					console.log('📦 HubSpot: Found ' + scripts.length + ' script(s) to load');
+					
+					for (var i = 0; i < scripts.length; i++) {
+						var script = document.createElement('script');
+						if (scripts[i].src) {
+							script.src = scripts[i].src;
+							script.async = true;
+							console.log('🔗 HubSpot: Loading external script: ' + scripts[i].src);
+						} else {
+							script.text = scripts[i].innerHTML;
+							console.log('📝 HubSpot: Loading inline script');
+						}
+						document.head.appendChild(script);
+					}
+					
+					console.log('✅ HubSpot Tracking Script: Successfully loaded and initialized');
+				} else {
+					console.warn('⚠️ HubSpot: No tracking code found - check Site Options configuration');
+				}
+			};
+
+			// Use CMP wrapper to check consent before loading HubSpot
+			if (typeof window.__ace === 'function') {
+				var vendorId = '5ecb8bccb8e05c4a0a513172'; // HubSpot vendor ID
+				console.log('🟠 HubSpot: Checking CMP consent status for vendor ID:', vendorId);
+				
+				// Combination approach: executeOnCmpReady + customVendorIsEnabled for reliable consent checking
+				window.__ace('djcmp', 'executeOnCmpReady', [{
+					cb: function() {
+						Promise.all([
+							checkVendorConsent('5ecb8bccb8e05c4a0a513172', 'HubSpot'),
+							checkVendorConsent('5f2d22a6b8e05c02aa283b3c', 'LinkedIn'),
+							checkVendorConsent('5fac56cd1ba05165880458ad', 'Facebook'),
+							checkVendorConsent('5ed0eb688a76503f1016578e', 'Google Ads'),
+						]).then(function(results) {
+							console.log('🟠 HubSpot: All vendor consent checks completed:', results);
+							loadHubSpotScript();
+						}).catch(function(error) {
+							console.error('🟠 HubSpot: Vendor consent check failed:', error);
+						});
+					}
+				}]);
+			} else {
+				// Fallback if CMP is not available - DO NOT load by default
+				console.warn('⚠️ HubSpot: CMP not available - not loading tracking script');
+			}
+		})();
+		</script>
+		<!-- End of HubSpot Embed Code -->
+
+		<script type="text/javascript" src="https://www.opis.com/wp-content/themes/em-base/core/js/plugins.js?v=1692789740" id="jquery-plugins-js"></script>
+<script type="text/javascript" src="https://www.opis.com/wp-content/themes/opis/js/plugins.js" id="theme-plugins-js"></script>
+<script type="text/javascript" src="https://www.opis.com/wp-content/themes/opis/js/global.js" id="theme-global-js"></script>
+<script type="text/javascript" src="https://www.opis.com/wp-content/themes/opis/js/webfont-loader.js" id="webfont-loader-js"></script>
+<script type="text/javascript" src="https://www.opis.com/wp-content/themes/em-base/core/js/global.js?v=1692789740" id="global-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.opis.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.8"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.opis.com/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+		<!-- Wistia Initialization with CMP Integration -->
+		<script type="text/javascript">
+		(function() {
+			var initWistiaScripts = function() {
+				console.log('🎥 Wistia: Initializing scripts with CMP consent');
+				
+				// Find all lazy-loaded Wistia scripts and initialize them
+				var scripts = document.querySelectorAll('script[data-wistia-lazy-src]');
+				console.log('🔍 Wistia: Found', scripts.length, 'lazy-loaded scripts');
+
+				if (scripts.length > 0) {
+					scripts.forEach(function(script) {
+						var lazySrc = script.getAttribute('data-wistia-lazy-src');
+						console.log('🔄 Wistia: Converting script:', lazySrc);
+						
+						// Instead of replacing, modify the existing script
+						script.removeAttribute('data-wistia-lazy-src');
+						script.setAttribute('src', lazySrc);
+						
+						// Trigger script load by temporarily removing and re-adding to DOM
+						var parent = script.parentNode;
+						var nextSibling = script.nextSibling;
+						parent.removeChild(script);
+						parent.insertBefore(script, nextSibling);
+						
+						console.log('✅ Wistia: Activated script:', lazySrc);
+					});
+				}
+			};
+
+			console.log('🎥 Wistia: Setting up CMP integration');
+			
+			// Use CMP wrapper to check consent before loading Wistia
+			if (typeof window.__ace === 'function') {
+				var vendorId = '636d7d0311476704bdc07b6e';
+				console.log('🎥 Wistia: Checking CMP consent status for vendor ID:', vendorId);
+				
+				// Combination approach: executeOnCmpReady + customVendorIsEnabled for reliable consent checking
+				window.__ace('djcmp', 'executeOnCmpReady', [{
+					cb: function() {
+						console.log('🎥 Wistia: CMP is ready, checking vendor consent for ID:', vendorId);
+						window.__ace('djcmp', 'customVendorIsEnabled', [vendorId, function(isVendorEnabled) {
+							console.log('🎥 Wistia: Vendor', vendorId, 'consent status:', isVendorEnabled);
+							if (isVendorEnabled) {
+								console.log('🎥 Wistia: User has consented to vendor', vendorId, '- loading scripts');
+								initWistiaScripts();
+							} else {
+								console.log('🎥 Wistia: User has not consented to vendor', vendorId, '- scripts will not load');
+							}
+						}]);
+					}
+				}]);
+			} else {
+				// Fallback if CMP is not available - DO NOT load by default
+				console.warn('⚠️ Wistia: CMP not available - not loading video scripts');
+			}
+		})();
+		</script>
+		<!-- End Wistia Initialization -->
+		
+<!-- be_ixf, sdk, is -->
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a474624028616950',t:'MTc5MTQ1NDUyMA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
